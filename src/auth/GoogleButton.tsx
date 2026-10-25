@@ -24,6 +24,13 @@ const sizes = { md: 'h-11 px-5 text-sm', lg: 'h-13 px-7 text-[15px]' }
 /** In-app browsers (Telegram, Instagram, Facebook…) are blocked by Google sign-in. */
 export const inAppBrowser = () => /Telegram|Instagram|FBAN|FBAV|Line\/|; wv\)|MicroMessenger|TikTok/i.test(navigator.userAgent)
 
+/** Phones and tablets: popups there are often blocked or open in a separate tab that never comes back,
+ * so these devices go straight to the full-page Google sign-in. */
+export const isPhone = () =>
+  /Android|iPhone|iPad|iPod|Mobile|Opera Mini|IEMobile/i.test(navigator.userAgent) ||
+  (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent)) || // iPadOS reports itself as a Mac
+  (window.matchMedia?.('(pointer: coarse)').matches && Math.min(screen.width, screen.height) < 820)
+
 /** Full-page Google sign-in (no popup) — used when a phone blocks the popup. */
 export function googleRedirect() {
   const state = Math.random().toString(36).slice(2)
@@ -79,7 +86,11 @@ function LiveButton({ size = 'lg', className = '', label = 'Continue with Google
         onClick={() => {
           setError(null)
           setBusy(true)
+          // phones: full-page sign-in every time (no popup to get blocked or lost)
+          if (isPhone()) return googleRedirect()
           login()
+          // if the student closes the popup, Google sends nothing back: free the button again
+          setTimeout(() => setBusy(false), 60_000)
         }}
         onPointerEnter={() => exciteHumo(true)}
         onPointerLeave={() => exciteHumo(false)}
