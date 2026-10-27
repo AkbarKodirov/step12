@@ -72,6 +72,19 @@ export function prepareScreen(spec, { expect } = {}) {
     const out = { text: String(ln.text || '').slice(0, 80), latex: ln.latex ? String(ln.latex).slice(0, 300) : undefined, color: ln.color, graphed: !!ln.graphed }
     try {
       if (ln.result != null && ln.result !== '') {
+        // a line like "n = 2" whose letter is used nowhere else only restates the answer (a slider like "k = 5"
+        // that the other lines use is fine)
+        const lone = /^\s*([A-Za-z]\w*)\s*=\s*-?[\d.]+(?:\s*\/\s*[\d.]+)?\s*$/.exec(out.text)
+        if (lone && /^\s*-?[\d.]+(?:\s*\/\s*[\d.]+)?\s*$/.test(String(ln.result))) {
+          // Desmos letters are single characters (kx = k·x), so look for the letter outside function names
+          const others = [...(spec.lines || []).filter((_, k) => k !== i).map((l) => l.text), ...(spec.curves || []).map((c) => c.expr)]
+            .join(' ')
+            .replace(/\b(?:sqrt|sin|cos|tan|abs|mean|median|stdev|log|ln|exp|pi|floor|ceil|round)\b/g, ' ')
+          const name = lone[1].split('_')[0]
+          if (!(lone[1].includes('_') ? others.includes(lone[1]) : others.includes(name))) {
+            throw new Error(`"${out.text}" only states the answer; show it with a computed result, a regression parameter or labeled points`)
+          }
+        }
         const v = num(ln.result)
         out.result = fmt(v)
         shown.push(v)
@@ -147,6 +160,8 @@ export function prepareScreen(spec, { expect } = {}) {
   })
 
   if (!lines.length) errors.push('no lines')
+  // a "how many solutions" answer is shown by that many labeled points (e.g. 2 intersections)
+  if (expect != null && Number.isInteger(expect) && expect > 0 && points.length === expect && fns.length >= 2) shown.push(expect)
   if (expect != null && !shown.some((v) => close(v, expect))) errors.push(`the screen never shows the answer ${fmt(expect)}: add a result line or a labeled point that equals it`)
 
   return { errors, screen: { title: spec.title ? String(spec.title).slice(0, 80) : undefined, lines, curves, points, window } }
@@ -160,11 +175,11 @@ Reply in this shape (short):
 1. Pattern — restate in one sentence and name the pattern.
 2. Approach — which letters stand for what and which Desmos idea solves it.
 3. Type this — the exact Desmos lines, numbered.
-4. Then the Desmos screen block (see below) — every math solve includes one.
-5. Look for — what to click/read on the graph.
-6. **Answer** — **the final answer**, because <one sentence on why the graph gives it>.
-7. Check — quick plug-back.
-8. Next time — a one-line rule.
+Then, right after the Type this lines and WITHOUT a number of its own, the Desmos screen block (see below) — every math solve includes one.
+4. Look for — what to click/read on the graph.
+5. **Answer** — **the final answer**, because <one sentence on why the graph gives it>.
+6. Check — quick plug-back.
+7. Next time — a one-line rule.
 Playbook moves: graph both sides (intersections), systems as typed, slider on a constant, rename the constant as x, discriminant graph,
 regression y_1 ~ m x_1 + b, equivalent expressions (graphs coincide), points of interest (vertex/intercepts), inequalities shading,
 lists: mean(L) median(L) stdev(L), percent chains (1.2*0.75), circles typed as given, trig mode check, roots list x_1=[k+3sqrt(2),k-3sqrt(2)],
@@ -179,6 +194,7 @@ The Desmos screen block: write a fenced code block with the language "desmos" co
 Rules for the block: "lines" = exactly the "Type this" lines (plain Desmos text + Desmos LaTeX). Give FORMULAS, not finished numbers:
 a line's "result" is a math expression that computes its = value (e.g. "-2/3*30 + 49"); a regression line's "params" maps each fitted letter to an expression that computes it,
 plus "rmse". "curves" are y = f(x) expressions in x for every graphed function (use ^ for powers; for a circle give the upper and lower halves).
+Never add a line that only states the answer (like "n = 2" or "answer = 5"): every line must be something the student really types. For a "how many solutions" question, mark every intersection as a point.
 Each point gives "x" as an expression and the index of its curve; the server computes y. Pick a "window" [xmin,xmax,ymin,ymax] that shows the key points.
 The server recomputes every number and REFUSES the picture if a point is off its curve or the answer is not shown, so compute carefully first.
 Only include a desmos block for math. Never draw a Desmos screen any other way.`

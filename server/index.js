@@ -255,11 +255,15 @@ export function cleanPlan(p) {
 
 async function repairDesmos(spec, errors, question, expect) {
   const out = await gemini.models.generateContent({
-    contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nRecompute the math and return ONLY the corrected spec as JSON (same format). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. A slider value or the answer goes in a line with a "result" expression.` }] }],
+    contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nRecompute the math and return ONLY the corrected spec as JSON (same format). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. A slider value goes in its own line with a "result"; the answer goes in a "result" expression on the line that really produces it (never a separate line like "n = 2"), and a count of solutions is shown by marking each intersection as a point.` }] }],
     config: { systemInstruction: DESMOS_GUIDE, temperature: 0.1, responseMimeType: 'application/json' },
   })
-  return JSON.parse(out.text)
+  return parseSpec(out.text)
 }
+
+/** Parses a desmos block. LaTeX commands the model forgot to escape (\cdot, \left, \times …) are escaped first,
+ *  otherwise JSON either rejects them (\c) or silently turns them into control characters (\t, \f). */
+const parseSpec = (raw) => JSON.parse(String(raw).replace(/(?<!\\)\\(?=[A-Za-z]{2,})/g, '\\\\'))
 
 /** Replaces each ```desmos block with [[desmos:N]] (checked screen) and a ```plan block with [[plan]]. */
 async function finishReply(text, { expect, question } = {}) {
@@ -269,7 +273,7 @@ async function finishReply(text, { expect, question } = {}) {
   for (const m of blocks) {
     let marker = ''
     try {
-      let spec = JSON.parse(m[1])
+      let spec = parseSpec(m[1])
       let r = prepareScreen(spec, { expect })
       // up to two repairs: the checker's errors go back to Gemini with the question and the checked answer
       for (let k = 0; k < 2 && r.errors.length && gemini; k++) {
@@ -299,7 +303,7 @@ async function finishReply(text, { expect, question } = {}) {
 
 const DESMOS_LAB = `DESMOS LAB MODE: the student sends photos or screenshots of SAT Math questions (sometimes several, sometimes with a typed note).
 First write the question you read in one or two lines ("I read: …") so the student can catch a misread. If the photo is unreadable or cut off, say what is missing and ask for a clearer photo instead of guessing.
-Then solve it the Desmos way in the 8-part shape with exactly one desmos block. For a Reading & Writing question, answer normally without a desmos block.`
+Then solve it the Desmos way in the 7-part shape with exactly one desmos block. For a Reading & Writing question, answer normally without a desmos block.`
 
 function toParts(m) {
   const parts = []
@@ -567,7 +571,7 @@ app.post('/api/desmos/solve', async (req, res) => {
   const expect = answerValue(String(correctValue ?? '').replace(/^.*=\s*/, ''))
   try {
     if (!solving.has(id)) {
-      const prompt = `Solve this Digital SAT math question the Desmos way.\n\n${question}\n\nVerified answer: ${correct}${bank ? `\nVerified Desmos route (follow it): ${bank.desmos.join(' | ')}\nLook for: ${bank.look_for}\nWhy: ${bank.why}\nTrap: ${bank.trap}\nRule: ${bank.rule}` : ''}\n\nUse the 8-part reply shape and include exactly one desmos block. The screen must show the answer${expect != null ? ` ${expect}` : ''} as a result, parameter or labeled point. Under 220 words besides the block. English.`
+      const prompt = `Solve this Digital SAT math question the Desmos way.\n\n${question}\n\nVerified answer: ${correct}${bank ? `\nVerified Desmos route (follow it): ${bank.desmos.join(' | ')}\nLook for: ${bank.look_for}\nWhy: ${bank.why}\nTrap: ${bank.trap}\nRule: ${bank.rule}` : ''}\n\nUse the 7-part reply shape and include exactly one desmos block. The screen must show the answer${expect != null ? ` ${expect}` : ''} as a result, parameter or labeled point. Under 220 words besides the block. English.`
       solving.set(
         id,
         gemini.models
