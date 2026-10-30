@@ -12,7 +12,7 @@ import { lessonFor } from '../learn/courses'
 
 const L = ['A', 'B', 'C', 'D']
 export type Item = { key: string; ref: QRef; r: Resolved }
-type Ans = { value: string | null; checked: boolean; correct: boolean; seconds: number; struck: number[] }
+type Ans = { value: string | null; checked: boolean; correct: boolean; seconds: number; struck: number[]; before?: boolean }
 
 /* ---------------- building a session from the URL ---------------- */
 export function refOf(key: string): QRef {
@@ -142,11 +142,18 @@ function SolutionCard({ b }: { b: BankQ }) {
 
 
 /* ---------------- the session ---------------- */
-function Session({ items, rush, back, start = 0 }: { items: Item[]; rush: boolean; back: string; start?: number }) {
+function Session({ items, rush, back, start, resume = false }: { items: Item[]; rush: boolean; back: string; start?: number; resume?: boolean }) {
   const nav = useNavigate()
   const s = useStore()
-  const [i, setI] = useState(Math.min(start, items.length - 1))
-  const [ans, setAns] = useState<Ans[]>(() => items.map(() => ({ value: null, checked: false, correct: false, seconds: 0, struck: [] })))
+  // "All" questions of a skill: questions answered before show the earlier answer (with a Try again button),
+  // and the session opens at the first question not answered yet instead of question 1 every time
+  const [ans, setAns] = useState<Ans[]>(() =>
+    items.map((it) => {
+      const pr = resume && it.r.bank ? s.qbank[it.r.bank.id] : undefined
+      return pr ? { value: pr.chosen || null, checked: true, correct: pr.correct, seconds: pr.seconds || 0, struck: [], before: true } : { value: null, checked: false, correct: false, seconds: 0, struck: [] }
+    }),
+  )
+  const [i, setI] = useState(() => Math.min(start ?? Math.max(0, ans.findIndex((x) => !x.checked)), items.length - 1))
   const [panel, setPanel] = useState<Tab | null>(null)
   const [auto, setAuto] = useState<string | null>(null)
   const [paused, setPaused] = useState(false)
@@ -203,7 +210,7 @@ function Session({ items, rush, back, start = 0 }: { items: Item[]; rush: boolea
     setPanel('ask')
   }
 
-  const answered = ans.filter((x) => x.checked)
+  const answered = ans.filter((x) => x.checked && !x.before) // this session only
   const right = answered.filter((x) => x.correct).length
 
   if (done)
@@ -225,7 +232,7 @@ function Session({ items, rush, back, start = 0 }: { items: Item[]; rush: boolea
           {answered.some((x) => !x.correct) && (
             <button
               onClick={() => {
-                const keys = items.filter((_, j) => ans[j].checked && !ans[j].correct).map((x) => x.key)
+                const keys = items.filter((_, j) => ans[j].checked && !ans[j].correct && !ans[j].before).map((x) => x.key)
                 nav(`/app/practice/run?keys=${keys.join(',')}&back=${encodeURIComponent(back)}`)
               }}
               className="btn btn-dark h-11 px-5 text-[14px]"
@@ -380,7 +387,13 @@ function Session({ items, rush, back, start = 0 }: { items: Item[]; rush: boolea
                   {a.checked && (
                     <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className={`mt-5 flex flex-wrap items-center gap-3 rounded-2xl p-4 ${a.correct ? 'bg-emerald-50' : 'bg-red-50'}`}>
                       <span className={`text-[15px] font-semibold ${a.correct ? 'text-emerald-700' : 'text-red-700'}`}>{a.correct ? 'Correct!' : q.format === 'sa' ? `Not quite — the answer is ${q.answer}` : `Not quite — the answer is ${L[q.correct ?? 0]}`}</span>
+                      {a.before && <span className="text-[12.5px] text-moss">Answered in an earlier session</span>}
                       <span className="ml-auto flex gap-2">
+                        {a.before && (
+                          <button onClick={() => patch({ value: null, checked: false, correct: false, seconds: 0, struck: [], before: false })} className="rounded-full bg-card px-3.5 py-1.5 text-[12.5px] font-semibold ring-1 ring-line">
+                            Try again
+                          </button>
+                        )}
                         {!a.correct && (
                           <button onClick={openWhy} className="inline-flex items-center gap-1.5 rounded-full bg-pine px-3.5 py-1.5 text-[12.5px] font-semibold text-cream">
                             <img src="/sensai-mark.png" alt="" className="size-4 rounded" /> Why was I wrong?
@@ -511,7 +524,7 @@ export default function Runner() {
           </div>
         </div>
       )
-    return <Session key={sig} items={items} rush={rush} back={back} start={Number(p.get('start')) || 0} />
+    return <Session key={sig} items={items} rush={rush} back={back} start={p.get('start') ? Number(p.get('start')) || 0 : undefined} resume={!rush && (p.get('status') || 'all') === 'all' && !p.get('set')} />
   }, [items, rush, back, sig])
   return content
 }
