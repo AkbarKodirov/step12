@@ -1,6 +1,6 @@
 // Backups for Sensai: when every Gemini model is busy or out of quota, the same request goes to the next
 // OpenAI-compatible provider that has a key, in this order:
-//   Groq → NVIDIA NIM → Mistral → OpenRouter → SambaNova → Cloudflare Workers AI → Z.ai → DeepSeek (paid)
+//   Groq → NVIDIA NIM → Mistral → OpenRouter → SambaNova → Cloudflare Workers AI → IteraCompute → Z.ai → DeepSeek (paid)
 // Every provider is optional: it switches on only when its key is set on the server. Model lists can be overridden
 // with <NAME>_TEXT_MODELS / <NAME>_VISION_MODELS (comma-separated); a retired model name just falls through to the next.
 // (GitHub Models was retired by GitHub on 30 July 2026, so it is not used.)
@@ -53,6 +53,14 @@ const PROVIDERS = [
     url: `https://api.cloudflare.com/client/v4/accounts/${env('CLOUDFLARE_ACCOUNT_ID', 'Cloudflare_ACCOUNT_ID')}/ai/v1/chat/completions`,
     text: (env('CLOUDFLARE_TEXT_MODELS') || '@cf/openai/gpt-oss-120b,@cf/meta/llama-3.3-70b-instruct-fp8-fast').split(','),
     vision: (env('CLOUDFLARE_VISION_MODELS') || '@cf/meta/llama-4-scout-17b-16e-instruct').split(','),
+  },
+  {
+    // free: 30M tokens/month on Qwen3.8 27B (promotion until 24 Nov 2026), no paid overage
+    name: 'iteracompute',
+    key: env('ITERACOMPUTE_API_KEY', 'IteraCompute_API_KEY'),
+    url: 'https://api.iteracompute.com/v1/chat/completions',
+    text: (env('ITERACOMPUTE_TEXT_MODELS') || 'qwen/qwen3.8-27b').split(','),
+    vision: (env('ITERACOMPUTE_VISION_MODELS') || 'qwen/qwen3.8-27b').split(','),
   },
   {
     name: 'zai',
