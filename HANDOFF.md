@@ -94,6 +94,7 @@ STEP12 is a Digital SAT prep platform for **STEP12** in Tashkent. Its AI tutor i
 - `scripts/eval-sensai.mjs` — 12 new questions, run against a local server after prompt/model changes (was 12/12).
 - Site: Open Graph preview (`public/og.png`), installable manifest, robots/sitemap, year-long cache for `/assets/*`, per-page tab titles, server self-ping on Render.
 - Content rule reminder: no College Board / Bluebook / real-exam / SAT League book items (the book says its questions come from the CB bank).
+- Exception the owner approved on 31 Oct 2026: Practice Test 14 (pt14) is SAT League Practice Test #1, imported on his explicit instruction after the rule was flagged. Four of its items are already in the bank as Professor IV questions.
 
 ## Oct 27 (Desmos Lab)
 - `prepareScreen` refuses answer-only lines like "n = 2" (a letter used nowhere else); a solution count is shown by marking each intersection as a point. Reply shape is 7 steps, the screen sits unnumbered after "Type this". `parseSpec()` escapes LaTeX the AI forgets to escape. Scorecard 12/12.
