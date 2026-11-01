@@ -58,10 +58,11 @@ STEP12 is a Digital SAT prep platform for **STEP12** in Tashkent. Its AI tutor i
 - **Logo:** `public/humo-mark.png` / `humo-mark-512.png` (the brightened version).
 
 ## Content rules (important)
-- **No College Board, Bluebook, real-exam or "prediction" questions** may be imported or copied. The owner has asked for them before, and the answer is always no because of copyright.
-- Only STEP12's own original sets, or new original questions, are allowed.
-- The "Official College Board questions" card was removed from the question bank at the owner's request.
-- Every generated question goes through `scripts/gen-*.mjs`: Gemini writes it, then solves it again without the key, and only questions where both answers agree are kept.
+- Prefer STEP12's own original sets and newly generated original questions.
+- **Real exam / College Board / Bluebook / SAT League / prediction questions** may be imported **only** when the owner (Akbar) explicitly requests them in the current chat or PR description. When he does, treat that as approval and proceed.
+- Do not add them proactively or when the request is vague.
+- The "Official College Board questions" card was removed from the question bank at the owner's request (do not restore it unless asked).
+- Every generated (non-imported) question still goes through `scripts/gen-*.mjs`: Gemini writes it, then solves it again without the key, and only questions where both answers agree are kept.
 - Geometry figures are drawn from a JSON shape spec by `scripts/figure.mjs`. `scripts/check-figures.mjs` compares each figure with its question; it removes or redraws any that don't match.
 
 ## Unfinished work
