@@ -4,7 +4,7 @@ export function HumoLogo({ className = 'h-8' }: { className?: string }) {
     <span className="inline-flex items-center gap-2" aria-label="Humo AI">
       <img src="/brand/humo-mark.svg" alt="" className={`${className} w-auto rounded-[22%]`} />
       <span className="text-[19px] font-semibold leading-none tracking-tight" aria-hidden>
-        Humo<span className="text-[#f2b630]"> AI</span>
+        Humo<span className="gold-text"> AI</span>
       </span>
     </span>
   )
