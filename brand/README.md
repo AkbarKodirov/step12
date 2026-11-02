@@ -5,12 +5,11 @@ Everything for the Humo AI identity. The full rules are in the brand book:
 
 | Folder | What's inside |
 | --- | --- |
-| `logo/svg`, `logo/png` | Horizontal and stacked logo (on-dark, on-light, navy, white, gold), the Humo mark, the round Seal, the wordmark |
-| `icon/` | App icon, favicon, Apple touch icon, maskable PWA icon |
-| `mascot/` | Humo the mascot: 6 poses and 7 expressions (SVG + PNG) |
-| `social/` | Instagram profile, post and story templates; Telegram avatar and post cover; link preview |
+| `logo/svg`, `logo/png` | Horizontal and stacked logo (on-dark, on-light, navy, white, crimson), the Humo mark, the round Seal (navy and light), the wordmark |
+| `icon/` | Logo and mascot app icons: iOS, Android (square, round, adaptive, Play Store), web favicons, Apple touch, maskable; mascot mood icons |
+| `mascot/` | Humo the mascot (light red): turnaround, 8 poses, 8 expressions (SVG + PNG) |
+| `social/` | Instagram profile, post and story templates; Telegram avatar, post cover and 16 stickers; link preview |
 | `fonts/` | Onest and Literata (SIL Open Font License) |
-| `concepts/` | The three logo concepts that were presented |
 | `source/` | The scripts that draw every file |
 
 ## Colours
@@ -18,15 +17,17 @@ Everything for the Humo AI identity. The full rules are in the brand book:
 | Name | HEX | Use |
 | --- | --- | --- |
 | Humo Navy | `#03244A` | Main brand colour |
-| Humo Gold | `#F2B630` | The bird, highlights, key buttons |
+| Humo Crimson | `#C8103F` | "AI", key buttons, highlights (same red as the 3D Humo) |
 | Midnight | `#03142C` | Deepest background |
 | Royal Navy | `#0E2F5C` | Navy gradient start |
-| Gold Light | `#FFE29A` | Gold gradient top |
-| Gold Deep | `#C98A12` | Gold gradient bottom, "AI" on light |
-| Crimson | `#BB0937` | Small accents only |
+| Ruby | `#A8092F` | Bottom of the Humo gradient (the 3D Humo's body) |
+| Rose | `#E0456B` | Middle of the Humo gradient, accents on dark |
+| Light Red | `#FF6F86` | The mascot's body (och qizil) |
+| Sheen | `#FF7A98` | Top of the Humo gradient, glows |
+| Petal | `#FFC2D1` | Soft fills, the mascot's tail tips |
 
-Gold gradient: `linear-gradient(180deg, #FFE29A 0%, #F2B630 55%, #C98A12 100%)`.
-Gold text goes only on navy or dark backgrounds.
+Humo gradient: `linear-gradient(180deg, #FF8FA6 0%, #E0456B 50%, #A8092F 100%)`.
+The logo is never all red: navy tile or navy/white "Humo", red bird and "AI".
 
 ## Rebuilding
 
