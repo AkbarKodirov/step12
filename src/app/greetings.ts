@@ -1,4 +1,4 @@
-/** Sensai never says the same hello twice in a row: 20 ways, in English, O'zbekcha and Русский. */
+/** Humo never says the same hello twice in a row: 20 ways, in English, O'zbekcha and Русский. */
 const HELLOS = [
   (n: string) => `What's up${n}?`,
   (n: string) => `Hey${n}!`,

@@ -264,7 +264,7 @@ export default function Analytics() {
             ))}
           </div>
           <button onClick={() => setHumo(true)} className="btn btn-dark h-10 px-4 text-[13px]">
-            <img src="/sensai-mark.png" alt="" className="size-5 rounded-md" /> Sensai, read my stats
+            <img src="/brand/humo-mark.svg" alt="" className="size-5 rounded-md" /> Humo, read my stats
           </button>
         </div>
       </div>

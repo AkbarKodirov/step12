@@ -27,7 +27,7 @@ export default function GoogleCallback() {
   return (
     <div className="grid min-h-svh place-items-center bg-ink px-6 text-center text-cream">
       <div>
-        <img src="/sensai-mark.png" alt="" className={`mx-auto size-16 rounded-2xl ${error ? '' : 'animate-pulse'}`} />
+        <img src="/brand/humo-mark.svg" alt="" className={`mx-auto size-16 rounded-2xl ${error ? '' : 'animate-pulse'}`} />
         <p className="mt-5 text-[16px]">{error ?? 'Signing you in with Google…'}</p>
         {error && (
           <Link to="/login" className="mt-6 inline-flex rounded-full bg-cream px-6 py-3 text-[14px] font-semibold text-ink">

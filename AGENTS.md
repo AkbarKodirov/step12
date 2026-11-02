@@ -14,7 +14,7 @@ This overrides any earlier content rules in `HANDOFF.md` or elsewhere when the o
 
 ## Content rules (updated)
 
-- Prefer original STEP12 questions when generating new ones.
+- Prefer original Humo AI questions when generating new ones.
 - Real exam / College Board / Bluebook / SAT League / prediction material is allowed **when the owner explicitly requests it**.
 - Do not add copyrighted exam content proactively or on a vague request.
 - When the owner says things like “add the tests”, “push all tests”, “import the practice tests”, or names specific tests → do it.

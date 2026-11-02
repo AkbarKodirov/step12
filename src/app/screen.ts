@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { stripHtml, type TestQuestion } from './store'
 
 /**
- * What the student is looking at right now, so Sensai "sees the screen".
- * Practice pages publish it; the floating Sensai button and side panels read it.
+ * What the student is looking at right now, so Humo "sees the screen".
+ * Practice pages publish it; the floating Humo button and side panels read it.
  * Practice tests and exam papers never publish (no AI help during a test).
  */
 export type Screen = { title: string; text: string; wrong?: boolean; key?: string } | null
@@ -40,7 +40,7 @@ export function usePublishScreen(s: Screen) {
 }
 
 const L = ['A', 'B', 'C', 'D']
-/** Plain-text picture of a question and the student's attempt, for Sensai. */
+/** Plain-text picture of a question and the student's attempt, for Humo. */
 export function describeQuestion(q: TestQuestion, opts: { chosen?: string | null; checked?: boolean; correct?: boolean; seconds?: number; where?: string; skill?: string } = {}) {
   const chosen = opts.chosen == null || opts.chosen === '' ? null : q.format === 'mc' ? `${L[Number(opts.chosen)]}) ${stripHtml(q.options[Number(opts.chosen)])}` : opts.chosen
   const right = q.format === 'mc' ? `${L[q.correct ?? 0]}) ${stripHtml(q.options[q.correct ?? 0])}` : q.answer

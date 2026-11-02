@@ -1,10 +1,10 @@
 /**
- * Turns Sensai's Desmos spec into a checked screen, following the desmos-sat-coach skill:
+ * Turns Humo's Desmos spec into a checked screen, following the desmos-sat-coach skill:
  * every number on the screen is COMPUTED here (never typed by the model), every point must sit on its
  * curve, and the screen must show the answer. If anything disagrees, the screen is refused with a list
- * of errors so Sensai can fix the math.
+ * of errors so Humo can fix the math.
  *
- * Spec from Sensai:
+ * Spec from Humo:
  * {
  *   "title": "3(x - 2) = 2x + 5",
  *   "lines":  [{ "text": "y = 3(x - 2)", "latex": "y=3\\left(x-2\\right)", "graphed": true },
@@ -167,8 +167,8 @@ export function prepareScreen(spec, { expect } = {}) {
   return { errors, screen: { title: spec.title ? String(spec.title).slice(0, 80) : undefined, lines, curves, points, window } }
 }
 
-/** The part of the skill Sensai needs to solve the Desmos way, sent as instructions to Gemini. */
-export const DESMOS_GUIDE = `DESMOS SOLVES (STEP12 is the only Desmos-AI tutor in Uzbekistan — this is your signature skill)
+/** The part of the skill Humo needs to solve the Desmos way, sent as instructions to Gemini. */
+export const DESMOS_GUIDE = `DESMOS SOLVES (Humo AI is the only Desmos-AI tutor in Uzbekistan — this is your signature skill)
 When a student asks you to solve a math question, think like Desmos, not like a textbook:
 name every quantity with a letter, turn each sentence into one equation, and prefer one [ ] ~ [ ] list regression or a two-graph intersection over hand algebra.
 Reply in this shape (short):

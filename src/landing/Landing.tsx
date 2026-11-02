@@ -7,13 +7,14 @@ import { useAuth } from '../lib/auth'
 import { TryHumo } from './TryHumo'
 import { Features } from './Features'
 import { Proof, HowItWorks, Inside, Pricing, Faq, FinalCta, Footer } from './Sections'
+import { HumoLogo } from '../brand/HumoLogo'
 
 const HumoScene = lazy(() => import('../three/HumoScene'))
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <span className="flex items-center gap-2.5">
-      <img src="/brand/step12-logo.png" alt="STEP12" className="h-8 w-auto rounded-[5px] ring-1 ring-white/10" />
+      <HumoLogo className="h-8" />
       {!compact && (
         <span className="hidden border-l border-white/15 pl-2.5 text-[11px] font-medium uppercase leading-tight tracking-[0.14em] text-cream/55 sm:block">
           Digital
@@ -37,7 +38,7 @@ function Nav() {
     return () => window.removeEventListener('scroll', on)
   }, [])
   const links = [
-    ['Try Sensai', '#try'],
+    ['Try Humo', '#try'],
     ['Features', '#features'],
     ['Pricing', '#pricing'],
     ['FAQ', '#faq'],
@@ -46,7 +47,7 @@ function Nav() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${scrolled ? 'border-b border-white/[0.07] bg-ink/75 backdrop-blur-xl' : ''}`}>
       <motion.div className="absolute inset-x-0 bottom-0 h-px origin-left bg-jg-400" style={{ scaleX: progress, opacity: scrolled ? 1 : 0 }} />
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
-        <Link to="/" aria-label="STEP12 home">
+        <Link to="/" aria-label="Humo AI home">
           <Logo />
         </Link>
         <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 rounded-full border border-white/10 bg-white/[0.03] p-1 backdrop-blur md:flex">
@@ -107,10 +108,10 @@ function Hero() {
             className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] py-1 pl-1 pr-3.5 text-[13px] text-white/70 backdrop-blur hover:border-jg-500/40"
           >
             <span className="rounded-full bg-jg-500 px-2 py-0.5 text-[11px] font-semibold text-white">New</span>
-            Meet Sensai, the AI tutor from STEP12
+            Meet Humo, your AI SAT tutor
           </motion.a>
 
-          <h1 className="display text-[clamp(2.75rem,min(7.2vw,11vh),5.9rem)]" aria-label="Your SAT score, raised by Sensai.">
+          <h1 className="display text-[clamp(2.75rem,min(7.2vw,11vh),5.9rem)]" aria-label="Your SAT score, raised by Humo.">
             {['Your', 'SAT', 'score,', 'raised', 'by'].map((w, i) => (
               <span key={w} className="inline-block overflow-hidden pb-[0.08em] align-bottom" aria-hidden>
                 <motion.span className="inline-block" initial={{ y: '110%' }} animate={{ y: 0 }} transition={{ delay: 0.3 + i * 0.07, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}>
@@ -120,13 +121,13 @@ function Hero() {
             ))}
             <span className="inline-block overflow-hidden pb-[0.14em] align-bottom" aria-hidden>
               <motion.span className="inline-block" initial={{ y: '110%' }} animate={{ y: 0 }} transition={{ delay: 0.65, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}>
-                <span className="brush brush-draw">Sensai</span>.
+                <span className="brush brush-draw">Humo</span>.
               </motion.span>
             </span>
           </h1>
 
           <motion.p custom={2} initial="hidden" animate="show" variants={item} className="mt-6 max-w-[31rem] text-[17px] leading-relaxed text-white/60">
-            The STEP12 method, now in one platform: real Digital SAT practice, timed mocks, and Sensai — an AI tutor that shows you why you missed a question, in English, O'zbekcha or Русский.
+            Everything you need in one platform: real Digital SAT practice, timed mocks, and Humo — an AI tutor that shows you why you missed a question, in English, O'zbekcha or Русский.
           </motion.p>
 
           <motion.div custom={3} initial="hidden" animate="show" variants={item} className="mt-9 flex flex-wrap items-center gap-3">
@@ -141,7 +142,7 @@ function Hero() {
 
           <motion.dl custom={5} initial="hidden" animate="show" variants={item} className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-6">
             {[
-              [12, 'mastery steps, STEP1 → STEP12'],
+              [12, 'mastery steps in the program'],
               [288, 'lessons in the program'],
               [48, 'mocks and gate tests'],
             ].map(([v, l]) => (

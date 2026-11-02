@@ -1,7 +1,7 @@
-// Sensai accuracy scorecard: asks a fixed set of NEW SAT-style questions (not in STEP12's bank, so Sensai's
-// memory can't help) and checks the final answers. Run it after changing prompts or models to see if Sensai got
+// Humo accuracy scorecard: asks a fixed set of NEW SAT-style questions (not in Humo AI's bank, so Humo's
+// memory can't help) and checks the final answers. Run it after changing prompts or models to see if Humo got
 // better or worse.
-// Usage: node scripts/eval-sensai.mjs [server=http://localhost:3011]
+// Usage: node scripts/eval-humo.mjs [server=http://localhost:3011]
 const BASE = process.argv[2] || 'http://localhost:3011'
 
 const Q = [
@@ -40,4 +40,4 @@ for (const [q, want] of Q) {
   right += ok ? 1 : 0
   console.log(`${ok ? '✓' : '✗'} ${String(Date.now() - t).padStart(6)} ms  want ${want.padEnd(3)} got ${got}  — ${q.split('\n')[0].slice(0, 60)}`)
 }
-console.log(`\nSensai scorecard: ${right}/${Q.length} correct (${Math.round((right / Q.length) * 100)}%), average ${Math.round((Date.now() - started) / Q.length)} ms per question`)
+console.log(`\nHumo scorecard: ${right}/${Q.length} correct (${Math.round((right / Q.length) * 100)}%), average ${Math.round((Date.now() - started) / Q.length)} ms per question`)

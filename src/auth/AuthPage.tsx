@@ -37,7 +37,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
 
   return (
     <div className="grid min-h-svh bg-ink text-white lg:grid-cols-2">
-      {/* Sensai stage */}
+      {/* Humo stage */}
       <aside className="relative hidden overflow-hidden border-r border-white/[0.07] lg:block">
         <div className="absolute inset-0">
           <Suspense fallback={null}>
@@ -54,7 +54,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
           <p className="max-w-md text-[22px] font-medium leading-snug tracking-tight">
             "A master draws the ensō in one breath. Mastery is a thousand small corrections."
           </p>
-          <p className="mt-3 text-[13px] text-white/45">Sensai finds yours, one question at a time.</p>
+          <p className="mt-3 text-[13px] text-white/45">Humo finds yours, one question at a time.</p>
         </div>
       </aside>
 
@@ -68,7 +68,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
         </div>
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }} className="relative mx-auto flex w-full max-w-sm flex-1 flex-col justify-center py-12">
           <h1 className="display text-[40px]">{signup ? 'Create your account' : 'Welcome back'}</h1>
-          <p className="mt-3 text-[15px] text-white/50">{signup ? 'Start with a free diagnostic. Takes 40 minutes.' : 'Pick up where you left off with Sensai.'}</p>
+          <p className="mt-3 text-[15px] text-white/50">{signup ? 'Start with a free diagnostic. Takes 40 minutes.' : 'Pick up where you left off with Humo.'}</p>
 
           <div className="mt-9 [&>div]:w-full [&_button]:w-full">
             {inAppBrowser() && (
@@ -123,7 +123,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
           </form>
 
           <p className="mt-7 text-center text-[14px] text-white/50">
-            {signup ? 'Already have an account? ' : 'New to STEP12? '}
+            {signup ? 'Already have an account? ' : 'New to Humo AI? '}
             <Link to={signup ? '/login' : '/signup'} className="text-jg-300 hover:text-jg-200">
               {signup ? 'Log in' : 'Create an account'}
             </Link>
@@ -132,7 +132,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
         <p className="text-center text-[11px] text-white/30">
           By continuing you agree to the{' '}
           <Link to="/terms" className="underline hover:text-white/60">Terms</Link> and{' '}
-          <Link to="/privacy" className="underline hover:text-white/60">Privacy Policy</Link> of STEP12.
+          <Link to="/privacy" className="underline hover:text-white/60">Privacy Policy</Link> of Humo AI.
         </p>
       </main>
     </div>

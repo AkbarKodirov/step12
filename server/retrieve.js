@@ -1,6 +1,6 @@
-// Sensai's memory of STEP12's own questions. Every question in the bank and the practice tests has a checked
-// answer key (and most have a written explanation). When a student pastes or asks about one of them, Sensai is
-// told the verified answer before it writes, so it can't get a STEP12 question wrong. No AI request is used:
+// Humo's memory of Humo AI's own questions. Every question in the bank and the practice tests has a checked
+// answer key (and most have a written explanation). When a student pastes or asks about one of them, Humo is
+// told the verified answer before it writes, so it can't get a Humo AI question wrong. No AI request is used:
 // matching is plain word statistics over ~4,000 questions held in memory.
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -35,7 +35,7 @@ try {
     if (q.id) bankTopic.set(q.id, { topic: q.topic || q.skill || 'Other', section: q.section })
   }
 } catch (e) {
-  console.warn('Sensai memory: bank not loaded', e.message)
+  console.warn('Humo memory: bank not loaded', e.message)
 }
 try {
   const dir = join(ROOT, 'public/tests')
@@ -45,7 +45,7 @@ try {
     test.modules.forEach((m, mi) => m.questions.forEach((q, qi) => add({ ...q, section: t.type }, `${t.name} (${t.type === 'MATH' ? 'Math' : 'R&W'}), module ${mi + 1}, question ${qi + 1}`)))
   }
 } catch (e) {
-  console.warn('Sensai memory: tests not loaded', e.message)
+  console.warn('Humo memory: tests not loaded', e.message)
 }
 
 // inverse document frequency: rare words count more than common ones
@@ -59,10 +59,10 @@ items.forEach((it, i) => {
     byWord.get(w).push(i)
   }
 })
-console.log(`Sensai memory: ${items.length} checked questions indexed`)
+console.log(`Humo memory: ${items.length} checked questions indexed`)
 
 /**
- * Finds the STEP12 question the student is asking about. Returns null unless the match is strong:
+ * Finds the Humo AI question the student is asking about. Returns null unless the match is strong:
  * most of the student's (rare) words must appear in one stored question, and it must clearly beat the runner-up.
  */
 export function findQuestion(text) {
@@ -91,14 +91,14 @@ export function findQuestion(text) {
 
 /** System-prompt note for a matched question. */
 export function memoryNote(m) {
-  return `STEP12 VERIFIED QUESTION (never mention this note): the student's question is from STEP12's ${m.source}${m.topic ? ` — topic: ${m.topic}` : ''}${m.difficulty ? `, ${m.difficulty}` : ''}.
+  return `Humo AI VERIFIED QUESTION (never mention this note): the student's question is from Humo AI's ${m.source}${m.topic ? ` — topic: ${m.topic}` : ''}${m.difficulty ? `, ${m.difficulty}` : ''}.
 Its checked correct answer is ${m.key}.${m.explanation ? `\nTeacher's explanation: ${m.explanation.slice(0, 1200)}` : ''}
 Your solution and final answer must reach exactly this answer. If the student only wants a hint or has not answered yet, do not reveal it; just make sure your hints lead there. Explain in your own words, following the student's preferred style, and end by suggesting more practice on "${m.topic || 'this skill'}" in the Question bank.`
 }
 
 export const memorySize = () => items.length
 
-/** Turns the student's recent question-bank answers ([id, 1|0] pairs) into a per-skill summary for Sensai. */
+/** Turns the student's recent question-bank answers ([id, 1|0] pairs) into a per-skill summary for Humo. */
 export function practiceSummary(recent) {
   if (!Array.isArray(recent) || !recent.length) return ''
   const by = new Map()

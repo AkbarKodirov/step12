@@ -142,7 +142,7 @@ const listeners = new Set<() => void>()
 // Progress is keyed by the account EMAIL, so the same student always finds their data again —
 // even if the server forgot their account id.
 const keyFor = (id: string) => `step12.progress.${id}`
-/** Progress saved before the STEP12 rebrand used this prefix; it is moved over on first load. */
+/** Progress saved before the Humo AI rebrand used this prefix; it is moved over on first load. */
 const oldKeyFor = (id: string) => `jamals.progress.${id}`
 
 function hydrate(saved: Partial<State> | null): State {
@@ -297,7 +297,7 @@ export function markActive(seconds = 0, kind = 'practice', subject?: 'EBRW' | 'M
   }))
 }
 
-/** Read the whole store once (for export / Sensai context). */
+/** Read the whole store once (for export / Humo context). */
 export const getStore = () => state
 export function resetStore() {
   setStore(() => ({ ...initial }))
@@ -366,7 +366,7 @@ export function loadTest(id: string) {
   return testCache.get(id)!
 }
 let bankP: Promise<BankQ[]> | null = null
-/** The whole Question Bank (STEP12's own sets + the Desmos collection), loaded once. */
+/** The whole Question Bank (Humo AI's own sets + the Desmos collection), loaded once. */
 export const loadBank = (): Promise<BankQ[]> => (bankP ??= fetch('/bank/bank.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : Promise.reject(new Error('Question bank unavailable')))))
 
 /** Saved / mistake entries point at either a test question or a bank question. */

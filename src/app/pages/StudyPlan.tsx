@@ -27,7 +27,7 @@ const DEFAULT_TITLE: Record<PlanKind, string> = {
   lesson: 'One strategy lesson',
   blitz: 'Blitz run for pacing',
   test: 'Full practice test in exam mode',
-  review: 'Review my last test with Sensai',
+  review: 'Review my last test with Humo',
   custom: '',
 }
 
@@ -88,16 +88,16 @@ function AskHumoPlan({ plan }: { plan: WeekPlan }) {
       const r = await editPlan(plan, s.profile, t, token)
       setSt({ proposal: r.plan, note: r.note })
     } catch (e) {
-      setSt({ error: e instanceof HumoOffline ? `Sensai is offline: ${e.message}` : (e as Error).message })
+      setSt({ error: e instanceof HumoOffline ? `Humo is offline: ${e.message}` : (e as Error).message })
     }
   }
   return (
     <div className="card relative overflow-hidden p-5">
       <div className="pointer-events-none absolute -right-16 -top-16 size-48 rounded-full bg-jg-400/15 blur-3xl" />
       <div className="relative flex items-center gap-3">
-        <img src="/sensai-mark.png" alt="" className="size-10 rounded-xl" />
+        <img src="/brand/humo-mark.svg" alt="" className="size-10 rounded-xl" />
         <div>
-          <p className="text-[15px] font-semibold">Ask Sensai to change your plan</p>
+          <p className="text-[15px] font-semibold">Ask Humo to change your plan</p>
           <p className="text-[12.5px] text-moss">Say it in your own words — English, O'zbekcha or Русский.</p>
         </div>
       </div>
@@ -168,7 +168,7 @@ function AskHumoPlan({ plan }: { plan: WeekPlan }) {
                   }}
                   className="btn btn-green h-10 flex-1 text-[13.5px]"
                 >
-                  <Check className="size-4" /> Apply Sensai's changes
+                  <Check className="size-4" /> Apply Humo's changes
                 </button>
                 <button onClick={() => setSt({})} className="btn btn-ghost h-10 px-4 text-[13px]">
                   Discard

@@ -22,7 +22,7 @@ function plainMath(t: string) {
     )
 }
 
-/** Renders Sensai's light markdown (**bold**, *italic*, `code`, bullet lines) as React nodes — no raw HTML. */
+/** Renders Humo's light markdown (**bold**, *italic*, `code`, bullet lines) as React nodes — no raw HTML. */
 export function RichText({ text }: { text: string }) {
   const inline = (s: string, k: string) =>
     plainMath(s).split(/(\*\*[^*]+\*\*|`[^`\n]+`|\*[^*\n]+\*)/g).map((part, i) =>

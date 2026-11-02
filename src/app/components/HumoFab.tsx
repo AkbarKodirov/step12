@@ -20,12 +20,12 @@ const PAGES: Record<string, { name: string; tips: string[] }> = {
   '/app/mistakes': { name: 'their mistakes notebook', tips: ['Why do I keep making these mistakes?', 'How should I review mistakes?'] },
 }
 
-/** Floating Sensai button available on every app page. */
+/** Floating Humo button available on every app page. */
 export function HumoFab() {
   const [open, setOpen] = useState(false)
   const { pathname } = useLocation()
   const s = useStore()
-  const page = PAGES[pathname] ?? { name: 'the STEP12 app', tips: ['What should I study today?', 'Explain a hard SAT topic'] }
+  const page = PAGES[pathname] ?? { name: 'the Humo AI app', tips: ['What should I study today?', 'Explain a hard SAT topic'] }
   const screen = useScreen()
   const hi = useMemo(() => hello(), [open])
   const [auto, setAuto] = useState<string | null>(null)
@@ -53,14 +53,14 @@ export function HumoFab() {
       </AnimatePresence>
       <button
         onClick={() => setOpen(true)}
-        aria-label="Ask Sensai"
+        aria-label="Ask Humo"
         className="group fixed bottom-24 right-4 z-30 flex animate-breathe items-center gap-2 rounded-full bg-pine p-1.5 text-[14px] font-semibold sm:pr-4 text-cream transition-transform hover:scale-[1.04] md:bottom-6 md:right-6"
       >
         <span className="relative">
-          <img src="/sensai-mark.png" alt="" className="size-9 rounded-full ring-2 ring-jg-500" />
+          <img src="/brand/humo-mark.svg" alt="" className="size-9 rounded-full ring-2 ring-jg-500" />
           <span className="absolute -right-0.5 -top-0.5 size-2.5 rounded-full bg-jg-400 ring-2 ring-pine" />
         </span>
-        <span className="hidden sm:inline">Ask Sensai</span>
+        <span className="hidden sm:inline">Ask Humo</span>
       </button>
       <HumoDrawer key={`${pathname}|${screen?.key ?? ''}`} open={open} onClose={() => { setOpen(false); setAuto(null) }} context={context} autoSend={auto} greeting={screen ? `${hi} I can see your screen — ${screen.title}. Ask me anything about it.` : `${hi} I can see you're on ${page.name.replace('their', 'your')}. What can I help with?`} suggestions={screen ? ['Why is my answer wrong?', 'Give me a hint', 'Explain it step by step', 'Solve it with Desmos'] : page.tips} />
     </>
