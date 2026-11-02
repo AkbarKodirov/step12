@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400"><title>Humo — Wow</title><defs>
+<linearGradient id="h9b" x1="0" y1="90" x2="0" y2="350" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFE29A"/><stop offset=".5" stop-color="#F2B630"/><stop offset="1" stop-color="#C98A12"/></linearGradient>
+<linearGradient id="h9w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2B630"/><stop offset="1" stop-color="#C98A12"/></linearGradient>
+</defs>
+  
+  <!-- tail -->
+  <g fill="#C98A12">
+    <path d="M200 300 C186 320.2 188.8 351.8 200 372 C206.3 351.8 209.8 320.2 200 300Z"/>
+    <path d="M196 300 C198.8 324.5 181.4 350 160 360 C169.6 342.9 182.7 314.9 196 300Z"/>
+    <path d="M204 300 C201.2 324.5 218.6 350 240 360 C230.4 342.9 217.3 314.9 204 300Z"/>
+  </g>
+  <!-- feet -->
+  <path d="M170 330 l-10 18 h22 Z M230 330 l10 18 h-22 Z" fill="#C98A12"/>
+  <!-- crest plumes + AI spark -->
+  <path d="M196 108 C192.3 90.6 179.1 66.8 170 52 C170 71 180 96.4 196 108Z" fill="url(#h9w)"/>
+  <path d="M200 106 C209 88.6 207.2 61.4 200 44 C196 61.4 193.7 88.6 200 106Z" fill="url(#h9w)"/>
+  <path d="M204 108 C207.7 90.6 220.9 66.8 230 52 C230 71 220 96.4 204 108Z" fill="url(#h9w)"/>
+  <path d="M200 10 C202.88 23.12 202.88 23.12 216 26 C202.88 28.88 202.88 28.88 200 42 C197.12 28.88 197.12 28.88 184 26 C197.12 23.12 197.12 23.12 200 10Z" fill="#F2B630"/>
+  <!-- body -->
+  <path d="M200 92 C268 92 300 150 300 214 C300 288 256 338 200 338 C144 338 100 288 100 214 C100 150 132 92 200 92Z" fill="url(#h9b)"/>
+  <path d="M200 236 C240 236 260 268 254 296 C248 322 226 334 200 334 C174 334 152 322 146 296 C140 268 160 236 200 236Z" fill="#FFF3D1" opacity=".9"/>
+  <path d="M176 270 q12 8 24 0 q12 8 24 0 M184 292 q8 6 16 0 q8 6 16 0" fill="none" stroke="#FFE29A" stroke-width="4" stroke-linecap="round"/>
+  <!-- wings -->
+  <g transform="translate(112 226) rotate(8)"><path d="M4 -6 C-34 0 -56 44 -52 96 C-44 88 -36 88 -32 100 C-24 90 -16 90 -12 104 C-4 92 2 92 6 100 C16 64 20 20 4 -6Z" fill="url(#h9w)"/>
+  <path d="M-30 40 C-34 60 -34 74 -32 88 M-12 46 C-14 64 -14 80 -12 92" fill="none" stroke="#FFE29A" stroke-width="3.5" stroke-linecap="round" opacity=".7"/></g>
+  <g transform="translate(288 226) scale(-1 1) rotate(8)"><path d="M4 -6 C-34 0 -56 44 -52 96 C-44 88 -36 88 -32 100 C-24 90 -16 90 -12 104 C-4 92 2 92 6 100 C16 64 20 20 4 -6Z" fill="url(#h9w)"/>
+  <path d="M-30 40 C-34 60 -34 74 -32 88 M-12 46 C-14 64 -14 80 -12 92" fill="none" stroke="#FFE29A" stroke-width="3.5" stroke-linecap="round" opacity=".7"/></g>
+  <ellipse cx="140" cy="214" rx="13" ry="8" fill="#E0456B" opacity=".35"/><ellipse cx="260" cy="214" rx="13" ry="8" fill="#E0456B" opacity=".35"/>
+  <ellipse cx="166" cy="182" rx="21.849999999999998" ry="26.45" fill="#FFFFFF"/>
+    <ellipse cx="169" cy="185" rx="12.649999999999999" ry="14.95" fill="#03244A"/>
+    <circle cx="173" cy="179" r="4.83" fill="#FFFFFF"/><ellipse cx="234" cy="182" rx="21.849999999999998" ry="26.45" fill="#FFFFFF"/>
+    <ellipse cx="237" cy="185" rx="12.649999999999999" ry="14.95" fill="#03244A"/>
+    <circle cx="241" cy="179" r="4.83" fill="#FFFFFF"/>
+  <path d="M184 210 Q200 204 216 210 L200 228 Z" fill="#C98A12"/><path d="M188 216 L212 216 L200 240 Z" fill="#03244A"/><path d="M190 222 Q200 236 210 222" fill="#E0456B"/>
+  </svg>
