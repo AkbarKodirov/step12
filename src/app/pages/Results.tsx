@@ -7,6 +7,7 @@ import { Confetti, CountUp, ScoreRing } from '../../components/motion'
 import { HumoExplain } from '../components/HumoExplain'
 import { HumoDrawer } from '../components/HumoDrawer'
 import { Passage, QuestionBody } from './TakeTest'
+import { tex } from '../tex'
 
 const L = ['A', 'B', 'C', 'D']
 
@@ -92,7 +93,7 @@ function ReviewItem({ test, attempt, m, i, n, onAsk }: { test: Test; attempt: At
               return (
                 <div key={oi} className={`flex items-center gap-3 rounded-xl border-2 px-4 py-2.5 text-[14.5px] ${right ? 'border-emerald-500 bg-emerald-50' : mine ? 'border-red-400 bg-red-50' : 'border-line'}`}>
                   <span className={`grid size-6 shrink-0 place-items-center rounded-full text-[11px] font-bold ${right ? 'bg-emerald-500 text-white' : mine ? 'bg-red-500 text-white' : 'border border-pine/30'}`}>{L[oi]}</span>
-                  <span className="prose-q flex-1" dangerouslySetInnerHTML={{ __html: opt }} />
+                  <span className="prose-q flex-1" dangerouslySetInnerHTML={{ __html: tex(opt) }} />
                   {mine && <span className="text-[11px] font-semibold text-moss">Your answer</span>}
                   {right && !mine && <span className="text-[11px] font-semibold text-emerald-700">Correct</span>}
                 </div>
