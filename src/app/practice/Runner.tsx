@@ -60,7 +60,7 @@ export async function buildSession(p: URLSearchParams, st: ReturnType<typeof use
   })
 }
 
-/* ---------------- side panel: Ask Sensai ---------------- */
+/* ---------------- side panel: Ask Humo ---------------- */
 type Tab = 'ask'
 
 function AskTab({ item, a, auto }: { item: Item; a: Ans; auto: string | null }) {
@@ -216,7 +216,7 @@ function Session({ items, rush, back, start, resume = false }: { items: Item[]; 
   if (done)
     return (
       <div className="mx-auto max-w-2xl px-6 py-16 text-center">
-        <motion.img initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} src="/sensai-mark.png" alt="" className="mx-auto size-20 rounded-3xl" />
+        <motion.img initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} src="/brand/humo-mark.svg" alt="" className="mx-auto size-20 rounded-3xl" />
         <h1 className="display mt-6 text-[38px]">Session done</h1>
         <p className="mt-2 text-[15px] text-moss">
           {right} of {answered.length} correct · {Math.round(ans.reduce((x, y) => x + y.seconds, 0) / 60)} min
@@ -396,7 +396,7 @@ function Session({ items, rush, back, start, resume = false }: { items: Item[]; 
                         )}
                         {!a.correct && (
                           <button onClick={openWhy} className="inline-flex items-center gap-1.5 rounded-full bg-pine px-3.5 py-1.5 text-[12.5px] font-semibold text-cream">
-                            <img src="/sensai-mark.png" alt="" className="size-4 rounded" /> Why was I wrong?
+                            <img src="/brand/humo-mark.svg" alt="" className="size-4 rounded" /> Why was I wrong?
                           </button>
                         )}
                       </span>
@@ -415,14 +415,14 @@ function Session({ items, rush, back, start, resume = false }: { items: Item[]; 
           )}
         </main>
 
-        {/* Sensai panel */}
+        {/* Humo panel */}
         <AnimatePresence>
           {panel && (
             <motion.aside initial={{ x: 40, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: 40, opacity: 0 }} transition={{ type: 'spring', damping: 30, stiffness: 320 }} className="absolute inset-y-0 right-0 z-20 flex w-full max-w-md flex-col border-l border-line bg-cream shadow-[-20px_0_40px_-30px_rgb(27_41_37/.5)] lg:relative">
               <div className="flex items-center gap-1 border-b border-line bg-card px-2 py-2">
                 {(
                   [
-                    ['ask', 'Ask Sensai', MessageCircle],
+                    ['ask', 'Ask Humo', MessageCircle],
                   ] as const
                 ).map(([k, l, Icon]) => (
                   <button key={k} onClick={() => setPanel(k)} className={`relative flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[12.5px] font-medium ${panel === k ? 'text-pine' : 'text-moss hover:text-pine'}`}>
@@ -464,7 +464,7 @@ function Session({ items, rush, back, start, resume = false }: { items: Item[]; 
         </div>
         <div className="flex flex-1 items-center justify-center gap-1.5 overflow-x-auto">
           <button onClick={() => setPanel(panel === 'ask' ? null : 'ask')} className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-xl bg-gradient-to-r from-[#0b1d36] to-[#85082a] px-3.5 text-[13px] font-semibold text-cream">
-            <img src="/sensai-mark.png" alt="" className="size-5 rounded-md" /> Ask Sensai
+            <img src="/brand/humo-mark.svg" alt="" className="size-5 rounded-md" /> Ask Humo
           </button>
           {lessonFor(item.r.skill) && (
             <Link to={lessonFor(item.r.skill)!.to} className="hidden h-10 shrink-0 items-center gap-1.5 rounded-xl bg-jg-50 px-3 text-[13px] font-semibold text-jg-700 md:inline-flex">

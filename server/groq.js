@@ -1,4 +1,4 @@
-// Backups for Sensai: when every Gemini model is busy or out of quota, the same request goes to the next
+// Backups for Humo: when every Gemini model is busy or out of quota, the same request goes to the next
 // OpenAI-compatible provider that has a key, in this order:
 //   Groq → NVIDIA NIM → Mistral → OpenRouter → SambaNova → Cloudflare Workers AI → IteraCompute → Z.ai → DeepSeek (paid)
 // Every provider is optional: it switches on only when its key is set on the server. Model lists can be overridden
@@ -38,7 +38,7 @@ const PROVIDERS = [
     // OpenRouter tries the listed models in order itself (the "models" field)
     text: [(env('OPENROUTER_TEXT_MODELS') || 'openrouter/free,nvidia/nemotron-3-super-120b-a12b:free,google/gemma-4-31b-it:free').split(',')],
     vision: [(env('OPENROUTER_VISION_MODELS') || 'openrouter/free,google/gemma-4-31b-it:free,nvidia/nemotron-3.5-super-vl:free').split(',')],
-    headers: { 'HTTP-Referer': 'https://step12.uz', 'X-Title': 'STEP12 Sensai' },
+    headers: { 'HTTP-Referer': 'https://step12.uz', 'X-Title': 'Humo AI' },
   },
   {
     name: 'sambanova',

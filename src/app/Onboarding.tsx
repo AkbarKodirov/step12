@@ -7,6 +7,7 @@ import { setStore, SKILLS, useStore, type Profile } from './store'
 import { DAY_NAMES, generatePlan, KINDS, planMinutes } from './plan'
 import { exciteHumo } from '../three/humoMood'
 import { hello } from './greetings'
+import { HumoLogo } from '../brand/HumoLogo'
 
 const HumoScene = lazy(() => import('../three/HumoScene'))
 
@@ -27,8 +28,8 @@ const AIMS = [
   { id: 'Just exploring', icon: Rocket, sub: 'See where I stand first', target: 1300 },
 ]
 const LEVELS = [
-  { id: 'new' as const, title: "I haven't taken a practice test yet", sub: "Sensai will start you with a diagnostic" },
-  { id: 'some' as const, title: "I've done some practice tests", sub: 'Tell Sensai your latest score' },
+  { id: 'new' as const, title: "I haven't taken a practice test yet", sub: "Humo will start you with a diagnostic" },
+  { id: 'some' as const, title: "I've done some practice tests", sub: 'Tell Humo your latest score' },
   { id: 'retake' as const, title: "I've taken the real SAT", sub: 'Retaking to raise my score' },
 ]
 const STEPS = ['Hello', 'Aim', 'Date', 'Level', 'Focus', 'Schedule', 'Plan']
@@ -107,7 +108,7 @@ export default function Onboarding() {
       <div className="relative mx-auto flex min-h-svh max-w-6xl flex-col px-5 py-6 sm:px-8">
         {/* progress */}
         <div className="flex items-center gap-4">
-          <img src="/brand/step12-logo.png" alt="STEP12" className="h-7 w-auto rounded-[4px]" />
+          <HumoLogo className="h-7" />
           <div className="flex flex-1 gap-1.5">
             {STEPS.map((l, i) => (
               <div key={l} className="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
@@ -121,14 +122,14 @@ export default function Onboarding() {
         </div>
 
         <div className="grid flex-1 items-center gap-8 py-8 lg:grid-cols-[0.9fr_1.1fr]">
-          {/* Sensai */}
+          {/* Humo */}
           <div className="relative hidden h-[460px] overflow-hidden rounded-[32px] ring-1 ring-white/[0.06] lg:block">
             <Suspense fallback={null}>
               <HumoScene layout="compact" bg="#050e19" />
             </Suspense>
             <AnimatePresence mode="wait">
               <motion.div key={step} initial={{ opacity: 0, y: 10, scale: 0.96 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.35 }} className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/10 bg-pine/80 p-4 text-[14px] leading-relaxed backdrop-blur">
-                <span className="text-jg-300">Sensai · </span>
+                <span className="text-jg-300">Humo · </span>
                 {
                   [
                     `${hi} I'll ask six quick questions, then build a plan that fits your week.`,
@@ -149,15 +150,15 @@ export default function Onboarding() {
               <motion.div key={step} custom={dir} variants={slide} initial="enter" animate="center" exit="exit" transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}>
                 {step === 0 && (
                   <div>
-                    <img src="/sensai-mark.png" alt="" className="size-16 rounded-2xl lg:hidden" />
+                    <img src="/brand/humo-mark.svg" alt="" className="size-16 rounded-2xl lg:hidden" />
                     <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-white/[0.06] px-3 py-1 text-[12.5px] text-jg-300 lg:mt-0">
-                      <Sparkles className="size-3.5" /> Welcome to STEP12
+                      <Sparkles className="size-3.5" /> Welcome to Humo AI
                     </p>
                     <h1 className="display mt-5 text-[clamp(2.4rem,5vw,4rem)] leading-[1.02]">
                       {hi}<br />
                       <span className="gold-text">Let's plan your SAT.</span>
                     </h1>
-                    <p className="mt-5 max-w-md text-[16px] text-cream/70">Six quick questions. Sensai turns your answers into a week-by-week plan you can edit, send to Google Calendar, or change just by asking.</p>
+                    <p className="mt-5 max-w-md text-[16px] text-cream/70">Six quick questions. Humo turns your answers into a week-by-week plan you can edit, send to Google Calendar, or change just by asking.</p>
                     <div className="mt-8 flex flex-wrap gap-3">
                       <button onClick={() => go(1)} className="btn btn-green h-13 px-7 text-[15px]">
                         Build my plan <ArrowRight className="size-4" />
@@ -292,7 +293,7 @@ export default function Onboarding() {
                 {step === 4 && (
                   <div>
                     <h2 className="display text-[clamp(1.9rem,3.6vw,2.8rem)]">What feels hardest?</h2>
-                    <p className="mt-2 text-[14px] text-cream/60">Pick any. Sensai adds extra practice for these.</p>
+                    <p className="mt-2 text-[14px] text-cream/60">Pick any. Humo adds extra practice for these.</p>
                     {(
                       [
                         ['Reading & Writing', SKILLS.slice(0, 8)],
@@ -358,7 +359,7 @@ export default function Onboarding() {
 
                 {step === 6 && (
                   <div>
-                    <h2 className="display text-[clamp(1.9rem,3.6vw,2.8rem)]">{built >= BUILD.length ? 'Your plan is ready' : 'Sensai is building your plan'}</h2>
+                    <h2 className="display text-[clamp(1.9rem,3.6vw,2.8rem)]">{built >= BUILD.length ? 'Your plan is ready' : 'Humo is building your plan'}</h2>
                     <ul className="mt-6 space-y-2.5">
                       {BUILD.map((b, i) => (
                         <motion.li key={b} initial={{ opacity: 0, x: -10 }} animate={{ opacity: i <= built ? 1 : 0.3, x: 0 }} transition={{ delay: i * 0.05 }} className="flex items-center gap-3 text-[14.5px]">

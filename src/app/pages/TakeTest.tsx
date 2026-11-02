@@ -17,7 +17,7 @@ export function QuestionBody({ q, className = '' }: { q: TestQuestion; className
 }
 
 export function Passage({ html }: { html: string }) {
-  // Content is authored by STEP12 and bundled with the app.
+  // Content is authored by Humo AI and bundled with the app.
   return <div className="prose-q font-serif text-[17px] leading-[1.75] text-pine" dangerouslySetInnerHTML={{ __html: html }} />
 }
 
@@ -63,11 +63,11 @@ function HintButton({ q, value }: { q: TestQuestion; value: string | null }) {
     <div className="mt-3">
       {!hint ? (
         <button onClick={get} disabled={busy} className="inline-flex items-center gap-2 text-[13px] font-medium text-jg-700 hover:text-jg-600 disabled:opacity-60">
-          <img src="/sensai-mark.png" alt="" className="size-5 rounded-md" /> {busy ? 'Sensai is thinking…' : 'Get a hint from Sensai'}
+          <img src="/brand/humo-mark.svg" alt="" className="size-5 rounded-md" /> {busy ? 'Humo is thinking…' : 'Get a hint from Humo'}
         </button>
       ) : (
         <div className="flex gap-2.5 rounded-xl border border-jg-500/25 bg-jg-50 p-3 text-[13.5px]">
-          <img src="/sensai-mark.png" alt="" className="size-6 shrink-0 rounded-md" />
+          <img src="/brand/humo-mark.svg" alt="" className="size-6 shrink-0 rounded-md" />
           <div>
             <RichText text={hint} />
           </div>
@@ -227,7 +227,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
     if (phase === 'break')
       return (
         <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} className="mx-auto max-w-lg px-6 py-20 text-center">
-          <motion.img src="/sensai-mark.png" alt="" className="mx-auto size-16 rounded-2xl shadow-lg shadow-jg-500/20" animate={{ y: [0, -8, 0] }} transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }} />
+          <motion.img src="/brand/humo-mark.svg" alt="" className="mx-auto size-16 rounded-2xl shadow-lg shadow-jg-500/20" animate={{ y: [0, -8, 0] }} transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }} />
           <h2 className="display mt-6 text-[34px]">Module {mod + 1} done</h2>
           <p className="mt-3 text-[15px] text-moss">
             {mode === 'practice' ? 'Take a breath, then continue to the next module.' : `Module ${mod + 2} starts with a fresh ${Math.round(perModule / 60)}-minute timer. On test day you get a 10-minute break between sections, not between modules — so keep going while you're warm.`}

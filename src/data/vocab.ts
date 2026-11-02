@@ -1,4 +1,4 @@
-// STEP12 — SAT vocabulary, written for Words-in-Context practice.
+// Humo AI — SAT vocabulary, written for Words-in-Context practice.
 // level: core = most frequent, advanced = common in hard modules, elite = 1500+ territory.
 
 export type Word = { word: string; pos: 'adj' | 'verb' | 'noun' | 'adv'; def: string; ex: string; syn: string[]; level: 'core' | 'advanced' | 'elite' }

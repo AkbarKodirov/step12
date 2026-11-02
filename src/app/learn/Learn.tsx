@@ -39,7 +39,7 @@ export function CoursePage() {
           )}
         </motion.div>
         <p className="relative inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-[12px] font-semibold">
-          <Sparkles className="size-3.5" /> STEP12 Masterclass · free
+          <Sparkles className="size-3.5" /> Humo AI Masterclass · free
         </p>
         <h1 className="display relative mt-4 max-w-2xl text-[clamp(2rem,4.5vw,3.2rem)] leading-[1.05]">{c.title}</h1>
         <p className="relative mt-3 max-w-xl text-[15px] text-white/80">{c.tagline}</p>
@@ -103,16 +103,16 @@ export function CoursePage() {
           <section className="card p-5">
             <h2 className="text-[15px] font-semibold">Your instructors</h2>
             <div className="mt-4 flex items-center gap-3">
-              <img src="/sensai-mark.png" alt="" className="size-12 rounded-2xl" />
+              <img src="/brand/humo-mark.svg" alt="" className="size-12 rounded-2xl" />
               <div>
-                <p className="text-[14px] font-semibold">Sensai</p>
+                <p className="text-[14px] font-semibold">Humo</p>
                 <p className="text-[12.5px] text-moss">AI tutor — answers questions inside every lesson</p>
               </div>
             </div>
             <div className="mt-3 flex items-center gap-3">
-              <img src="/brand/step12-mark.png" alt="" className="size-12 rounded-2xl" />
+              <img src="/brand/humo-mark.svg" alt="" className="size-12 rounded-2xl" />
               <div>
-                <p className="text-[14px] font-semibold">STEP12 teachers</p>
+                <p className="text-[14px] font-semibold">Humo AI teachers</p>
                 <p className="text-[12.5px] text-moss">SAT team in Tashkent</p>
               </div>
             </div>
@@ -125,7 +125,7 @@ export function CoursePage() {
                 ['Lessons', p.total],
                 ['Duration', `${Math.round(p.min / 6) / 10} h`],
                 ['Practice', 'Question bank by skill'],
-                ['Language', "English · Sensai also explains in O'zbekcha / Русский"],
+                ['Language', "English · Humo also explains in O'zbekcha / Русский"],
               ].map(([k, v]) => (
                 <div key={k as string} className="flex justify-between gap-3">
                   <dt className="text-moss">{k}</dt>
@@ -268,7 +268,7 @@ export function LessonPage() {
             </Link>
           )}
           <button onClick={() => setHumo(true)} className="btn btn-ghost h-11 px-5 text-[14px]">
-            <img src="/sensai-mark.png" alt="" className="size-5 rounded-md" /> Ask Sensai about this lesson
+            <img src="/brand/humo-mark.svg" alt="" className="size-5 rounded-md" /> Ask Humo about this lesson
           </button>
           <button
             onClick={() => setStore((x) => ({ ...x, lessonsDone: done ? Object.fromEntries(Object.entries(x.lessonsDone).filter(([k]) => k !== key)) : { ...x.lessonsDone, [key]: Date.now() } }))}

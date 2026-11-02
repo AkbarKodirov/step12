@@ -12,17 +12,17 @@ import { useAuth } from '../../lib/auth'
 type Space = 'humo' | 'desmos'
 const COPY: Record<Space, { greeting: string; starters: string[]; title: string; sub: string; placeholder: string }> = {
   humo: {
-    greeting: "I'm Sensai. Send me any SAT question — I'll solve math the Desmos way with a real Desmos screen — or ask me to build or change your study plan.",
+    greeting: "I'm Humo. Send me any SAT question — I'll solve math the Desmos way with a real Desmos screen — or ask me to build or change your study plan.",
     starters: ['Solve x² − 5x + 6 = 0 with Desmos', 'Make my weekends lighter in my plan', 'Ikkinchi darajali tenglamalarni tushuntir', 'What should I study after my last test?'],
-    title: 'Sensai',
+    title: 'Humo',
     sub: 'Digital SAT tutor · Desmos solves · edits your plan · English, O\'zbekcha, Русский',
-    placeholder: 'Ask Sensai or paste a math question…',
+    placeholder: 'Ask Humo or paste a math question…',
   },
   desmos: {
     greeting: 'Send me a photo or screenshot of any SAT Math question. I read it, type it into Desmos, check every number, and show you the Desmos screen step by step.',
     starters: ['How do I solve systems in Desmos?', 'Teach me list regression [ ] ~ [ ]', 'When should I NOT use Desmos?', 'Solve: for what k does x² + kx + 9 = 0 have one solution?'],
     title: 'Desmos Lab',
-    sub: 'Upload a question photo · Sensai solves it on a real Desmos screen · only in Uzbekistan',
+    sub: 'Upload a question photo · Humo solves it on a real Desmos screen · only in Uzbekistan',
     placeholder: 'Add a photo, paste a screenshot, or type the question…',
   },
 }
@@ -103,7 +103,7 @@ function HistoryList({ active, onPick, onNew, space }: { active: string; onPick:
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search chats" className="w-full bg-transparent text-[13px] focus:outline-none" />
       </label>
       <div className="-mx-1 mt-3 flex-1 overflow-y-auto px-1">
-        {groups.length === 0 && <p className="px-2 py-6 text-center text-[12.5px] text-moss">{q ? 'No chats match.' : 'Your conversations with Sensai will appear here.'}</p>}
+        {groups.length === 0 && <p className="px-2 py-6 text-center text-[12.5px] text-moss">{q ? 'No chats match.' : 'Your conversations with Humo will appear here.'}</p>}
         {groups.map(([g, chats]) => (
           <div key={g} className="mb-3">
             <p className="px-2 pb-1 text-[11px] font-semibold uppercase tracking-wide text-moss/80">{g}</p>
@@ -188,7 +188,7 @@ function ChatPane({ id, initial, space }: { id: string; initial?: ChatMsg[]; spa
   const s = useStore()
   const { user } = useAuth()
   const c = COPY[space]
-  const context = studentContext(s, space === 'desmos' ? 'the Desmos Lab (photo questions)' : 'the Ask Sensai page')
+  const context = studentContext(s, space === 'desmos' ? 'the Desmos Lab (photo questions)' : 'the Ask Humo page')
   const [hi] = useState(() => `${hello(user?.name?.split(' ')[0])} ${c.greeting}`)
   const { msgs, busy, send, retry, stop } = useHumoChat(hi, context, { initial, onChange: (m) => saveChat(id, m, space), space })
   const [input, setInput] = useState('')
@@ -370,7 +370,7 @@ export default function HumoChat({ space = 'humo' }: { space?: Space }) {
       </aside>
       <div className="flex min-w-0 flex-1 flex-col">
         <div className="flex items-center gap-3 pb-4">
-          {space === 'desmos' ? <span className="grid size-11 place-items-center rounded-2xl bg-[#2d70b3] font-serif text-[22px] font-bold text-white">D</span> : <img src="/sensai-mark.png" alt="" className="size-11 rounded-2xl" />}
+          {space === 'desmos' ? <span className="grid size-11 place-items-center rounded-2xl bg-[#2d70b3] font-serif text-[22px] font-bold text-white">D</span> : <img src="/brand/humo-mark.svg" alt="" className="size-11 rounded-2xl" />}
           <div className="min-w-0 flex-1">
             <h1 className="display truncate text-[26px] leading-none">{chat?.title ?? c.title}</h1>
             <p className="mt-1 hidden text-[12.5px] text-moss sm:block">{c.sub}</p>

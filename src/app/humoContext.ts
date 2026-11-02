@@ -4,7 +4,7 @@ import { generatePlan } from './plan'
 type S = ReturnType<typeof useStore>
 const LANG = { en: 'English', uz: "O'zbekcha", ru: 'Русский' }
 
-/** Everything Sensai should know about the student, as compact text for the system context. */
+/** Everything Humo should know about the student, as compact text for the system context. */
 export function studentContext(s: S, page?: string) {
   const p = s.profile
   const last = s.attempts[s.attempts.length - 1]

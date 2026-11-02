@@ -1,15 +1,15 @@
 {
-  "name": "STEP12 — Digital SAT with Sensai",
-  "short_name": "STEP12",
-  "description": "Digital SAT practice, full timed tests and Sensai, your AI tutor.",
+  "name": "Humo AI — Digital SAT prep",
+  "short_name": "Humo AI",
+  "description": "Digital SAT practice, full timed tests and Humo, your AI tutor.",
   "start_url": "/app",
   "scope": "/",
   "display": "standalone",
   "background_color": "#050e19",
   "theme_color": "#050e19",
   "icons": [
-    { "src": "/sensai-mark.png", "sizes": "256x256", "type": "image/png" },
-    { "src": "/sensai-mark-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/sensai-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "/humo-mark.png", "sizes": "256x256", "type": "image/png" },
+    { "src": "/humo-mark-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/humo-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

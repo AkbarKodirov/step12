@@ -57,7 +57,7 @@ for (const g of adds) {
   bank.push({
     id,
     set: 'step12',
-    setName: 'STEP12 collection',
+    setName: 'Humo AI collection',
     section: t.section,
     domain: t.domain,
     topic: t.name,

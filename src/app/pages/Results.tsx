@@ -55,15 +55,15 @@ function ReviewItem({ test, attempt, m, i, n, onAsk }: { test: Test; attempt: At
       </div>
 
       <div className="space-y-5 p-5 sm:p-6">
-        {/* Sensai analyses a question only when the student asks */}
+        {/* Humo analyses a question only when the student asks */}
         {analyze ? (
           <HumoExplain testId={test.id} qKey={`${m}:${i}`} q={q} math={test.type === 'MATH'} onAsk={() => onAsk(`About question ${n}: `)} />
         ) : (
           <div className="flex flex-wrap items-center gap-2 rounded-2xl border border-jg-500/20 bg-gradient-to-r from-jg-50 to-card p-3">
-            <img src="/sensai-mark.png" alt="" className="size-9 rounded-xl" />
-            <p className="min-w-0 flex-1 text-[13px] text-moss">{ok ? 'Got it right — want the fastest method anyway?' : blank ? 'Skipped — see how to solve it.' : 'Sensai can show exactly where this one went wrong.'}</p>
+            <img src="/brand/humo-mark.svg" alt="" className="size-9 rounded-xl" />
+            <p className="min-w-0 flex-1 text-[13px] text-moss">{ok ? 'Got it right — want the fastest method anyway?' : blank ? 'Skipped — see how to solve it.' : 'Humo can show exactly where this one went wrong.'}</p>
             <button onClick={() => setAnalyze(true)} className="inline-flex items-center gap-1.5 rounded-full bg-pine px-4 py-2 text-[13px] font-semibold text-cream hover:bg-pine-2">
-              <Sparkles className="size-4 text-jg-300" /> Analyze with Sensai
+              <Sparkles className="size-4 text-jg-300" /> Analyze with Humo
             </button>
 
           </div>
@@ -197,7 +197,7 @@ export default function Results() {
         </div>
         <div className="relative mt-7 flex flex-wrap gap-2.5">
           <button onClick={() => setChat({ open: true })} className="btn btn-green h-11 px-5 text-[14px]">
-            <img src="/sensai-mark.png" alt="" className="size-6 rounded-md" /> Talk it through with Sensai
+            <img src="/brand/humo-mark.svg" alt="" className="size-6 rounded-md" /> Talk it through with Humo
           </button>
           {wrongN > 0 && (
             <Link to="/app/mistakes" className="btn h-11 border border-white/15 px-5 text-[14px] text-cream hover:bg-white/[0.06]">
@@ -279,14 +279,14 @@ export default function Results() {
         )}
       </div>
 
-      {/* Floating Sensai button */}
+      {/* Floating Humo button */}
       <button
         onClick={() => setChat({ open: true })}
         className="fixed bottom-24 right-5 z-30 flex items-center gap-2 rounded-full bg-pine py-2 pl-2 pr-4 text-[14px] font-semibold text-cream shadow-xl shadow-pine/30 transition hover:scale-[1.03] md:bottom-8"
-        aria-label="Chat with Sensai about this test"
+        aria-label="Chat with Humo about this test"
       >
-        <img src="/sensai-mark.png" alt="" className="size-9 rounded-full ring-2 ring-jg-500" />
-        Ask Sensai
+        <img src="/brand/humo-mark.svg" alt="" className="size-9 rounded-full ring-2 ring-jg-500" />
+        Ask Humo
         <MessageCircle className="size-4 opacity-70" />
       </button>
 

@@ -5,6 +5,7 @@ import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
 import { startSync, streak, useBindStore, useStore } from './store'
+import { HumoLogo } from '../brand/HumoLogo'
 
 const HomePage = lazy(() => import('./pages/Home'))
 const HumoChat = lazy(() => import('./pages/HumoChat'))
@@ -33,7 +34,7 @@ const GROUPS: { label: string | null; items: Item[] }[] = [
     label: null,
     items: [
       { to: '/app', label: 'Home', icon: Home, end: true },
-      { to: '/app/humo', label: 'Ask Sensai', icon: MessageCircle },
+      { to: '/app/humo', label: 'Ask Humo', icon: MessageCircle },
       { to: '/app/plan', label: 'Study plan', icon: CalendarCheck },
     ],
   },
@@ -76,7 +77,7 @@ const MOBILE = [
   { to: '/app/vocab', label: 'Vocab', icon: BookMarked },
 ]
 
-/** "Install app" button: shown only when the browser offers to install STEP12 (Android Chrome, desktop Chrome/Edge). */
+/** "Install app" button: shown only when the browser offers to install Humo AI (Android Chrome, desktop Chrome/Edge). */
 function InstallButton() {
   const [evt, setEvt] = useState<any>(null)
   useEffect(() => {
@@ -127,14 +128,14 @@ export default function AppShell() {
   const s = useStore()
   const nav = useNavigate()
   const { pathname } = useLocation()
-  // browser tab title follows the page: "Question bank · STEP12"
+  // browser tab title follows the page: "Question bank · Humo AI"
   useEffect(() => {
     const all = GROUPS.flatMap((g) => g.items)
     const hit = [...all].sort((a, b) => b.to.length - a.to.length).find((i) => (i.end ? pathname === i.to : pathname.startsWith(i.to)))
     const extra = pathname.startsWith('/app/practice/run') ? 'Practice' : /\/app\/tests\/[^/]+\/take/.test(pathname) ? 'Test in progress' : null
-    document.title = `${extra ?? hit?.label ?? 'STEP12'} · STEP12`
+    document.title = `${extra ?? hit?.label ?? 'Humo AI'} · Humo AI`
     return () => {
-      document.title = 'STEP12 — Digital SAT prep with Sensai'
+      document.title = 'Humo AI — Digital SAT prep with your AI tutor'
     }
   }, [pathname])
   const days = streak(s.activeDays)
@@ -174,7 +175,7 @@ export default function AppShell() {
     at.setHours(h, m, 0, 0)
     const ms = at.getTime() - Date.now()
     if (ms < 0) return
-    const t = setTimeout(() => new Notification('Time to study with Sensai', { body: `Today's plan: ${(s.plan?.days[day] ?? []).map((x) => x.title).slice(0, 3).join(' · ') || 'Daily 20 words'}`, icon: '/sensai-mark.png' }), ms)
+    const t = setTimeout(() => new Notification('Time to study with Humo', { body: `Today's plan: ${(s.plan?.days[day] ?? []).map((x) => x.title).slice(0, 3).join(' · ') || 'Daily 20 words'}`, icon: '/humo-mark.png' }), ms)
     return () => clearTimeout(t)
   }, [s.settings.reminders, s.profile.studyDays, s.profile.studyTime, s.plan])
 
@@ -208,7 +209,7 @@ export default function AppShell() {
       {/* Sidebar */}
       <aside className="theme-light fixed inset-y-0 left-0 hidden w-64 flex-col bg-pine p-4 text-cream md:flex">
         <Link to="/" className="flex items-center gap-2.5 px-2 py-2">
-          <img src="/brand/step12-logo.png" alt="STEP12" className="h-8 w-auto rounded-[5px] ring-1 ring-white/15" />
+          <HumoLogo className="h-8" />
           <span className="border-l border-white/15 pl-2.5 text-[10.5px] font-medium uppercase leading-tight tracking-[0.14em] text-cream/55">
             Digital
             <br />
@@ -235,7 +236,7 @@ export default function AppShell() {
                         {isActive && <motion.span layoutId="nav-bar" className="absolute left-0 top-1/2 h-5 w-1 -translate-y-1/2 rounded-r-full bg-jg-400" transition={{ type: 'spring', stiffness: 420, damping: 34 }} />}
                         <Icon className="relative size-[18px]" />
                         <span className="relative">{label}</span>
-                        {to === '/app/humo' && <img src="/sensai-mark.png" alt="" className="relative ml-auto size-5 rounded-md" />}
+                        {to === '/app/humo' && <img src="/brand/humo-mark.svg" alt="" className="relative ml-auto size-5 rounded-md" />}
                         {badge && <span className="relative ml-auto rounded-md bg-[#2d70b3] px-1.5 py-0.5 text-[10px] font-bold tracking-wide text-white">{badge}</span>}
                       </>
                     )}
@@ -271,7 +272,7 @@ export default function AppShell() {
       <header className="sticky top-0 z-30 border-b border-line bg-cream/85 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-8">
           <Link to="/" className="flex items-center gap-2 md:hidden">
-            <img src="/brand/step12-logo.png" alt="STEP12" className="h-7 w-auto rounded-[4px]" />
+            <HumoLogo className="h-7" />
           </Link>
           <span className="hidden md:block" />
           <div className="flex items-center gap-2">

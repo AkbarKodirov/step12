@@ -1,7 +1,7 @@
 import type { Skill } from '../store'
 
 /**
- * STEP12 courses. Two tracks, like a masterclass: SAT Reading & Writing, and Math & Desmos.
+ * Humo AI courses. Two tracks, like a masterclass: SAT Reading & Writing, and Math & Desmos.
  * Math & Desmos lessons follow the desmos-sat-coach playbook; each comes with live Desmos lines.
  */
 export type Example = { text?: string; question: string; choices?: string[]; answer: string; why: string }
@@ -25,7 +25,7 @@ export const RW: Course = {
   id: 'rw',
   title: 'SAT Reading & Writing',
   short: 'Reading & Writing',
-  tagline: 'Every question type in the Reading and Writing section, one clear method each — with Sensai checking your thinking.',
+  tagline: 'Every question type in the Reading and Writing section, one clear method each — with Humo checking your thinking.',
   color: 'from-jg-700 to-jg-500',
   modules: [
     {
@@ -429,7 +429,7 @@ export const MATH: Course = {
     {
       id: 'engine',
       title: 'The Desmos-AI engine',
-      blurb: 'One list regression for almost any word problem — the move Sensai uses first.',
+      blurb: 'One list regression for almost any word problem — the move Humo uses first.',
       lessons: [
         {
           id: 'list-engine',

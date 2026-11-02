@@ -10,18 +10,18 @@ async function call<T>(url: string, body: unknown, token: string | null): Promis
   try {
     res = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }, body: JSON.stringify(body) })
   } catch {
-    throw new HumoOffline('Sensai can’t be reached right now. Check your internet connection and try again in a moment.')
+    throw new HumoOffline('Humo can’t be reached right now. Check your internet connection and try again in a moment.')
   }
   const data = await res.json().catch(() => ({}))
-  if (res.status === 503) throw new HumoOffline(data.error || 'Sensai needs a Gemini API key.')
-  if (!res.ok) throw new Error(data.error || 'Sensai could not answer. Try again.')
+  if (res.status === 503) throw new HumoOffline(data.error || 'Humo needs a Gemini API key.')
+  if (!res.ok) throw new Error(data.error || 'Humo could not answer. Try again.')
   return data as T
 }
 
 export type HumoAnswer = { reply: string; desmos?: DesmosScreen[]; plan?: WeekPlan | null }
 
-/** Ask Sensai. With `onText`, the reply streams in: `onText` gets the text written so far, then the checked answer resolves. */
-/** Thrown when the student presses Stop; carries what Sensai had written so far. */
+/** Ask Humo. With `onText`, the reply streams in: `onText` gets the text written so far, then the checked answer resolves. */
+/** Thrown when the student presses Stop; carries what Humo had written so far. */
 export class HumoStopped extends Error {
   constructor(public partial: string) {
     super('stopped')
@@ -40,7 +40,7 @@ export async function askHumo(messages: ChatMsg[], token: string | null, context
       return { role: m.role, text: m.text, ...(keep ? { images: m.images } : m.images?.length ? { text: `${m.text} [photo of a question sent earlier]`.trim() } : {}) }
     })
     .reverse()
-  // the last two weeks of question-bank answers (ids only): the server turns them into per-skill accuracy for Sensai
+  // the last two weeks of question-bank answers (ids only): the server turns them into per-skill accuracy for Humo
   const since = Date.now() - 14 * 86400000
   const recent = Object.entries(getStore().qbank)
     .filter(([, v]) => v.at >= since)
@@ -54,12 +54,12 @@ export async function askHumo(messages: ChatMsg[], token: string | null, context
     res = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }, body: JSON.stringify({ ...body, stream: true }), signal })
   } catch {
     if (signal?.aborted) throw new HumoStopped('')
-    throw new HumoOffline('Sensai can’t be reached right now. Check your internet connection and try again in a moment.')
+    throw new HumoOffline('Humo can’t be reached right now. Check your internet connection and try again in a moment.')
   }
   if (!res.ok || !res.body) {
     const data = await res.json().catch(() => ({}))
-    if (res.status === 503) throw new HumoOffline(data.error || 'Sensai needs a Gemini API key.')
-    throw new Error(data.error || 'Sensai could not answer. Try again.')
+    if (res.status === 503) throw new HumoOffline(data.error || 'Humo needs a Gemini API key.')
+    throw new Error(data.error || 'Humo could not answer. Try again.')
   }
   const reader = res.body.pipeThrough(new TextDecoderStream()).getReader()
   let buf = ''
@@ -89,7 +89,7 @@ export async function askHumo(messages: ChatMsg[], token: string | null, context
       if (o.delta) onText(text)
     }
   }
-  throw new Error('Sensai stopped mid-answer. Try again.')
+  throw new Error('Humo stopped mid-answer. Try again.')
 }
 
 /** What to show while a reply is still streaming: Desmos and plan blocks appear only once they are checked. */
@@ -107,7 +107,7 @@ export function similarQuestion(q: TestQuestion, skill: string, section: string,
 
 export type DesmosSolve = { text: string; desmos: DesmosScreen[] }
 const solves = new Map<string, Promise<DesmosSolve>>()
-/** Sensai's Desmos walkthrough + checked Desmos screen. Bank questions by id, any other question by payload. */
+/** Humo's Desmos walkthrough + checked Desmos screen. Bank questions by id, any other question by payload. */
 export function desmosSolve(body: { bankId: string } | ({ id: string } & ReturnType<typeof questionPayload>), token: string | null) {
   const key = 'bankId' in body ? body.bankId : body.id
   if (!solves.has(key)) {

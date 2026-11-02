@@ -21,7 +21,7 @@ type AuthCtx = {
 }
 
 const KEY = 'step12.session'
-const OLD_KEY = 'jamals.session' // before the STEP12 rebrand
+const OLD_KEY = 'jamals.session' // before the Humo AI rebrand
 const Ctx = createContext<AuthCtx | null>(null)
 
 export const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined

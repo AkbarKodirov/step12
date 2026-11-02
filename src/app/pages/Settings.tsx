@@ -91,7 +91,7 @@ export default function Settings() {
   }
 
   function exportData() {
-    const blob = new Blob([JSON.stringify({ app: 'STEP12', exportedAt: new Date().toISOString(), user: { name: user?.name, email: user?.email }, progress: getStore() }, null, 2)], { type: 'application/json' })
+    const blob = new Blob([JSON.stringify({ app: 'Humo AI', exportedAt: new Date().toISOString(), user: { name: user?.name, email: user?.email }, progress: getStore() }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `step12-progress-${new Date().toISOString().slice(0, 10)}.json`
@@ -105,7 +105,7 @@ export default function Settings() {
       setStore((st) => ({ ...st, ...prog }))
       flash()
     } catch {
-      alert('That file is not a STEP12 progress export.')
+      alert('That file is not a Humo AI progress export.')
     }
   }
   async function deleteAccount() {
@@ -163,7 +163,7 @@ export default function Settings() {
                 <p className="text-[20px] font-semibold">{user?.name}</p>
                 <p className="truncate text-[13px] text-moss">{user?.email}</p>
               </div>
-              <span className="mt-14 rounded-full bg-jg-50 px-3 py-1 text-[12px] font-semibold text-jg-700">STEP12 student · every feature free</span>
+              <span className="mt-14 rounded-full bg-jg-50 px-3 py-1 text-[12px] font-semibold text-jg-700">Humo AI student · every feature free</span>
             </div>
             <dl className="mt-5 grid gap-3 text-[13.5px] sm:grid-cols-3">
               <div className="rounded-2xl bg-soft p-3.5">
@@ -220,7 +220,7 @@ export default function Settings() {
             {danger && (
               <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="overflow-hidden">
                 <div className="mt-4 rounded-2xl bg-red-50 p-4 text-[13.5px] text-red-900">
-                  {danger === 'reset' ? 'This erases your tests, practice, vocabulary, plan and chats on this device.' : 'This deletes your STEP12 account and all progress. It cannot be undone.'} Type <b>DELETE</b> to confirm.
+                  {danger === 'reset' ? 'This erases your tests, practice, vocabulary, plan and chats on this device.' : 'This deletes your Humo AI account and all progress. It cannot be undone.'} Type <b>DELETE</b> to confirm.
                   <div className="mt-3 flex gap-2">
                     <input value={typed} onChange={(e) => setTyped(e.target.value)} className="w-36 rounded-lg border border-red-200 bg-card px-3 py-2 text-[14px] focus:outline-none" />
                     <button
@@ -284,7 +284,7 @@ export default function Settings() {
           </div>
         </Section>
 
-        <Section icon={Languages} title="Sensai" sub="How your tutor talks to you">
+        <Section icon={Languages} title="Humo" sub="How your tutor talks to you">
           <div className="space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <span className="text-[14px] font-medium">Reply language</span>
@@ -309,7 +309,7 @@ export default function Settings() {
                 onChange={(v) => set({ humoStyle: v })}
               />
             </div>
-            <Toggle on={s.settings.desmosFirst} onChange={(v) => set({ desmosFirst: v })} label="Desmos-first Math" sub="Sensai solves math the Desmos way with a checked Desmos screen" />
+            <Toggle on={s.settings.desmosFirst} onChange={(v) => set({ desmosFirst: v })} label="Desmos-first Math" sub="Humo solves math the Desmos way with a checked Desmos screen" />
           </div>
         </Section>
 
@@ -326,7 +326,7 @@ export default function Settings() {
                 set({ reminders: v })
               }}
               label="Study reminder"
-              sub={`A nudge at ${p.studyTime ?? '18:00'} on study days while STEP12 is open. For phone alerts, add the plan to Google Calendar.`}
+              sub={`A nudge at ${p.studyTime ?? '18:00'} on study days while Humo AI is open. For phone alerts, add the plan to Google Calendar.`}
             />
             <Toggle on={s.settings.sounds} onChange={(v) => set({ sounds: v })} label="Sounds" sub="Soft sounds for correct answers and streaks" />
           </div>
@@ -376,7 +376,7 @@ export default function Settings() {
           <p className="mt-2 text-[11.5px] text-moss">In Google Calendar: Settings → Import & export → Import the file. Works with Apple Calendar and Outlook too. No access to your Google account is needed.</p>
         </Section>
 
-        <Section icon={Plug} title="Integrations" sub="Connect services that work with your STEP12 study plan">
+        <Section icon={Plug} title="Integrations" sub="Connect services that work with your Humo AI study plan">
           <ul className="divide-y divide-line">
             {[
               ['Google Calendar', 'Weekly study events with reminders, until test day', 'calendar', '#1a73e8'],
@@ -424,7 +424,7 @@ export default function Settings() {
             </button>
           </div>
           <p className="mt-3 text-[12px] text-moss">
-            {s.attempts.length} tests · {s.drills.length} drills · {Object.keys(s.vocab).length} words studied · {s.chats.length} Sensai chats
+            {s.attempts.length} tests · {s.drills.length} drills · {Object.keys(s.vocab).length} words studied · {s.chats.length} Humo chats
           </p>
         </Section>
 

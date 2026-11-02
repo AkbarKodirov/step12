@@ -11,14 +11,14 @@ export const MODES: { id: Mode; name: string; icon: typeof Timer; line: string; 
     name: 'Exam mode',
     icon: GraduationCap,
     line: 'Exactly like test day.',
-    points: ['Real timing per module', 'No answers until the end', 'No going back to a finished module', 'Score + full Sensai review after'],
+    points: ['Real timing per module', 'No answers until the end', 'No going back to a finished module', 'Score + full Humo review after'],
   },
   {
     id: 'practice',
     name: 'Practice mode',
     icon: ListChecks,
     line: 'Learn as you go.',
-    points: ['No time pressure', 'Check each answer instantly', 'Sensai explains right after you answer', 'Move freely between modules'],
+    points: ['No time pressure', 'Check each answer instantly', 'Humo explains right after you answer', 'Move freely between modules'],
   },
   {
     id: 'sprint',
@@ -127,7 +127,7 @@ export default function Tests() {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="display text-[clamp(2rem,4vw,2.75rem)]">Practice tests</h1>
-          <p className="mt-2 text-[15px] text-moss">Full Digital SAT sections written by STEP12 teachers. Pick a test, then pick a mode.</p>
+          <p className="mt-2 text-[15px] text-moss">Full Digital SAT sections written by Humo AI teachers. Pick a test, then pick a mode.</p>
         </div>
         {data && (
           <div className="card flex items-center gap-5 px-5 py-3">

@@ -10,7 +10,7 @@ const PRIVACY: Section[] = [
   {
     h: 'Who we are',
     p: [
-      'STEP12 is the online exam-preparation platform of STEP12, Tashkent, Uzbekistan ("we", "us"). This policy explains what information we collect when you use STEP12 and how we use it.',
+      'Humo AI is an online exam-preparation platform based in Tashkent, Uzbekistan ("we", "us"). This policy explains what information we collect when you use Humo AI and how we use it.',
     ],
   },
   {
@@ -18,15 +18,15 @@ const PRIVACY: Section[] = [
     p: [
       'Account information: when you sign in with Google we receive your name, email address and profile photo from Google. We do not receive your Google password and we do not access your Gmail, Drive, contacts or any other Google data. If you sign up with email, we store your name, email and a securely hashed version of your password.',
       'Learning data: your answers, scores, mock test results, study plan, target score and test date.',
-      'Messages to Sensai: the questions and essays you send to Sensai, our AI tutor.',
+      'Messages to Humo: the questions and essays you send to Humo, our AI tutor.',
       'Technical data: basic logs such as IP address, browser type and error reports, used to keep the service secure and working.',
     ],
   },
   {
     h: 'How we use it',
     p: [
-      'To create and secure your account, save your progress, build your study plan, score your practice and mock tests, and let Sensai answer your questions.',
-      'For STEP12 students who join with an academy code, your teacher can see your progress and scores.',
+      'To create and secure your account, save your progress, build your study plan, score your practice and mock tests, and let Humo answer your questions.',
+      'For Humo AI students who join with an academy code, your teacher can see your progress and scores.',
       'To improve our questions and features using aggregated, non-identifying statistics.',
       'We do not sell your personal information and we do not use it for third-party advertising.',
     ],
@@ -34,13 +34,13 @@ const PRIVACY: Section[] = [
   {
     h: 'AI processing',
     p: [
-      "Messages you send to Sensai are processed by AI providers to generate a reply: Google Gemini first, and Groq or OpenRouter as backups when Gemini is busy. Your email address is not sent with your messages. Don't include sensitive personal information (such as passport numbers or health details) in messages to Sensai.",
+      "Messages you send to Humo are processed by AI providers to generate a reply: Google Gemini first, and Groq or OpenRouter as backups when Gemini is busy. Your email address is not sent with your messages. Don't include sensitive personal information (such as passport numbers or health details) in messages to Humo.",
     ],
   },
   {
     h: 'Sharing',
     p: [
-      'We share information only with service providers who help us run STEP12 (hosting, Google sign-in, and the AI providers Google Gemini, Groq and OpenRouter), with your teacher if you joined through STEP12, or when required by law.',
+      'We share information only with service providers who help us run Humo AI (hosting, Google sign-in, and the AI providers Google Gemini, Groq and OpenRouter), with your teacher if you joined through Humo AI, or when required by law.',
     ],
   },
   {
@@ -52,13 +52,13 @@ const PRIVACY: Section[] = [
   {
     h: 'Your choices',
     p: [
-      'You can view and update your profile in the app, ask us for a copy of your data, or ask us to delete it. You can also remove STEP12\'s access to your Google account at myaccount.google.com → Security → Third-party connections.',
+      'You can view and update your profile in the app, ask us for a copy of your data, or ask us to delete it. You can also remove Humo AI\'s access to your Google account at myaccount.google.com → Security → Third-party connections.',
     ],
   },
   {
     h: 'Children',
     p: [
-      'STEP12 is intended for students aged 13 and older. If you are under 18, please use STEP12 with the knowledge of a parent or guardian.',
+      'Humo AI is intended for students aged 13 and older. If you are under 18, please use Humo AI with the knowledge of a parent or guardian.',
     ],
   },
   {
@@ -71,23 +71,23 @@ const PRIVACY: Section[] = [
 
 const TERMS: Section[] = [
   {
-    h: 'Using STEP12',
+    h: 'Using Humo AI',
     p: [
-      'By creating an account or using STEP12 you agree to these terms. If you do not agree, please do not use the service.',
+      'By creating an account or using Humo AI you agree to these terms. If you do not agree, please do not use the service.',
       'You are responsible for keeping your account secure and for activity under your account. One account is for one student.',
     ],
   },
   {
     h: 'Our content',
     p: [
-      'Questions, explanations, mock tests and other materials on STEP12 are owned by STEP12. You may use them for your own preparation. You may not copy, resell, publish or share them in bulk, or use automated tools to download them.',
+      'Questions, explanations, mock tests and other materials on Humo AI are owned by Humo AI. You may use them for your own preparation. You may not copy, resell, publish or share them in bulk, or use automated tools to download them.',
     ],
   },
   {
-    h: 'Sensai and AI answers',
+    h: 'Humo and AI answers',
     p: [
-      'Sensai is an AI tutor and can make mistakes. Check important information, and use official materials as well when preparing for your exam.',
-      'Do not use Sensai to cheat on real exams or graded assignments, or to generate harmful content.',
+      'Humo is an AI tutor and can make mistakes. Check important information, and use official materials as well when preparing for your exam.',
+      'Do not use Humo to cheat on real exams or graded assignments, or to generate harmful content.',
     ],
   },
   {
@@ -99,19 +99,19 @@ const TERMS: Section[] = [
   {
     h: 'Plans and payments',
     p: [
-      'Free features may change over time. Paid plans are billed monthly and you can cancel at any time; you keep access until the end of the period you paid for. STEP12 students receive access as part of their course.',
+      'Free features may change over time. Paid plans are billed monthly and you can cancel at any time; you keep access until the end of the period you paid for. Humo AI students receive access as part of their course.',
     ],
   },
   {
     h: 'Ending access',
     p: [
-      'You can stop using STEP12 and ask us to delete your account at any time. We may suspend accounts that break these terms, for example by sharing paid content or abusing the service.',
+      'You can stop using Humo AI and ask us to delete your account at any time. We may suspend accounts that break these terms, for example by sharing paid content or abusing the service.',
     ],
   },
   {
     h: 'Trademarks',
     p: [
-      'SAT® is a trademark of the College Board. The College Board is not affiliated with and does not endorse STEP12.',
+      'SAT® is a trademark of the College Board. The College Board is not affiliated with and does not endorse Humo AI.',
     ],
   },
   {

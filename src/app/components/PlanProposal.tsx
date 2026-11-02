@@ -5,7 +5,7 @@ import { CalendarCheck, Check } from 'lucide-react'
 import { useStore, type WeekPlan } from '../store'
 import { applyPlan, DAY_NAMES, KINDS, planDiff, planMinutes } from '../plan'
 
-/** Sensai's suggested week, shown inside a chat message with an Apply button. */
+/** Humo's suggested week, shown inside a chat message with an Apply button. */
 export function PlanProposal({ plan }: { plan: WeekPlan }) {
   const s = useStore()
   const [applied, setApplied] = useState(false)
@@ -13,7 +13,7 @@ export function PlanProposal({ plan }: { plan: WeekPlan }) {
     <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="my-3 overflow-hidden rounded-2xl border border-jg-500/30 bg-gradient-to-b from-jg-50 to-card">
       <div className="flex items-center gap-2 border-b border-jg-500/15 px-4 py-2.5">
         <CalendarCheck className="size-4 text-jg-700" />
-        <p className="flex-1 text-[13px] font-semibold text-pine">Sensai's plan · {Math.round(planMinutes(plan) / 6) / 10} h/week</p>
+        <p className="flex-1 text-[13px] font-semibold text-pine">Humo's plan · {Math.round(planMinutes(plan) / 6) / 10} h/week</p>
         <span className="text-[11px] text-moss">{planDiff(s.plan, plan)}</span>
       </div>
       <div className="grid grid-cols-7 gap-1 p-3">

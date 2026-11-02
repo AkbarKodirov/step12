@@ -9,7 +9,7 @@ export type { Screen as DesmosScreenData }
 // Desmos's public demo key works for study; set VITE_DESMOS_API_KEY to the site's own free key from desmos.com/api.
 const DESMOS_KEY = import.meta.env.VITE_DESMOS_API_KEY || 'dcb31709b452b1cf9dc26972add0fda6'
 
-/** Plain Desmos text → Desmos LaTeX, for lines Sensai didn't give LaTeX for. */
+/** Plain Desmos text → Desmos LaTeX, for lines Humo didn't give LaTeX for. */
 export function toLatex(t: string) {
   let s = t
   // sqrt(…) → \sqrt{…}
@@ -55,7 +55,7 @@ function loadDesmos() {
   return desmosLoading
 }
 
-/** The real Desmos calculator with Sensai's lines already typed in: Desmos itself computes everything. */
+/** The real Desmos calculator with Humo's lines already typed in: Desmos itself computes everything. */
 export function LiveDesmos({ screen, className = 'h-[60vh]' }: { screen: Screen; className?: string }) {
   const el = useRef<HTMLDivElement>(null)
   const [err, setErr] = useState<string | null>(null)
@@ -79,7 +79,7 @@ export function LiveDesmos({ screen, className = 'h-[60vh]' }: { screen: Screen;
   return err ? <p className="grid h-40 place-items-center text-[13px] text-moss">{err}</p> : <div ref={el} className={`w-full ${className}`} />
 }
 
-/** Sensai's checked Desmos screen picture, with "open live" and "save" actions. */
+/** Humo's checked Desmos screen picture, with "open live" and "save" actions. */
 export function DesmosScreen({ screen, compact = false }: { screen: Screen; compact?: boolean }) {
   const [live, setLive] = useState(false)
   const svg = useMemo(() => renderDesmosSvg(screen), [screen])
@@ -122,7 +122,7 @@ export function DesmosScreen({ screen, compact = false }: { screen: Screen; comp
             <motion.div className="fixed inset-0 z-[70] grid place-items-center bg-pine/50 p-3 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={() => setLive(false)}>
               <motion.div initial={{ scale: 0.96, y: 12 }} animate={{ scale: 1, y: 0 }} exit={{ scale: 0.96, y: 12 }} onClick={(e) => e.stopPropagation()} className="w-full max-w-5xl overflow-hidden rounded-3xl bg-card">
                 <div className="flex items-center gap-3 border-b border-line px-5 py-3">
-                  <p className="flex-1 text-[14px] font-semibold text-pine">Live Desmos · {screen.title || 'Sensai solve'}</p>
+                  <p className="flex-1 text-[14px] font-semibold text-pine">Live Desmos · {screen.title || 'Humo solve'}</p>
                   <button onClick={() => setLive(false)} aria-label="Close" className="rounded-full p-1.5 text-moss hover:bg-cream">
                     <X className="size-5" />
                   </button>

@@ -16,7 +16,7 @@ function Protected({ children }: { children: React.ReactNode }) {
 function Loading() {
   return (
     <div className="grid min-h-svh place-items-center bg-ink">
-      <img src="/sensai-mark.png" alt="" className="size-10 animate-pulse" />
+      <img src="/brand/humo-mark.svg" alt="" className="size-10 animate-pulse" />
     </div>
   )
 }
@@ -31,7 +31,7 @@ class ErrorBoundary extends Component<{ children: ReactNode }, { error: Error | 
     return (
       <div className="grid min-h-svh place-items-center bg-cream p-6 text-pine">
         <div className="max-w-sm text-center">
-          <img src="/sensai-mark.png" alt="" className="mx-auto size-14 rounded-2xl" />
+          <img src="/brand/humo-mark.svg" alt="" className="mx-auto size-14 rounded-2xl" />
           <h1 className="display mt-6 text-[30px]">Something went wrong</h1>
           <p className="mt-2 text-[14px] text-moss">This page hit an error. Reloading usually fixes it; your progress is saved on this device.</p>
           <p className="mt-3 rounded-xl bg-white px-3 py-2 font-mono text-[11px] text-moss">{this.state.error.message}</p>

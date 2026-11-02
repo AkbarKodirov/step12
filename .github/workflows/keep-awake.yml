@@ -1,6 +1,6 @@
 # Render's free plan puts the server to sleep after 15 minutes without visitors, and the first
 # visitor then waits ~40-50 s while it wakes up. This pings it every 10 minutes so it stays awake.
-name: Keep STEP12 awake
+name: Keep Humo AI awake
 on:
   schedule:
     - cron: '*/10 * * * *'

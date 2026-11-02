@@ -1,30 +1,30 @@
-# STEP12
+# Humo AI
 
-The exam platform of **STEP12** (Tashkent, since 2020): Digital SAT and IELTS practice with **Sensai**, a golden 3D AI tutor.
+The exam platform of **Humo AI** (Tashkent, since 2020): Digital SAT and IELTS practice with **Humo**, a golden 3D AI tutor.
 
 ## What's inside
 
 | Route | What it is |
 |---|---|
-| `/` | Landing page with a real-time 3D Sensai (Three.js / React Three Fiber), live "try a question" demo, features, pricing, FAQ |
-| `/login`, `/signup` | Google sign-in + email auth, 3D Sensai on the side |
+| `/` | Landing page with a real-time 3D Humo (Three.js / React Three Fiber), live "try a question" demo, features, pricing, FAQ |
+| `/login`, `/signup` | Google sign-in + email auth, 3D Humo on the side |
 | `/privacy`, `/terms` | Privacy Policy and Terms of Service (needed for Google publishing) |
-| `/app` | Home: score goal + predicted SAT range, exam countdown, streak, analytics strip, daily question, today's plan, live 3D Sensai |
-| first visit | Animated onboarding: aim, target, SAT date, level, weak skills, schedule → Sensai builds the first plan |
-| `/app/plan` | Editable weekly plan (add, remove, reorder, minutes), "Ask Sensai to change it", Google Calendar export (.ics + per-day links) |
-| `/app/humo` | Ask Sensai with saved chat history (search, pin, rename); Desmos solves with checked Desmos screens; plan proposals with Apply |
-| `/app/desmos` | Desmos Lab: 132 verified hard Math questions, hint ladder, live Desmos, Sensai's Desmos screen |
-| `/app/settings` | Profile, SAT goal, schedule, Sensai language/style, reminders, export/import, reset, delete account |
+| `/app` | Home: score goal + predicted SAT range, exam countdown, streak, analytics strip, daily question, today's plan, live 3D Humo |
+| first visit | Animated onboarding: aim, target, SAT date, level, weak skills, schedule → Humo builds the first plan |
+| `/app/plan` | Editable weekly plan (add, remove, reorder, minutes), "Ask Humo to change it", Google Calendar export (.ics + per-day links) |
+| `/app/humo` | Ask Humo with saved chat history (search, pin, rename); Desmos solves with checked Desmos screens; plan proposals with Apply |
+| `/app/desmos` | Desmos Lab: 132 verified hard Math questions, hint ladder, live Desmos, Humo's Desmos screen |
+| `/app/settings` | Profile, SAT goal, schedule, Humo language/style, reminders, export/import, reset, delete account |
 | `/app/tests` · `/app/papers` | 10 original practice tests (476 Qs) → Exam / Practice / Sprint; exam-paper shelf + official Bluebook link |
-| `/app/tests/:id/take` | Bluebook-style runner: module timer, mark for review, eliminator, navigator, Desmos calculator + reference sheet (Math), Sensai hints in practice mode |
-| `/app/results/:id` | Score, skills weakest-first, answer map, Sensai explanation above every question, save questions, Ask Sensai drawer |
-| `/app/drills` | 5/10/20-question drills by section or by skill, instant Sensai explanations |
+| `/app/tests/:id/take` | Bluebook-style runner: module timer, mark for review, eliminator, navigator, Desmos calculator + reference sheet (Math), Humo hints in practice mode |
+| `/app/results/:id` | Score, skills weakest-first, answer map, Humo explanation above every question, save questions, Ask Humo drawer |
+| `/app/drills` | 5/10/20-question drills by section or by skill, instant Humo explanations |
 | `/app/vocab` | 120 SAT words + students' own words; Daily 20, 4-type quiz, Spell-it, SM-2 flashcards |
-| `/app/lessons` | Strategy lessons → drill the matching skill / ask Sensai |
+| `/app/lessons` | Strategy lessons → drill the matching skill / ask Humo |
 | `/app/analytics` · `/app/results` · `/app/mistakes` · `/app/calculator` | Accuracy by section and skill, pacing, trend, heatmap; results history; saved & mistakes; score calculator |
-| Everywhere | Floating **Ask Sensai** button that knows the page and the student's goals |
+| Everywhere | Floating **Ask Humo** button that knows the page and the student's goals |
 
-Brand follows [step12.uz](https://step12.uz): navy `#03244a`, crimson `#bb0937` (UI scale `jg-*` in `src/index.css`), Literata + Onest. The AI tutor is Sensai.
+Brand follows [step12.uz](https://step12.uz): navy `#03244a`, crimson `#bb0937` (UI scale `jg-*` in `src/index.css`), Literata + Onest. The AI tutor is Humo.
 
 ## Run locally
 
@@ -35,7 +35,7 @@ cp .env.example .env.local    # frontend settings (only VITE_* is used)
 npm run dev:all               # web on :5173, API on :3001
 ```
 
-`npm run dev` runs the frontend alone — everything still works in demo mode (Google button opens a demo account, Sensai shows an offline notice).
+`npm run dev` runs the frontend alone — everything still works in demo mode (Google button opens a demo account, Humo shows an offline notice).
 
 ## Google sign-in
 
@@ -48,11 +48,11 @@ Flow: the browser gets a Google access token → `POST /api/auth/google` → the
 
 ## Desmos solves
 
-The `desmos-sat-coach` skill lives in `server/skills/`. Sensai writes a Desmos spec (lines + formulas); `server/desmos.js` recomputes every number with mathjs, checks each point lies on its curve and that the answer is shown, asks Gemini to fix anything that fails, and only then returns the screen. `shared/desmos-render.js` draws it as SVG (same renderer on server and browser). The live calculator uses Desmos's demo key; set `VITE_DESMOS_API_KEY` to the site's own free key from desmos.com/api.
+The `desmos-sat-coach` skill lives in `server/skills/`. Humo writes a Desmos spec (lines + formulas); `server/desmos.js` recomputes every number with mathjs, checks each point lies on its curve and that the answer is shown, asks Gemini to fix anything that fails, and only then returns the screen. `shared/desmos-render.js` draws it as SVG (same renderer on server and browser). The live calculator uses Desmos's demo key; set `VITE_DESMOS_API_KEY` to the site's own free key from desmos.com/api.
 
-## Turn on live Sensai
+## Turn on live Humo
 
-Set `GEMINI_API_KEY` (free at aistudio.google.com; optionally `GEMINI_MODEL`) in `.env`, then restart the API. Per-question explanations are generated once and cached in `server/data/explanations.json`, so every later student gets them instantly and at no cost. Sensai's persona is in `server/index.js` (`HUMO_SYSTEM`).
+Set `GEMINI_API_KEY` (free at aistudio.google.com; optionally `GEMINI_MODEL`) in `.env`, then restart the API. Per-question explanations are generated once and cached in `server/data/explanations.json`, so every later student gets them instantly and at no cost. Humo's persona is in `server/index.js` (`HUMO_SYSTEM`).
 
 ## Before production
 
@@ -68,7 +68,7 @@ src/
   three/      HumoBird.tsx (procedural 3D bird), HumoScene.tsx (lights, halo, bloom, scroll rig)
   landing/    Landing, TryHumo, Features, Sections
   auth/       AuthPage, GoogleButton
-  app/        AppShell (dashboard, Sensai chat, practice, mock)
+  app/        AppShell (dashboard, Humo chat, practice, mock)
   lib/auth.tsx
 server/index.js   Express: Google auth, email auth, JWT, Gemini chat
 ```

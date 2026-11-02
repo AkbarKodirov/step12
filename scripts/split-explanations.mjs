@@ -1,7 +1,7 @@
 // Keeps the written explanations out of public/bank/bank.json.
 //
 // The browser downloads bank.json in one go (store.ts → loadBank), but nothing in the UI
-// ever reads q.explanation: Sensai writes its own explanation through /api/explain. The
+// ever reads q.explanation: Humo writes its own explanation through /api/explain. The
 // only reader is server/retrieve.js, which runs on the server and can read a second file.
 // So the explanations live in public/bank/explanations.json ({ id: text }) instead, and
 // bank.json stays about half the size.
