@@ -14,7 +14,8 @@ export type TestQuestion = {
   correct: number | null
   answer: string | null
 }
-export type Test = { id: string; name: string; type: 'EBRW' | 'MATH'; description: string; modules: { questions: TestQuestion[] }[] }
+/** `title` and `minutes` are optional per-module overrides (used by exam papers, e.g. paper-SAT sections). */
+export type Test = { id: string; name: string; type: 'EBRW' | 'MATH'; description: string; modules: { title?: string; minutes?: number; questions: TestQuestion[] }[] }
 
 export type Mode = 'exam' | 'practice' | 'sprint'
 

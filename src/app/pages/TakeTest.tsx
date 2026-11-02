@@ -9,16 +9,22 @@ import { clearHighlights } from '../highlights'
 import { RichText } from '../components/RichText'
 import { askHumo, questionPayload } from '../humo'
 import { useAuth } from '../../lib/auth'
+import { tex, texText } from '../tex'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 
 export function QuestionBody({ q, className = '' }: { q: TestQuestion; className?: string }) {
-  return <p className={`whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed ${className}`}>{q.question}</p>
+  return (
+    <>
+      {q.image && <img src={q.image} alt="Figure for this question" className="mx-auto mb-5 block max-h-[22rem] w-auto max-w-full rounded-xl bg-white p-2 dark:invert-[.92]" />}
+      <p className={`whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed ${className}`} dangerouslySetInnerHTML={{ __html: texText(q.question) }} />
+    </>
+  )
 }
 
 export function Passage({ html }: { html: string }) {
   // Content is authored by STEP12 and bundled with the app.
-  return <div className="prose-q font-serif text-[17px] leading-[1.75] text-pine" dangerouslySetInnerHTML={{ __html: html }} />
+  return <div className="prose-q font-serif text-[17px] leading-[1.75] text-pine" dangerouslySetInnerHTML={{ __html: tex(html) }} />
 }
 
 type Ans = { value: string | null; flagged: boolean; seconds: number; checked: boolean; struck: number[] }
@@ -85,9 +91,10 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
     return clearHighlights
   }, [test.id])
   const timed = mode !== 'practice'
-  const perModule = (test.type === 'MATH' ? 35 : 32) * 60 * (mode === 'sprint' ? 0.7 : 1)
-
+  const minutesFor = (m: number) => test.modules[m]?.minutes ?? (test.type === 'MATH' ? 35 : 32)
   const [mod, setMod] = useState(0)
+  const perModule = minutesFor(mod) * 60 * (mode === 'sprint' ? 0.7 : 1)
+
   const [idx, setIdx] = useState(0)
   const [answers, setAnswers] = useState<Ans[][]>(() => test.modules.map((m) => m.questions.map(() => ({ value: null, flagged: false, seconds: 0, checked: false, struck: [] }))))
   const [left, setLeft] = useState(Math.round(perModule))
@@ -180,7 +187,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
   const startNextModule = () => {
     setMod((m) => m + 1)
     setIdx(0)
-    setLeft(Math.round(perModule))
+    setLeft(Math.round(minutesFor(mod + 1) * 60 * (mode === 'sprint' ? 0.7 : 1)))
     setPhase('question')
     qStart.current = Date.now()
   }
@@ -218,7 +225,8 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
   const mm = String(Math.max(0, Math.floor(left / 60))).padStart(2, '0')
   const ss = String(Math.max(0, left % 60)).padStart(2, '0')
   const answeredCount = answers[mod].filter((x) => x.value != null && x.value !== '').length
-  const hasPassage = !!q.passage
+  // Math is one column like Bluebook: tables/figures sit above the question.
+  const hasPassage = !!q.passage && isRW
 
   const locked = mode === 'practice' && a.checked
   const sectionLabel = test.type === 'MATH' ? 'Math' : 'Reading and Writing'
@@ -230,7 +238,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
           <motion.img src="/sensai-mark.png" alt="" className="mx-auto size-16 rounded-2xl shadow-lg shadow-jg-500/20" animate={{ y: [0, -8, 0] }} transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }} />
           <h2 className="display mt-6 text-[34px]">Module {mod + 1} done</h2>
           <p className="mt-3 text-[15px] text-moss">
-            {mode === 'practice' ? 'Take a breath, then continue to the next module.' : `Module ${mod + 2} starts with a fresh ${Math.round(perModule / 60)}-minute timer. On test day you get a 10-minute break between sections, not between modules — so keep going while you're warm.`}
+            {mode === 'practice' ? 'Take a breath, then continue to the next module.' : `Module ${mod + 2} starts with a fresh ${Math.round(minutesFor(mod + 1) * (mode === 'sprint' ? 0.7 : 1))}-minute timer. On test day you get a 10-minute break between sections, not between modules — so keep going while you're warm.`}
           </p>
           <button onClick={startNextModule} className="btn btn-dark mt-8 h-12 px-8 text-[15px]">
             Start module {mod + 2}
@@ -285,7 +293,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
         <div className="grid h-16 grid-cols-[1fr_auto_1fr] items-center px-4 sm:px-6">
           <div className="min-w-0">
             <p className="truncate text-[14px] font-semibold">
-              Section {test.type === 'MATH' ? 2 : 1}, Module {mod + 1}: {sectionLabel}
+              {test.modules[mod].title ?? `Section ${test.type === 'MATH' ? 2 : 1}, Module ${mod + 1}: ${sectionLabel}`}
             </p>
             <p className="truncate text-[12px] capitalize text-moss">
               {test.name} · {mode} mode
@@ -353,7 +361,12 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
                   <Bookmark className={`size-4 ${a.flagged ? 'fill-red-500 text-red-500' : ''}`} /> Mark for review
                 </button>
               </div>
-              {isRW ? <Highlightable text={q.question} storeKey={`${test.id}:${mod}:${idx}:q`} enabled={annotate} className="mt-5 whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" /> : <QuestionBody q={q} className="mt-5" />}
+              {isRW ? <Highlightable text={q.question} storeKey={`${test.id}:${mod}:${idx}:q`} enabled={annotate} className="mt-5 whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" /> : (
+                <>
+                  {q.passage && <div className="mt-5 overflow-x-auto"><Passage html={q.passage} /></div>}
+                  <QuestionBody q={q} className="mt-5" />
+                </>
+              )}
               {isRW && annotate && idx === 0 && mod === 0 && <p className="mt-2 text-[11.5px] text-moss">Tip: select any words in the text to highlight, underline or add a note.</p>}
 
               {q.format === 'mc' ? (
@@ -373,7 +386,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
                           } ${struck ? 'opacity-45' : ''}`}
                         >
                           <span className={`grid size-7 shrink-0 place-items-center rounded-full border-2 text-[12px] font-bold ${picked ? 'border-pine bg-pine text-cream' : 'border-pine/40'}`}>{LETTERS[i]}</span>
-                          <span className={`prose-q ${struck ? 'line-through' : ''}`} dangerouslySetInnerHTML={{ __html: opt }} />
+                          <span className={`prose-q ${struck ? 'line-through' : ''}`} dangerouslySetInnerHTML={{ __html: tex(opt) }} />
                           {showRight && <Check className="ml-auto size-5 text-emerald-600" />}
                           {showWrong && <X className="ml-auto size-5 text-red-500" />}
                         </button>
