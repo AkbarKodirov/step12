@@ -305,6 +305,35 @@ export const VIDEOS: Record<string, VideoLesson> = {
       {"text": "The festival's main event—a race of more than two hundred ______ takes place on the final day.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["riders—", "riders,", "riders;", "riders"], "answer": 0, "why": "The extra information opens with a dash, so it must close with a dash. Marks around extra information always come in matching pairs.", "chapter": "dash"},
     ],
   },
+  form: {
+    slug: 'form-structure-sense',
+    duration: 791,
+    chapters: [
+      { id: 'intro', t: 0, title: 'Welcome', part: 'Intro' },
+      { id: 'unique', t: 28, title: 'Commas with a title and a name', part: 'Lesson' },
+      { id: 'patterns', t: 64, title: 'Three patterns to remember', part: 'Lesson' },
+      { id: 'sva', t: 106, title: 'Subject–verb agreement', part: 'Lesson' },
+      { id: 'sva2', t: 144, title: 'Agreement: more rules', part: 'Lesson' },
+      { id: 'invert', t: 198, title: 'Inverted sentences', part: 'Lesson' },
+      { id: 'minority', t: 227, title: 'Shortcut: the minority trick', part: 'Lesson' },
+      { id: 'pronoun', t: 261, title: 'Pronoun–antecedent agreement', part: 'Lesson' },
+      { id: 'poss', t: 292, title: 'Possessives and apostrophes', part: 'Lesson' },
+      { id: 'para', t: 340, title: 'Parallelism', part: 'Lesson' },
+      { id: 'mod', t: 379, title: 'Modifier placement', part: 'Lesson' },
+      { id: 'w1', t: 421, title: 'Worked example: a modifier', part: 'Lesson' },
+      { id: 'filter', t: 441, title: 'The 5-second verb filter', part: 'Lesson' },
+      { id: 'w2', t: 482, title: 'Worked example: the verb filter', part: 'Lesson' },
+      { id: 'practice', t: 516, title: 'Fight time!', part: 'Practice' },
+      { id: 'recap', t: 754, title: 'Remember', part: 'Recap' },
+    ],
+    mastery: [
+      {"text": "The collection of ancient coins found near Termez ______ now on display at the national museum.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["is", "are", "were", "have been"], "answer": 0, "why": "Cross out \"of ancient coins found near Termez\". The real subject is \"collection\", which is singular, so the verb is \"is\".", "chapter": "sva"},
+      {"text": "Beside the old caravanserai ______ two enormous plane trees, each more than five hundred years old.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["stands", "stand", "is standing", "has stood"], "answer": 1, "why": "The sentence is inverted: the subject comes after the verb. Flip it: \"two enormous plane trees stand\". The subject is plural.", "chapter": "invert"},
+      {"text": "When the students finished the experiment, the teacher asked each group to share ______ results with the class.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["their", "they're", "its", "it's"], "answer": 2, "why": "\"Each group\" is singular, so the pronoun is \"its\". \"It's\" means \"it is\".", "chapter": "pronoun"},
+      {"text": "Scientists studied the ______ nests to learn how the birds survive the winter.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["bird's", "birds'", "birds", "birds's"], "answer": 1, "why": "Many birds own the nests, so you need the plural possessive: add the apostrophe after the s.", "chapter": "poss"},
+      {"text": "Having walked for six hours across the desert, ______", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["the oasis was a welcome sight.", "relief came when the oasis appeared.", "the travelers were relieved to see the oasis.", "the sight of the oasis relieved the travelers."], "answer": 2, "why": "Ask who walked for six hours. The answer has to come right after the comma: the travelers.", "chapter": "mod"},
+    ],
+  },
   synthesis: {
     slug: 'rhetorical-synthesis',
     duration: 825,
@@ -404,7 +433,6 @@ export const VIDEOS: Record<string, VideoLesson> = {
 
 /** Lessons whose videos are being made now. They show a "video coming soon" card. */
 export const VIDEO_SOON: Record<string, string> = {
-  form: 'Video arriving this week',
 }
 
 export const fmtTime = (s: number) => {
