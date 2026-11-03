@@ -197,6 +197,55 @@ export const VIDEOS: Record<string, VideoLesson> = {
       },
     ],
   },
+  central: {
+    slug: 'central-ideas-and-details',
+    duration: 765,
+    chapters: [
+      { id: 'intro', t: 0, title: 'Welcome', part: 'Intro' },
+      { id: 'hook', t: 27, title: 'A quick question', part: 'Lesson' },
+      { id: 'mifacts', t: 65, title: 'The main idea: facts', part: 'Lesson' },
+      { id: 'predict', t: 109, title: 'Best tip: predict first', part: 'Lesson' },
+      { id: 'w1', t: 139, title: 'Worked example: main idea', part: 'Lesson' },
+      { id: 'dhook', t: 201, title: 'The detail', part: 'Lesson' },
+      { id: 'dfacts', t: 241, title: 'The detail: facts', part: 'Lesson' },
+      { id: 'w2', t: 280, title: 'Worked example: a literary detail', part: 'Lesson' },
+      { id: 'poems', t: 336, title: 'The poems: facts', part: 'Lesson' },
+      { id: 'practice', t: 380, title: 'Fight time!', part: 'Practice' },
+      { id: 'recap', t: 736, title: 'Remember', part: 'Recap' },
+    ],
+    mastery: [
+      {"text": "For centuries, Uzbek suzani embroideries were sewn by women for their daughters' weddings. A single panel could take years, and often the whole family worked on it together. Today collectors pay high prices for old suzanis, but for the families who made them, each one was a record of love and family history.", "question": "Which choice best states the main idea of the text?", "choices": ["Making one suzani panel could take years.", "Old suzanis sell for high prices today.", "Suzanis mattered to their makers as family records, not only as objects.", "Only women were allowed to sew suzanis."], "answer": 2, "why": "Predict first: the text keeps returning to what suzanis meant to families. A and B are details, and D is never said.", "chapter": "predict"},
+      {"text": "Honeybees do a \"waggle dance\" to tell other bees where flowers are. The angle of the dance shows the direction of the flowers, and its length shows how far away they are. Scientists who learned to read the dance can now map where a hive's bees find food.", "question": "Which choice best states the main idea of the text?", "choices": ["Honeybees share where food is through a dance that scientists can now read.", "Scientists make maps of flowers near beehives.", "The angle of the dance shows the direction of the flowers.", "Honeybees prefer flowers that are close to the hive."], "answer": 0, "why": "The main idea covers the whole text: the dance and what scientists do with it. C is true but is only one detail.", "chapter": "mifacts"},
+      {"text": "Honeybees do a \"waggle dance\" to tell other bees where flowers are. The angle of the dance shows the direction of the flowers, and its length shows how far away they are.", "question": "According to the text, what does the length of the waggle dance show?", "choices": ["The direction of the flowers", "How far away the flowers are", "What kind of flowers they are", "How many bees should go"], "answer": 1, "why": "A detail question is answered by one line of the text: its length shows how far away they are.", "chapter": "dfacts"},
+      {"text": "The following text is adapted from a short story. Old Saida kept the keys to the madrasa on a string around her neck. Each morning she unlocked the great carved door before sunrise, swept the courtyard, and only then sat down to drink her tea.", "question": "Based on the text, what does Saida do before she drinks her tea?", "choices": ["She rings the madrasa bell.", "She sweeps the courtyard.", "She teaches the students.", "She locks the carved door."], "answer": 1, "why": "Find the line in the text: she unlocks the door, sweeps the courtyard, and only then drinks tea. She unlocks the door; she doesn't lock it.", "chapter": "w2"},
+      {"text": "Many people think of deserts as empty places. Yet the Kyzylkum Desert is home to many kinds of birds, rare animals such as the sand cat, and plants that bloom for only a few weeks each spring.", "question": "Which choice best states the main idea of the text?", "choices": ["Sand cats are rare animals.", "Deserts are empty places.", "Some desert plants bloom only in spring.", "The Kyzylkum Desert is full of life, despite what many people believe."], "answer": 3, "why": "\"Yet\" turns away from the common belief, and the rest of the text supports that turn. B is the belief the text pushes against.", "chapter": "predict"},
+    ],
+  },
+  structure: {
+    slug: 'purpose-and-text-structure',
+    duration: 781,
+    chapters: [
+      { id: 'intro', t: 0, title: 'Welcome', part: 'Intro' },
+      { id: 'vs', t: 21, title: 'Main idea vs purpose', part: 'Lesson' },
+      { id: 'pfacts', t: 52, title: 'The purpose: facts', part: 'Lesson' },
+      { id: 'w1', t: 96, title: 'The purpose: try yourself', part: 'Lesson' },
+      { id: 'ufacts', t: 157, title: 'The underlined sentence: facts', part: 'Lesson' },
+      { id: 'how', t: 194, title: 'How to find the function of a line', part: 'Lesson' },
+      { id: 'w2', t: 229, title: 'Worked example: an underlined sentence', part: 'Lesson' },
+      { id: 'sfacts', t: 283, title: 'The overall structure: facts', part: 'Lesson' },
+      { id: 'w3', t: 326, title: 'Worked example: the overall structure', part: 'Lesson' },
+      { id: 'poems', t: 385, title: 'The poems', part: 'Lesson' },
+      { id: 'practice', t: 419, title: 'Fight time!', part: 'Practice' },
+      { id: 'recap', t: 755, title: 'Remember', part: 'Recap' },
+    ],
+    mastery: [
+      {"text": "Most people picture glaciers as white. Yet some glaciers in Antarctica are bright blue, and a few even have green stripes. Scientists think the green may come from iron-rich sea ice that froze into the glacier.", "question": "Which choice best states the main purpose of the text?", "choices": ["To describe an unusual feature of some glaciers and a possible reason for it", "To argue that Antarctic glaciers are melting quickly", "To compare glaciers in Antarctica with glaciers elsewhere", "To criticize scientists for studying the color of ice"], "answer": 0, "why": "Purpose asks why the author wrote the text. It shows surprising glacier colors and then offers an explanation. Nothing argues, compares or criticizes.", "chapter": "pfacts"},
+      {"text": "Some people say video games only waste time. However, one study found that surgeons who regularly played certain video games made fewer mistakes in practice operations than surgeons who did not.", "question": "Which choice best states the main purpose of the text?", "choices": ["To teach readers how surgeons train", "To present evidence that challenges a common view of video games", "To argue that everyone should play video games", "To describe how video games are designed"], "answer": 1, "why": "The text states a common view, then \"however\" brings in a study against it. C goes much further than one study allows.", "chapter": "w1"},
+      {"text": "The ruler Ulugh Beg built an observatory in Samarkand in the 1420s. Its main instrument, a huge curved arc set into the hillside, was about 40 meters long. With it, his astronomers measured the length of the year with remarkable accuracy.", "question": "Which choice best describes the function of the second sentence in the overall structure of the text?", "choices": ["It introduces a disagreement between astronomers.", "It states the main claim of the text.", "It gives a detail about the observatory that helps explain how such accurate measurements were possible.", "It offers an example that contradicts the first sentence."], "answer": 2, "why": "Ask what job the line does for its neighbors. The size of the instrument sets up the accurate measurements in the last sentence.", "chapter": "how"},
+      {"text": "The old city of Khiva is often called a museum in the open air. Inside its walls stand more than fifty historic buildings, from mosques to palaces. Visitors walking its streets can see how a Central Asian city looked centuries ago.", "question": "Which choice best describes the function of the third sentence in the overall structure of the text?", "choices": ["It explains why the city is called an open-air museum.", "It contrasts Khiva with other cities in Central Asia.", "It gives the exact number of historic buildings.", "It questions whether the nickname is deserved."], "answer": 0, "why": "The first sentence gives the nickname, and the last one shows why it fits: walking there is like visiting a museum. C describes the second sentence.", "chapter": "ufacts"},
+      {"text": "Many people believe that cracking your knuckles causes arthritis. One doctor decided to test this on himself: for sixty years he cracked the knuckles of only his left hand. In the end, neither hand had arthritis, and he concluded that the habit is probably harmless.", "question": "Which choice best describes the overall structure of the text?", "choices": ["It explains a cause and then lists its effects.", "It presents a common belief, describes a test of it, and reports a result that challenges it.", "It compares the work of two doctors.", "It gives the history of a disease from its discovery to today."], "answer": 1, "why": "Map the parts in order: belief, test, result against the belief. Then pick the choice that follows the same order.", "chapter": "w3"},
+    ],
+  },
   synthesis: {
     slug: 'rhetorical-synthesis',
     duration: 825,
@@ -296,9 +345,7 @@ export const VIDEOS: Record<string, VideoLesson> = {
 
 /** Lessons whose videos are being made now. They show a "video coming soon" card. */
 export const VIDEO_SOON: Record<string, string> = {
-  central: 'Video arriving this week',
-  structure: 'Video in production',
-  coe: 'Video in production',
+  coe: 'Video arriving this week',
   boundaries: 'Video in production',
   form: 'Video in production',
 }
