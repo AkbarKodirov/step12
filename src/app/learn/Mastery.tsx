@@ -114,7 +114,7 @@ export function MasteryCheck({ storeKey, video, onRewatch }: { storeKey: string;
         </h2>
         <Dots />
       </div>
-      {q.text && <p className="rounded-2xl bg-soft p-4 font-serif text-[16.5px] leading-relaxed">{q.text}</p>}
+      {q.text && <p className="whitespace-pre-line rounded-2xl bg-soft p-4 font-serif text-[16.5px] leading-relaxed">{q.text}</p>}
       {q.notes && (
         <div className="rounded-2xl bg-soft p-4 font-serif text-[15.5px] leading-relaxed">
           <p className="font-sans text-[12.5px] text-moss">While researching a topic, a student has taken the following notes:</p>
