@@ -246,6 +246,65 @@ export const VIDEOS: Record<string, VideoLesson> = {
       {"text": "Many people believe that cracking your knuckles causes arthritis. One doctor decided to test this on himself: for sixty years he cracked the knuckles of only his left hand. In the end, neither hand had arthritis, and he concluded that the habit is probably harmless.", "question": "Which choice best describes the overall structure of the text?", "choices": ["It explains a cause and then lists its effects.", "It presents a common belief, describes a test of it, and reports a result that challenges it.", "It compares the work of two doctors.", "It gives the history of a disease from its discovery to today."], "answer": 1, "why": "Map the parts in order: belief, test, result against the belief. Then pick the choice that follows the same order.", "chapter": "w3"},
     ],
   },
+  coe: {
+    slug: 'command-of-evidence',
+    duration: 841,
+    chapters: [
+      { id: 'intro', t: 0, title: 'Welcome', part: 'Intro' },
+      { id: 'types', t: 26, title: 'Three kinds of evidence', part: 'Lesson' },
+      { id: 'approach', t: 55, title: 'Scientific evidence: how to approach', part: 'Lesson' },
+      { id: 'lever', t: 95, title: 'The one question, every time', part: 'Lesson' },
+      { id: 'method', t: 132, title: 'The method: lock, predict, test', part: 'Lesson' },
+      { id: 'toolkit', t: 170, title: 'The toolkit: the only moves there are', part: 'Lesson' },
+      { id: 'traps', t: 203, title: 'The four traps: name them, beat them', part: 'Lesson' },
+      { id: 'e1', t: 239, title: 'Strategy in action: support', part: 'Lesson' },
+      { id: 'e2', t: 291, title: 'Strategy in action: weaken', part: 'Lesson' },
+      { id: 'litfacts', t: 335, title: 'Literary evidence: facts', part: 'Lesson' },
+      { id: 'show', t: 359, title: 'Show, don’t tell', part: 'Lesson' },
+      { id: 'guess', t: 395, title: 'Quick exercise: guess the feeling or place', part: 'Lesson' },
+      { id: 'e3', t: 438, title: 'The literary evidence: example', part: 'Lesson' },
+      { id: 'graphfacts', t: 481, title: 'Graphs and tables: facts', part: 'Lesson' },
+      { id: 'e4', t: 516, title: 'The graph question: example', part: 'Lesson' },
+      { id: 'practice', t: 566, title: 'Fight time!', part: 'Practice' },
+      { id: 'recap', t: 811, title: 'Remember', part: 'Recap' },
+    ],
+    mastery: [
+      {"text": "A biologist claims that pigeons living in cities have adapted to traffic noise by cooing at a higher pitch than pigeons living in the countryside.", "question": "Which finding, if true, would most directly support the claim?", "choices": ["City pigeons coo at a higher pitch than countryside pigeons, and the gap is largest on the noisiest streets.", "Countryside pigeons are slightly larger than city pigeons.", "City pigeons eat more bread than countryside pigeons.", "Pigeons are found in almost every large city."], "answer": 0, "why": "Lock the claim: higher pitch because of noise. Only A is about pitch and links it to noise.", "chapter": "e1"},
+      {"text": "Researchers hypothesize that a certain kind of bean plant grows taller when music is played to it every day.", "question": "Which finding, if true, would most directly weaken the hypothesis?", "choices": ["Bean plants that heard music grew taller than plants kept in silence.", "Plants that heard music and plants kept in silence, given the same light and water, grew to the same height.", "Some bean plants need more water than others.", "Music is often played in commercial greenhouses."], "answer": 1, "why": "To weaken, find the result that breaks the link. If music changes nothing when everything else is equal, the hypothesis fails.", "chapter": "e2"},
+      {"text": "In a short story, Malika is nervous about her first day at a new school.", "question": "Which quotation from the story most effectively illustrates this claim?", "choices": ["\"The school was a long building of red brick.\"", "\"Malika checked the strap of her bag for the fifth time and swallowed hard as the gates came into view.\"", "\"That evening, Malika's mother made plov for dinner.\"", "\"The bus arrived exactly on time.\""], "answer": 1, "why": "Show, don't tell: checking the bag again and again and swallowing hard show nerves without saying the word.", "chapter": "show"},
+      {"text": "A student compared homework time with test scores. Students who did 30 minutes of homework a night had an average score of 72, those who did 60 minutes averaged 81, and those who did 90 minutes averaged 83. The student concludes that scores rose with homework time, but the gain became much smaller after 60 minutes.", "question": "Which choice most effectively uses the data to support the student's conclusion?", "choices": ["Scores rose by 9 points from 30 to 60 minutes but by only 2 points from 60 to 90 minutes.", "Students who did 90 minutes of homework had the highest average score.", "Students who did 30 minutes of homework averaged 72.", "Students who did 60 minutes of homework averaged 81."], "answer": 0, "why": "The conclusion has two parts: scores rise, and the rise gets smaller. Only A shows both by comparing the two gains.", "chapter": "e4"},
+      {"text": "A historian argues that in the twelfth century, the Silk Road city of Merv was one of the largest cities in the world.", "question": "Which finding, if true, would most directly support the claim?", "choices": ["Merv is in present-day Turkmenistan.", "Merv was famous for its gardens.", "Records suggest Merv had more people in the twelfth century than almost any other city of that time.", "Merv was badly damaged in the thirteenth century."], "answer": 2, "why": "Ask the one question: does this prove \"one of the largest\"? Only population compared with other cities does.", "chapter": "lever"},
+    ],
+  },
+  boundaries: {
+    slug: 'boundaries',
+    duration: 852,
+    chapters: [
+      { id: 'intro', t: 0, title: 'Welcome', part: 'Intro' },
+      { id: 'marks', t: 28, title: 'The punctuation marks', part: 'Lesson' },
+      { id: 'c1', t: 63, title: 'Use a comma: cases 1 and 2', part: 'Lesson' },
+      { id: 'appos', t: 109, title: 'Appositives: essential or not?', part: 'Lesson' },
+      { id: 'c3', t: 150, title: 'Use a comma: case 3, extra information', part: 'Lesson' },
+      { id: 'c4', t: 195, title: 'Use a comma: cases 4, 5 and 6', part: 'Lesson' },
+      { id: 'nc1', t: 225, title: 'When NOT to use a comma (1)', part: 'Lesson' },
+      { id: 'nc2', t: 267, title: 'When NOT to use a comma (2)', part: 'Lesson' },
+      { id: 'quiz', t: 306, title: 'Do we need a comma here?', part: 'Lesson' },
+      { id: 'colon', t: 334, title: 'The colon', part: 'Lesson' },
+      { id: 'colon2', t: 374, title: 'The colon: one exception', part: 'Lesson' },
+      { id: 'semi', t: 399, title: 'The semicolon', part: 'Lesson' },
+      { id: 'dash', t: 443, title: 'Dashes and hyphens', part: 'Lesson' },
+      { id: 'quote', t: 479, title: 'Quotation marks and question marks', part: 'Lesson' },
+      { id: 'practice', t: 526, title: 'Fight time!', part: 'Practice' },
+      { id: 'recap', t: 822, title: 'Remember', part: 'Recap' },
+    ],
+    mastery: [
+      {"text": "The Aral Sea was once the fourth-largest lake in the ______ today it is only a small part of its former size.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["world,", "world;", "world", "world and,"], "answer": 1, "why": "Both sides are full sentences. A semicolon can join them; a comma alone can't (that's a comma splice).", "chapter": "semi"},
+      {"text": "The museum's newest exhibit features three ______ a silver bowl, a carved door, and a twelfth-century map.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["objects:", "objects;", "objects", "objects, such as:"], "answer": 0, "why": "A full sentence comes before a list that explains it, which is the colon's job. A semicolon needs a full sentence on both sides.", "chapter": "colon"},
+      {"text": "The ______ wrote in both Chagatai Turkic and Persian.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["poet Alisher Navoi", "poet, Alisher Navoi", "poet, Alisher Navoi,", "poet Alisher Navoi,"], "answer": 0, "why": "The name tells you which poet, so it is essential and takes no commas. And never put a single comma between a subject and its verb.", "chapter": "appos"},
+      {"text": "The engineers who designed the new metro ______ natural light to reach the platforms.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["station wanted", "station, wanted", "station; wanted", "station: wanted"], "answer": 0, "why": "\"The engineers who designed the new metro station\" is the subject and \"wanted\" is its verb. Nothing goes between them.", "chapter": "nc1"},
+      {"text": "The festival's main event—a race of more than two hundred ______ takes place on the final day.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English?", "choices": ["riders—", "riders,", "riders;", "riders"], "answer": 0, "why": "The extra information opens with a dash, so it must close with a dash. Marks around extra information always come in matching pairs.", "chapter": "dash"},
+    ],
+  },
   synthesis: {
     slug: 'rhetorical-synthesis',
     duration: 825,
@@ -345,9 +404,7 @@ export const VIDEOS: Record<string, VideoLesson> = {
 
 /** Lessons whose videos are being made now. They show a "video coming soon" card. */
 export const VIDEO_SOON: Record<string, string> = {
-  coe: 'Video arriving this week',
-  boundaries: 'Video in production',
-  form: 'Video in production',
+  form: 'Video arriving this week',
 }
 
 export const fmtTime = (s: number) => {
