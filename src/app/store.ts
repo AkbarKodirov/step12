@@ -78,7 +78,7 @@ export type BankQ = TestQuestion & {
 export type BankProgress = { tries: number; correct: boolean; chosen: string | null; at: number; seconds: number }
 export type Collection = { id: string; name: string; keys: string[]; createdAt: number }
 
-type State = {
+export type State = {
   profile: Profile
   attempts: Attempt[]
   vocab: Record<string, VocabProgress>
@@ -103,6 +103,10 @@ type State = {
   notes: Record<string, string>
   collections: Collection[]
   lessonsDone: Record<string, number>
+  /** Video lessons: where the student stopped (seconds) and the video length. Keyed `${course}:${lesson}`. */
+  lessonVideo: Record<string, { pos: number; dur: number; at: number }>
+  /** Mastery Check after a video lesson: best score out of total. */
+  mastery: Record<string, { best: number; total: number; at: number }>
   updatedAt?: number
 }
 export type CustomWord = { word: string; pos: 'adj' | 'verb' | 'noun' | 'adv'; def: string; ex: string; syn: string[]; level: 'mine'; addedAt: number }
@@ -132,6 +136,8 @@ const initial: State = {
   notes: {},
   collections: [],
   lessonsDone: {},
+  lessonVideo: {},
+  mastery: {},
 }
 
 /* ---------------- tiny global store (per user, localStorage) ---------------- */
