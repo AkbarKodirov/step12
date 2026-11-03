@@ -246,6 +246,15 @@ export const MATH: Course = {
           rule: 'Negative divide: flip. Strict: dashed.',
         },
         {
+          id: 'functions-video',
+          title: 'Functions, exponentials and quadratics',
+          min: 11,
+          summary: 'Function notation, the three forms of a quadratic and what each one shows, exponential growth and decay, and shortcuts for the solutions of a quadratic.',
+          steps: ['f(3) means put 3 in. f(x) = 47 means solve for x. f(a) = b is a point on the graph.', 'Standard form shows the y-intercept, factored form the roots, and vertex form the vertex (the minimum or maximum).', 'Exponentials are a · bˣ. Growth by r% is 1 + r, decay is 1 − r. "Every k units" means divide the exponent by k.', 'Shifting left or right does not change the minimum value. For x² + bx + c = 0, the solutions add to −b and multiply to c.'],
+          traps: ['Using 0.06 instead of 1.06 for 6% growth.', 'Reading the x-coordinate of the vertex as the minimum value.'],
+          rule: 'Pick the form that shows what they ask for.',
+        },
+        {
           id: 'lines-triangles',
           title: 'Lines, angles and triangles',
           min: 9,
