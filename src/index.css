@@ -33,6 +33,9 @@
   --animate-breathe: breathe 3.2s ease-in-out infinite;
   --animate-flicker: flicker 2.4s ease-in-out infinite;
   --animate-shimmer: shimmer 2.2s linear infinite;
+  @keyframes pulseRing {
+    50% { box-shadow: 0 0 0 18px rgba(200,16,63,.08); }
+  }
   @keyframes shake {
     10%, 90% { transform: translateX(-1px); }
     20%, 80% { transform: translateX(3px); }
