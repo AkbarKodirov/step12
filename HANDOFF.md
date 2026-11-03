@@ -100,3 +100,9 @@ Humo AI is a Digital SAT prep platform for **Humo AI** in Tashkent. Its AI tutor
 ## Oct 27 (Desmos Lab)
 - `prepareScreen` refuses answer-only lines like "n = 2" (a letter used nowhere else); a solution count is shown by marking each intersection as a point. Reply shape is 7 steps, the screen sits unnumbered after "Type this". `parseSpec()` escapes LaTeX the AI forgets to escape. Scorecard 12/12.
 - Weak spot: "find the constant k" screens don't always match the typed line.
+
+## Nov 3 (video lessons)
+- Learn pages were redesigned: navy hero with the featured video, filter chips, lesson cards with posters, and a video lesson page with Humo's own player (`src/app/learn/VideoPlayer.tsx`), chapters, and a 5-question Mastery Check (`Mastery.tsx`, pass 4/5).
+- Video data lives in `src/app/learn/videos.ts` (keyed by the lesson id in `courses.ts`): slug, duration, chapters (from `chapters.json` next to each render in project files), Mastery questions (original). `VIDEO_SOON` marks lessons whose videos are in production.
+- Videos are NOT in git. They are on Cloudflare R2, bucket `humo-lessons`, public at `https://pub-74c3fe78d2fd419fbb39853077b9141c.r2.dev/lessons/<slug>/<slug>-720p.mp4` (also `-1080p.mp4`, `-poster.jpg`). Uploads use the R2 S3 API (curl `--aws-sigv4`); the keys are the owner's and are never committed. Remux with `-movflags +faststart` before uploading.
+- The store has `lessonVideo` (resume position) and `mastery` (best score). Watching 90% marks a lesson done.
