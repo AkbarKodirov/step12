@@ -132,7 +132,7 @@ export default function Tests() {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="display text-[clamp(2rem,4vw,2.75rem)]">Practice tests</h1>
-          <p className="mt-2 text-[15px] text-moss">Full Digital SAT sections written by Humo AI teachers. Pick a test, then pick a mode.</p>
+          <p className="mt-2 text-[15px] text-moss">Full Digital SAT tests built from real exam questions, collected and put together by Humo Academy teachers. Pick a test, then pick a mode.</p>
         </div>
         {data && (
           <div className="card flex items-center gap-5 px-5 py-3">
