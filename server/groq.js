@@ -1,6 +1,6 @@
 // Backups for Humo: when every Gemini model is busy or out of quota, the same request goes to the next
 // OpenAI-compatible provider that has a key, in this order:
-//   Groq → NVIDIA NIM → Mistral → OpenRouter → SambaNova → Cloudflare Workers AI → IteraCompute → Z.ai → DeepSeek (paid)
+//   Mistral → Groq → NVIDIA NIM → OpenRouter → SambaNova → Cloudflare Workers AI → IteraCompute → Z.ai → DeepSeek (paid)
 // Every provider is optional: it switches on only when its key is set on the server. Model lists can be overridden
 // with <NAME>_TEXT_MODELS / <NAME>_VISION_MODELS (comma-separated); a retired model name just falls through to the next.
 // (GitHub Models was retired by GitHub on 30 July 2026, so it is not used.)
@@ -10,6 +10,15 @@
 const env = (...names) => names.map((n) => process.env[n]).find(Boolean)
 
 const PROVIDERS = [
+  {
+    // free plan: Large 4 (50 req/min, 20K tokens/min) and Ministral 14B (30 req/min, 937K tokens/min) both read photos;
+    // Small and Medium have no free quota. Each model has its own limit, so a busy one falls through to the next.
+    name: 'mistral',
+    key: env('MISTRAL_API_KEY', 'Mistral_API_KEY'),
+    url: 'https://api.mistral.ai/v1/chat/completions',
+    text: (env('MISTRAL_TEXT_MODELS') || 'mistral-large-4,ministral-14b-2512,ministral-8b-2512').split(','),
+    vision: (env('MISTRAL_VISION_MODELS') || 'mistral-large-4,ministral-14b-2512,ministral-8b-2512').split(','),
+  },
   {
     name: 'groq',
     key: env('GROQ_API_KEY', 'Groq_API_KEY', 'groq_api_key'),
@@ -23,13 +32,6 @@ const PROVIDERS = [
     url: 'https://integrate.api.nvidia.com/v1/chat/completions',
     text: (env('NVIDIA_TEXT_MODELS') || 'nvidia/nemotron-3-super-120b-a12b,deepseek-ai/deepseek-v4.1-flash,openai/gpt-oss-20b').split(','),
     vision: (env('NVIDIA_VISION_MODELS') || 'nvidia/nemotron-3.5-super-vl-120b-a12b').split(','),
-  },
-  {
-    name: 'mistral',
-    key: env('MISTRAL_API_KEY', 'Mistral_API_KEY'),
-    url: 'https://api.mistral.ai/v1/chat/completions',
-    text: (env('MISTRAL_TEXT_MODELS') || 'mistral-medium-latest,mistral-small-latest').split(','),
-    vision: (env('MISTRAL_VISION_MODELS') || 'mistral-small-latest,mistral-medium-latest').split(','),
   },
   {
     name: 'openrouter',
@@ -82,6 +84,9 @@ export const groqReady = PROVIDERS.length > 0
 export const backupNames = PROVIDERS.map((p) => p.name)
 const resting = new Map()
 
+/** Message text from a reply. Some models (Mistral Large 4) send a list of parts with their thinking first: keep only the answer. */
+const textOf = (c) => (typeof c === 'string' ? c : Array.isArray(c) ? c.filter((x) => x?.type === 'text').map((x) => x.text || '').join('') : '')
+
 function toMessages({ contents, config = {} }) {
   const messages = []
   const sys = typeof config.systemInstruction === 'string' ? config.systemInstruction : config.systemInstruction?.parts?.map((p) => p.text).join('\n')
@@ -132,15 +137,21 @@ async function call(req, stream) {
   const order = PROVIDERS.filter((p) => (resting.get(p.name) || 0) < Date.now())
   for (const p of order.length ? order : PROVIDERS) {
     for (const model of hasImages ? p.vision : p.text) {
+      const id = `${p.name}:${Array.isArray(model) ? model[0] : model}`
+      if ((resting.get(id) || 0) > Date.now()) continue
       try {
         const { res } = await callOne(p, model, req, stream)
         return { res, label: `${p.name}:${Array.isArray(model) ? model[0] : model}` }
       } catch (e) {
         last = e
         console.warn(`Backup ${e.message}`)
-        if (e.status === 429 || e.status === 401 || e.status === 403 || e.status >= 500) {
-          resting.set(p.name, Date.now() + (e.status === 401 || e.status === 403 ? 3600_000 : 60_000))
-          break // this provider is out for now: go to the next one
+        if (e.status === 401 || e.status === 403) {
+          resting.set(p.name, Date.now() + 3600_000)
+          break // bad key: skip this provider for an hour
+        }
+        if (e.status === 429 || e.status >= 500) {
+          resting.set(id, Date.now() + 60_000) // this model is busy: rest it and try the provider's next model
+          continue
         }
         // 400/404 (e.g. a retired model name): try this provider's next model
       }
@@ -152,7 +163,7 @@ async function call(req, stream) {
 export async function groqGenerate(req) {
   const { res } = await call(req, false)
   const j = await res.json()
-  return { text: j.choices?.[0]?.message?.content || '' }
+  return { text: textOf(j.choices?.[0]?.message?.content) }
 }
 
 export async function groqStream(req) {
@@ -171,7 +182,7 @@ export async function groqStream(req) {
         if (data === '[DONE]') return
         let t
         try {
-          t = JSON.parse(data).choices?.[0]?.delta?.content
+          t = textOf(JSON.parse(data).choices?.[0]?.delta?.content)
         } catch {
           continue // keep-alive comments and partial lines
         }
