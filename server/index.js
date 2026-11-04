@@ -8,7 +8,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { answerValue, DESMOS_GUIDE, prepareScreen } from './desmos.js'
-import { backupNames, groqGenerate, groqReady, groqStream } from './groq.js'
+import { backupNames, groqGenerate, groqReady, groqStream, mistralGenerate, mistralReady, mistralStream, othersReady, restBackup } from './groq.js'
 import { findQuestion, memoryNote, memorySize, practiceSummary } from './retrieve.js'
 import { kvBackend, kvDel, kvGet, kvSet } from './kv.js'
 import { adminOverview, billingInfo, confirmCheckout, isAdmin, nextReset, planOf, refundUse, startCheckout, stripeWebhook, takeUse, usageOf } from './billing.js'
@@ -58,7 +58,7 @@ async function withFallback(req, fn, timeoutMs) {
       const code = e?.status || e?.code
       if (![404, 429, 500, 503, 'timeout'].includes(code)) throw e
       // a slow model usually means Gemini is slow right now: go straight to the backups instead of waiting on each model
-      if (code === 'timeout' && groqReady) {
+      if (code === 'timeout' && othersReady) {
         cooldown.set(model, Date.now() + 60_000)
         throw e
       }
@@ -103,21 +103,70 @@ async function* stallGuard(stream, ms) {
 
 /** Gemini first; when every Gemini model is busy or out of free quota, the free Groq backup answers instead. */
 async function withGroq(geminiCall, groqCall, req) {
-  if (groqReady && GEMINI_MODELS.every(resting)) return groqCall(req)
+  if (othersReady && GEMINI_MODELS.every(resting)) return groqCall(req)
   try {
     return await geminiCall()
   } catch (e) {
-    if (!groqReady || ![404, 429, 500, 503, 'timeout'].includes(e?.status || e?.code)) throw e
-    console.warn(`All Gemini models unavailable (${e?.status || e?.code}), answering with a backup (${backupNames.join(' → ')})`)
+    if (!othersReady || ![404, 429, 500, 503, 'timeout'].includes(e?.status || e?.code)) throw e
+    console.warn(`All Gemini models unavailable (${e?.status || e?.code}), answering with a backup (${backupNames.filter((n) => n !== 'mistral').join(' → ')})`)
     return groqCall(req)
   }
 }
 
+/** Waits up to `ms` for the first real words of a stream, so a busy model is skipped instead of keeping the student waiting. */
+async function firstWords(stream, ms) {
+  const it = stream[Symbol.asyncIterator]()
+  const head = []
+  const deadline = Date.now() + ms
+  for (;;) {
+    let timer
+    const r = await Promise.race([it.next(), new Promise((_, fail) => (timer = setTimeout(() => fail(Object.assign(new Error(`no words after ${ms} ms`), { status: 'timeout' })), Math.max(0, deadline - Date.now()))))]).finally(() => clearTimeout(timer))
+    if (r.done) break
+    head.push(r.value)
+    if (r.value?.text) break
+  }
+  if (!head.some((c) => c?.text)) throw Object.assign(new Error('empty answer'), { status: 500 })
+  const gen = (async function* () {
+    yield* head
+    yield* { [Symbol.asyncIterator]: () => it }
+  })()
+  gen.model = stream.model
+  return gen
+}
+
+/** Mistral answers first everywhere (it got every SAT math question and 19/20 hard Reading and Writing questions right in
+ * our tests, with far higher free limits than Gemini). If Mistral is busy or fails, Gemini and then the other backups answer.
+ * `req.mistral` picks Mistral's model order: 'solve' (Large 4 first) or 'check' (Ministral 14B first); everything else uses the
+ * fast default (Ministral 14B first). Large 4 is kept off JSON jobs like Desmos screens, where it takes ~30 s. */
+async function mistralFirst(req, stream, rest, timeoutMs) {
+  const { mistral: kind, ...r } = req
+  if (!mistralReady) return rest(r)
+  // Desmos screen repairs: Gemini follows the strict screen format best, so it goes first there and Mistral backs it up
+  if (kind === 'last') {
+    try {
+      return await rest(r)
+    } catch (e) {
+      console.warn(`Gemini and backups unavailable (${e?.status || e?.message}), repairing with Mistral`)
+      return stream ? firstWords(await mistralStream(r), 12_000) : mistralGenerate(r, undefined, timeoutMs)
+    }
+  }
+  try {
+    if (stream) return await firstWords(await mistralStream(r, kind), 12_000)
+    const out = await mistralGenerate(r, kind, timeoutMs)
+    if (!out.text) throw Object.assign(new Error('empty answer'), { status: 500 })
+    return out
+  } catch (e) {
+    console.warn(`Mistral unavailable (${e?.status || e?.message}), trying Gemini`)
+    return rest(r)
+  }
+}
+
+const skipMistral = (fn) => (r) => fn(r, { skip: 'mistral' })
 const gemini = genai && {
   models: {
-    generateContent: (req, timeoutMs = 60_000) => withGroq(() => withFallback(req, (r) => genai.models.generateContent(r), timeoutMs), groqGenerate, req),
+    generateContent: (req, timeoutMs = 60_000) => mistralFirst(req, false, (r) => withGroq(() => withFallback(r, (x) => genai.models.generateContent(x), timeoutMs), skipMistral(groqGenerate), r), timeoutMs),
     // the timeout covers the wait for the first words only: a model with no words after 5 s is skipped for the next one
-    generateContentStream: (req, timeoutMs = 5_000) => withGroq(() => withFallback(req, startStream, timeoutMs), groqStream, req),
+    generateContentStream: (req, timeoutMs = 5_000) => mistralFirst(req, true, (r) => withGroq(() => withFallback(r, startStream, timeoutMs), skipMistral(groqStream), r)),
   },
 }
 
@@ -357,6 +406,7 @@ export function cleanPlan(p) {
 
 async function repairDesmos(spec, errors, question, expect) {
   const out = await gemini.models.generateContent({
+    mistral: 'last',
     contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nRecompute the math and return ONLY the corrected spec as JSON (same format). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. A slider value goes in its own line with a "result"; the answer goes in a "result" expression on the line that really produces it (never a separate line like "n = 2"), and a count of solutions is shown by marking each intersection as a point.` }] }],
     config: { systemInstruction: DESMOS_GUIDE, temperature: 0.1, responseMimeType: 'application/json' },
   }, 15_000)
@@ -493,7 +543,8 @@ function sameAnswer(a, b) {
 
 async function solveOnce(contents, temperature, extra = '') {
   const out = await gemini.models.generateContent(
-    { contents, config: { systemInstruction: SOLVE_CHECK + extra, temperature, tools: [{ codeExecution: {} }], thinkingConfig: { thinkingLevel: 'high' } } },
+    // the two checks use different Mistral models (Large 4 and Ministral 14B), so one model's mistake is caught by the other
+    { mistral: temperature < 0.5 ? 'solve' : 'check', contents, config: { systemInstruction: SOLVE_CHECK + extra, temperature, tools: [{ codeExecution: {} }], thinkingConfig: { thinkingLevel: 'high' } } },
     35_000,
   )
   return lastJson(out.text)
@@ -664,6 +715,7 @@ app.post('/api/chat', auth, async (req, res) => {
         // so the student sees new words within a second or two instead of waiting for a whole answer to be written
         console.warn(`Gemini ${it.model} stopped mid-answer (${e?.status || e?.message}), restarting on another model`)
         if (it.model) cooldown.set(it.model, Date.now() + 60_000)
+        restBackup(it.model) // a Mistral/backup model ("mistral:ministral-14b-2512") is rested too
         if (gone) break
         text = ''
         send({ reset: true })
