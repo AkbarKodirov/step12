@@ -16,8 +16,8 @@ const PROVIDERS = [
     name: 'mistral',
     key: env('MISTRAL_API_KEY', 'Mistral_API_KEY'),
     url: 'https://api.mistral.ai/v1/chat/completions',
-    text: (env('MISTRAL_TEXT_MODELS') || 'mistral-large-4,ministral-14b-2512,ministral-8b-2512').split(','),
-    vision: (env('MISTRAL_VISION_MODELS') || 'mistral-large-4,ministral-14b-2512,ministral-8b-2512').split(','),
+    text: (env('MISTRAL_TEXT_MODELS') || 'mistral-large-4,ministral-14b-2512,ministral-8b-2512,ministral-3b-2512').split(','),
+    vision: (env('MISTRAL_VISION_MODELS') || 'mistral-large-4,ministral-14b-2512,ministral-8b-2512,ministral-3b-2512').split(','),
   },
   {
     name: 'groq',
