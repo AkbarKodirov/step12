@@ -91,7 +91,7 @@ export function planToIcs(plan: WeekPlan, profile: Profile, origin: string) {
     const end = new Date(start.getTime() + mins * 60000)
     return [
       'BEGIN:VEVENT',
-      `UID:step12-${d}-${start.getTime()}@step12.uz`,
+      `UID:humo-${d}-${start.getTime()}@humo-ai`,
       `DTSTAMP:${icsDate(new Date())}`,
       `DTSTART:${icsDate(start)}`,
       `DTEND:${icsDate(end)}`,
@@ -107,7 +107,7 @@ export function planToIcs(plan: WeekPlan, profile: Profile, origin: string) {
     ]
   })
   const exam = profile.testDate
-    ? ['BEGIN:VEVENT', `UID:step12-sat-${profile.testDate}@step12.uz`, `DTSTAMP:${icsDate(new Date())}`, `DTSTART;VALUE=DATE:${profile.testDate.replace(/-/g, '')}`, 'SUMMARY:Digital SAT test day 🎯', 'END:VEVENT']
+    ? ['BEGIN:VEVENT', `UID:humo-sat-${profile.testDate}@humo-ai`, `DTSTAMP:${icsDate(new Date())}`, `DTSTART;VALUE=DATE:${profile.testDate.replace(/-/g, '')}`, 'SUMMARY:Digital SAT test day 🎯', 'END:VEVENT']
     : []
   return ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Humo AI//Study plan//EN', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Humo AI · SAT plan', ...ev, ...exam, 'END:VCALENDAR'].join('\r\n')
 }

@@ -154,7 +154,7 @@ export default function Settings() {
             <>
         <section className="card overflow-hidden">
           <div className="relative h-24 bg-gradient-to-r from-[#0b1d36] via-[#85082a] to-[#c8103f]">
-            <img src="/sensai-enso.png" alt="" className="absolute -bottom-6 right-4 h-28 opacity-40" />
+            <img src="/enso.png" alt="" className="absolute -bottom-6 right-4 h-28 opacity-40" />
           </div>
           <div className="px-6 pb-6">
             <div className="relative -mt-10 flex flex-wrap items-start gap-4">

@@ -24,7 +24,7 @@ The exam platform of **Humo AI** (Tashkent, since 2020): Digital SAT and IELTS p
 | `/app/analytics` · `/app/results` · `/app/mistakes` · `/app/calculator` | Accuracy by section and skill, pacing, trend, heatmap; results history; saved & mistakes; score calculator |
 | Everywhere | Floating **Ask Humo** button that knows the page and the student's goals |
 
-Brand follows [step12.uz](https://step12.uz): navy `#03244a`, crimson `#bb0937` (UI scale `jg-*` in `src/index.css`), Literata + Onest. The AI tutor is Humo.
+Brand colours: navy `#03244a`, crimson `#bb0937` (UI scale `jg-*` in `src/index.css`), Literata + Onest. The AI tutor is Humo.
 
 ## Run locally
 

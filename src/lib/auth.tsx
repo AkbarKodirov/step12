@@ -89,7 +89,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   const signInDemo = useCallback(() => {
-    setSession({ token: 'demo', user: { id: 'demo', name: 'Demo student', email: 'demo@step12.uz', provider: 'demo' } })
+    setSession({ token: 'demo', user: { id: 'demo', name: 'Demo student', email: 'demo@humo.ai', provider: 'demo' } })
   }, [])
 
   const signOut = useCallback(() => setSession(null), [])

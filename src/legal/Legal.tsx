@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { Logo } from '../landing/Landing'
 
 const UPDATED = 'October 17, 2026'
-const CONTACT = { site: 'step12.uz', phone: '+998 55 050 12 12' }
+const CONTACT = { phone: '+998 55 050 12 12' }
 
 type Section = { h: string; p: string[] }
 
@@ -64,7 +64,7 @@ const PRIVACY: Section[] = [
   {
     h: 'Changes and contact',
     p: [
-      `We will post any changes to this policy on this page and update the date above. Questions or requests: ${CONTACT.site}, ${CONTACT.phone}.`,
+      `We will post any changes to this policy on this page and update the date above. Questions or requests: ${CONTACT.phone}.`,
     ],
   },
 ]
@@ -117,7 +117,7 @@ const TERMS: Section[] = [
   {
     h: 'Law and contact',
     p: [
-      `These terms are governed by the laws of the Republic of Uzbekistan. We may update them and will post changes on this page. Contact: ${CONTACT.site}, ${CONTACT.phone}.`,
+      `These terms are governed by the laws of the Republic of Uzbekistan. We may update them and will post changes on this page. Contact: ${CONTACT.phone}.`,
     ],
   },
 ]
