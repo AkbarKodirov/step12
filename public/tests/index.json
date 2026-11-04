@@ -336,6 +336,14 @@
     "minutesPerModule": 32
   },
   {
+    "id": "pt43",
+    "name": "Practice Test 43",
+    "type": "EBRW",
+    "modules": 2,
+    "questions": 54,
+    "minutesPerModule": 32
+  },
+  {
     "id": "math-pt1",
     "name": "Practice Test 1",
     "type": "MATH",
