@@ -71,16 +71,34 @@ async function withFallback(req, fn, timeoutMs) {
   throw last
 }
 
-/** A stream counts as started only once its first piece arrives, so a model that hangs before answering times out. */
+/** A stream counts as started only once its first words arrive, so a model that hangs before answering times out.
+ * (Pieces without text, e.g. thinking markers, don't count: a model can send one and then hang.) */
 async function startStream(req) {
   const it = await genai.models.generateContentStream(req)
-  const first = await it.next()
+  const head = []
+  for (;;) {
+    const r = await it.next()
+    if (r.done) break
+    head.push(r.value)
+    if (r.value?.text) break
+  }
   const gen = (async function* () {
-    if (!first.done) yield first.value
+    yield* head
     yield* it
   })()
   gen.model = req.model
   return gen
+}
+
+/** Passes a stream through, but fails it if no new piece arrives for `ms`, so a model that stalls mid-answer is replaced. */
+async function* stallGuard(stream, ms) {
+  const it = stream[Symbol.asyncIterator]()
+  for (;;) {
+    let timer
+    const r = await Promise.race([it.next(), new Promise((_, fail) => (timer = setTimeout(() => fail(Object.assign(new Error(`no new words for ${ms} ms`), { status: 'timeout' })), ms)))]).finally(() => clearTimeout(timer))
+    if (r.done) return
+    yield r.value
+  }
 }
 
 /** Gemini first; when every Gemini model is busy or out of free quota, the free Groq backup answers instead. */
@@ -624,7 +642,7 @@ app.post('/api/chat', auth, async (req, res) => {
     let text = ''
     for (let restarts = 0; ; restarts++) {
       try {
-        for await (const chunk of it) {
+        for await (const chunk of stallGuard(it, 15_000)) {
           if (gone) break
           const t = chunk.text || ''
           if (!t) continue
