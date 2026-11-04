@@ -16,7 +16,7 @@ import { ADMINS, ALWAYS_PRO, FREE_LIMITS, PRICE_UZS, PRICE_USD, PRO_DAYS, TELEGR
 
 const lc = (e) => String(e || '').trim().toLowerCase()
 const list = (s) => String(s || '').split(',').map(lc).filter(Boolean)
-const ADMIN_SET = new Set([...ADMINS.map(lc), ...list(process.env.ADMIN_EMAILS)])
+const ADMIN_SET = new Set(ADMINS.map(lc))
 const OWNER_SET = new Set([...ALWAYS_PRO.map(lc), ...list(process.env.ALWAYS_PRO_EMAILS)])
 const DAY = 86400000
 

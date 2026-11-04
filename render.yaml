@@ -30,5 +30,3 @@ services:
         sync: false # optional: Stripe webhook for /api/billing/stripe-webhook
       - key: TELEGRAM_MANAGER
         sync: false # e.g. https://t.me/your_manager (Click / Payme payments)
-      - key: ADMIN_EMAILS
-        sync: false # extra admin emails, comma separated
