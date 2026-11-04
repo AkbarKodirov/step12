@@ -39,9 +39,10 @@ Humo AI is a Digital SAT prep platform for **Humo AI** in Tashkent. Its AI tutor
 - **Greetings:** 20 rotating greetings in `src/app/greetings.ts`.
 - **Practice tests:** `public/tests/index.json` plus one `<id>.json` per test, shown by `src/app/pages/Tests.tsx` and run by `TakeTest.tsx`.
   - Every test is named "Practice Test N".
-  - Reading & Writing: Practice Test 1–13, each 2 modules × 27 = 54 questions.
+  - Reading & Writing: Practice Test 1–16, each 2 modules × 27 = 54 questions. Names come from `index.json` order; ids never change (results, mistakes and saved questions are keyed by id), and `syncTestNames()` in `src/app/store.ts` updates the names on old results.
+  - Practice Test 1–3 (`pt15`, `pt16`, `pt14`: real-exam questions) are free; `FREE_TESTS` in `shared/plans.js`. Every other test is Pro, with an "Unlock with Pro" button on its card.
   - Math: so far only Practice Test 1 (`math-pt1`), 2 modules × 22 = 44 questions.
-  - `scripts/restructure-tests.mjs` rebuilds the index and pairs single modules.
+  - `scripts/restructure-tests.mjs` rebuilds the index and pairs single modules. It predates the free-test renumbering and does not know `pt14`–`pt16`, so don't run it without updating it first.
 - **Question bank:** `public/bank/bank.json` (3,166 questions, including 2,092 original Reading & Writing questions from `scripts/cache/rw-originals.json`; every topic has at least 10 Easy, 10 Medium and 10 Hard), shown by `src/app/practice/QBank.tsx` and run by `Runner.tsx` at `/app/practice/run`.
   - Topics follow the 29 OnePrep / College Board topics in `shared/topics.js`.
   - Built by `scripts/gen-bank.mjs` (Gemini). Questions written without Gemini go in `scripts/cache/bank-additions.json` and are appended by `node scripts/add-bank.mjs` (pass file names, e.g. `node scripts/add-bank.mjs rw-originals.json`, to add only those files); each one was solved again by a separate checker and kept only if the answers matched.

@@ -1,14 +1,15 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
-import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
+import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown } from 'lucide-react'
 import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
-import { startSync, streak, useBindStore, useStore } from './store'
+import { loadIndex, startSync, streak, syncTestNames, useBindStore, useStore } from './store'
 import { HumoLogo } from '../brand/HumoLogo'
 import { openUpgrade, proOnly, useAccount, useAccountSync } from './account'
 import { ProLock, ProTag } from './components/Upgrade'
 import { UpgradeModal } from './components/UpgradeModal'
+import { FREE_TESTS } from '../../shared/plans.js'
 
 const HomePage = lazy(() => import('./pages/Home'))
 const HumoChat = lazy(() => import('./pages/HumoChat'))
@@ -60,6 +61,13 @@ function ProGate({ children, full }: { children: React.ReactNode; full?: boolean
   ) : (
     <ProLock title={title} blurb={blurb} />
   )
+}
+
+/** Free students can take the free practice tests; every other test shows the paywall. */
+function TestGate({ children }: { children: React.ReactNode }) {
+  const { id = '' } = useParams()
+  if (FREE_TESTS.includes(id)) return <>{children}</>
+  return <ProGate full>{children}</ProGate>
 }
 
 type Item = { to: string; label: string; icon: typeof Home; end?: boolean; badge?: string }
@@ -182,7 +190,11 @@ export default function AppShell() {
   useEffect(() => {
     let alive = true
     const t = setTimeout(() => alive && setSynced(true), 3000)
-    startSync(token).finally(() => alive && setSynced(true))
+    startSync(token).finally(() => {
+      if (!alive) return
+      setSynced(true)
+      loadIndex().then(syncTestNames).catch(() => {})
+    })
     return () => {
       alive = false
       clearTimeout(t)
@@ -238,7 +250,7 @@ export default function AppShell() {
       <div className="min-h-svh bg-card text-pine">
         <Suspense fallback={<PageLoading />}>
           <Routes>
-            <Route path="tests/:id/take" element={<ProGate full><TakeTest /></ProGate>} />
+            <Route path="tests/:id/take" element={<TestGate><TakeTest /></TestGate>} />
             <Route path="practice/run" element={<Runner />} />
           </Routes>
         </Suspense>
@@ -364,9 +376,9 @@ export default function AppShell() {
           <Routes>
             <Route index element={<HomePage />} />
             <Route path="humo" element={<HumoChat key="humo" />} />
-            <Route path="tests" element={<ProGate><Tests /></ProGate>} />
-            <Route path="results" element={<ProGate><ResultsList /></ProGate>} />
-            <Route path="results/:attemptId" element={<ProGate><Results /></ProGate>} />
+            <Route path="tests" element={<Tests />} />
+            <Route path="results" element={<ResultsList />} />
+            <Route path="results/:attemptId" element={<Results />} />
             <Route path="practice" element={<QBankHome />} />
             <Route path="practice/:section" element={<QBankSection />} />
             <Route path="vocab" element={<ProGate><Vocabulary /></ProGate>} />

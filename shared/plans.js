@@ -22,10 +22,13 @@ export const ADMINS = ['akbarjon160609@gmail.com']
  */
 export const TELEGRAM_MANAGER = ''
 
-/** App pages only Pro students can open (paths under /app). */
-export const PRO_PAGES = ['tests', 'results', 'papers', 'vocab', 'blitz', 'mistakes', 'plan', 'learn', 'analytics', 'calculator']
+/** Practice tests Free students can take (test ids). Every other practice test needs Pro. */
+export const FREE_TESTS = ['pt15', 'pt16', 'pt14']
 
-export const FREE_FEATURES = ['Full question bank: 3,000+ questions, every topic and level', '1 Ask Humo question a day', '1 Desmos Lab solve a day', 'Explanations on every bank question']
+/** App pages only Pro students can open (paths under /app). */
+export const PRO_PAGES = ['papers', 'vocab', 'blitz', 'mistakes', 'plan', 'learn', 'analytics', 'calculator']
+
+export const FREE_FEATURES = ['Full question bank: 3,000+ questions, every topic and level', '3 full-length practice tests with a real score', '1 Ask Humo question a day', '1 Desmos Lab solve a day', 'Explanations on every bank question']
 
 export const PRO_FEATURES = [
   'Unlimited Ask Humo and Desmos Lab',

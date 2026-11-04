@@ -411,6 +411,13 @@ export function toggleSavedBank(id: string) {
 
 export const loadIndex = () => fetch('/tests/index.json', { cache: 'no-cache' }).then((r) => r.json() as Promise<TestMeta[]>)
 
+/** Practice tests get renumbered now and then (ids never change), so saved results show each test's current name. */
+export function syncTestNames(index: TestMeta[]) {
+  const names = new Map(index.map((t) => [t.id, t.name]))
+  if (!state.attempts.some((a) => names.has(a.testId) && names.get(a.testId) !== a.testName)) return
+  setStore((s) => ({ ...s, attempts: s.attempts.map((a) => (names.has(a.testId) && names.get(a.testId) !== a.testName ? { ...a, testName: names.get(a.testId)! } : a)) }))
+}
+
 export const stripHtml = (h: string | null) => (h || '').replace(/<li>/g, '\n• ').replace(/<[^>]+>/g, ' ').replace(/\s+\n/g, '\n').replace(/[ \t]+/g, ' ').trim()
 
 export function toggleSaved(testId: string, module: number, index: number) {

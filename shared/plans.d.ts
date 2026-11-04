@@ -5,6 +5,7 @@ export const FREE_LIMITS: { humo: number; desmos: number }
 export const ALWAYS_PRO: string[]
 export const ADMINS: string[]
 export const TELEGRAM_MANAGER: string
+export const FREE_TESTS: string[]
 export const PRO_PAGES: string[]
 export const FREE_FEATURES: string[]
 export const PRO_FEATURES: string[]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "pt1",
+    "id": "pt15",
     "name": "Practice Test 1",
     "type": "EBRW",
     "modules": 2,
@@ -8,7 +8,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt2",
+    "id": "pt16",
     "name": "Practice Test 2",
     "type": "EBRW",
     "modules": 2,
@@ -16,7 +16,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt3",
+    "id": "pt14",
     "name": "Practice Test 3",
     "type": "EBRW",
     "modules": 2,
@@ -24,7 +24,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt4",
+    "id": "pt1",
     "name": "Practice Test 4",
     "type": "EBRW",
     "modules": 2,
@@ -32,7 +32,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt5",
+    "id": "pt2",
     "name": "Practice Test 5",
     "type": "EBRW",
     "modules": 2,
@@ -40,7 +40,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt6",
+    "id": "pt3",
     "name": "Practice Test 6",
     "type": "EBRW",
     "modules": 2,
@@ -48,7 +48,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "rw-mock-1",
+    "id": "pt4",
     "name": "Practice Test 7",
     "type": "EBRW",
     "modules": 2,
@@ -56,7 +56,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "rw-mock-2",
+    "id": "pt5",
     "name": "Practice Test 8",
     "type": "EBRW",
     "modules": 2,
@@ -64,7 +64,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt9",
+    "id": "pt6",
     "name": "Practice Test 9",
     "type": "EBRW",
     "modules": 2,
@@ -72,7 +72,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt10",
+    "id": "rw-mock-1",
     "name": "Practice Test 10",
     "type": "EBRW",
     "modules": 2,
@@ -80,7 +80,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt11",
+    "id": "rw-mock-2",
     "name": "Practice Test 11",
     "type": "EBRW",
     "modules": 2,
@@ -88,7 +88,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt12",
+    "id": "pt9",
     "name": "Practice Test 12",
     "type": "EBRW",
     "modules": 2,
@@ -96,7 +96,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt13",
+    "id": "pt10",
     "name": "Practice Test 13",
     "type": "EBRW",
     "modules": 2,
@@ -104,7 +104,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt14",
+    "id": "pt11",
     "name": "Practice Test 14",
     "type": "EBRW",
     "modules": 2,
@@ -112,7 +112,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt15",
+    "id": "pt12",
     "name": "Practice Test 15",
     "type": "EBRW",
     "modules": 2,
@@ -120,7 +120,7 @@
     "minutesPerModule": 32
   },
   {
-    "id": "pt16",
+    "id": "pt13",
     "name": "Practice Test 16",
     "type": "EBRW",
     "modules": 2,
