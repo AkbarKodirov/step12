@@ -93,8 +93,8 @@ async function withGroq(geminiCall, groqCall, req) {
 const gemini = genai && {
   models: {
     generateContent: (req, timeoutMs = 60_000) => withGroq(() => withFallback(req, (r) => genai.models.generateContent(r), timeoutMs), groqGenerate, req),
-    // the timeout covers the wait for the first words only
-    generateContentStream: (req, timeoutMs = 10_000) => withGroq(() => withFallback(req, startStream, timeoutMs), groqStream, req),
+    // the timeout covers the wait for the first words only: a model with no words after 5 s is skipped for the next one
+    generateContentStream: (req, timeoutMs = 5_000) => withGroq(() => withFallback(req, startStream, timeoutMs), groqStream, req),
   },
 }
 
