@@ -341,7 +341,7 @@ async function repairDesmos(spec, errors, question, expect) {
   const out = await gemini.models.generateContent({
     contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nRecompute the math and return ONLY the corrected spec as JSON (same format). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. A slider value goes in its own line with a "result"; the answer goes in a "result" expression on the line that really produces it (never a separate line like "n = 2"), and a count of solutions is shown by marking each intersection as a point.` }] }],
     config: { systemInstruction: DESMOS_GUIDE, temperature: 0.1, responseMimeType: 'application/json' },
-  })
+  }, 15_000)
   return parseSpec(out.text)
 }
 
@@ -481,19 +481,47 @@ async function solveOnce(contents, temperature, extra = '') {
   return lastJson(out.text)
 }
 
-/** Two independent solves (each checked with Python); if they disagree, a third one decides. Null when it can't be settled. */
+/** Resolves with the results that arrive within `ms`; stops early when one says it is not a math question to solve. */
+function settle(promises, ms) {
+  return new Promise((resolve) => {
+    const out = []
+    let left = promises.length
+    const timer = setTimeout(() => resolve(out), Math.max(0, ms))
+    for (const p of promises)
+      p.then((x) => {
+        out.push(x)
+        if ((x?.kind && x.kind !== 'math') || --left === 0) {
+          clearTimeout(timer)
+          resolve(out)
+        }
+      })
+  })
+}
+
+// the whole check gets at most this long, so a slow or busy model can't keep the student waiting for minutes
+const CHECK_MS = 25_000
+const TIEBREAK_MS = 12_000
+
+/** Two independent solves (each checked with Python); if they disagree, a third one decides. Null when it can't be settled.
+ * Solves that are still running after CHECK_MS are not waited for: Humo then uses the answer that did arrive. */
 async function verifiedAnswer(contents) {
   const input = flatContents(contents)
-  const [a, b] = await Promise.all([solveOnce(input, 0.2).catch(() => null), solveOnce(input, 0.8).catch(() => null)])
-  const first = [a, b].find((x) => x?.kind)
+  const got = await settle([solveOnce(input, 0.2).catch(() => null), solveOnce(input, 0.8).catch(() => null)], CHECK_MS)
+  const first = got.find((x) => x?.kind)
   if (!first) return null
   if (first.kind !== 'math') return first
-  const math = [a, b].filter((x) => x?.kind === 'math' && x.answer != null && x.answer !== '')
+  const math = got.filter((x) => x?.kind === 'math' && x.answer != null && x.answer !== '')
   if (math.length === 2 && sameAnswer(math[0], math[1])) return { ...math[0], agreed: true }
   const candidates = math.map((x, i) => `Solver ${i + 1} answered: ${x.answer}${x.choice ? ` (${x.choice})` : ''}`).join('\n')
-  const c = await solveOnce(input, 0.2, `\n\nOther solvers already tried this question:\n${candidates || 'They could not finish.'}\nAt least one of them is wrong or unsure. Solve it from scratch, check each candidate with Python, and give the answer that is actually correct.`).catch(() => null)
+  const [c] = await settle([solveOnce(input, 0.2, `\n\nOther solvers already tried this question:\n${candidates || 'They could not finish.'}\nAt least one of them is wrong or unsure. Solve it from scratch, check each candidate with Python, and give the answer that is actually correct.`).catch(() => null)], TIEBREAK_MS)
   if (c?.kind === 'math' && c.answer) return { ...c, agreed: math.some((x) => sameAnswer(x, c)) }
   return math[0] ? { ...math[0], agreed: false } : null
+}
+
+/** A typed message with no photo and no numbers ("teach me list regression", "how do sliders work?") has nothing to solve. */
+function hasQuestionToSolve(contents) {
+  const last = contents[contents.length - 1]
+  return !!last?.parts?.some((p) => p.inlineData || /\d/.test(p.text || ''))
 }
 
 function withVerified(system, v) {
@@ -551,7 +579,7 @@ app.post('/api/chat', auth, async (req, res) => {
     }
   }
   const check = async () => {
-    if (space !== 'desmos') return null
+    if (space !== 'desmos' || !hasQuestionToSolve(contents)) return null
     const v = await verifiedAnswer(contents).catch((e) => (console.warn('Answer check failed:', e?.message), null))
     if (v) console.log(`Desmos Lab check: ${v.kind}${v.kind === 'math' ? ` → ${v.answer}${v.agreed ? ' (solvers agreed)' : ' (solvers split)'}` : ''} in ${Date.now() - started} ms`)
     config.systemInstruction = withVerified(system, v)
@@ -587,7 +615,7 @@ app.post('/api/chat', auth, async (req, res) => {
   }
   try {
     let v = null
-    if (space === 'desmos') {
+    if (space === 'desmos' && hasQuestionToSolve(contents)) {
       send({ status: 'Reading the question and solving it twice to double-check…' })
       v = await check()
     }
