@@ -519,12 +519,19 @@ function settle(promises, ms) {
 // the whole check gets at most this long, so a slow or busy model can't keep the student waiting for minutes
 const CHECK_MS = 25_000
 const TIEBREAK_MS = 12_000
+const FIRST_MS = 35_000 // extra wait when neither solve is back after CHECK_MS
 
 /** Two independent solves (each checked with Python); if they disagree, a third one decides. Null when it can't be settled.
  * Solves that are still running after CHECK_MS are not waited for: Humo then uses the answer that did arrive. */
 async function verifiedAnswer(contents) {
   const input = flatContents(contents)
-  const got = await settle([solveOnce(input, 0.2).catch(() => null), solveOnce(input, 0.8).catch(() => null)], CHECK_MS)
+  const solves = [solveOnce(input, 0.2).catch(() => null), solveOnce(input, 0.8).catch(() => null)]
+  let got = await settle(solves, CHECK_MS)
+  // nothing back yet (busy models): an unchecked answer is often wrong, so wait a little longer for the first solve
+  if (!got.some((x) => x?.kind)) {
+    const firstGood = Promise.race([...solves.map((p) => p.then((x) => (x?.kind ? x : new Promise(() => {})))), Promise.all(solves).then(() => null)])
+    got = await settle([firstGood], FIRST_MS)
+  }
   const first = got.find((x) => x?.kind)
   if (!first) return null
   if (first.kind !== 'math') return first
@@ -601,6 +608,8 @@ app.post('/api/chat', auth, async (req, res) => {
     const v = await verifiedAnswer(contents).catch((e) => (console.warn('Answer check failed:', e?.message), null))
     if (v) console.log(`Desmos Lab check: ${v.kind}${v.kind === 'math' ? ` → ${v.answer}${v.agreed ? ' (solvers agreed)' : ' (solvers split)'}` : ''} in ${Date.now() - started} ms`)
     config.systemInstruction = withVerified(system, v)
+    // no checked answer to lean on: Humo thinks harder before writing so the math is still right
+    if (!v || v.kind === 'math' && !v.agreed) config.thinkingConfig = { thinkingLevel: 'high' }
     return v
   }
   const expectOf = (v) => (v?.kind === 'math' && !v.choice ? (answerValue(norm(v.answer)) ?? undefined) : undefined)
