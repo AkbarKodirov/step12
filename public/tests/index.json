@@ -136,6 +136,22 @@
     "minutesPerModule": 32
   },
   {
+    "id": "pt18",
+    "name": "Practice Test 18",
+    "type": "EBRW",
+    "modules": 2,
+    "questions": 54,
+    "minutesPerModule": 32
+  },
+  {
+    "id": "pt19",
+    "name": "Practice Test 19",
+    "type": "EBRW",
+    "modules": 2,
+    "questions": 54,
+    "minutesPerModule": 32
+  },
+  {
     "id": "math-pt1",
     "name": "Practice Test 1",
     "type": "MATH",
