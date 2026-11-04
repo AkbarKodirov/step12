@@ -57,6 +57,11 @@ async function withFallback(req, fn, timeoutMs) {
       last = e
       const code = e?.status || e?.code
       if (![404, 429, 500, 503, 'timeout'].includes(code)) throw e
+      // a slow model usually means Gemini is slow right now: go straight to the backups instead of waiting on each model
+      if (code === 'timeout' && groqReady) {
+        cooldown.set(model, Date.now() + 60_000)
+        throw e
+      }
       // a used-up daily quota says how long until it resets; skip that model until then instead of retrying it every minute
       const wait = Number(String(e?.message || '').match(/retry in ([\d.]+)s/i)?.[1] || 0) * 1000
       cooldown.set(model, Date.now() + (code === 404 ? 3600_000 : code === 429 && wait ? Math.min(wait, 6 * 3600_000) : 60_000))
