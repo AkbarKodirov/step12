@@ -6,7 +6,7 @@ import { useAuth } from '../../lib/auth'
 import { getStore, resetStore, setStore, streak, useStore, type Settings as SettingsT, type Profile } from '../store'
 import { DAY_NAMES, downloadIcs, generatePlan } from '../plan'
 import { Avatar } from '../AppShell'
-import { useAccount } from '../account'
+import { openUpgrade, useAccount } from '../account'
 
 const TABS = [
   ['account', 'Account', UserRound],
@@ -166,13 +166,13 @@ export default function Settings() {
                 <p className="truncate text-[13px] text-moss">{user?.email}</p>
               </div>
               {acc.pro ? (
-                <Link to="/app/upgrade" className="mt-14 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-3 py-1 text-[12px] font-bold text-[#3a2400]">
+                <button onClick={() => openUpgrade()} className="mt-14 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-3 py-1 text-[12px] font-bold text-[#3a2400]">
                   <Crown className="size-3.5" /> Humo Pro{acc.plan.until ? ` · until ${new Date(acc.plan.until).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}` : ''}
-                </Link>
+                </button>
               ) : (
-                <Link to="/app/upgrade" className="mt-14 inline-flex items-center gap-1 rounded-full bg-jg-50 px-3 py-1 text-[12px] font-semibold text-jg-700">
+                <button onClick={() => openUpgrade()} className="mt-14 inline-flex items-center gap-1 rounded-full bg-jg-50 px-3 py-1 text-[12px] font-semibold text-jg-700">
                   Free plan · <Crown className="size-3.5" /> Upgrade to Pro
-                </Link>
+                </button>
               )}
             </div>
             <dl className="mt-5 grid gap-3 text-[13.5px] sm:grid-cols-3">

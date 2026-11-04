@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { BookOpen, Check, Crown, Lock, Sparkles } from 'lucide-react'
 import { PRO_FEATURES } from '../../../shared/plans.js'
-import { priceLabel, resetIn, useAccount, type Feature } from '../account'
+import { openUpgrade, priceLabel, resetIn, useAccount, type Feature } from '../account'
 
 /** Small gold "Pro" tag. */
 export function ProTag({ className = '' }: { className?: string }) {
@@ -36,9 +36,9 @@ export function ProLock({ title, blurb }: { title: string; blurb: string }) {
             ))}
           </ul>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Link to="/app/upgrade" className="btn h-12 bg-gradient-to-r from-amber-300 to-amber-500 px-7 text-[15px] text-[#3a2400] shadow-lg shadow-amber-500/20 hover:brightness-105">
+            <button onClick={() => openUpgrade()} className="btn h-12 bg-gradient-to-r from-amber-300 to-amber-500 px-7 text-[15px] text-[#3a2400] shadow-lg shadow-amber-500/20 hover:brightness-105">
               <Crown className="size-4" /> Upgrade to Pro
-            </Link>
+            </button>
             <p className="text-[13px] text-white/60">
               <span className="text-[17px] font-semibold text-white">{priceLabel(a)}</span> / month · about ${a.billing.priceUsd}
             </p>
@@ -71,9 +71,9 @@ export function LimitCard({ feature }: { feature: Feature | 'pro' }) {
         Pro gives you unlimited Humo and Desmos Lab, every practice test and all lessons for {priceLabel(a)} a month.
         {feature !== 'pro' && a.resetAt ? ` Your free ${what} comes back in ${resetIn(a.resetAt)}.` : ''}
       </p>
-      <Link to="/app/upgrade" className="btn mt-3 h-9 bg-gradient-to-r from-amber-300 to-amber-500 px-4 text-[13px] text-[#3a2400]">
+      <button onClick={() => openUpgrade()} className="btn mt-3 h-9 bg-gradient-to-r from-amber-300 to-amber-500 px-4 text-[13px] text-[#3a2400]">
         Go Pro
-      </Link>
+      </button>
     </div>
   )
 }
@@ -95,9 +95,9 @@ export function UsageLine({ feature }: { feature: Feature }) {
           <>Today's free {name} is used{a.resetAt ? ` · back in ${resetIn(a.resetAt)}` : ''}</>
         )}
       </span>
-      <Link to="/app/upgrade" className="inline-flex items-center gap-1 font-semibold text-jg-700 hover:text-jg-600">
+      <button onClick={() => openUpgrade()} className="inline-flex items-center gap-1 font-semibold text-jg-700 hover:text-jg-600">
         <Crown className="size-3.5" /> Unlimited with Pro
-      </Link>
+      </button>
     </div>
   )
 }

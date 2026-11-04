@@ -117,3 +117,25 @@ export function resetIn(at: number) {
   const m = Math.floor((ms % 3600000) / 60000)
   return h ? `${h} h ${m} min` : `${m} min`
 }
+
+/* ---------- the Go Pro window (opened from anywhere) ---------- */
+export type UpgradeOpen = { open: boolean; sessionId?: string; cancelled?: boolean }
+let upgrade: UpgradeOpen = { open: false }
+const upSubs = new Set<() => void>()
+export function openUpgrade(o: Omit<UpgradeOpen, 'open'> = {}) {
+  upgrade = { open: true, ...o }
+  upSubs.forEach((f) => f())
+}
+export function closeUpgrade() {
+  upgrade = { open: false }
+  upSubs.forEach((f) => f())
+}
+export function useUpgradeWindow() {
+  return useSyncExternalStore(
+    (f) => {
+      upSubs.add(f)
+      return () => upSubs.delete(f)
+    },
+    () => upgrade,
+  )
+}

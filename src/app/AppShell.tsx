@@ -6,8 +6,9 @@ import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
 import { startSync, streak, useBindStore, useStore } from './store'
 import { HumoLogo } from '../brand/HumoLogo'
-import { proOnly, useAccount, useAccountSync } from './account'
+import { openUpgrade, proOnly, useAccount, useAccountSync } from './account'
 import { ProLock, ProTag } from './components/Upgrade'
+import { UpgradeModal } from './components/UpgradeModal'
 
 const HomePage = lazy(() => import('./pages/Home'))
 const HumoChat = lazy(() => import('./pages/HumoChat'))
@@ -29,7 +30,6 @@ const Analytics = lazy(() => import('./pages/Analytics'))
 const ScoreCalculator = lazy(() => import('./pages/ScoreCalculator'))
 const SettingsPage = lazy(() => import('./pages/Settings'))
 const Onboarding = lazy(() => import('./Onboarding'))
-const Upgrade = lazy(() => import('./pages/Upgrade'))
 const Admin = lazy(() => import('./pages/Admin'))
 
 /** What a Free student sees on each Pro page. */
@@ -168,7 +168,7 @@ export default function AppShell() {
   useEffect(() => {
     const all = GROUPS.flatMap((g) => g.items)
     const hit = [...all].sort((a, b) => b.to.length - a.to.length).find((i) => (i.end ? pathname === i.to : pathname.startsWith(i.to)))
-    const extra = pathname === '/app/upgrade' ? 'Humo Pro' : pathname.startsWith('/app/practice/run') ? 'Practice' : /\/app\/tests\/[^/]+\/take/.test(pathname) ? 'Test in progress' : null
+    const extra = pathname.startsWith('/app/practice/run') ? 'Practice' : /\/app\/tests\/[^/]+\/take/.test(pathname) ? 'Test in progress' : null
     document.title = `${extra ?? hit?.label ?? 'Humo AI'} · Humo AI`
     return () => {
       document.title = 'Humo AI — Digital SAT prep with your AI tutor'
@@ -215,6 +215,14 @@ export default function AppShell() {
     return () => clearTimeout(t)
   }, [s.settings.reminders, s.profile.studyDays, s.profile.studyTime, s.plan])
 
+  // "/app/upgrade" (old links, and the return from the card page) opens the Go Pro window
+  useEffect(() => {
+    if (pathname !== '/app/upgrade') return
+    const q = new URLSearchParams(location.search)
+    openUpgrade({ sessionId: q.get('session_id') ?? undefined, cancelled: !!q.get('cancelled') })
+    nav('/app', { replace: true })
+  }, [pathname, nav])
+
   // the plan decides which app opens: the admin gets only the admin dashboard
   if (!acc.loaded) return <PageLoading />
   if (acc.admin)
@@ -234,6 +242,7 @@ export default function AppShell() {
             <Route path="practice/run" element={<Runner />} />
           </Routes>
         </Suspense>
+        <UpgradeModal />
       </div>
     )
 
@@ -293,12 +302,12 @@ export default function AppShell() {
           ))}
         </nav>
         {acc.loaded && !acc.pro && (
-          <Link to="/app/upgrade" className="mt-3 block rounded-2xl bg-gradient-to-br from-[#bb0937] to-[#6d0520] p-3.5 text-white">
+          <button onClick={() => openUpgrade()} className="mt-3 block w-full rounded-2xl bg-gradient-to-br text-left from-[#bb0937] to-[#6d0520] p-3.5 text-white">
             <span className="flex items-center gap-2 text-[13.5px] font-semibold">
               <Crown className="size-4 text-amber-300" /> Upgrade to Pro
             </span>
             <span className="mt-1 block text-[11.5px] leading-snug text-white/75">Unlimited Humo, every test and lesson. 149 000 so'm a month.</span>
-          </Link>
+          </button>
         )}
         <div className="mt-4 flex items-center gap-3 rounded-2xl bg-white/[0.06] p-2.5">
           <Avatar />
@@ -335,9 +344,9 @@ export default function AppShell() {
           <div className="flex items-center gap-2">
             <InstallButton />
             {acc.loaded && !acc.pro && (
-              <Link to="/app/upgrade" className="inline-flex h-9 items-center gap-1.5 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-3.5 text-[13px] font-bold text-[#3a2400]">
+              <button onClick={() => openUpgrade()} className="inline-flex h-9 items-center gap-1.5 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-3.5 text-[13px] font-bold text-[#3a2400]">
                 <Crown className="size-4" /> Go Pro
-              </Link>
+              </button>
             )}
             <span title="Daily streak" className={`inline-flex h-9 items-center gap-1.5 rounded-full px-3.5 text-[14px] font-semibold ${days ? 'bg-orange-500 text-white' : 'bg-card text-moss ring-1 ring-line'}`}>
               <Flame className={`size-4 ${days ? 'animate-flicker' : ''}`} /> {days}
@@ -373,7 +382,6 @@ export default function AppShell() {
             <Route path="calculator" element={<ProGate><ScoreCalculator /></ProGate>} />
             <Route path="desmos" element={<HumoChat key="desmos" space="desmos" />} />
             <Route path="settings" element={<SettingsPage />} />
-            <Route path="upgrade" element={<Upgrade />} />
             <Route path="*" element={<Navigate to="/app" replace />} />
           </Routes>
           </motion.div>
@@ -381,6 +389,7 @@ export default function AppShell() {
       </main>
 
       {!pathname.startsWith('/app/results/') && pathname !== '/app/humo' && pathname !== '/app/desmos' && <HumoFab />}
+      <UpgradeModal />
 
       {/* Mobile bottom nav */}
       <nav className="theme-light fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-white/10 bg-pine pb-[env(safe-area-inset-bottom)] md:hidden">
