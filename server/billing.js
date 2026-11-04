@@ -205,5 +205,24 @@ export async function adminOverview() {
     desmosToday: [...todayUse.values()].reduce((a, x) => a + x.desmos, 0),
     monthlyUzs: pro.filter((r) => r.plan.source !== 'owner').length * PRICE_UZS,
   }
-  return { rows, stats, payments: payments.sort((a, b) => b.at - a.at).slice(0, 50) }
+  // last 14 days (Tashkent dates), oldest first: sign-ups and Humo use
+  const days = Array.from({ length: 14 }, (_, i) => dayKey(Date.now() - (13 - i) * DAY))
+  const trend = days.map((d) => {
+    const use = usage.filter((x) => x.day === d)
+    return {
+      day: d,
+      signups: rows.filter((r) => !r.invited && r.createdAt && dayKey(r.createdAt) === d).length,
+      humo: use.reduce((a, x) => a + (x.humo || 0), 0),
+      desmos: use.reduce((a, x) => a + (x.desmos || 0), 0),
+      active: use.length,
+    }
+  })
+  // who got Pro and how (admin grants and card payments), newest first
+  const proActivity = users
+    .filter((u) => u?.pro?.at)
+    .map((u) => ({ email: u.email, name: u.name || u.email.split('@')[0], at: u.pro.at, until: u.pro.until ?? null, source: u.pro.source, by: u.pro.by || null }))
+    .sort((a, b) => b.at - a.at)
+    .slice(0, 50)
+  const config = { ...billingInfo(), limits: FREE_LIMITS, alwaysPro: [...OWNER_SET], admins: [...ADMIN_SET] }
+  return { rows, stats, trend, proActivity, config, payments: payments.sort((a, b) => b.at - a.at).slice(0, 50) }
 }

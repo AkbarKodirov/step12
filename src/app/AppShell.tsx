@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
-import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown, ShieldCheck } from 'lucide-react'
+import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown } from 'lucide-react'
 import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
@@ -168,7 +168,7 @@ export default function AppShell() {
   useEffect(() => {
     const all = GROUPS.flatMap((g) => g.items)
     const hit = [...all].sort((a, b) => b.to.length - a.to.length).find((i) => (i.end ? pathname === i.to : pathname.startsWith(i.to)))
-    const extra = pathname === '/app/upgrade' ? 'Humo Pro' : pathname === '/app/admin' ? 'Admin panel' : pathname.startsWith('/app/practice/run') ? 'Practice' : /\/app\/tests\/[^/]+\/take/.test(pathname) ? 'Test in progress' : null
+    const extra = pathname === '/app/upgrade' ? 'Humo Pro' : pathname.startsWith('/app/practice/run') ? 'Practice' : /\/app\/tests\/[^/]+\/take/.test(pathname) ? 'Test in progress' : null
     document.title = `${extra ?? hit?.label ?? 'Humo AI'} · Humo AI`
     return () => {
       document.title = 'Humo AI — Digital SAT prep with your AI tutor'
@@ -214,6 +214,15 @@ export default function AppShell() {
     const t = setTimeout(() => new Notification('Time to study with Humo', { body: `Today's plan: ${(s.plan?.days[day] ?? []).map((x) => x.title).slice(0, 3).join(' · ') || 'Daily 20 words'}`, icon: '/humo-mark.png' }), ms)
     return () => clearTimeout(t)
   }, [s.settings.reminders, s.profile.studyDays, s.profile.studyTime, s.plan])
+
+  // the plan decides which app opens: the admin gets only the admin dashboard
+  if (!acc.loaded) return <PageLoading />
+  if (acc.admin)
+    return (
+      <Suspense fallback={<PageLoading />}>
+        <Admin />
+      </Suspense>
+    )
 
   // The test runner is full-screen, like the real exam app.
   if (/\/app\/tests\/[^/]+\/take/.test(pathname) || pathname.startsWith('/app/practice/run'))
@@ -283,11 +292,6 @@ export default function AppShell() {
             </div>
           ))}
         </nav>
-        {acc.admin && (
-          <NavLink to="/app/admin" className={({ isActive }) => `mt-3 flex items-center gap-3 rounded-xl px-3 py-2 text-[14px] font-medium ${isActive ? 'bg-white/[0.1] text-cream' : 'text-cream/60 hover:bg-white/[0.05] hover:text-cream'}`}>
-            <ShieldCheck className="size-[18px]" /> Admin panel
-          </NavLink>
-        )}
         {acc.loaded && !acc.pro && (
           <Link to="/app/upgrade" className="mt-3 block rounded-2xl bg-gradient-to-br from-[#bb0937] to-[#6d0520] p-3.5 text-white">
             <span className="flex items-center gap-2 text-[13.5px] font-semibold">
@@ -370,7 +374,6 @@ export default function AppShell() {
             <Route path="desmos" element={<HumoChat key="desmos" space="desmos" />} />
             <Route path="settings" element={<SettingsPage />} />
             <Route path="upgrade" element={<Upgrade />} />
-            <Route path="admin" element={acc.admin ? <Admin /> : acc.loaded ? <Navigate to="/app" replace /> : <PageLoading />} />
             <Route path="*" element={<Navigate to="/app" replace />} />
           </Routes>
           </motion.div>
@@ -411,11 +414,6 @@ export default function AppShell() {
                 </div>
               </div>
             ))}
-            {acc.admin && (
-              <NavLink to="/app/admin" onClick={() => setMore(false)} className="mb-2 flex items-center gap-2.5 rounded-xl bg-white/[0.04] px-3 py-2.5 text-[13.5px]">
-                <ShieldCheck className="size-4" /> Admin panel
-              </NavLink>
-            )}
             <button
               onClick={() => {
                 signOut()
