@@ -116,3 +116,28 @@ export function signal() {
   paths.push('M271 218 C284 220 295 226 302 235 C292 235 283 239 274 245 Z')
   return { body: paths.join(' '), spark: spark(256, 150, 20), head, eye: [262, 228, 4.5] }
 }
+
+/* ---------- Crest v2: one clean silhouette, layered feathers with even gaps, a keyline round the body ---------- */
+export function crest2() {
+  const L = [
+    // base, tip, half-width, bend (left wing, top feather first; the right wing mirrors it)
+    [P(246, 250), P(102, 96), 27, -10],
+    [P(240, 266), P(70, 164), 26, -8],
+    [P(238, 284), P(64, 232), 24, -5],
+    [P(240, 302), P(86, 294), 20, -2],
+  ]
+  const left = L.map(([b, t, w, bend]) => blade(b, t, w, bend, 1))
+  const right = L.map(([b, t, w, bend]) => mirrorBlade(b, t, w, bend))
+  // tail: centre plume on top, outer plumes behind; evenly fanned, none crossing
+  const tail = [
+    blade(P(256, 340), P(256, 468), 19, 0, 1),
+    blade(P(252, 340), P(214, 452), 16, 4, -1), mirrorBlade(P(252, 340), P(214, 452), 16, 4),
+    blade(P(248, 336), P(178, 422), 14, 7, -1), mirrorBlade(P(248, 336), P(178, 422), 14, 7),
+  ]
+  // groups: front-most first
+  const groups = [left, right, [tail[0], tail[1], tail[3]], [tail[0], tail[2], tail[4]]]
+  const body = 'M256 198 C285 198 300 240 300 282 C300 322 279 352 256 374 C233 352 212 322 212 282 C212 240 227 198 256 198Z'
+  const head = 'M256 152 a26 26 0 1 0 0.1 0Z'
+  const beak = 'M276 167 C289 167 299 172 306 181 C296 182 287 186 279 192Z'
+  return { groups, core: `${body} ${beak}`, head, eye: [265, 174, 4.6], spark: spark(256, 112, 19), keyline: 9, gap: 6 }
+}

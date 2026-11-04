@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import { chromium } from 'playwright'
-import { crest } from './marks.mjs'
+import { renderMark } from './markrender.mjs'
 import { text, capHeight } from './wm.mjs'
 import { humo, poses, expressions, turnaround } from './mascot.mjs'
 
@@ -15,18 +15,16 @@ export const K = {
   crimson: '#C8103F', ruby: '#A8092F', rose: '#E0456B', sheen: '#FF7A98', petal: '#FFC2D1', lightRed: '#FF6F86',
   cream: '#F6F7FB', slate: '#56657A', white: '#FFFFFF', sparkLight: '#FFE3EA',
 }
-const M = crest()
-const BOX = { x: 70, y: 99, w: 372, h: 371 } // the mark's bounds on its 512 grid
+const BOX = { x: 64, y: 93, w: 384, h: 375 } // the mark's bounds on its 512 grid
 
 // The Humo red: pink sheen at the top falling to the 3D Humo's metallic crimson, like light on the 3D bird.
 const redGrad = (id, y1 = BOX.y, y2 = BOX.y + BOX.h) => `<linearGradient id="${id}" x1="0" y1="${y1}" x2="0" y2="${y2}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FF8FA6"/><stop offset=".5" stop-color="${K.rose}"/><stop offset="1" stop-color="${K.ruby}"/></linearGradient>`
 const textRed = (id) => `<linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF8FA6"/><stop offset="1" stop-color="${K.rose}"/></linearGradient>`
 const navyGrad = (id) => `<linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${K.royal}"/><stop offset="1" stop-color="${K.midnight}"/></linearGradient>`
-const eyeHole = () => { const [x, y, r] = M.eye; return `M${x} ${y - r} a${r} ${r} 0 1 1 -0.1 0Z` }
 
 /** The Humo mark on its 512 grid. */
 function mark(fill, spark = fill) {
-  return `<path d="${M.body}" fill="${fill}"/><path d="${M.head} ${eyeHole()}" fill="${fill}" fill-rule="evenodd"/><path d="${M.spark}" fill="${spark}"/>`
+  return renderMark(fill, spark)
 }
 const svgDoc = (w, h, body, title = 'Humo AI') => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}"><title>${title}</title>${body}</svg>\n`
 
