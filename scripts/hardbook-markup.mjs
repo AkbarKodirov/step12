@@ -151,7 +151,8 @@ function toHtml(t) {
       if (n.group) return toHtml(n.group)
       if (n.sup) return `<sup>${toHtml(n.sup)}</sup>`
       if (n.sub) return `<sub>${toHtml(n.sub)}</sub>`
-      if (n.rad) return `${n.idx ? `<sup class="ri">${toHtml(n.idx)}</sup>` : ''}√<span class="rad">${toHtml(n.rad)}</span>`
+      // the root sign is drawn by CSS so that its hook and the bar over the radicand are one line
+      if (n.rad) return `${n.idx ? `<sup class="ri">${toHtml(n.idx)}</sup>` : ''}<span class="rad"><span class="rq">√</span>${toHtml(n.rad)}</span>`
       return ''
     })
     .join('')
