@@ -1,0 +1,156 @@
+# Hand-typed versions of math questions whose plain text cannot be typeset automatically
+# (tables written inline, missing pieces). Format: @<id>, stem lines in Math Hard Book markup, then A) .. D) options.
+
+@desmos-PSD-01
+The table shows a set of data.
+| x | 1 | 2 | 3 | 4 | 5 |
+| y | 2.1 | 3.9 | 6.2 | 7.8 | 10.1 |
+Using the line of best fit for these data, what is the predicted y-value when x = 12? Round to the nearest whole number.
+
+@desmos-PSD-07
+The table gives values of x and y.
+| x | 0 | 1 | 2 | 3 |
+| y | 5 | 7.5 | 11.25 | 16.875 |
+The relationship is exponential. What is y when x = 6? Round to the nearest whole number.
+
+@desmos-PSD-09
+A school club records members by year and whether they joined the robotics team.
+| Year | Joined | Did not join |
+| Juniors | x | 36 |
+| Seniors | 30 | 20 |
+If a junior is chosen at random, the probability that the junior joined is 0.4. If a member who joined is chosen at random, what is the probability that the member is a senior? (Round to three decimal places.)
+
+@desmos-ADV-35
+The table gives values of g(x) = f(x) - 6, where f is a quadratic function.
+| x | 1 | 2 | 3 |
+| g(x) | -2 | 3 | 12 |
+What is the y-intercept of the graph of y = f(x)? (Give the y-coordinate.)
+
+@j-cca4c2d128
+A political analyst wants to conduct a poll to estimate the proportion of registered voters who support a tax reform bill. Preliminary estimates suggest the true proportion is close to 0.40. If the analyst requires a margin of error of no more than 0.03 at a 95% confidence level (where the standard error formula uses √{{p(1 − p)/n}} multiplied by approximately 2 for 95% confidence), what is the minimum required sample size?
+
+@j-d9358bb683
+For x > 0, which expression is equivalent to {^3√{x^5}/√{x}}?
+A) x^{7/6}
+B) x^{5/6}
+C) x^{13/6}
+D) x^{10/3}
+
+@math-hard1-13
+img: /qimg/hb/mh13.svg
+The figure shown consists of a rectangle and a semicircle, where the length of WX is 20 units and the length of WZ is 5 units. The diameter of the semicircle is WX. Which of the following expressions represents the area, in square units, of the figure?
+A) 20 + 5 + 10π
+B) 20 × 5 + 10π
+C) 20 × 5 + 50π
+D) 20 × 5 + 100π
+
+# Questions that were only screenshots, typed out (img: none removes the screenshot)
+@hm2-5
+img: none
+$ 2cos(90 - a)° · cos b° + sin(a + y)° · sin(90 - b)°
+In the given expression, a and b are constants such that sin a° = 0.50, cos b° = 0.99, and 0 < b < 90. What is the value of the given expression when y = 0?
+
+@hm2-6
+img: /qimg/hb/hm2-6.svg
+In the figure, AD and BC intersect at point D. The measure of ∠ABD is w°, the measure of ∠CAD is z°, and AD = 178. If cos w° = {9/41}, what is the value of tan z°?
+
+@hm2-7
+img: none
+$ 22x - 21y = 43
+$ 5x + 14y = 59
+The solution to the given system of equations is (x, y) = ({p/59}, {w/826}), where p and w are integers. What is the value of p?
+
+@hm2-8
+img: none
+| Solid | Volume (cubic units) |
+| Right circular cylinder A | 112π |
+| Right circular cylinder B | 3,024π |
+The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 4 units. The surface area of right circular cylinder A is kπ square units, and the surface area of right circular cylinder B is nπ square units, where k and n are constants. What is the value of n - k? (The surface area of a right circular cylinder with radius r and height h is 2πr^2 + 2πrh.)
+
+@hm2-9
+img: none
+In triangle XYZ, angle Y is a right angle, the measure of angle Z is 39°, and the length of YZ is 22 units. If the area, in square units, of triangle XYZ can be represented by the expression k tan 39°, where k is a constant, what is the value of k?
+
+@hm2-10
+img: none
+A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 7,150% of the number of postdoctoral students surveyed, and the number of graduate students surveyed was 45% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?
+
+@hm2-11
+img: none
+Point N lies on a unit circle in the xy-plane and has coordinates (1, 0). Point O is the center of the circle and has coordinates (0, 0). Point M also lies on the unit circle, and the measure of angle NOM is {272π/3} radians. If the coordinates of point M are (a, b), where a and b are constants, what is the value of a?
+A) {1/2}
+B) {√{3}/2}
+C) -{1/2}
+D) -{√{3}/2}
+
+@hm2-12
+img: none
+The function p is defined by p(x) = a((x + 6)^2 - b)((x + 6)^2 - c), where a, b, and c are constants. In the xy-plane, the graph of y = p(x) passes through the points (-7, 24) and (0, 899). What is the value of p(-12) + p(-5)?
+
+@hm2-13
+img: none
+If the population of town A is 497% of the population of town B and 0.071% of the population of town C, and the population of town C is p% of the population of town B, what is the value of {p/1,000}?
+
+@hm2-14
+img: none
+| x | y |
+| p - 2 | 10 |
+| p + 4 | 22 |
+The table gives the coordinates of two points on a line in the xy-plane. The x-intercept of the line is (q, p - 10), where p and q are constants. What is the value of q?
+
+@hm2-15
+img: none
+$ f(x) = (1.84)^{x/4}
+The function f is defined by the given equation. The equation can be rewritten as f(x) = (1 + {p/100})^x, where p is a constant. Which of the following is closest to the value of p?
+A) 16
+B) 21
+C) 46
+D) 96
+
+@hm2-16
+img: none
+For the linear function p, p(c) = -2, where c is a constant, p(5) = 34, and the slope of the graph of y = p(x) in the xy-plane is 6. For the linear function t, t(c) = -4 and t(6) = 52. What is the slope of the graph of y = t(x) in the xy-plane?
+A) -1
+B) 4
+C) 6
+D) 8
+
+@hm2-17
+img: none
+A circle has center G, and points M and N lie on the circle. Line segments MH and NH are tangent to the circle at points M and N, respectively. If the radius of the circle is 168 millimeters and the perimeter of quadrilateral GMHN is 3,856 millimeters, what is the distance, in millimeters, between points G and H?
+A) 168
+B) 1,752
+C) 1,760
+D) 1,768
+
+@hm2-18
+img: none
+The function f is defined by f(x) = -39^x. The function g is a decreasing linear function. In the xy-plane, the graphs of y = f(x) and y = g(x) intersect at two points, (h, j) and (k, m), where j > m. When g(x) < f(x), which of the following must also be true?
+A) x > k
+B) x < h
+C) x > k or x < h
+D) h < x < k
+
+@hm2-19
+img: /qimg/hb/hm2-19.svg
+$ x ≥ 0
+$ y ≥ 0
+$ 3x + y ≤ k
+In the figure, the shaded region represents the solution set for the system of inequalities shown. If the area of this shaded region is 24 square units, what is the value of k? (Note: Figure not drawn to scale.)
+
+@hm2-20
+img: none
+The function h(x) = -√{x^2 + bx + c} passes through the points (2, 0) and (0, -√{370}), where b and c are constants. If h(m) = 0, what is the greatest possible value of m?
+
+@hm2-21
+img: none
+A circle whose equation is given below intersects the x-axis exactly once and the y-axis exactly once. What is the value of q + w, where q and w are positive integer constants?
+$ (x + q)^2 + (y - 34)^2 = w
+
+@hm2-22
+img: none
+Point O is the center of a unit circle in the xy-plane, and its coordinates are (0, 0). Point A lies on the unit circle, and its coordinates are (0, 1). Point P on the unit circle is obtained by rotating point A {7π/6} radians about the origin in the counterclockwise direction. What are the coordinates of point P?
+A) (-{√{3}/2}, -{1/2})
+B) (-{√{3}/2}, {1/2})
+C) ({1/2}, -{√{3}/2})
+D) (-{1/2}, -{√{3}/2})
