@@ -586,23 +586,35 @@ app.post('/api/chat', auth, async (req, res) => {
       send({ status: 'Reading the question and solving it twice to double-check…' })
       v = await check()
     }
-    const it = await ask((c) => gemini.models.generateContentStream({ contents: c, config }))
+    const streamOnce = () => ask((c) => gemini.models.generateContentStream({ contents: c, config }))
+    let it = await streamOnce()
     let text = ''
-    try {
-      for await (const chunk of it) {
+    for (let restarts = 0; ; restarts++) {
+      try {
+        for await (const chunk of it) {
+          if (gone) break
+          const t = chunk.text || ''
+          if (!t) continue
+          text += t
+          send({ delta: t })
+        }
+        break
+      } catch (e) {
+        // the model broke off mid-answer (busy or rate-limited): rest it and stream the answer again from the next model,
+        // so the student sees new words within a second or two instead of waiting for a whole answer to be written
+        console.warn(`Gemini ${it.model} stopped mid-answer (${e?.status || e?.message}), restarting on another model`)
+        if (it.model) cooldown.set(it.model, Date.now() + 60_000)
         if (gone) break
-        const t = chunk.text || ''
-        if (!t) continue
-        text += t
-        send({ delta: t })
+        text = ''
+        send({ reset: true })
+        if (restarts >= 1) {
+          const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
+          text = out.text || ''
+          send({ delta: text })
+          break
+        }
+        it = await streamOnce()
       }
-    } catch (e) {
-      // the model broke off mid-answer (busy or rate-limited): rest it and get the whole answer from the next model
-      console.warn(`Gemini ${it.model} stopped mid-answer (${e?.status || e?.message}), finishing on another model`)
-      if (it.model) cooldown.set(it.model, Date.now() + 60_000)
-      const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
-      text = out.text || ''
-      send({ reset: true, delta: text })
     }
     if (gone) {
       console.log(`Chat stopped by the student after ${Date.now() - started} ms`)
