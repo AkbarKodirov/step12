@@ -11,6 +11,8 @@ import { answerValue, DESMOS_GUIDE, prepareScreen } from './desmos.js'
 import { backupNames, groqGenerate, groqReady, groqStream } from './groq.js'
 import { findQuestion, memoryNote, memorySize, practiceSummary } from './retrieve.js'
 import { kvBackend, kvDel, kvGet, kvSet } from './kv.js'
+import { adminOverview, billingInfo, confirmCheckout, isAdmin, nextReset, planOf, refundUse, startCheckout, stripeWebhook, takeUse, usageOf } from './billing.js'
+import { FREE_LIMITS } from '../shared/plans.js'
 import { createHash } from 'node:crypto'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -118,7 +120,7 @@ export const idFor = (email) => 'u_' + createHash('sha256').update(String(email)
 const getUser = (email) => kvGet('users', String(email || '').trim().toLowerCase())
 
 function publicUser(u) {
-  return { id: u.id, name: u.name, email: u.email, picture: u.picture, provider: u.provider, createdAt: u.createdAt }
+  return { id: u.id, name: u.name, email: u.email, picture: u.picture, provider: u.provider, createdAt: u.createdAt, plan: planOf(u).tier, admin: isAdmin(u.email) || undefined }
 }
 function issue(u) {
   return { token: jwt.sign({ sub: u.id, email: u.email }, JWT_SECRET, { expiresIn: '60d' }), user: publicUser(u) }
@@ -127,6 +129,8 @@ async function upsertUser(data) {
   const key = data.email.trim().toLowerCase()
   const prev = await getUser(key)
   const u = { createdAt: Date.now(), ...prev, ...data, email: key, id: idFor(key) }
+  // an admin may have made this email Pro before the student signed up: their real join date is today
+  if (prev && !prev.provider && data.provider) u.createdAt = Date.now()
   await kvSet('users', key, u)
   return u
 }
@@ -135,6 +139,18 @@ async function upsertUser(data) {
 const app = express()
 
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') || true }))
+
+// Stripe signs the raw body, so this route reads it before the JSON parser does
+app.post('/api/billing/stripe-webhook', express.raw({ type: '*/*', limit: '1mb' }), async (req, res) => {
+  try {
+    await stripeWebhook(req.body.toString('utf8'), req.headers['stripe-signature'], getUser, upsertUser)
+    res.json({ received: true })
+  } catch (e) {
+    console.warn('Stripe webhook refused:', e.message)
+    res.status(e.status || 500).json({ error: e.message })
+  }
+})
+
 app.use(express.json({ limit: '12mb' }))
 
 function auth(req, res, next) {
@@ -197,6 +213,69 @@ app.delete('/api/me', auth, async (req, res) => {
   await kvDel('users', String(req.user.email || '').toLowerCase())
   await kvDel('progress', idFor(req.user.email || ''))
   res.json({ ok: true })
+})
+
+/* ---------- plans: Free / Pro, daily limits, card payments ---------- */
+async function account(email) {
+  let u = await getUser(email)
+  if (!u && email) u = await upsertUser({ email, name: email.split('@')[0], provider: 'google' })
+  return u
+}
+
+app.get('/api/account', auth, async (req, res) => {
+  const u = await account(req.user.email)
+  if (!u) return res.status(404).json({ error: 'Account not found.' })
+  // "last seen" for the admin panel, written at most once an hour
+  if (!u.lastSeen || Date.now() - u.lastSeen > 3600000) await kvSet('users', u.email, { ...u, lastSeen: Date.now() })
+  res.json({ plan: planOf(u), admin: isAdmin(u.email), usage: await usageOf(u.id), limits: FREE_LIMITS, resetAt: nextReset(), billing: billingInfo() })
+})
+
+app.post('/api/billing/checkout', auth, async (req, res) => {
+  try {
+    const origin = process.env.PUBLIC_URL || process.env.RENDER_EXTERNAL_URL || `${req.protocol}://${req.get('host')}`
+    const url = await startCheckout(req.user.email, origin.replace(/\/$/, ''))
+    if (!url) return res.status(503).json({ error: 'Card payments are being set up. Message our manager on Telegram to pay today.', code: 'card_off' })
+    res.json({ url })
+  } catch (e) {
+    console.error('Checkout failed:', e.message)
+    res.status(502).json({ error: 'The card payment page could not open. Try again in a minute.' })
+  }
+})
+
+app.post('/api/billing/confirm', auth, async (req, res) => {
+  try {
+    const r = await confirmCheckout(req.body?.sessionId, req.user.email, getUser, upsertUser)
+    const u = await getUser(req.user.email)
+    res.json({ ok: r.ok, plan: planOf(u, req.user.email) })
+  } catch (e) {
+    console.error('Payment check failed:', e.message)
+    res.status(502).json({ error: 'We could not check the payment yet. It usually appears within a minute.' })
+  }
+})
+
+/* ---------- admin panel ---------- */
+function admin(req, res, next) {
+  if (!isAdmin(req.user?.email)) return res.status(403).json({ error: 'Only Humo AI admins can open this.' })
+  next()
+}
+
+app.get('/api/admin/users', auth, admin, async (_req, res) => {
+  res.json(await adminOverview())
+})
+
+app.post('/api/admin/plan', auth, admin, async (req, res) => {
+  const email = String(req.body?.email || '').trim().toLowerCase()
+  const { tier } = req.body || {}
+  const days = req.body?.days == null ? null : Math.max(1, Math.min(3650, Math.round(Number(req.body.days) || 0)))
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({ error: 'Enter a valid email.' })
+  if (tier !== 'pro' && tier !== 'free') return res.status(400).json({ error: 'Choose Pro or Free.' })
+  const prev = (await getUser(email)) || { email, name: email.split('@')[0] }
+  if (tier === 'free' && planOf(prev, email).source === 'owner') return res.status(400).json({ error: 'This account is always Pro.' })
+  // admins set the exact length from today ("30 days" means until 30 days from now)
+  const pro = tier === 'pro' ? { until: days == null ? null : Date.now() + days * 86400000, source: 'admin', by: req.user.email, at: Date.now() } : null
+  const u = await upsertUser({ ...prev, email, pro })
+  console.log(`Admin ${req.user.email} set ${email} to ${tier}${tier === 'pro' ? (days ? ` for ${days} days` : ' with no end date') : ''}`)
+  res.json({ ok: true, plan: planOf(u) })
 })
 
 /* ---------- student progress sync (chats, plan, onboarding, results…) ---------- */
@@ -422,11 +501,24 @@ The correct final answer is ${v.answer}${v.choice ? ` (choice ${v.choice})` : ''
 
 const CHAT_THINKING = { thinkingLevel: process.env.GEMINI_CHAT_THINKING || 'low' }
 
-app.post('/api/chat', async (req, res) => {
+app.post('/api/chat', auth, async (req, res) => {
   const { messages = [], context, space, stream, recent } = req.body || {}
   if (!gemini) return res.status(503).json({ error: NO_KEY })
   let contents = chatContents(messages)
   if (!contents.length) return res.status(400).json({ error: 'Send Humo a question first.' })
+  // Free plan: one Ask Humo question and one Desmos Lab solve a day (checked here, not only in the app)
+  const feature = space === 'desmos' ? 'desmos' : 'humo'
+  const me = await account(req.user.email)
+  if (!me) return res.status(401).json({ error: 'Log in again to chat with Humo.' })
+  const use = await takeUse(me, req.user.email, feature)
+  if (!use.ok)
+    return res.status(402).json({
+      code: 'limit',
+      feature,
+      resetAt: use.resetAt,
+      error: feature === 'desmos' ? "You've used today's free Desmos Lab solve. Go Pro for unlimited solves, or come back tomorrow." : "You've used today's free question to Humo. Go Pro to keep chatting, or come back tomorrow.",
+    })
+  const giveBack = () => refundUse(me, feature)
   let system = context ? `${HUMO_FULL}\n\nContext about what the student is working on right now:\n${String(context).slice(0, 14000)}` : HUMO_FULL
   if (space === 'desmos') system = `${system}\n\n${DESMOS_LAB}`
   // Humo AI's own questions carry checked keys: if the student is asking about one, Humo is told the answer first
@@ -469,6 +561,7 @@ app.post('/api/chat', async (req, res) => {
       res.json({ reply: r.text, desmos: r.desmos, plan: r.plan, tutor: 'Humo' })
     } catch (e) {
       console.error('Chat failed:', e?.status || '', e?.message || e)
+      giveBack()
       res.status(502).json({ error: 'Humo is very busy right now. Please try again in a minute.' })
     }
     return
@@ -520,6 +613,7 @@ app.post('/api/chat', async (req, res) => {
     console.log(`Chat answered in ${Date.now() - started} ms (${contents.length} turns)`)
   } catch (e) {
     console.error('Chat failed:', e?.status || '', e?.message || e)
+    giveBack()
     const error = 'Humo is very busy right now. Please try again in a minute.'
     if (opened) send({ error })
     else res.status(502).json({ error })
@@ -596,8 +690,9 @@ app.post('/api/desmos/solve', async (req, res) => {
 })
 
 /* ---------- Humo edits the study plan ---------- */
-app.post('/api/plan', async (req, res) => {
+app.post('/api/plan', auth, async (req, res) => {
   const { plan, profile, instruction } = req.body || {}
+  if (planOf(await getUser(req.user.email), req.user.email).tier !== 'pro') return res.status(402).json({ code: 'pro', error: 'The study plan is part of Humo Pro.' })
   if (!instruction) return res.status(400).json({ error: 'Tell Humo what to change.' })
   if (!gemini) return res.status(503).json({ error: NO_KEY })
   try {
