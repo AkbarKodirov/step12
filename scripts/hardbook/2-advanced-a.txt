@@ -1,0 +1,415 @@
+# Math Hard Book: Advanced Math, questions 1–60
+@M1 | NLF | B | fig:m1
+In the xy-plane, the quadrants are labeled as shown. The graph of the equation
+$ y = 3(x + a)^2 + b
+where a and b are positive constants, has a vertex in which quadrant?
+A) Quadrant I
+B) Quadrant II
+C) Quadrant III
+D) Quadrant IV
+= The vertex is (-a, b): a negative x-coordinate and a positive y-coordinate, which is Quadrant II.
+
+@M2 | NLE | 140
+The solutions to x^2 + 12x + 35 = 0 are r and s, where r < s. The solutions to x^2 + 12x + 27 = 0 are t and u, where t < u. The solutions to x^2 + 24x + c = 0, where c is a constant, are r + u and s + t. What is the value of c?
+= r = -7, s = -5, t = -9, u = -3. The new solutions are -10 and -14, and c is their product, 140.
+
+@M3 | NLE | 7
+If x = ^{2n}√{2x^n + 35}, where n is a positive integer constant, what is the value of x^n?
+= Raise both sides to the power 2n: (x^n)^2 = 2x^n + 35, so (x^n - 7)(x^n + 5) = 0. An even root is never negative, so x^n = 7.
+
+@M4 | NLF | C | fig:m4
+The graph of y = f(x) is shown in the xy-plane. If a, b, and c are positive constants, which of the following equations could define the function f?
+A) f(x) = -a(x + b)(x + c)
+B) f(x) = -a(x - b)(x - c)
+C) f(x) = a(x + b)(x + c)
+D) f(x) = a(x - b)(x - c)
+= The parabola opens upward (positive leading coefficient) and both x-intercepts are negative, so the zeros are -b and -c: f(x) = a(x + b)(x + c).
+
+@M5 | NLF | 136
+The function f is defined by f(x) = {|x|/a}, where a < 0. What is the product of f(17a) and f(8a)?
+= Since a < 0, |17a| = -17a, so f(17a) = -17 and f(8a) = -8. The product is 136.
+
+@M6 | NLE | 6
+If x^2 - x - 30 = 0, what is the positive value of x?
+= (x - 6)(x + 5) = 0, so the positive solution is 6.
+
+@M7 | NLF | A | fig:m7
+The graph of y = g(x) is shown, where the function g is defined by
+$ g(x) = f(x + a) + b
+and a and b are constants. If the function f is defined by f(x) = x^3, what is the value of a + b?
+A) -5
+B) -1
+C) 1
+D) 5
+= The graph of y = x^3 has its centre at (0, 0); here the centre is at (4, -1). So g(x) = (x - 4)^3 - 1, with a = -4 and b = -1, and a + b = -5.
+
+@M8 | NLE | 4
+$ (3x + p)(5x^2 - 45)(2x^2 - 16x + 6p) = 0
+In the given equation, p is a positive constant. The sum of the solutions to the equation is {20/3}. What is the value of p?
+= The solutions are -{p/3}, 3, -3, and the two solutions of 2x^2 - 16x + 6p = 0, which add to 8. So -{p/3} + 8 = {20/3} and p = 4 (that quadratic then has solutions 2 and 6).
+
+@M9 | NLF | A
+$ f(x) = (x - a)(x - b)
+The function f is defined by the given equation, where a and b are integers. If f(12) > 0, f(17) < 0, and f(62) > 0, what is a possible value of a + b?
+A) 31
+B) 29
+C) 28
+D) 80
+= One zero is between 12 and 17 and the other between 17 and 62, so the sum is between 31 and 77 for integers (13 + 18 = 31 is the least). Only 31 works.
+
+@M10 | NLF | A
+$ f(x) = ax^2 + 6x + c
+In the given quadratic function, a and c are constants. The graph of y = f(x) in the xy-plane is a parabola that opens upward and has a vertex at the point (h, k), where h and k are constants. If k > 0 and f(-7) = f(5), which of the following must be true?
+I. c > 3
+II. a > 3
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= f(-7) = f(5) puts the axis at x = -1, so -{6/2a} = -1 and a = 3 (II is false). Then k = f(-1) = 3 - 6 + c = c - 3 > 0, so c > 3.
+
+@M11 | NLF | 845
+Function f is a quadratic function. The graph of y = f(x) in the xy-plane has a vertex at (9, -7), contains the point (8, -9), and has a y-intercept at (0, a). The graph of y = 6 · f(x) has a y-intercept at (0, b). What is the positive difference between a and b?
+= f(x) = p(x - 9)^2 - 7 and f(8) = -9 give p = -2, so a = f(0) = -169 and b = 6a = -1,014. The difference is 845.
+
+@M12 | NLE | C
+$ y = 2x^2 - 19x + 40
+$ y = x + a
+In the given system of equations, a is a constant. The graphs of the equations in the given system intersect at exactly one point (x, y) in the xy-plane. What is the value of x?
+A) -10
+B) -5
+C) 5
+D) 10
+= 2x^2 - 20x + 40 - a = 0 must have a double root, which is x = {20/2(2)} = 5.
+
+@M13 | NLF | B | fig:m13
+The graph of y = f(x) is shown in the xy-plane. If the function g is defined by
+$ g(x) = (x + 3)(x - 1)
+for which of the following values of x is f(x) - g(x) > 5?
+A) -3
+B) -2
+C) 1
+D) 2
+= From the graph f(-3) = 2.5, f(-2) = 4, f(1) = 2.5, f(2) = 0, while g(-3) = 0, g(-2) = -3, g(1) = 0, g(2) = 5. Only at x = -2 is the difference (7) greater than 5.
+
+@M14 | EQX | 2381
+$ 34z^{14} + bz^7 + 70
+In the given expression, b is a positive integer. If qz^7 + r is a factor of the expression, where q and r are positive integers, what is the greatest possible value of b?
+= The expression factors as (qz^7 + r)(sz^7 + t) with qs = 34 and rt = 70, and b = qt + rs. The largest choice is q = 34, t = 70, r = s = 1: b = 2,380 + 1 = 2,381.
+
+@M15 | NLF | C | fig:m15
+Which of the following could be the equation of the graph shown?
+A) y = (x + 2)^2(x - 3)^2
+B) y = (x - 2)^2(x + 3)^2
+C) y = 2(x + 2)^2(x - 3)^2
+D) y = 2(x - 2)^2(x + 3)^2
+= The graph touches the x-axis at -2 and 3, so the factors are (x + 2)^2(x - 3)^2. Its y-intercept is 72, and (2)^2(-3)^2 = 36, so the coefficient is 2.
+
+@M16 | NLF | B
+In the xy-plane, a parabola has vertex (7, 12) and intersects the x-axis at two points. If the equation of the parabola is written in the form y = ax^2 + bx + c, where a, b, and c are constants, which of the following could be the value of a + b + c?
+A) 12
+B) -14
+C) 18
+D) 36
+= The parabola opens downward (a < 0), so a + b + c = y(1) = 36a + 12 is less than 12. Only -14 is less than 12.
+
+@M17 | NLF | B | fig:m17
+An equation for the graph shown is
+$ y = a(x + 3)(x + b)
+where a and b are constants. What is the value of ab?
+A) -2
+B) -{4/3}
+C) {1/2}
+D) 8
+= The x-intercepts are -3 and 4, so b = -4. The y-intercept is -4: a(3)(-4) = -4 gives a = {1/3}. So ab = -{4/3}.
+
+@M18 | NLE | 14
+The polynomial p(x) = x^3 - 6x^2 + 11x - 6 has roots r, s, and t, where r < s < t. What is the value of r^2 + s^2 + t^2?
+= p(x) = (x - 1)(x - 2)(x - 3), so the sum is 1 + 4 + 9 = 14.
+
+@M19 | EQX | A
+The expression
+$ bx^2 - 13x + 22
+can be rewritten as (hx - k)(x + j), where b is a constant and h, j, and k are integer constants. Which of the following must be an integer?
+A) {k - 13/h}
+B) {13/b}
+C) -{j/22}
+D) {k/22}
+= Expanding gives hx^2 + (hj - k)x - kj, so hj - k = -13 and j = {k - 13/h}, which is an integer.
+
+@M20 | NLF | C | fig:m20
+The graph of f(x) is the result of shifting the graph of g(x) 3 units to the right and 3 units up. If the equation of f(x) is
+$ f(x) = x^2 + 4x
+what is the equation of g(x)?
+A) g(x) = (x - 5)^2 + 1
+B) g(x) = (x - 5)^2 - 7
+C) g(x) = (x + 5)^2 - 7
+D) g(x) = (x + 5)^2 - 4
+= f(x) = (x + 2)^2 - 4 with vertex (-2, -4). Undo the shift: g has vertex (-5, -7), so g(x) = (x + 5)^2 - 7.
+
+@M21 | NLE | 1 | fig:m21
+The xy-plane above shows the graphs of a linear function and a quadratic function. The vertex of the graph of the quadratic function is at (3, -4), and this graph crosses the x-axis at x = 5. The graphs intersect at the vertex and at the point (r, s), which lies on the x-axis. What is the value of r?
+= The parabola is symmetric about x = 3, so its x-intercepts are 5 and 1. The point (r, s) is the other x-intercept, so r = 1.
+
+@M22 | NLF | D | fig:m22
+The graph of
+$ y = f(x) - k
+is shown in the xy-plane. If k, a, and b are positive constants, which equation could define f?
+A) f(x) = (x - a)^2(x + b)
+B) f(x) = (x + a)^2(x - b)
+C) f(x) = (x - a)^2(x - b)^2
+D) f(x) = (x + a)^2(x - b)^2
+= The graph rises on both sides and has two equal low points, one at a negative x and one at a positive x, so f is a degree-4 polynomial that touches zero at a negative and a positive number: (x + a)^2(x - b)^2. Subtracting k only moves it down.
+
+@M23 | NLF | D
+$ f(x) = m√{-x - n}
+where m and n are constants. If f(8) = 0 and f(4) < -16, which of the following must be true?
+A) m > -8
+B) n + m = 0
+C) n + m > 0
+D) n - m > 0
+= f(8) = m√{-8 - n} = 0 gives n = -8. Then f(4) = m√{4} = 2m < -16, so m < -8 and n - m = -8 - m > 0.
+
+@M24 | NLF | B
+For the function f, for every increase of {1/2} in the value of x, the value of f(x) increases by a factor of c, where c is a constant. Which of the following equivalent forms of the function f displays the value of c as the base or the coefficient?
+A) f(x) = 38(2)^{6x}
+B) f(x) = 38(8)^{2x}
+C) f(x) = 38(64)^x
+D) f(x) = 38(4,096)^{{x/2}}
+= In 38(8)^{2x}, adding {1/2} to x adds 1 to the exponent, so f is multiplied by the base 8 = c.
+
+@M25 | NLE | -5
+$ 8rx^2 - 80sx + 8r = 0
+For the given equation, r and s are constants such that r > 0, s < 0, and {r/s} > k. What is the least value of k that ensures that the equation has two distinct real solutions?
+= Two real solutions need 6,400s^2 - 256r^2 > 0, that is ({r/s})^2 < 25. Since {r/s} < 0, this means {r/s} > -5, so the least k is -5.
+
+@M26 | NLF | D
+For the function f, for each increase in the value of x by c, where c is a positive constant, the value of f(x) increases by a factor of 16. Which of the following equivalent forms of the function f displays {1/c} as a coefficient of x?
+A) f(x) = 139(16^{{1/3}})^{{1/2}x}
+B) f(x) = 139(8)^{2x}
+C) f(x) = 139(8^2)^{{1/2}x}
+D) f(x) = 139(64^{{2/3}})^{{1/8}x}
+= 64^{{2/3}} = 16, so D is 139(16)^{{x/8}}: f is multiplied by 16 every time x increases by 8. So c = 8 and the coefficient {1/8} = {1/c}. (In C, 8^x grows by 16 every {4/3}, not every 2.)
+
+@M27 | NLF | A
+$ f(x) = 250(5)^x
+The function f is defined by the given equation. If g(x) = f(x - 2), which of the following equations defines the function g?
+A) g(x) = 10(5)^x
+B) g(x) = 125(5)^x
+C) g(x) = 250(25)^x
+D) g(x) = 250(10)^x
+= g(x) = 250(5)^{x - 2} = {250/25}(5)^x = 10(5)^x.
+
+@M28 | NLF | B
+The functions f and g are defined by the given equations, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x ≥ 0?
+I. f(x) = 16(1.24)^x + 43
+II. g(x) = 8(0.72)^x
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= f keeps growing, so it has no maximum. g is decreasing, so its maximum is g(0) = 8, which is shown as the coefficient.
+
+@M29 | NLF | 31 | 31.27 | 31.28
+$ z(w) = (0.829)^{2w}
+The function z is defined by the equation shown. The value of z(w) decreases by p% for each increase by 1 in the value of w. To the nearest whole number, what is the value of p?
+= Each increase of 1 in w multiplies z by 0.829^2 ≈ 0.6872, a decrease of about 31.28%, so p ≈ 31.
+
+@M30 | NLE | -6.4 | -32/5
+$ (x - k)^2 = (k - 5a)(x - k)
+In the given equation, a and k are constants, where k > 5a. The sum of the solutions to the equation is 3k + 32. What is the value of a?
+= Factor: (x - k)(x - k - k + 5a) = 0, so x = k or x = 2k - 5a. Their sum is 3k - 5a = 3k + 32, so a = -6.4.
+
+@M31 | EQX | 8.5 | 17/2
+The expression 6x^4 + 17x^2 + 7 can be rewritten as (3x^2 + a)(2x^2 + b), where a and b are positive integers, or as (3x^2 + c)(2x^2 + d), where c and d are positive nonintegers. What is the value of a + c?
+= We need 3d + 2c = 17 and cd = 7. The integer pair is c = 7, d = 1, so a = 7; the other pair is c = {3/2}, d = {14/3}. So a + c = 8.5.
+
+@M32 | NLF | 11
+The function f is defined by f(x) = {x^2 + ax + b/2x + c}, where a, b, and c are constants. The graph of the function f in the xy-plane, where y = f(x), does not intersect the line x = 4. If f(5) = f(6) = 0, what is the value of a + b + c?
+= The graph misses x = 4, so 2(4) + c = 0 and c = -8. The zeros 5 and 6 give x^2 - 11x + 30, so a = -11, b = 30, and a + b + c = 11.
+
+@M33 | NLF | 179
+The function h is defined by
+$ h(x) = -√{x^2 + bx + c}
+The graph of y = h(x) passes through (2, 0) and (0, -√{358}). If h(m) = 0, what is the greatest possible value of m?
+= c = 358 and 4 + 2b + 358 = 0 give b = -181. Then m^2 - 181m + 358 = 0 gives m = 2 or m = 179.
+
+@M34 | EQX | 0.9 | 9/10
+$ ^7√{p^4} = t^{{5/7}}
+In the given equation, p > 1 and t > 1. If t = p^{2n - 1}, where n is a constant, what is the value of n?
+= p^{{4/7}} = p^{(2n - 1){5/7}}, so 5(2n - 1) = 4 and n = 0.9.
+
+@M35 | NLF | D
+In the xy-plane, a parabola has vertex (9, -14) and intersects the x-axis at two points. If the equation of the parabola is written in the form y = ax^2 + bx + c, where a, b, and c are constants, which of the following could be the value of a + b + c?
+A) -23
+B) -19
+C) -14
+D) -12
+= The parabola opens upward, so a + b + c = y(1) = 64a - 14 is greater than -14. Only -12 works.
+
+@M36 | NLF | 76
+$ y = ax^2 + bx + c
+The function f is defined above, where a, b, and c are constants. The graph of y = f(x) in the xy-plane passes through the points (-16, 0) and (9, 0). If a is an integer greater than 3, what is the smallest possible value of 3b - 2a?
+= y = a(x + 16)(x - 9) = a(x^2 + 7x - 144), so b = 7a and 3b - 2a = 19a. With a = 4 this is 76.
+
+@M37 | NLF | -6 | -25/6 | -4.166 | -4.167
+$ f(x) = ax^2 + bx + c
+The function f is defined above, where a, b, and c are constants and 4 < b < 7. The graph of y = f(x) is such that f(1) = f(5). If b is an integer, what could be the value of ab?
+= The axis is x = 3, so -{b/2a} = 3 and a = -{b/6}. With b = 6, a = -1 and ab = -6 (b = 5 gives -{25/6}, also correct).
+
+@M38 | NLF | 923
+The function p is defined by p(x) = a((x + 6)^2 - b)((x + 6)^2 - c), where a, b, and c are constants. In the xy-plane, the graph of y = p(x) passes through the points (-7, 24) and (0, 899). What is the value of p(-12) + p(-5)?
+= p depends only on (x + 6)^2. For x = -12 that is 36, the same as for x = 0, so p(-12) = 899; for x = -5 it is 1, the same as for x = -7, so p(-5) = 24. The sum is 923.
+
+@M39 | NLF | -2268
+$ f(x) = ^3√{x^3 + ax^2 + bx + c}
+The function f is defined by the given equation, where a, b, and c are integers. The graph of y = f(x) passes through the point (9, 0), and f(0) = 27. What is the value of 9a + b?
+= f(0) = 27 gives c = 27^3 = 19,683. f(9) = 0 gives 729 + 81a + 9b + 19,683 = 0, so 9(9a + b) = -20,412 and 9a + b = -2,268.
+
+@M41 | NLF | D
+$ y = ax^2 + bx + c
+The equation of a parabola is given, where a, b, and c are constants. In the xy-plane, the parabola has vertex (3, 11) and c < 0. Which of the following could be the value of b?
+A) 5
+B) 6
+C) 7
+D) 8
+= y = a(x - 3)^2 + 11 gives c = 9a + 11 < 0, so a < -{11/9}, and b = -6a > {22/3} ≈ 7.33. Only 8 works.
+
+@M42 | NLF | 1456
+A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. According to the model, the object was launched from a height of 0 feet and reached its maximum height of 1,600 feet 10 seconds after it was launched. Based on the model, what was the height, in feet, of the object 7 seconds after it was launched?
+= h(t) = a(t - 10)^2 + 1,600 with h(0) = 0 gives a = -16. Then h(7) = -16(9) + 1,600 = 1,456.
+
+@M43 | NLF | -5
+The function f is defined by f(x) = 2x^2 - 8x + 3. What is the minimum value of f(x)?
+= The vertex is at x = {8/4} = 2, and f(2) = 8 - 16 + 3 = -5.
+
+@M44 | EQX | D
+Which of the following expressions has a factor of x + 2b, where b is a positive integer constant?
+A) 3x^2 + 7x + 14b
+B) 3x^2 + 16x + 14b
+C) 3x^2 + 18x + 14b
+D) 3x^2 + 25x + 14b
+= With x = -2b, 3x^2 + kx + 14b = 12b^2 - 2kb + 14b = 0 gives k = 6b + 7. For b = 3, k = 25.
+
+@M45 | NLF | D
+A chemical reaction in a closed container produces a gas, and the volume V of gas produced over time t (in minutes) can be modeled by a quadratic function. At t = 5.0 minutes, the volume of gas produced is 40.0 liters, and at t = 15.0 minutes, the volume of gas produced is 160.0 liters. If the reaction starts at t = 0 without gas produced, what will be the volume of gas produced at t = 25.0 minutes?
+A) 375.2 liters
+B) 483.6 liters
+C) 423.3 liters
+D) 333.3 liters
+= V = at^2 + bt with 25a + 5b = 40 and 225a + 15b = 160 gives a = {4/15} and b = {20/3}. Then V(25) = {500/3} + {500/3} ≈ 333.3 liters.
+
+@M46 | NLF | B
+If p(x) = x^2 + kx + 4 has no real zeros, what is the range of possible values for k?
+A) k < -4
+B) -4 < k < 4
+C) k > 4
+D) No range, k can be any real number.
+= No real zeros means k^2 - 16 < 0, so -4 < k < 4.
+
+@M47 | NLF | C
+$ f(x) = -3x^2 + bx + c
+In the given quadratic function, b and c are constants. The graph of y = f(x) in the xy-plane is a parabola that has a vertex at the point (h, k), where h and k are constants. If f(-4) = f(8), and the quadratic function has x-intercepts at (r, 0) and (s, 0), which of the following must be true?
+I. r + s = 4
+II. b < 0
+III. c < k
+A) I and II only
+B) II and III only
+C) I and III only
+D) I, II, and III
+= The axis is x = 2, so r + s = 4 and b = 12 (II is false). The vertex is the maximum, so k = f(2) is greater than f(0) = c.
+
+@M48 | NLF | A
+The functions f and g are defined by the given equations, where 2 ≤ x ≤ 8. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where 2 ≤ x ≤ 8?
+I. f(x) = 0.0625(0.5)(2)^{x + 2}
+II. g(x) = 1,500(0.2)^{x - 3}
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= f is increasing, so its minimum is f(2) = 0.0625(0.5)(16) = 0.5, which appears as a coefficient. g is decreasing, so its minimum is g(8) = 1,500(0.2)^5 = 0.48, which does not appear.
+
+@M49 | EQX | -112
+The given expression is
+$ -16(5x - 3)^2 + 4(5x - 2)^2
+The given expression can be rewritten as {ax^2/4} + {bx/4} + {c/4}, where a, b, and c are constants. What is the value of a + b + c?
+= The expression equals -300x^2 + 400x - 128, so a = -1,200, b = 1,600, c = -512, and a + b + c = -112.
+
+@M50 | EQX | A
+Given the expression
+$ ^4√{40n} × (^5√{40n})^3
+find the value of y for which the expression is equivalent to (40n)^{30y}, where n > 1.
+A) {17/600}
+B) {10/600}
+C) {7/600}
+D) {14/600}
+= The exponent is {1/4} + {3/5} = {17/20}, so 30y = {17/20} and y = {17/600}.
+
+@M51 | NLF | C
+$ f(x) = 5(0.92)^{3x}
+The function f is defined by the given equation. The equation can be rewritten as f(x) = 5(1 - {p/100})^x, where p is a constant. Which of the following is closest to the value of p?
+A) 8
+B) 12
+C) 22
+D) 24
+= 0.92^3 ≈ 0.7787 = 1 - {p/100}, so p ≈ 22.
+
+@M52 | EQX | A
+Which of the following expressions has 6x - 5b as a factor, where b is a positive integer constant?
+A) 24x^2 - 22x - 15b
+B) 24x^2 + 18x - 15b
+C) 24x^2 + 36x - 15b
+D) 24x^2 - 484x - 15b
+= With x = {5b/6}, 24x^2 + kx - 15b = 0 gives k = 18 - 20b. For b = 2, k = -22.
+
+@M53 | NLE | -32
+$ {1/cx} = {x/128} + {1/c}
+In the given equation, c is a constant. If the equation has exactly one solution, what is the value of c?
+= Multiply by 128cx: cx^2 + 128x - 128 = 0. One solution needs 128^2 + 4(128)c = 0, so c = -32 (the solution is x = 2).
+
+@M55 | NLF | A
+$ f(x) = 4^{-(2 + x)}
+Which of the following equivalent forms of the given function displays the y-coordinate of the y-intercept of its graph in the xy-plane as a constant?
+A) f(x) = {1/16}({1/4})^x
+B) f(x) = ({1/4})^{(2 + x)}
+C) f(x) = 2^{-2(2 + x)}
+D) f(x) = 4^{-(2 - x)}
+= f(0) = 4^{-2} = {1/16}, which is the coefficient in A.
+
+@M56 | NLF | D
+The equation of a parabola is y = ax^2 + bx + c, where a, b, and c are constants. In the xy-plane, the parabola has vertex (5, -9) and has zero x-intercepts. Which of the following could be the value of a - b - c?
+A) -47
+B) -5
+C) 9
+D) 23
+= No x-intercepts with a vertex below the axis means a < 0. y = a(x - 5)^2 - 9 gives a - b - c = a + 10a - 25a + 9 = 9 - 14a, which is greater than 9.
+
+@M57 | NLF | D
+$ f(x) = (x - a)(x - b)
+The function f is defined by the given equation, where a and b are integer constants. If f(32) > 0, f(35) < 0, and f(38) > 0, which of the following could be the value of a + b?
+A) 35
+B) 37
+C) 67
+D) 69
+= One zero is 33 or 34 and the other is 36 or 37, so a + b is 69, 70, or 71.
+
+@M58 | NLF | B
+$ f(x) = 3^{-2(x + 1)}
+Which of the following equivalent forms of the given function f displays, as the base or the coefficient, the y-coordinate of the y-intercept of the graph of y = f(x) in the xy-plane?
+A) f(x) = ({1/3})^{(2x + 2)}
+B) f(x) = {1/9}({1/3})^{2x}
+C) f(x) = 81^{(-{1/2}x - {1/2})}
+D) f(x) = 3^{(-2x - 2)}
+= f(0) = 3^{-2} = {1/9}, the coefficient in B.
+
+@M59 | NLE | 171
+In the given equation, k is a constant. The equation
+$ √{k - x} = 43 - x
+has exactly one real solution. What is the minimum possible value of 4k?
+= Let u = 43 - x ≥ 0. Then u^2 - u + (43 - k) = 0 must have exactly one root u ≥ 0. A double root u = {1/2} needs 43 - k = {1/4}, so k = 42.75 (for k > 43 there is also one solution, but those k are larger). So 4k = 171.
+
+@M60 | NLF | 184
+The function p is defined by
+$ p(x) = a((x + 5)^2 - b)((x + 5)^2 - c)
+where a, b, and c are constants. In the xy-plane, the graph of y = p(x) passes through the points (-4, 34) and (0, 150). What is the value of p(-10) + p(-4)?
+= (x + 5)^2 is 25 at both x = -10 and x = 0, so p(-10) = 150. With p(-4) = 34 the sum is 184.

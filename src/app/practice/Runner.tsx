@@ -324,7 +324,11 @@ function Session({ items, rush, back, start, resume = false }: { items: Item[]; 
                   )}
                 </AnimatePresence>
                 {q.image && <img src={q.image} alt="" className="mt-5 max-w-full rounded-xl" />}
-                {q.question && (isRW ? <Highlightable text={q.question} storeKey={`${item.key}:q`} enabled={hl} className="mt-5 whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" /> : <p className="mt-5 whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed">{q.question}</p>)}
+                {item.r.bank?.questionHtml ? (
+                  <div className="prose-q math-q mt-5 text-[16.5px] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: item.r.bank.questionHtml }} />
+                ) : (
+                  q.question && (isRW ? <Highlightable text={q.question} storeKey={`${item.key}:q`} enabled={hl} className="mt-5 whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" /> : <p className="mt-5 whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed">{q.question}</p>)
+                )}
 
                 {q.format === 'mc' ? (
                   <div className="mt-5 space-y-2.5">
@@ -342,7 +346,7 @@ function Session({ items, rush, back, start, resume = false }: { items: Item[]; 
                             className={`relative flex flex-1 cursor-pointer items-center gap-3 rounded-xl border-2 px-4 py-3 text-[15px] transition ${showRight ? 'animate-pop border-emerald-500 bg-emerald-50' : showWrong ? 'animate-shake border-red-400 bg-red-50' : picked ? 'border-[#2d70b3] bg-[#2d70b3]/[0.06]' : 'border-line hover:border-line-strong'} ${struck ? 'opacity-45' : ''}`}
                           >
                             <span className={`grid size-7 shrink-0 place-items-center rounded-full border-2 text-[12px] font-bold ${picked && !a.checked ? 'border-[#2d70b3] bg-[#2d70b3] text-white' : 'border-pine/40'}`}>{L[k]}</span>
-                            <span className={`prose-q flex-1 ${struck ? 'line-through' : ''}`} dangerouslySetInnerHTML={{ __html: opt }} />
+                            <span className={`prose-q math-q flex-1 ${struck ? 'line-through' : ''}`} dangerouslySetInnerHTML={{ __html: item.r.bank?.optionsHtml?.[k] ?? opt }} />
                             {picked && !a.checked && (
                               <button
                                 onClick={(e) => {

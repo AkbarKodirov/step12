@@ -72,6 +72,9 @@ export type BankQ = TestQuestion & {
   challenge?: boolean
   topic?: string
   explanation?: string
+  /** Math Hard Book: the same question and choices with fractions, powers and tables as HTML */
+  questionHtml?: string
+  optionsHtml?: string[]
   bankId?: string
   solution?: { hints: string[]; desmos: string[]; look_for: string; why: string; trap: string; rule: string; topic: string }
 }

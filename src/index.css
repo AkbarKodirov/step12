@@ -209,6 +209,15 @@ html.dark-app .prose-q th, html.dark-app .prose-q td { border-color: #2c3f5e; }
   .prose-q table { border-collapse: collapse; margin: .5em 0; font-size: .92em; }
   .prose-q th, .prose-q td { border: 1px solid #cfd6e1; padding: .35em .6em; }
   .prose-q u { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  .math-q .eq { margin: .6em 0; text-align: center; font-size: 1.05em; }
+  .math-q .fr { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; margin: 0 .12em; font-size: .9em; line-height: 1.25; }
+  .math-q .fr > span:last-child { border-top: 1px solid currentColor; padding-top: .05em; }
+  .math-q .fr > span { padding: 0 .15em; }
+  .math-q .rad { border-top: 1px solid currentColor; padding: 0 .1em; margin-left: .05em; }
+  .math-q .ri { font-size: .62em; margin-right: -.45em; vertical-align: .9em; }
+  .math-q table { margin: .6em auto; }
+  .math-q caption { font-weight: 600; padding-bottom: .3em; }
+  .math-q .hb-opt { display: block; max-width: 100%; height: auto; max-height: 220px; border-radius: .5rem; }
   /* Reading & Writing highlights (Bluebook-style) */
   mark.hl { color: inherit; border-radius: 3px; padding: 0 1px; cursor: pointer; transition: background-color .2s; }
   mark.hl-yellow { background: #fde68a; }

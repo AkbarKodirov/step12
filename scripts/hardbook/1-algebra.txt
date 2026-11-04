@@ -1,0 +1,378 @@
+# Math Hard Book: Algebra. Markup: see scripts/hardbook-markup.mjs
+@A1 | LE2 | A
+In the xy-plane, line k and line l are perpendicular and intersect at the point (2, 8). If line k is defined by the equation y = mx + b, where m and b are constants and m > 1, which of the following points lies on line l?
+A) (3, 8 - {1/m})
+B) (3, 8 + {1/m})
+C) (3, 8 - m)
+D) (3, 8 + m)
+= Line l has slope -{1/m} and passes through (2, 8). Moving 1 unit right to x = 3 changes y by -{1/m}, so (3, 8 - {1/m}) is on line l.
+
+@A2 | LF | 1.18 | 1.184 | 1.185
+Kyle invented a new temperature scale called the Torte scale. The function T gives the temperature, in degrees Torte, that corresponds to a temperature of x degrees Celsius.
+$ T(x) = {3/4}({26x/7} - 800) + 15.50
+If a temperature increased by 3.3 degrees Torte, by how much did the temperature increase, in degrees Celsius? (Round your answer to the nearest hundredth.)
+= The slope of T is {3/4} · {26/7} = {39/14} degrees Torte per degree Celsius, so the Celsius increase is 3.3 ÷ {39/14} = {46.2/39} ≈ 1.18.
+
+@A3 | SYS | 2
+In the given system of equations, p is a constant. If the system has no solution, what is the value of p?
+$ {3/2}y - {1/4}x = {2/3} - {3/2}y
+$ {1/6}x + {3/6} = py + {9/5}
+= The first equation is -{1/4}x + 3y = {2/3}; the second is {1/6}x - py = {13/10}. No solution means parallel lines: {1/6} ÷ (-{1/4}) = -{2/3}, so -p = 3(-{2/3}) and p = 2.
+
+@A4 | SYS | 8
+In the given system of equations, t is a constant. If the system has no solution, what is the value of t?
+$ 4x - 6y = 10y + 2
+$ ty = {1/2} + 2x
+= The equations are 4x - 16y = 2 and -2x + ty = {1/2}. Parallel lines need -{2/4} = {t/-16}, so t = 8; the constants are not in the same ratio, so there is no solution.
+
+@A5 | EQX | C
+$ {20/p} = {20/q} - {20/r} - {20/s}
+The given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?
+A) p + r + s
+B) 20(p + r + s)
+C) {prs/pr + rs + ps}
+D) {prs/20p + 20r + 20s}
+= Divide by 20: {1/q} = {1/p} + {1/r} + {1/s} = {rs + ps + pr/prs}, so q = {prs/pr + rs + ps}.
+
+@A6 | LE2 | B
+| Energy per Gram of Typical Macronutrients |
+| Macronutrient | Food calories | Kilojoules |
+| Protein | 4.0 | 16.7 |
+| Fat | 9.0 | 37.7 |
+| Carbohydrate | 4.0 | 16.7 |
+The table above gives the typical amounts of energy per gram, expressed in both food calories and kilojoules, of the three macronutrients in food. If the 180 food calories in a granola bar come entirely from p grams of protein, f grams of fat, and c grams of carbohydrate, which of the following expresses f in terms of p and c?
+A) f = 20 + {4/9}(p + c)
+B) f = 20 - {4/9}(p + c)
+C) f = 20 - {4/9}(p - c)
+D) f = 20 + {9/4}(p + c)
+= 4p + 9f + 4c = 180, so 9f = 180 - 4(p + c) and f = 20 - {4/9}(p + c).
+
+@A7 | NLF | -4.9 | -49/10
+$ f(x) = 3 + |-2x - x^2|
+$ g(w) = |-{w/w - 1}| - w + 5
+The functions f and g are defined by the given equations. If f(-4) = c, where c is a constant, what is the value of g(c)?
+= f(-4) = 3 + |8 - 16| = 11, so c = 11. Then g(11) = |-{11/10}| - 11 + 5 = 1.1 - 6 = -4.9.
+
+@A8 | LE1 | C
+The equation 9x + 5 = a(x + b), where a and b are constants, has no solutions. Which of the following must be true?
+I. a = 9
+II. b = 5
+III. b ≠ {5/9}
+A) I only
+B) III only
+C) I and III only
+D) None of the above
+= No solution means the x-terms match and the constants do not: a = 9 and ab ≠ 5, so b ≠ {5/9}. Statement II need not be true.
+
+@A9 | SYS | B
+In the given pair of equations, a and b are constants. The graph of this pair of equations in the xy-plane is a pair of perpendicular lines. Which of the following pairs of equations also represents a pair of perpendicular lines?
+$ 5x + 7y = 1
+$ ax + by = 1
+A) 10x + 7y = 1 <br> ax - 2by = 1
+B) 10x + 7y = 1 <br> ax + 2by = 1
+C) 10x + 7y = 1 <br> 2ax + by = 1
+D) 5x - 7y = 1 <br> ax + by = 1
+= Perpendicular means (-{5/7})(-{a/b}) = -1, so {a/b} = -{7/5}. In B the slopes are -{10/7} and -{a/2b} = {7/10}, whose product is -1.
+
+@A10 | SYS | A
+For each real number r, which of the following points (x, y) lies on the graph of both equations in the xy-plane for the given system?
+$ 3x + 2y = 6
+$ 6x + 4y = 12
+A) (r, 3 - {3/2}r)
+B) (r, 3 - {r/2})
+C) (3 - r, 3 - {3/2}r)
+D) (3, 2 - {3/2}r)
+= The second equation is the first one doubled, so both are the line y = 3 - {3/2}x. With x = r, the point is (r, 3 - {3/2}r).
+
+@A11 | INEQ | -9
+In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by z. The product of 24 and the third odd integer in the set is at most 86 less than the sum of the first and fourth odd integers in the set. What is the greatest possible value of z?
+= 24(z + 4) ≤ z + (z + 6) - 86 gives 22z ≤ -176, so z ≤ -8. The greatest odd integer that works is -9.
+
+@A12 | SYS | 1.5 | 3/2
+In the system of equations below, a and c are constants.
+$ ax + y = c
+$ {1/2}x + {1/3}y = {1/6}
+If the system of equations has an infinite number of solutions (x, y), what is the value of a?
+= Multiply the second equation by 3: {3/2}x + y = {1/2}. For the same line, a = {3/2}.
+
+@A13 | LE2 | C
+Lines k and l are perpendicular. The points (4, m) and (9, m + 3) lie on line k, and lines k and l intersect at (9, m + 3). Which of the following can lie on line l?
+A) (m - 6, -4)
+B) (m + 9, 24)
+C) (21, m - 17)
+D) (24, m + 12)
+= Line k has slope {3/5}, so line l has slope -{5/3}. From (9, m + 3), moving 12 units right lowers y by 20, giving (21, m - 17) for every value of m.
+
+@A14 | SYS | 5848
+$ 22x - 21y = 43
+$ 5x + 14y = 59
+The solution to the given system of equations is (x, y) = ({p/826}, {w/826}), where p and w are integers. What is the value of p + w?
+= Elimination gives x = {1841/413} = {3682/826} and y = {1083/413} = {2166/826}. So p + w = 3682 + 2166 = 5848.
+
+@A15 | INEQ | 8
+Three consecutive even integers are ordered from smallest to largest. 5 times the first integer is at least 9 more than the sum of the second and third integers. What is the minimum possible value of the second integer?
+= With integers n, n + 2, n + 4: 5n ≥ (n + 2) + (n + 4) + 9, so 3n ≥ 15 and n ≥ 5. The least even n is 6, so the second integer is 8.
+
+@A16 | LE2 | B
+| x | y |
+| -2s | 17 |
+| -s | 14 |
+| s | 8 |
+The table shows three values of x and their corresponding values of y, where s is a constant. There is a linear relationship between x and y. Which of the following equations represents this relationship?
+A) sx + 3y = 11s
+B) 3x + sy = 11s
+C) 3x + sy = 11
+D) sx + 3y = 11
+= The slope is {14 - 17/s} = -{3/s}, and y = 8 at x = s gives y = -{3/s}x + 11. Multiply by s: 3x + sy = 11s.
+
+@A17 | LF | B
+A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is $22.80, which function f gives the total cost, in dollars, of x classes taken using this promotion, where x > 2?
+A) f(x) = 22.80(x - 1) + 11.40
+B) f(x) = 22.80(x - 2) + 11.40
+C) f(x) = 22.80(x - 1) + 11.40(x - 2)
+D) f(x) = 22.80(x - 2) + 11.40(x - 1)
+= Class 1 costs $0, class 2 costs $11.40, and the other x - 2 classes cost $22.80 each.
+
+@A18 | SYS | -648
+$ -32x + 18y + 150 = 15y + 4x
+$ 52 + {w/3}x + 18y = -32
+In the given system of equations, w is a constant. The system has exactly one solution. What is the value that w cannot be equal to?
+= The equations are -36x + 3y = -150 and {w/3}x + 18y = -84. The lines are parallel when {w/3} = -36 · 6 = -216, that is w = -648, so w cannot be -648.
+
+@A19 | SYS | A
+$ 5x + 8y = 9
+$ 15x + 24y = 27
+For each real number r, which of the following points is on the graph of each equation in the xy-plane for the given system?
+A) (r, -{5r/8} + {9/8})
+B) (-{5r/8} + {9/8}, r)
+C) (-{5r/8} + 9, {5r/8} + 27)
+D) ({r/3} + 9, -{r/3} + 27)
+= Both equations are the line y = -{5/8}x + {9/8}. Putting x = r gives (r, -{5r/8} + {9/8}).
+
+@A20 | LF | C
+A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week w after the initial observation, where w > 2, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?
+A) p(w) = 2,600 - 180w
+B) p(w) = 2,480 + 180w
+C) p(w) = 1,620 - 180w
+D) p(w) = -120 + 180w
+= The population is 1,100 + 240 + 180(w - 2) = 980 + 180w, so the bees still needed are 2,600 - (980 + 180w) = 1,620 - 180w.
+
+@A21 | LF | B
+During a specific 2-hour period of the day, the mean photosynthetic rate, P(x), of a plant species increases at a constant rate in terms of the photochemical energy available, x. During this period, P(300) = 9.8, and the mean photosynthetic rate increases by 0.13 micromoles per meter squared per second (µmol · m^{-2} · s^{-1}) when the photochemical energy available increases by 5 µmol · m^{-2} · s^{-1}. Which equation gives the mean photosynthetic rate, in µmol · m^{-2} · s^{-1}, in terms of the photochemical energy available, in µmol · m^{-2} · s^{-1}, during this period?
+A) P(x) = 0.026x + 9.8
+B) P(x) = 0.026x + 2
+C) P(x) = 9.8x + 0.026
+D) P(x) = 9.8x - 2,930.2
+= The slope is {0.13/5} = 0.026. Then 9.8 = 0.026(300) + b gives b = 2.
+
+@A22 | LF | A
+| x | g(x) |
+| -27 | 3 |
+| -9 | 0 |
+| 21 | 5 |
+The table shows three values of x and their corresponding values of g(x), where g(x) = {f(x)/x + 3} and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?
+A) (0, 36)
+B) (0, 12)
+C) (0, 4)
+D) (0, -9)
+= f(x) = (x + 3)g(x), so f(-27) = -72, f(-9) = 0, and f(21) = 120. The slope is 4, so f(x) = 4(x + 9) and f(0) = 36.
+
+@A23 | LE2 | -169/6 | -28.16 | -28.17
+| x | y |
+| -7 | d + 3 |
+| -4 | 4k + 6d |
+| 1 - 3d | 8 |
+The table shows three values of x and their corresponding values of y for the linear relationship between x and y. The x-intercept of the line occurs when x = -4. The number d is a negative constant. The number k is a constant. What is the value of dk?
+= Since y = 0 at x = -4, 4k + 6d = 0. Equal slopes from (-7, d + 3) to (-4, 0) to (1 - 3d, 8) give 3d^2 + 4d - 39 = 0, so d = -{13/3}. Then k = -{3/2}d = {13/2} and dk = -{169/6}.
+
+@A24 | LE2 | 48
+Line s is defined by x - 4y = 24. Line t is perpendicular to line s in the xy-plane and passes through the points (k, 0) and (60, -k). What is the value of k?
+= Line s has slope {1/4}, so line t has slope -4: {-k - 0/60 - k} = -4 gives -k = -240 + 4k, so k = 48.
+
+@A25 | LF | A
+$ t = {1/2}v
+For the equation above, which of the following is the graph of v as a function of t?
+A) [img:a25a] Line through (0, 0) and (5, 10)
+B) [img:a25b] Line through (0, 0) and (5, 2.5)
+C) [img:a25c] Line through (0, 0) and (5, 5)
+D) [img:a25d] Line through (0, 0) and (3, 9)
+= Solving for v gives v = 2t, a line through the origin with slope 2, which passes through (5, 10).
+
+@A26 | LE2 | C
+| x | y |
+| 0 | n |
+| 4 | n + 21 |
+| 8 | n + 42 |
+There is a linear relationship between x and y. The table shows three values of x and their corresponding values of y in terms of a constant n. What is the slope of the line in the xy-plane that represents this relationship?
+A) 21
+B) 2
+C) {21/4}
+D) {4/21}
+= When x increases by 4, y increases by 21, so the slope is {21/4}.
+
+@A27 | LE2 | 42
+In the xy-plane, line r passes through the points (3, 12) and (7, 13). Line s passes through the point (1, 2) and is perpendicular to line r. An equation of line s is ax + 7y = c, where a and c are constants. What is the value of c?
+= Line r has slope {1/4}, so line s has slope -4: y - 2 = -4(x - 1), or 4x + y = 6. Multiply by 7 to get 28x + 7y = 42, so c = 42.
+
+@A28 | LE2 | D
+| Number of cars | Max passengers/crew |
+| 2 | 102 |
+| 6 | 294 |
+| 10 | 486 |
+The table shows the linear relationship between the number of cars, c, on a commuter train and the maximum number of passengers and crew, p, that the train can carry. Which equation represents the linear relationship between c and p?
+A) 48p - c = -6
+B) 48c - p = 6
+C) 48p - c = 6
+D) 48c - p = -6
+= The slope is {294 - 102/4} = 48 and 102 = 48(2) + 6, so p = 48c + 6, which is 48c - p = -6.
+
+@A29 | SYS | B
+$ 7x + 8y = 3
+The given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?
+I. 14x + 16y = 12
+II. 14x + 16y = 6
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= Equation I is the parallel line 7x + 8y = 6 (no solution). Equation II is the same line doubled (infinitely many solutions).
+
+@A30 | LE1 | C
+$ a(4 - x) = 28 - 7x
+In the given equation, a is a constant. The equation has exactly one solution. Which of the following CANNOT be the value of a?
+A) 1
+B) 4
+C) 7
+D) 28
+= Rearranged, (7 - a)x = 28 - 4a. This has exactly one solution unless 7 - a = 0, so a cannot be 7.
+
+@A31 | LE2 | B
+$ {x/7} + {y/5} = {41/35}
+An engineer connects resistors in series, where the resistors in the series have a total resistance of {41/35} ohms. In this series, there are x resistors of type A, which each have a resistance of a ohms, and y resistors of type B, which each have a resistance of b ohms. The given equation represents this situation. According to this equation, what is the positive difference between the value of a and the value of b?
+A) {1/35}
+B) {2/35}
+C) {3/35}
+D) {12/35}
+= The total is ax + by, so a = {1/7} and b = {1/5}. The difference is {7/35} - {5/35} = {2/35}.
+
+@A32 | LF | A
+A company is considering placing an advertisement on Website R. Website R charges no initial fee, but charges the same amount per click as Website P. Website P charges $15.00 for every 60 clicks. Which of the following graphs represents the cost y, in dollars, of placing an advertisement that receives x clicks on Website R?
+A) [img:a32a] Line from (0, 0) to (120, 30)
+B) [img:a32b] Line from (0, 10) to (120, 30)
+C) [img:a32c] Line from (0, 0) to (120, 50)
+D) [img:a32d] Line from (0, 0) to (120, 20)
+= The rate is {15/60} = $0.25 per click with no starting fee, so the line starts at (0, 0) and reaches $30 at 120 clicks.
+
+@A33 | LE1 | -20
+$ j(x - k) = {3/4}x + 15
+In the equation above, j and k are constants. If the equation has infinitely many solutions for x, what is the value of k?
+= Matching both sides: j = {3/4} and -jk = 15, so k = -20.
+
+@A34 | LE2 | A | fig:a34
+Line segment GH and point R are shown in the xy-plane. If line ℓ (not shown) contains point R and is perpendicular to line segment GH, which of the following is an equation of line ℓ?
+A) -4x + 3y = 6
+B) -3x + 4y = 8
+C) 3x + 4y = 8
+D) 4x + 3y = 6
+= G = (0, 3) and H = (4, 0), so GH has slope -{3/4}. Line ℓ has slope {4/3} through R(0, 2): y = {4/3}x + 2, or -4x + 3y = 6.
+
+@A35 | RAT | 0.78 | 0.775
+During the first 5.00 seconds after a car started moving, its speed increased to 12.0 meters per second. From 5.00 seconds to 13.0 seconds after the car started moving, its speed increased from 12.0 meters per second to 25.0 meters per second. To the nearest hundredth, what is the positive difference between the average rate of change of the speed of the car, in meters per second per second, during the first 5.00 seconds after the car started moving and the average rate of change of the speed of the car, in meters per second per second, from 5.00 seconds to 13.0 seconds after the car started moving?
+= The rates are {12/5} = 2.4 and {13/8} = 1.625. Their difference is 0.775 ≈ 0.78.
+
+@A36 | SYS | -246/61 | -4.032 | -4.033
+$ 13kx + 17my = 122
+$ 11kx + 5my = -22
+In the given system of equations, k and m are constants. The system has a solution of (2, y). What is the value of k?
+= With x = 2 and u = my: 26k + 17u = 122 and 22k + 5u = -22. Eliminating u gives -244k = 984, so k = -{246/61} ≈ -4.033.
+
+@A37 | LF | D | fig:a37
+The graph shows the total amount of rainfall y, in centimeters, from the start of a 10-hour period, where x is the number of hours after the start of the period. Which of the following statements about the rainfall during this time period is true?
+A) The rate of rainfall was 2 centimeters per hour between x = 2 and x = 4.
+B) The rate of rainfall was the greatest between x = 4 and x = 10.
+C) The rate of rainfall increased between x = 0 and x = 2.
+D) The rate of rainfall was 0 centimeters per hour between x = 2 and x = 4.
+= From x = 2 to x = 4 the graph is flat at 2 cm, so no rain fell: the rate was 0 cm per hour.
+
+@A38 | LF | A
+For groups of 25 or more people, a museum charges $21 per person for the first 25 people and $14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where n ≥ 25?
+A) f(n) = 14n + 175
+B) f(n) = 14n + 525
+C) f(n) = 35n - 350
+D) f(n) = 14n + 21
+= 21(25) + 14(n - 25) = 525 + 14n - 350 = 14n + 175.
+
+@A39 | LE2 | D
+A landscaping company mixes oil with gasoline to power its tools. A chainsaw requires 8 ounces of oil per gallon of gasoline. A lawnmower requires 4 ounces of oil per gallon of gasoline. The company uses a total of 21 ounces of oil in its mixes for the chainsaw and lawnmower. Which of the following equations represents this situation, where x represents the amount of gasoline, in gallons, in the mix for the chainsaw and y represents the amount of gasoline, in gallons, in the mix for the lawnmower?
+A) 2(x + 2y) = 21
+B) 2(2x + y) = 21
+C) 4(x + 2y) = 21
+D) 4(2x + y) = 21
+= The oil used is 8x + 4y = 21, which factors as 4(2x + y) = 21.
+
+@A41 | SYS | C
+$ 5x + 4y = 3
+$ 15x + 12y = 9
+For each real number r, which of the following points lies on the graph of each equation in the xy-plane for the given system?
+A) (r, -{4r/5} + {3/5})
+B) (r, {5r/4} + {3/4})
+C) (-{4r/5} + {3/5}, r)
+D) ({r/3} + 3, -{r/3} + 9)
+= Both equations are the line 5x + 4y = 3. With y = r, x = {3 - 4r/5} = -{4r/5} + {3/5}, so the point is (-{4r/5} + {3/5}, r).
+
+@A42 | LE1 | D
+A machine makes 8-inch, 5-inch, and 7-inch parts. During a certain day, the number of 8-inch parts that the machine makes is 3 times the number n of 5-inch parts, and the number of 7-inch parts is 12. During this day, the machine makes 100 parts total. Which equation represents this situation?
+A) 8(3n) + 5n + 7(12) = 100
+B) 8n + 5n + 7n = 100
+C) 3n + 12 = 100
+D) 4n + 12 = 100
+= The count of parts is 3n + n + 12 = 100, that is 4n + 12 = 100. (The lengths do not matter: 100 is a number of parts.)
+
+@A43 | RAT | D
+A square map has a side length of 30 inches, and 1 inch on the map represents an actual distance of 17 miles. A smaller version of the same map is printed as a square with the side length 65% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?
+A) 5.95
+B) 10.30
+C) 19.50
+D) 48.57
+= The small map's side is 0.35(30) = 10.5 inches and still shows 30(17) = 510 miles, so 1 inch represents {510/10.5} ≈ 48.57 miles.
+
+@A44 | INEQ | A
+In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by x. The product of 18 and the fourth odd integer is at most 22 less than the sum of the first and third odd integers. Which inequality represents this situation?
+A) 18(x + 6) ≤ x + (x + 4) - 22
+B) 18(x + 6) ≥ 22 - (x + (x + 4))
+C) 18(x + 4) ≤ x + (x + 3) - 22
+D) 18(x + 4) ≥ 22 - (x + (x + 3))
+= The integers are x, x + 2, x + 4, x + 6. "At most 22 less than the sum" means ≤ (x + (x + 4)) - 22.
+
+@A45 | LE2 | B
+A chemist mixed x liters of a 2% saline solution with y liters of a 5% saline solution to produce a 3% saline solution. Which equation best represents this situation? (Assume the volumes of the solutions are additive.)
+A) 0.02x + 0.05y = 3(x + y)
+B) 0.02x + 0.05y = 0.03(x + y)
+C) 0.2x + 0.5y = 3(x + y)
+D) 0.2x + 0.5y = 0.3(x + y)
+= The salt in the parts, 0.02x + 0.05y, equals the salt in the mix, 0.03(x + y).
+
+@A50 | EQX | C
+$ {1/x} = {1/a} + {1/b} + {1/c} + {1/10}
+Which equation correctly gives x in terms of a, b, c, and 10?
+A) x = {10abc/a + b + c + 10}
+B) x = {abc + 10/a + b + c + 10}
+C) x = {10abc/10ab + 10ac + 10bc + abc}
+D) x = a + b + c + 10
+= Over the common denominator 10abc, the right side is {10bc + 10ac + 10ab + abc/10abc}. Take the reciprocal.
+
+@A51 | LF | 258
+A linear model estimates the population of a city from 1992 to 2016. The model estimates the population was 53 thousand in 1992, 224 thousand in 2012, and x thousand in 2016. To the nearest whole number, what is the value of x?
+= The slope is {224 - 53/20} = 8.55 thousand per year, so x = 224 + 4(8.55) = 258.2 ≈ 258.
+
+@A52 | INEQ | B | fig:a52
+The shaded region shown represents the solutions to rx + ty ≥ -48, where r and t are constants. The boundary line passes through (-8, -10) and (0, -12). What is the value of r + t?
+A) 8
+B) 5
+C) -5
+D) 7
+= The boundary has slope -{1/4} and y-intercept -12: y = -{1/4}x - 12, or x + 4y = -48. So r = 1, t = 4, and r + t = 5.
+
+@A53 | INEQ | 182
+A small business owner budgets $2,200 to purchase candles. The owner must purchase a minimum of 200 candles to maintain the discounted pricing. If the owner pays $4.90 per candle to purchase small candles and $11.60 per candle to purchase large candles, what is the maximum number of large candles the owner can purchase to stay within the budget and maintain the discounted pricing?
+= Buy exactly 200 candles: 4.90(200 - L) + 11.60L ≤ 2,200 gives 6.7L ≤ 1,220, so L ≤ 182.09. The maximum is 182.
