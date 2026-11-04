@@ -8,6 +8,7 @@ import { studentContext } from '../humoContext'
 import { uid } from '../plan'
 import { hello } from '../greetings'
 import { useAuth } from '../../lib/auth'
+import { UsageLine } from '../components/Upgrade'
 
 type Space = 'humo' | 'desmos'
 const COPY: Record<Space, { greeting: string; starters: string[]; title: string; sub: string; placeholder: string }> = {
@@ -268,12 +269,15 @@ function ChatPane({ id, initial, space }: { id: string; initial?: ChatMsg[]; spa
           </motion.div>
         )}
       </AnimatePresence>
+      <div className="mt-3">
+        <UsageLine feature={space} />
+      </div>
       <form
         onSubmit={(e) => {
           e.preventDefault()
           submit()
         }}
-        className="mt-3 rounded-2xl border border-line bg-card p-1.5 focus-within:border-jg-500"
+        className="rounded-2xl border border-line bg-card p-1.5 focus-within:border-jg-500"
       >
         {pics.length > 0 && (
           <div className="flex flex-wrap gap-2 p-2">

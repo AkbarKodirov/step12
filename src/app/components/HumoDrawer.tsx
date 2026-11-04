@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Check, Copy, RotateCcw, Send, X } from 'lucide-react'
 import { useAuth } from '../../lib/auth'
-import { askHumo, HumoOffline, HumoStopped, streamingText, type ChatMsg } from '../humo'
+import { askHumo, HumoLimit, HumoOffline, HumoStopped, streamingText, type ChatMsg } from '../humo'
+import { LimitCard, UsageLine } from './Upgrade'
 import { RichText } from './RichText'
 import { DesmosScreen } from '../../desmos/DesmosScreen'
 import { PlanProposal } from './PlanProposal'
@@ -45,7 +46,7 @@ function ReplyActions({ msg, onRetry }: { msg: ChatMsg; onRetry?: () => void }) 
   return (
     <div className="mt-1.5 flex items-center gap-1 pl-9 text-[12px] text-moss">
       {msg.error ? (
-        onRetry && (
+        onRetry && !msg.limit && (
           <button onClick={onRetry} className="inline-flex items-center gap-1.5 rounded-full bg-jg-500 px-3 py-1 font-semibold text-white hover:bg-jg-600">
             <RotateCcw className="size-3.5" /> Try again
           </button>
@@ -87,7 +88,10 @@ export function HumoMessages({ msgs, busy, onRetry }: { msgs: ChatMsg[]; busy: b
           {m.role === 'humo' && <img src="/brand/humo-mark.svg" alt="" className="mt-0.5 size-7 shrink-0 rounded-lg" />}
           <div className={`rounded-2xl px-4 py-2.5 text-[14.5px] leading-relaxed ${m.role === 'user' ? 'max-w-[82%] bg-pine text-cream' : `border border-line bg-card text-pine ${m.desmos?.length || m.plan ? 'w-full max-w-[94%]' : 'max-w-[82%]'}`}`}>
             {m.role === 'humo' ? (
-              <HumoReply msg={m} />
+              <>
+                <HumoReply msg={m} />
+                {m.limit && <LimitCard feature={m.limit} />}
+              </>
             ) : (
               <>
                 {m.images?.length ? (
@@ -164,6 +168,7 @@ export function useHumoChat(greeting: string, context?: string, opts: { initial?
         put({ role: 'humo', text: kept ? `${kept}\n\n*Stopped.*` : '*Stopped.*', at })
         return
       }
+      if (e instanceof HumoLimit) return put({ role: 'humo', error: true, limit: e.feature, text: e.message, at: Date.now() })
       put({ role: 'humo', error: true, text: e instanceof HumoOffline ? e.message : (e as Error).message, at: Date.now() })
     } finally {
       ctl.current = null
@@ -231,6 +236,9 @@ export function HumoDrawer({ open, onClose, context, greeting, suggestions, pref
                 ))}
               </div>
             )}
+            <div className="mx-4">
+              <UsageLine feature="humo" />
+            </div>
             <form
               onSubmit={(e) => {
                 e.preventDefault()

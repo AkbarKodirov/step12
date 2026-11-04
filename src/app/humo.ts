@@ -1,9 +1,16 @@
 import { getStore, stripHtml, type ChatMsg, type Profile, type TestQuestion, type WeekPlan } from './store'
 import type { DesmosScreen } from '../../shared/desmos-render.js'
+import { markLimit, noteUse, refreshAccount } from './account'
 
 export type { ChatMsg }
 
 export class HumoOffline extends Error {}
+/** The Free plan's daily question is used up (or the feature is Pro only). */
+export class HumoLimit extends Error {
+  constructor(message: string, public feature: 'humo' | 'desmos' | 'pro', public resetAt?: number) {
+    super(message)
+  }
+}
 
 async function call<T>(url: string, body: unknown, token: string | null): Promise<T> {
   let res: Response
@@ -14,8 +21,15 @@ async function call<T>(url: string, body: unknown, token: string | null): Promis
   }
   const data = await res.json().catch(() => ({}))
   if (res.status === 503) throw new HumoOffline(data.error || 'Humo needs a Gemini API key.')
+  if (res.status === 402) throw limitError(data)
   if (!res.ok) throw new Error(data.error || 'Humo could not answer. Try again.')
   return data as T
+}
+
+function limitError(data: { error?: string; feature?: 'humo' | 'desmos'; resetAt?: number; code?: string }) {
+  const f = data.code === 'limit' ? (data.feature ?? 'humo') : 'pro'
+  if (f !== 'pro') markLimit(f)
+  return new HumoLimit(data.error || 'This is part of Humo Pro.', f, data.resetAt)
 }
 
 export type HumoAnswer = { reply: string; desmos?: DesmosScreen[]; plan?: WeekPlan | null }
@@ -48,7 +62,7 @@ export async function askHumo(messages: ChatMsg[], token: string | null, context
     .slice(0, 200)
     .map(([id, v]) => [id, v.correct ? 1 : 0])
   const body = { messages: slim, context, space, recent }
-  if (!onText) return call<HumoAnswer>('/api/chat', body, token)
+  if (!onText) return call<HumoAnswer>('/api/chat', body, token).finally(() => refreshAccount())
   let res: Response
   try {
     res = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }, body: JSON.stringify({ ...body, stream: true }), signal })
@@ -59,8 +73,11 @@ export async function askHumo(messages: ChatMsg[], token: string | null, context
   if (!res.ok || !res.body) {
     const data = await res.json().catch(() => ({}))
     if (res.status === 503) throw new HumoOffline(data.error || 'Humo needs a Gemini API key.')
+    if (res.status === 402) throw limitError(data)
+    if (res.status === 401) throw new Error('Your session has expired. Log out and log in again to chat with Humo.')
     throw new Error(data.error || 'Humo could not answer. Try again.')
   }
+  noteUse(space === 'desmos' ? 'desmos' : 'humo')
   const reader = res.body.pipeThrough(new TextDecoderStream()).getReader()
   let buf = ''
   let text = ''

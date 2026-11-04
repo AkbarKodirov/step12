@@ -106,3 +106,12 @@ Humo AI is a Digital SAT prep platform for **Humo AI** in Tashkent. Its AI tutor
 - Video data lives in `src/app/learn/videos.ts` (keyed by the lesson id in `courses.ts`): slug, duration, chapters (from `chapters.json` next to each render in project files), Mastery questions (original). `VIDEO_SOON` marks lessons whose videos are in production.
 - Videos are NOT in git. They are on Cloudflare R2, bucket `humo-lessons`, public at `https://pub-74c3fe78d2fd419fbb39853077b9141c.r2.dev/lessons/<slug>/<slug>-720p.mp4` (also `-1080p.mp4`, `-poster.jpg`). Uploads use the R2 S3 API (curl `--aws-sigv4`); the keys are the owner's and are never committed. Remux with `-movflags +faststart` before uploading.
 - The store has `lessonVideo` (resume position) and `mastery` (best score). Watching 90% marks a lesson done.
+
+## Nov 4 (Free and Pro plans, admin panel)
+- Plans live in `shared/plans.js` (price 149 000 so'm ≈ $12, Free limits, Pro-only pages, feature copy) and `server/billing.js`.
+- **Free:** full question bank + 1 Ask Humo question and 1 Desmos Lab solve per day (Tashkent day). Checked on the server in `/api/chat` (402 `code: "limit"`); a failed answer gives the question back. Floating Humo and question-bank Humo count as Ask Humo. `/api/plan` (study plan edits) is Pro only.
+- **Pro-only pages:** tests, results, papers, vocab, blitz, mistakes, plan, learn, analytics, calculator (`ProGate` in `AppShell.tsx` shows `ProLock`). Test JSON files are still public static files; only the UI locks them.
+- `jobirovich.akbarjon@gmail.com` is always Pro and is the admin (`ADMINS`, `ALWAYS_PRO`; more admins via `ADMIN_EMAILS`).
+- User record field `pro: { until, source, by, at }`. Admin panel `/app/admin` (`src/app/pages/Admin.tsx`): stats, search, make any email Pro (30 d / 90 d / 1 y / no end date, even before sign-up) or Free.
+- Upgrade page `/app/upgrade`. Visa: Stripe Checkout when `STRIPE_SECRET_KEY` is set (one-off $12 for 30 days, no auto-renew; confirmed on return and optionally by webhook), or `CARD_PAYMENT_URL`. Click/Payme/etc.: Telegram manager link from `TELEGRAM_MANAGER` env or the constant in `shared/plans.js` (empty until the owner sends it).
+- Client plan state: `src/app/account.ts` (`GET /api/account`).

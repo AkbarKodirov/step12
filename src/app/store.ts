@@ -53,7 +53,7 @@ export type PlanKind = 'drill-rw' | 'drill-math' | 'skill' | 'vocab' | 'mistakes
 export type PlanTask = { id: string; kind: PlanKind; title: string; min: number; skill?: string }
 export type WeekPlan = { days: PlanTask[][] }
 
-export type ChatMsg = { role: 'user' | 'humo'; text: string; desmos?: DesmosScreenData[]; plan?: WeekPlan | null; at?: number; images?: string[]; error?: boolean }
+export type ChatMsg = { role: 'user' | 'humo'; text: string; desmos?: DesmosScreenData[]; plan?: WeekPlan | null; at?: number; images?: string[]; error?: boolean; limit?: 'humo' | 'desmos' | 'pro' }
 export type Chat = { id: string; title: string; createdAt: number; updatedAt: number; pinned?: boolean; space?: 'humo' | 'desmos'; msgs: ChatMsg[] }
 
 export type Highlight = { start: number; end: number; color: 'yellow' | 'blue' | 'pink' | 'underline'; note?: string }

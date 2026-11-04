@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Bell, CalendarPlus, Check, Download, Languages, LogOut, Monitor, Moon, Plug, Shield, RotateCcw, Sigma, Sun, Trash2, Upload, UserRound } from 'lucide-react'
+import { Crown, Bell, CalendarPlus, Check, Download, Languages, LogOut, Monitor, Moon, Plug, Shield, RotateCcw, Sigma, Sun, Trash2, Upload, UserRound } from 'lucide-react'
 import { useAuth } from '../../lib/auth'
 import { getStore, resetStore, setStore, streak, useStore, type Settings as SettingsT, type Profile } from '../store'
 import { DAY_NAMES, downloadIcs, generatePlan } from '../plan'
 import { Avatar } from '../AppShell'
+import { useAccount } from '../account'
 
 const TABS = [
   ['account', 'Account', UserRound],
@@ -60,6 +61,7 @@ function Seg<T extends string>({ value, options, onChange }: { value: T; options
 
 export default function Settings() {
   const { user, token, signOut } = useAuth()
+  const acc = useAccount()
   const s = useStore()
   const nav = useNavigate()
   const file = useRef<HTMLInputElement>(null)
@@ -163,7 +165,15 @@ export default function Settings() {
                 <p className="text-[20px] font-semibold">{user?.name}</p>
                 <p className="truncate text-[13px] text-moss">{user?.email}</p>
               </div>
-              <span className="mt-14 rounded-full bg-jg-50 px-3 py-1 text-[12px] font-semibold text-jg-700">Humo AI student · every feature free</span>
+              {acc.pro ? (
+                <Link to="/app/upgrade" className="mt-14 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-3 py-1 text-[12px] font-bold text-[#3a2400]">
+                  <Crown className="size-3.5" /> Humo Pro{acc.plan.until ? ` · until ${new Date(acc.plan.until).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}` : ''}
+                </Link>
+              ) : (
+                <Link to="/app/upgrade" className="mt-14 inline-flex items-center gap-1 rounded-full bg-jg-50 px-3 py-1 text-[12px] font-semibold text-jg-700">
+                  Free plan · <Crown className="size-3.5" /> Upgrade to Pro
+                </Link>
+              )}
             </div>
             <dl className="mt-5 grid gap-3 text-[13.5px] sm:grid-cols-3">
               <div className="rounded-2xl bg-soft p-3.5">
