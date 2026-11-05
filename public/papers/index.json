@@ -72,6 +72,30 @@
   "minutesPerModule": 35
  },
  {
+  "id": "dsat25-10-us1-rw",
+  "name": "October 2025 · US · Version 1 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2025,
+  "month": 10,
+  "region": "US",
+  "form": "1",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat25-10-us1-math",
+  "name": "October 2025 · US · Version 1 · Math",
+  "type": "MATH",
+  "year": 2025,
+  "month": 10,
+  "region": "US",
+  "form": "1",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat25-us-a-rw",
   "name": "September 2025 US · Form A · Reading & Writing",
   "type": "EBRW",
