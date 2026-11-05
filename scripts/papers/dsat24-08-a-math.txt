@@ -1,0 +1,339 @@
+!id: dsat24-08-a-math
+!name: August 2024 International · Form A · Math
+!type: MATH
+!year: 2024
+!month: 8
+!region: International
+!form: A
+=M1
+#1
+Q: Line <i>r</i> in the <i>xy</i>-plane has a slope of 2 and passes through the point (0, 12). Which equation defines line <i>r</i>?
+A) y = −12x + 2
+B) y = 12x + 2
+C) y = 2x − 12
+D) y = 2x + 12
+K: D
+E: Slope-intercept form y = mx + b with m = 2 and b = 12 gives y = 2x + 12.
+#2
+I: /qimg/24-dsat24-08-a-math-q2.svg
+Q: In the figure, line <i>p</i> is parallel to line <i>q</i>, and line <i>t</i> intersects both lines. What is the value of x + 142?
+A) 52
+B) 90
+C) 142
+D) 180
+K: D
+E: The angles x° and 142° together form a straight angle on line q, so x + 142 = 180.
+#3
+Q: The <i>y</i>-intercept of the graph of y = x^2 + 38 in the <i>xy</i>-plane is (0, y). What is the value of <i>y</i>?
+K: 38
+E: When x = 0, y = 0² + 38 = 38.
+#4
+Q: A large square has an area of 36 square centimeters (cm^2). Small squares of area 4 cm^2 are cut out of the large square one by one. Which function <i>f</i> gives the area of the resulting figure, in cm^2, after <i>x</i> small squares are cut out?
+A) f(x) = 36 − 4x
+B) f(x) = 36x − 2
+C) f(x) = 40x
+D) f(x) = 34x
+K: A
+E: Each small square removes 4 cm² from the starting 36 cm², so f(x) = 36 − 4x.
+#5
+I: /qimg/24-dsat24-08-a-math-q5.svg
+Q: The shaded region shown in the graph represents all the solutions to which inequality?
+A) x ≤ 33
+B) x ≥ 33
+C) y ≤ 33
+D) y ≥ 33
+K: D
+E: The boundary is the solid horizontal line y = 33, and the region above it is shaded, so y ≥ 33.
+#6
+Q: How many solutions does the equation 5x + 3 = 5x + 7 have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: A
+E: Subtracting 5x from both sides gives 3 = 7, which is never true, so there are no solutions.
+#7
+P: h(x) = x + b
+Q: For the linear function <i>h</i>, <i>b</i> is a constant and h(0) = 21. What is the value of <i>b</i>?
+K: 21
+E: h(0) = 0 + b = 21, so b = 21.
+#8
+Q: The function <i>g</i> is defined by g(x) = 2x − 148. For what value of <i>x</i> does g(x) = 76?
+K: 112
+E: 2x − 148 = 76, so 2x = 224 and x = 112.
+#9
+Q: A district school board in a certain state is proposing a change to the time school starts for all high schools in the district. A sample of 353 high school students was selected at random from all high school students in the district. The selected students were asked whether they approved of the proposed change, and 300 students responded that they did not approve. Which of the following is the largest population to which the results of the survey can be generalized?
+A) All high school students in the district
+B) The 353 students who were surveyed
+C) The 300 students who responded that they did not approve of the proposed change
+D) All high school students in the state
+K: A
+E: The sample was drawn at random from the district’s high school students, so results generalize to that population only.
+#10
+Q: The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation y = 390 − 142x gives the rover’s remaining distance from its target <i>y</i>, in meters, <i>x</i> hours after the start of the experiment. What is the best interpretation of 390 in this context?
+A) The number of hours it takes the rover to reach its target
+B) The rover’s speed, in meters per hour, during the experiment
+C) The rover’s distance, in meters, from its target at the start of the experiment
+D) The total distance, in meters, the rover travels in 1 hour
+K: C
+E: At x = 0, y = 390, so 390 is the distance from the target at the start.
+#11
+Q: The graph of a polynomial function y = f(x) in the <i>xy</i>-plane passes through the point (8, 9). What is the value of f(8)?
+A) 8
+B) 9
+C) 17
+D) 72
+K: B
+E: The point (8, 9) on the graph means f(8) = 9.
+#12
+Q: A company that produces only one type of item wants to estimate the percent of the items produced in a typical week that are defective. A random sample of 400 of the items produced in a certain week were tested. Based on the sample, it is estimated that 8.5% of all items produced by the company in this week are defective, with an associated margin of error of 2.73%. Based on the estimate and associated margin of error, which of the following is the most appropriate conclusion about all items produced by the company during this week?
+A) 2.73% of the items are defective.
+B) It is plausible that between 5.77% and 11.23% of the items are defective.
+C) 8.5% of the items are defective.
+D) It is plausible that more than 11.23% of the items are defective.
+K: B
+E: 8.5% ± 2.73% gives the plausible interval 5.77% to 11.23%.
+#13
+I: /qimg/24-dsat24-08-a-math-q13.svg
+Q: The graph of the linear equation 4x + By = 12 is shown, where <i>B</i> is a constant. What is the value of <i>B</i>?
+A) 2/3
+B) 2
+C) 3
+D) 6
+K: D
+E: The line passes through (0, 2). Substituting: 4(0) + B(2) = 12, so B = 6.
+#14
+Q: Which system of linear equations has infinitely many solutions?
+A) 4x + 2y = 12<br>4x + 8y = 48
+B) x + 2y = 12<br>x + 8y = 48
+C) x + 2y = 12<br>4x + 8y = 48
+D) 4x + 2y = 12<br>x + 8y = 48
+K: C
+E: Multiplying x + 2y = 12 by 4 gives 4x + 8y = 48, so the two equations describe the same line.
+#15
+P: x^2 + y + 3 = 3
+P: 8x + 16 − y = 0
+Q: The solution to the given system of equations is (x, y). What is the value of <i>x</i>?
+A) −16
+B) −4
+C) 2
+D) 8
+K: B
+E: From the second equation y = 8x + 16. Then x² + 8x + 16 + 3 = 3, so (x + 4)² = 0 and x = −4.
+#16
+Q: Which expression is equivalent to (20π^2)/(π^2 − x^2) − (20π)/(x + π), where x > π?
+A) (20π)/(π − x)
+B) (20πx)/(π^2 − x^2)
+C) (20π^2 − 20π)/(π^2 − x^2)
+D) (20π − 20)/((π − x^2)(x + 1))
+K: B
+E: Use the common denominator π² − x² = (π − x)(π + x): (20π² − 20π(π − x))/(π² − x²) = (20πx)/(π² − x²).
+#17
+Q: The equation y = −4.9(x − 9.1)^2 + 10,700 gives the estimated height above ground, <i>y</i>, in meters, of a plane, where <i>x</i> is the number of seconds since it started a parabolic maneuver. If this equation is graphed in the <i>xy</i>-plane, which of the following is the best interpretation of the vertex of the graph?
+A) The plane reached an estimated maximum height of 10,700 meters 4.9 seconds after it started the parabolic maneuver.
+B) The plane reached an estimated maximum height of 10,700 meters 9.1 seconds after it started the parabolic maneuver.
+C) The plane reached an estimated maximum height of 4.9 meters 10,700 seconds after it started the parabolic maneuver.
+D) The plane reached an estimated maximum height of 9.1 meters 10,700 seconds after it started the parabolic maneuver.
+K: B
+E: The vertex is (9.1, 10,700): a maximum height of 10,700 meters at 9.1 seconds.
+#18
+I: /qimg/24-dsat24-08-a-math-q18.svg
+Q: In the triangle shown, RS = √(157). What is the value of sin R?
+K: 78/79 | .9873 | 0.9873
+E: ST = √(79² − 157) = √(6,084) = 78. sin R = opposite/hypotenuse = ST/RT = 78/79.
+#19
+I: /qimg/24-dsat24-08-a-math-q19.svg
+Q: The figure shown is a right circular cylinder with a radius of <i>r</i> and height of <i>h</i>. A second right circular cylinder (not shown) has a volume that is 576 times as large as the volume of the cylinder shown. Which of the following could represent the radius <i>R</i>, in terms of <i>r</i>, and the height <i>H</i>, in terms of <i>h</i>, of the second cylinder?
+A) R = 9r and H = 8h
+B) R = 9r and H = 64h
+C) R = 8r and H = 9h
+D) R = 64r and H = 9h
+K: C
+E: Volume scales by (R/r)²(H/h). For C: 8² × 9 = 576.
+#20
+P: (x − 3)^2 + (y + 7)^2 = 25
+Q: The given equation represents circle <i>P</i> in the <i>xy</i>-plane. Circle <i>Q</i> has a center that is 1 unit to the right of and 2 units below the center of circle <i>P</i>. Circle <i>Q</i> has a diameter that is double the diameter of circle <i>P</i>. Which equation represents circle <i>Q</i>?
+A) (x − 2)^2 + (y + 5)^2 = 50
+B) (x − 4)^2 + (y + 9)^2 = 50
+C) (x − 2)^2 + (y + 5)^2 = 100
+D) (x − 4)^2 + (y + 9)^2 = 100
+K: D
+E: Circle P has center (3, −7) and radius 5. Circle Q has center (4, −9) and radius 10, so r² = 100.
+#21
+P: (x − 2) − 8(y + 3) = 123
+P: (x − 2) + 8(y + 3) = 432
+Q: The solution to the given system of equations is (x, y). What is the value of 10(x − 2)?
+K: 2775
+E: Adding the equations gives 2(x − 2) = 555, so x − 2 = 277.5 and 10(x − 2) = 2,775.
+#22
+Q: On average, a certain tree grows 51 centimeters every <i>m</i> months. At this rate, which expression represents the number of centimeters, on average, the tree grows every <i>k</i> years?
+A) (17m)/(4k)
+B) (17k)/(4m)
+C) (612m)/(k)
+D) (612k)/(m)
+K: D
+E: The rate is 51/m cm per month, and k years is 12k months: (51/m)(12k) = (612k)/(m).
+=M2
+#1
+I: /qimg/24-dsat24-08-a-math-m2q1.svg
+Q: The graph of the linear function <i>f</i> is shown, where y = f(x). Which equation defines <i>f</i>?
+A) f(x) = (5/8)x − 1
+B) f(x) = (8/5)x − 1
+C) f(x) = −(5/8)x − 1
+D) f(x) = −(8/5)x − 1
+K: C
+E: The line passes through (0, −1) and (8, −6), so the slope is (−6 − (−1))/(8 − 0) = −5/8.
+#2
+Q: If 8(x + 3) = 64, what is the value of x + 3?
+A) 5
+B) 8
+C) 53
+D) 56
+K: B
+E: Divide both sides by 8: x + 3 = 8.
+#3
+Q: Which expression is equivalent to √(x^153), where x > 0?
+A) x^(2/153)
+B) x^(153/2)
+C) x^151
+D) x^306
+K: B
+E: A square root is the 1/2 power: (x<sup>153</sup>)<sup>1/2</sup> = x<sup>153/2</sup>.
+#4
+I: /qimg/24-dsat24-08-a-math-m2q4.svg
+Q: The complete graph of y = f(x) is shown. For how many values of <i>x</i> does f(x) = 0?
+A) Zero
+B) One
+C) Two
+D) Three
+K: B
+E: The graph crosses the x-axis only once (between x = 9 and x = 10).
+#5
+Q: The number of bacteria in a liquid medium doubles every hour. There are 44,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, <i>y</i>, in the liquid medium <i>t</i> hours after the start of the observation?
+A) y = (1/2)(44,000)^t
+B) y = 2(44,000)^t
+C) y = 44,000(1/2)^t
+D) y = 44,000(2)^t
+K: D
+E: Start at 44,000 and multiply by 2 each hour: y = 44,000(2)<sup>t</sup>.
+#6
+Q: Which expression is equivalent to (6t^4 − 3t^2 + 3t − 6) − (2t^4 − 4t^3 + 6t^2 − 6)?
+A) 4t^4 + 4t^3 − 9t^2 + 3t − 12
+B) 4t^4 + 4t^3 − 9t^2 + 3t
+C) 4t^4 + t^3 + 9t − 12
+D) 4t^4 + t^3 + 3t
+K: B
+E: Subtract term by term: 4t⁴ + 4t³ − 9t² + 3t + 0.
+#7
+P: b − 22 = x/y
+Q: The given equation relates the positive numbers <i>b</i>, <i>x</i>, and <i>y</i>. Which equation correctly expresses <i>x</i> in terms of <i>b</i> and <i>y</i>?
+A) x = (by − 22)/(y)
+B) x = by − 22
+C) x = by − 22y
+D) x = (b − 22)/(y)
+K: C
+E: Multiply both sides by y: x = y(b − 22) = by − 22y.
+#8
+Q: Ari examined a set of 86 plants. The lightest plant had a mass of 2.8 kilograms (kg) and the heaviest plant had a mass of 6.2 kg. Chihiro examined the same set of 86 plants and also an additional plant with a mass of 11.7 kg. Which of the following must be true about the set of plants that Ari examined and the set of plants that Chihiro examined?
+A) The standard deviation of the masses, in kg, of the plants that Ari examined is greater than the standard deviation of the masses, in kg, of the plants that Chihiro examined.
+B) The range of the masses, in kg, of the plants that Ari examined is greater than the range of the masses, in kg, of the plants that Chihiro examined.
+C) The median of the masses, in kg, of the plants that Ari examined is less than the median of the masses, in kg, of the plants that Chihiro examined.
+D) The mean of the masses, in kg, of the plants that Ari examined is less than the mean of the masses, in kg, of the plants that Chihiro examined.
+K: D
+E: Adding a value (11.7) larger than every existing value always raises the mean. The median might not change, and the range and spread increase, so A and B are false.
+#9
+Q: A linear model estimates the population of a city from 1995 to 2019. The model estimates the population was 59 thousand in 1995, 217 thousand in 2015, and <i>x</i> thousand in 2019. To the nearest whole number, what is the value of <i>x</i>?
+K: 249
+E: The rate is (217 − 59)/20 = 7.9 thousand per year. In 2019: 217 + 4(7.9) = 248.6, or about 249.
+#10
+Q: Triangles <i>ABC</i> and <i>DEF</i> are similar, where <i>A</i> corresponds to <i>D</i>, and <i>B</i> corresponds to <i>E</i>. The measure of angle <i>A</i> is 26°, and AB = 4. Which of the following statements must be true?<br>I. The measure of angle <i>D</i> is 26°.<br>II. DE = 4
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: A
+E: Corresponding angles of similar triangles are congruent, so angle D is 26°. Corresponding sides are proportional but not necessarily equal, so DE need not be 4.
+#11
+Q: A clothing store buys shirts at a wholesale price of 7.00 dollars each and resells them each at a retail price that is 260% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?
+K: 4.55
+E: Retail price: 2.6 × 7.00 = 18.20. After 75% off, the price is 0.25 × 18.20 = 4.55.
+#12
+P: f(x) = 7,020(0.28)^(x/12)
+Q: The function <i>f</i> gives the value, in dollars, of a certain piece of equipment after <i>x</i> months of use. If the value of the equipment decreases each <u>year</u> by <i>p</i>% of its value the preceding year, what is the value of <i>p</i>?
+A) 2
+B) 10
+C) 28
+D) 72
+K: D
+E: Every 12 months the value is multiplied by 0.28, so it keeps 28% and loses 72% each year.
+#13
+P: x^2 + 5x = 47
+Q: The solutions to the given equation are (m + √(q))/(2) and (m − √(q))/(2), where <i>m</i> and <i>q</i> are integers. What is the value of m + q?
+K: 208
+E: By the quadratic formula, x = (−5 ± √(25 + 188))/2 = (−5 ± √(213))/2. So m = −5, q = 213, and m + q = 208.
+#14
+Q: In the equation 7x^2 + 49x + c = 0, <i>c</i> is a constant. If the equation has exactly one real solution, what is the value of <i>c</i>?
+A) 0
+B) 7/2
+C) 56
+D) 343/4
+K: D
+E: Exactly one solution means the discriminant is 0: 49² − 4(7)(c) = 0, so c = 2,401/28 = 343/4.
+#15
+P: p(x) = 2x^2 + 20x + 15
+Q: What is the minimum value of the given function?
+A) −35
+B) −15
+C) −5
+D) 15
+K: A
+E: The vertex is at x = −20/(2·2) = −5, and p(−5) = 50 − 100 + 15 = −35.
+#16
+P: 5x + 7y = 8
+P: 30x + 42y = 48
+Q: For each real number <i>r</i>, which of the following points lies on the graph of each equation in the <i>xy</i>-plane for the given system?
+A) (r, −(5r)/7 + 8/7)
+B) (−(5r)/7 + 8/7, r)
+C) (−(5r)/7 + 8, (5r)/7 + 48)
+D) (r/6 + 8, −r/6 + 48)
+K: A
+E: The second equation is 6 times the first, so both are the same line. Solving 5x + 7y = 8 for y with x = r gives y = −(5r)/7 + 8/7.
+#17
+Q: The length of each edge of a box is 94 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)
+K: 4.418 | 2209/500
+E: Each edge is 0.94 m, so each face is 0.94² = 0.8836 m². Without a lid there are 5 faces: 5(0.8836) = 4.418.
+#18
+P: 2cos(90 − a)° · cos b° + sin(a + y)° · sin(90 − b)°
+Q: In the given expression, <i>a</i> and <i>b</i> are constants such that sin a° = 0.50, cos b° = 0.99, and 0 < b < 90. What is the value of the given expression when y = 0?
+K: 1.485 | 297/200
+E: cos(90 − a)° = sin a° and sin(90 − b)° = cos b°. With y = 0 the expression is 2 sin a cos b + sin a cos b = 3(0.50)(0.99) = 1.485.
+#19
+I: /qimg/24-dsat24-08-a-math-m2q19.svg
+Q: The scatterplot shows the relationship between two variables, <i>x</i> and <i>y</i>, for data set P. A line of best fit for the data is also shown. Data set Q is created by adding 540 units to the value of <i>x</i> for each data point from data set P. Which of the following could be an equation of a line of best fit for data set Q?
+A) y = −3 + (35/1,301)x
+B) y = 9 + (1/131)x
+C) y = 18 + (1/131)x
+D) y = 26 + (35/1,301)x
+K: A
+E: The line for P has slope about 0.8/30 ≈ 35/1,301 and passes near (100, 14.2), so its y-intercept is about 11.5. Shifting every x by 540 keeps the slope and lowers the intercept by 540(35/1,301) ≈ 14.5, giving about −3.
+#20
+P: √(k − x) = 57 − x
+Q: In the given equation, <i>k</i> is a constant. The equation has exactly one real solution. What is the minimum possible value of 4k?
+K: 227
+E: Let t = 57 − x, which must be ≥ 0. Squaring gives t² − t + (57 − k) = 0. The smallest k giving a real solution makes the discriminant 0: 1 − 4(57 − k) = 0, so 4k = 227 (then t = 1/2, exactly one solution).
+#21
+Q: The functions <i>f</i> and <i>g</i> are defined by the given equations, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x ≥ 0?<br>I. f(x) = 16(1.25)^x + 43<br>II. g(x) = 6(0.75)^x
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: B
+E: f grows without bound, so it has no maximum. g decreases from g(0) = 6, so its maximum 6 appears as the coefficient.
+#22
+Q: An object’s speed is increasing at a rate of 12.1 meters per second squared. What is this rate, in <u>miles per minute squared</u>, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)
+A) 0.5
+B) 27.1
+C) 133
+D) 324.5
+K: B
+E: 12.1 × 60² / 1,609 = 43,560/1,609 ≈ 27.1.

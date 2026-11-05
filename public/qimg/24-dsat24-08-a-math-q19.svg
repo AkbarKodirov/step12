@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" font-family="'Times New Roman', serif" font-size="18" fill="#111"><rect width="240" height="200" fill="#fff"/>
+<ellipse cx="110" cy="40" rx="70" ry="22" fill="none" stroke="#111" stroke-width="2"/>
+<path d="M40 40 V150 A70 22 0 0 0 180 150 V40" fill="none" stroke="#111" stroke-width="2"/>
+<path d="M40 150 A70 22 0 0 1 180 150" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="110" cy="40" r="3" fill="#111"/><line x1="110" y1="40" x2="156" y2="26" stroke="#111" stroke-width="1.5"/>
+<text x="134" y="24" font-style="italic">r</text><text x="190" y="100" font-style="italic">h</text></svg>

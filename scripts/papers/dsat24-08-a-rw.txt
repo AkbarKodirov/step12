@@ -1,0 +1,549 @@
+!id: dsat24-08-a-rw
+!name: August 2024 International · Form A · Reading & Writing
+!type: EBRW
+!year: 2024
+!month: 8
+!region: International
+!form: A
+=M1
+#1
+P: The following text is from Kenneth Grahame’s 1908 novel <i>The Wind in the Willows</i>. The Mole is returning home after a visit to Mr. Badger’s house.
+P: As he hurried along, eagerly <u>anticipating</u> the moment when he would be at home again among the things he knew and liked, the Mole saw clearly that he was an animal of tilled field and hedge-row, linked to the ploughed furrow, the frequented pasture, the lane of evening lingerings, the cultivated garden-plot.
+Q: As used in the text, what does the word “anticipating” most nearly mean?
+A) Managing
+B) Getting ahead of
+C) Revealing
+D) Looking forward to
+K: D
+E: The Mole hurries “eagerly” toward the moment he will be home, so he is looking forward to it.
+#2
+P: British painter Peter Edwards is known for his portraits of notable figures in different fields, from poet Seamus Heaney to casting director Ruth Lambert. These works are widely praised, meaning that Edwards receives substantial ______ as an artist.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) guidance
+B) acclaim
+C) sympathy
+D) tolerance
+K: B
+E: Work that is “widely praised” earns the artist acclaim.
+#3
+P: <i>Farmhouse Interior</i>, painted in the realist style by Jan Hendrik Weissenbruch, depicts a peasant woman knitting at a table while a cat sits underneath. The realists’ emphasis on accurately portraying the experiences of average working people was largely a rejection of the romantic style evident in many paintings by Martin Drolling, which instead ______ their subjects’ beauty or heroism while hiding all imperfection.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) accentuate
+B) counteract
+C) rectify
+D) obscure
+K: A
+E: Romantic paintings hid imperfection and instead emphasized, or accentuated, beauty and heroism.
+#4
+P: One way to evaluate the importance of a scholar’s research is to ______ other scholars’ references to that research. For example, a count of other scholars’ citations shows that Boston University economist Marianne Baxter, who studies international finance, is referenced frequently, indicating that her work has been significant in the field.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) constrain
+B) dispute
+C) tally
+D) predict
+K: C
+E: The example is “a count of other scholars’ citations,” so the method is to tally references.
+#5
+P: Gus Edwards’s remarkable first play <i>The Offering</i> was produced in 1977 by the groundbreaking Negro Ensemble Company (NEC). NEC cofounder Douglas Turner Ward, <u>who worked as an actor, director, and playwright,</u> had met actor and producer Robert Hooks while they were performing in a 1960 touring production of Lorraine Hansberry’s play <i>A Raisin in the Sun</i>. Together, they envisioned a theater company that would nurture and showcase the work of Black theater professionals. Since NEC’s founding in 1967, its workshops and performances have given Black playwrights, including Edwards, a forum for their compelling stories.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It argues against the claim made earlier in the text.
+B) It provides additional information about a person discussed in the text.
+C) It compares the achievements of two people discussed later in the text.
+D) It illustrates the importance of an organization mentioned in the text.
+K: B
+E: The underlined clause simply tells us more about Douglas Turner Ward’s career.
+#6
+P: When people think of dinosaurs with feathers, they typically think of winged dinosaurs, <u>such as the bat-like <i>Yi qi</i></u>. However, many dinosaurs that didn’t have wings also had feathers on their bodies. For instance, research indicates that the wingless, peacock-sized <i>Caudipteryx</i> likely had feathers.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It gives an example of a dinosaur with the characteristics mentioned earlier in the sentence.
+B) It states the main argument about dinosaurs presented in the text.
+C) It contrasts the two dinosaurs discussed in the text.
+D) It describes features of the feathers of the dinosaurs mentioned earlier in the sentence.
+K: A
+E: <i>Yi qi</i> is offered as an example of a winged, feathered dinosaur.
+#7
+P: Like all species of baleen whales, the humpback whale feeds on tiny creatures known as krill by filtering water through bristlelike keratin structures called baleen plates. In this way, baleen whales can eat up to 30 percent of their total mass per day. And while no one would call the humpback whale small—it can have a mass as high as 30,000 kg—it is one of the smaller baleen whales and is much smaller than the fin whale, which can weigh a whopping 80,000 kg and consume as much as 24,000 kg of krill per day.
+Q: Which choice best describes the overall structure of the text?
+A) It details a relationship between humpback and fin whales and krill and then discusses an unexpected consequence of a change in baleen whale populations.
+B) It discusses a unique feature of the humpback whale and how the lack of that feature in the fin whale explains differences in the two species’ behavior.
+C) It describes a characteristic shared by all baleen whales and then illustrates a difference between the humpback whale and the fin whale that is relevant to that characteristic.
+D) It draws a distinction between the sizes of the humpback whale and the fin whale and then presents a feature that they have in common.
+K: C
+E: The text first explains how all baleen whales feed, then contrasts the sizes (and krill intake) of humpback and fin whales.
+#8
+P: <b>Text 1</b>
+P: When the 50-second-long film <i>Arrival of the Train</i>—which depicts what its title says, a train pulling into a station—was first shown publicly in 1896, spectators, naïve to the new medium of film and seeing a train appearing to come directly at them, leaped from their seats and fled the room. This moment marks a major cultural shift: a new way of representing and seeing the world had arrived with that train, and nothing would ever be the same.
+P: <b>Text 2</b>
+P: The fact that there is no contemporary evidence that the first audience of <i>Arrival of the Train</i> was alarmed has not stopped the story from becoming canonical, even among film historians. But that phenomenon itself is highly revealing. Our belief that the coming of film was transformative is so strong that we invented and keep retelling a founding myth that divides cultural history into a (naïve) “before” and (sophisticated) “after.”
+Q: Based on the texts, the author of Text 2 would most likely agree with which statement about the description of the first showing of <i>Arrival of the Train</i> in Text 1?
+A) It is not based on evidence and reflects film historians’ belief that they are more sophisticated than today’s audiences.
+B) It expresses a view about the transformative nature of film that film historians tend to regard as naïve.
+C) It is more motivated by a perception of the significance of the invention of film than by facts.
+D) It reflects a misconception that is widely believed because it captures early film audiences’ sense that the new medium was alarming.
+K: C
+E: Text 2 says there is no evidence for the story; it survives because of our belief that film was transformative.
+#9
+P: Researchers César A. Hidalgo, Elisa Castañer, and Andres Sevtsuk created a computer model to predict the mix of businesses and places of interest found in a given neighborhood. The team used data from the Google Places API service to help identify hotels, supermarkets, and other businesses and map their locations. This approach has some limits—data from Places API tend to be restricted to places that are customer facing—but the data set nonetheless provides an extremely reliable source to study colocation patterns of neighborhood amenities.
+Q: According to the text, what is one potential drawback of Hidalgo and colleagues’ method?
+A) It is based on recent advancements from other fields that have yet to be applied outside of those contexts.
+B) It depends upon data that are likely to be outdated.
+C) It may lead to conclusions that are not reflective of all the amenities in a given neighborhood.
+D) It is likely to contribute to inaccurate identifications of the boundaries of specific neighborhoods.
+K: C
+E: The data cover mainly customer-facing places, so the results may not reflect every amenity in a neighborhood.
+#10
+I: /qimg/24-dsat24-08-a-rw-q10.svg
+P: A student is collecting data about countries with volcanoes that have been active in the time since 1800 and in the time since 1960. The student records that Nicaragua has ______
+Q: Which choice most effectively uses data from the graph to complete the statement?
+A) no volcanoes that have been active since 1800.
+B) the same number of volcanoes that have been active since 1800 as Tanzania has.
+C) more volcanoes that have been active since 1960 than Tanzania has.
+D) fewer volcanoes that have been active since 1960 than Tanzania has.
+K: C
+E: Since 1960 Nicaragua has 6 active volcanoes and Tanzania has 1.
+#11
+P: <i>Poems</i> is an 1895 collection of poetry by Frances E.W. Harper. In one of Harper’s poems, the speaker criticizes activists who champion humanitarian causes in other countries while overlooking local concerns, saying, ______
+Q: Which quotation from <i>Poems</i> most effectively illustrates the claim?
+A) “God bless our native land, / Her homes and children bless, / Oh may she ever stand / For truth and righteousness.” (from “God Bless Our Native Land”)
+B) “Say not the age is hard and cold— / I think it brave and grand; / When men of diverse sects and creeds / Are clasping hand in hand.” (from “The Present Age”)
+C) “Men may tread down the poor and lowly, / May crush them in anger and hate, / But surely the mills of God’s justice / Will grind out the grist of their fate.” (from “An Appeal to My Countrywomen”)
+D) “When ye plead for the wrecked and fallen, / The exile from far-distant shores, / Remember that men are still wasting / Life’s crimson around your own doors.” (from “An Appeal to My Countrywomen”)
+K: D
+E: The speaker reminds those who plead for exiles from “far-distant shores” that suffering continues “around your own doors.”
+#12
+P: “A Pair of Silk Stockings” is an 1897 short story written by Kate Chopin. In the story, Mrs. Sommers becomes engrossed in the decision of how she should spend a recently obtained sum of money: ______
+Q: Which quotation from “A Pair of Silk Stockings” most effectively illustrates the claim?
+A) “Little Mrs. Sommers one day found herself the unexpected possessor of fifteen dollars.”
+B) “It seemed to her a very large amount of money, and the way in which it stuffed and bulged her worn old <i>porte-monnaie</i> [small purse] gave her a feeling of importance such as she had not enjoyed for years.”
+C) “Mrs. Sommers was one who knew the value of bargains; who could stand for hours making her way inch by inch toward the desired object that was selling below cost.”
+D) “The question of investment was one that occupied her greatly. For a day or two she walked about apparently in a dreamy state, but really absorbed in speculation and calculation.”
+K: D
+E: She is “absorbed in speculation and calculation” about how to spend the money, which shows she is engrossed in the decision.
+#13
+I: /qimg/24-dsat24-08-a-rw-q13.svg
+P: In a college course on urban affairs, a student asserts that increased traffic congestion in the United States in the 1990s was present both in very large cities such as New York City, New York, and smaller areas such as Albany-Schenectady-Troy, New York, and Beaumont, Texas; though those smaller areas may have been less affected by traffic congestion than New York City was, they still experienced an increase.
+Q: Which choice best describes data from the graph that support the student’s claim?
+A) In 1992, the amount of traffic delay in the New York City, New York, area was less than 30 hours per commuter per year.
+B) In at least one of the three urban areas shown, the amount of traffic delay was less than 20 hours per commuter per year at one point between 1990 and 2000.
+C) While the annual number of hours of traffic delay per commuter was always lower in the Albany-Schenectady-Troy, New York, area than in the New York City, New York, area for each year between 1990 and 2000, the amount of traffic delay rose in both areas during this period.
+D) Even though the amount of traffic delay per commuter per year was greater in the Albany-Schenectady-Troy, New York, area than in the New York City, New York, area throughout the period from 1990 to 2000, the amounts were nearly identical in 1996.
+K: C
+E: Albany’s delay (about 17 to 29 hours) was always below New York City’s (about 43 to 62 hours), yet both rose from 1990 to 2000.
+#14
+P: Over 600 languages are spoken in New York City in addition to English—one can find Bengali spoken in the neighborhood of Parkchester, or Fujianese in Sunset Park. Most speakers of Chinese languages reside in the neighborhood of Flushing (part of New York City’s borough of Queens) and in Chinatown, in the borough of Manhattan. New immigrants from north China, where Mandarin is the primary first language, tend to settle in Queens, while new immigrants from south China, where many people speak Cantonese or Fuzhounese as a first language, tend to settle in Manhattan. It can therefore be inferred that ______
+Q: Which choice most logically completes the text?
+A) correlations in a country between languages and regions where they are spoken can replicate themselves in a new country to which the original country’s citizens emigrate.
+B) there is a positive correlation between the physical size of a country and the number of languages spoken in that country.
+C) languages tend to change more rapidly in areas where many languages are spoken than in areas where few languages are spoken.
+D) languages spoken by immigrant peoples can differ significantly in vocabulary and pronunciation from those same languages in their country of origin.
+K: A
+E: The north/south language split in China reappears as a Queens/Manhattan split in New York City.
+#15
+P: The <i>Mammillaria</i> cactus <i>M. anniana</i> occurs naturally only in the state of Tamaulipas in Mexico, and the smallness of its range makes it especially vulnerable to extinction. The traditional single-species approach to conservation emphasizes the need to focus on individual species most at risk, like <i>M. anniana</i>, but recently, conservationists have argued that an ecosystem-based approach that incorporates the many interactions between the climate, terrain, and various species of a given geographical area may lead to better outcomes for all the species in a given location. If this view is correct, the single-species approach to the conservation of <i>M. anniana</i> could thus ______
+Q: Which choice most logically completes the text?
+A) fail to consider the ways in which the survival of <i>M. anniana</i> may be influenced by changes in the populations of other species that inhabit Tamaulipas.
+B) erroneously shift the focus of conservation efforts away from <i>M. anniana</i> itself.
+C) lead to a better understanding of how the distribution of <i>Mammillaria</i> species throughout Mexico has affected their survival.
+D) allow conservationists to better consider how climatic changes affecting Tamaulipas may reduce the number of species competing with <i>M. anniana</i>.
+K: A
+E: The ecosystem approach looks at interactions among species; focusing on one species alone could miss how other species affect it.
+#16
+P: The Seljuk Empire, which reigned in central Asia from around 1037 CE to 1194 CE, benefited from trade with other societies: its merchants exported cotton, silk, and fruit and ______ other valuable commodities, such as gold, silver, and agate, which were then traded locally.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) importing
+B) having imported
+C) to import
+D) imported
+K: D
+E: “Imported” is parallel with the past-tense verb “exported.”
+#17
+P: Sofia, with a population of roughly 1.3 million people, ______ home to an impressive 15 percent of Bulgaria’s total population.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) is
+B) are
+C) are being
+D) have been
+K: A
+E: The singular subject “Sofia” needs the singular verb “is.”
+#18
+P: Churchrock Chapter, which covers 58,000 acres, is one of the 110 chapters of the Navajo ______ <i>Diné bizaad</i> (the Navajo language), the chapter is called <i>Kin Łitsoh Sinilí</i>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Nation, in
+B) Nation. In
+C) Nation in
+D) Nation and in
+K: B
+E: Two independent clauses; a period separates them correctly.
+#19
+P: For the past 20 million years, Earth’s magnetic poles in the far north and far south have remained roughly where they are today. This has not always been the ______ throughout geologic history, Earth’s magnetic poles have swapped places several times through a process called polar wandering.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) case, though;
+B) case, though
+C) case, though,
+D) case; though,
+K: A
+E: “Though” belongs to the first clause; a semicolon then joins the two independent clauses.
+#20
+P: The 1970 founding of the Partido Nacional de La Raza Unida and the 1946 <i>Mendez v. Westminster</i> court decision are important events in US civil rights ______ former establishing a Latino rights advocacy group and the latter legally affirming the rights of Latino students.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) history the
+B) history. The
+C) history, the
+D) history, and the
+K: C
+E: What follows is an absolute phrase (no main verb), so it attaches to the sentence with a comma.
+#21
+P: In “Things That Have Lost Their Power,” one of the many lists in Sei Shōnagon’s <i>Pillow Book</i>, the author bemoans boats run aground, toppled trees, and defeated wrestlers. Such ______ paint a detailed picture of tenth-century Japanese courtly life.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) lists, conveyed sharply yet simply
+B) lists, conveyed sharply yet simply,
+C) lists conveyed sharply, yet simply,
+D) lists conveyed, sharply yet simply,
+K: B
+E: “Conveyed sharply yet simply” is a nonessential phrase between the subject and verb, so it needs a comma on each side.
+#22
+P: In 2005, notoriously shy American singer-songwriter Ray LaMontagne saw his life change with the success of his hit single “Trouble.” That year, he performed more than thirty live sets, including at Avalon in Los Angeles, United States, and Théatre Outremont in Montreal, Canada; ______ he’d performed fewer than a dozen times in 2004.
+Q: Which choice completes the text with the most logical transition?
+A) similarly,
+B) on the other hand,
+C) additionally,
+D) often,
+K: B
+E: More than thirty sets in 2005 contrasts with fewer than a dozen in 2004.
+#23
+P: While researching a topic, a student has taken the following notes:
+L: Thomas Edison is regarded as one of the most important inventors in US history.
+L: Having received little formal schooling, Edison relied on specialist employees at his various laboratories and offices to complete the technical work for many of his inventions.
+L: Reginald Fessenden was an electronic communications specialist who worked at the Edison Machine Works manufacturing company.
+L: He is best known for pioneering radio technology that led to the first transmission of speech by radio.
+L: Frank J. Sprague was a naval officer who worked at the Menlo Park laboratory.
+L: He is best known for being the father of electric traction.
+Q: Which choice most effectively uses information from the given sentences to introduce Reginald Fessenden and what he is known for?
+A) Reginald Fessenden, an electronic communications specialist, worked at the Edison Machine Works manufacturing company.
+B) Reginald Fessenden, an electronic communications specialist and former employee of Thomas Edison, is known for pioneering radio technology that led to the first transmission of speech by radio.
+C) Having received little formal education, Thomas Edison depended on specialized employees, including Reginald Fessenden and Frank J. Sprague, for many of his inventions.
+D) Thomas Edison’s historic success would not have been possible without naval officer Frank J. Sprague, who is known for being the father of electric traction.
+K: B
+E: Only B introduces Fessenden and states what he is known for.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.
+L: It features images of cultural artifacts relevant to the history of the Choctaw people.
+L: It features clothing, including a shawl (<i>anchi</i> in Choctaw) made from cloth.
+L: The shawl was made in 1881.
+L: Hina Hanta features household items, including a mug (<i>isht ishko</i>) made from clay.
+L: The mug was made in 1915.
+Q: The student wants to make a generalization about the Hina Hanta archive. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Included in the Hina Hanta online archive is a cloth shawl.
+B) The Choctaw name for the cloth shawl is <i>anchi</i>.
+C) Not all artifacts in the Hina Hanta archive are from the 1800s.
+D) The clay mug (<i>isht ishko</i>) was made in 1915.
+K: C
+E: Only C makes a general statement about the archive as a whole; the others describe single items.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.
+L: Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.
+L: Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.
+L: The mineral calcite has a Mohs scale number of 3.
+L: The mineral orthoclase has a Mohs scale number of 6.
+L: The mineral topaz has a Mohs scale number of 8.
+Q: The student wants to compare the hardness of the three minerals. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Based on their Mohs scale numbers, topaz (8) is harder than orthoclase (6), and orthoclase is harder than calcite (3).
+B) Topaz can leave visible scratches on calcite, which is why topaz has a higher number than calcite on the Mohs scale of mineral hardness.
+C) A mineral with a Mohs number of 8, like topaz, is harder than one with a Mohs number of 6, like orthoclase.
+D) The Mohs scale of mineral hardness can be used to order orthoclase, calcite, and topaz by their ability to scratch other minerals.
+K: A
+E: Only A compares the hardness of all three minerals.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Fafnir is the nickname of a dinosaur fossil specimen from the Late Cretaceous period.
+L: The Late Cretaceous period ended more than 65 million years ago.
+L: Fafnir is a member of the genus <i>Triceratops</i>.
+L: Fafnir is on display at the Science Museum of Minnesota.
+L: The Science Museum of Minnesota is in Saint Paul, Minnesota.
+Q: The student wants to specify Fafnir’s location. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Saint Paul, Minnesota, is home to the Science Museum of Minnesota, which displays a dinosaur fossil specimen from the Late Cretaceous period.
+B) Fafnir is the nickname of a dinosaur fossil specimen belonging to the genus <i>Triceratops</i>.
+C) Fafnir is on display at the Science Museum of Minnesota in Saint Paul, Minnesota.
+D) Fafnir lived in the Late Cretaceous period, which ended more than 65 million years ago.
+K: C
+E: C names Fafnir and gives its exact location.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Onomatopoeias are words that imitate the sounds they represent.
+L: Words that represent the same sound are often written and pronounced very differently from language to language.
+L: This variation is due in part to differences in how the languages are structured.
+L: “Kok-sss” is a Tagalog onomatopoeia that represents the sound of snoring.
+L: “Khò” is a Vietnamese onomatopoeia that represents the sound of snoring.
+Q: The student wants to contrast two words that represent the same sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Tagalog word “kok-sss” and the Vietnamese word “khò” are onomatopoeias that represent the sound of snoring.
+B) Onomatopoeias, words that imitate the sounds they represent, are often written and pronounced very differently from language to language.
+C) Though they both represent the sound of snoring, the onomatopoeias “kok-sss” (Tagalog) and “khò” (Vietnamese) are written and pronounced very differently.
+D) The Tagalog word “kok-sss,” which represents the sound of snoring, is an onomatopoeia.
+K: C
+E: C names both words and contrasts how they are written and pronounced.
+=M2
+#1
+P: Writer Lydia Davis observed that while traditional literary forms, such as the novel, are recognizable as such even as they evolve, there are more ______ forms that might, for example, borrow elements from both fiction and essays to make something unconventional. Anne Carson’s collection <i>Float</i> arguably fits in this category, since it straddles the line between prose and poetry.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) amorphous
+B) neutral
+C) dispersed
+D) customary
+K: A
+E: Forms that blend fiction and essay, or prose and poetry, have no fixed shape; they are amorphous.
+#2
+P: A speaker at a recent children’s book publishing conference noted that, while many illustrators do excellent work, in her mind, no one has ever ______ Amos Ferguson’s work as the illustrator of <i>Under the Sunday Tree</i>: there is no better example of the form, according to the speaker.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) convened
+B) augmented
+C) eclipsed
+D) cited
+K: C
+E: “There is no better example” means no one has surpassed, or eclipsed, Ferguson’s work.
+#3
+P: Some robots such as Salvius (developed in 2008) and REEM-C (developed in 2013) feature humanoid characteristics like bipedal locomotion so that people will find it easier to interact with them. While these features can help to ______ feelings of comfort in people, a robot that looks <i>too</i> human can fall into the “uncanny valley,” meaning that its appearance unintentionally unsettles those who encounter it.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) engender
+B) repudiate
+C) counterbalance
+D) constrict
+K: A
+E: The features are meant to make people comfortable, so they help to produce, or engender, comfort.
+#4
+P: Though most hoaxes perpetrated as jokes by mischievous users of Wikipedia, an online encyclopedia that almost anyone can freely edit, have quickly been detected and removed, a few entries that knowledgeable readers should have realized were ______, such as those for the American new wave band Transformatix and the 19th-century German poet Emilia Dering, persisted on the site for many years before they were finally recognized as falsehoods and deleted.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) spurious
+B) compulsory
+C) scrupulous
+D) palpable
+K: A
+E: The entries were “falsehoods,” so they were spurious (fake).
+#5
+P: There are many famous examples of election pollsters making inaccurate predictions in presidential elections. But neuroscientist and election pollster Sam Wang has said that these prediction failures should not lead campaigns to ______ election polling entirely. Polling is about more than just predicting the winner; throughout campaigns, it helps strategists identify where their efforts are most likely to be effective.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) distort
+B) neglect
+C) enact
+D) supplement
+K: B
+E: Wang argues polling is still useful, so campaigns should not ignore, or neglect, it.
+#6
+P: In 2011 Brynn M. Devine and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of <i>Cheilodipterus quinquelineatus</i>, a species of fish. However, Devine and colleagues’ study relied on a mean sample size of only about 25 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.
+Q: Which choice best describes the overall structure of the text?
+A) It presents the result of a study, then raises a potential concern related to that result.
+B) It describes a characteristic of a fish species, then explains why that characteristic is noteworthy.
+C) It states a similarity between two scientific studies, then notes a difference between them.
+D) It summarizes a problem that scientists are investigating, then provides a possible solution to that problem.
+K: A
+E: The text gives Devine’s finding and then explains why its small sample size is a concern.
+#7
+P: <b>Text 1</b>
+P: According to a study by a conservation group representing 11 tribal nations in the Great Lakes region, the lake trout (<i>namegos</i> in the Ojibwe language) will have significantly worse outcomes over the next 50 years if temperatures increase as much as some models suggest. By contrast, the bald eagle (<i>migizi</i> in Ojibwe) should be able to withstand the highest predicted warming without much harm and so likely won’t require the conservation efforts that the lake trout will.
+P: <b>Text 2</b>
+P: US government agencies involved in conservation are unfortunately not able to address every possible threat to natural resources. They must use the best information available to decide which species are most threatened and therefore most in need of conservation efforts.
+Q: Based on the texts, both authors would most likely agree with which statement?
+A) A collaborative approach is necessary to keep temperatures in the Great Lakes region from increasing to the highest predicted levels.
+B) Agencies involved in natural-resource management in the Great Lakes region should focus their conservation efforts more on the lake trout than on the bald eagle.
+C) State, federal, and tribal groups involved in natural-resource management in the Great Lakes region should immediately begin conservation programs for both the lake trout and bald eagle.
+D) Conservation efforts focused on the lake trout are more likely to be successful if they incorporate state and federal agency resources with the knowledge of tribal groups in those efforts.
+K: B
+E: Text 1 says the lake trout is more threatened; Text 2 says agencies should focus on the most threatened species.
+#8
+P: Optimal foraging theory (OFT) holds that animals’ foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Nathan Upham and John Hafner found to be negatively associated with foraging by desert kangaroo rats but Eduardo Fernández-Duque and colleagues found to be positively associated with foraging by Azara’s night monkeys. This discrepancy is explicable in terms of OFT: the monkeys’ greater reliance on vision means that higher lunar intensity benefits them more than it benefits the kangaroo rats.
+Q: According to the text, the difference between Upham and Hafner’s findings and Fernández-Duque and colleagues’ findings can be attributed to which difference between desert kangaroo rats and Azara’s night monkeys?
+A) The kangaroo rats decrease their foraging activity as lunar intensity increases, whereas the monkeys increase their foraging activity.
+B) The kangaroo rats are more vulnerable to predators than the monkeys are.
+C) The kangaroo rats are less reliant on vision than the monkeys are.
+D) The kangaroo rats encounter different levels of lunar intensity than the monkeys do.
+K: C
+E: The text explains the discrepancy by the monkeys’ greater reliance on vision. Choice A restates the findings rather than explaining them.
+#9
+P: The following text is adapted from Guy de Maupassant’s 1884 short story “A Recollection,” from the collection <i>Guy de Maupassant Short Stories</i> (translated by Albert M.C. McMaster et al. in 1903). The narrator is taking a boat down the Seine river from Paris, France, to the surrounding countryside.
+P: I took up a position in the bows [front of the boat], standing up and looking at the quays, the trees, the houses and the bridges disappearing behind us. And suddenly I perceived the great viaduct of Point du Jour which blocked the river. It was the end of Paris, the beginning of the country, and behind the double row of arches the Seine, suddenly spreading out as though it had regained space and liberty, became all at once the peaceful river which flows through the plains, alongside the wooded hills, amid the meadows, along the edge of the forests.
+Q: Based on the text, which choice best expresses the narrator’s characterization of the Seine?
+A) Though the Seine is calm during most of the journey, the arches of the Point du Jour created a small area of heavy current.
+B) The Seine is beautiful but not as beautiful as Paris.
+C) As the journey progressed from Paris to the countryside, the waters of the Seine gradually cleared.
+D) The waters of the Seine are more confined and rough in Paris than they are in the countryside.
+K: D
+E: Past Paris the river “regained space and liberty” and became “peaceful,” implying it was confined and rougher in the city.
+#10
+P: Water flowing around an obstruction creates vortices (patterns of swirls) of varying size; by detecting the vortices, fish can determine the size and position of the obstruction. Testing by Yuzo R. Yanagisuru, Otar Akanyeti, and James C. Liao using models of three head shapes—narrow (low ratio of width to length), intermediate, and wide (high ratio of width to length)—showed that for large vortices, fish with intermediate heads would be better able than narrow-headed fish to distinguish between vortices and general turbulence in the water. A second research team has therefore hypothesized that in low-visibility conditions, intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions that create large vortices.
+Q: Which finding, if true, would most directly support the second research team’s hypothesis?
+A) A study using obstructions that created large vortices in low-visibility conditions found that some specimens of the intermediate-headed dusky smooth-hound (<i>Mustelus canis</i>) bumped into the obstructions more often than other specimens of the same fish did.
+B) A study using obstructions that created large vortices in low-visibility conditions found that the flat needlefish (<i>Ablennes hians</i>), which has a relatively narrow head, bumped into more than half of the obstructions.
+C) A study using obstructions that created large vortices in low-visibility conditions found that the narrow-headed flat needlefish (<i>Ablennes hians</i>) bumped into obstructions more often than the intermediate-headed dusky smooth-hound (<i>Mustelus canis</i>) did.
+D) A study using obstructions that created large vortices in low-visibility conditions found that the intermediate-headed dusky smooth-hound (<i>Mustelus canis</i>) bumped into the obstructions just as often as the narrow-headed flat needlefish (<i>Ablennes hians</i>) did.
+K: C
+E: Only C compares the two head shapes and shows the intermediate-headed fish detecting (avoiding) obstructions better.
+#11
+I: /qimg/24-dsat24-08-a-rw-m2q11.svg
+P: A report from an international organization that monitors the numbers of women serving as judges or magistrates on various nations’ highest courts, such as the Supreme Court in Sweden and the Supreme Court of Justice in Uruguay, indicates that among the countries that had a different number of women on these courts in 2013 than they had in 2009, the number increased in some countries but decreased in others. For instance, the number of women judges and magistrates on high courts in ______
+Q: Which choice most effectively uses data from the graph to complete the example?
+A) Sri Lanka was greater in 2013 than in 2009, whereas the number in Sweden was the same in 2013 as in 2009.
+B) Uruguay was lower in 2013 than in 2009, whereas the number in Sweden was the same in 2013 as in 2009.
+C) Sri Lanka was greater in 2013 than in 2009, whereas the number in Uruguay was lower in 2013 than in 2009.
+D) Sweden was the same in 2013 as in 2009, but it had more women on its high courts than either Sri Lanka or Uruguay did in 2013.
+K: C
+E: Sri Lanka rose from 3 to 4 while Uruguay fell from 1 to 0; Sweden did not change, so it is not an example.
+#12
+P: Psychologists Gregory Bryant, Dorsa Amir, and colleagues investigated cross-cultural perceptions of spontaneous (real) laughter and volitional (fake or forced) laughter. Study participants from 21 societies, including those in Japan and South Africa, listened to randomized recordings of 18 spontaneous laughs taken from natural conversations between pairs of women and 18 volitional laughs produced separately by 18 different women in response to an experimenter’s instruction to laugh. Analysis of the participants’ evaluations of the laughs prompted the team to conclude that the ability to distinguish between spontaneous and volitional laughter appears to be universal across cultures.
+Q: Which quotation from a psychologist not involved in the team’s study would most directly weaken the team’s conclusion?
+A) “When an individual chooses to produce volitional laughter in a natural social context, the laughter often shares certain acoustic qualities, such as pitch and fluctuation of intensity, with spontaneous laughter.”
+B) “Although the team considered the average size of communities in each society in the study, that demographic factor was found to have no effect on listeners’ identifications of laughter as spontaneous or volitional.”
+C) “Recent studies in communications have shown that certain acoustic features of spontaneous laughter, such as pitch and intensity, are consistent both within and across societies.”
+D) “Judgments of spontaneous laughter are often associated with acoustic features such as greater intensity variability and higher pitch.”
+K: A
+E: The study’s fake laughs were produced on instruction, not in natural settings; if natural volitional laughter sounds like real laughter, the study may overstate people’s ability to tell them apart.
+#13
+P: Like many other genera of wild bees, bumblebees have in recent decades experienced population collapse caused by, among other factors, habitat destruction and climate variation. Bumblebees are also one of the most researched bee genera, second only to honeybees. As a result, ecologists have gained much of their insight about wild-bee declines from bumblebees. In a 2021 paper, zoologist Guillaume Ghisbain notes that bumblebees are among the relatively few wild-bee genera that display social behaviors and dietary generalism (ability to obtain nectar and pollen from a diversity of plant species), two traits that are associated with increased resilience to some specific environmental changes. Ghisbain therefore contends that ______
+Q: Which choice most logically completes the text?
+A) although bumblebees have been more extensively studied than most wild bees, researchers should not use bumblebees to draw conclusions about the decline of other wild bees, even ones with feeding patterns and levels of sociability that are similar to those of bumblebees.
+B) because bumblebees and other bees with generalist diets are less negatively affected by environmental stress than bees with specialized diets are, they are less likely to experience major population changes in the future than bees with specialized diets are.
+C) because the responses of bumblebees and other wild bees to environmental threats are not always comparable, researchers need to exercise caution when extrapolating information about wild-bee population declines from bumblebees.
+D) although bumblebees and many other wild bees have experienced similar population declines in the past, compared with other wild bees, bumblebees are likely at greater risk of being harmed by climate variation than by habitat destruction.
+K: C
+E: Bumblebees’ traits make them unusually resilient, so lessons drawn from them may not apply to most wild bees; researchers should be cautious.
+#14
+P: Arthurian legends (tales related to the character of King Arthur) derive from many sources, such as <i>Preiddeu Annwfn</i>, composed around 900, and <i>Tom a Lincoln</i> from around 1607. One of the most significant sources, Geoffrey of Monmouth’s <i>History of the Kings of Britain</i>, was written in Latin in the 1130s; some material from it was later adapted by the Norman poet Wace into the <i>Roman de Brut</i> in 1155. But while no source before 1155 includes references to the famous Round Table at which Arthur’s knights assembled, both the <i>Roman de Brut</i> and Sir Thomas Malory’s 15th-century compilation of Arthurian legends, <i>Le Morte d’Arthur</i>, do. It can therefore be inferred that ______
+Q: Which choice most logically completes the text?
+A) Geoffrey of Monmouth’s accounts of Arthurian legends in his <i>History</i> are more similar overall in content to the accounts in <i>Tom a Lincoln</i> than they are to the accounts in <i>Roman de Brut</i>.
+B) Geoffrey of Monmouth was unaware of stories of the Round Table when composing his <i>History</i>, though historians know that works containing such stories were available to him.
+C) Malory did not use <i>Preiddeu Annwfn</i> as a source for information he presented about the Round Table.
+D) <i>Le Morte d’Arthur</i> is more historically accurate than <i>History</i>, because <i>Tom a Lincoln</i> had not been written when Geoffrey of Monmouth was writing his work.
+K: C
+E: <i>Preiddeu Annwfn</i> (about 900) predates 1155, so it contains no Round Table references; Malory could not have taken his Round Table material from it.
+#15
+P: Exclusively inhabiting tropical countries such as Sierra Leone, wild chimpanzees lack adaptations to seasonal variations in ultraviolet B (UVB) irradiance from sunlight; since UVB exposure enables vertebrates to synthesize vitamin D, this raises questions about how chimpanzees in mid-latitude zoos are affected by the lower and more variable UVB irradiance in those locations. In a study of zoo chimpanzees in Sweden and other mid-latitude countries, Sophie Moittié and colleagues found not only that chimpanzees’ vitamin D levels correlate with UVB irradiance but also that vitamin D levels show no evidence of plateauing as UVB irradiance reaches its highest local levels, suggesting that ______
+Q: Which choice most logically completes the text?
+A) averaged across seasons, vitamin D levels in zoo chimpanzees in mid-latitude countries such as Sweden tend to be comparable to those in wild chimpanzees in tropical countries such as Sierra Leone.
+B) adaptations to seasonal variations in UVB irradiance may be emerging in zoo chimpanzees in Sweden and other mid-latitude countries.
+C) providing supplemental vitamin D to chimpanzees in zoos in Sweden and other mid-latitude countries would likely not be beneficial.
+D) zoo chimpanzees in Sweden and other mid-latitude countries tend to synthesize less vitamin D than they are inherently capable of synthesizing.
+K: D
+E: Vitamin D keeps rising even at the highest local UVB levels, so the chimpanzees never reach their maximum; they make less than they could.
+#16
+P: Writer Silvia Moreno-Garcia’s love of short fiction began when she read a collection of Edgar Allan Poe stories as a child, and she would develop into a prolific short story writer herself, publishing pieces like “The Axolotl” (2013) and “Maquech” (2008). Yet she’s best known as a novelist, in part due to her ______ <i>Gothic</i> (2020) earning a spot on the <i>New York Times</i> Best Sellers list.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) novel <i>Mexican</i>
+B) novel (<i>Mexican</i>
+C) novel, <i>Mexican</i>
+D) novel: <i>Mexican</i>
+K: A
+E: The title is essential to identify which novel, so no punctuation separates it from “novel.”
+#17
+P: Within Earth’s biomes, there are four main types of desert: arid, semiarid, coastal, and cold. The Ferlo Desert in western Africa is an arid ______ it is one of the largest such deserts in the world, with a total area of about 70,000 km<sup>2</sup>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) desert, for example,
+B) desert; for example,
+C) desert, for example;
+D) desert, for example
+K: C
+E: “For example” belongs with the first clause (the Ferlo is an example of an arid desert); a semicolon then joins the two independent clauses.
+#18
+P: The Southern Delta Aquariid meteor shower has a zenithal hourly rate (ZHR) of 25, meaning that at the shower’s peak, 25 meteors per hour could potentially be seen by a hypothetical observer. A calculation that assumes ideal viewing conditions, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) an actual viewer’s observed number of meteors in an hour and the ZHR may differ considerably.
+B) the number of meteors an actual viewer observes in an hour may differ considerably from the ZHR.
+C) there may be a considerable difference between the number of meteors an actual viewer observes in an hour and the ZHR.
+D) the ZHR may differ considerably from the number of meteors an actual viewer observes in an hour.
+K: D
+E: The opening phrase describes the ZHR, so “the ZHR” must come right after the comma.
+#19
+P: Though he’s performed on many respected albums, including <i>From The Street</i> by Tom Coster, drummer Dennis Chambers may be best known for his time as house drummer for the hip-hop label Sugar Hill Records. He did not play drums on the label’s classic song “Rapper’s Delight,” ______ joined the label after the song’s release.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) however. He
+B) however and he
+C) however, he
+D) however he
+K: A
+E: “However” ends the first sentence; a period then starts the new independent clause.
+#20
+P: With one in Canada and another in Antarctica, the observatory sites that form the Super Dual Auroral Radar ______ or SuperDARN, as space physicists like Pavlo Ponomarenko call it—number nearly five dozen. Located across the globe, the radars track geomagnetic storms and other geospace phenomena.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Network,
+B) Network—
+C) Network:
+D) Network
+K: B
+E: The interruption ends with a dash, so it must begin with a dash.
+#21
+P: The Organisation for Economic Co-operation and Development (OECD) tracks comparative price list data for its thirty-eight member countries. For instance, in July 2021, a hypothetical basket of goods priced at 100 US dollars (USD) in the United States would have cost 54 USD and 112 USD in fellow OECD ______ and Ireland, respectively.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) nations, Hungary
+B) nations: Hungary
+C) nations; Hungary
+D) nations Hungary
+K: D
+E: “Hungary and Ireland” is an essential appositive naming the nations, so no punctuation is used.
+#22
+P: With their distinctive cone shapes and steeply sloping sides, the volcanoes Kuchinoshima (Japan) and Tantalus (Hawaii) may look similar from afar. Gari Mayberry and other volcanologists, ______ can tell by how each was formed that Kuchinoshima is a composite volcano, while Tantalus is a cinder cone volcano.
+Q: Which choice completes the text with the most logical transition?
+A) for example,
+B) in addition,
+C) therefore,
+D) though,
+K: D
+E: The volcanoes look similar, but volcanologists can tell them apart: a contrast.
+#23
+P: In a 2022 analysis, researchers investigated how negative adjectives like “ashamed” evolve. ______ the researchers applied a statistical model to a set of words to infer the rate of cognate replacement—the rate at which a word will be replaced over time with a noncognate form—in Indo-European languages.
+Q: Which choice completes the text with the most logical transition?
+A) Specifically,
+B) Therefore,
+C) Thus,
+D) Granted,
+K: A
+E: The second sentence gives the specific method of the investigation.
+#24
+P: The title of “Of the Inequality amongst Us,” an essay by French philosopher Michel de Montaigne, suggests a straightforward topic. However, Montaigne’s expansive, curious mind meant that he never limited himself to one subject. ______ the essay is not just a discussion of inequality but a broad exploration of Montaigne’s entire worldview.
+Q: Which choice completes the text with the most logical transition?
+A) Lastly,
+B) That said,
+C) Predictably,
+D) Additionally,
+K: C
+E: Given that Montaigne never limited himself to one subject, it is to be expected (predictable) that the essay ranges widely.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Tlaxcoapan is a municipality in the state of Hidalgo, Mexico.
+L: Municipalities are governmental regions responsible for providing many public services to their residents.
+L: One service they provide is street lighting.
+L: Tlaxcoapan covers an area of roughly 42 km<sup>2</sup>.
+L: Hidalgo is divided into 84 municipalities.
+Q: The student wants to emphasize the size of Tlaxcoapan. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Providing street lighting is just one example of the public services that municipalities provide.
+B) The municipality of Tlaxcoapan in Hidalgo, Mexico, covers an area of roughly 42 km<sup>2</sup>.
+C) Tlaxcoapan is one of 84 governmental regions, known as municipalities, across Hidalgo.
+D) Tlaxcoapan—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents.
+K: B
+E: Only B gives Tlaxcoapan’s area.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: There are more than 500 National Wildlife Refuges (NWRs) across the United States.
+L: The Mason Neck NWR is a 2,276-acre area in Virginia, on the Atlantic coast.
+L: It was established to protect the endangered bald eagle.
+L: The Nestucca Bay NWR is a 457-acre area in Oregon, on the Pacific coast.
+L: It was established to protect the endangered Aleutian Canada goose.
+Q: The student wants to provide an overview of the NWR program. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Both the Mason Neck NWR and the Nestucca Bay NWR were established to protect endangered species.
+B) Oregon’s Nestucca Bay NWR was established to protect the endangered Aleutian Canada goose.
+C) One of more than 500 NWRs in the US, the Mason Neck NWR encompasses 2,276 acres in Virginia.
+D) The US’s more than 500 NWRs protect endangered species from coast to coast.
+K: D
+E: D describes the whole program rather than individual refuges.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Vexillology is the study of flags.
+L: The flags of many countries include symbols like animals, plants, or landforms.
+L: These symbols often represent an aspect of the region’s history, culture, or landscape.
+L: The flag of San Marino includes a laurel branch.
+L: The flag of Croatia includes leopards.
+Q: Which choice most effectively uses information from the given sentences to make and support a generalization about symbols on flags?
+A) The flags of some countries include symbols of plants; San Marino’s, for example, includes a laurel branch.
+B) San Marino’s flag includes a laurel branch, a symbol that is important to that country’s national identity.
+C) Vexillology is the study of flags; accordingly, vexillologists are interested in flags from around the world.
+D) Many countries feature symbols on their flags, and the study of these designs is known as vexillology.
+K: A
+E: A makes a generalization (some flags include plant symbols) and supports it with an example.

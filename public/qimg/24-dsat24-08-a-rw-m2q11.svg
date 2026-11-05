@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="560" height="520" fill="#fff"/>
+<line x1="100" y1="346.0" x2="520" y2="346.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="346.0" x2="100" y2="346.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="351.0" text-anchor="end" font-size="16">0</text>
+<line x1="100" y1="269.5" x2="520" y2="269.5" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="269.5" x2="100" y2="269.5" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="274.5" text-anchor="end" font-size="16">2</text>
+<line x1="100" y1="193.0" x2="520" y2="193.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="193.0" x2="100" y2="193.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="198.0" text-anchor="end" font-size="16">4</text>
+<line x1="100" y1="116.5" x2="520" y2="116.5" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="116.5" x2="100" y2="116.5" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="121.5" text-anchor="end" font-size="16">6</text>
+<line x1="100" y1="40.0" x2="520" y2="40.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="40.0" x2="100" y2="40.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="45.0" text-anchor="end" font-size="16">8</text>
+<line x1="100" y1="40" x2="100" y2="346" stroke="#111" stroke-width="1.5"/>
+<line x1="100" y1="346" x2="520" y2="346" stroke="#111" stroke-width="1.5"/>
+<text transform="translate(28 193.0) rotate(-90)" text-anchor="middle" font-size="17">Number</text>
+<line x1="130.0" y1="40" x2="130.0" y2="346" stroke="#ccc" stroke-width="1"/>
+<text x="130.0" y="370" text-anchor="middle" font-size="16">2009</text>
+<line x1="220.0" y1="40" x2="220.0" y2="346" stroke="#ccc" stroke-width="1"/>
+<text x="220.0" y="370" text-anchor="middle" font-size="16">2010</text>
+<line x1="310.0" y1="40" x2="310.0" y2="346" stroke="#ccc" stroke-width="1"/>
+<text x="310.0" y="370" text-anchor="middle" font-size="16">2011</text>
+<line x1="400.0" y1="40" x2="400.0" y2="346" stroke="#ccc" stroke-width="1"/>
+<text x="400.0" y="370" text-anchor="middle" font-size="16">2012</text>
+<line x1="490.0" y1="40" x2="490.0" y2="346" stroke="#ccc" stroke-width="1"/>
+<text x="490.0" y="370" text-anchor="middle" font-size="16">2013</text>
+<polyline points="130.0,116.5 220.0,78.2 310.0,116.5 400.0,116.5 490.0,116.5" fill="none" stroke="#111" stroke-width="2" stroke-dasharray=""/>
+<polygon points="130.0,109.5 123.0,121.5 137.0,121.5" fill="#111"/>
+<polygon points="220.0,71.25 213.0,83.25 227.0,83.25" fill="#111"/>
+<polygon points="310.0,109.5 303.0,121.5 317.0,121.5" fill="#111"/>
+<polygon points="400.0,109.5 393.0,121.5 407.0,121.5" fill="#111"/>
+<polygon points="490.0,109.5 483.0,121.5 497.0,121.5" fill="#111"/>
+<polyline points="130.0,307.8 220.0,307.8 310.0,307.8 400.0,307.8 490.0,346.0" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="8 5"/>
+<rect x="124.0" y="301.75" width="12" height="12" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<rect x="214.0" y="301.75" width="12" height="12" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<rect x="304.0" y="301.75" width="12" height="12" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<rect x="394.0" y="301.75" width="12" height="12" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<rect x="484.0" y="340.0" width="12" height="12" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<polyline points="130.0,231.2 220.0,231.2 310.0,231.2 400.0,193.0 490.0,193.0" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="2 4"/>
+<circle cx="130.0" cy="231.25" r="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="220.0" cy="231.25" r="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="310.0" cy="231.25" r="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="400.0" cy="193.0" r="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="490.0" cy="193.0" r="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="310.0" y="396" text-anchor="middle" font-size="17">Year</text>
+<line x1="140" y1="425" x2="184" y2="425" stroke="#111" stroke-width="2" stroke-dasharray=""/>
+<polygon points="162,418 155,430 169,430" fill="#111"/>
+<text x="196" y="431" font-size="17">Sweden</text>
+<line x1="140" y1="453" x2="184" y2="453" stroke="#111" stroke-width="2" stroke-dasharray="8 5"/>
+<rect x="156" y="447" width="12" height="12" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="196" y="459" font-size="17">Uruguay</text>
+<line x1="140" y1="481" x2="184" y2="481" stroke="#111" stroke-width="2" stroke-dasharray="2 4"/>
+<circle cx="162" cy="481" r="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="196" y="487" font-size="17">Sri Lanka</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="560" height="560" fill="#fff"/>
+<text x="300.0" y="30" text-anchor="middle" font-size="18">Volcanoes Active since 1800 and</text>
+<text x="300.0" y="53" text-anchor="middle" font-size="18">since 1960 in Two Countries</text>
+<line x1="100" y1="414.0" x2="530" y2="414.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="414.0" x2="100" y2="414.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="419.0" text-anchor="end" font-size="16">0</text>
+<line x1="100" y1="348.4" x2="530" y2="348.4" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="348.4" x2="100" y2="348.4" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="353.4" text-anchor="end" font-size="16">2</text>
+<line x1="100" y1="282.8" x2="530" y2="282.8" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="282.8" x2="100" y2="282.8" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="287.8" text-anchor="end" font-size="16">4</text>
+<line x1="100" y1="217.2" x2="530" y2="217.2" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="217.2" x2="100" y2="217.2" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="222.2" text-anchor="end" font-size="16">6</text>
+<line x1="100" y1="151.6" x2="530" y2="151.6" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="151.6" x2="100" y2="151.6" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="156.6" text-anchor="end" font-size="16">8</text>
+<line x1="100" y1="86.0" x2="530" y2="86.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="86.0" x2="100" y2="86.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="91.0" text-anchor="end" font-size="16">10</text>
+<line x1="100" y1="86" x2="100" y2="414" stroke="#111" stroke-width="1.5"/>
+<line x1="100" y1="414" x2="530" y2="414" stroke="#111" stroke-width="1.5"/>
+<text transform="translate(28 250.0) rotate(-90)" text-anchor="middle" font-size="17">Number of active volcanoes</text>
+<rect x="161.5" y="151.6" width="46.0" height="262.4" fill="#aaa" stroke="#111"/>
+<rect x="207.5" y="315.6" width="46.0" height="98.4" fill="#222" stroke="#111"/>
+<text x="207.5" y="438" text-anchor="middle" font-size="16">active since 1800</text>
+<rect x="376.5" y="217.2" width="46.0" height="196.8" fill="#aaa" stroke="#111"/>
+<rect x="422.5" y="381.2" width="46.0" height="32.8" fill="#222" stroke="#111"/>
+<text x="422.5" y="438" text-anchor="middle" font-size="16">active since 1960</text>
+<text x="315.0" y="464" text-anchor="middle" font-size="17">Year</text>
+<rect x="140" y="485" width="16" height="16" fill="#aaa" stroke="#111"/>
+<text x="166" y="499" font-size="17">Nicaragua</text>
+<rect x="140" y="513" width="16" height="16" fill="#222" stroke="#111"/>
+<text x="166" y="527" font-size="17">Tanzania</text>
+</svg>
