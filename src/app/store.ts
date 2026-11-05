@@ -423,6 +423,30 @@ export function syncTestNames(index: TestMeta[]) {
 
 export const stripHtml = (h: string | null) => (h || '').replace(/<li>/g, '\n• ').replace(/<[^>]+>/g, ' ').replace(/\s+\n/g, '\n').replace(/[ \t]+/g, ' ').trim()
 
+// Typeset math (exam papers) as one readable line for small cards: x<sup>20</sup> → x²⁰, stacked fractions → (a)/(b), root bars → √(..)
+const SUPS: Record<string, string> = { 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹', '−': '⁻', '+': '⁺', n: 'ⁿ', x: 'ˣ' }
+export function plainMath(h: string | null) {
+  if (!h || !/class="(fr|rad|eq)"|<sup/.test(h) || typeof DOMParser === 'undefined') return stripHtml(h)
+  const d = new DOMParser().parseFromString(h, 'text/html')
+  const wrap = (t: string) => (/^[\w.√]+$/.test(t) ? t : `(${t})`)
+  d.querySelectorAll('sup').forEach((e) => {
+    const t = e.textContent || ''
+    e.replaceWith([...t].every((c) => SUPS[c]) ? [...t].map((c) => SUPS[c]).join('') : `^${wrap(t)}`)
+  })
+  // innermost first, so a fraction inside a root (or the reverse) is already flat when its parent is read
+  ;[...d.querySelectorAll('.fr, .rad')].reverse().forEach((e) => {
+    if (e.classList.contains('rad')) {
+      e.querySelector('.rq')?.remove()
+      e.replaceWith(`√${wrap(e.textContent || '')}`)
+    } else {
+      const [a, b] = [...e.children].map((c) => c.textContent || '')
+      e.replaceWith(`${wrap(a)}/${wrap(b)}`)
+    }
+  })
+  d.querySelectorAll('.eq').forEach((e) => e.replaceWith(`${e.textContent} · `))
+  return stripHtml(d.body.innerHTML.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&'))
+}
+
 export function toggleSaved(testId: string, module: number, index: number) {
   const key = `${testId}:${module}:${index}`
   setStore((s) => ({ ...s, saved: s.saved.some((x) => x.key === key) ? s.saved.filter((x) => x.key !== key) : [{ key, testId, module, index, at: Date.now() }, ...s.saved] }))

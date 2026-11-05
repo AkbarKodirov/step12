@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Bookmark, Check, FolderPlus, Play, Plus, StickyNote, Trash2, X } from 'lucide-react'
-import { resolveRef, setStore, stripHtml, useStore, type QRef, type Resolved } from '../store'
+import { plainMath, resolveRef, setStore, stripHtml, useStore, type QRef, type Resolved } from '../store'
 import { refOf } from '../practice/Runner'
 import { EmptyState } from '../components/EmptyState'
 import { HumoDrawer } from '../components/HumoDrawer'
@@ -75,7 +75,7 @@ function RowCard({ row, i, onOpen, tab }: { row: Row; i: number; onOpen: () => v
   const mistake = s.mistakes.find((m) => m.key === ref.key)
   const status = p ? (p.correct ? 'Correct' : 'Incorrect') : mistake ? (mistake.cleared ? 'Fixed' : 'Incorrect') : null
   const saved = s.saved.some((x) => x.key === ref.key)
-  const stem = r.q.question || stripHtml(r.q.passage).slice(0, 160) || 'Question with a figure'
+  const stem = plainMath(r.q.question) || stripHtml(r.q.passage).slice(0, 160) || 'Question with a figure'
   return (
     <motion.li layout initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, x: -20 }} transition={{ delay: Math.min(i, 12) * 0.03 }} onClick={onOpen} className="group relative cursor-pointer border-b border-line px-5 py-4 last:border-b-0 hover:bg-cream/40">
       <div className="flex flex-wrap items-center gap-1.5 text-[11.5px] font-medium">

@@ -19,7 +19,7 @@ export function QuestionBody({ q, className = '' }: { q: TestQuestion; className
     <div className={className}>
       {q.image && <img src={q.image} alt="Figure for this question" className="mb-4 max-h-[420px] w-full rounded-lg border border-line bg-white object-contain" />}
       {html ? (
-        <div className="prose-q whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: q.question }} />
+        <div className="prose-q math-q whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: q.question }} />
       ) : (
         <p className="whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed">{q.question}</p>
       )}
@@ -384,7 +384,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
                           } ${struck ? 'opacity-45' : ''}`}
                         >
                           <span className={`grid size-7 shrink-0 place-items-center rounded-full border-2 text-[12px] font-bold ${picked ? 'border-pine bg-pine text-cream' : 'border-pine/40'}`}>{LETTERS[i]}</span>
-                          <span className={`prose-q ${struck ? 'line-through' : ''}`} dangerouslySetInnerHTML={{ __html: opt }} />
+                          <span className={`prose-q math-q ${struck ? 'line-through' : ''}`} dangerouslySetInnerHTML={{ __html: opt }} />
                           {showRight && <Check className="ml-auto size-5 text-emerald-600" />}
                           {showWrong && <X className="ml-auto size-5 text-red-500" />}
                         </button>
