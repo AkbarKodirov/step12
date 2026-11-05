@@ -1,0 +1,334 @@
+!id: dsat25-us-e-math
+!name: September 2025 US · Form E · Math
+!type: MATH
+!year: 2025
+!month: 9
+!region: US
+!form: E
+=M1
+#1
+Q: Which expression is equivalent to <i>v</i>^4 − 350<i>v</i>^3?
+A) (<i>v</i>^2 + 35)(<i>v</i>^2 − 10)
+B) <i>v</i>^3(<i>v</i> − 350)
+C) <i>v</i>^3(<i>v</i> + 350)
+D) (<i>v</i>^2 − 35)(<i>v</i>^2 − 10)
+K: B
+E: Factor out the common factor <i>v</i>^3: <i>v</i>^4 − 350<i>v</i>^3 = <i>v</i>^3(<i>v</i> − 350).
+#2
+I: /qimg/usE-math-m1-q2.svg
+Q: In the figure shown, line <i>r</i> is parallel to line <i>s</i>, and line <i>t</i> intersects both lines. What is the value of <i>x</i>?
+A) 180
+B) 90
+C) 119
+D) 29
+K: C
+E: The angle <i>x</i>° is in the same position at line <i>s</i> as the 119° angle is at line <i>r</i>, so they are corresponding angles of parallel lines and <i>x</i> = 119.
+#3
+Q: The width of a rectangle is 6 centimeters. The length of the rectangle is 50 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?
+A) 6
+B) 62
+C) 336
+D) 12
+K: C
+E: The length is 6 + 50 = 56 cm, so the area is 6 × 56 = 336 square centimeters.
+#4
+I: /qimg/usE-math-m1-q4.svg
+Q: For the first 10 hours of an experiment, the scatterplot shows the temperature <i>y</i>, in degrees Fahrenheit (°F), of an object at various times <i>x</i>, in hours, since the start of the experiment. A line of best fit is also shown.
+Q: Which of the following is the best interpretation of the slope of the line of best fit?
+A) The predicted temperature decreases at a constant rate of approximately 190°F per hour over the 10-hour period.
+B) The predicted temperature increases at a constant rate of approximately 190°F per hour over the 10-hour period.
+C) The predicted temperature decreases at a constant rate of approximately 40°F per hour over the 10-hour period.
+D) The predicted temperature increases at a constant rate of approximately 40°F per hour over the 10-hour period.
+K: D
+E: The line rises from about 185°F at x = 0 to about 590°F at x = 10, a slope of about 40, so the predicted temperature increases about 40°F per hour.
+#5
+I: /qimg/usE-math-m1-q5.svg
+Q: A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function <i>f</i> shown, where <i>y</i> = <i>f</i>(<i>x</i>), estimates the account balance, in dollars, in this bank account <i>x</i> months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?
+K: 15
+E: The initial deposit is the balance at <i>x</i> = 0, which is the <i>y</i>-intercept of the graph, about 15 dollars.
+#6
+P: <i>y</i> = −17<i>x</i> + 26
+P: <i>y</i> = −23<i>x</i> + 32
+Q: What is the solution (<i>x</i>, <i>y</i>) to the given system of equations?
+A) (32, 26)
+B) (26, 32)
+C) (1, 9)
+D) (9, 1)
+K: C
+E: Setting the expressions equal: −17<i>x</i> + 26 = −23<i>x</i> + 32, so 6<i>x</i> = 6 and <i>x</i> = 1. Then <i>y</i> = −17 + 26 = 9.
+#7
+P: <i>f</i>(<i>x</i>) = −16<i>x</i>^2 + 71
+Q: The function <i>f</i> gives the estimated height, in feet, of an acorn <i>x</i> seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?
+K: 71
+E: Before the acorn fell, <i>x</i> = 0, so <i>f</i>(0) = 71 feet.
+#8
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 493 pounds when entering hibernation and lost weight at a rate of 0.9 pound per day. At this rate, how many days after entering hibernation did the black bear weigh 430 pounds?
+K: 70
+E: Solve 493 − 0.9<i>d</i> = 430: 0.9<i>d</i> = 63, so <i>d</i> = 70.
+#9
+I: /qimg/usE-math-m1-q9.svg
+Q: The graph of the polynomial function <i>f</i> is shown, where <i>y</i> = <i>f</i>(<i>x</i>). What is the value of <i>f</i>(7)?
+A) −3
+B) 7
+C) 0
+D) 2
+K: C
+E: The graph crosses the <i>x</i>-axis at <i>x</i> = 7, so <i>f</i>(7) = 0.
+#10
+Q: Rectangles S and R are similar. The ratio of each side length of rectangle S to the corresponding side length of rectangle R is 25 to 49. The ratio of the area of rectangle S to the area of rectangle R is 625 to <i>r</i>. What is the value of <i>r</i>?
+K: 2401
+E: Areas of similar figures are in the square of the side ratio: 25^2 : 49^2 = 625 : 2401, so <i>r</i> = 2401.
+#11
+Q: A freight elevator can hold a maximum weight of 4,640 pounds during one trip. A 160-pound person needs to deliver several boxes using the freight elevator. Some of these boxes weigh 22 pounds each and the others weigh 60 pounds each. Which inequality represents the possible combinations of the number of 22-pound boxes, <i>x</i>, and the number of 60-pound boxes, <i>y</i>, the person can deliver during one trip if only the person and the boxes are on the freight elevator?
+A) 60<i>x</i> + 22<i>y</i> ≤ 4,640
+B) 22<i>x</i> + 60<i>y</i> ≥ 4,480
+C) 60<i>x</i> + 22<i>y</i> ≥ 4,640
+D) 22<i>x</i> + 60<i>y</i> ≤ 4,480
+K: D
+E: The total weight 160 + 22<i>x</i> + 60<i>y</i> must be at most 4,640, so 22<i>x</i> + 60<i>y</i> ≤ 4,480.
+#12
+Q: A quadratic function <i>C</i> models the coefficient of lift of a flying disc, where <i>x</i> is the angle of incidence, in degrees, and 30 ≤ <i>x</i> ≤ 45. The function estimates that the maximum value of the coefficient of lift is 1.74, achieved when the angle of incidence is 41 degrees. Which equation could define <i>C</i>?
+A) <i>C</i>(<i>x</i>) = −0.005(<i>x</i> − 1.74)^2 + 41
+B) <i>C</i>(<i>x</i>) = 0.005(<i>x</i> + 1.74)^2 + 41
+C) <i>C</i>(<i>x</i>) = −0.005(<i>x</i> − 41)^2 + 1.74
+D) <i>C</i>(<i>x</i>) = 0.005(<i>x</i> + 41)^2 + 1.74
+K: C
+E: A maximum requires a negative leading coefficient, and vertex form <i>a</i>(<i>x</i> − <i>h</i>)^2 + <i>k</i> has its vertex at (41, 1.74), giving −0.005(<i>x</i> − 41)^2 + 1.74.
+#13
+I: /qimg/usE-math-m1-q13.svg
+Q: In triangle <i>JKL</i>, cos <i>y</i>° = (31)/(32). What is the length of <i>KL</i>?
+K: 31
+E: In right triangle <i>JKL</i>, cos <i>y</i>° = <i>KL</i>/<i>JL</i> = <i>KL</i>/32 = 31/32, so <i>KL</i> = 31.
+#14
+P: <i>b</i> − 57 = (<i>x</i>)/(<i>y</i>)
+Q: The given equation relates the positive numbers <i>b</i>, <i>x</i>, and <i>y</i>. Which equation correctly expresses <i>x</i> in terms of <i>b</i> and <i>y</i>?
+A) <i>x</i> = <i>by</i> − 57<i>y</i>
+B) <i>x</i> = (<i>b</i> − 57)/(<i>y</i>)
+C) <i>x</i> = <i>by</i> − 57
+D) <i>x</i> = (<i>by</i> − 57)/(<i>y</i>)
+K: A
+E: Multiply both sides by <i>y</i>: <i>x</i> = <i>y</i>(<i>b</i> − 57) = <i>by</i> − 57<i>y</i>.
+#15
+Q: In the <i>xy</i>-plane, the graph of the linear function <i>h</i> contains the points (0, 0) and (1, 28). Which equation defines <i>h</i>, where <i>y</i> = <i>h</i>(<i>x</i>)?
+A) <i>h</i>(<i>x</i>) = <i>x</i> + 28
+B) <i>h</i>(<i>x</i>) = (1)/(28)<i>x</i> + 28
+C) <i>h</i>(<i>x</i>) = 28<i>x</i>
+D) <i>h</i>(<i>x</i>) = 28<i>x</i> + 28
+K: C
+E: The slope is (28 − 0)/(1 − 0) = 28 and the <i>y</i>-intercept is 0, so <i>h</i>(<i>x</i>) = 28<i>x</i>.
+#16
+P: 3<i>x</i> + <i>y</i> = 21
+P: 9<i>x</i> − <i>y</i> = 3
+Q: How many solutions does the given system of equations have?
+A) Exactly one
+B) Zero
+C) Infinitely many
+D) Exactly two
+K: A
+E: Adding the equations gives 12<i>x</i> = 24, so <i>x</i> = 2 and <i>y</i> = 15. The lines have different slopes (−3 and 9), so there is exactly one solution.
+#17
+Q: The measure of angle <i>K</i> is (π)/(3(17)) radians. The measure of angle <i>L</i> is 17 times the measure of angle <i>K</i>. What is the measure, in degrees, of angle <i>L</i>?
+A) 17
+B) 60
+C) 77
+D) 43
+K: B
+E: Angle <i>L</i> = 17 × π/(3(17)) = π/3 radians, which is (π/3)(180/π) = 60 degrees.
+#18
+P: ((<i>x</i> − 4)(<i>x</i> − 8))/(<i>x</i> − 1) = 0
+Q: What is the sum of the solutions to the given equation?
+A) 13
+B) 12
+C) 8
+D) 1
+K: B
+E: The fraction is zero when the numerator is zero and the denominator is not: <i>x</i> = 4 or <i>x</i> = 8. Their sum is 12.
+#19
+Q: What is the <i>y</i>-intercept of the graph of <i>y</i> = 14^<i>x</i> + 20 in the <i>xy</i>-plane?
+A) (0, 21)
+B) (0, 20)
+C) (0, 14)
+D) (0, 34)
+K: A
+E: At <i>x</i> = 0, <i>y</i> = 14^0 + 20 = 1 + 20 = 21, so the intercept is (0, 21).
+#20
+P: −2<i>x</i> + 14<i>px</i> = 42
+Q: In the given equation, <i>p</i> is a constant. The equation has no solution. What is the value of <i>p</i>?
+A) (1)/(2)
+B) 0
+C) 3
+D) (1)/(7)
+K: D
+E: Rewrite as (14<i>p</i> − 2)<i>x</i> = 42. There is no solution when 14<i>p</i> − 2 = 0, so <i>p</i> = 1/7.
+#21
+Q: The density of a certain type of marble stone is 2.2000 grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of 33.000 centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use 3.14159 for π.)
+K: 41396
+E: The radius is 16.5 cm, so the volume is (4/3)(3.14159)(16.5)^3 ≈ 18,816.1 cm³. Multiplying by the density 2.2 gives about 41,396 grams.
+#22
+Q: The function <i>w</i> is defined by <i>w</i>(<i>r</i>) = (1)/(<i>r</i> − 2) − (<i>r</i> − 9)/(−<i>r</i> + 5.25). What is the greatest possible value of <i>r</i> such that <i>w</i>(<i>r</i>) = 0?
+K: 17/2 | 8.5
+E: Setting the terms equal and cross-multiplying gives 5.25 − <i>r</i> = (<i>r</i> − 9)(<i>r</i> − 2), so <i>r</i>^2 − 10<i>r</i> + 12.75 = 0 and <i>r</i> = 1.5 or 8.5. The greatest is 8.5.
+=M2
+#1
+Q: Which expression is equivalent to (3x^3 − 2x + 7) − (8x^6 + 6x − 6)?
+A) −5x^9 − 8x − 13
+B) −5x^9 − 4x + 1
+C) −8x^6 + 3x^3 − 8x + 13
+D) −8x^6 + 3x^3 + 4x + 1
+K: C
+E: Distribute the negative sign: 3x^3 − 2x + 7 − 8x^6 − 6x + 6, then combine like terms to get −8x^6 + 3x^3 − 8x + 13.
+#2
+Q: What is the slope of the graph of y = (3)/(17)<i>x</i> in the <i>xy</i>-plane?
+A) (17)/(3)
+B) (3)/(17)
+C) 0
+D) −(3)/(17)
+K: B
+E: The equation is in the form y = mx with m = 3/17, so the slope is 3/17.
+#3
+P: 34x + 83y = 370
+Q: The given equation represents the volume of mulch <i>x</i>, in cubic feet, and the volume of soil <i>y</i>, in cubic feet, in a mixture of mulch and soil that weighs 370 pounds. If the volume of soil in the mixture is 2 cubic feet, what is the volume of mulch in the mixture, in cubic feet?
+K: 6
+E: Substituting y = 2 gives 34x + 166 = 370, so 34x = 204 and x = 6.
+#4
+P: y < x
+P: y > −3x − 6
+Q: For which of the following tables are all the values of <i>x</i> and their corresponding values of <i>y</i> solutions to the given system of inequalities?
+A) <table><tr><th>x</th><th>y</th></tr><tr><td>−10</td><td>−3</td></tr><tr><td>−9</td><td>−4</td></tr><tr><td>−8</td><td>−5</td></tr></table>
+B) <table><tr><th>x</th><th>y</th></tr><tr><td>−10</td><td>−14</td></tr><tr><td>−9</td><td>−13</td></tr><tr><td>−8</td><td>−12</td></tr></table>
+C) <table><tr><th>x</th><th>y</th></tr><tr><td>7</td><td>3</td></tr><tr><td>8</td><td>4</td></tr><tr><td>9</td><td>5</td></tr></table>
+D) <table><tr><th>x</th><th>y</th></tr><tr><td>7</td><td>12</td></tr><tr><td>8</td><td>11</td></tr><tr><td>9</td><td>10</td></tr></table>
+K: C
+E: In choice C, each y is less than x and greater than −3x − 6 (for example, 3 < 7 and 3 > −27). Choices A and B fail one of the inequalities, and D fails y < x.
+#5
+P: f(x) = 6(g(x)) − 3
+P: g(x) = |12x − 7|
+Q: The functions <i>f</i> and <i>g</i> are defined by the given equations. What is the value of f(−10)?
+A) 763
+B) 759
+C) −63
+D) 127
+K: B
+E: g(−10) = |−120 − 7| = 127, so f(−10) = 6(127) − 3 = 759.
+#6
+Q: The population of a certain city doubled every 75 years from 1658 to 1958. The population of this city was 160,000 in 1958. What was the population of this city in 1658?
+K: 10000
+E: From 1658 to 1958 is 300 years, or 4 doublings, so the 1658 population was 160,000 ÷ 2^4 = 10,000.
+#7
+Q: Line <i>k</i> is defined by 7<i>x</i> + 11<i>y</i> − 8 = 0. Line <i>j</i> is perpendicular to line <i>k</i> in the <i>xy</i>-plane. What is the slope of line <i>j</i>?
+A) −(11)/(8)
+B) (8)/(11)
+C) (11)/(7)
+D) −(7)/(11)
+K: C
+E: Line k has slope −7/11, so a perpendicular line has the negative reciprocal slope, 11/7.
+#8
+Q: In the <i>xy</i>-plane, an equation of circle A is (<i>x</i> − 4)^2 + (<i>y</i> − 3)^2 = 16. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?
+A) (<i>x</i> − 4)^2 + (<i>y</i> − 3)^2 = 128
+B) (<i>x</i> − 4)^2 + (<i>y</i> − 3)^2 = 32
+C) (<i>x</i> − 4)^2 + (<i>y</i> − 3)^2 = 64
+D) (<i>x</i> − 4)^2 + (<i>y</i> − 3)^2 = 256
+K: C
+E: Circle A has radius 4, so circle B has radius 8 and the right side is 8^2 = 64.
+#9
+Q: The length of the diagonal of a square is (188√(2))/(2) units. What is the area, in square units, of the square?
+A) 17,672
+B) 376
+C) 94
+D) 8,836
+K: D
+E: The diagonal is 94√(2), so the side is 94 and the area is 94^2 = 8,836.
+#10
+Q: Each of the following frequency tables represents a data set. Which data set has the greatest mean?
+A) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>50</td><td>7</td></tr><tr><td>60</td><td>6</td></tr><tr><td>70</td><td>6</td></tr><tr><td>80</td><td>7</td></tr></table>
+B) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>50</td><td>4</td></tr><tr><td>60</td><td>5</td></tr><tr><td>70</td><td>6</td></tr><tr><td>80</td><td>7</td></tr></table>
+C) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>50</td><td>6</td></tr><tr><td>60</td><td>6</td></tr><tr><td>70</td><td>6</td></tr><tr><td>80</td><td>6</td></tr></table>
+D) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>50</td><td>8</td></tr><tr><td>60</td><td>5</td></tr><tr><td>70</td><td>5</td></tr><tr><td>80</td><td>8</td></tr></table>
+K: B
+E: Choices A, C and D are symmetric around 65, so each has mean 65. Choice B has more weight on the larger values: 1480/22 ≈ 67.3.
+#11
+Q: At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 7.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.6°C per minute. If the temperature of the liquid reaches 61°C <i>x</i> minutes after the beginning of the experiment, where <i>x</i> > 4.0, which equation represents this situation?
+A) 61 = 2.6<i>x</i> + 23
+B) 61 = 2.6(<i>x</i> − 4.0) + 30
+C) 61 = 2.6<i>x</i> + 53
+D) 61 = 2.6(<i>x</i> − 4.0) + 53
+K: D
+E: After 4.0 minutes the temperature is 23 + 7.5(4.0) = 53°C. The remaining x − 4.0 minutes add 2.6 per minute, giving 61 = 2.6(x − 4.0) + 53.
+#12
+Q: A partially filled container containing 24 milliliters of water is placed under a leaky faucet that produces one 0.08-milliliter drop of water every 8 seconds. Until the container is full, which of the following can be used to represent the volume <i>v</i>, in milliliters, of water in the container <i>t</i> seconds after it is placed under the faucet, where <i>t</i> is a multiple of 8?
+A) <i>v</i> = 0.64<i>t</i> + 24
+B) <i>v</i> = 0.01<i>t</i> + 24
+C) <i>v</i> = 8<i>t</i>
+D) <i>v</i> = 0.08<i>t</i> + 24
+K: B
+E: The faucet adds 0.08 mL every 8 seconds, which is 0.01 mL per second, so v = 0.01t + 24.
+#13
+Q: A science club from a certain high school in Ohio conducted an experiment to study the effects of smell on taste. A sample of 100 students was selected at random from the high school to participate in the experiment. First, the students tasted a pureed food sample while wearing covered goggles and nose plugs. Then, the students tasted the same pureed food sample without nose plugs. 30 students were able to correctly identify the pureed food sample while wearing nose plugs. Which of the following is the largest population to which the results of the experiment can be generalized?
+A) All students from high schools in Ohio
+B) The 30 students who were able to correctly identify the pureed food sample while wearing nose plugs
+C) All students from the high school
+D) The 100 students who participated in the experiment
+K: C
+E: The sample was selected at random from the students of that one high school, so results can be generalized only to all students at that high school.
+#14
+Q: For the positive quantities <i>h</i>, <i>j</i>, and <i>k</i>, 15% of <i>h</i> is equivalent to 76% of <i>j</i>, and <i>j</i> is equivalent to 90% of <i>k</i>. What percentage of <i>k</i> is <i>h</i>? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)
+K: 456
+E: 0.15h = 0.76j, so h = (0.76/0.15)j. With j = 0.9k, h = (0.76 × 0.9/0.15)k = 4.56k, which is 456% of k.
+#15
+Q: The function <i>f</i> is defined by f(x) = 15x^5. The graph of y = f(−x) + c in the <i>xy</i>-plane, where <i>c</i> is a positive integer constant, has an <i>x</i>-intercept at (<i>r</i>, 0) and a <i>y</i>-intercept at (0, <i>t</i>), where <i>r</i> and <i>t</i> are constants. Which of the following must be true about <i>r</i> and <i>t</i>?
+A) <i>r</i> < 0 and <i>t</i> > 0
+B) <i>r</i> < 0 and <i>t</i> < 0
+C) <i>r</i> > 0 and <i>t</i> < 0
+D) <i>r</i> > 0 and <i>t</i> > 0
+K: D
+E: The function is y = −15x^5 + c. Then t = c > 0, and setting y = 0 gives x^5 = c/15 > 0, so r > 0.
+#16
+Q: In the <i>xy</i>-plane, the graph of the equation y = −x^2 + 7x − 80 intersects the line y = <i>c</i> at exactly one point. What is the value of <i>c</i>?
+A) −(271)/(4)
+B) −(369)/(4)
+C) −(7)/(2)
+D) −80
+K: A
+E: The line meets the downward parabola at one point only at the vertex. At x = 7/2, y = −49/4 + 49/2 − 80 = −271/4.
+#17
+P: (1)/(46)x^2 + (s − (1)/(46)t)x − st = 0
+Q: In the given equation, <i>s</i> and <i>t</i> are positive constants. The product of the solutions to the given equation is −2<i>kst</i>, where <i>k</i> is a constant. What is the value of <i>k</i>?
+K: 23
+E: The product of the solutions is c/a = −st ÷ (1/46) = −46st. Setting −46st = −2kst gives k = 23.
+#18
+Q: A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Bennett opened one of these accounts with an original account balance of $900 and did not make any other deposits or withdrawals. 4 months after Bennett opened the account, the balance had increased by 0.6% of the original balance. 6 months after Bennett opened the account, the balance had increased by an additional 0.3% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.3% of the balance 2 months before. Which of the following equations could represent the account balance B(x), in dollars, x months after the account was opened, where x ≥ 4?
+A) B(x) = 905.40(1.003)^((x)/(2) − (4)/(2))
+B) B(x) = 905.40(1.003)^(2x − 8)
+C) B(x) = 905.40(1.003)^(2x − 4)
+D) B(x) = 905.40(1.003)^((x)/(2) − 4)
+K: A
+E: After 4 months the balance is 900(1.006) = 905.40. After that it grows by a factor of 1.003 every 2 months, which is (x − 4)/2 periods, so the exponent is x/2 − 4/2.
+#19
+P: √(x^2 − 15x + 175) = x√(11)
+Q: What are all possible solutions to the given equation?
+A) (7)/(2) and −5
+B) (7)/(2)
+C) −(7)/(2) and 5
+D) 5
+K: B
+E: Squaring gives x^2 − 15x + 175 = 11x^2, so 2x^2 + 3x − 35 = 0 and x = 7/2 or −5. Since x√11 must be nonnegative, x = −5 is extraneous, leaving 7/2.
+#20
+Q: In triangle <i>RST</i>, angle <i>T</i> is a right angle, point <i>L</i> lies on <span style="text-decoration:overline">RS</span>, point <i>K</i> lies on <span style="text-decoration:overline">ST</span>, and <span style="text-decoration:overline">LK</span> is parallel to <span style="text-decoration:overline">RT</span>. If the length of <span style="text-decoration:overline">RT</span> is 63 units, the length of <span style="text-decoration:overline">LK</span> is 21 units, and the area of triangle <i>RST</i> is 819 square units, what is the length of <span style="text-decoration:overline">KT</span>, in units?
+K: 52/3
+E: Area (1/2)(63)(ST) = 819 gives ST = 26. Triangles SKL and STR are similar with ratio 21/63 = 1/3, so SK = 26/3 and KT = 26 − 26/3 = 52/3.
+#21
+Q: The area of a rectangular region is increasing at a rate of 110 square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use 1 meter = 3.28 feet.)
+A) 0.56
+B) 10.22
+C) 0.17
+D) 6.01
+K: C
+E: 110 ft^2/hr ÷ (3.28)^2 ≈ 10.22 m^2/hr, and dividing by 60 minutes gives ≈ 0.17 m^2/min.
+#22
+Q: If (<i>x</i> + 6)/(5) = (<i>x</i> + 6)/(11), the value of <i>x</i> + 6 is between which of the following pairs of values?
+A) −7 and −5
+B) 8 and 11
+C) 4 and 7
+D) −4 and 4
+K: D
+E: Since the denominators differ, the only way the two fractions are equal is if x + 6 = 0, which lies between −4 and 4.
