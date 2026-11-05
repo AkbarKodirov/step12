@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="440" viewBox="0 0 700 440">
+<rect width="700" height="440" fill="#ffffff"/>
+<g stroke="#222" stroke-width="2.5" fill="none" stroke-linejoin="round">
+<polygon points="120,350 545,62 542,365"/>
+<polyline points="520,363.5 522,342 542,343.5" stroke-width="2"/>
+</g>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#222" text-anchor="middle">
+<text x="548" y="48" font-style="italic" font-size="22">B</text>
+<text x="100" y="380" font-style="italic" font-size="22">A</text>
+<text x="548" y="395" font-style="italic" font-size="22">C</text>
+<text x="310" y="188">32</text>
+<text x="330" y="388">31</text>
+</g>
+</svg>

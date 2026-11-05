@@ -13,7 +13,18 @@ import { useAuth } from '../../lib/auth'
 const LETTERS = ['A', 'B', 'C', 'D']
 
 export function QuestionBody({ q, className = '' }: { q: TestQuestion; className?: string }) {
-  return <p className={`whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed ${className}`}>{q.question}</p>
+  // Question text is authored by Humo AI and bundled with the app: HTML (line breaks, tables) is rendered, and a figure image is shown above the text.
+  const html = /<[a-z][^>]*>/i.test(q.question)
+  return (
+    <div className={className}>
+      {q.image && <img src={q.image} alt="Figure for this question" className="mb-4 max-h-[420px] w-full rounded-lg border border-line bg-white object-contain" />}
+      {html ? (
+        <div className="prose-q whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: q.question }} />
+      ) : (
+        <p className="whitespace-pre-wrap text-[16.5px] font-medium leading-relaxed">{q.question}</p>
+      )}
+    </div>
+  )
 }
 
 export function Passage({ html }: { html: string }) {
