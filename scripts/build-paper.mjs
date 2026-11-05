@@ -7,6 +7,7 @@
 //   !id: dsat24-03-rw            !name: March 2024 International · Reading & Writing
 //   !type: EBRW | MATH           !year: 2024   !month: 3   !region: International (or US)
 //   !form: A                     optional: when one test date has several versions (A, B, ...), each gets its own card pair
+//   !missing: M2 #3              optional: a question the source scan doesn't have; that module is built one question short
 //   =M1 / =M2                    start of module 1 / module 2
 //   #12                          start of question 12 (the number is only a label)
 //   P: text                      a passage paragraph (R&W) or a question-stem line (Math)
@@ -69,13 +70,16 @@ function build(file) {
   const math = meta.type === 'MATH'
   const per = math ? 22 : 27
   const problems = []
+  // "!missing: M2 #3, M1 #7" → how many questions each module may be short
+  const short = [0, 0]
+  for (const m of (meta.missing || '').matchAll(/M(\d)/g)) short[+m[1] - 1]++
   const test = {
     id: meta.id,
     name: meta.name,
     type: meta.type,
-    description: `Full-length SAT ${math ? 'Math' : 'Reading & Writing'} from the ${MONTHS[+meta.month]} ${meta.year} ${meta.region.toLowerCase()} exam · 2 modules × ${per} = ${per * 2} questions.`,
+    description: `Full-length SAT ${math ? 'Math' : 'Reading & Writing'} from the ${MONTHS[+meta.month]} ${meta.year} ${meta.region.toLowerCase()} exam · 2 modules × ${per} = ${per * 2} questions.${meta.missing ? ` (${meta.missing} is missing from the source scan, so it is left out.)` : ''}`,
     modules: modules.map((qs, mi) => {
-      if (qs.length !== per) problems.push(`module ${mi + 1} has ${qs.length} questions, expected ${per}`)
+      if (qs.length !== per - short[mi]) problems.push(`module ${mi + 1} has ${qs.length} questions, expected ${per - short[mi]}`)
       return {
         questions: qs.map((q) => {
           const mc = q.options.length > 0
@@ -107,7 +111,7 @@ function build(file) {
 
   const idxFile = join(ROOT, 'public', 'papers', 'index.json')
   const idx = JSON.parse(readFileSync(idxFile, 'utf8')).filter((p) => p.id !== test.id)
-  idx.push({ id: test.id, name: test.name, type: test.type, year: +meta.year, month: +meta.month, region: meta.region, ...(meta.form ? { form: meta.form } : {}), modules: 2, questions: per * 2, minutesPerModule: math ? 35 : 32 })
+  idx.push({ id: test.id, name: test.name, type: test.type, year: +meta.year, month: +meta.month, region: meta.region, ...(meta.form ? { form: meta.form } : {}), modules: 2, questions: per * 2 - short[0] - short[1], minutesPerModule: math ? 35 : 32 })
   // newest first; within a test date, Reading & Writing before Math
   const stem = (p) => p.id.replace(/-(rw|math)$/, '')
   idx.sort((a, b) => b.year - a.year || b.month - a.month || a.region.localeCompare(b.region) || stem(a).localeCompare(stem(b)) || (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1))
