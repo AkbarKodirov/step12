@@ -1,0 +1,175 @@
+!id: dsat24-05-b-math
+!name: May 2024 International · Form B · Math
+!type: MATH
+!year: 2024
+!month: 5
+!region: International
+!form: B
+=M1
+#1
+T: <p>The table shows the frequency of each value in a data set.</p><table><tr><th>Value</th><th>Frequency</th></tr><tr><td>120</td><td>3</td></tr><tr><td>130</td><td>8</td></tr><tr><td>140</td><td>18</td></tr><tr><td>150</td><td>8</td></tr><tr><td>160</td><td>1</td></tr></table>
+Q: What is the minimum value of the data set?
+A) 1
+B) 3
+C) 120
+D) 160
+K: C
+E: The smallest value in the data set is 120.
+#2
+Q: At what point (x, y) do the graphs of the equations y = 2x + 4 and y = 3x − 6 intersect in the xy-plane?
+A) (2, 3)
+B) (3, 2)
+C) (10, 24)
+D) (24, 10)
+K: C
+E: 2x + 4 = 3x − 6 gives x = 10, and y = 2(10) + 4 = 24.
+#3
+P: (5x^3 − 2) − (−6x^3 + 3)
+Q: The given expression is equivalent to bx^3 − 5, where b is a constant. What is the value of b?
+K: 11
+E: 5x^3 + 6x^3 − 2 − 3 = 11x^3 − 5.
+#4
+P: n(x) = 2(x + 8) + (x − 8)
+Q: The function n is defined as shown. For what value of x is n(x) = 35?
+K: 9
+E: n(x) = 3x + 8 = 35, so x = 9.
+#5
+Q: A sphere has a radius of 13/5 feet. What is the volume, in cubic feet, of the sphere?
+A) (8,788π)/375
+B) (28π)/5
+C) (52π)/15
+D) (5π)/13
+K: A
+E: (4/3)π(13/5)^3 = (4/3)(2,197/125)π = (8,788π)/375.
+#6
+Q: The combined original price for a towel and chair is $36. After a 45% discount to the towel and a 25% discount to the chair are applied, the combined sale price for the two items is $25. Which system of equations gives the original price t, in dollars, of the towel and the original price c, in dollars, of the chair?
+A) t + c = 36 <br> 0.45t + 0.25c = 25
+B) t + c = 36 <br> 0.55t + 0.75c = 25
+C) t + c = 36 <br> 0.25t + 0.45c = 25
+D) t + c = 36 <br> 0.75t + 0.55c = 25
+K: B
+E: After the discounts the towel costs 0.55t and the chair 0.75c.
+#7
+T: <table><tr><th>Distance (miles)</th><th>Average time (minutes)</th></tr><tr><td>0.06</td><td>3</td></tr><tr><td>0.28</td><td>14</td></tr><tr><td>0.34</td><td>17</td></tr></table>
+Q: The table gives the average time t, in minutes, it takes Adriana to travel a certain distance d, in miles. Which equation could represent this linear relationship?
+A) t = (1/50)d
+B) t = (1/2)d
+C) t = 2d
+D) t = 50d
+K: D
+E: 3 ÷ 0.06 = 14 ÷ 0.28 = 17 ÷ 0.34 = 50.
+#8
+I: /qimg/24-05b-m1-q8.svg
+Q: Note: Figure not drawn to scale.
+Q: In the triangle shown, what is the value of cos x°?
+K: 14/27 | .5185 | .5186 | 0.5185 | 0.5186
+E: The side adjacent to the angle x° is 14 and the hypotenuse is 27, so cos x° = 14/27.
+#9
+Q: If (x − 18)/30 = (x − 18)/6, what is the value of x + 18?
+A) 0
+B) 5
+C) 18
+D) 36
+K: D
+E: The two fractions with different denominators are equal only when x − 18 = 0, so x = 18 and x + 18 = 36.
+#10
+Q: When a collection of books is sorted, 52% are nonfiction and the remaining books are fiction. Of those that are fiction, 75% are westerns and the remaining fiction books are romance. If there are 933 romance books in this collection, what is the total number of books in the collection?
+K: 7775
+E: Romance books are 0.48 × 0.25 = 0.12 of the collection, so the total is 933 ÷ 0.12 = 7,775.
+#11
+P: 7x^2(4x − 13)(4x − u) = 0
+Q: In the given equation, u is a positive constant. The sum of the solutions to the equation is 8. What is the value of u?
+K: 19
+E: The solutions are 0, 13/4 and u/4. So 13/4 + u/4 = 8, which gives u = 19.
+#12
+Q: Which of the following expressions is(are) a factor of 4x^2 + 31x − 45?
+Q: I. x − 9
+Q: II. 4x − 5
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: B
+E: 4x^2 + 31x − 45 = (4x − 5)(x + 9).
+#13
+Q: The function f is defined by f(x) = a√(b − x), where a and b are constants. In the xy-plane, the graph of y = f(x) passes through the point (22, 0), and f(−22) < 0. Which of the following must be true?
+A) a < 0
+B) b < 0
+C) f(0) > −22
+D) f(0) = 22
+K: A
+E: f(22) = 0 gives b = 22. Then f(−22) = a√44 < 0, so a < 0.
+#14
+Q: During a specific 2-hour period of the day, the mean photosynthetic rate, P(x), of a plant species increases at a constant rate in terms of the photochemical energy available, x. During this period, P(300) = 9.8, and the mean photosynthetic rate increases by 0.13 micromoles per meter squared per second (μmol·m<sup>−2</sup>s<sup>−1</sup>) when the photochemical energy available increases by 5 μmol·m<sup>−2</sup>s<sup>−1</sup>. Which equation gives the mean photosynthetic rate, in μmol·m<sup>−2</sup>s<sup>−1</sup>, in terms of the photochemical energy available, in μmol·m<sup>−2</sup>s<sup>−1</sup>, during this period?
+A) P(x) = 0.026x + 9.8
+B) P(x) = 0.026x + 2
+C) P(x) = 9.8x + 0.026
+D) P(x) = 9.8x − 2,930.2
+K: B
+E: The slope is 0.13 ÷ 5 = 0.026. Then 9.8 = 0.026(300) + b = 7.8 + b, so b = 2.
+#15
+T: <p>A company conducted a study concerning the time spent on extracurricular activities by students in grades 6, 7, and 8 and their level of school spirit. A total of 90 students were selected at random from all students in grades 6, 7, and 8 in a large school district in the US. The selected students were asked to report their level of school spirit as either low, medium, or high. The table summarizes the distribution of the selected students by grade.</p><table><tr><th>Grade</th><td>6</td><td>7</td><td>8</td></tr><tr><th>Number of students</th><td>30</td><td>26</td><td>34</td></tr></table>
+Q: If the results of the study suggest a relationship between the self-reported level of school spirit and the amount of time spent on extracurricular activities by students in grades 6, 7, and 8, which of the following aspects of the study will prevent the results from being generalized to all students in grades 6, 7, and 8 in the US?
+A) The selected students are not all from the same school.
+B) The number of selected students is too small.
+C) The number of selected students from each grade is different.
+D) The students were not selected at random from all students in grades 6, 7, and 8 in the US.
+K: D
+E: The sample came from one school district, so it can only be generalized to that district.
+#16
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>−2s</td><td>20</td></tr><tr><td>−s</td><td>16</td></tr><tr><td>s</td><td>8</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y, where s is a constant. There is a linear relationship between x and y. Which of the following equations represents this relationship?
+A) sx + 4y = 12s
+B) 4x + sy = 12s
+C) 4x + sy = 12
+D) sx + 4y = 12
+K: B
+E: The slope is (16 − 20)/(−s + 2s) = −4/s. Through (s, 8): y − 8 = (−4/s)(x − s), so sy − 8s = −4x + 4s and 4x + sy = 12s.
+#17
+P: x(kx − 68) = −4
+Q: In the given equation, k is an integer constant. If the equation has no real solution, what is the least possible value of k?
+K: 290
+E: kx^2 − 68x + 4 = 0 has no real solution when 68^2 − 16k < 0, so k > 289. The least integer is 290.
+#18
+Q: A circle in the xy-plane has its center at (−2, −4). Line k is tangent to this circle at the point (−5, −5). What is the slope of line k?
+A) −3
+B) −1/3
+C) 1/3
+D) 3
+K: A
+E: The radius to (−5, −5) has slope (−5 + 4)/(−5 + 2) = 1/3. The tangent is perpendicular to it, so its slope is −3.
+#19
+P: −5x + 15rx = 135
+Q: In the given equation, r is a constant. The equation has no solution. What is the value of r?
+A) 1/9
+B) 1/3
+C) 3
+D) 9
+K: B
+E: x(15r − 5) = 135 has no solution when 15r − 5 = 0, so r = 1/3.
+#20
+P: P(t) = 210(1.03)^((3/2)t)
+Q: The function P models the population, in thousands, of a certain city t years after 2006. According to the model, the population is predicted to increase by 3% every n months. What is the value of n?
+A) 8
+B) 12
+C) 18
+D) 72
+K: A
+E: The population grows by 3% each time (3/2)t increases by 1, that is every 2/3 of a year, which is 8 months.
+#21
+Q: In isosceles triangle ABC, sides AB and AC are congruent. Point D divides side BC such that the length of <span style="text-decoration:overline">BD</span> is 5/7 of the length of <span style="text-decoration:overline">BC</span>. Point E lies on side AB and point F lies on side AC such that when segments DE and DF are drawn, angle BED is congruent to angle CFD. If the length of <span style="text-decoration:overline">BE</span> is 10, what is the length of <span style="text-decoration:overline">CF</span>?
+A) 4
+B) 14
+C) 50
+D) 70
+K: A
+E: Angle B = angle C and angle BED = angle CFD, so triangles BED and CFD are similar. BD : CD = 5 : 2, so CF = 10 × 2/5 = 4.
+#22
+Q: The area of a rectangular region is increasing at a rate of 260 square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use 1 meter = 3.28 feet.)
+A) 0.40
+B) 1.32
+C) 14.21
+D) 24.17
+K: A
+E: 260 ÷ 3.28^2 ≈ 24.17 square meters per hour, and 24.17 ÷ 60 ≈ 0.40 square meters per minute.
+=M2
