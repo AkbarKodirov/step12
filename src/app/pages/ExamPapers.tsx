@@ -6,7 +6,7 @@ import { useStore, type TestMeta } from '../store'
 import { ScoreRing, Tilt } from '../../components/motion'
 import { ModeSheet } from './Tests'
 
-type PaperTest = TestMeta & { year: number; month: number; region: string }
+type PaperTest = TestMeta & { year: number; month: number; region: string; form?: string }
 
 const YEARS = [2023, 2024, 2025, 2026]
 const MONTHS = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -62,10 +62,10 @@ export default function ExamPapers() {
     const list = all.filter((p) => p.year === year && (section === 'all' || p.type === section))
     const groups = new Map<string, PaperTest[]>()
     for (const p of list) {
-      const k = `${p.month}|${p.region}`
+      const k = `${p.month}|${p.region}|${p.form ?? ''}`
       groups.set(k, [...(groups.get(k) ?? []), p])
     }
-    return [...groups.values()].map((g) => g.sort((a, b) => (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1))).sort((a, b) => b[0].month - a[0].month)
+    return [...groups.values()].map((g) => g.sort((a, b) => (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1))).sort((a, b) => b[0].month - a[0].month || a[0].region.localeCompare(b[0].region) || (a[0].form ?? '').localeCompare(b[0].form ?? ''))
   }, [all, year, section])
 
   return (
@@ -143,7 +143,7 @@ export default function ExamPapers() {
           {sittings.map((group, gi) => {
             const head = group[0]
             return (
-              <section key={`${head.month}-${head.region}`} className="mt-7">
+              <section key={`${head.month}-${head.region}-${head.form ?? ''}`} className="mt-7">
                 <div className="flex items-center gap-3">
                   <div className="grid w-14 shrink-0 overflow-hidden rounded-2xl text-center ring-1 ring-line">
                     <span className="bg-jg-600 py-0.5 text-[10px] font-bold tracking-[0.12em] text-white">{SHORT[head.month]}</span>
@@ -152,6 +152,7 @@ export default function ExamPapers() {
                   <div className="min-w-0">
                     <h2 className="font-serif text-[22px] leading-tight sm:text-[24px]">
                       {MONTHS[head.month]} {head.year}
+                      {head.form && <span className="text-moss"> · Form {head.form}</span>}
                     </h2>
                     <p className="flex items-center gap-1.5 text-[13px] text-moss">
                       <Globe2 className="size-3.5" /> {head.region} test · {group.length === 2 ? 'Reading & Writing + Math' : `${group.length} section${group.length > 1 ? 's' : ''}`}
@@ -232,7 +233,7 @@ function PaperCard({ p, b, delay, onStart }: { p: PaperTest; b?: { scaled: numbe
                   {MONTHS[p.month]} {p.year}
                 </h3>
                 <p className="mt-0.5 text-[13px] text-moss">
-                  {p.region} · {math ? 'Math' : 'Reading & Writing'}
+                  {p.region}{p.form ? ` · Form ${p.form}` : ''} · {math ? 'Math' : 'Reading & Writing'}
                 </p>
               </div>
               {b && (
