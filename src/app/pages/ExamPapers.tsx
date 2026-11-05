@@ -97,22 +97,24 @@ export default function ExamPapers() {
         )}
       </div>
 
-      {/* year switch */}
-      <div role="tablist" aria-label="Exam year" className="mt-7 grid grid-cols-4 gap-2 rounded-[22px] bg-card p-1.5 ring-1 ring-line">
-        {years.map((y) => {
-          const on = y === year
-          const n = count(y)
-          return (
-            <button key={y} role="tab" aria-selected={on} onClick={() => pick(y)} className="relative rounded-[16px] px-2 py-2.5 text-center sm:py-3">
-              {on && <motion.span layoutId="paper-year" className="absolute inset-0 rounded-[16px] bg-pine shadow-lg shadow-pine/20" transition={{ type: 'spring', damping: 28, stiffness: 320 }} />}
-              <span className={`relative block font-serif text-[20px] leading-none tabular-nums sm:text-[26px] ${on ? 'text-cream' : 'text-pine'}`}>{y}</span>
-              <span className={`relative mt-1 block text-[10.5px] font-medium sm:text-[12px] ${on ? 'text-cream/70' : 'text-moss'}`}>{papers ? (n ? `${n} test${n > 1 ? 's' : ''}` : 'Soon') : '…'}</span>
-            </button>
-          )
-        })}
-      </div>
+      <div className="mt-7 grid items-start gap-6 lg:grid-cols-[210px_minmax(0,1fr)]">
+        {/* year switch: a vertical list, kept in view beside the cards on wide screens */}
+        <div role="tablist" aria-label="Exam year" aria-orientation="vertical" className="grid gap-1.5 rounded-[22px] bg-card p-1.5 ring-1 ring-line lg:sticky lg:top-6">
+          {years.map((y) => {
+            const on = y === year
+            const n = count(y)
+            return (
+              <button key={y} role="tab" aria-selected={on} onClick={() => pick(y)} className={`relative flex items-center justify-between gap-3 rounded-[16px] px-4 py-3 text-left transition ${on ? '' : 'hover:bg-cream'}`}>
+                {on && <motion.span layoutId="paper-year" className="absolute inset-0 rounded-[16px] bg-pine shadow-lg shadow-pine/20" transition={{ type: 'spring', damping: 28, stiffness: 320 }} />}
+                <span className={`relative font-serif text-[24px] leading-none tabular-nums ${on ? 'text-cream' : 'text-pine'}`}>{y}</span>
+                <span className={`relative rounded-full px-2.5 py-1 text-[11.5px] font-medium ${on ? 'bg-white/15 text-cream' : n ? 'bg-jg-50 text-jg-700' : 'bg-cream text-moss'}`}>{papers ? (n ? `${n} test${n > 1 ? 's' : ''}` : 'Soon') : '…'}</span>
+              </button>
+            )
+          })}
+        </div>
 
-      <div className={`mt-5 flex-wrap items-center gap-2 ${papers && count(year) === 0 ? 'hidden' : 'flex'}`}>
+        <div className="min-w-0">
+      <div className={`flex-wrap items-center gap-2 ${papers && count(year) === 0 ? 'hidden' : 'flex'}`}>
         {(
           [
             ['all', 'All sections'],
@@ -141,7 +143,7 @@ export default function ExamPapers() {
           {sittings.map((group, gi) => {
             const head = group[0]
             return (
-              <section key={`${head.month}-${head.region}`} className="mt-8">
+              <section key={`${head.month}-${head.region}`} className="mt-7">
                 <div className="flex items-center gap-3">
                   <div className="grid w-14 shrink-0 overflow-hidden rounded-2xl text-center ring-1 ring-line">
                     <span className="bg-jg-600 py-0.5 text-[10px] font-bold tracking-[0.12em] text-white">{SHORT[head.month]}</span>
@@ -166,6 +168,8 @@ export default function ExamPapers() {
           })}
         </motion.div>
       </AnimatePresence>
+        </div>
+      </div>
 
       {papers && all.length > 0 && (
         <div className="mt-12 grid gap-3 sm:grid-cols-3">
