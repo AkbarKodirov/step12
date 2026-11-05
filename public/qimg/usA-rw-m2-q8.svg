@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Georgia, serif" font-size="15">
+<rect width="640" height="400" fill="#fff"/>
+<text x="330" y="22" text-anchor="middle" font-size="16">Annual Forest Edge Density by Land Use Capability Class,</text>
+<text x="330" y="42" text-anchor="middle" font-size="16">Chorotega Region, Costa Rica</text>
+<g stroke="#000" stroke-width="1" fill="none">
+<rect x="80" y="60" width="520" height="240"/>
+<path d="M80 108H600M80 156H600M80 204H600M80 252H600" stroke="#bbb"/>
+</g>
+<g text-anchor="end"><text x="72" y="305">0</text><text x="72" y="257">40</text><text x="72" y="209">80</text><text x="72" y="161">120</text><text x="72" y="113">160</text><text x="72" y="65">200</text></g>
+<g text-anchor="middle"><text x="140" y="320">1960</text><text x="270" y="320">1979</text><text x="430" y="320">1986</text><text x="560" y="320">2000</text>
+<text x="340" y="345">Year</text></g>
+<text transform="translate(24 180) rotate(-90)" text-anchor="middle">Edge density (meters/hectare)</text>
+<g stroke="#000" stroke-width="2" fill="none">
+<!-- y = 300 - v*1.2 -->
+<polyline points="140,222 270,223 430,156 560,180"/>
+<polyline points="140,216 270,217 430,130 560,161" stroke-dasharray="8 5"/>
+<polyline points="140,242 270,217 430,101 560,145" stroke-dasharray="2 4"/>
+</g>
+<g stroke="#000" stroke-width="1.5">
+<polygon points="140,214 133,226 147,226" fill="#000"/><polygon points="270,215 263,227 277,227" fill="#000"/><polygon points="430,148 423,160 437,160" fill="#000"/><polygon points="560,172 553,184 567,184" fill="#000"/>
+<rect x="135" y="211" width="10" height="10" fill="#fff"/><rect x="265" y="212" width="10" height="10" fill="#fff"/><rect x="425" y="125" width="10" height="10" fill="#fff"/><rect x="555" y="156" width="10" height="10" fill="#fff"/>
+<circle cx="140" cy="242" r="5.5" fill="#fff"/><circle cx="270" cy="217" r="5.5" fill="#fff"/><circle cx="430" cy="101" r="5.5" fill="#fff"/><circle cx="560" cy="145" r="5.5" fill="#fff"/>
+</g>
+<g font-size="14">
+<rect x="90" y="355" width="0" height="0"/>
+<line x1="100" y1="360" x2="130" y2="360" stroke="#000" stroke-width="2"/><polygon points="115,354 109,365 121,365" fill="#000"/><text x="138" y="365">Class VII</text>
+<line x1="220" y1="360" x2="250" y2="360" stroke="#000" stroke-width="2" stroke-dasharray="8 5"/><rect x="230" y="355" width="10" height="10" fill="#fff" stroke="#000"/><text x="258" y="365">Class VI</text>
+<line x1="350" y1="360" x2="380" y2="360" stroke="#000" stroke-width="2" stroke-dasharray="2 4"/><circle cx="365" cy="360" r="5.5" fill="#fff" stroke="#000"/><text x="388" y="365">Class I-IV</text>
+</g>
+<text x="320" y="390" text-anchor="middle" font-size="12" fill="#444">Class VII: very severe limitations; Class VI: severe limitations; Class I-IV: suitable for crops</text>
+</svg>

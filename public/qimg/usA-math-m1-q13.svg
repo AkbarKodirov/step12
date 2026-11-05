@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Georgia, serif" font-size="18"><rect width="640" height="400" fill="#fff"/>
+<polygon points="150,60 150,300 470,300" fill="none" stroke="#000" stroke-width="2.5"/>
+<polyline points="150,280 170,280 170,300" fill="none" stroke="#000" stroke-width="1.5"/>
+<text x="130" y="55" font-style="italic">Q</text><text x="130" y="322" font-style="italic">R</text><text x="476" y="322" font-style="italic">S</text>
+<text x="120" y="185">4</text><text x="305" y="325">9</text>
+<text x="325" y="170" font-style="italic">c</text>
+<text x="395" y="290" font-style="italic">y°</text>
+<text x="150" y="365" font-size="14">Note: Figure not drawn to scale.</text></svg>

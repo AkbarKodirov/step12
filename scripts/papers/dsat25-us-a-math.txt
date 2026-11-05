@@ -1,0 +1,332 @@
+!id: dsat25-us-a-math
+!name: September 2025 US · Form A · Math
+!type: MATH
+!year: 2025
+!month: 9
+!region: US
+!form: A
+=M1
+#1
+Q: A certain goose species can fly at an average speed of 16 meters per second when in continuous flight. At this rate, how many meters would this goose species fly in 6 seconds?
+A) 96
+B) 16
+C) 10
+D) 22
+K: A
+E: Distance = speed × time = 16 × 6 = 96 meters.
+#2
+I: /qimg/usA-math-m1-q2.svg
+Q: In the figure shown, lines <i>r</i> and <i>s</i> are parallel, and line <i>t</i> intersects both lines. What is the value of <i>a</i>?
+A) 77
+B) 90
+C) 167
+D) 180
+K: A
+E: The angle <i>a</i>° is vertical to the 77° angle at line <i>s</i>, so <i>a</i> = 77. (It also matches the 77° angle at line <i>r</i> as a corresponding angle.)
+#3
+I: /qimg/usA-math-m1-q3.svg
+Q: The scatterplot shows 5 measurements of the body length, in centimeters (cm), of a New Zealand fur seal from an age of 1 year to 6 years old. A line of best fit is also shown. For a New Zealand fur seal at an age of 3 years old, what is the body length predicted by the line of best fit, to the nearest 10 cm?
+K: 100
+E: At age 3 on the x-axis, the line of best fit is at about 100 cm.
+#4
+T: <table><tr><th>Mass of object</th><th>Length of spring extension</th></tr><tr><td>20 grams</td><td>7 centimeters</td></tr><tr><td>60 grams</td><td>21 centimeters</td></tr></table>
+Q: There is a linear relationship between the mass of an object attached to a vertical spring and the length of the spring extension. The table shows data collected after certain objects were each attached to the spring. What is the length of the spring extension, in centimeters, when a 50-gram object is attached to the spring?
+A) 24.5
+B) 35
+C) 14
+D) 17.5
+K: D
+E: The rate is 7/20 = 0.35 cm per gram (consistent with 21/60), so a 50-gram object gives 50 × 0.35 = 17.5 cm.
+#5
+P: g = 13 − (x)/(29)
+Q: The equation shown gives the estimated amount of gas <i>g</i>, in gallons, that remains in the gas tank of a car after being driven <i>x</i> miles, where 0 ≤ x ≤ 377. What is the estimated amount of gas, in gallons, that remains in the gas tank of the car when x = 290?
+A) 13
+B) 0
+C) 3
+D) 16
+K: C
+E: g = 13 − 290/29 = 13 − 10 = 3.
+#6
+P: √(x^2) = 80 − 9x
+Q: What is the solution to the given equation?
+A) 4
+B) 71
+C) 90
+D) 8
+K: D
+E: √(x²) = |x|. If x ≥ 0, x = 80 − 9x gives x = 8. If x < 0, −x = 80 − 9x gives x = 10, which is not negative, so x = 8 is the only solution.
+#7
+Q: A right square pyramid has a height of 6 units and a volume of 128 cubic units. What is the length, in units, of one side of the base of the pyramid?
+A) 256
+B) 8
+C) (64)/(3)
+D) (8√(3))/(3)
+K: B
+E: V = (1/3)s²h gives 128 = (1/3)s²(6) = 2s², so s² = 64 and s = 8.
+#8
+Q: A rectangle has an area of 66 square meters and a length of 11 meters. What is the width, in meters, of the rectangle?
+A) 6
+B) 55
+C) 726
+D) 121
+K: A
+E: Width = area ÷ length = 66 ÷ 11 = 6 meters.
+#9
+P: (a)/(b + c) = 64
+Q: The given equation relates the positive numbers <i>a</i>, <i>b</i>, and <i>c</i>. Which equation correctly expresses <i>a</i> in terms of <i>b</i> and <i>c</i>?
+A) a = (b + c)
+B) a = 64 − (b + c)
+C) a = 64(b + c)
+D) a = (64)/(b + c)
+K: C
+E: Multiply both sides by (b + c) to get a = 64(b + c).
+#10
+Q: For the linear function <i>f</i>, the graph of y = f(x) in the <i>xy</i>-plane passes through the points (0, 6) and (7, 7). What is the slope of y = f(x)?
+K: 1/7 | .1428 | .1429 | 0.1428 | 0.1429 | 0.143
+E: Slope = (7 − 6)/(7 − 0) = 1/7 ≈ 0.1429.
+#11
+Q: If x + 3y = 29 and 7x − 12y = −61, what is the value of <i>y</i>?
+K: 8
+E: From the first equation x = 29 − 3y. Substituting: 7(29 − 3y) − 12y = −61, so 203 − 33y = −61 and y = 8.
+#12
+Q: For the polynomial function <i>f</i>, the graph of y = f(x) in the <i>xy</i>-plane passes through the points (−4, 0), (1, 0), and (9, 0). Which of the following must be a factor of f(x)?
+A) x − 1
+B) x + 9
+C) x − 4
+D) x + 1
+K: A
+E: The graph crosses the x-axis at x = 1, so f(1) = 0 and (x − 1) is a factor.
+#13
+I: /qimg/usA-math-m1-q13.svg
+Q: In triangle <i>QRS</i>, what is the value of tan <i>y</i>°?
+A) (c)/(9)
+B) (4)/(9)
+C) (c)/(4)
+D) (9)/(4)
+K: B
+E: In right triangle QRS, tan <i>y</i>° = opposite/adjacent = QR/RS = 4/9.
+#14
+P: 8x + 32y = 30
+P: 12x + 48y = 45
+Q: At how many points do the graphs of the given equations intersect in the <i>xy</i>-plane?
+A) Zero
+B) Exactly one
+C) Infinitely many
+D) Exactly two
+K: C
+E: Multiplying the first equation by 3/2 gives 12x + 48y = 45, the second equation, so the two equations describe the same line and have infinitely many intersection points.
+#15
+T: <table><tr><th>Number of cars</th><th>Maximum number of passengers and crew</th></tr><tr><td>2</td><td>102</td></tr><tr><td>6</td><td>294</td></tr><tr><td>10</td><td>486</td></tr></table>
+Q: The table shows the linear relationship between the number of cars, <i>c</i>, on a commuter train and the maximum number of passengers and crew, <i>p</i>, that the train can carry. Which equation represents the linear relationship between <i>c</i> and <i>p</i>?
+A) 48p − c = −6
+B) 48c − p = 6
+C) 48p − c = 6
+D) 48c − p = −6
+K: D
+E: The slope is (294 − 102)/(6 − 2) = 48, and p = 102 at c = 2 gives p = 48c + 6, which rearranges to 48c − p = −6.
+#16
+Q: In the <i>xy</i>-plane, the graph of the equation (x − 4)^2 + (y − 9)^2 = 16 is a circle. The point (8, <i>c</i>), where <i>c</i> is a constant, lies on this circle. What is the value of <i>c</i>?
+K: 9
+E: Substituting x = 8 gives 16 + (c − 9)² = 16, so (c − 9)² = 0 and c = 9.
+#17
+P: y > (9)/(7)x + b
+Q: In the given inequality, <i>b</i> is a positive constant. Which of the following does NOT contain any points (x, y) in the <i>xy</i>-plane that are solutions to this inequality?
+A) The region where x < 0 and y < 0
+B) The region where x < 0 and y > 0
+C) The region where x > 0 and y > 0
+D) The region where x > 0 and y < 0
+K: D
+E: When x > 0 the right side (9/7)x + b is positive, so y would have to be greater than a positive number. No point with x > 0 and y < 0 can satisfy this.
+#18
+Q: The expression x^2 + kx + 55, where <i>k</i> is a constant, can be rewritten as (x + n)(x + 11), where <i>n</i> is a constant. What is the value of <i>k</i>?
+A) 16
+B) 6
+C) 11
+D) 5
+K: A
+E: The constant terms multiply to 55, so 11n = 55 and n = 5. Then k = n + 11 = 16.
+#19
+Q: A dog's mass is 24 kilograms. What is the dog's mass, in grams? (1 kilogram = 1,000 grams)
+K: 24000
+E: 24 × 1,000 = 24,000 grams.
+#20
+P: −3x^2 − 5x + 6 = 0
+Q: What is the greatest solution to the given equation?
+A) −(5)/(6) − (√(97))/(6)
+B) −(5)/(3) + (√(97))/(3)
+C) −(5)/(6) + (√(97))/(6)
+D) −(5)/(3) − (√(97))/(3)
+K: C
+E: Rewrite as 3x² + 5x − 6 = 0. The quadratic formula gives x = (−5 ± √97)/6, and the greater value uses the plus sign.
+#21
+Q: A beaker containing a liquid is placed on a table. The function g(t) = 297 + (363 − 297)(2.72)^(−0.103t) gives the approximate temperature, in kelvins, of the liquid <i>t</i> minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?
+K: 363
+E: At placement t = 0, so g(0) = 297 + 66(1) = 363 kelvins.
+#22
+Q: The function <i>f</i> is defined by f(x) = a^x + b, where <i>a</i> and <i>b</i> are constants and a > 0. In the <i>xy</i>-plane, the graph of y = f(x) has a <i>y</i>-intercept at (0, −22) and passes through the point (2, 26). What is the value of a + b?
+K: -16
+E: f(0) = 1 + b = −22 gives b = −23. Then f(2) = a² − 23 = 26 gives a² = 49, so a = 7 and a + b = −16.
+=M2
+#1
+Q: Which expression is equivalent to (3x^3 − 8x + 5) − (4x^6 + 9x − 2)?
+A) −4x^6 + 3x^3 − 17x + 7
+B) −x^9 − 17x − 7
+C) −x^9 − x + 3
+D) −4x^6 + 3x^3 + x + 3
+K: A
+E: Distribute the negative: 3x³ − 8x + 5 − 4x⁶ − 9x + 2 = −4x⁶ + 3x³ − 17x + 7.
+#2
+Q: What is the slope of the graph of y = (7)/(12)x in the <i>xy</i>-plane?
+A) 0
+B) (7)/(12)
+C) −(7)/(12)
+D) (12)/(7)
+K: B
+E: The equation has the form y = mx, so the slope is the coefficient of x, 7/12.
+#3
+P: 34x + 79y = 260
+Q: The given equation represents the volume of mulch x, in cubic feet, and the volume of soil y, in cubic feet, in a mixture of mulch and soil that weighs 260 pounds. If the volume of soil in the mixture is 2 cubic feet, what is the volume of mulch in the mixture, in cubic feet?
+K: 3
+E: Substitute y = 2: 34x + 158 = 260, so 34x = 102 and x = 3.
+#4
+P: y < x
+P: y > −4x − 9
+Q: For which of the following tables are all the values of x and their corresponding values of y solutions to the given system of inequalities?
+A) <table><tr><th>x</th><th>y</th></tr><tr><td>5</td><td>4</td></tr><tr><td>6</td><td>5</td></tr><tr><td>7</td><td>6</td></tr></table>
+B) <table><tr><th>x</th><th>y</th></tr><tr><td>−12</td><td>−5</td></tr><tr><td>−11</td><td>−6</td></tr><tr><td>−10</td><td>−7</td></tr></table>
+C) <table><tr><th>x</th><th>y</th></tr><tr><td>−12</td><td>−13</td></tr><tr><td>−11</td><td>−12</td></tr><tr><td>−10</td><td>−11</td></tr></table>
+D) <table><tr><th>x</th><th>y</th></tr><tr><td>5</td><td>10</td></tr><tr><td>6</td><td>9</td></tr><tr><td>7</td><td>8</td></tr></table>
+K: A
+E: Table A: each y is less than x (4 < 5, 5 < 6, 6 < 7) and greater than −4x − 9 (−29, −33, −37). Tables B and C fail y > −4x − 9 (at x = −12 the bound is 39), and D fails y < x.
+#5
+P: f(x) = 5(g(x)) − 3
+P: g(x) = |13x − 9|
+Q: The functions f and g are defined by the given equations. What is the value of f(−10)?
+A) 692
+B) 139
+C) 698
+D) −53
+K: A
+E: g(−10) = |−130 − 9| = 139, so f(−10) = 5(139) − 3 = 692.
+#6
+P: √(x^2 − 95x + 300) = x√11
+Q: What are all possible solutions to the given equation?
+A) (5)/(2)
+B) −(5)/(2) and 12
+C) 12
+D) (5)/(2) and −12
+K: A
+E: Squaring gives x² − 95x + 300 = 11x², so 2x² + 19x − 60 = 0, i.e. (2x − 5)(x + 12) = 0. x = −12 makes the right side negative, so it is extraneous; only x = 5/2 works.
+#7
+Q: The population of a certain city doubled every 75 years from 1657 to 1957. The population of this city was 240,000 in 1957. What was the population of this city in 1657?
+K: 15000
+E: From 1657 to 1957 is 300 years = 4 doublings, so the 1657 population is 240,000 / 2⁴ = 15,000.
+#8
+Q: Line k is defined by 4x + 13y − 5 = 0. Line j is perpendicular to line k in the <i>xy</i>-plane. What is the slope of line j?
+A) (5)/(13)
+B) (13)/(4)
+C) −(4)/(13)
+D) −(13)/(5)
+K: B
+E: Line k has slope −4/13, so a perpendicular line has the negative reciprocal slope, 13/4.
+#9
+Q: In the <i>xy</i>-plane, an equation of circle A is (x − 2)^2 + (y − 4)^2 = 9. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?
+A) (x − 2)^2 + (y − 4)^2 = 81
+B) (x − 2)^2 + (y − 4)^2 = 36
+C) (x − 2)^2 + (y − 4)^2 = 18
+D) (x − 2)^2 + (y − 4)^2 = 54
+K: B
+E: Circle A has radius 3, so circle B has radius 6 and r² = 36.
+#10
+Q: The length of the diagonal of a square is (186√2)/(2) units. What is the area, in square units, of the square?
+A) 8,649
+B) 17,298
+C) 93
+D) 372
+K: A
+E: Diagonal = s√2, so s = 186/2 = 93 and the area is 93² = 8,649.
+#11
+Q: Each of the following frequency tables represents a data set. Which data set has the greatest mean?
+A) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>60</td><td>3</td></tr><tr><td>70</td><td>3</td></tr><tr><td>80</td><td>3</td></tr><tr><td>90</td><td>3</td></tr></table>
+B) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>60</td><td>4</td></tr><tr><td>70</td><td>3</td></tr><tr><td>80</td><td>3</td></tr><tr><td>90</td><td>4</td></tr></table>
+C) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>60</td><td>1</td></tr><tr><td>70</td><td>2</td></tr><tr><td>80</td><td>3</td></tr><tr><td>90</td><td>4</td></tr></table>
+D) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>60</td><td>5</td></tr><tr><td>70</td><td>2</td></tr><tr><td>80</td><td>2</td></tr><tr><td>90</td><td>5</td></tr></table>
+K: C
+E: A, B and D each have mean 75, while C is weighted toward larger values: (60 + 140 + 240 + 360)/10 = 80.
+#12
+Q: A partially filled container containing 26 milliliters of water is placed under a leaky faucet that produces one 0.03-milliliter drop of water every 3 seconds. Until the container is full, which of the following can be used to represent the volume v, in milliliters, of water in the container t seconds after it is placed under the faucet, where t is a multiple of 3?
+A) v = 0.01t + 26
+B) v = 0.09t + 26
+C) v = 3t
+D) v = 0.03t + 26
+K: A
+E: The rate is 0.03 mL per 3 s = 0.01 mL/s, so v = 0.01t + 26.
+#13
+Q: At the beginning of an experiment, the temperature of a liquid is 23 degrees Celsius (°C). During the first 4.0 minutes of the experiment, the temperature of the liquid increases at an average rate of 6.5°C per minute. Then, the temperature of the liquid increases at a constant rate of 2.2°C per minute. If the temperature of the liquid reaches 61°C x minutes after the beginning of the experiment, where x > 4.0, which equation represents this situation?
+A) 61 = 2.2x + 49
+B) 61 = 2.2(x − 4.0) + 49
+C) 61 = 2.2(x − 4.0) + 26
+D) 61 = 2.2x + 23
+K: B
+E: After 4 minutes the temperature is 23 + 4(6.5) = 49°C, then it rises 2.2°C for each of the x − 4.0 remaining minutes.
+#14
+Q: A science club from a certain high school in Ohio conducted an experiment to study the effects of smell on taste. A sample of 100 students was selected at random from the high school to participate in the experiment. First, the students tasted a pureed food sample while wearing covered goggles and nose plugs. Then, the students tasted the same pureed food sample without nose plugs. 35 students were able to correctly identify the pureed food sample while wearing nose plugs. Which of the following is the largest population to which the results of the experiment can be generalized?
+A) All students from the high school
+B) The 100 students who participated in the experiment
+C) The 35 students who were able to correctly identify the pureed food sample while wearing nose plugs
+D) All students from high schools in Ohio
+K: A
+E: The sample was random from this one high school, so results generalize only to all students of that school.
+#15
+Q: For the positive quantities h, j, and k, 13% of h is equivalent to 19% of j, and j is equivalent to 91% of k. What percentage of k is h? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)
+K: 133
+E: 0.13h = 0.19j = 0.19(0.91k) = 0.1729k, so h = 1.33k, which is 133% of k.
+#16
+Q: The function f is defined by f(x) = 11x^3. The graph of y = f(−x) + c in the <i>xy</i>-plane, where c is a positive integer constant, has an x-intercept at (r, 0) and a y-intercept at (0, t), where r and t are constants. Which of the following must be true about r and t?
+A) r < 0 and t < 0
+B) r < 0 and t > 0
+C) r > 0 and t > 0
+D) r > 0 and t < 0
+K: C
+E: y = −11x³ + c. The y-intercept is t = c > 0. The x-intercept satisfies 11r³ = c, so r = ∛(c/11) > 0.
+#17
+Q: A certain investment account offers a special interest rate for the first 6 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Bennett opened one of these accounts with an original account balance of $600 and did not make any other deposits or withdrawals. 6 months after Bennett opened the account, the balance had increased by 0.4% of the original balance. 8 months after Bennett opened the account, the balance had increased by an additional 0.3% of the balance at the end of the first 6 months. Every 2 months after the first 8 months, the balance had increased by an additional 0.3% of the balance 2 months before. Which of the following equations could represent the account balance B(x), in dollars, x months after the account was opened, where x ≥ 6?
+A) B(x) = 602.40(1.003)^(x/2 − 6)
+B) B(x) = 602.40(1.003)^(x/2 − 6/2)
+C) B(x) = 602.40(1.003)^(2x − 12)
+D) B(x) = 602.40(1.003)^(2x − 6)
+K: B
+E: At 6 months the balance is 600(1.004) = 602.40. After that it grows 0.3% every 2 months, so the exponent is (x − 6)/2 = x/2 − 6/2.
+#18
+Q: In the <i>xy</i>-plane, the graph of the equation y = −x^2 + 7x − 104 intersects the line y = c at exactly one point. What is the value of c?
+A) −(367)/(4)
+B) −(7)/(2)
+C) −104
+D) −(465)/(4)
+K: A
+E: The line touches the parabola only at its vertex. At x = 7/2, y = −49/4 + 49/2 − 104 = −367/4.
+#19
+P: (1)/(24)x^2 + (s − (1)/(24)t)x − st = 0
+Q: In the given equation, s and t are positive constants. The product of the solutions to the given equation is −2kst, where k is a constant. What is the value of k?
+K: 12
+E: The product of the roots is c/a = (−st)/(1/24) = −24st. Setting this equal to −2kst gives k = 12.
+#20
+Q: In triangle RST, angle T is a right angle, point L lies on <span style="text-decoration:overline">RS</span>, point K lies on <span style="text-decoration:overline">ST</span>, and <span style="text-decoration:overline">LK</span> is parallel to <span style="text-decoration:overline">RT</span>. If the length of <span style="text-decoration:overline">RT</span> is 72 units, the length of <span style="text-decoration:overline">LK</span> is 24 units, and the area of triangle RST is 396 square units, what is the length of <span style="text-decoration:overline">KT</span>, in units?
+K: 22/3 | 7.33 | 7.333
+E: Area = ½(72)(ST) = 396, so ST = 11. Triangles SKL and STR are similar with ratio 24/72 = 1/3, so SK = 11/3 and KT = 11 − 11/3 = 22/3.
+#21
+Q: The area of a rectangular region is increasing at a rate of 210 square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use 1 meter = 3.28 feet.)
+A) 0.33
+B) 1.07
+C) 11.48
+D) 19.52
+K: A
+E: 210 ft²/h ÷ 3.28² = 19.52 m²/h, and 19.52 ÷ 60 ≈ 0.33 m²/min.
+#22
+Q: If (x+5)/(3) = (x+5)/(13), the value of x + 5 is between which of the following pairs of values?
+A) 7 and 13
+B) 4 and 6
+C) −4 and 4
+D) −6 and −3
+K: C
+E: Only x + 5 = 0 satisfies the equation (the denominators differ), and 0 lies between −4 and 4.

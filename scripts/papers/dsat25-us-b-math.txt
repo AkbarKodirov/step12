@@ -1,0 +1,345 @@
+!id: dsat25-us-b-math
+!name: September 2025 US · Form B · Math
+!type: MATH
+!year: 2025
+!month: 9
+!region: US
+!form: B
+=M1
+#1
+Q: Which expression is equivalent to <i>v</i>^4 − 590<i>v</i>^3?
+A) <i>v</i>^3(<i>v</i> + 590)
+B) (<i>v</i>^2 + 59)(<i>v</i>^2 − 10)
+C) (<i>v</i>^2 − 59)(<i>v</i>^2 − 10)
+D) <i>v</i>^3(<i>v</i> − 590)
+K: D
+E: Factor out the common factor v^3: v^4 − 590v^3 = v^3(v − 590).
+#2
+I: /qimg/usB-math-m1-q2.svg
+Q: In the figure shown, line <i>r</i> is parallel to line <i>s</i>, and line <i>t</i> intersects both lines. What is the value of <i>x</i>?
+A) 90
+B) 180
+C) 17
+D) 107
+K: D
+E: Angle x and the 107° angle are corresponding angles for parallel lines r and s cut by t, so x = 107.
+#3
+Q: The width of a rectangle is 9 centimeters. The length of the rectangle is 50 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?
+A) 18
+B) 531
+C) 9
+D) 68
+K: B
+E: Length = 9 + 50 = 59, so area = 9 × 59 = 531.
+#4
+I: /qimg/usB-math-m1-q4.svg
+Q: For the first 10 hours of an experiment, the scatterplot shows the temperature <i>y</i>, in degrees Fahrenheit (°F), of an object at various times <i>x</i>, in hours, since the start of the experiment. A line of best fit is also shown. Which of the following is the best interpretation of the slope of the line of best fit?
+A) The predicted temperature increases at a constant rate of approximately 170°F per hour over the 10-hour period.
+B) The predicted temperature decreases at a constant rate of approximately 170°F per hour over the 10-hour period.
+C) The predicted temperature increases at a constant rate of approximately 40°F per hour over the 10-hour period.
+D) The predicted temperature decreases at a constant rate of approximately 40°F per hour over the 10-hour period.
+K: C
+E: The line rises from about 170 at x = 0 to about 575 at x = 10, a slope of about 40°F per hour (170 is the y-intercept).
+#5
+I: /qimg/usB-math-m1-q5.svg
+Q: A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function <i>f</i> shown, where <i>y</i> = <i>f</i>(<i>x</i>), estimates the account balance, in dollars, in this bank account <i>x</i> months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?
+K: 30
+E: The initial deposit is the balance at x = 0, which is the y-intercept, 30.
+#6
+Q: <i>y</i> = −10<i>x</i> + 13
+Q: <i>y</i> = −12<i>x</i> + 15
+Q: What is the solution (<i>x</i>, <i>y</i>) to the given system of equations?
+A) (13, 15)
+B) (15, 13)
+C) (3, 1)
+D) (1, 3)
+K: D
+E: Set −10x + 13 = −12x + 15, so 2x = 2 and x = 1; then y = −10(1) + 13 = 3.
+#7
+Q: <i>f</i>(<i>x</i>) = −16<i>x</i>^2 + 76
+Q: The function <i>f</i> gives the estimated height, in feet, of an acorn <i>x</i> seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?
+K: 76
+E: Before the fall, x = 0, so f(0) = 76.
+#8
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 515 pounds when entering hibernation and lost weight at a rate of 0.5 pound per day. At this rate, how many days after entering hibernation did the black bear weigh 490 pounds?
+K: 50
+E: The bear lost 515 − 490 = 25 pounds, and 25 ÷ 0.5 = 50 days.
+#9
+Q: If <i>x</i> + 1 = 3, what is the value of 2(<i>x</i> + 1)?
+K: 6
+E: Substitute x + 1 = 3: 2(3) = 6.
+#10
+I: /qimg/usB-math-m1-q10.svg
+Q: The graph of the polynomial function <i>f</i> is shown, where <i>y</i> = <i>f</i>(<i>x</i>). What is the value of <i>f</i>(5)?
+A) 2
+B) 5
+C) −3
+D) 0
+K: D
+E: The graph crosses the x-axis at x = 5, so f(5) = 0.
+#11
+Q: A freight elevator can hold a maximum weight of 5,450 pounds during one trip. A 190-pound person needs to deliver several boxes using the freight elevator. Some of these boxes weigh 23 pounds each and the others weigh 60 pounds each. Which inequality represents the possible combinations of the number of 23-pound boxes, <i>x</i>, and the number of 60-pound boxes, <i>y</i>, the person can deliver during one trip if only the person and the boxes are on the freight elevator?
+A) 60<i>x</i> + 23<i>y</i> ≥ 5,450
+B) 23<i>x</i> + 60<i>y</i> ≥ 5,260
+C) 60<i>x</i> + 23<i>y</i> ≤ 5,450
+D) 23<i>x</i> + 60<i>y</i> ≤ 5,260
+K: D
+E: Total weight 190 + 23x + 60y must be at most 5,450, so 23x + 60y ≤ 5,260.
+#12
+I: /qimg/usB-math-m1-q12.svg
+Q: In triangle <i>JKL</i>, cos <i>y</i>° = (58)/(59). What is the length of <i>KL</i> (the segment from K to L)?
+K: 58
+E: Cosine is adjacent over hypotenuse: cos y° = KL/59 = 58/59, so KL = 58.
+#13
+Q: <i>b</i> − 19 = (<i>x</i>)/(<i>y</i>)
+Q: The given equation relates the positive numbers <i>b</i>, <i>x</i>, and <i>y</i>. Which equation correctly expresses <i>x</i> in terms of <i>b</i> and <i>y</i>?
+A) <i>x</i> = (<i>b</i> − 19)/(<i>y</i>)
+B) <i>x</i> = <i>by</i> − 19<i>y</i>
+C) <i>x</i> = (<i>by</i> − 19)/(<i>y</i>)
+D) <i>x</i> = <i>by</i> − 19
+K: B
+E: Multiply both sides by y: x = y(b − 19) = by − 19y.
+#14
+Q: In the <i>xy</i>-plane, the graph of the linear function <i>h</i> contains the points (0, 0) and (1, 10). Which equation defines <i>h</i>, where <i>y</i> = <i>h</i>(<i>x</i>)?
+A) <i>h</i>(<i>x</i>) = 10<i>x</i>
+B) <i>h</i>(<i>x</i>) = 10<i>x</i> + 10
+C) <i>h</i>(<i>x</i>) = (1)/(10)<i>x</i> + 10
+D) <i>h</i>(<i>x</i>) = <i>x</i> + 10
+K: A
+E: The slope is (10 − 0)/(1 − 0) = 10 and the y-intercept is 0, so h(x) = 10x.
+#15
+Q: 3<i>x</i> + <i>y</i> = 21
+Q: 9<i>x</i> − <i>y</i> = 3
+Q: How many solutions does the given system of equations have?
+A) Infinitely many
+B) Zero
+C) Exactly two
+D) Exactly one
+K: D
+E: Adding the equations gives 12x = 24, so x = 2 and y = 15; the slopes (−3 and 9) differ, so there is exactly one solution.
+#16
+Q: The length of a rectangle is 35 centimeters greater than its width. Which equation gives the area <i>A</i>, in square centimeters, of the rectangle in terms of the width <i>w</i>, in centimeters, of the rectangle?
+A) <i>A</i> = (<i>w</i>)(<i>w</i> + 35)
+B) <i>A</i> = (<i>w</i>)(35<i>w</i>)
+C) <i>A</i> = (<i>w</i>)((<i>w</i>)/(35))
+D) <i>A</i> = (<i>w</i>)(<i>w</i> − 35)
+K: A
+E: The length is w + 35, so area = width × length = w(w + 35).
+#17
+Q: The measure of angle <i>K</i> is (π)/(2(12)) radians. The measure of angle <i>L</i> is 12 times the measure of angle <i>K</i>. What is the measure, in <b>degrees</b>, of angle <i>L</i>?
+A) 102
+B) 12
+C) 78
+D) 90
+K: D
+E: Angle L = 12 × π/24 = π/2 radians, which is 90°.
+#18
+Q: ((<i>x</i> − 7)(<i>x</i> − 8))/(<i>x</i> − 3) = 0
+Q: What is the sum of the solutions to the given equation?
+A) 8
+B) 18
+C) 15
+D) 3
+K: C
+E: The numerator is zero at x = 7 and x = 8 (x = 3 is excluded), so the sum is 15.
+#19
+Q: What is the <i>y</i>-intercept of the graph of <i>y</i> = 6^<i>x</i> + 12 in the <i>xy</i>-plane?
+A) (0, 6)
+B) (0, 12)
+C) (0, 18)
+D) (0, 13)
+K: D
+E: At x = 0, y = 6^0 + 12 = 1 + 12 = 13, so the intercept is (0, 13).
+#20
+Q: −6<i>x</i> + 42<i>px</i> = 84
+Q: In the given equation, <i>p</i> is a constant. The equation has no solution. What is the value of <i>p</i>?
+A) (1)/(3)
+B) 0
+C) 2
+D) (1)/(7)
+K: D
+E: Rewrite as (42p − 6)x = 84. There is no solution when the coefficient is 0 (42p = 6), so p = 1/7.
+#21
+Q: The density of a certain type of marble stone is 2.6000 grams per cubic centimeter. If a sample of this type of stone is in the shape of a sphere with a diameter of 31.000 centimeters, what is the mass of this sample, in grams, to the nearest whole number? (Use 3.14159 for π.)
+K: 40556
+E: The radius is 15.5 cm, so V = (4/3)π(15.5)^3 ≈ 15,598.6 cm^3; mass = 2.6 × 15,598.6 ≈ 40,556 g.
+#22
+Q: The function <i>w</i> is defined by <i>w</i>(<i>r</i>) = (1)/(<i>r</i> − 8) − (<i>r</i> − 5)/(−<i>r</i> + 4.25). What is the greatest possible value of <i>r</i> such that <i>w</i>(<i>r</i>) = 0?
+K: 13/2 | 6.5
+E: Set 1/(r − 8) = (r − 5)/(−r + 4.25) and cross-multiply: −r + 4.25 = r^2 − 13r + 40, so r^2 − 12r + 35.75 = 0, giving r = 5.5 or 6.5; the greatest is 13/2.
+=M2
+#1
+Q: 1.5<i>c</i> + 3<i>d</i> = 108
+Q: The given equation describes the relationship between the number of cats, <i>c</i>, and the number of dogs, <i>d</i>, that can be cared for at a pet care business during a week. If the business cares for 36 dogs during a week, how many cats can it care for during this week?
+A) 3
+B) 54
+C) 0
+D) 108
+K: C
+E: Substitute d = 36: 1.5c + 108 = 108, so c = 0.
+#2
+Q: Stefan purchased 500 feet of fencing. He used 80% of this fencing to surround a vegetable garden. How many feet of fencing did Stefan use to surround the vegetable garden?
+A) 16
+B) 420
+C) 400
+D) 40
+K: C
+E: 80% of 500 = 0.8 × 500 = 400.
+#3
+Q: <i>x</i> + 5 = 14
+Q: <i>y</i> = 3<i>x</i>^2 + 3
+Q: At what point (<i>x</i>, <i>y</i>) do the graphs of the equations in the given system intersect?
+A) (9, 243)
+B) (14, 591)
+C) (9, 246)
+D) (14, 3)
+K: C
+E: From x + 5 = 14, x = 9. Then y = 3(81) + 3 = 246.
+#4
+Q: If (<i>x</i> + 2)^2 = 18, what is the value of <i>x</i>^2 + 4<i>x</i>?
+A) 14
+B) 22
+C) 36
+D) 18
+K: A
+E: Expanding gives x^2 + 4x + 4 = 18, so x^2 + 4x = 14.
+#5
+Q: 6(<i>t</i> + 7) − 8(<i>t</i> + 7) = 38
+Q: What value of <i>t</i> is the solution to the given equation?
+K: -26
+E: Combine like terms: −2(t + 7) = 38, so t + 7 = −19 and t = −26.
+#6
+Q: Which expression represents the product of (<i>x</i>^(−9)<i>y</i>^6<i>z</i>^5) and (<i>x</i>^4<i>z</i>^5 + <i>y</i>^8<i>z</i>^(−7))?
+A) <i>x</i>^(−5)<i>y</i>^6<i>z</i>^10 + <i>y</i>^8<i>z</i>^(−7)
+B) <i>x</i>^(−5)<i>y</i>^6<i>z</i>^10 + <i>x</i>^(−9)<i>y</i>^14<i>z</i>^(−2)
+C) <i>x</i>^(−5)<i>z</i>^10 + <i>x</i>^(−9)<i>z</i>^(−2)
+D) <i>x</i>^(−5)<i>z</i>^10 + <i>y</i>^14<i>z</i>^(−2)
+K: B
+E: Distribute and add exponents of like bases: x^(−5)y^6z^10 + x^(−9)y^14z^(−2).
+#7
+Q: On January 1, 2000, the population of a town was 26,255 and on January 1, 2010, the population was 26,956. The equation 10<i>x</i> + 26,255 = 26,956 describes this situation. Which of the following is the best interpretation of <i>x</i> in this context?
+A) The total increase in population between 2000 and 2010
+B) The average increase per year of the population between 2000 and 2010
+C) The percentage by which the population of the town increased each year between 2000 and 2010
+D) The projected population of the town 10 years after 2010
+K: B
+E: x is added 10 times (once per year over 10 years) to the starting population, so x is the yearly increase.
+#8
+Q: Cube B has a volume of 125 cubic inches. The length of each edge of cube A is <i>k</i> times the length of each edge of cube B. If cube A has a volume of 3,375 cubic inches, what is the value of <i>k</i>?
+A) 27
+B) 3
+C) 25
+D) 5
+K: B
+E: Cube B has edge 5 and cube A has edge 15 (15^3 = 3,375), so k = 15/5 = 3.
+#9
+Q: A right square pyramid has a height of 6 units and a volume of 128 cubic units. What is the length, in units, of one side of the base of the pyramid?
+A) 8
+B) 256
+C) (64)/(3)
+D) (8√(3))/(3)
+K: A
+E: V = (1/3)s^2h gives 128 = 2s^2, so s^2 = 64 and s = 8.
+#10
+Q: A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 27% every 14.07 minutes. Which of the following equations could represent this model, where <i>M</i> is the estimated mass, in grams, of the sample <i>t</i> minutes after the researcher began observing the sample?
+A) <i>M</i> = 100(0.27)^((<i>t</i>)/(14.07))
+B) <i>M</i> = 100(0.27)^(<i>t</i> + 14.07)
+C) <i>M</i> = 100(0.73)^((<i>t</i>)/(14.07))
+D) <i>M</i> = 100(0.73)^(<i>t</i> + 14.07)
+K: C
+E: A 27% decrease multiplies the mass by 0.73 once every 14.07 minutes, giving the exponent t/14.07.
+#11
+Q: A department store sells pants in three lengths: short, regular, and long. The table summarizes the distribution of pant length, by color, for all the pants in the store.
+T: <table border="1" style="border-collapse:collapse;text-align:center"><tr><th></th><th>Black</th><th>Brown</th><th>Blue</th><th>Total</th></tr><tr><th>Short</th><td>25</td><td>14</td><td>24</td><td>63</td></tr><tr><th>Regular</th><td>23</td><td>15</td><td>22</td><td>60</td></tr><tr><th>Long</th><td>20</td><td>19</td><td>19</td><td>58</td></tr><tr><th>Total</th><td>68</td><td>48</td><td>65</td><td>181</td></tr></table>
+Q: A pair of pants is selected at random. What is the probability of selecting a pair of pants that is brown, given that the pair of pants is regular length? (Express your answer as a decimal or fraction, not as a percent.)
+K: 1/4 | 0.25 | .25
+E: Among the 60 regular pants, 15 are brown, so the probability is 15/60 = 1/4.
+#12
+Q: An equation of the line in the <i>xy</i>-plane that contains the points (0, −8) and (−2, 0) is <i>Ax</i> + <i>By</i> = 9, where <i>A</i> and <i>B</i> are constants. What is the value of <i>B</i>?
+A) −(2)/(9)
+B) −(9)/(8)
+C) −(9)/(2)
+D) −(8)/(9)
+K: B
+E: Substituting (0, −8) gives −8B = 9, so B = −9/8.
+#13
+Q: (<i>x</i> + <i>k</i>) + (9)/(2)(<i>y</i> + <i>t</i>) + 19 = 0
+Q: (<i>x</i> + <i>k</i>) − (9)/(2)(<i>y</i> + <i>t</i>) − 19 = 0
+Q: In the given system of equations, <i>k</i> and <i>t</i> are constants. The solution to this system is (<i>x</i>, <i>y</i>). What is the value of 18(<i>y</i> + <i>t</i>)?
+A) −76
+B) 0
+C) 38
+D) 9
+K: A
+E: Subtracting the equations gives 9(y + t) + 38 = 0, so y + t = −38/9 and 18(y + t) = −76.
+#14
+Q: <i>y</i> &gt; 2<i>x</i> − 72
+Q: <i>y</i> &lt; −(1)/(6)<i>x</i> − 9
+Q: For which of the following tables are all the values of <i>x</i> and their corresponding values of <i>y</i> solutions to the given system of inequalities?
+A) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th>x</th><th>y</th></tr><tr><td>12</td><td>−11</td></tr><tr><td>18</td><td>−12</td></tr><tr><td>24</td><td>−13</td></tr></table>
+B) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th>x</th><th>y</th></tr><tr><td>12</td><td>−14</td></tr><tr><td>18</td><td>−15</td></tr><tr><td>24</td><td>−16</td></tr></table>
+C) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th>x</th><th>y</th></tr><tr><td>12</td><td>−57</td></tr><tr><td>18</td><td>−58</td></tr><tr><td>24</td><td>−59</td></tr></table>
+D) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th>x</th><th>y</th></tr><tr><td>12</td><td>−8</td></tr><tr><td>18</td><td>−9</td></tr><tr><td>24</td><td>−10</td></tr></table>
+K: B
+E: At x = 12, y must be between −48 and −11, and only −14 works in every row. A fails because −11 is not less than −11, C is below the line y = 2x − 72, and D is above the second line.
+#15
+Q: <i>g</i>(<i>x</i>) = (1)/(11)(6(2)^<i>x</i> + 7)
+Q: The function <i>g</i> is defined by the given equation. For all values of <i>x</i>, the value of <i>g</i>(<i>x</i>) is greater than <i>k</i>, where <i>k</i> is a constant. What is the greatest possible value of <i>k</i>?
+A) 0
+B) (13)/(11)
+C) (7)/(11)
+D) 7
+K: C
+E: Since 2^x is always positive but can be arbitrarily close to 0, g(x) is always greater than 7/11 and gets arbitrarily close to it, so the greatest k is 7/11.
+#16
+Q: At a nature preserve, a wildlife biologist counted ducks from an observation deck at the same time each day for 41 days. The table summarizes the resulting data set, data set A.
+T: <table border="1" style="border-collapse:collapse;text-align:center"><tr><th>Number of ducks</th><th>Number of days</th></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>7</td></tr><tr><td>2</td><td>8</td></tr><tr><td>3</td><td>9</td></tr><tr><td>4</td><td>8</td></tr><tr><td>5</td><td>7</td></tr><tr><td>13</td><td>1</td></tr></table>
+Q: The data value 13 was recorded in error and is removed from data set A to create data set B, which consists of the remaining 40 data values. Which statement best compares the median of data set A and the median of data set B?
+A) The median of data set B is greater than the median of data set A.
+B) There is not enough information to compare the medians of the two data sets.
+C) The median of data set B is equal to the median of data set A.
+D) The median of data set B is less than the median of data set A.
+K: C
+E: The median of A is the 21st value, which is 3. The median of B is the average of the 20th and 21st values, both 3, so it is also 3.
+#17
+Q: Each 3.0-ounce serving of cheddar cheese and each 1.2-ounce serving of tuna provides about 1 microgram of vitamin B12. If a total of 1.7 micrograms of vitamin B12 are consumed from eating <i>x</i> ounces of cheese and <i>y</i> ounces of tuna, which equation best represents this situation?
+A) 3.0<i>x</i> + 1.2<i>y</i> = 1.7
+B) 0.33<i>x</i> + 0.83<i>y</i> = 1.7
+C) 0.83<i>x</i> + 0.33<i>y</i> = 1.7
+D) 1.2<i>x</i> + 3.0<i>y</i> = 1.7
+K: B
+E: Cheese gives 1/3.0 ≈ 0.33 micrograms per ounce and tuna gives 1/1.2 ≈ 0.83 micrograms per ounce.
+#18
+Q: A certain town has an area of 12,669,184 square yards. What is the area, in <u>square miles</u>, of this town? (1 mile = 1,760 yards)
+A) 2.02
+B) 7,198.4
+C) 4.09
+D) 3,559.38
+K: C
+E: 1 square mile = 1,760^2 = 3,097,600 square yards, and 12,669,184 ÷ 3,097,600 ≈ 4.09.
+#19
+Q: <i>f</i>(<i>x</i>) = 3<i>d</i>(26<i>x</i> + 27) + 18
+Q: Which of the following represents the <i>x</i>-intercept of the graph of <i>y</i> = <i>f</i>(<i>x</i>) + 6 in the <i>xy</i>-plane, where <i>d</i> is a constant?
+A) (81<i>d</i> + 24, 0)
+B) (−(81<i>d</i> − 24)/(78<i>d</i>), 0)
+C) (6 − (81<i>d</i> + 18)/(78<i>d</i>), 0)
+D) (−(45)/(78<i>d</i> + 6), 0)
+K: B
+E: Set 78dx + 81d + 24 = 0, which gives x = (−81d − 24)/(78d).
+#20
+Q: In triangle <i>ABC</i>, the measure of angle <i>A</i> is 52° and <i>AC</i> = 40. In triangle <i>PQR</i>, the measure of angle <i>P</i> is 52° and <i>PR</i> = 120. Which additional piece of information is sufficient to prove that triangle <i>ABC</i> is similar to triangle <i>PQR</i>?
+A) <i>AB</i> = 45 and <i>PQ</i> = 45.
+B) <i>AB</i> = 45 and <i>QR</i> = 135.
+C) The measures of angle <i>B</i> and angle <i>R</i> are 40° and 88°, respectively.
+D) The measures of angle <i>B</i> and angle <i>Q</i> are 52° and 40°, respectively.
+K: C
+E: With B = 40° and R = 88°, angle C = 180° − 52° − 40° = 88° = R, and angle Q = 40° = B, so the triangles are similar by AA.
+#21
+Q: A quadratic function gives the estimated length of daylight <i>d</i>(<i>t</i>), in hours, in a certain city <i>t</i> months after March 1, where 0 ≤ <i>t</i> ≤ 7. According to the function, the estimated length of daylight is 12.66 hours 6 months after March 1 and the maximum estimated length of daylight is 13.91 hours 3.5 months after March 1. Based on this function, what is the estimated length of daylight, in hours, on March 1?
+K: 11.46
+E: Write d(t) = a(t − 3.5)^2 + 13.91. Then d(6) = 12.66 gives 6.25a = −1.25, so a = −0.2, and d(0) = 13.91 − 0.2(12.25) = 11.46.
+#22
+Q: <i>n</i><i>x</i>^2 − 16<i>x</i> = 26<i>x</i>^2 − 8
+Q: In the given equation, <i>n</i> is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of <i>n</i>?
+K: 33
+E: Rewrite as (n − 26)x^2 − 16x + 8 = 0. The discriminant 256 − 32(n − 26) must be positive, so n < 34 and the greatest integer is 33.
