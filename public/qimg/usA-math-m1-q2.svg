@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Georgia, serif" font-size="16"><rect width="640" height="400" fill="#fff"/>
+<line x1="120" y1="130" x2="470" y2="130" stroke="#000" stroke-width="2"/>
+<line x1="120" y1="260" x2="470" y2="260" stroke="#000" stroke-width="2"/>
+<line x1="170" y1="360" x2="410" y2="40" stroke="#000" stroke-width="2"/>
+<text x="485" y="136" font-style="italic" font-size="18">r</text>
+<text x="485" y="266" font-style="italic" font-size="18">s</text>
+<text x="415" y="38" font-style="italic" font-size="18">t</text>
+<text x="310" y="122" text-anchor="end">103°</text>
+<text x="335" y="122">77°</text>
+<text x="290" y="250" font-style="italic">a°</text>
+<text x="215" y="282" text-anchor="end">77°</text>
+<text x="200" y="395" font-size="14">Note: Figure not drawn to scale.</text></svg>

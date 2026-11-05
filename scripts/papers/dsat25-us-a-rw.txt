@@ -1,0 +1,538 @@
+!id: dsat25-us-a-rw
+!name: September 2025 US · Form A · Reading & Writing
+!type: EBRW
+!year: 2025
+!month: 9
+!region: US
+!form: A
+=M1
+#1
+P: The mihrab (or niche) is one of many features that are foundational to traditional mosque architecture and is therefore considered ______ aspect of mosque design. Even mosques that exhibit elements of multiple architectural styles, such as the Kocatepe Mosque, which incorporates elements from the Neoclassical Ottoman and modern styles, will also include several of these standard features.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) an unprecedented
+B) an embellished
+C) an imposing
+D) a quintessential
+K: D
+E: A feature found in even stylistically mixed mosques is a standard, essential element, so it is a quintessential aspect of mosque design.
+#2
+P: The following text is adapted from Willa Cather’s 1912 novel <i>Alexander’s Bridge</i>.
+P: For the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost constantly. He avoided the clubs and usually dined alone at his hotel.
+Q: As used in the text, what does the word “constantly” most nearly mean?
+A) Imperceptibly
+B) Fearfully
+C) Continuously
+D) Hastily
+K: C
+E: Alexander was “very busy” and “at work almost constantly,” so the word means continuously, without breaks.
+#3
+P: Siemowit is said to have ruled what eventually became Poland in the 9th century. Unlike that of Bezprym or other well-attested figures from early Polish history, Siemowit’s existence has been the subject of debate, as our knowledge of him is ______ somewhat dubious oral traditions first written down hundreds of years after the events they describe.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) unsupported by
+B) independent of
+C) derived from
+D) reminiscent of
+K: C
+E: Doubt about his existence makes sense if what we know comes from, or is derived from, dubious oral traditions.
+#4
+P: <i>Parapuzosia seppenradensis</i>, known to have lived in what is now Mexico, and <i>Parapuzosia leptophylla</i>, known to have lived in what is now England, were both ammonites, but <i>P. seppenradensis</i> was much larger than <i>P. leptophylla</i>. Recent research by Christina Ifrim, Nils Schorndorf, and colleagues has suggested that this ______ resulted from the unique predator threat faced by each species.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) disparity
+B) enmity
+C) anomaly
+D) ambiguity
+K: A
+E: The text describes a difference in size between the two species; a disparity is a notable difference.
+#5
+P: In their study of fossils of the extinct arthropod <i>Mollisonia symmetrica</i>, Javier Ortega-Hernández, Sarah Losso, and team reported some obvious indications of <i>M. symmetrica</i>’s nervous system—for example, the animal’s primary nerve cord. They also saw signs of what might be a synganglion, a brain-like mass of nerve tissue, in the animal’s head. <u>This evidence is exciting because it could help us better understand how <i>M. symmetrica</i> is related to other arthropods, such as cave crickets and krill.</u>
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It indicates that the team’s claims about the <i>M. symmetrica</i> fossils are incorrect.
+B) It gives the definition of the term “synganglion” used earlier in the text.
+C) It explains why the team’s finding of a possible synganglion is exciting.
+D) It states that krill are arthropods but cave crickets are not.
+K: C
+E: The underlined sentence says the evidence is exciting because it could clarify how the animal is related to other arthropods.
+#6
+P: High-speed rail systems, in which trains can move at great speeds, are expanding in many countries because high-speed rail can reduce the number of automobiles on the road and ultimately conserve energy. In Morocco, for instance, 186 kilometers of high-speed rail lines are in operation as of 2023, and 1,287 kilometers are under construction.
+Q: Which choice best describes the overall structure of the text?
+A) The text notes a general trend and then cites an example of that trend.
+B) The text summarizes an argument and then offers a challenge to that argument.
+C) The text questions a course of action and then suggests alternatives to that action.
+D) The text rejects a long-held belief and then proposes a different interpretation.
+K: A
+E: The first sentence states a general trend (expanding high-speed rail); “In Morocco, for instance” gives an example.
+#7
+P: A microgenre is a specialized genre consisting of a comparatively small number of stylistically similar artists. The microgenre of electronic music known as hyperpop emerged in the 2010s, with American musician Laura Les as an early exponent. Her combination of dense synthesizer arrangements and metallic percussion with vocals electronically shifted in pitch above her natural range exemplifies the hyperpop sound. <u>More recently, British recording artist Charli XCX has contributed to that sound by incorporating pop melodies into it.</u>
+Q: Which choice best describes the function of the underlined sentence?
+A) It asserts that the hyperpop sound hasn’t changed, even though new artists have adopted it.
+B) It criticizes a later hyperpop artist for being too similar to an earlier hyperpop artist.
+C) It praises a particular hyperpop artist for consistently evolving through the years.
+D) It identifies an artist who has contributed a new stylistic element to the hyperpop sound.
+K: D
+E: The sentence names Charli XCX and says she added pop melodies to hyperpop, a new element.
+#8
+P: Women like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA’s two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women—such as Anna Lysyanskaya, who currently works in and teaches digital cryptography—to enter the field of cryptology.
+Q: Which choice best states the main idea of the text?
+A) Women such as Minnie McNeal Kenny and Anna Lysyanskaya have contributed to the field of cryptology.
+B) Cryptology is a field that focuses primarily on securely managing data.
+C) Minnie McNeal Kenny and Anna Lysyanskaya worked together on an important project in the field of cryptology.
+D) Cryptology should be taught more often in schools to encourage more women to enter the field.
+K: A
+E: The text describes Kenny’s contributions and how she helped later women like Lysyanskaya enter the field; A captures this.
+#9
+P: Tokyo has high pedestrian traffic, but other cities cannot increase their pedestrian traffic simply by replicating a single feature of Tokyo—e.g., its high population density—that is associated with walkability. As urbanist Mariela Alfonzo argues, many factors influence people’s decision-making about whether to walk: some studies have shown the importance of personal preference, others have shown the importance of perceived safety, and so on, and it is clear that none of these factors in isolation fully explains pedestrian habits in a given city.
+Q: Based on the text, the author would most likely agree with which statement about Tokyo’s “high population density”?
+A) It may increase walkability in Tokyo but is known to reduce walkability in other cities.
+B) It should be understood as just one of several factors that influence pedestrian activity in Tokyo.
+C) It affects walking decisions in Tokyo less than personal preference and perceived safety do.
+D) It is better understood as an effect of the high level of pedestrian traffic in Tokyo than as a cause of that pedestrian traffic.
+K: B
+E: The author says no single factor, including density, fully explains pedestrian habits; it is one of many factors.
+#10
+P: Meredith E. Protas and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages. Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.
+Q: According to the text, what did Protas and colleagues focus on in their study?
+A) Convergent traits arising from different genetic mechanisms
+B) Convergent traits arising from a shared genetic mechanism
+C) The convergence of traits in lineages that are not reproductively separate
+D) The relative prevalence of convergent traits emerging through shared and different genetic mechanisms
+K: B
+E: Protas and colleagues explored convergence resulting from a genetic mechanism shared by both lineages.
+#11
+P: Deposits of valuable objects, or hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Some of these hoards were discovered before 2000; for example, ______
+T: <table style="border-collapse:collapse"><caption><b>Examples of Hoards found in Ireland and Northern Ireland</b></caption><tr><th style="border:1px solid #000;padding:4px 8px">Hoard name</th><th style="border:1px solid #000;padding:4px 8px">Date of contents</th><th style="border:1px solid #000;padding:4px 8px">Year of discovery</th><th style="border:1px solid #000;padding:4px 8px">Description</th></tr><tr><td style="border:1px solid #000;padding:4px 8px">Broighter Hoard</td><td style="border:1px solid #000;padding:4px 8px">1st century BCE</td><td style="border:1px solid #000;padding:4px 8px">1896</td><td style="border:1px solid #000;padding:4px 8px">gold pieces</td></tr><tr><td style="border:1px solid #000;padding:4px 8px">Balline Hoard</td><td style="border:1px solid #000;padding:4px 8px">4th century CE</td><td style="border:1px solid #000;padding:4px 8px">1940</td><td style="border:1px solid #000;padding:4px 8px">silver pieces</td></tr><tr><td style="border:1px solid #000;padding:4px 8px">Dooyork Hoard</td><td style="border:1px solid #000;padding:4px 8px">3rd century BCE–2nd century CE</td><td style="border:1px solid #000;padding:4px 8px">2001</td><td style="border:1px solid #000;padding:4px 8px">gold, bronze, and beads</td></tr></table>
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) the Balline Hoard and the Dooyork Hoard were both discovered in the 2000s.
+B) the Broighter Hoard was one of several hoards discovered in the 1800s.
+C) the Dooyork Hoard was discovered in 1940, and the Balline Hoard was discovered in 2001.
+D) the Broighter Hoard was discovered in 1896, and the Balline Hoard was discovered in 1940.
+K: D
+E: Only the Broighter (1896) and Balline (1940) hoards were discovered before 2000.
+#12
+P: <i>The Wonderful Wizard of Oz</i> is a 1900 novel by L. Frank Baum. In the novel, Dorothy lives in Kansas with her aunt and uncle, but she later finds herself in a land called Oz. The narrator indicates that her aunt and uncle’s house in Kansas is remote and solitary, writing that ______
+Q: Which quotation from <i>The Wonderful Wizard of Oz</i> most effectively illustrates the claim?
+A) in Kansas, “When Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side. Not a tree nor a house broke the broad sweep of flat country.”
+B) in Kansas, “Once the house had been painted, but the sun blistered the paint and the rains washed it away, and now the house was as dull and gray as everything else.”
+C) in Oz, “Dorothy fell asleep only once, and then she dreamed she was in Kansas, where Aunt Em was telling her how glad she was to have her little girl at home again.”
+D) in Oz, “[Dorothy and her companions] walked along listening to the singing of the brightly colored birds and looking at the lovely flowers which now became so thick that the ground was carpeted with them.”
+K: A
+E: Seeing no tree or house across the flat prairie shows the Kansas house is remote and solitary.
+#13
+P: Nautilids are marine mollusks that begin growing their shells before emerging from their eggs and continue to add shell segments throughout their lifetimes. The walls between their shells’ chambers are called septa, and the concentration of the isotope oxygen-18 they contain exactly reflects the isotope’s concentration in the water at the depth at which the septa formed. Paleontologist Amane Tajika and colleagues examined each of the septa in two nautilid shells; finding that sample F13 had a higher concentration of the isotope than sample M03 did, the researchers concluded that F13 must have formed at a significantly lower temperature than M03 did.
+Q: Which finding, if true, would most directly support the researchers’ conclusion?
+A) As the concentration of oxygen-18 in water decreases, water temperature decreases and nautilid shell growth slows.
+B) As water depth increases, both the concentration of oxygen-18 and the water temperature decrease.
+C) As water depth increases, the concentration of oxygen-18 increases and water temperature decreases.
+D) As water temperature increases, nautilids are able to concentrate more oxygen-18 into their shells.
+K: C
+E: If higher oxygen-18 goes with greater depth and lower temperature, then F13 (more oxygen-18) formed in colder water.
+#14
+P: Studies have demonstrated that positive feedback enhances real-world exercise performance and exercisers’ psychological experience of physical activity. Nicole Trewick and team tested their prediction that positive feedback would produce analogous results among participants cycling on a stationary bike in a virtual reality environment. After monitoring participants’ pedaling rate and heart rate to determine the effects on their physical endurance (e.g., their ability to sustain a certain target pedaling and heart rate) of feedback (positive, negative, or neutral) delivered at regular intervals, the researchers used participants’ questionnaire responses to assess their psychological experience of the task.
+Q: Assuming participants had similar baseline fitness levels, which finding from the study, if true, would most strongly suggest that positive feedback had the predicted psychological effect but not the predicted physical effect?
+A) Compared with participants who received negative or neutral feedback, participants who received positive feedback reported greater enjoyment of the activity on average but maintained their heart and pedaling rates for approximately similar durations.
+B) Compared with participants who received positive or neutral feedback, participants who received negative feedback reported lower enjoyment of the activity on average but maintained their heart and pedaling rates for longer durations.
+C) Compared with participants who received negative feedback, participants who received neutral feedback reported similar levels of enjoyment of the activity on average but maintained their heart and pedaling rates for shorter durations than participants who received positive feedback.
+D) Compared with participants who received positive feedback, participants who received neutral feedback reported lower enjoyment of the activity on average but maintained their heart and pedaling rates for longer durations than participants who received negative feedback.
+K: A
+E: Greater enjoyment with positive feedback (psychological effect) but similar endurance across groups (no physical effect).
+#15
+P: Blue holes—large marine sinkholes, like Watling’s Blue Hole near San Salvador Island—can be hundreds of meters deep and are sometimes part of widespread subterranean networks of passageways. In 2021, researchers conducted the first formal study of the Taam Ja’ Blue Hole (TJBH), located in a bay of fresh water and salt water on Mexico’s coast, and reported a maximum depth of 274 meters. Oscar F. Reyes-Mendoza and colleagues later reinvestigated the depth of the TJBH, determining that it exceeded 400 meters; additionally, they detected variations in characteristics across water layers. Layers more than 400 meters deep began to show density and salinity conditions akin to those of the nearby Caribbean Sea. Reyes-Mendoza and colleagues therefore suggest that ______
+Q: Which choice most logically completes the text?
+A) there may be tunnels and caves that connect the TJBH and the waters of the Caribbean deep underground.
+B) in the TJBH, there are greater differences between water layers less than 275 meters deep than there are between water layers greater than 400 meters deep.
+C) researchers should reevaluate existing measurements of the depths of Watling’s Blue Hole and other blue holes where the conditions in very deep waters are similar to those of waters in open seas.
+D) the apparent relationship between depth and salinity level in the TJBH is the inverse of that found in the Caribbean Sea.
+K: A
+E: Deep TJBH layers resemble the Caribbean Sea, and blue holes can be part of subterranean networks, so a deep connection is plausible.
+#16
+P: When attempting to determine a fault’s seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault’s physical dimensions and geological features. For example, data from the US Geological Survey show the ______ and most recent deformation (less than 130 thousand years ago) of the Kawich Range fault in Nye County, Nevada.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) length (30 km), slip rate (less than 0.2 mm/yr),
+B) length, (30 km); slip rate, (less than 0.2 mm/yr);
+C) length, (30 km), slip rate, (less than 0.2 mm/yr),
+D) length (30 km) slip rate (less than 0.2 mm/yr)
+K: A
+E: In a list of three items, commas separate the items and parenthetical data follow each noun without extra punctuation.
+#17
+P: Jane Austen’s <i>Northanger Abbey</i> (1818) is considered a satire of another novel popular at the time: Ann Radcliffe’s <i>The Mysteries of Udolpho</i> (1794), which Austen’s heroine, Catherine Morland, is depicted reading. However, the similarity of the ______ experiences—the predicaments of both Catherine and Radcliffe’s Emily St. Aubert result from men’s greed—suggests that underlying the satire is a social critique.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) novels’ protagonists
+B) novels’ protagonists’
+C) novel’s protagonist’s
+D) novel’s protagonists’
+K: B
+E: Two novels (novels’) and two protagonists (protagonists’) own the experiences, so both nouns are plural possessive.
+#18
+P: The foxtail pine (<i>Pinus balfouriana</i>) known as RCR 1, located in the United States, is one of the oldest known trees in the world, at 1,666 years old. With almost two millennia of climate data in its tree ______ single tree like this, claims dendrochronologist Valerie Trouet, can tell the history of the world.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) rings and a
+B) rings, a
+C) rings. A
+D) rings; a
+K: B
+E: The introductory phrase “With almost two millennia of climate data in its tree rings” needs a comma before the main clause begins.
+#19
+P: When the electrons of a chemical element change energy states, they release certain wavelengths of light that are unique to that element. This means that the emission of light with a wavelength of 516.7 nanometers (nm), which falls in the 500–570 nm range defining the green portion of the visible spectrum, ______ the element iron as the source of the light.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) identifying
+B) identifies
+C) to identify
+D) having identified
+K: B
+E: The singular subject “the emission” needs the singular finite verb “identifies.”
+#20
+P: As the exoplanet 81 Ceti b orbits a star 330 light-years from Earth, the gas giant’s gravity causes the star to wobble. In 2008, astronomers observing the wobble—indicated by redshifts and blueshifts in the star’s spectral wavelengths—eventually attributed ______ to the gravitational influence of the previously undetected exoplanet.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) them
+B) it
+C) these
+D) each
+K: B
+E: The singular antecedent “the wobble” requires the singular pronoun “it.”
+#21
+P: <i>Their Last Ride</i> was first released in 2022. This short ______ is about the environmental issues affecting wild and domestic horses, was directed by Cherokee filmmaker Neta Rhyne.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) documentary
+B) documentary which
+C) documentary,
+D) documentary, which
+K: D
+E: The nonessential clause “which is about…horses” must open with “, which” and the main verb “was directed” follows after the clause.
+#22
+P: In September 1862, John Francis joined the US Army. He went on to serve in the 2nd Louisiana Infantry during the US Civil War and, ______ earned a place in US history as one of the war’s few Chinese-born American soldiers.
+Q: Which choice completes the text with the most logical transition?
+A) in doing so,
+B) for instance,
+C) in any case,
+D) usually,
+K: A
+E: By serving in the Army, he earned a place in history; “in doing so” links the action to its result.
+#23
+P: The World Cup of men’s soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Qatar, in 2022. The event, which is held every four years, used to be much smaller and more limited geographically. ______ the 1950 World Cup in Brazil included only 13 teams, all from Europe and the Americas.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) However,
+C) At last,
+D) For example,
+K: D
+E: The 1950 World Cup is an example of the smaller, geographically limited early events.
+#24
+P: In a given rock formation, Fortunian rock from 538 million years ago might directly abut Rhaetian rock from 208.5 million years ago, with millions of years of material missing in between. ______ time did not stand still during these intervening years; the unaccounted-for sedimentary material was likely removed from the stratigraphic record via erosion and weathering.
+Q: Which choice completes the text with the most logical transition?
+A) On the contrary,
+B) Of course,
+C) As a result,
+D) In particular,
+K: B
+E: “Of course” acknowledges the obvious point that time kept passing, before explaining where the material went.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: The Madeira River is in South America.
+L: It ranks No. 21 among the longest rivers in the world.
+L: It is 3,380 kilometers long.
+L: The Amur River is in Asia.
+L: It ranks No. 10 among the longest rivers in the world.
+L: It is 4,444 kilometers long.
+Q: The student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Madeira River in South America is 3,380 kilometers long.
+B) The Amur River is in Asia, whereas the Madeira River is located in South America.
+C) Among the longest rivers in the world, the Amur River is ranked No. 10.
+D) The Madeira River is shorter than the Amur River.
+K: D
+E: Only D directly compares the lengths of the two rivers.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).
+L: The ACM gives the award for “major contributions of lasting importance to computing.”
+L: It is named after groundbreaking British mathematician Alan Turing.
+L: Judea Pearl won the award in 2011.
+Q: The student wants to explain whom the award is named for and identify one recipient of it. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The A.M. Turing Award is given for “major contributions of lasting importance to computing.”
+B) The A.M. Turing Award, which is named for British mathematician Alan Turing, was given to Judea Pearl in 2011.
+C) In 2011, Judea Pearl won the A.M. Turing Award, which is given for “major contributions of lasting importance to computing.”
+D) It was in 2011 that Judea Pearl won the A.M. Turing Award.
+K: B
+E: Only B names whom the award honors (Alan Turing) and a recipient (Judea Pearl).
+#27
+P: While researching a topic, a student has taken the following notes:
+L: In music theory, the term “key” refers to the set of musical notes that forms the foundation of a piece of music.
+L: In <i>On the Sensations of Tone</i> (1863), German physicist Hermann von Helmholtz describes the mood of various musical keys.
+L: He describes the key of F sharp major as “brilliant, very clear.”
+L: “Give Me One Reason” (1995) by Tracy Chapman is a song written in F sharp major.
+Q: The student wants to explain how Helmholtz describes F sharp major. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The key of F sharp major is one of various keys, which are sets of musical notes that form the foundations of pieces of music.
+B) In <i>On the Sensations of Tone</i>, Helmholtz describes the mood of F sharp major.
+C) The song “Give Me One Reason” could be described as “brilliant, very clear.”
+D) In <i>On the Sensations of Tone</i>, Helmholtz describes the mood of F sharp major as “brilliant, very clear.”
+K: D
+E: Only D states how Helmholtz describes F sharp major (“brilliant, very clear”).
+=M2
+#1
+P: The following text is from Thomas Hardy’s 1874 novel <i>Far from the Madding Crowd</i>. In the text, the narrator describes an open tract of land.
+P: The changes of the seasons are less obtrusive on spots of this kind than amid woodland scenery. Still, to a close observer, they are just as perceptible; the difference is that their media of manifestation are less trite and familiar than such well-known ones as the bursting of the buds or the fall of the leaf.
+Q: As used in the text, what does the word “obtrusive” most nearly mean?
+A) Stubborn
+B) Expansive
+C) Insolent
+D) Conspicuous
+K: D
+E: “Obtrusive” here means noticeable; the seasonal changes on open land are less noticeable (conspicuous) than in woodland, though still perceptible to a close observer.
+#2
+P: The metal displayed in the structure of House in Kamiaraya by Kazuto Nishi Architects and the metal hardware in UE House by GENETO are representative aspects of a juxtaposition common in contemporary Japanese architecture: the ______ of sleek, contemporary elements and traditional organic materials in a single design is a trend with both aesthetic and highly practical purposes.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) synthesis
+B) designation
+C) analysis
+D) diffusion
+K: A
+E: “Synthesis” (combination) fits the blending of contemporary elements and traditional materials in a single design.
+#3
+P: Described in treatises mainly published between 1768 and 1950 (such as William Holdsworth and William Aldridge’s <i>Natural Short-Hand</i>), musical stenography used quickly written squiggles and dots in an attempt to preserve, in print and in real time, the ______ features of live performances—those that result from impromptu deviations of performers when fidelity to an established musical score is not mandated.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inevitable
+B) inconspicuous
+C) extemporaneous
+D) meticulous
+K: C
+E: Features resulting from impromptu deviations are extemporaneous (improvised).
+#4
+P: The plaice is ectothermic, or cold-blooded, and the southern bluefin tuna is a regional endotherm, meaning that parts of its body are typically warmer than the surrounding water. The basking shark had been classified as a full ectotherm, a position that became ______ after researchers Haley R. Dolton and colleagues showed that the basking shark’s body temperature is consistently 1.0 to 1.5°C warmer than the water.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inconsolable
+B) untenable
+C) unequivocal
+D) unanticipated
+K: B
+E: The new finding contradicts the full-ectotherm classification, making that position untenable (impossible to defend).
+#5
+P: The Heege Manuscript (HM) is a collection of booklets of once-unbound paper sheets on which Richard Heege copied various texts at his fifteenth-century home between Derbyshire and Nottinghamshire in England. <u>Most other contemporaneous personal manuscripts like the Findern Anthology (FA) consist primarily of pieces by celebrated medieval authors like Chaucer and other readings favored by elites</u>, whereas the HM has a distinctive emphasis on the popular, including entertainments like scary stories, and the practical, with advice about hygiene.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) To provide context for the text’s suggestion that the HM is an outlier among collections of its time
+B) To emphasize the ubiquity of hand-copied collections like the FA and the HM in medieval England
+C) To suggest that the FA is a poor point of comparison for a collection like the HM
+D) To illustrate how the discussion of the HM earlier in the text can improve historians’ understanding of the FA
+K: A
+E: The underlined portion describes what other manuscripts typically contain, setting up the contrast (“whereas”) that shows the HM is distinctive.
+#6
+P: <b>Text 1</b>
+P: The University of California, Irvine, and the online class provider edX are two of the many institutions offering training programs in entrepreneurship. But what results do such programs produce? In a study of businesspeople in Spain, researcher Natalia Cruz and colleagues addressed this question and reported that participants who received entrepreneurial training showed high innovativeness in entrepreneurial activities.
+P: <b>Text 2</b>
+P: While studies of entrepreneurial training typically report positive results, a close look at these studies reveals widespread methodological shortcomings. This research literature is plagued by unclear hypotheses, insufficient sample sizes, a lack of control groups, and failures to establish pretraining baselines for the measured attributes of participants.
+Q: Based on the texts, the author of Text 2 would most like to know the answer to which question about Cruz and colleagues’ study that is not addressed in Text 1?
+A) Did Cruz and colleagues measure any attributes of the participants in the study after they had received the training?
+B) Did the participants that Cruz and colleagues included in the study share any characteristics or life circumstances?
+C) How many Spanish businesspeople did Cruz and colleagues include in the study?
+D) Did Cruz and colleagues compare Spanish businesspeople who received the training with a group of successful entrepreneurs who did not receive the training?
+K: D
+E: Text 2 criticizes the lack of control groups; choice D asks whether the study compared trained businesspeople with an untrained group.
+#7
+P: R.D. Lawrence et al. found that a recommender system (RS)—an algorithm that generates personalized product suggestions for online shoppers—impacted consumer behavior and increased sales, a result that was corroborated by Dokyun Lee and Kartik Hosanagar. However, Lee and Hosanagar also determined that whereas an RS had a stronger positive effect on item views for utilitarian products (e.g., dish detergents) than for hedonic products (e.g., music albums), the RS had a stronger positive effect on likelihood of purchase for hedonic products than for utilitarian ones.
+Q: Information in the text best supports which statement about recommender systems?
+A) While recommender systems can affect consumer behavior toward suggested products, those effects are not uniform in nature and strength across product categories.
+B) By directing customers toward specific product categories on a retailer’s website, recommender systems may limit the variety of items seen by online shoppers.
+C) By proposing the most useful options to consumers, recommender systems boost the online visibility of utilitarian items that otherwise tend to be overlooked.
+D) While recommender systems cause consumers to spend more time viewing utilitarian items such as dish detergents, recommender systems’ positive effect on purchase rates is likely limited to hedonic items such as music albums.
+K: A
+E: An RS affects behavior overall, but its effects on views and purchases differ between utilitarian and hedonic products, so effects are not uniform.
+#8
+I: /qimg/usA-rw-m2-q8.svg
+P: Due to the Chorotega region’s accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s. Juan Pablo Arroyo-Mora and colleagues used historical aerial photography and remote sensing data to track fragmentation metrics across different land use capability classes (categories that indicate possible uses of forest land). One such metric, edge density, can be used to indicate the regularity of forest patch sizes, with decreases in edge density suggesting a trend towards uninterrupted forest patches with more regular shapes. The team found a range of edge density levels, from lows of around 80 meters per hectare or less in the 1960s and 1970s for all classes, to a high in 1986 of approximately ______
+Q: Which choice most effectively uses data from the graph to complete the assertion?
+A) 140 for Class VII.
+B) 160 for Class I-IV.
+C) 60 for Class VII.
+D) 50 for Class VI.
+K: B
+E: The highest 1986 point on the graph is Class I-IV at about 166, so approximately 160 for Class I-IV.
+#9
+P: Studies of the population density of cougars (<i>Puma concolor</i>) have yielded a range of results, which may in part reflect differences in the effectiveness of the methods that researchers have used in their studies. For example, the difference between the maximum population density reported by Linda L. Sweanor et al. and that reported by David M. Choate et al. might be artificially large if the use of ______
+T: <table border="1" cellpadding="4" style="border-collapse:collapse"><caption>Studies of Cougar Population Density</caption><tr><th>Study authors</th><th>Location</th><th>Methods</th><th>Study area (square kilometers)</th><th>Maximum density (cougars per 100 square kilometers)</th></tr><tr><td>Linda L. Sweanor et al.</td><td>New Mexico (United States)</td><td>radio-collar tracking</td><td>2,059</td><td>2.00</td></tr><tr><td>Gregory A. Davidson et al.</td><td>Oregon (United States)</td><td>scat-detecting dogs</td><td>1,225</td><td>5.50</td></tr><tr><td>A.J. Noss et al.</td><td>Bolivia</td><td>regular camera trapping</td><td>215</td><td>7.99</td></tr><tr><td>David M. Choate et al.</td><td>Utah (United States)</td><td>helicopter surveying</td><td>1,300</td><td>10.24</td></tr></table>
+Q: Which choice most effectively uses data from the table to complete the example?
+A) radio-collar tracking is impractical outside of New Mexico.
+B) radio-collar tracking underestimates the density of cougars.
+C) helicopter surveying underestimates the density of cougars.
+D) helicopter surveying is more common in Utah than the use of radio-collar tracking is.
+K: B
+E: Sweanor et al. (radio-collar) reported the lowest density (2.00) versus Choate et al. (10.24); the gap would be artificially large if radio-collar tracking underestimates density.
+#10
+P: Vegetation has two primary mechanisms by which it reduces air pollution: deposition (absorption of pollutants) and, the more effective, dispersion (dilution of pollutants by ventilation). Accordingly, establishment of green space to reduce major air pollutants such as coarse particulate matter in urban areas receives considerable attention. Research by Zander S. Venter et al. comprised data from air-quality monitoring stations in Belgium, the US state of West Virginia, and thousands of other global locations over a ten-year span, coupled with aerial imagery of those locations from the same period. The researchers ultimately recommended that reducing anthropogenic emissions remain the primary focus of urban air-quality improvement efforts.
+Q: Which finding from the study, if true, would most directly account for the recommendation by Venter et al.?
+A) The association between levels of coarse particulate matter and green space is strongly negative for locations containing or in close proximity to major cities but becomes insignificant for more rural locations.
+B) The association between green space and coarse particulate matter levels is moderately negative overall but becomes slightly negative and sometimes positive when consideration is limited to busy streets with tree cover heavy enough to hinder ventilation.
+C) Ambient levels of coarse particulate matter are comparable across locations with comparable local infrastructure (e.g., typical building shape) but vary considerably depending on the predominant type of vegetation present.
+D) There is a predictable relationship between a location’s typical climate conditions and the efficacy of green spaces in that location, but anomalous local weather events have an outsized effect on deposition and dispersion of coarse particulate matter.
+K: B
+E: Green space’s benefit is only modest overall and can vanish or reverse where trees hinder ventilation (dispersion), which supports prioritizing emission reductions.
+#11
+P: Northeastern Missouri’s Ralls County is among the most rural counties in the United States: the US Census Bureau classified it as 96.1% rural in 2010. Researchers often struggle to recruit residents of counties like Ralls for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as “seeds”) with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______
+Q: Which choice most logically completes the text?
+A) the characteristics that made the seeds desirable for inclusion in the proposed study may be unknown to some members of the seeds’ social networks.
+B) most seeds’ social networks include some people who do not know one another and who share few characteristics.
+C) the seeds’ social networks tend to be somewhat smaller than the networks of people who do not live in rural areas.
+D) the seeds’ social networks include a high proportion of people who share characteristics with the seeds.
+K: D
+E: Recruits matched the desired characteristics more than chance predicts, most likely because the seeds’ networks contain many people who share the seeds’ characteristics.
+#12
+P: Neuroscientist Artin Arshamian and his team sought to determine what affects a person’s perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer) including the Maniq people from a small community in Thailand and urban dwellers from a large city in Mexico. The team observed that across cultures, people generally rated odors about the same: ethyl butyrate, which smells like peaches, was typically rated more pleasant than mushroom alcohol, which smells like fungus. The team’s study thus undermined the idea that ______
+Q: Which choice most logically completes the text?
+A) a person who perceives certain odors as pleasant will likely perceive the odors as roughly equal in pleasantness.
+B) culture significantly influences whether a person perceives an odor as pleasant or unpleasant.
+C) people agree in their perception of odors as pleasant or unpleasant regardless of where they live.
+D) personal taste has little influence on whether odors are perceived as pleasant or unpleasant.
+K: B
+E: Ratings were similar across very different cultures, which undermines the idea that culture strongly shapes whether an odor is pleasant.
+#13
+P: A soil’s microbial community (the microbial taxa present in their relative abundances) is known to affect plants’ cyclical processes. Corrine Walsh and colleagues hypothesized that microbial communities could also affect plants’ flavor chemistry, including volatiles and secondary metabolites like glucosinolates. Recognizing that soil moisture varies by location in the wild and could influence plants’ chemistry, Walsh et al. introduced distinct microbial communities to individually potted mustard plants (<i>Brassica juncea</i>) growing in a controlled environment, then measured the plants’ glucosinolates, like butenyl and allyl (the most prominent), that create the spicy and bitter flavors in mustard. This method thus enabled the researchers to ______
+Q: Which choice most logically completes the text?
+A) demonstrate that differences in plants’ flavor chemistry result from differences in the level of glucosinolates regardless of the soil moisture.
+B) re-create the conditions of studies conducted in the wild that found links between soil microbial communities and levels of butenyl in mustard plants.
+C) disentangle the influence of microbial communities on soil moisture from their influence on glucosinolate content in the plants.
+D) distinguish variations in glucosinolates due to differences in microbial communities from those that in a natural setting may be due to differences in soil moisture.
+K: D
+E: The controlled environment let the researchers isolate microbial effects on glucosinolates from the moisture differences that occur in the wild.
+#14
+P: Louisiana resident P.B.S. Pinchback, one of the nearly two thousand African Americans elected to public office during the decade that followed the Civil War, ______ his term as a member of the state senate in 1868.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) to begin
+B) began
+C) beginning
+D) having begun
+K: B
+E: The sentence needs a finite past-tense verb for the subject Pinchback: “began.”
+#15
+P: <i>Aftermath the Kings and Their Biographies</i> is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present ______ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Al-Imam Essayouti Library.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) day. By
+B) day by
+C) day by,
+D) day; by
+K: B
+E: “Survived … to the present day by being passed down” is one sentence with no punctuation needed before “by.”
+#16
+P: Occurring in the constellation Perseus, 240 million light-years from Earth, SN 2006gy was a ______ explosion of a massive star, which blasts large amounts of radiation, heavy elements, and debris into space—that was first detected by American astronomer Robert Quimby.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) supernova: the
+B) supernova, the
+C) supernova. The
+D) supernova—the
+K: D
+E: The appositive “the explosion of a massive star…” is closed by a dash after “space,” so it must be opened with a matching dash after “supernova.”
+#17
+P: The neurotechnology company Neuros Medical is working on an exciting new technology: a process that uses bioelectric signals to target sensory nerves to help relieve pain. Neuros Medical’s technology, alongside other such neuromodulation technologies that function by stimulating nervous system structures, ______ the way for future advancements in neurotechnology.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) paving
+B) is paving
+C) are paving
+D) have paved
+K: B
+E: The singular subject “technology” takes the singular verb “is paving”; the phrase set off by commas does not change the subject.
+#18
+P: Taking a structuralist approach to analyzing Tomas Rivera’s novel <i>And the Earth Did Not Devour Him</i> would lead a critic to focus on the linguistic conventions inherent in the novel. On the other hand, a New Historicist analysis ______ on historical context and its relationship to power structures might yield a radically different interpretation of Rivera’s novel.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) would be focusing
+B) would focus
+C) focuses
+D) focusing
+K: D
+E: The participle “focusing” modifies “analysis” without adding a second finite verb before “might yield.”
+#19
+P: The legacy of the Spanish Empire, which once controlled portions of five continents, is evident in Spanish-speaking Paraguay, one of many places that reveal their imperial history in their language. Contrast Paraguay with the Netherlands, which ceased to be part of the empire in ______ the latter’s connection to the empire is so attenuated that Spanish is seldom spoken there today.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) 1648,
+B) 1648
+C) 1648:
+D) 1648 and
+K: C
+E: A colon correctly links the complete clause before it to the clause that explains the contrast.
+#20
+P: To determine the approximate age of wooden tools excavated from an archaeological site in Spain, archaeologist Joseba Rios-Garaizar and colleagues collected samples of sediments surrounding the tools; these samples were then analyzed using a method known as optically stimulated luminescence (OSL) dating. ______ OSL dating indicated that the tools were between 50,000 and 137,000 years old.
+Q: Which choice completes the text with the most logical transition?
+A) Similarly,
+B) Ultimately,
+C) In addition,
+D) By comparison,
+K: B
+E: The result of the sampling and analysis process is presented as a final outcome, so “Ultimately” fits.
+#21
+P: Architect Victor Gruen, the designer of Indiana’s Woodmar Plaza shopping mall, conceived of the mall as an indoor version of the European town square, a communal space that encouraged visitors to stroll and linger. ______ he designed Woodmar Plaza with long, pedestrian-friendly promenades and ample seating areas clustered around fountains and greenery.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) Regardless,
+C) Accordingly,
+D) By contrast,
+K: C
+E: His design choices follow as a result of his conception of the mall, so “Accordingly” fits.
+#22
+P: In his meta-analysis of recent studies of animal information cascades, Joseph S. McCormick presents several examples of adaptive cascades (i.e., information transfers that benefit a collective), including one that involves humpback whales. However, not all cascades are beneficial. ______ his meta-analysis cites one study that described how black-throated blue warblers followed flock-mates’ choice of habitat even when that habitat lacked adequate vegetative cover.
+Q: Which choice completes the text with the most logical transition?
+A) Instead,
+B) In response,
+C) Indeed,
+D) In addition,
+K: C
+E: The warbler study confirms the preceding claim that not all cascades are beneficial, so “Indeed” fits.
+#23
+P: As can be seen in the case of <i>The Dial</i>, a New York magazine published from July 1920 to July 1929, some small periodicals influential in the development of the modernist movement have been explored in depth by scholars. The London magazine <i>Voices</i> (1919), ______ remains among those modernist periodicals “of interest and significance about which relatively little is known,” according to scholars Peter Brooker and Andrew Thacker.
+Q: Which choice completes the text with the most logical transition?
+A) likewise,
+B) moreover,
+C) though,
+D) for instance,
+K: C
+E: “Though” signals the contrast between The Dial, which is well studied, and Voices, which remains little known.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Atoms in a solid state are ordered and cannot move freely; atoms in a liquid state are disordered and can move three-dimensionally.
+L: Under high pressure and heat, potassium forms an unusual dual structure: a solid lattice of atoms (the host) surrounds partially liquid atom chains (the guest).
+L: This hybrid state (chain melt) was previously thought to be a transitional phase between solid and liquid states.
+L: A 2019 study confirmed that even under extreme heat, the host structure remained solid while the guest structure did not become fully liquid.
+L: These guest atoms exhibited disorder but were confined to one-dimensional movement by the host.
+L: Chain melt was determined to be a stable, distinct state.
+Q: The student wants to explain why potassium is not fully liquid in a chain melt state. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) A chain-melt state involves a dual structure of a solid host lattice surrounding partially liquid chains of potassium atoms.
+B) In chain melt, some potassium atoms exhibit liquid-like disorder but remain confined by a solid lattice, preventing the free three-dimensional movement of a fully liquid state.
+C) A 2019 study confirmed that potassium atoms do not become fully liquid under high pressure and heat; instead, they enter chain melt, a transitional phase between solid and liquid states.
+D) Because potassium atoms remain disordered in chain melt even under extreme heat, they cannot reach a fully liquid state.
+K: B
+E: Choice B explains the reason: the solid host confines the guest atoms, so they lack the free three-dimensional movement of a liquid.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: In the 1940s, geneticist Barbara McClintock discovered mobile segments of DNA.
+L: McClintock called these segments “controlling elements,” but they are now commonly known as transposable elements (TEs).
+L: TEs are capable of altering gene expression as they change position within a cell’s genome.
+L: In 1950, geneticist Esther Lederberg discovered a process (the lysogenic cycle) by which bacteria-infecting viruses (phages) pass their genetic material to a host cell’s descendants.
+L: Phage DNA will enter a bacterial host cell and incorporate itself into the host cell’s genome.
+L: When the host cell divides, the phage DNA replicates along with the host’s DNA.
+Q: The student wants to compare McClintock’s discovery with Lederberg’s. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Like McClintock’s discovery, which revealed moving DNA segments within a cell’s genome, Lederberg’s discovery also involved DNA mobility, showing how phage DNA will enter a bacterial host cell and incorporate itself into the cell’s genome.
+B) Both McClintock and Lederberg were geneticists: McClintock found that phage DNA could be passed to bacterial host cells, and Lederberg identified DNA segments that can change position within genomes.
+C) McClintock’s and Lederberg’s discoveries provided insight into how phage DNA uses the lysogenic cycle to change position within the genome of a bacterial host cell.
+D) While McClintock first discovered DNA segments capable of altering gene expression, Lederberg’s discovery provided geneticists with a better understanding of how TEs move within host cells.
+K: A
+E: Choice A accurately compares both discoveries as involving DNA mobility, with correct details from the notes for each.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Grain was used as commodity money in ancient Sumer.
+L: In a commodity money economy, specific goods act as a common unit of monetary exchange that can be used to buy and sell other goods.
+L: In a barter economy, goods are traded directly between parties without the use of money.
+L: Economists Bruce Champ and Scott Freeman: bartering requires that “the person with whom you wish to trade must not only have what you want but also want what you have. The inefficiency is apparent; a great deal of time is spent merely finding someone with whom to trade.”
+L: Champ and Freeman: when “individuals might come to accept one particular good in exchange for others even if they do not wish to consume that good...barter economies essentially become monetary economies.”
+Q: The student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) According to Champ and Freeman, the inefficiencies of barter economies become apparent when goods are traded between parties without the use of money.
+B) The precise alignment of desires that barter economies require, Champ and Freeman contend, makes them inefficient.
+C) In a barter economy, Champ and Freeman contend, goods are traded directly between parties without the use of money, leading to inefficiency.
+D) Champ and Freeman argue that inefficient barter economies can become monetary economies if a good becomes a unit of exchange.
+K: B
+E: Choice B paraphrases the quoted point that both parties must want what the other has, which is why barter is inefficient.
+#27
+L: Vexillology is the study of flags.
+L: The flags of many countries include symbols like animals, plants, or landforms.
+L: These symbols often represent an aspect of the region’s history, culture, or landscape.
+L: The flag of Eritrea includes an olive branch.
+L: The flag of Croatia includes leopards.
+Q: Which choice most effectively uses information from the given sentences to emphasize a difference between the two flags?
+A) Many countries feature symbols on their flags, such as animals, plants, or landforms, and the study of these designs is known as vexillology.
+B) Countries like Eritrea and Croatia use symbols on their flags; examples include plants and animals.
+C) Vexillologists study flags, like those of Eritrea and Croatia.
+D) Eritrea includes a plant on its flag, whereas Croatia’s flag includes an animal.
+K: D
+E: Choice D contrasts the plant (olive branch) on Eritrea’s flag with the animal (leopards) on Croatia’s.
