@@ -31,7 +31,7 @@ export const MODES: { id: Mode; name: string; icon: typeof Timer; line: string; 
   },
 ]
 
-function ModeSheet({ test, onClose }: { test: TestMeta; onClose: () => void }) {
+export function ModeSheet({ test, onClose }: { test: TestMeta; onClose: () => void }) {
   const nav = useNavigate()
   const [mode, setMode] = useState<Mode>('exam')
   const minutes = test.minutesPerModule * test.modules
