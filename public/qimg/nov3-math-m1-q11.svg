@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Times New Roman, serif" font-size="22"><rect width="640" height="400" fill="#fff"/>
+<line x1="80" y1="140" x2="500" y2="140" stroke="#000" stroke-width="2"/>
+<line x1="80" y1="260" x2="500" y2="260" stroke="#000" stroke-width="2"/>
+<line x1="190" y1="30" x2="400" y2="370" stroke="#000" stroke-width="2"/>
+<text x="515" y="147" font-style="italic">ℓ</text><text x="515" y="267" font-style="italic">k</text><text x="170" y="30" font-style="italic">t</text>
+<text x="215" y="125" font-style="italic">x°</text><text x="255" y="245" font-style="italic">y°</text>
+<text x="320" y="392" font-size="15" text-anchor="middle">Note: Figure not drawn to scale.</text></svg>

@@ -1,0 +1,531 @@
+!id: dsat25-11-v1-rw
+!name: November 2025 · Version 1 · Reading & Writing
+!type: EBRW
+!year: 2025
+!month: 11
+!region: US & International
+!form: 1
+=M1
+#1
+P: A study by Augusta D. Gaspar and Joana Carneiro Pinto found that a bank’s corporate social responsibility (CSR) efforts, including environmental and social campaigns, improve its corporate image. When CSR was mentioned in bank marketing strategies, favorability scores assigned by study participants tended to ______ the scores assigned by participants when CSR wasn’t mentioned.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) identify
+B) disturb
+C) replace
+D) exceed
+K: D
+E: Since CSR improves corporate image, scores with CSR mentioned would be higher, so they tended to exceed the other scores.
+#2
+P: Researchers have long debated the origins of silver used in European coins from the 600s through the early 800s CE. Geochemical analysis by Kershaw et al. of 49 coins dating to 660–820 CE provides concrete evidence that reconciles two competing theories: early coins were made from Byzantine silver, and later coins used Frankish silver, findings that provide firm details in a previously ______ area of study.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) esoteric
+B) authoritative
+C) solitary
+D) speculative
+K: D
+E: The new findings give firm details where there had been only debate and competing theories, so the area was previously speculative.
+#3
+P: The following text is adapted from Alice Dunbar Nelson’s 1899 short story “The Fisherman of Pass Christian.” Pass Christian is a city in the US state of Mississippi.
+P: The swift breezes on the beach at Pass Christian meet and conflict as though each strove for the mastery of the air. The land-breeze blows down through the pines, resinous, fragrant, cold, bringing breath-like memories of dim, dark woods shaded by myriad pine-needles. The breeze from the Gulf is warm and soft and languorous, blowing up from the south with its suggestion of tropical warmth.
+Q: As used in the text, what does the word “mastery” most nearly mean?
+A) Familiarity
+B) Domination
+C) Comprehension
+D) Skillfulness
+K: B
+E: The breezes meet and conflict, each striving to control the air, so “mastery” means domination.
+#4
+P: Science fiction has long served as a ______ real-world technological advancements. Indeed, from Jules Verne’s 1865 novel <i>From the Earth to the Moon</i> inspiring developments in aerospace engineering to the television show <i>Star Trek</i> sparking the design of the ancestor of today’s smartphones, these narratives have spurred many actual innovations.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) diversion from
+B) catalyst of
+C) constraint to
+D) sponsor of
+K: B
+E: The examples show science fiction inspiring and spurring innovations, so it is a catalyst of them.
+#5
+P: Any effort to raise the toll that drivers must pay to use the Lewis and Clark Bridge, which spans the Ohio River to connect Indiana and Kentucky, should explain why a higher toll is necessary; no amount of justification, however, is likely to persuade some drivers who believe the current toll is ______.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) exorbitant
+B) contentious
+C) equivocal
+D) warranted
+K: A
+E: Drivers who resist any justification for a higher toll must already think the current toll is excessive, i.e., exorbitant.
+#6
+P: Moving beyond a simple “present or absent” designation, researchers created a new classification system that allows for a nuanced understanding of bioluminescence in marine organisms that was unavailable under binary classification systems. <u>The new six-point scale considers varying levels of supporting evidence used to identify bioluminescent species.</u> For example, the firefly squid scores 1 because of inconsistent reports, the emperor squid scores 4 because of its anatomical similarity to known luminous relatives, and the shaggy anglerfish scores 6 because of substantiated direct observations.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It emphasizes the thoroughness of the research conducted.
+B) It explains how the new classification system was derived from the previous binary system.
+C) It justifies the need for a new classification system for marine species.
+D) It explains the basis for the new system’s scoring criteria.
+K: D
+E: The sentence says the scale reflects levels of supporting evidence, which the examples then illustrate, so it explains the basis for the scoring.
+#7
+P: Postcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal’s lungs and air sacs inside its bones. These extensions are known as pneumatic diverticula. <u>Vascularity and other identifying characteristics of pneumatic diverticula tend not to fossilize,</u> so paleontologists have relied on studies of living bird species to document these qualities, augmenting their findings from fossil analysis to glean additional insights into the respiratory systems of extinct genera such as <i>Tyrannosaurus</i>, <i>Euhelopus</i>, and other Cretaceous theropods and sauropods that may have also exhibited PSP.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It presents information about the fossilization of pneumatic diverticula that has led paleontologists to question the applicability of studies of certain living species.
+B) It accounts for disagreements among paleontologists about how the respiratory systems of certain extinct genera functioned.
+C) It highlights an issue with fossils that previously led paleontologists to misidentify certain characteristics of pneumatic diverticula.
+D) It indicates why paleontologists have used another approach in addition to fossil analysis to learn about certain aspects of pneumatic diverticula.
+K: D
+E: Because these traits rarely fossilize, fossils alone are insufficient, which is why paleontologists also study living birds.
+#8
+P: Adult glass eels can be found off the coast of Maine, but the eels begin their lives in the Sargasso Sea, a biodiverse area in the North Atlantic Ocean where they are born and later return to breed. Though biologists believe they have identified the general area in the Sargasso Sea that is crucial to the endangered eels’ survival, little is yet known about how the animals spawn there. Scientists believe that solving the mystery will lead to better conservation of glass eels and their habitat, <u>helping in turn to sustain several other species that rely on them as a food source.</u>
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It suggests that scientists are more concerned about other species than about glass eels’ habitat.
+B) It indicates that the benefit of understanding glass eels’ spawning behavior extends beyond the eels.
+C) It discusses a role that glass eels and other species serve in supporting the ecosystem of the Sargasso Sea.
+D) It presents a finding from a study that identifies the circumstances required to ensure the survival of glass eels.
+K: B
+E: The underlined portion says that conserving glass eels would also help other species that feed on them, so the benefit extends beyond the eels.
+#9
+P: <i>Seesaw Girl</i> was Linda Sue Park’s debut novel. It was published in 1999. A debut novel is the first book that an author has published. Debut novels are especially interesting to literary critics (people whose job it is to evaluate books) and readers because these books offer a look at new voices in the literary world.
+Q: According to the text, what is someone who professionally evaluates books called?
+A) A book publisher
+B) A literary critic
+C) A bookseller
+D) An author
+K: B
+E: The text defines literary critics as people whose job it is to evaluate books.
+#10
+P: While doing research for a paper about metal exports, a student finds a table indicating how much copper was mined in each of four countries in 1995 and 2020. The student notes that in 1995, Mexico mined ______
+T: <table style="border-collapse:collapse"><caption>Millions of Metric Tons of Copper Mined in 1995 and 2020</caption><tr><th style="border:1px solid #000;padding:4px 10px">Country</th><th style="border:1px solid #000;padding:4px 10px">1995</th><th style="border:1px solid #000;padding:4px 10px">2020</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Indonesia</td><td style="border:1px solid #000;padding:4px 10px">0.44</td><td style="border:1px solid #000;padding:4px 10px">0.51</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Mexico</td><td style="border:1px solid #000;padding:4px 10px">0.33</td><td style="border:1px solid #000;padding:4px 10px">0.73</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Peru</td><td style="border:1px solid #000;padding:4px 10px">0.38</td><td style="border:1px solid #000;padding:4px 10px">2.15</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">United States</td><td style="border:1px solid #000;padding:4px 10px">1.85</td><td style="border:1px solid #000;padding:4px 10px">1.20</td></tr></table>
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) 0.38 million metric tons of copper.
+B) 0.33 million metric tons of copper.
+C) 1.85 million metric tons of copper.
+D) 0.44 million metric tons of copper.
+K: B
+E: The table lists Mexico’s 1995 figure as 0.33 million metric tons.
+#11
+P: Peter Pan is a 1911 novel by J.M. Barrie. In the fantasy novel, Peter is a young boy who can fly. He brings Wendy, John, and Michael to Neverland, the mythical island where he lives. The narrator suggests that activity on the island stops when Peter is away and starts again when he is about to return: ______
+Q: Which quotation from <i>Peter Pan</i> best supports the claim?
+A) “The rock was very small now.”
+B) “Wendy and John and Michael stood on tip-toe in the air to get their first sight of the island.”
+C) “Peter was alone on the lagoon.”
+D) “Feeling that Peter was on his way back, the Neverland had again woke into life.”
+K: D
+E: Only this quotation links Peter’s return to the island becoming active again.
+#12
+P: The Underdogs is a 1915 novel by Mariano Azuela, originally written in Spanish. In the novel, Azuela depicts the character Camilla as experiencing a change in how she perceives her immediate surroundings: ______
+Q: Which quotation from a translation of <i>The Underdogs</i> most effectively illustrates the claim?
+A) “Camilla stared up at the blue sky so [Luis] should not read the expression in her eyes.”
+B) “Camilla, standing on the beach of washed, round stones, caught a reflection of herself in the waters.”
+C) “All nature was as she had found it before, evening upon evening; but in the stones and the dry weeds, amid the fragrance of the air and the light whir of falling leaves, Camilla sensed a new strangeness, a vast desolation in everything about her.”
+D) “[Camilla] closed her eyes fast to hold back the tears that welled up in them. Then, with the back of her hand, she wiped her wet cheeks, and just as she had done three days ago, fled with all the swiftness of a young deer.”
+K: C
+E: Only choice C shows her sensing a new strangeness in surroundings that are otherwise unchanged.
+#13
+P: The Rarámuri language of northern Mexico has 20 vowel and consonant sounds. In contrast, the Taa language of southern Africa has over 100. Why would languages differ in this way? One researcher has claimed that when modern humans arose in Africa, they spoke a single language, but as humans gradually spread throughout Africa and then around the globe, that language developed into new languages. Those developed into still more languages as small bands of humans spread even farther, with each new language retaining fewer sounds from humanity’s original language.
+Q: Which finding, if true, would most directly weaken the researcher’s claim?
+A) A wider range of sounds is found across the languages of Africa as a whole than across the languages of South America as a whole.
+B) Languages that emerged in Europe and Western Asia tend to have more sounds than languages that emerged in Africa do.
+C) Languages that emerged in Central America tend to have fewer sounds than languages that emerged in Western Europe do, and Central America is farther away from Africa than Western Europe is.
+D) The number of sounds is fairly consistent across the various languages that emerged in the last parts of Africa to be settled by humans.
+K: B
+E: The claim predicts that languages farther from Africa have fewer sounds; languages from Europe and Western Asia having more sounds than African ones contradicts this.
+#14
+P: Antonia Olivia Dolan and colleagues had musicians and nonmusicians with clinically average hearing listen to recordings of nature sounds and music in popular genres like acoustic folk and funk and adjust the volume to optimize their listening enjoyment. The researchers found that for a given recording that a musician and nonmusician identified as their favorite among those included in the study, optimal volume tended to be higher for the musician than for the nonmusician. Thus, if a musician and nonmusician both identified Jose Gonzalez’s “Heartbeats” as their favorite recording and the musician preferred to listen to it at a volume of 82.2 decibels, the nonmusician would be expected to ______
+Q: Which choice most logically completes the text?
+A) find listening to “Heartbeats” at 82.2 decibels less enjoyable than listening to it at a lower volume.
+B) prefer listening to other music at 82.2 decibels over listening to “Heartbeats” at that volume.
+C) enjoy listening to the nature sounds at 82.2 decibels more than listening to “Heartbeats” at 82.2 decibels.
+D) not find it enjoyable to listen to any recordings at a volume as low as 82.2 decibels.
+K: A
+E: The nonmusician’s optimal volume for the same recording tends to be lower than 82.2 dB, so 82.2 dB would be less enjoyable than a lower volume.
+#15
+P: Outi Tervo and team studied the effect of human-caused noise on narwhals (<i>Monodon monoceros</i>), arctic marine mammals that are sensitive to acoustic changes in their environment. Hypothesizing that elevated sound levels affect foraging among narwhals, Tervo’s team compared narwhal diving behaviors in natural sound conditions with those behaviors in two human-caused sound exposure conditions—ship sounds and ship sounds coupled with sonic pulses. Both exposure conditions resulted in significant decreases in the number and target depth of deep dives (associated with foraging) relative to natural conditions. However, differences between diving behaviors in the two exposure types were negligible, a finding that could be attributed to the fact that ______
+Q: Which choice most logically completes the text?
+A) narwhals forage at shallower depths in the presence of ship sounds alone than in the presence of ship sounds coupled with sonic pulses.
+B) sonic pulses can be heard at significantly greater ocean depths than ship sounds can.
+C) the narwhals weren’t as sensitive to human-caused sounds as the researchers had predicted.
+D) ship sounds contribute so much to the overall sound level that the addition of sonic pulses has little effect on the narwhals’ auditory environment.
+K: D
+E: If ship sounds already raise the sound level so much, adding sonic pulses changes little, explaining the negligible difference between conditions.
+#16
+P: Many works of the Greek mathematician Euclid (3rd century BCE) are ______ his <i>Elements</i>, a treatise of mathematical knowledge, is an extant work: it can still be read.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) lost and conversely,
+B) lost, conversely,
+C) lost. Conversely,
+D) lost, and conversely
+K: C
+E: Two independent clauses need a period (or semicolon); “Conversely,” then starts the second sentence correctly.
+#17
+P: A 2024 study cataloged all the trees in Amsterdam to evaluate the biodiversity of the city’s urban forest. The researchers, finding that administrative unit GK13 had a 0.62 ratio of native to non-native trees, ______ efforts to improve the biodiversity of the trees in that unit and other areas with a similarly moderate ratio.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) recommended
+B) recommending
+C) to recommend
+D) having recommended
+K: A
+E: The sentence needs a finite verb for the subject “The researchers”; “recommended” is the only finite form.
+#18
+P: Growing as large as three meters in diameter, the leaves of the giant Amazonian waterlily feature a complex network of radiating veins that provide structural ______ in thickness from the center to the edges, these veins allow the leaves to maintain their large size and buoyancy with minimal material, optimizing light capture and photosynthesis.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) support. Decreasing
+B) support decreasing
+C) support, while decreasing
+D) support, decreasing
+K: A
+E: The first clause is complete and the part after the blank is a separate main-clause sentence with its own subject (“these veins”), so a period is needed before the modifier “Decreasing in thickness...”.
+#19
+P: ______ a US state when it ratified the US Constitution on December 12, 1787, was thereby empowered, via its representatives to the US Congress, to vote on whether to admit Louisiana as a state on April 30, 1812.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Pennsylvania would officially become
+B) Pennsylvania had officially become
+C) Pennsylvania officially became
+D) Pennsylvania, having officially become
+K: D
+E: The sentence’s only finite verb is “was ... empowered,” so the opening must be a subject with a nonfinite modifier: “Pennsylvania, having officially become a US state...”.
+#20
+P: Though largely eclipsed by her success as a novelist, Jessie Redmon Fauset’s contributions as literary editor of <i>The Crisis</i>, a New York City–based periodical whose influence was arguably at its peak during her Harlem Renaissance–era tenure, ______ in recent scholarship that explores Fauset’s instrumental role in shaping the magazine’s aesthetic and debuting the work of Langston Hughes and other emerging Black writers.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) has been revisited
+B) have been revisited
+C) revisited
+D) having been revisited
+K: B
+E: The subject is the plural “contributions,” so the verb must be plural: “have been revisited.”
+#21
+P: Resins play several important roles in maintaining the health of conifers and many other kinds of trees. ______ resins quickly seal wounds, which helps prevent harmful insects and fungi from entering trees. These sticky substances also help trees retain water that is needed for them to survive.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) However,
+C) Regardless,
+D) Next,
+K: A
+E: The sentence gives a specific example of the important roles mentioned before it.
+#22
+P: Giant dust plumes from the Sahara Desert that blow across the Atlantic Ocean can have complex and opposing effects on tropical cyclones. On one hand, the dust can enhance the formation of ice clouds in the cyclone’s core, increasing precipitation. ______ the dust can lower sea surface temperatures around the cyclone’s core, weakening the storm.
+Q: Which choice completes the text with the most logical transition?
+A) On the other hand,
+B) Previously,
+C) For example,
+D) In other words,
+K: A
+E: “On one hand” sets up the contrasting effect introduced by “On the other hand.”
+#23
+P: Elvis Presley’s iconic jumpsuit <i>Red Pinwheel</i> featured rhinestones arranged in pinwheel patterns. Historians note that adornments such as these added between twenty-five and fifty pounds to each of Elvis’s stage outfits. ______ the fabric used to make the outfits was light and flexible, enabling freedom of motion.
+Q: Which choice completes the text with the most logical transition?
+A) On the other hand,
+B) That is,
+C) For instance,
+D) There,
+K: A
+E: The heavy adornments contrast with the light, flexible fabric.
+#24
+P: In a 1998 study by Smith et al., the researchers used microhistological fecal analysis to determine the ratio of three plant subtypes (graminoids, forbs, and browse) within the diets of North American ungulates. The researchers did not perform this analysis on all such ungulates, ______ they focused exclusively on pronghorns and wild horses in New Mexico.
+Q: Which choice completes the text with the most logical transition?
+A) regardless;
+B) in other words;
+C) for instance;
+D) however;
+K: D
+E: The second clause contrasts with the first (not all ungulates, but only two species), and “however;” correctly joins the two independent clauses.
+#25
+P: Though its onboard laboratory allowed it to analyze rock samples on-site, the 2011 Mars Curiosity rover was unable to preserve samples for future analysis. ______ when creating the 2020 Mars Perseverance rover, robotics technologist Yumi Iwashita and other members of NASA’s Jet Propulsion Laboratory sought to implement a mechanism that could do exactly that.
+Q: Which choice completes the text with the most logical transition?
+A) Specifically,
+B) Earlier,
+C) Hence,
+D) Similarly,
+K: C
+E: Curiosity’s inability to preserve samples led to the effort to add that capability, a cause-and-effect relationship signaled by “Hence.”
+#26
+P: As Iestyn Barr and his team of researchers discovered when establishing the glacial timeline of Antarctica, the Transantarctic Mountains—a 3,500-km mountain range spanning the continent—are home to glaciers of at least 60 million years in age. ______ the researchers concluded, Antarctica had glaciers long before the formation of its continent-wide ice sheet 34 million years ago.
+Q: Which choice completes the text with the most logical transition?
+A) Thus,
+B) By contrast,
+C) Even so,
+D) Nevertheless,
+K: A
+E: The conclusion follows logically from the glaciers’ age of at least 60 million years, so “Thus” fits.
+#27
+P: Thomas Edison is regarded as one of the most important inventors in US history. Having received little formal schooling, Edison relied on specialist employees at his various laboratories and offices to complete the technical work for many of his inventions.
+P: William Joseph Hammer was a laboratory assistant who worked at the Menlo Park laboratory. He is best known for curating the most comprehensive collection of historic light bulbs anywhere in the world.
+P: William Symes Andrews was an electrical engineer who worked at the Edison Electric Light Company. He is best known for establishing more than thirty power plants across New York and Pennsylvania.
+Q: Which choice most effectively uses information from the given sentences to emphasize Edison’s reliance on Hammer?
+A) William Joseph Hammer, a laboratory assistant, worked at the Menlo Park laboratory.
+B) William Joseph Hammer, a laboratory assistant, was known for his valuable contribution to the field of technology.
+C) Most of Thomas Edison’s employees had successful careers independent of working for him; for example, William Joseph Hammer, who worked at the Menlo Park laboratory, was an accomplished laboratory assistant.
+D) Having received little formal education, Thomas Edison depended on specialized employees, including laboratory assistant William Joseph Hammer, for many of his inventions.
+K: D
+E: Only this choice ties Edison’s dependence on specialist employees to Hammer.
+=M2
+#1
+P: Louisa May Alcott contributed <i>A Modern Mephistopheles</i> to the No Name Series, a collection of novels published anonymously between 1876 and 1887. The series challenged readers to guess authors’ identities, reflecting the era’s fascination for literary mystery. This ______ approach to publishing allowed Alcott to experiment beyond her established style.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) preliminary
+B) clandestine
+C) unequivocal
+D) inexplicable
+K: B
+E: The series published novels anonymously, so the approach was secret, or clandestine.
+#2
+P: Though copies of <i>The Adventures of Indiana Jones in Wenceslas Square in Prague on January 16, 1989</i>—an underground computer game that was created anonymously in 1989 as an act of political protest against the authoritarian regime of what was then Czechoslovakia—were originally distributed ______, the game is now readily available online for anyone to play.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) surreptitiously
+B) disingenuously
+C) succinctly
+D) dispassionately
+K: A
+E: An underground, anonymous protest game would have been distributed secretly, contrasting with its open availability now.
+#3
+P: In their study of caterpillars in fragmented forests (formerly contiguous forests that have been broken into isolated patches by roads or other interruptions), Riley M. Anderson et al. stress that although fragmentation inevitably ______ alterations to local ecological processes, the changes will likely have a greater impact on <i>Nola triquetrana</i>, a specialist feeding on a limited number of plant species, than on a species like <i>Himella intractata</i> that feeds on several.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) engenders
+B) preempts
+C) subsumes
+D) attenuates
+K: A
+E: Fragmentation inevitably brings about, or engenders, alterations to ecological processes.
+#4
+P: Yuen Yuen Ang et al. argue that merely tallying the number of patents filed per year ______ the degree of innovation occurring: truly novel patents—those, like a 2011 patent for an automated navigation system for planes, that combine previously unaffiliated technological domains—are vastly outnumbered by nonnovel patents (e.g., a 2008 patent for a method of making soup).
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) belies
+B) portends
+C) thwarts
+D) maligns
+K: A
+E: A raw patent count gives a misleading picture of innovation, so it belies the actual degree of innovation.
+#5
+P: Magical realism, a style that weaves fantasy into realistic narratives, coalesced in Latin America in the 1960s. It is associated with Gabriel García Márquez, whose <i>One Hundred Years of Solitude</i> is a key text. The style was embraced by Mexican American writers, such as Ana Castillo, whose <i>So Far from God</i> draws on Mexican folktales as a source of fantasy. Yet <i>The Mixquiahuala Letters</i>, also by Castillo, features no fantastical plot events. <u>And despite his popular reputation, García Márquez himself wrote several works of strict realism, including <i>Chronicle of a Death Foretold</i>.</u>
+Q: Which choice best states the function of the underlined sentence?
+A) To identify an unrecognized point of similarity between <i>Chronicle of a Death Foretold</i> and <i>So Far from God</i>
+B) To suggest that Mexican American authors who were influenced by García Márquez may have, in turn, influenced him
+C) To refute the possible impression that García Márquez conformed to magical realism in all of his works
+D) To challenge the common assumption that <i>One Hundred Years of Solitude</i> is superior to realist works by García Márquez
+K: C
+E: The sentence notes that García Márquez also wrote strictly realist works, countering the idea that all his works are magical realist.
+#6
+P: <b>Text 1</b>
+P: Sidebells wintergreen (<i>Orthilia secunda</i>) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, Siberian peashrub (<i>Caragana arborescens</i>) plants have established themselves in Alaska. Previous research conducted in non-boreal ecosystems has documented warming-induced increases in summer temperatures benefiting invasive species more than native species.
+P: <b>Text 2</b>
+P: At a site near Fairbanks, Alaska, Christa Mulder and Katie Spellman tracked <i>O. secunda</i> and <i>C. arborescens</i>, along with other native and invasive species, over several years. They observed that although average summer temperatures were substantially higher in some years of the study than in others, neither <i>O. secunda</i> nor <i>C. arborescens</i> showed any significant variation in summer growth patterns from year to year.
+Q: Which choice best describes the relationship between the two texts?
+A) Text 2 describes a methodology that helps researchers avoid a problem encountered in the studies discussed in Text 1.
+B) Text 2 explains a study that suggests an alternative explanation for the trend observed in the research discussed in Text 1.
+C) Text 2 discusses an observation that challenges the validity of the findings described in Text 1.
+D) Text 2 presents a finding that casts doubt on the generalizability of the research discussed in Text 1.
+K: D
+E: Text 2 found no warming-related growth difference in boreal Alaska, suggesting the non-boreal findings may not generalize.
+#7
+P: Linguist John McWhorter asserts that translation apps for smartphones and computers are—despite generally failing to convey many nuances—increasingly obviating the need to learn new languages. Advances in language processing technology have greatly boosted the utility of these apps for perfunctory tasks, like inquiring about an item on a menu, and passing interactions; be that as it may, richer communication (e.g., in business dealings or meaningful personal exchanges) often hinges on conversational patterns and gradations of meaning.
+Q: What does the text most directly suggest about translation apps?
+A) They have improved remarkably over time but remain insufficient to support the complexity called for in certain interactions.
+B) They are coming to be embraced by international tourists but are viewed with skepticism by many business professionals.
+C) They are becoming simpler to use but are inconsistent in how comprehensively they cover different languages.
+D) They have gained impressive capabilities but continue to be widely viewed as inadequate for most practical purposes.
+K: A
+E: The apps have greatly improved for simple tasks, but richer communication depends on nuance they often fail to convey.
+#8
+P: Optimal foraging theory (OFT) holds that animals’ foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Mary V. Price and colleagues found to be negatively associated with foraging by white-throated woodrats but Simon Kenneth Bearder and colleagues found to be positively associated with foraging by Mohol bushbabies. This discrepancy is explicable in terms of OFT: the bushbabies’ greater reliance on vision means that higher lunar intensity benefits them more than it benefits the woodrats.
+Q: Information in the text best supports which statement about Mohol bushbabies?
+A) If increased lunar intensity imposed the same costs on the bushbabies that it imposes on white-throated woodrats, there would be no association between lunar intensity and the bushbabies’ foraging.
+B) If the advantages that the bushbabies gain from increased lunar intensity explain the change in their foraging behavior, those advantages are likely shared by some other species that are not heavily reliant on vision.
+C) If increased lunar intensity creates any disadvantages for the bushbabies, those disadvantages are more than compensated for by the advantages that the bushbabies gain.
+D) If the bushbabies’ foraging behavior under increased lunar intensity actually reflects a cost-benefit trade-off, their behavior should be more similar to that of white-throated woodrats than it is.
+K: C
+E: Bushbabies forage more under higher lunar intensity, so any costs must be outweighed by the benefits.
+#9
+P: <b>Effect of Various Soil Treatments on Mean Pineapple Fruit Weight and Size</b>
+T: <table border='1' cellpadding='4' style='border-collapse:collapse'><tr><th>Soil treatment</th><th>Weight (grams)</th><th>Length (centimeters)</th><th>Diameter (centimeters)</th></tr><tr><td>Control</td><td>825.9</td><td>6.14</td><td>13.63</td></tr><tr><td>Biochar</td><td>915.7</td><td>6.56</td><td>13.63</td></tr><tr><td>Compost</td><td>864.8</td><td>6.15</td><td>13.22</td></tr><tr><td>Biochar and compost</td><td>979.3</td><td>6.76</td><td>13.68</td></tr><tr><td>Biochar and NPK fertilizer</td><td>1032.1</td><td>6.78</td><td>13.96</td></tr></table>
+P: Working in Ghana, Emmanuel Hanyabui and colleagues compared the impact on pineapple growth of different combinations of soil additives, including NPK fertilizer (an inorganic fertilizer containing nitrogen, phosphorus, and potassium), organic compost, and biochar (a carbon-rich material produced from organic waste matter). Based on data in the table, pineapple farmers with no access to inorganic soil additives would likely increase the weight and size of their fruits by the greatest amount by using ______
+Q: Which choice most effectively uses data from the table to complete the text?
+A) biochar and NPK fertilizer.
+B) biochar and compost.
+C) biochar alone.
+D) compost alone.
+K: B
+E: Without NPK (inorganic), biochar and compost gives the highest weight (979.3 g) and length (6.76 cm) and diameter (13.68 cm).
+#10
+P: <b>Percentages of New Year's Resolution Makers Who Make Certain Kinds of Resolutions</b>
+T: <table border='1' cellpadding='4' style='border-collapse:collapse'><tr><th>Type of resolution</th><th>Age 18-29</th><th>Age 30-49</th><th>Age 50-64</th><th>Age 65+</th></tr><tr><td>Health and exercise</td><td>79</td><td>80</td><td>79</td><td>76</td></tr><tr><td>Finances</td><td>68</td><td>63</td><td>56</td><td>47</td></tr><tr><td>Personal relationships</td><td>63</td><td>53</td><td>58</td><td>52</td></tr><tr><td>Hobbies</td><td>65</td><td>53</td><td>51</td><td>45</td></tr></table>
+P: A Pew Research Center survey conducted in January 2024 found that three out of ten US adults make at least one New Year’s resolution (a promise for the year ahead), while half of those who make a resolution make more than one. The survey asked participants what kinds of resolutions they made and separated them into several categories. The table presents percentages of people who make particular kinds of New Year’s resolutions among those who choose to make them, indexed by age bracket.
+Q: Which choice best presents a conclusion about the habits of New Year’s resolution makers that is best supported by information in the text and the table?
+A) The majority of US adults who make resolutions related to health and exercise also make resolutions in multiple additional categories.
+B) Resolution makers between the ages of 50 and 64 are more likely to make resolutions related to personal relationships and less likely to make resolutions related to finances than resolution makers between the ages of 30 and 49 are.
+C) Among all US adults, people become less likely to make New Year’s resolutions as they age, regardless of the type of resolution.
+D) Resolution makers between the ages of 18 and 29 are more likely to make resolutions about health and exercise than resolution makers between the ages of 30 and 49 are.
+K: B
+E: For ages 50-64 vs 30-49, relationships are 58 vs 53 (higher) and finances 56 vs 63 (lower). Choice D is wrong (79 vs 80).
+#11
+P: Scholars cite <i>One Hundred Years of Solitude</i>, the 1967 novel by Colombian author Gabriel García Márquez, as a foundational text of magical realism, the Latin American style of fiction in which antirealistic plot devices—often borrowed from the spiritual and narrative traditions of Indigenous and colonial societies in the Americas—are deployed in an otherwise realistic mode of representation typical of the modern novel. This style has exerted a decisive influence on authors in the United States, including Toni Morrison, <u>whose 1987 novel <i>Beloved</i> resembles classic magical realist novels in its juxtaposition of literary realism with long-established cultural traditions—namely, those of the Black American community.</u>
+Q: Which quotation from a literary scholar would most directly support the claim in the underlined portion of the text?
+A) “Much of the interest of <i>Beloved</i> derives from the productive tension between its competing influences—namely, Black American cultural traditions and the magical realism of Latin America.”
+B) “The cultural traditions of the Black American community, which figure so prominently in the magical realist tradition of Latin America, permit realistic as well as antirealistic scenarios—much as <i>Beloved</i> does.”
+C) “Even though <i>Beloved</i> alternates between realistic and antirealistic modes of representation, the influence of Black American cultural traditions remains constant throughout the novel.”
+D) “Although much of <i>Beloved</i> conforms to the conventions of realistic fiction, Toni Morrison also incorporates elements drawn from Black American cultural traditions that transcend and expose the limitations of realism.”
+K: D
+E: D shows Beloved pairing a realistic mode with antirealistic elements from Black American traditions, matching the magical realist juxtaposition described.
+#12
+P: Duckweed is a small freshwater plant that is often exposed to zinc pollution. Sofia Vámos and colleagues collected samples of four duckweed ecotypes (genetically and geographically distinct populations within a species), along with water from each ecotype’s habitat. Hypothesizing that each ecotype is adapted to its local conditions in ways that bolster its growth and resistance to pollutants, the researchers grew each ecotype in all four water samples and with three levels of zinc (none, low, high). (The researchers did not replicate local differences in light or temperature.) They found that the ecotypes grew equally well in all four water samples and that adding zinc consistently enhanced growth, regardless of concentration, suggesting that ______
+Q: Which choice most logically completes the text?
+A) if each ecotype is indeed locally adapted as the researchers hypothesized, those adaptations are to other environmental conditions than the water each ecotype inhabits.
+B) while the ecotypes are genetically and geographically distinct, those differences do not represent adaptations to local environmental conditions.
+C) there may not be significant differences in the water that each ecotype inhabits, but there are significant differences in each ecotype’s resistance to zinc pollution.
+D) although the researchers’ hypothesis does not appear to be supported, this may be because the levels of zinc exposure the plants in the experiment received did not match their exposure in their natural environments.
+K: A
+E: Light and temperature were not replicated, so any local adaptation could be to those conditions rather than to the water.
+#13
+P: As juveniles, all white-necked jacobin hummingbirds display vibrantly blue head plumage; when they enter adulthood, males retain these blue feathers and most females molt to a drab green hue. However, 28% of adult female jacobins remain identical in coloration to juveniles and adult males. Based on field observations in Panama, a team of researchers reports that while adult males show a clear preference in mate selection for adult females with drab green feathers, they also engage in more antagonistic behavior toward those adult females than toward blue-feathered adult females when competing for resources. Therefore, the team hypothesizes that ______
+Q: Which choice most logically completes the text?
+A) the percentage of blue-feathered females will increase until fewer than half of adult female jacobins are green-feathered.
+B) the occurrence of blue head plumage in adult female jacobins is driven by one or more factors not associated with mate attraction.
+C) coloration prevents green-feathered adult female jacobins from distinguishing between adult males and blue-feathered adult females.
+D) adult male jacobins do not act antagonistically toward juvenile jacobins with blue head plumage when competing for resources.
+K: B
+E: Males prefer green females as mates, so blue plumage persists in some females for reasons other than attracting mates (such as reduced male antagonism).
+#14
+P: In Puerto Rico, it’s not unusual for a city or town to be known by a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief export. For example, the Puerto Rican municipality of Manatí is well known for its history as a cultural center in the early 20th ______ this distinction has earned it the fitting nickname of “the Athens of Puerto Rico.”
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) century and
+B) century
+C) century,
+D) century;
+K: D
+E: Two independent clauses are joined by a semicolon.
+#15
+P: Working on an unimaginably small scale of billionths of a meter, nanoengineers have found ways to leverage palladium ______ to facilitate energy generation in fuel cells.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) nanoparticles properties
+B) nanoparticle’s properties
+C) nanoparticles’ properties’
+D) nanoparticles’ properties
+K: D
+E: The plural possessive “nanoparticles’” modifies “properties,” which needs no apostrophe.
+#16
+P: Bertie Marshall, a key figure in the history of steel band music in Trinidad and Tobago, made several innovations to the steel ______ wheels so the instrument could be easily transported during Carnival, a cover to protect the pans from the sun, and amplification so the sound of the pans could be better heard over large crowds and other instrumentation.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) drum,
+B) drum:
+C) drum
+D) drum;
+K: B
+E: A colon follows the complete clause to introduce the list of innovations.
+#17
+P: In a chemical equation, the value known as molar mass is useful for converting between the mass of the reactants and the mass of the product. The liquid ______ have molar masses of 186.06 and 78.12 g/mol, respectively.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) compounds, hexafluorobenzene (C<sub>6</sub>F<sub>6</sub>) and benzene (C<sub>6</sub>H<sub>6</sub>),
+B) compounds hexafluorobenzene (C<sub>6</sub>F<sub>6</sub>) and benzene (C<sub>6</sub>H<sub>6</sub>),
+C) compounds, hexafluorobenzene (C<sub>6</sub>F<sub>6</sub>) and benzene (C<sub>6</sub>H<sub>6</sub>)
+D) compounds hexafluorobenzene (C<sub>6</sub>F<sub>6</sub>) and benzene (C<sub>6</sub>H<sub>6</sub>)
+K: D
+E: The names are essential to identify which liquid compounds, so no commas separate them from “compounds” or from the verb.
+#18
+P: The statement “all tarantulas are venomous” is scientific because it could be proved false by a single observation to the contrary, according to Karl Popper. Popper’s theory ______ that scientific hypotheses must be refutable, termed the criterion of falsifiability, rejects the confirmationist position that uses verifiability as the standard for scientific hypotheses.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) was dictating
+B) dictated
+C) dictating
+D) dictates
+K: C
+E: "Rejects" is already the main verb of the sentence, so the blank needs a participle ("dictating"), not a second finite verb.
+#19
+P: Geologist and scholar John Bostock joined with 55 other prominent British writers in 1837 to petition the US Congress for greater copyright protections. This cadre of renowned ______ that American publishers’ appropriation of their work caused, in the words of the petition, “deep and extensive injuries...on their reputation and property,” helped sow the seeds for the International Copyright Act of 1891.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) authors asserted
+B) authors were asserting
+C) authors, had asserted
+D) authors, asserting
+K: D
+E: “Authors, asserting that...property,” is a participial phrase set off by commas; “helped” is the main verb of the sentence.
+#20
+P: In 2003, some 393 years after Galileo Galilei and Simon Marius independently discovered Jupiter’s four largest moons (Io, Europa, Ganymede, and Callisto), scientists discovered the moon Helike in orbit around Jupiter. ______ researchers have discovered eighty moons orbiting Jupiter.
+Q: Which choice completes the text with the most logical transition?
+A) To date,
+B) For example,
+C) In other words,
+D) Rather,
+K: A
+E: The sentence gives the current total, so “To date” fits.
+#21
+P: The Hornbostel-Sachs system classifies musical instruments by how they produce sound. For example, an instrument that is popular in Norway called the hardingfele produces sound primarily through the vibration of its strings. ______ under the Hornbostel-Sachs system, the hardingfele is a chordophone.
+Q: Which choice completes the text with the most logical transition?
+A) Instead,
+B) Furthermore,
+C) Thus,
+D) Similarly,
+K: C
+E: The classification follows as a result of how the instrument produces sound.
+#22
+P: Brain imaging research led by neuroscientist Dwaynica Greaves found that actors showed suppressed responses in the left anterior prefrontal cortex (the portion of the brain associated with self-awareness) when their names were called during performances; ______ the actors’ responses were normal in nonacting contexts. These findings suggest that when embodying characters, performers may temporarily set aside their personal identities.
+Q: Which choice completes the text with the most logical transition?
+A) conversely,
+B) specifically,
+C) likewise,
+D) thus,
+K: A
+E: Suppressed responses during performance contrast with normal responses outside of acting.
+#23
+P: While researching a topic, a student has taken the following notes:
+L: The Highpointers Club is a hiking club.
+L: One of the main goals among club members is to reach the highest points in all fifty US states.
+L: Those who achieve this are called 50 Completers.
+L: In Suk Han became a 50 Completer on November 15, 2013.
+L: The highest point in West Virginia is Spruce Knob, at 4,863 ft.
+L: The highest point in Colorado is Mount Elbert, at 14,440 ft.
+Q: Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?
+A) Hikers aiming to count themselves among the 50 Completers must reach not only West Virginia’s Spruce Knob but also the even higher peak of Mount Elbert in Colorado.
+B) Not until after you have reached the highest points in all fifty US states—including Spruce Knob in West Virginia and Mount Elbert in Colorado—can you include yourself among the 50 Completers of the Highpointers Club.
+C) If you are looking for a new hiking challenge, consider joining the Highpointers Club, as did In Suk Han, a hiker who successfully reached the highest point in every US state.
+D) On November 15, 2013, In Suk Han finally completed the feat of reaching the highest point in all fifty US states, including Spruce Knob in West Virginia and Mount Elbert in Colorado.
+K: B
+E: B explains what the challenge is and who counts as a 50 Completer.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Antonio Stradivari (1644–1737) was an Italian instrument maker.
+L: He made about 1,000 violins in his lifetime.
+L: Musicians prize his Stradivarius violins for their famed sound quality.
+L: The Marie Hall Stradivarius is named for former owner Marie Hall, a British violinist.
+Q: Which choice most effectively uses information from the given sentences to introduce Marie Hall to a new audience?
+A) Of the 1,000 or so violins Antonio Stradivari made, only about 500 exist today.
+B) Marie Hall was a British violinist who once owned a Stradivarius violin.
+C) The Marie Hall Stradivarius is named after Marie Hall.
+D) Born in 1644, Antonio Stradivari was an Italian instrument maker whose violins are famous for their quality.
+K: B
+E: B introduces Marie Hall herself and her connection to a Stradivarius.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Louis Ballard was a classical composer and citizen of the Quapaw Tribe.
+L: Ballard’s composition <i>Desert Trilogy</i> was nominated for the Pulitzer Prize in music in 1971.
+L: His composition <i>Washington Festival Suite</i> incorporates a Pueblo log drum, a traditional Native instrument.
+L: Ethnomusicologist Tara Browner claims that Ballard’s compositions rely on elements originating within Native musical traditions.
+Q: The student wants to support Browner’s claim about Louis Ballard’s compositions. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) According to Browner, composer Louis Ballard, who wrote <i>Desert Trilogy</i>, relies on elements with origins in Native musical traditions.
+B) Browner posits that Louis Ballard’s compositions rely on elements originating within Native musical traditions; <i>Washington Festival Suite</i> affirms this assertion, incorporating a Pueblo log drum.
+C) Classical composer Louis Ballard, who wrote <i>Washington Festival Suite</i>, was nominated for the Pulitzer Prize in music in 1971.
+D) Browner claims that Louis Ballard’s compositions, one of which was nominated for the Pulitzer Prize, rely on elements originating within Native musical traditions.
+K: B
+E: B states the claim and supports it with the Pueblo log drum example.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Suzanne K. Birner led a study analyzing rocks on the seafloor to better understand the history of Earth’s mantle.
+L: Rock samples were collected from two seafloor ridges.
+L: The researchers determined the samples’ period of formation (the Archean eon) and oxidation level (extremely low).
+L: High temperatures in the Archean likely caused the rocks’ low oxidation.
+L: Birner’s team suggests the oxidation of Earth’s mantle has remained stable over time, contrary to previous theories.
+L: The findings help explain the unique conditions that allowed life to develop on Earth.
+Q: The student wants to present the study’s research methods. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) To further analyze the origins of Earth’s unique conditions, researchers focused on rocks from the Archean eon, when Earth’s temperatures were extremely high.
+B) Birner’s team analyzed the age and oxidation levels of rock samples collected from two seafloor ridges.
+C) Birner led a study to better understand the history of Earth’s mantle and explain the conditions that allowed life to develop.
+D) By studying these ancient rocks, the team aimed to challenge previous theories about changes in Earth’s mantle over time.
+K: B
+E: B describes what the researchers did: sampled two ridges and analyzed age and oxidation level.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Leaders of the Province of Guatemala proclaimed independence for Central America from the Spanish Empire on September 15, 1821.
+L: The accompanying Declaration of Independence was written by Honduran scholar and politician José Cecilio del Valle.
+L: The 1812 Spanish Constitution had provided some degree of independence for Central America, but it was repealed by the Spanish king in 1814.
+L: Valle, a loyal advisor to the Spanish Empire’s administrators in Central America, had long opposed independence.
+L: He changed his mind after Colonel Rafael del Riego’s 1820 revolt, which demanded the return of rights lost in 1814.
+Q: The student wants to place the 1821 Declaration of Independence in the context of Valle’s changing political beliefs. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) A change in Valle’s political beliefs that occurred when the Spanish king repealed the 1812 constitution led to Valle writing Central America’s Declaration of Independence.
+B) Long an opponent of Central American independence, Valle changed his mind after an 1820 revolt and wrote the 1821 declaration.
+C) The writing of Central America’s Declaration of Independence may not have happened were it not for Colonel Riego’s 1820 revolt.
+D) Colonel Riego’s revolt was the inspiration that Valle, a long-standing opponent of Central American independence, needed to change his political beliefs.
+K: B
+E: B links the 1821 declaration to Valle’s shift from opposing independence to supporting it after the 1820 revolt.

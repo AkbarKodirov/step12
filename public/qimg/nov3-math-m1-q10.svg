@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Times New Roman, serif" font-size="22"><rect width="640" height="400" fill="#fff"/>
+<polygon points="110,310 480,310 480,60" fill="none" stroke="#000" stroke-width="3"/>
+<polyline points="462,310 462,292 480,292" fill="none" stroke="#000" stroke-width="2"/>
+<text x="425" y="110" font-size="18">58°</text>
+<text x="270" y="340" font-style="italic">a</text><text x="495" y="195" font-style="italic">b</text><text x="270" y="170" font-style="italic">c</text>
+<text x="320" y="380" font-size="15" text-anchor="middle">Note: Figure not drawn to scale.</text></svg>

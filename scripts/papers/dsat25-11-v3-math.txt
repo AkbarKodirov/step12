@@ -1,0 +1,347 @@
+!id: dsat25-11-v3-math
+!name: November 2025 · Version 3 · Math
+!type: MATH
+!year: 2025
+!month: 11
+!region: US & International
+!form: 3
+=M1
+#1
+Q: The function <i>g</i> is defined by g(<i>x</i>) = 4<i>x</i> + 2. What is the value of g(<i>x</i>) when <i>x</i> = 2?
+A) 0
+B) 2
+C) 4
+D) 10
+K: D
+E: g(2) = 4(2) + 2 = 10.
+#2
+Q: An event planner is planning an ice-skating event. It costs the event planner a onetime fee of $35 to rent the skating rink and $15.25 per attendee. The event planner has a budget of $225. What is the greatest number of attendees possible without exceeding the budget?
+K: 12
+E: 35 + 15.25n ≤ 225 gives n ≤ 190/15.25 ≈ 12.46, so the greatest whole number of attendees is 12.
+#3
+Q: Which expression is equivalent to 42<i>x</i>^3 + 7<i>x</i>?
+A) 7<i>x</i>(6 + 7<i>x</i>)
+B) 7<i>x</i>(6<i>x</i>^2 + 1)
+C) 7<i>x</i>^2(6 + 7<i>x</i>)
+D) 7<i>x</i>^2(6<i>x</i> + 1)
+K: B
+E: Factor out 7x: 42x^3 + 7x = 7x(6x^2 + 1).
+#4
+Q: For a certain rectangle, the ratio of the width to the length is 1 to 2. If the width of the rectangle is 67 centimeters, what is the length, in centimeters, of the rectangle?
+K: 134
+E: The length is twice the width, so 2 × 67 = 134.
+#5
+I: /qimg/nov3-math-m1-q5.svg
+Q: The scatterplot shows the relationship between the square footage of 12 clothing stores and their annual sales, in millions of dollars. According to the trend shown by the data, which of the following is the best prediction for the annual sales, in millions of dollars, of a clothing store that is 4 thousand square feet?
+A) 4.1
+B) 5.4
+C) 7.5
+D) 10.2
+K: C
+E: The trend rises from about 4 to 5.7 near x = 3 and to about 8 near x = 5; at x = 4 the trend line is at about 7.5.
+#6
+Q: <i>y</i> = 2,600(<i>a</i>)^<i>x</i>
+Q: The given equation, where <i>a</i> is a positive constant, gives the predicted number of bacteria, <i>y</i>, in a growth medium <i>x</i> hours after the number of bacteria was initially measured. According to the equation, what was the predicted number of bacteria initially measured in the growth medium?
+K: 2600
+E: Initially x = 0, so y = 2,600(a)^0 = 2,600.
+#7
+Q: If 6<i>x</i> − 8 = 4, what is the value of 6<i>x</i> + 8?
+A) −4
+B) 2
+C) 10
+D) 20
+K: D
+E: 6x − 8 = 4 gives 6x = 12, so 6x + 8 = 20.
+#8
+Q: A number <i>f</i> is 120% greater than a positive number <i>g</i>. A number <i>h</i> is 90% less than the number <i>f</i>. The number <i>h</i> is how many times the number <i>g</i>?
+A) 0.12
+B) 0.22
+C) 1.08
+D) 1.98
+K: B
+E: f = 2.2g and h = 0.1f = 0.1(2.2g) = 0.22g.
+#9
+Q: A certain university's research farm is 1,000 acres, of which 71 acres contain rice. What percentage of the acres of this research farm contain rice?
+A) 0.71%
+B) 7.1%
+C) 71%
+D) 710%
+K: B
+E: 71/1,000 = 0.071 = 7.1%.
+#10
+I: /qimg/nov3-math-m1-q10.svg
+Q: In the right triangle shown, <i>a</i>, <i>b</i>, and <i>c</i> are positive constants. For an acute angle <i>D</i>, sin <i>D</i> = (<i>b</i>)/(<i>c</i>). What is the measure of angle <i>D</i>, in degrees?
+K: 32
+E: Side b is adjacent to the 58° angle, so b/c = cos 58° = sin(90° − 58°) = sin 32°. Thus D = 32.
+#11
+I: /qimg/nov3-math-m1-q11.svg
+Q: In the figure shown, lines ℓ and <i>k</i> are parallel and line <i>t</i> intersects both lines. If <i>x</i> > 134, which of the following must be true?
+A) <i>y</i> < 46
+B) <i>y</i> > 46
+C) <i>x</i> + <i>y</i> < 180
+D) <i>x</i> + <i>y</i> > 180
+K: A
+E: Since x > 134, its supplementary angle is less than 46°; y is related to x by parallel lines and equals that supplementary angle, so y < 46.
+#12
+Q: Line <i>t</i> in the <i>xy</i>-plane has a slope of (1)/(8) and passes through the point (32, −7). Which equation defines line <i>t</i>?
+A) <i>y</i> = −11<i>x</i> + (1)/(8)
+B) <i>y</i> = (<i>x</i>)/(8) − 11
+C) <i>y</i> = (<i>x</i>)/(8) − 7
+D) <i>y</i> = 32<i>x</i> − 7
+K: B
+E: With slope 1/8, y = x/8 + b. Substituting (32, −7) gives −7 = 4 + b, so b = −11.
+#13
+I: /qimg/nov3-math-m1-q13.svg
+Q: The graph of the function <i>f</i>, where <i>y</i> = <i>f</i>(<i>x</i>), gives the total cost <i>y</i>, in dollars, for a certain video game system and <i>x</i> games. What is the best interpretation of the slope of the graph in this context?
+A) Each game costs $16.
+B) The video game system costs $16.
+C) Each game costs $50.
+D) The video game system costs $50.
+K: A
+E: The line goes from (0, 50) to (10, 210), so the slope is 160/10 = 16 dollars per game; the y-intercept 50 is the system's cost.
+#14
+Q: What is the radius of the circle in the <i>xy</i>-plane defined by (<i>x</i> + 2)^2 + (<i>y</i> + 6)^2 = 361?
+K: 19
+E: The radius squared is 361, so the radius is √(361) = 19.
+#15
+Q: <i>x</i>^2 + <i>y</i>^2 = 1,088
+Q: <i>y</i> − 4<i>x</i> = 0
+Q: A solution to the given system of equations is (<i>x</i>, <i>y</i>), where <i>x</i> < 0. What is the value of <i>y</i>?
+A) −256
+B) −32
+C) −8
+D) −4
+K: B
+E: Substituting y = 4x gives 17x^2 = 1,088, so x^2 = 64 and x = −8 (since x < 0). Then y = 4(−8) = −32.
+#16
+Q: <i>f</i>(<i>x</i>) = 10(<i>x</i>^2 + 47)
+Q: What is the minimum value of the given function?
+A) 0.1
+B) 4.7
+C) 10
+D) 470
+K: D
+E: x^2 is at least 0, so the minimum occurs at x = 0: f(0) = 10(47) = 470.
+#17
+Q: The function <i>j</i> is defined by <i>j</i>(<i>x</i>) = (10<i>x</i> + 5)/(3<i>p</i>), and the function <i>k</i> is defined by <i>k</i>(<i>x</i>) = (<i>j</i>(<i>x</i>) · <i>p</i>)/(<i>x</i> + 1), where <i>p</i> is a positive constant. What is the value of <i>k</i>(9)?
+A) (19)/(6)
+B) (10)/(3)
+C) (95)/(13)
+D) (85)/(3)
+K: A
+E: j(9) = 95/(3p), so k(9) = (95/(3p) · p)/10 = 95/30 = 19/6.
+#18
+Q: In the <i>xy</i>-plane, which of the following does NOT contain any points that are part of the solution set to 7<i>x</i> − 6<i>y</i> > 42?
+A) The <i>x</i>-axis
+B) The region where <i>x</i> > 0 and <i>y</i> > 0
+C) The region where <i>x</i> < 0 and <i>y</i> < 0
+D) The region where <i>x</i> < 0 and <i>y</i> > 0
+K: D
+E: If x < 0 and y > 0, then 7x − 6y is negative and can never exceed 42. The other regions contain solutions (e.g., (10, 0), (10, 1), (−1, −10)).
+#19
+Q: 3<i>x</i> + 2<i>y</i> = 10
+Q: 18<i>x</i> + 12<i>y</i> = 60
+Q: How many solutions does the given system of equations have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+E: The second equation is 6 times the first, so the equations describe the same line and there are infinitely many solutions.
+#20
+Q: (|4<i>x</i> − 48| + 4)/(8) = 6
+Q: What is the sum of the solutions to the given equation?
+A) 1
+B) 23
+C) 24
+D) 48
+K: C
+E: |4x − 48| = 44, so 4x − 48 = ±44 and x = 23 or x = 1. The sum is 24.
+#21
+Q: A beekeeper's initial observation of the population of a certain bee colony was 1,600 bees. The beekeeper set a goal to increase the population to 2,975 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,600 and increases by 110 bees per week in the first two weeks after the initial observation, and then increases by 165 bees per week until the beekeeper's goal is reached. According to this model, at the end of week <i>w</i> after the initial observation, where <i>w</i> > 2, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?
+A) p(<i>w</i>) = −110 + 165<i>w</i>
+B) p(<i>w</i>) = 1,485 − 165<i>w</i>
+C) p(<i>w</i>) = 2,865 + 165<i>w</i>
+D) p(<i>w</i>) = 2,975 − 165<i>w</i>
+K: B
+E: After 2 weeks the population is 1,600 + 220 = 1,820. At week w it is 1,820 + 165(w − 2) = 1,490 + 165w, so the bees still needed are 2,975 − (1,490 + 165w) = 1,485 − 165w.
+#22
+Q: The quadratic equation (2<i>x</i> − 64)^2 = <i>a</i>, where <i>a</i> is a constant, has exactly one real solution. What is the value of <i>a</i>?
+K: 0
+E: A squared expression equals a single value only when that value is 0, so a = 0 (giving x = 32).
+=M2
+#1
+Q: The equation <i>d</i> = 20<i>w</i> + 100 gives the total amount of money <i>d</i>, in dollars, that Janna plans to save <i>w</i> weeks after she starts to save. What is the total amount of money, in dollars, she plans to save in 10 weeks?
+A) 250
+B) 300
+C) 350
+D) 400
+K: B
+E: Substitute w = 10: d = 20(10) + 100 = 300.
+#2
+Q: x + 2y = 28
+Q: 2y = 15
+Q: The solution to the given system of equations is (<i>x</i>, <i>y</i>). What is the value of <i>x</i>?
+K: 13
+E: Substitute 2y = 15 into the first equation: x + 15 = 28, so x = 13.
+#3
+Q: <i>b</i>^2 + 5<i>c</i> = 6<i>d</i>
+Q: The given equation relates the real numbers <i>b</i>, <i>c</i>, and <i>d</i>, where <i>d</i> > (5)/(6)<i>c</i>. Which equation correctly expresses <i>b</i> in terms of <i>c</i> and <i>d</i>?
+A) <i>b</i> = (6<i>d</i> − 5<i>c</i>)/(2)
+B) <i>b</i> = (6<i>d</i> + 5<i>c</i>)/(2)
+C) <i>b</i> = ±√(6<i>d</i> − 5<i>c</i>)
+D) <i>b</i> = ±√(6<i>d</i> + 5<i>c</i>)
+K: C
+E: Subtract 5c from both sides to get b^2 = 6d − 5c, then take the square root of both sides (positive and negative roots). The condition d > 5c/6 makes 6d − 5c positive.
+#4
+I: /qimg/nov3-math-m2-q4.svg
+Q: The area of triangle <i>ABC</i> is 210 square centimeters. What is the height <i>h</i>, in centimeters, of this triangle?
+A) 10
+B) 21
+C) 42
+D) 84
+K: C
+E: Area = (1/2)(base)(height), so 210 = (1/2)(10)h = 5h, giving h = 42.
+#5
+Q: <i>g</i>(<i>x</i>) = 2(14<i>x</i> − 15)
+Q: What is the <i>y</i>-coordinate of the <i>y</i>-intercept of the graph of <i>y</i> = <i>g</i>(<i>x</i>) − 5 in the <i>xy</i>-plane?
+A) −35
+B) −30
+C) −20
+D) −15
+K: A
+E: At x = 0, y = g(0) − 5 = 2(−15) − 5 = −35.
+#6
+P: The table shows the distribution of people in a certain city by age group.
+T: <table><tr><th>Age group</th><th>Proportion</th></tr><tr><td>Less than 18 years old</td><td>28%</td></tr><tr><td>18–40 years old</td><td>24%</td></tr><tr><td>41–65 years old</td><td>22%</td></tr><tr><td>Greater than 65 years old</td><td>26%</td></tr></table>
+Q: If a person in this city is selected at random, which of the following is closest to the probability of selecting a person who is greater than 65 years old, given that the person is at least 18 years old?
+A) 0.26
+B) 0.36
+C) 0.46
+D) 0.93
+K: B
+E: People at least 18 make up 24% + 22% + 26% = 72%, so the probability is 26/72 ≈ 0.36.
+#7
+Q: <i>h</i>(<i>t</i>) = −16<i>t</i>^2 + <i>b</i>
+Q: The function <i>h</i> estimates an object's height, in feet, above the ground <i>t</i> seconds after the object is dropped, where <i>b</i> is a constant. The function estimates that the object is 23.04 feet above the ground when it is dropped at <i>t</i> = 0. How many seconds after being dropped does the function estimate the object will hit the ground?
+K: 1.2 | 6/5
+E: h(0) = b = 23.04. Setting −16t^2 + 23.04 = 0 gives t^2 = 1.44, so t = 1.2.
+#8
+Q: The length of a rectangle's diagonal is √(106), and the length of one of the rectangle's sides is 9. What is the perimeter of the rectangle?
+A) 106
+B) 45
+C) 28
+D) 14
+K: C
+E: The other side is √(106 − 81) = 5, so the perimeter is 2(9 + 5) = 28.
+#9
+Q: Circle <i>A</i>: (<i>x</i> − 7)^2 + (<i>y</i> − <i>p</i>)^2 = 21
+Q: Circle <i>B</i>: (<i>x</i> + 7)^2 + (<i>y</i> − <i>p</i>)^2 = 21
+Q: In the given equations, <i>p</i> is a positive constant. Which statement correctly compares the graphs of circles <i>A</i> and <i>B</i> in the <i>xy</i>-plane?
+A) Circle <i>B</i> is the reflection of circle <i>A</i> across the <i>x</i>-axis.
+B) Circle <i>B</i> is the reflection of circle <i>A</i> across the <i>y</i>-axis.
+C) Circle <i>B</i> is the translation of circle <i>A</i> 14 units up.
+D) Circle <i>B</i> is the translation of circle <i>A</i> 14 units to the right.
+K: B
+E: Circle A has center (7, p) and circle B has center (−7, p), with equal radii. Mirroring across the y-axis sends (7, p) to (−7, p).
+#10
+Q: <i>a</i>(9 − <i>x</i>) = 36 − 4<i>x</i>
+Q: In the given equation, <i>a</i> is a constant. The equation has exactly one solution. Which of the following CANNOT be the value of <i>a</i>?
+A) 1
+B) 4
+C) 9
+D) 36
+K: B
+E: Rewrite as (4 − a)x = 36 − 9a. If a = 4 this becomes 0 = 0, which has infinitely many solutions; any other a gives exactly one solution.
+#11
+Q: <i>a</i>, 26, 29, <i>b</i>, 33, 49, <i>c</i>
+Q: For the given data set, the data values are listed in ascending order, where <i>a</i>, <i>b</i>, and <i>c</i> are constants. For this data set, the mean is 36, the median is 29, and the range is 72. What is the value of <i>c</i>?
+A) 53
+B) 72
+C) 79
+D) 98
+K: C
+E: The median is the 4th value, so b = 29. The sum is 7(36) = 252, so a + c = 252 − 137 − 29 = 86; with c − a = 72 this gives c = 79.
+#12
+Q: <i>y</i> = 3((<i>a</i>)/(6))^(<i>x</i>+<i>c</i>) − <i>b</i>
+Q: How many times does the graph of the given equation in the <i>xy</i>-plane cross the <i>x</i>-axis, where <i>a</i>, <i>b</i>, and <i>c</i> are positive constants such that <i>a</i> > 6 and <i>b</i> > <i>c</i>?
+A) Zero
+B) One
+C) Two
+D) Three
+K: B
+E: Since a/6 > 1 this is an increasing exponential whose values range over all numbers greater than −b, and −b is negative, so the graph crosses the x-axis exactly once.
+#13
+Q: A linear function <i>g</i> is defined by <i>g</i>(<i>x</i>) = <i>ax</i> + <i>b</i>, where <i>a</i> and <i>b</i> are constants. If <i>g</i>(−2) = −7 and <i>g</i>(1) = 5, what is the value of <i>a</i>?
+K: 4
+E: The slope is a = (5 − (−7))/(1 − (−2)) = 12/3 = 4.
+#14
+Q: 2<i>x</i>^2 − 8<i>x</i> − 21 = 0
+Q: One solution to the given equation can be written as <i>x</i> = <i>h</i> − (1)/(2)√(<i>k</i>), where <i>h</i> and <i>k</i> are integer constants. What is the value of <i>h</i> + <i>k</i>?
+A) −24
+B) 10
+C) 29
+D) 60
+K: D
+E: The quadratic formula gives x = (8 ± √232)/4 = 2 ± (1/2)√58, so h = 2, k = 58 and h + k = 60.
+#15
+Q: <i>r</i>(<i>x</i>) = 9(<i>x</i> − 3)
+Q: <i>s</i>(<i>x</i>) = <i>x</i>^3 + <i>nx</i>^2 + 3<i>nx</i> + 27
+Q: For the given functions <i>r</i> and <i>s</i>, <i>n</i> is a constant. If <i>r</i>(<i>x</i>) · <i>s</i>(<i>x</i>) = 9(<i>x</i>^4 − 81), what is the value of <i>n</i>?
+K: 3
+E: Since x^4 − 81 = (x − 3)(x^3 + 3x^2 + 9x + 27), s(x) must equal x^3 + 3x^2 + 9x + 27, so n = 3 (and 3n = 9).
+#16
+Q: At different times on a certain day, a manager at a theme park recorded the number of visitors. An exponential model gives the estimated number of visitors, <i>V</i>, at the theme park <i>t</i> hours after the theme park opened, where <i>t</i> ≤ 3. Based on the model, 85 visitors were estimated to be at the theme park when it opened, and every 30 minutes the estimated number of visitors increased by 140% of the estimated number of visitors 30 minutes earlier. Which of the following equations best represents this model?
+A) <i>V</i> = 85(1.40)<sup><i>t</i>/30</sup>
+B) <i>V</i> = 85(1.40)<sup>2<i>t</i></sup>
+C) <i>V</i> = 85(2.40)<sup><i>t</i>/30</sup>
+D) <i>V</i> = 85(2.40)<sup>2<i>t</i></sup>
+K: D
+E: A 140% increase multiplies the amount by 1 + 1.40 = 2.40 every 30 minutes. In t hours there are 2t such periods, so V = 85(2.40)<sup>2t</sup>.
+#17
+Q: The function <i>v</i> is defined by the equation <i>v</i>(<i>x</i>) = (<i>x</i>^2 + <i>bx</i> + <i>c</i>)/((<i>x</i> + 5)(<i>x</i> − 19)), where <i>b</i> and <i>c</i> are constants. In the <i>xy</i>-plane, the graph of <i>y</i> = <i>v</i>(<i>x</i>) passes through the points (0, (66)/(95)) and (11, 0). If <i>v</i>(<i>q</i>) = 0, which of the following could be the value of <i>q</i>?
+A) −6
+B) −5
+C) 5
+D) 6
+K: A
+E: v(0) = c/(−95) = 66/95 gives c = −66. Since v(11) = 0, x = 11 is a root of x^2 + bx − 66, so the other root is −66/11 = −6, and q = −6.
+#18
+Q: Line <i>s</i> is defined by <i>x</i> − 4<i>y</i> = 24. Line <i>t</i> is perpendicular to line <i>s</i> in the <i>xy</i>-plane and passes through the points (<i>k</i>, 0) and (60, −<i>k</i>). What is the value of <i>k</i>?
+K: 48
+E: Line s has slope 1/4, so line t has slope −4. Then −k/(60 − k) = −4, so k = 240 − 4k and k = 48.
+#19
+Q: (<i>x</i>)/(7) + (<i>y</i>)/(5) = (41)/(35)
+Q: An engineer connects resistors in series, where the resistors in the series have a total resistance of (41)/(35) ohms. In this series, there are <i>x</i> resistors of type A, which each have a resistance of <i>a</i> ohms, and <i>y</i> resistors of type B, which each have a resistance of <i>b</i> ohms. The given equation represents this situation. According to this equation, what is the positive difference between the value of <i>a</i> and the value of <i>b</i>?
+A) 41
+B) 2
+C) (41)/(35)
+D) (2)/(35)
+K: D
+E: The terms x/7 and y/5 are x·a and y·b, so a = 1/7 and b = 1/5. The positive difference is 1/5 − 1/7 = 2/35.
+#20
+Q: The functions <i>f</i> and <i>g</i> are defined by the given equations, where <i>x</i> ≥ 0, <i>a</i> and <i>b</i> are integer constants, <i>a</i> < <i>b</i>, and <i>a</i> > 1. If <i>y</i> = <i>f</i>(<i>x</i>) and <i>y</i> = <i>g</i>(<i>x</i>) are graphed in the <i>xy</i>-plane, which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where <i>x</i> ≥ 0?
+Q: I. <i>f</i>(<i>x</i>) = <i>a</i>(0.63)^(−<i>bx</i>)
+Q: II. <i>g</i>(<i>x</i>) = <i>a</i>(1.37)^(<i>x</i>+2) + <i>b</i>
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: A
+E: Since 0.63^(−bx) = (1/0.63)^(bx) is increasing, f has its minimum at x = 0, equal to a, which appears as the coefficient. For g the minimum is a(1.37)^2 + b, which is not displayed.
+#21
+Q: In triangle <i>XYZ</i>, the measure of angle <i>X</i> is <i>x</i>°, the measure of angle <i>Y</i> is <i>y</i>°, and the measure of angle <i>Z</i> is 31°. If <i>x</i> > <i>y</i> > 31, which of the following additional pieces of information is NOT sufficient to determine the values of <i>x</i> and <i>y</i>?
+A) The value of 31 − <i>x</i> − 3<i>y</i>
+B) The value of 31 + 3<i>x</i> + <i>y</i>
+C) The value of 31 − 3<i>x</i> + 3<i>y</i>
+D) The value of 31 − 3<i>x</i> − 3<i>y</i>
+K: D
+E: The angle sum gives x + y = 149. Choices A, B and C each give a second independent equation, but 31 − 3x − 3y = 31 − 3(149) is always the same number, so it adds no new information.
+#22
+Q: In 2013, Chloe earned 11% more than in 2012, and in 2014 Chloe earned 6% more than in 2013. If Chloe earned <i>y</i> times as much in 2012 as in 2014, which of the following is closest to the value of <i>y</i>?
+A) 0.5455
+B) 0.6600
+C) 0.8499
+D) 1.1766
+K: C
+E: The 2014 amount is (1.11)(1.06) = 1.1766 times the 2012 amount, so y = 1/1.1766 ≈ 0.8499.

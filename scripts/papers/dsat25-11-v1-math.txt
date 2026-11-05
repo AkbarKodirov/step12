@@ -1,0 +1,342 @@
+!id: dsat25-11-v1-math
+!name: November 2025 · Version 1 · Math
+!type: MATH
+!year: 2025
+!month: 11
+!region: US & International
+!form: 1
+=M1
+#1
+Q: If 9<i>x</i> + 4 = 67, what is the value of 90<i>x</i> + 40?
+A) 7
+B) 70
+C) 130
+D) 670
+K: D
+E: Subtracting 4 gives 9x = 63, so x = 7, and 90x + 40 = 630 + 40 = 670. (Or note 90x + 40 = 10(9x + 4) = 10 × 67.)
+#2
+I: /qimg/nov1-math-m1-q2.svg
+Q: In the figure, line <i>p</i> is parallel to line <i>r</i>, and line <i>t</i> intersects both lines. What is the value of <i>x</i>?
+A) 36
+B) 72
+C) 180
+D) 252
+K: B
+E: The angle x° and the 72° angle are vertical angles formed where line t crosses line p, so they are equal and x = 72.
+#3
+Q: A length of 450 meters is equal to how many decimeters? (1 meter = 10 decimeters)
+K: 4500
+E: Multiply by 10 decimeters per meter: 450 × 10 = 4500.
+#4
+Q: The equation 58 = 2<i>x</i> + 2<i>y</i> gives the perimeter of a rectangular garden that has length <i>x</i>, in feet, and width <i>y</i>, in feet. The width of the garden is 14 feet. What is the length, in feet, of the garden?
+K: 15
+E: Substituting y = 14 gives 58 = 2x + 28, so 2x = 30 and x = 15.
+#5
+Q: The relationship between the variables <i>x</i> and <i>y</i> is defined by an exponential equation. When <i>x</i> = 0, the value of <i>y</i> is 40, and for every increase in the value of <i>x</i> by 1, the corresponding value of <i>y</i> increases by 50% of its previous value. Which equation represents this relationship?
+A) y = 40(1.50)^x
+B) y = 40(1.05)^x
+C) y = 50(1.40)^x
+D) y = 50(1.04)^x
+K: A
+E: The initial value is 40 and a 50% increase each step means multiplying by 1.50, so y = 40(1.50)^x.
+#6
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = (1)/(8<i>x</i>). What is the value of <i>f</i>(<i>x</i>) when <i>x</i> = 9?
+K: .0138 | 0.0138 | .0139 | 0.0139 | 1/72
+E: f(9) = 1/(8 × 9) = 1/72 ≈ 0.0139.
+#7
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = 3<i>x</i> − (1)/(4). What is the <i>y</i>-intercept of the graph of <i>y</i> = <i>f</i>(<i>x</i>) in the <i>xy</i>-plane?
+A) (0, −(1)/(4))
+B) (0, −3)
+C) (0, 3)
+D) (0, 4)
+K: A
+E: The y-intercept occurs at x = 0: f(0) = −1/4, so the point is (0, −1/4).
+#8
+Q: <i>x</i> + 6<i>y</i> = 28; 6<i>y</i> = 14. The solution to the given system of equations is (<i>x</i>, <i>y</i>). What is the value of <i>x</i>?
+K: 14
+E: Substitute 6y = 14 into the first equation: x + 14 = 28, so x = 14.
+#9
+Q: The length of a side of square X is 9 centimeters. The area of rectangle Y is 32 square centimeters. What is the total area, in square centimeters, of square X and rectangle Y?
+A) 145
+B) 113
+C) 82
+D) 81
+K: B
+E: Square X has area 9² = 81, so the total is 81 + 32 = 113 square centimeters.
+#10
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 293 pounds when entering hibernation and lost weight at a mean rate of 0.9 pounds per day. At this rate, how many days after entering hibernation would the black bear weigh 230 pounds?
+A) 57
+B) 63
+C) 70
+D) 207
+K: C
+E: The bear must lose 293 − 230 = 63 pounds, which takes 63 ÷ 0.9 = 70 days.
+#11
+I: /qimg/nov1-math-m1-q11.svg
+Q: The complete graph of <i>y</i> = <i>f</i>(<i>x</i>) is shown. For how many values of <i>x</i> does <i>f</i>(<i>x</i>) = 0?
+A) One
+B) Two
+C) Three
+D) Four
+K: C
+E: f(x) = 0 where the graph meets the x-axis, which happens at x = −4, x = 0, and x = 2, so three values.
+#12
+Q: <i>b</i>^2 + 4<i>c</i> = 7<i>d</i>. The given equation relates the real numbers <i>b</i>, <i>c</i>, and <i>d</i>, where <i>d</i> > (4)/(7)<i>c</i>. Which equation correctly expresses <i>b</i> in terms of <i>c</i> and <i>d</i>?
+A) b = (7d + 4c)/(2)
+B) b = (7d − 4c)/(2)
+C) b = ±√(7d + 4c)
+D) b = ±√(7d − 4c)
+K: D
+E: Subtract 4c: b² = 7d − 4c. Taking the square root gives b = ±√(7d − 4c), which is real because d > 4c/7.
+#13
+Q: Given <i>x</i>^2 − (81)/(16) = 0, how many distinct real solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: C
+E: x² = 81/16 gives x = 9/4 or x = −9/4, so there are exactly two distinct real solutions.
+#14
+I: /qimg/nov1-math-m1-q14.svg
+Q: Triangles <i>ABC</i> and <i>A</i>′<i>B</i>′<i>C</i>′ are shown. Triangle <i>ABC</i> is dilated by a scale factor of 6 to form triangle <i>A</i>′<i>B</i>′<i>C</i>′. If the length of <i>AB</i> is 18, what is the length of <i>A</i>′<i>B</i>′?
+A) 3
+B) 6
+C) 24
+D) 108
+K: D
+E: A dilation multiplies lengths by the scale factor: A′B′ = 6 × 18 = 108.
+#15
+Q: What is the radius of the circle in the <i>xy</i>-plane defined by (<i>x</i> + 3)^2 + (<i>y</i> + 9)^2 = 361?
+K: 19
+E: The circle has the form (x − h)² + (y − k)² = r², so r² = 361 and r = 19.
+#16
+Q: In the <i>xy</i>-plane, which of the following does NOT contain any points that are part of the solution set to 5<i>x</i> − 7<i>y</i> > 35?
+A) The <i>x</i>-axis
+B) The region where <i>x</i> > 0 and <i>y</i> > 0
+C) The region where <i>x</i> < 0 and <i>y</i> < 0
+D) The region where <i>x</i> < 0 and <i>y</i> > 0
+K: D
+E: If x < 0 and y > 0, then 5x is negative and −7y is negative, so 5x − 7y is negative and can never exceed 35. The other regions all contain solutions (for example (8, 0), (10, 1), (−1, −10)).
+#17
+T: <table><tr><th>Age group</th><th>Proportion</th></tr><tr><td>Less than 18 years old</td><td>26%</td></tr><tr><td>18–40 years old</td><td>21%</td></tr><tr><td>41–65 years old</td><td>29%</td></tr><tr><td>Greater than 65 years old</td><td>24%</td></tr></table>
+Q: The table shows the distribution of people in a certain city by age group. If a person in this city is selected at random, which of the following is closest to the probability of selecting a person who is greater than 65 years old, given that the person is at least 18 years old?
+A) 0.24
+B) 0.32
+C) 0.50
+D) 0.92
+K: B
+E: People at least 18 years old make up 100% − 26% = 74%, and 24% of all people are over 65, so the probability is 24/74 ≈ 0.32.
+#18
+Q: Line <i>h</i> is defined by (1)/(2)<i>x</i> + (1)/(9)<i>y</i> − 54 = 0. Line <i>j</i> is perpendicular to line <i>h</i> in the <i>xy</i>-plane. What is the slope of line <i>j</i>?
+A) −(9)/(2)
+B) −(2)/(9)
+C) (9)/(2)
+D) (2)/(9)
+K: D
+E: Solving for y gives y = −(9/2)x + 486, so line h has slope −9/2. A perpendicular line has slope equal to the negative reciprocal, 2/9.
+#19
+Q: <i>a</i>, 26, 29, <i>b</i>, 31, 47, <i>c</i>. For the given data set, the data values are listed in ascending order, where <i>a</i>, <i>b</i>, and <i>c</i> are constants. For this data set, the mean is 36, the median is 29, and the range is 72. What is the value of <i>c</i>?
+A) 54
+B) 72
+C) 81
+D) 98
+K: C
+E: The median is the 4th value, so b = 29. The range gives c − a = 72, and the sum is 7 × 36 = 252, so a + c = 252 − 26 − 29 − 29 − 31 − 47 = 90. Then c = (90 + 72)/2 = 81.
+#20
+I: /qimg/nov1-math-m1-q20.svg
+Q: In triangle <i>QRS</i> shown, <i>QR</i> < <i>RS</i>. Which expression represents the length of <i>QS</i>?
+A) 37 cos <i>Q</i>
+B) 37 sin <i>Q</i>
+C) (37)/(cos <i>Q</i>)
+D) (37)/(sin <i>Q</i>)
+K: D
+E: Side RS = 37 is opposite angle Q and QS is the hypotenuse, so sin Q = 37/QS, giving QS = 37/sin Q.
+#21
+Q: <i>y</i> = 9((<i>a</i>)/(7))^(<i>x</i>+<i>c</i>) − <i>b</i>. How many times does the graph of the given equation in the <i>xy</i>-plane cross the <i>x</i>-axis, where <i>a</i>, <i>b</i>, and <i>c</i> are positive constants such that <i>a</i> > 7 and <i>b</i> > <i>c</i>?
+A) Zero
+B) One
+C) Two
+D) Three
+K: B
+E: Since a/7 > 1 the function is an increasing exponential with range y > −b, and −b < 0, so it takes the value 0 exactly once.
+#22
+Q: A certain town has an area of 4.29 square miles. What is the area, in square yards, of this town? (1 mile = 1,760 yards)
+A) 410
+B) 7,550
+C) 722,051
+D) 13,288,704
+K: D
+E: One square mile is 1,760² = 3,097,600 square yards, so the area is 4.29 × 3,097,600 = 13,288,704 square yards.
+=M2
+#1
+Q: Zuri has a goal to run at least 16 miles per week while training for a race. This week, she has run 4 miles. If <i>x</i> represents the additional number of miles Zuri needs to run this week to meet her goal, which inequality represents this situation?
+A) 4 − <i>x</i> ≤ 16
+B) 4 + <i>x</i> ≤ 16
+C) 4 − <i>x</i> ≥ 16
+D) 4 + <i>x</i> ≥ 16
+K: D
+E: Total miles 4 + x must be at least 16, so 4 + x ≥ 16.
+#2
+I: /qimg/nov1-math-m2-q2.svg
+Q: In the figure shown, line <i>k</i> intersects lines <i>r</i> and <i>s</i>. If <i>w</i> = 147, which additional piece of information is sufficient to prove that lines <i>r</i> and <i>s</i> are parallel?
+A) <i>x</i> = 33
+B) <i>y</i> = 147
+C) <i>w</i> + <i>y</i> = 180
+D) <i>y</i> + <i>z</i> = 180
+K: B
+E: Angles w and y are corresponding angles; if both equal 147° then lines r and s are parallel.
+#3
+T: <table border="1"><tr><th>Number of food tickets</th><th>Total amount paid</th></tr><tr><td>10</td><td>$44.00</td></tr><tr><td>15</td><td>$51.50</td></tr><tr><td>25</td><td>$66.50</td></tr></table>
+Q: At a fundraiser, a family pays a fixed entrance fee. They then purchase food tickets, which each have the same cost. The table shows the relationship between the number of food tickets, <i>x</i>, that are purchased and the total amount paid <i>y</i>, in dollars, for both the entrance fee and the food tickets. Which equation represents the relationship between <i>x</i> and <i>y</i>?
+A) <i>y</i> = (3)/(2)<i>x</i> + 29
+B) <i>y</i> = (3)/(2)<i>x</i> − 56
+C) <i>y</i> = (2)/(3)<i>x</i> + (112)/(3)
+D) <i>y</i> = (2)/(3)<i>x</i> + (58)/(3)
+K: A
+E: Slope = (51.50 − 44.00)/(15 − 10) = 1.5 = 3/2; then 44 = 1.5(10) + b gives b = 29.
+#4
+I: /qimg/nov1-math-m2-q4.svg
+Q: A group of 10 gardeners recorded data on the germination rates of their tomato crop for one growing season. The scatterplot shows the relationship between the number of tomato seeds planted, <i>x</i>, and the number of tomato seeds that germinated, <i>y</i>, for each of the gardeners. A line of best fit is also shown. Which of the following is the best interpretation of the slope of the line of best fit in this context?
+A) The number of tomato seeds planted is predicted to increase by 60 seeds every 100 days.
+B) The number of tomato seeds planted is predicted to increase by 300 seeds every 100 days.
+C) The number of tomato seeds that germinate is predicted to increase by 60 seeds for every additional 100 tomato seeds that are planted.
+D) The number of tomato seeds that germinate is predicted to increase by 300 seeds for every additional 100 tomato seeds that are planted.
+K: C
+E: The line passes through (0, 0) and about (500, 300), so the slope is about 0.6: 60 more germinated seeds per 100 more planted.
+#5
+Q: The graph of 2<i>x</i> + <i>y</i> = 11 in the <i>xy</i>-plane is a line. What is the slope of the line?
+K: -2
+E: Rewrite as y = −2x + 11; the slope is −2.
+#6
+P: <i>f</i>(<i>x</i>) = 2<i>x</i> + 3
+P: <i>g</i>(<i>x</i>) = 7<i>x</i> − 2
+P: <i>h</i>(<i>x</i>) = 5<i>x</i> + 6
+Q: The functions <i>f</i>, <i>g</i>, and <i>h</i> are defined as shown. If <i>f</i>(<i>x</i>) · <i>g</i>(<i>x</i>) − <i>h</i>(<i>x</i>) = <i>ax</i>^2 + <i>bx</i> + <i>c</i>, where <i>a</i>, <i>b</i>, and <i>c</i> are constants, what is the value of <i>b</i>?
+A) −5
+B) 12
+C) 20
+D) 22
+K: B
+E: (2x + 3)(7x − 2) = 14x^2 + 17x − 6; subtracting 5x + 6 gives 14x^2 + 12x − 12, so b = 12.
+#7
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = (<i>x</i> + 11)/(5), and <i>f</i>(<i>a</i>) = −18, where <i>a</i> is a constant. What is the value of <i>a</i>?
+A) −101
+B) −79
+C) −(79)/(5)
+D) −(7)/(5)
+K: A
+E: (a + 11)/5 = −18 gives a + 11 = −90, so a = −101.
+#8
+T: <table border="1"><tr><th><i>x</i></th><th><i>y</i></th></tr><tr><td>0</td><td>−10</td></tr><tr><td>1</td><td>−4</td></tr><tr><td>2</td><td>2</td></tr></table>
+Q: The table shows values of <i>x</i> and their corresponding values of <i>y</i> for three points on line <i>j</i> in the <i>xy</i>-plane. Line <i>k</i> also lies in the <i>xy</i>-plane and is defined by the equation <i>y</i> = 4<i>x</i>. At what point (<i>x</i>, <i>y</i>) do lines <i>j</i> and <i>k</i> intersect?
+A) (5, 20)
+B) (5, −44)
+C) (6, 24)
+D) (6, 26)
+K: A
+E: Line j has slope 6 and y-intercept −10: y = 6x − 10. Setting 6x − 10 = 4x gives x = 5, y = 20.
+#9
+P: <i>h</i>(<i>t</i>) = −16<i>t</i>^2 + <i>b</i>
+Q: The function <i>h</i> estimates an object's height, in feet, above the ground <i>t</i> seconds after the object is dropped, where <i>b</i> is a constant. The function estimates that the object is 19.36 feet above the ground when it is dropped at <i>t</i> = 0. How many seconds after being dropped does the function estimate the object will hit the ground?
+K: 1.1 | 11/10
+E: h(0) = b = 19.36. Solve −16t^2 + 19.36 = 0: t^2 = 1.21, so t = 1.1.
+#10
+P: |4<i>x</i> − 3| = −9
+Q: How many solutions does the given equation have?
+A) Zero
+B) One
+C) Two
+D) Infinitely many
+K: A
+E: An absolute value is never negative, so |4x − 3| = −9 has no solution.
+#11
+Q: The function <i>h</i> is defined by <i>h</i>(<i>x</i>) = <i>a</i>^<i>x</i> + <i>b</i>, where <i>a</i> and <i>b</i> are positive constants. The graph of <i>y</i> = <i>h</i>(<i>x</i>) in the <i>xy</i>-plane passes through the points (0, 10) and (2, 13). What is the value of <i>ab</i>?
+A) 13
+B) 18
+C) 20
+D) 26
+K: B
+E: h(0) = 1 + b = 10 gives b = 9; h(2) = a^2 + 9 = 13 gives a = 2. So ab = 18.
+#12
+Q: A circle has center <i>P</i>, and points <i>A</i> and <i>B</i> lie on the circle. The measure of arc <i>AB</i> is 45° and the length of arc <i>AB</i> is 4π units. What is the length, in units, of the radius of the circle?
+K: 16
+E: 45° is 1/8 of the circle, so the circumference is 8 · 4π = 32π and r = 16.
+#13
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = 56(0.19)^<i>x</i>. For any positive integer <i>n</i>, the value of <i>f</i>(<i>n</i>) is <i>p</i>% less than the value of <i>f</i>(<i>n</i> − 1). What is the value of <i>p</i>?
+A) 19
+B) 44
+C) 56
+D) 81
+K: D
+E: f(n) = 0.19 · f(n − 1), so each value is 81% less than the previous one.
+#14
+P: <i>x</i>^2 + (√(<i>k</i> − 3))<i>x</i> + 42 = 0
+Q: In the given equation, <i>k</i> is a constant. The equation has exactly one real solution. What is the value of <i>k</i>?
+A) 171
+B) 168
+C) 165
+D) 45
+K: A
+E: Exactly one solution means the discriminant is 0: (k − 3) − 4(42) = 0, so k − 3 = 168 and k = 171.
+#15
+P: <i>x</i>^2 + <i>y</i>^2 = 36
+P: <i>y</i> = <i>mx</i> + (<i>b</i>)/(4)
+Q: In the given system of equations, <i>m</i> and <i>b</i> are negative constants. In the <i>xy</i>-plane, the graphs of the equations in the given system intersect at the point (−5, <i>y</i>), where <i>y</i> < 0. Which expression represents the value of <i>b</i>?
+A) −(5<i>m</i>)/(4) + (√(11))/(4)
+B) (5<i>m</i>)/(4) − (√(11))/(4)
+C) −20<i>m</i> + 4√(11)
+D) 20<i>m</i> − 4√(11)
+K: D
+E: 25 + y^2 = 36 with y < 0 gives y = −√(11). Then −√(11) = −5m + b/4, so b = 20m − 4√(11).
+#16
+Q: A biologist mixed a solution that is 0.3% sodium chloride by mass with a solution that is 0.15% sodium chloride by mass to obtain a new solution, which has a mass of 80 grams and contains 0.21 grams of sodium chloride. How many grams of 0.3% sodium chloride solution did the biologist use?
+A) 0.14
+B) 20
+C) 60
+D) 79.86
+K: C
+E: 0.003x + 0.0015(80 − x) = 0.21 gives 0.0015x = 0.09, so x = 60.
+#17
+T: <table border="1"><tr><th>Pieces of mail</th><th>Days</th></tr><tr><td>0</td><td>2</td></tr><tr><td>3</td><td>2</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>2</td></tr><tr><td>6</td><td>1</td></tr><tr><td>7</td><td>1</td></tr><tr><td>13</td><td>1</td></tr></table>
+Q: For data set A, the table summarizes the distribution of the number of pieces of mail received by a business each day during a period of 11 days. The data value 13 is removed from data set A to create data set B, which consists of the remaining 10 data values. Which statement best compares the median of data set A and the median of data set B?
+A) The median of data set B is less than the median of data set A.
+B) The median of data set B is greater than the median of data set A.
+C) The median of data set B is equal to the median of data set A.
+D) There is not enough information to compare the medians of the two data sets.
+K: C
+E: Set A (11 values) has median 4 (the 6th value). Set B has 10 values whose 5th and 6th are both 4, so its median is 4 as well.
+#18
+P: (<i>x</i>)/(5) + (<i>y</i>)/(9) = (47)/(45)
+Q: An engineer connects resistors in series, where the resistors in the series have a total resistance of (47)/(45) ohms. In this series, there are <i>x</i> resistors of type A, which each have a resistance of <i>a</i> ohms, and <i>y</i> resistors of type B, which each have a resistance of <i>b</i> ohms. The given equation represents this situation. According to this equation, what is the positive difference between the value of <i>a</i> and the value of <i>b</i>?
+A) 47
+B) 4
+C) (47)/(45)
+D) (4)/(45)
+K: D
+E: Total resistance is ax + by, so a = 1/5 and b = 1/9. The positive difference is 1/5 − 1/9 = 4/45.
+#19
+P: 9<i>x</i>^2 + 8 = <i>nx</i>
+Q: In the given equation, <i>n</i> is a constant. The equation has exactly one solution. What is the value of (<i>n</i>^2)/(8)?
+K: 36
+E: One solution means the discriminant is 0: n^2 − 4(9)(8) = 0, so n^2 = 288 and n^2/8 = 36.
+#20
+T: <table border="1"><tr><th></th><th>Area (square inches)</th><th>Perimeter (inches)</th></tr><tr><td>Rectangle A</td><td>630</td><td>210</td></tr><tr><td>Rectangle B</td><td>2,520</td><td><i>n</i></td></tr></table>
+Q: The table gives the areas and perimeters of two similar rectangles, where <i>n</i> is a constant. What is the value of <i>n</i>?
+A) 2,100
+B) 1,680
+C) 840
+D) 420
+K: D
+E: The area ratio is 2520/630 = 4, so the scale factor is 2 and the perimeter is 2 · 210 = 420.
+#21
+Q: The mass of object A is 444% of the mass of object B, and the mass of object A is 0.740% of the mass of object C. If the mass of object C is <i>p</i>% of the mass of object B, what is the value of <i>p</i>?
+K: 60000
+E: A = 4.44B and A = 0.0074C, so C = (4.44/0.0074)B = 600B, which is 60000% of B.
+#22
+Q: Which expression is a factor of <i>y</i>^2(<i>x</i> − 3) − 25(<i>x</i> − 3)^3?
+A) <i>y</i>(<i>x</i> − 3)
+B) (<i>x</i> − 5)(<i>x</i> − 3)
+C) <i>y</i> + <i>x</i> − 3
+D) <i>y</i> + 5<i>x</i> − 15
+K: D
+E: Factor out (x − 3): (x − 3)[y^2 − 25(x − 3)^2] = (x − 3)(y − 5x + 15)(y + 5x − 15).
