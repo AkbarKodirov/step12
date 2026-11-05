@@ -1,5 +1,77 @@
 [
  {
+  "id": "dsat25-11-v1-rw",
+  "name": "November 2025 · Version 1 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2025,
+  "month": 11,
+  "region": "US & International",
+  "form": "1",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat25-11-v1-math",
+  "name": "November 2025 · Version 1 · Math",
+  "type": "MATH",
+  "year": 2025,
+  "month": 11,
+  "region": "US & International",
+  "form": "1",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
+  "id": "dsat25-11-v2-rw",
+  "name": "November 2025 · Version 2 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2025,
+  "month": 11,
+  "region": "US & International",
+  "form": "2",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat25-11-v2-math",
+  "name": "November 2025 · Version 2 · Math",
+  "type": "MATH",
+  "year": 2025,
+  "month": 11,
+  "region": "US & International",
+  "form": "2",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
+  "id": "dsat25-11-v3-rw",
+  "name": "November 2025 · Version 3 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2025,
+  "month": 11,
+  "region": "US & International",
+  "form": "3",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat25-11-v3-math",
+  "name": "November 2025 · Version 3 · Math",
+  "type": "MATH",
+  "year": 2025,
+  "month": 11,
+  "region": "US & International",
+  "form": "3",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat25-us-a-rw",
   "name": "September 2025 US · Form A · Reading & Writing",
   "type": "EBRW",
