@@ -1,0 +1,334 @@
+!id: dsat24-06-a-math
+!name: June 2024 International · Form A · Math
+!type: MATH
+!year: 2024
+!month: 6
+!region: International
+!form: A
+=M1
+#1
+Q: The equation d = 29w + 100 gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save. What is the total amount of money, in dollars, he plans to save in 10 weeks?
+A) 340
+B) 390
+C) 440
+D) 490
+K: B
+E: d = 29(10) + 100 = 290 + 100 = 390.
+#2
+Q: Carrie has c dollars and Marjani has m dollars. Carrie has 3 times as many dollars as Marjani, and together they have a total of $28.00. Which system of equations represents this situation?
+A) c = 3m; c + m = 28
+B) m = 3c; c + m = 28
+C) c = 28m; c + m = 3
+D) m = 28c; c + m = 3
+K: A
+E: Carrie has 3 times Marjani’s amount, so c = 3m, and together c + m = 28.
+#3
+P: x^2 = (29)(29)
+Q: What is the positive solution to the given equation?
+K: 29
+E: x² = 29², so the positive solution is x = 29.
+#4
+Q: A car travels at a speed of at least 40 miles per hour but no more than 65 miles per hour for a certain part of a trip. Which inequality represents this situation, where x is the speed of the car, in miles per hour, on this part of the trip?
+A) x ≥ 40
+B) x ≥ 65
+C) 40 ≤ x ≤ 65
+D) x ≤ 105
+K: C
+E: “At least 40” means x ≥ 40 and “no more than 65” means x ≤ 65, so 40 ≤ x ≤ 65.
+#5
+P: x = 9
+P: y = x^2 + 8
+Q: The graphs of the equations in the given system of equations intersect at the point (x, y) in the xy-plane. What is the value of y?
+A) 9
+B) 26
+C) 81
+D) 89
+K: D
+E: y = 9² + 8 = 81 + 8 = 89.
+#6
+Q: The function f is defined by f(x) = x^2 + x + 44. What is the value of f(2)?
+K: 50
+E: f(2) = 4 + 2 + 44 = 50.
+#7
+I: /qimg/24-dsat24-06-a-math-m1-q7.svg
+Q: The scatterplot shows the relationship between two variables, x and y. A line of best fit for the data is also shown. For how many of the 9 data points is the actual y-value less than the y-value predicted by the line of best fit?
+A) 2
+B) 4
+C) 5
+D) 7
+K: B
+E: The points below the line are those near x = 1.5, x = 3, x = 5.4 and x = 6.3, so there are 4.
+#8
+Q: Jasmin grows bean pods in her garden. This year, she harvested 490 bean pods and saved 10% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?
+A) 39
+B) 49
+C) 57
+D) 59
+K: B
+E: 10% of 490 is 0.1 × 490 = 49.
+#9
+P: 6(3x − 4) = 42
+Q: Which equation has the same solution as the given equation?
+A) 3x − 4 = 36
+B) 3x − 4 = 7
+C) 3x − 24 = 42
+D) 3x − 24 = 48
+K: B
+E: Dividing both sides by 6 gives 3x − 4 = 7.
+#10
+Q: What is an x-intercept of the graph of the equation y = (x + 8)(x − 11)(x + 12) in the xy-plane?
+A) (1, 0)
+B) (0, 8)
+C) (11, 0)
+D) (0, 12)
+K: C
+E: y = 0 when x = −8, 11 or −12, so (11, 0) is an x-intercept.
+#11
+Q: Each side of equilateral triangle S is multiplied by a scale factor of k to create equilateral triangle T. The length of each side of triangle T is greater than the length of each side of triangle S. Which of the following could be the value of k?
+A) 0
+B) 43/44
+C) 1
+D) 44/43
+K: D
+E: The sides get longer only if k > 1, and 44/43 is the only choice greater than 1.
+#12
+Q: Which expression is equivalent to 2(x − 7/2)(x + 6)?
+A) x^2 + 5x − 21
+B) 2x^2 − x − 21
+C) 2x^2 + 5x − 42
+D) 2x^2 − 42
+K: C
+E: 2(x − 7/2) = 2x − 7, and (2x − 7)(x + 6) = 2x² + 12x − 7x − 42 = 2x² + 5x − 42.
+#13
+P: y = 9x − 15
+P: 5x + y = 41
+Q: The solution to the given system of equations is (x, y). What is the value of x + y?
+K: 25
+E: 5x + 9x − 15 = 41, so 14x = 56 and x = 4. Then y = 36 − 15 = 21 and x + y = 25.
+#14
+Q: A salesperson earns 2 points for each call made to a potential customer and 6 points for each visit made to a potential customer. Last week, the salesperson earned a total of 366 points. The equation 2x + 6y = 366 represents this situation. Which is the best interpretation of 6y in this context?
+A) The number of calls the salesperson made to potential customers last week
+B) The number of visits the salesperson made to potential customers last week
+C) The total number of points the salesperson earned from calls made to potential customers last week
+D) The total number of points the salesperson earned from visits made to potential customers last week
+K: D
+E: y is the number of visits and each visit earns 6 points, so 6y is the points earned from visits.
+#15
+P: y = (2/5)x + 7
+Q: One of the two equations in a system of linear equations is given. The system has infinitely many solutions. If the second equation in the system is y = mx + b, where m and b are constants, what is the value of b?
+A) −7
+B) −1/7
+C) 1/7
+D) 7
+K: D
+E: Infinitely many solutions means the equations describe the same line, so m = 2/5 and b = 7.
+#16
+Q: The kinetic energy, in joules, of an object with mass 75 kilograms traveling at a speed of v meters per second is given by the function K, where K(v) = (1/2)(75)(v^2). Which of the following is the best interpretation of K(0) = 0 in this context?
+A) The kinetic energy of the object is 0 joules when the mass of the object is 0 kilograms.
+B) The speed of the object is 0 meters per second when the mass of the object is 0 kilograms.
+C) The kinetic energy of the object is 0 joules when the object is traveling at a speed of 0 meters per second.
+D) The height of the object is 0 meters when the object is traveling at a speed of 0 meters per second.
+K: C
+E: The input v = 0 is the speed and the output K = 0 is the kinetic energy.
+#17
+Q: In triangle ABC, angle B is a right angle. The length of side AB is 10√69 and the length of side BC is 24√69. What is the length of side AC?
+A) 14√69
+B) 26√69
+C) 34√69
+D) √(34 · 69)
+K: B
+E: AC is the hypotenuse: √(10² + 24²) · √69 = √676 · √69 = 26√69.
+#18
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>−4</td><td>n + 142</td></tr><tr><td>−2</td><td>n + 71</td></tr><tr><td>0</td><td>n</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y, where n is a constant, for the linear relationship between x and y. What is the slope of the line that represents this relationship in the xy-plane?
+A) −71/2
+B) −2/71
+C) (n + 71)/(−2)
+D) (2n − 71)/2
+K: A
+E: From x = −2 to x = 0, y changes by n − (n + 71) = −71 while x changes by 2, so the slope is −71/2.
+#19
+Q: Square A has side lengths that are 192 times the side lengths of square B. The area of square A is k times the area of square B. What is the value of k?
+K: 36864
+E: Areas scale by the square of the side ratio: k = 192² = 36,864.
+#20
+Q: What is the value of tan(50π/3)?
+A) −√3
+B) −√3/3
+C) √3/3
+D) √3
+K: A
+E: 50π/3 = 16π + 2π/3, and tan has period π, so tan(50π/3) = tan(2π/3) = −√3.
+#21
+Q: A conservation specialist hung artificial nesting structures each in the shape of a right rectangular prism for a species of native duck. Each structure has a height of 12 inches. The length of each structure’s base is x inches, which is 1 inch more than the width of the structure’s base. Which function V gives the volume of each structure, in cubic inches, in terms of the length of the structure’s base?
+A) V(x) = x(x + 12)(x + 1)
+B) V(x) = x(x + 12)(x − 1)
+C) V(x) = 12x(x + 1)
+D) V(x) = 12x(x − 1)
+K: D
+E: The width is x − 1, so V = (length)(width)(height) = x(x − 1)(12) = 12x(x − 1).
+#22
+I: /qimg/24-dsat24-06-a-math-m1-q22.svg
+Q: Line r is shown in the xy-plane. Line t (not shown) is perpendicular to line r and passes through the point (5, 8). What is the y-coordinate of the y-intercept of line t?
+K: 44/3 | 14.66 | 14.67
+E: Line r passes through (0, −4) and (4, −1), so its slope is 3/4. Line t has slope −4/3: 8 = (−4/3)(5) + b gives b = 8 + 20/3 = 44/3.
+=M2
+#1
+I: /qimg/24-dsat24-06-a-math-m2-q1.svg
+Q: Which of the following is a graph of a decreasing exponential function?
+A) Graph A
+B) Graph B
+C) Graph C
+D) Graph D
+K: D
+E: A and B are lines and C is increasing. Graph D falls quickly at first and then levels off toward 0, which is decreasing exponential decay.
+#2
+Q: What is the y-intercept of the graph of y = 6x^2 + 3x + 4 in the xy-plane?
+A) (0, 3)
+B) (0, 4)
+C) (0, 6)
+D) (0, 7)
+K: B
+E: At x = 0, y = 4.
+#3
+Q: If 2x + 5 = 9, what is the value of 8x − 4?
+K: 12
+E: 2x = 4, so x = 2 and 8x − 4 = 16 − 4 = 12.
+#4
+Q: The product of a positive number x and the number that is 1 less than x is equal to 12. What is the value of x?
+A) 0.5
+B) 4
+C) 11
+D) 13
+K: B
+E: x(x − 1) = 12 gives x² − x − 12 = 0 = (x − 4)(x + 3); the positive solution is 4.
+#5
+Q: A cylinder has a diameter of 6 inches and a height of 24 inches. What is the volume, in cubic inches, of the cylinder?
+A) 9π
+B) 144π
+C) 216π
+D) 864π
+K: C
+E: The radius is 3, so V = π(3²)(24) = 216π.
+#6
+I: /qimg/24-dsat24-06-a-math-m2-q6.svg
+Q: In triangle PQR, QR is extended to point S. The measure of ∠PQR is 114°, and the measure of ∠PRS is 158°. What is the measure of ∠QPR?
+A) 66°
+B) 44°
+C) 33°
+D) 22°
+K: B
+E: The exterior angle equals the sum of the two remote interior angles: 158° = 114° + ∠QPR, so ∠QPR = 44°.
+#7
+Q: Sarah used wax to make candles. The function f(x) = −12x + 60 approximates the weight, in ounces, of wax Sarah had remaining after making x candles. Which statement is the best interpretation of the y-intercept of the graph of y = f(x) in the xy-plane in this context?
+A) Sarah used approximately 12 ounces of wax for each candle.
+B) Sarah had approximately 12 ounces of wax when she began to make the candles.
+C) Sarah had approximately 60 ounces of wax when she began to make the candles.
+D) Sarah used approximately 60 ounces of wax for each candle.
+K: C
+E: The y-intercept (0, 60) means that before any candles were made, Sarah had about 60 ounces of wax.
+#8
+P: ak = (b/11)(14 + m)
+Q: The given equation relates the positive variables a, b, k, and m. Which equation correctly expresses m in terms of a, b, and k?
+A) m = (11(ak − 14))/b
+B) m = ak − 14 − b/11
+C) m = ak − (14b)/11
+D) m = (11ak)/b − 14
+K: D
+E: Multiply both sides by 11/b: 14 + m = 11ak/b, so m = 11ak/b − 14.
+#9
+Q: The function g is defined by g(x) = 10^(3x − 7). What is the value of x when g(x) is equal to 10,000?
+A) 3
+B) 10/3
+C) 11/3
+D) 4
+K: C
+E: 10,000 = 10⁴, so 3x − 7 = 4 and x = 11/3.
+#10
+Q: If x/y = 2 and (5x)/(ty) = 50, what is the value of t?
+A) 1/5
+B) 2/5
+C) 5/2
+D) 5
+K: A
+E: (5x)/(ty) = (5/t)(x/y) = 10/t = 50, so t = 1/5.
+#11
+Q: A piece of string with a length of 30 inches is cut into two parts. One part has a length of x inches, and the other part has a length of y inches. The value of x is 3 more than 2 times the value of y. What is the value of x?
+K: 21
+E: x + y = 30 and x = 2y + 3, so 3y + 3 = 30, y = 9 and x = 21.
+#12
+Q: Which equation has no solution?
+A) −15x − 1/6 = −15x − 1/6
+B) −15x − 1/6 = −15x + 1/6
+C) −15x − 1/6 = 15x − 1/6
+D) −15x − 1/6 = 15x + 1/6
+K: B
+E: In B the x-terms cancel and leave −1/6 = 1/6, which is never true.
+#13
+P: F(x) = (9/5)(x − 273.15) + 32
+Q: The function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 9.40 kelvins, by how much did the temperature increase, in degrees Fahrenheit?
+A) 16.92
+B) 48.92
+C) 474.75
+D) 506.75
+K: A
+E: Each kelvin adds 9/5 degree Fahrenheit, so the increase is (9/5)(9.40) = 16.92.
+#14
+P: y = −0.5
+P: y = x^2 + 10x + a
+Q: In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?
+K: 25
+E: x² + 10x + a + 0.5 = 0 has no real solutions when 100 − 4(a + 0.5) < 0, i.e. a > 24.5. The least integer is 25.
+#15
+Q: An environmental scientist is investigating the volatility of 175 organic compounds by finding the boiling point of each compound. The mean boiling point of all 175 compounds is 183 degrees Celsius. The scientist classifies each of these compounds as either semivolatile or volatile. Of the 175 compounds, 50 compounds were classified as semivolatile, and these 50 compounds have a mean boiling point of 338 degrees Celsius. The remaining 125 compounds were classified as volatile. What is the mean boiling point, in degrees Celsius, of the 125 compounds classified as volatile?
+K: 121
+E: Total = 175(183) = 32,025; semivolatile total = 50(338) = 16,900; so the volatile mean is 15,125/125 = 121.
+#16
+P: f(x) = 28(1.30)^(x/4)
+Q: For the given function f, the value of f(x) increases by p% for every increase of x by 8. What is the value of p?
+A) 30
+B) 41
+C) 60
+D) 69
+K: D
+E: An increase of 8 in x multiplies f by 1.30² = 1.69, an increase of 69%.
+#17
+Q: A carpenter charges a flat rate of $306 for the first 3 hours of work and $85 for each additional hour of work. Which equation gives the total amount y, in dollars, that the carpenter charges for x hours of work, where x > 3?
+A) y = 85x + 51
+B) y = 306x + 85
+C) y = 306x + 561
+D) y = 85x + 306
+K: A
+E: y = 306 + 85(x − 3) = 85x + 51.
+#18
+P: <div class="eq"><sup>3</sup><span class="rad"><span class="rq">√</span>285n</span>(<sup>4</sup><span class="rad"><span class="rq">√</span>285n</span>)<sup>2</sup></div>
+Q: For what value of x is the given expression equivalent to (285n)<sup>12x</sup>, where n &gt; 1?
+K: 5/72 | .0694 | 0.069
+E: The expression is (285n)^(1/3) · (285n)^(2/4) = (285n)^(5/6). So 12x = 5/6 and x = 5/72.
+#19
+T: <table><tr><th></th><th>0–9 years</th><th>10–19 years</th><th>20+ years</th><th>Total</th></tr><tr><td>Group A</td><td>15</td><td>18</td><td>7</td><td>40</td></tr><tr><td>Group B</td><td>6</td><td>7</td><td>27</td><td>40</td></tr><tr><td>Group C</td><td>19</td><td>15</td><td>6</td><td>40</td></tr><tr><td>Total</td><td>40</td><td>40</td><td>40</td><td>120</td></tr></table>
+Q: The table summarizes the distribution of age and assigned group for 120 participants in a study. One of these participants will be selected at random. What is the probability of selecting a participant from group A, given that the participant is at least 10 years of age?
+A) 5/24
+B) 5/16
+C) 9/20
+D) 5/8
+K: B
+E: 80 participants are at least 10, and 18 + 7 = 25 of them are in group A: 25/80 = 5/16.
+#20
+T: <table><tr><th>x</th><th>g(x)</th></tr><tr><td>−24</td><td>3</td></tr><tr><td>−9</td><td>0</td></tr><tr><td>16</td><td>5</td></tr></table>
+Q: The table shows three values of x and their corresponding values of g(x), where g(x) = f(x)/(x + 4) and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?
+A) (0, 36)
+B) (0, 9)
+C) (0, 4)
+D) (0, −9)
+K: A
+E: f(x) = g(x)(x + 4): f(−9) = 0 and f(16) = 5(20) = 100, so the slope is 100/25 = 4 and f(x) = 4(x + 9). Then f(0) = 36.
+#21
+Q: The mass of object A is 481% of the mass of object B, and the mass of object A is 0.074% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of p/1,000?
+K: 650
+E: A = 4.81B and A = 0.00074C, so C = 4.81B/0.00074 = 6,500B. That is 650,000% of B, and p/1,000 = 650.
+#22
+P: 1/(cx) = x/128 + 1/c
+Q: In the given equation, c is a constant. If the equation has exactly one solution, what is the value of c?
+K: -32
+E: Multiplying by 128cx gives 128 = cx² + 128x, or cx² + 128x − 128 = 0. One solution means the discriminant is 0: 128² + 4(128)c = 0, so c = −32.

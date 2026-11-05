@@ -228,6 +228,18 @@
   "minutesPerModule": 32
  },
  {
+  "id": "dsat24-06-a-math",
+  "name": "June 2024 International · Form A · Math",
+  "type": "MATH",
+  "year": 2024,
+  "month": 6,
+  "region": "International",
+  "form": "A",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat24-05-a-rw",
   "name": "May 2024 International · Form A · Reading & Writing",
   "type": "EBRW",
