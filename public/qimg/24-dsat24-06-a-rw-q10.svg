@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" font-family="Georgia, serif" font-size="13">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="240.0" y="18" text-anchor="middle" font-size="14">Percentage of Maize Exported by Three Countries</text>
+<text x="240.0" y="34" text-anchor="middle" font-size="14">for Marketing Years 2009/2010–2013/2014</text>
+<line x1="70" y1="280.0" x2="440" y2="280.0" stroke="#bbb"/><text x="64" y="284.0" text-anchor="end">0</text>
+<line x1="70" y1="253.33333333333334" x2="440" y2="253.33333333333334" stroke="#bbb"/><text x="64" y="257.33333333333337" text-anchor="end">10</text>
+<line x1="70" y1="226.66666666666669" x2="440" y2="226.66666666666669" stroke="#bbb"/><text x="64" y="230.66666666666669" text-anchor="end">20</text>
+<line x1="70" y1="200.0" x2="440" y2="200.0" stroke="#bbb"/><text x="64" y="204.0" text-anchor="end">30</text>
+<line x1="70" y1="173.33333333333334" x2="440" y2="173.33333333333334" stroke="#bbb"/><text x="64" y="177.33333333333334" text-anchor="end">40</text>
+<line x1="70" y1="146.66666666666666" x2="440" y2="146.66666666666666" stroke="#bbb"/><text x="64" y="150.66666666666666" text-anchor="end">50</text>
+<line x1="70" y1="120.0" x2="440" y2="120.0" stroke="#bbb"/><text x="64" y="124.0" text-anchor="end">60</text>
+<line x1="70" y1="93.33333333333334" x2="440" y2="93.33333333333334" stroke="#bbb"/><text x="64" y="97.33333333333334" text-anchor="end">70</text>
+<line x1="70" y1="66.66666666666669" x2="440" y2="66.66666666666669" stroke="#bbb"/><text x="64" y="70.66666666666669" text-anchor="end">80</text>
+<line x1="70" y1="40.0" x2="440" y2="40.0" stroke="#bbb"/><text x="64" y="44.0" text-anchor="end">90</text>
+<line x1="100.0" y1="40" x2="100.0" y2="280" stroke="#ddd"/><text x="100.0" y="298" text-anchor="middle" font-size="12">2009/2010</text>
+<line x1="177.5" y1="40" x2="177.5" y2="280" stroke="#ddd"/><text x="177.5" y="298" text-anchor="middle" font-size="12">2010/2011</text>
+<line x1="255.0" y1="40" x2="255.0" y2="280" stroke="#ddd"/><text x="255.0" y="298" text-anchor="middle" font-size="12">2011/2012</text>
+<line x1="332.5" y1="40" x2="332.5" y2="280" stroke="#ddd"/><text x="332.5" y="298" text-anchor="middle" font-size="12">2012/2013</text>
+<line x1="410.0" y1="40" x2="410.0" y2="280" stroke="#ddd"/><text x="410.0" y="298" text-anchor="middle" font-size="12">2013/2014</text>
+<text x="18" y="160.0" transform="rotate(-90 18 160.0)" text-anchor="middle">Percent</text>
+<text x="255.0" y="320" text-anchor="middle">Marketing year</text>
+<polyline points="100.0,101.33333333333331 177.5,104.0 255.0,66.66666666666669 332.5,93.33333333333334 410.0,106.66666666666666" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="none"/>
+<polygon points="100.0,95.33333333333331 94.0,106.33333333333331 106.0,106.33333333333331" fill="#000"/>
+<polygon points="177.5,98.0 171.5,109.0 183.5,109.0" fill="#000"/>
+<polygon points="255.0,60.666666666666686 249.0,71.66666666666669 261.0,71.66666666666669" fill="#000"/>
+<polygon points="332.5,87.33333333333334 326.5,98.33333333333334 338.5,98.33333333333334" fill="#000"/>
+<polygon points="410.0,100.66666666666666 404.0,111.66666666666666 416.0,111.66666666666666" fill="#000"/>
+<polyline points="100.0,224.0 177.5,240.0 255.0,189.33333333333334 332.5,197.33333333333331 410.0,208.0" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="95.0" y="219.0" width="10" height="10" fill="#999" stroke="#000"/>
+<rect x="172.5" y="235.0" width="10" height="10" fill="#999" stroke="#000"/>
+<rect x="250.0" y="184.33333333333334" width="10" height="10" fill="#999" stroke="#000"/>
+<rect x="327.5" y="192.33333333333331" width="10" height="10" fill="#999" stroke="#000"/>
+<rect x="405.0" y="203.0" width="10" height="10" fill="#999" stroke="#000"/>
+<polyline points="100.0,240.0 177.5,240.0 255.0,245.33333333333334 332.5,258.6666666666667 410.0,245.33333333333334" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="2 3"/>
+<circle cx="100.0" cy="240.0" r="5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<circle cx="177.5" cy="240.0" r="5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<circle cx="255.0" cy="245.33333333333334" r="5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<circle cx="332.5" cy="258.6666666666667" r="5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<circle cx="410.0" cy="245.33333333333334" r="5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<line x1="150" y1="340" x2="190" y2="340" stroke="#000" stroke-width="2" stroke-dasharray="none"/><polygon points="170,334 164,345 176,345" fill="#000"/><text x="200" y="344">Argentina</text>
+<line x1="150" y1="362" x2="190" y2="362" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><rect x="165" y="357" width="10" height="10" fill="#999" stroke="#000"/><text x="200" y="366">Brazil</text>
+<line x1="150" y1="384" x2="190" y2="384" stroke="#000" stroke-width="2" stroke-dasharray="2 3"/><circle cx="170" cy="384" r="5" fill="#fff" stroke="#000" stroke-width="1.5"/><text x="200" y="388">United States</text>
+</svg>
