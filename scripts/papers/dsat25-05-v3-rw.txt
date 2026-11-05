@@ -1,0 +1,517 @@
+!id: dsat25-05-v3-rw
+!name: May 2025 · International · Version 3 · Reading & Writing
+!type: EBRW
+!year: 2025
+!month: 5
+!region: International
+!form: 3
+=M1
+#1
+P: <i>October</i>, painted in the realist style by Jules Bastien-Lepage, depicts peasant women picking potatoes. The realists’ emphasis on accurately portraying the experiences of average working people was largely a rejection of the romantic style evident in many paintings by Jean-Victor Schnetz, which instead ______ their subjects’ beauty or heroism while hiding all imperfection.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) mock
+B) exaggerate
+C) correct
+D) undermine
+K: B
+E: Romantic paintings are contrasted with realism, so they would exaggerate beauty or heroism while hiding imperfection.
+#2
+P: The minor planet 8764 Gallinago was named after the animal genus that includes snipes. But most minor planets are given only an identification number, largely due to there being over 500,000 such bodies known at present. So while the task of finding a unique name for each minor planet was ______ when few had been discovered, so many minor planets have since been discovered that the task has become nearly impossible.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) insurmountable
+B) substantial
+C) ambiguous
+D) feasible
+K: D
+E: The task is now nearly impossible, in contrast to when few planets were known, so it was feasible then.
+#3
+P: The term “agglomeration economies” refers to the economic benefits enjoyed by firms in the same industry that ______ in a region. For example, in the game and toy manufacturing industry in the United Kingdom, firms that locate near one another can more readily take advantage of increased potential for information sharing among firms that fosters greater technological innovation.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) concentrate
+B) recur
+C) dissipate
+D) terminate
+K: A
+E: Firms that locate near one another are clustered, that is, they concentrate in a region.
+#4
+P: In the decades after Mexico won its independence from Spain, literature became a medium through which the new nation ______ its autonomous identity, with authors like Manuel Jose Othon and Angel del Campo helping to shape what would become a distinctly Mexican literary tradition.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) decried
+B) realized
+C) evaded
+D) overcame
+K: B
+E: Literature helped the nation bring its autonomous identity into being, that is, realize it.
+#5
+P: Any effort to raise the toll that drivers must pay to use the Lewiston-Queenston Bridge, which spans the Niagara River to connect New York State and Ontario, Canada, should explain why a higher toll is necessary; no amount of justification, however, is likely to persuade some drivers who believe the current toll is ______.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) warranted
+B) exorbitant
+C) equivocal
+D) contentious
+K: B
+E: Drivers who would resist any justification for a higher toll must already think the current toll is excessive, or exorbitant.
+#6
+P: Researchers examining data from the New Horizons space probe, which passed Pluto in 2015, were puzzled by a 27-mile-long crater on Pluto’s icy surface. Although Pluto is mostly covered in frozen methane and nitrogen, the surface near the crater seemed to show the presence of water ice and ammonia—both of which are associated with eruptions from ice volcanoes. <u>Additionally, the shape and appearance of the crater did not suggest that it was formed by impact.</u> Based on this evidence, scientist Dale Cruikshank and his team hypothesized that the crater was likely once a massive ice volcano.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It implies that the research team eliminated an alternative explanation for the crater based on available evidence.
+B) It identifies a misconception that the researchers had about the crater when they were first studying the data.
+C) It emphasizes the importance of the New Horizons space probe to researchers.
+D) It introduces previous findings that suggested a research method for Cruikshank and his team.
+K: A
+E: The sentence rules out impact as the cause, supporting the ice volcano hypothesis.
+#7
+P: <b>Text 1</b>
+P: In the past, music albums were created to be played back on physical formats like records. A typical record holds only about twenty-five minutes of music on each of its shiny black sides. This forced artists and producers to think carefully about what music to include on an album and what to leave out. Today’s artists don’t have to worry as much about fitting their music on physical formats. For this reason, many of today’s artists are making albums that are much longer than albums from decades past.
+P: <b>Text 2</b>
+P: In today’s digital age, most music is created to be streamed from online services. These services remove the limitations of physical formats like records and CDs. This may be why many new albums are longer and have more songs than albums crafted for physical formats. Unfortunately, many of these longer albums suffer from a lack of focus.
+Q: Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement about many new albums?
+A) Many new albums sell more copies than albums generally once sold.
+B) Many new albums are quieter than albums generally once were.
+C) Many new albums include more artwork than albums generally once included.
+D) Many new albums are longer than albums generally once were.
+K: D
+E: Both texts say many new albums are longer than older ones.
+#8
+P: It has long been thought that the original author of the US Pledge of Allegiance was Francis Bellamy, who said that he wrote the pledge one evening in August of 1892. But a historian recently discovered a newspaper article that was published several months before August 1892. The article describes students reciting the same pledge that Bellamy claims he first wrote in August. This means that Bellamy may not have created the pledge after all.
+Q: Based on the text, what piece of knowledge about the Pledge of Allegiance has recently become uncertain?
+A) The name of the newspaper that first published the pledge
+B) How many changes were made to the pledge in the 1900s
+C) The identity of the person who first wrote the pledge
+D) Which part of the pledge students liked best in 1892
+K: C
+E: The discovery casts doubt on whether Bellamy wrote the pledge, so its author is uncertain.
+#9
+P: Toads and macaque monkeys can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of toads and macaque monkeys than that of octopuses or squid.
+Q: Which choice best states the main idea of the text?
+A) Wardill’s team designed 3D glasses for cuttlefish.
+B) Before completing their study, Wardill’s team showed that toads have 3D vision, but macaque monkeys may not.
+C) The findings of Wardill’s team’s study suggest that like toads and macaque monkeys, cuttlefish may also have 3D vision.
+D) Cuttlefish eyes are much more complex than those of either toads or macaque monkeys.
+K: C
+E: The study suggests cuttlefish, like toads and macaques, may have 3D vision.
+#10
+P: <i>The following text is from Anthony Trollope’s 1855 novel</i> The Warden. <i>Tom Towers is a writer for the newspaper</i> The Jupiter.
+P: It is true that in far-off provinces men did not talk daily of Tom Towers but they read <i>The Jupiter</i>, and acknowledged that without <i>The Jupiter</i> life was not worth having. This kind of hidden but still conscious glory suited the nature of the man. He loved to sit silent in a corner of his club and listen to the loud chattering of politicians, and to think how they all were in his power;—how he could smite the loudest of them, were it worth his while to raise his pen for such a purpose.
+Q: What does the text most strongly suggest about Tom Towers?
+A) He takes private satisfaction in his capacity to influence public opinion.
+B) He seeks mainly the admiration of readers in places that are far away.
+C) He has received much praise but tends to treasure too highly his power over others.
+D) He flatters himself that his readers take a greater interest in him than in politicians.
+K: A
+E: He quietly enjoys thinking that politicians are in his power, showing private satisfaction in his influence.
+#11
+P: <p style='text-align:center'><b>Effect of Neighboring Species on Pollinator Visits to Target Species</b>
+T: <table><thead><tr><th>Neighboring species</th><th>Target species</th><th>Effect value</th></tr></thead><tbody><tr><td>sticky catchfly</td><td>common cow-wheat</td><td>0.2379</td></tr><tr><td>prickly pear</td><td>jagged lavender</td><td>0.1292</td></tr><tr><td>viper’s-bugloss</td><td></td><td>−0.3312</td></tr></tbody></table>
+P: Researchers Carolina Laura Morales and Anna Traveset gathered data about flowering plants growing alongside each other in various locations. In each case, the researchers identified one plant as a “target species” and a nearby plant as a “neighboring species.” The researchers then calculated a value to show how the neighboring species affected pollinator visits to the target species. The table shows that the prickly pear had an effect value of ______
+Q: Which choice most effectively uses data from the table to complete the example?
+A) 0.2379.
+B) −0.3312.
+C) 0.1292.
+D) −3.2570.
+K: C
+E: The table lists 0.1292 for the prickly pear.
+#12
+P: <p style='text-align:center'><b>Impact of Four Key Industries on Oklahoma Economy in 2017</b>
+T: <table><thead><tr><th>Industry</th><th>Approximate total contribution by industry</th><th>Number of people employed by industry</th><th>Average contribution per employee by industry</th></tr></thead><tbody><tr><td>Accommodation/food services</td><td>$5,242,100,000</td><td>150,373</td><td>$34,861</td></tr><tr><td>Tribal economic activity</td><td>$7,312,400,000</td><td>51,674</td><td>$141,510</td></tr><tr><td>Health care</td><td>$13,727,300,000</td><td>193,514</td><td>$70,937</td></tr><tr><td>Retail</td><td>$10,738,800,000</td><td>179,208</td><td>$59,924</td></tr></tbody></table>
+P: The nearly forty tribes located in Oklahoma, including the Chickasaw Nation and the Seminole Nation, operate numerous businesses and generate billions of dollars in revenue. A student in an economics class is researching the tribes’ collective activity as a single industry. The student wants to compare that industry’s contribution to Oklahoma’s overall economy in 2017 with the contributions made by three other industries in the state. Looking at the table, the student finds that tribal economic activity totaled over $7.3 billion, ranking it above ______
+Q: Which choice most effectively uses data from the table to complete the comparison?
+A) both accommodation/food services and retail but below health care.
+B) accommodation/food services but below both health care and retail.
+C) health care, retail, and accommodation/food services.
+D) accommodation/food services and nearly equal to health care and retail.
+K: B
+E: $7.3 billion exceeds accommodation/food services ($5.2 billion) but is below retail ($10.7 billion) and health care ($13.7 billion).
+#13
+P: Assessing the role of forests as sinks for airborne microplastics that would otherwise continue to disperse in the atmosphere, Akane Miyazaki and her team measured concentrations of plastic particulates on leaves from konara oak trees in Japan. The team used three separate extraction methods: an ultrapure water rinse, a rinse combined with ultrasonic waves, and an alkaline solution treatment that removes epicuticular wax (a surface coating on most land plants to which particles can adhere). The concentrations of particulates recovered were 7.6 percent for water extraction, 38.4 percent for ultrasonic extraction, and 53.8 percent for alkaline extraction, leading the team to conclude that previous assessments have likely underestimated forest canopies’ capacity as sinks.
+Q: Which detail, if true, would most directly support the team’s conclusion?
+A) Most studies of microplastic accumulation on leaves have utilized extraction methods that do not have a substantial effect on epicuticular wax.
+B) Most studies of microplastic accumulation on leaves have focused on forests with diverse tree species that exhibit varying levels of epicuticular wax.
+C) Most studies of microplastic accumulation on leaves have involved the application of alkaline treatments before water and ultrasonic treatments rather than after them.
+D) Most studies of microplastic accumulation on leaves have found particulate concentrations that greatly exceeded 53.8 percent.
+K: A
+E: Alkaline extraction that removes wax recovered the most particles, so earlier studies that left the wax intact likely undercounted.
+#14
+P: Mariana Lopes Barata and Pedro Simões Coelho collected data from 324 music-streaming service users to identify factors that influence users to opt for paid (premium) versions of music streaming services, like Apple Music. They hypothesized that performance expectancy (how much the use of a service is perceived to benefit the consumer) would be positively correlated with users’ intentions to adopt premium versions. The researchers asked participants to rate statements such as “Using paid music streaming services increases my productivity.” They found that, indeed, performance expectancy positively influences the intention to adopt premium streaming service versions, which suggests that ______
+Q: Which choice most logically completes the text?
+A) it may be advantageous for music streaming companies to try to influence the extent to which potential users perceive the use of the premium version to be beneficial.
+B) the statement “Using paid music streaming services increases my productivity” is not a reliable measure of performance expectancy.
+C) users’ intentions to pay for premium streaming services are probably unaffected by factors other than performance expectancy.
+D) participants who strongly agreed with the statement “Using paid music streaming services increases my productivity” were more likely to express loyalty to Apple Music than to other streaming services.
+K: A
+E: Since perceived benefit raises intent to subscribe, companies could gain by shaping that perception.
+#15
+P: On January 24, 2013, the <i>Navajo Times</i> ______ a profile of Cornfields Chapter (<i>K’iiltsoitah</i>), which is one of the 110 chapters of the Navajo Nation (<i>Naabeehó Bináhásdzo</i>). The article was later included in a book series called <i>Exploring the Navajo Nation Chapter by Chapter</i>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) will publish
+B) published
+C) publishes
+D) is publishing
+K: B
+E: A specific past date calls for the simple past tense, published.
+#16
+P: Topographical prominence is a measure of a mountain’s independence from other mountains. Having 11,486 feet of prominence, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) geographers have ranked Mount Hayes, a peak in the United States, as the world’s 51st most prominent mountain.
+B) Mount Hayes, a peak located in the United States, is ranked by geographers as the world’s 51st most prominent mountain.
+C) the list of mountains geographers rank as the world’s most prominent includes Mount Hayes, a peak located in the United States, at number 51.
+D) the ranking given by geographers to Mount Hayes, a peak located in the United States, is 51st most prominent mountain in the world.
+K: B
+E: The opening modifier must be followed by the mountain that has the prominence, Mount Hayes.
+#17
+P: According to the original text of the US Constitution, written in 1787, the presidential candidate receiving the second-most Electoral College votes becomes vice president. The 12th amendment, ratified in ______ separated the elections for the two offices.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) 1804—
+B) 1804
+C) 1804,
+D) 1804:
+K: C
+E: The phrase ratified in 1804 is nonessential and needs a comma to close it after the opening comma.
+#18
+P: The colors of Navajo (Diné) weaver Melissa Cody’s work <i>World Traveler</i> (2014) recall both the Germantown revival, a weaving style developed by Navajo Nation ______ ago, and the color palette of the video games that Cody played as a child.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) artist’s over 160 year’s
+B) artists’ over 160 years
+C) artists over 160 years’
+D) artists over 160 years
+K: D
+E: No possessive is needed: artists is a plain plural and years is a plain plural.
+#19
+P: A groundbreaking visual artist of her day, ______ including artists Vasily Kandinsky and Piet Mondrian.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) well before many of her contemporaries, Hilma af Klint explored abstract modes of painting,
+B) the explorations of Hilma af Klint into abstract modes of painting occured well before those of many of her contemporaries,
+C) Hilma af Klint explored abstract modes of painting well before many of her contemporaries,
+D) Hilma af Klint, well before many of her contemporaries, explored abstract modes of painting,
+K: C
+E: The artist must be the subject right after the modifier, and “contemporaries, including…” must follow directly.
+#20
+P: The small celestial body known as 55576 Amycus is expected to have a relatively short lifetime in the outer solar system. Within just a few million years, 55576 Amycus is likely to migrate into the inner solar system or be destroyed, according to ______ trajectory.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) astronomer’s modeling of the object’s
+B) astronomers’ modeling of the object’s
+C) astronomers modeling of the objects
+D) astronomers modeling of the object’s
+K: B
+E: Plural possessive astronomers’ (the modeling belongs to astronomers) and singular possessive object’s before trajectory.
+#21
+P: Many works of the Greek historian and geographer Agatharchides (2nd century BCE), including his history of Europe, <i>Ta kata ten Europen</i>, have been lost to time. Scholars wishing to read a work written by the Greek historian and geographer needn’t ______ they can still procure a copy of Agatharchides’s <i>De Mari Erythraeo</i>, a geographical treatise.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) despair, though,
+B) despair, though;
+C) despair, though
+D) despair—though
+K: B
+E: Though is parenthetical, and a semicolon joins the two independent clauses.
+#22
+P: Using LiDAR (Light Detection and Ranging) technology, Tulane University archaeologists scanned and mapped the ancient Mayan city of Tikal, which lies deep in the Guatemalan rainforest. Some of Tikal’s old stones are intertwined with the roots of surrounding trees, rendering parts of the complex physically inaccessible to researchers. ______ the LiDAR’s penetrating light waves were the only way to reveal some previously unknown aspects of the Mayan city.
+Q: Which choice completes the text with the most logical transition?
+A) Afterward,
+B) Hence,
+C) Similarly,
+D) Specifically,
+K: B
+E: The inaccessibility of parts of the complex is the reason LiDAR was the only way to reveal them.
+#23
+P: Imagine a magazine that a reader has thrown away. This magazine is post-consumer waste, as it became waste after reaching the consumer. ______ the paper scraps left over from printing the magazine are pre-consumer waste, as they became waste before reaching the consumer.
+Q: Which choice completes the text with the most logical transition?
+A) As a result,
+B) By contrast,
+C) For example,
+D) Specifically,
+K: B
+E: The sentence contrasts pre-consumer waste with post-consumer waste.
+#24
+P: One proposed boundary between Earth’s atmosphere and outer space is the Kármán line, 100 km above sea level. Based on the work of physicist Theodore von Kármán, this line marks the theoretical height at which an aircraft no longer remains aloft using the force of lift. ______ an aircraft sustains flight past this altitude primarily by its velocity, reaching a speed sufficient to maintain an orbit but not to generate enough lift from the thin air.
+Q: Which choice completes the text with the most logical transition?
+A) Regardless,
+B) Instead,
+C) Granted,
+D) For instance,
+K: B
+E: Past the line, flight is sustained by velocity instead of lift.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: The Schomburg Center for Research in Black Culture is a research library in New York City.
+L: It was named for Arturo Alfonso Schomburg.
+L: It was founded in 1925.
+Q: The student wants to indicate the year the Schomburg Center was founded. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Schomburg Center is a research library.
+B) The Schomburg Center is located in New York City.
+C) The Schomburg Center was founded in 1925.
+D) The Schomburg Center was named for Arturo Alfonso Schomburg.
+K: C
+E: Only the third choice gives the founding year.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Kale is a vegetable that contains ascorbic acid, an essential nutrient for humans.
+L: Grapes are fruits that contain ascorbic acid.
+L: There is 120 milligrams (mg) of ascorbic acid in every 100 grams (g) of kale.
+L: There is 10 mg of ascorbic acid in every 100 g of grapes.
+L: Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables.
+L: Ascorbic acid is also known as vitamin C.
+Q: The student wants to compare the vitamin C content of kale and grapes. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Kale and grapes both contain vitamin C, but kale contains more.
+B) Kale contains vitamin C (also known as ascorbic acid)—120 mg in every 100 g, to be exact.
+C) Kale is a vegetable, and grapes are fruits.
+D) Humans cannot make ascorbic acid in their bodies, but they can get it from kale.
+K: A
+E: Only the first choice compares kale and grapes on vitamin C content.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Merle Oberon (1911–1979) was an actress born in Mumbai (then known as Bombay), India.
+L: She was of Indian, Maori, and Irish heritage.
+L: She was the first Indian-born actress to be nominated for an Academy Award.
+L: Early in her career, she played many nameless, uncredited roles, such as her role in <i>Strange Evidence</i> (1933).
+L: Later, she played many named, credited roles, such as Jill Baker in <i>That Uncertain Feeling</i> (1941).
+Q: The student wants to emphasize a similarity between the two films. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) <i>Strange Evidence</i> (1933) was released early in actress Merle Oberon’s career, whereas <i>That Uncertain Feeling</i> (1941) came out later.
+B) Early in her career, Merle Oberon wasn’t listed in some film credits, such as the credits for the film <i>Strange Evidence</i>, where she played a nameless, uncredited role.
+C) <i>Strange Evidence</i> and <i>That Uncertain Feeling</i> are both films that include Merle Oberon, the first Indian-born actress to be nominated for an Academy Award.
+D) In <i>Strange Evidence</i> (1933), actress Merle Oberon played a nameless, uncredited role; however, in <i>That Uncertain Feeling</i> (1941), she played a credited role—that of Jill Baker.
+K: C
+E: Only the third choice states what the two films share: both include Merle Oberon.
+=M2
+#1
+P: Ancient Inca inhabiting the Andes Mountains used terraces, rows of flattened land with built-in irrigation systems, to grow crops at different altitudes. This method of farming proved to be highly ______, as evidenced by the great number and variety of crops grown at that time.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) uniform
+B) effective
+C) chaotic
+D) burdensome
+K: B
+E: The many and varied crops show the terrace method worked well, so it was highly effective.
+#2
+P: <i>The following text is from Meredith Nicholson's 1910 short story "The Girl with the Red Feather."</i>
+P: Mrs. Webster G. Burgess always maintains that nothing her husband may do can shock her. When her husband had not <u>appeared</u> at seven she explained to her guest that he had been detained by an unexpected meeting of a clearing-house committee.
+Q: As used in the text, what does the word "appeared" most nearly mean?
+A) Pretended
+B) Developed
+C) Responded
+D) Arrived
+K: D
+#3
+P: <i>The following text is from Jhumpa Lahiri's 2003 novel The Namesake. Gogol, a child, is at a beach in Massachusetts with his father.</i>
+P: He watches his father raise a kite within minutes into the wind, so high that Gogol must <u>tip</u> his head back in order to see a rippling speck against the sky. The wind whips around their ears, turning their faces cold.
+P: ©2003 by Jhumpa Lahiri
+Q: As used in the text, what does the word "tip" most nearly mean?
+A) Lean
+B) Inform
+C) Pay
+D) Produce
+K: A
+#4
+P: Geomagnetic storms can disturb Earth's ionosphere, causing the models underlying the Global Positioning System (GPS) to produce inaccurate calculations. This illustrates the effect that space weather events can have on the ______ of GPS and other systems that are dependent on satellite navigation.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) significance
+B) reliability
+C) extent
+D) complexity
+K: B
+#5
+P: Popularized in sixteenth- and seventeenth-century England by such poets as William Shakespeare and Edmund Spenser, the sonnet sequence (a series of fourteen-line poems unified by overarching thematic concerns) remains a prevalent poetic genre. Although the sonnet's intricate, rule-bound structure makes writing even one sonnet—let alone an entire series—intrinsically challenging, more recent poets from Gwendolyn Brooks to Marilyn Nelson have undertaken sonnet sequences, likely in part because of the opportunity the genre presents for showcasing a poet's virtuosity and ingenuity.
+Q: Which choice best states the main purpose of the text?
+A) To describe some of the innovations Brooks and Nelson have introduced to the sonnet sequence
+B) To contrast the more creative sonnet sequences of Brooks and Nelson with the more conventional ones of Shakespeare and Spenser
+C) To enumerate the structural features of sonnet sequences that make them challenging to compose
+D) To suggest a reason for the enduring appeal of the sonnet sequence among poets despite its challenging form
+K: D
+#6
+P: Can tomato plants grow on Mars? Can pea plants? <u>You might think the answer to these questions is obviously no</u>, but researchers in the Netherlands recently showed that the seeds of many common plant species can germinate in soil designed to simulate Martian conditions, as long as water is supplied. In fact, some species actually did better in Martian soil than in Earth soil: 90 percent of tomato seeds sprouted when planted in simulated Martian soil, compared with 66 percent that did when planted in soil from their home planet.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It signals the surprising nature of the findings discussed in the text
+B) It acknowledges that readers may object to the method used in the experiment discussed in the text
+C) It clarifies a potential point of confusion about the hypothesis tested in the study discussed in the text
+D) It draws a distinction between the two species discussed in the text
+K: A
+#7
+P: Julie Dash's lyrical film Daughters of the Dust, first released in 1991, follows members of a Gullah family as they depart from their island home near Georgia in 1902. <u>Though an imaginative, critically acclaimed film with a wide release—and a highly appreciative global audience—Dash's work never received the plaudits it deserved within the US film industry.</u> Interest in the film reignited, however, with Beyoncé's release of Lemonade in 2016, due to the visual album's numerous allusions to Dash's film in the form of stylistic references to its scenes, costumes, and celebration of Black life in the US South.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It gives a brief overview of how Dash's film was received at the time of release and alludes to the reception of a similar work that is described later in the text
+B) It expands on an attribute of Dash's film that is described earlier in the text in order to draw distinctions between the film and a later work that was influenced by it
+C) It presents a discrepancy between the value of Dash's film and the industry's response to it that the text goes on to demonstrate was partially rectified by the film's influence on a later work
+D) It introduces the implication that had Dash's film received more recognition from the US film industry at the time of its release, it wouldn't have attained such influence on Beyoncé's Lemonade
+K: C
+#8
+P: Sometimes an animal will encounter another member of its own species that it doesn't have any connection with. (For example, African lions that aren't in the same pride might meet.) When that happens, the animals have to make decisions. Will they compete for a mate? Will they help in a fight with a predator? Will there be another outcome? In other words, the animals have to think carefully about possible risks and benefits.
+Q: What is the main topic of the text?
+A) Animal species that do not have any predators
+B) A kind of meeting between animals of the same species
+C) Animal species that are close to becoming extinct
+D) Different environments that some animal species live in
+K: B
+#9
+T: <table><caption><b>Copper Mining Production (1995 vs. 2020)</b><br><i>(Millions of Metric Tons)</i></caption><thead><tr><th>Country</th><th>1995</th><th>2020</th></tr></thead><tbody><tr><td>United States</td><td>1.85</td><td>1.20</td></tr><tr><td>Chile</td><td>2.49</td><td>5.73</td></tr><tr><td>Zambia</td><td>0.33</td><td>0.85</td></tr><tr><td>Indonesia</td><td>0.44</td><td>0.51</td></tr></tbody></table>
+P: A student is researching changes in copper mining from 1995 to 2020. The student learns that most copper-mining countries mined more in 2020 than in 1995, but some did not. For example, one country that produced less copper through mining in 2020 than in 1995 is ______
+Q: Which choice most effectively uses data from the graph to complete the example?
+A) the United States
+B) Zambia
+C) Chile
+D) Indonesia
+K: A
+#10
+T: <table><caption><b>Examples of Hoards found in Ireland and Northern Ireland</b></caption><thead><tr><th>Hoard name</th><th>Date of contents</th><th>Year of discovery</th><th>Description</th></tr></thead><tbody><tr><td>Coleraine Hoard</td><td>5th century CE</td><td>1854</td><td>silver pieces</td></tr><tr><td>Derrynaflan Hoard</td><td>10th century CE</td><td>1980</td><td>silver and bronze pieces</td></tr><tr><td>Dooyork Hoard</td><td>3rd century BCE–2nd century CE</td><td>2001</td><td>gold, bronze, and beads</td></tr></tbody></table>
+P: Deposits of valuable objects, called hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Technological advancements in the twenty-first century have made it easier to locate hoards, but plenty of hoards were found earlier. For example, ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) the Derrynaflan Hoard was found in 1854.
+B) the Coleraine Hoard, Derrynaflan Hoard, and Dooyork Hoard have all been found since 1854.
+C) the Coleraine Hoard and Derrynaflan Hoard were both found before 2000.
+D) Derrynaflan Hoard and Dooyork Hoard were both discovered in the 1900s.
+K: C
+#11
+P: A student is writing a paper about classical composer Florence Beatrice Price for a music class. In the paper, the student claims that <u>Price used African instruments in one of her compositions</u>.
+Q: Which quotation from a work by a music historian would most directly support the underlined claim?
+A) "After moving to Chicago in 1927, Price continued her music studies."
+B) "In 2009, dozens of Price's compositions, including her Symphony no. 4, were found in an abandoned house outside of St. Anne, Illinois."
+C) "In her composition Symphony no. 1, Price included African drums."
+D) "Price's success as a composer was notable in part because before her, no African American woman had had a work performed by a major US orchestra."
+K: C
+#12
+P: "The Monster" is an 1898 story by Stephen Crane. In the story, the character of Jim, a young boy, is playing in his yard while his father mows the lawn; while Jim is pulling a cart behind him, he accidentally damages a peony (a flower). Crane depicts Jim's initial belief that the damage might be repaired or concealed: ______
+Q: Which quotation from "The Monster" most effectively illustrates the claim?
+A) "Finally [Jim] went to the peony and tried to stand it on its pins, resuscitated, but the spine of it was hurt, and it could only hang limply from his hand."
+B) "Together [Jim and his father] crossed the lawn towards the flower-bed. At some yards from the broken peony Jimmie began to lag.<br>'There!' The word came [from Jim] almost breathlessly."
+C) "Little Jim was, for the time, engine Number 36, and he was making the run between Syracuse and Rochester. He was fourteen minutes behind time, and the throttle was wide open."
+D) "[Jim's father] had his back to the accident, and he continued to pace slowly to and fro, pushing the mower."
+K: A
+#13
+P: "No, Thank You, John" is an 1862 poem by Christina Rossetti. In the poem, Rossetti depicts a female speaker's rejection of the romantic advances of a man named John. The speaker encourages John to pursue another relationship rather than wait for her to change her mind, saying ______
+Q: Which quotation from "No, Thank You, John" most effectively illustrates the claim?
+A) "I never said I loved you, John: / Why will you teaze me day by day, / And wax a weariness to think upon / With always 'do' and 'pray'?"
+B) "I dare say Meg or Moll would take / Pity upon you, if you'd ask. / And pray don't remain single for my sake / Who can't perform that task."
+C) "Here's friendship for you if you like; but love— / No, thank you, John."
+D) "Let's strike hands as hearty friends; / No more, no less; and friendship's good: / Only don't keep in view ulterior ends / And points not understood."
+K: B
+#14
+P: A student is writing an essay on the subject of cultured meat, which is grown in a laboratory and is intended to help reduce the number of livestock harvested for food. The student wants to make the case that cultured meat production may be useful in responding to an expected widespread change in the public's behavior.
+Q: Which quotation from a publication by a researcher would most effectively support the student's claim?
+A) "Researchers who advocate for the development of lab-grown meat claim that it's better for the environment than conventional meat because it requires less water consumption."
+B) "The flavor of meat from livestock differs across species (from pig to chicken to cow), and is also influenced by farming conditions and the breeds and genders of animals."
+C) "A growing population that is including significantly more meat in its diet will contribute to an increasing demand for meat products in the 21st century."
+D) "Consumers tend to believe that using less packaging when selling meat products in stores would have a significant effect on the environment."
+K: C
+#15
+P: Archaeologists have traditionally thought that many cities in ancient Mesopotamia, including Uruk and Ur, lay on the extremely dry banks of the Tigris and Euphrates rivers. Jennifer Pournelle and her team found evidence that the land these ancient cities sat on consisted of marshy wetlands. This finding suggests that ______
+Q: Which choice most logically completes the text?
+A) Uruk was founded at an earlier time than Ur was.
+B) far fewer fish species are found in rivers today than in ancient times.
+C) the land many ancient Mesopotamian cities sat on wasn't as dry as previously believed.
+D) people in Ur engaged in trade with people from many parts of ancient Mesopotamia.
+K: C
+#16
+P: Like many other fruit-eating birds on the Hawaiian island of Oahu, the northern cardinal helps forest plants spread by carrying seeds from the plants' fruits to different locations (a process called seed dispersal). Ecologists have found that fruit-eating birds disperse some seeds from plants native to Oahu that are at risk of extinction in the wild, such as the kawau tree, but disperse many more seeds from soapbush shrubs, night-blooming jessamine shrubs, and other non-native plants that are already widespread. Believing that the great availability of fruit from non-native plants might be making birds less likely to eat fruit from native plants, the ecologists conclude that ______
+Q: Which choice most logically completes the text?
+A) the kawau tree, the soapbush shrub, and the night-blooming jessamine shrub are the plant species on Oahu most in danger of going extinct in the wild.
+B) vulnerable native plants would probably benefit if the populations of non-native plants, such as the soapbush shrub and night-blooming jessamine shrub, were reduced.
+C) the northern cardinal and other fruit-eating birds on Oahu would likely favor fruits from native forest plants if native and non-native plants were equally widespread.
+D) roughly equal numbers of seeds from native and non-native plants would be dispersed if the populations of fruit-eating birds, such as the northern cardinal, increased.
+K: B
+#17
+P: We came to see the famous artworks inside the Museo Soumaya in Mexico City, yet the building itself ______ us the most. The building, we later learned, had been designed by Mexican architect Fernando Romero in 2011.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) to impress
+B) having impressed
+C) impressed
+D) impressing
+K: C
+#18
+P: Alicia Pérez-Porro, whose research focuses mainly on sea sponges, ______ as a biologist at the Smithsonian Institution.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) work
+B) works
+C) are working
+D) have worked
+K: B
+#19
+P: In 2012, Ken Liu's hard work paid off. Before an audience ______ fantasy writers from around the world, Liu's 'The Paper Menagerie' received the World Fantasy Award, one of the most prestigious honors in fantasy literature, for Best Short Fiction.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) of
+B) of:
+C) of,
+D) of;
+K: A
+#20
+P: On the 2021 '100 Best Jobs' list published by U.S. News &amp; World Report, lawyers, ranked thirty-eighth, were projected ______ an impressive 32,300 new jobs between 2019 and 2029. In contrast, the projection for optometrists was 1,900.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) are gaining
+B) to gain
+C) had gained
+D) gains
+K: B
+#21
+P: As an object-oriented computer programming language, Java is used by coders like Black Girls Code founder Kimberly Bryant ______ programs by manipulating 'objects' (that is, specifically defined variables or combinations of variables) into interacting with each other. Conversely, S-Lang, used in software development and scripting, is not an object-oriented language.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) created
+B) create
+C) is creating
+D) to create
+K: D
+#22
+P: Modernist architect Adolf Loos argued that buildings shouldn't have ornaments, such as elaborate carvings, because such ornaments don't have a meaningful purpose. Post-modernist architect Denise Brown argued that ornaments can serve a purpose. ______ they can communicate useful information about a city's history and culture.
+Q: Which choice completes the text with the most logical transition?
+A) However,
+B) As a result,
+C) For instance,
+D) Finally,
+K: C
+#23
+L: Michael López-Alegría is a US astronaut.
+L: López-Alegría was the commander of Expedition 14.
+L: It was the fourteenth expedition to the International Space Station (ISS).
+L: It began on September 18, 2006.
+L: It ended on April 21, 2007.
+Q: The student wants to indicate what López-Alegría's role was on Expedition 14. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Expedition 14 was the fourteenth expedition to the ISS.
+B) Expedition 14 began on September 18, 2006, and ended on April 21, 2007.
+C) López-Alegría, a US astronaut, was the commander of Expedition 14.
+D) In 2006, López-Alegría traveled to the ISS.
+K: C
+#24
+L: Blackberries are commonly considered fruits because they taste sweet.
+L: In botany, blackberries are classified as fruits.
+L: Tomatoes are commonly considered vegetables because they taste savory.
+L: In botany, tomatoes are classified as fruits.
+Q: The student wants to emphasize the botanical classification of tomatoes. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) In addition to tasting sweet, blackberries are botanically classified as fruits.
+B) Although commonly considered vegetables, tomatoes are botanically classified as fruits.
+C) Tomatoes taste savory, but blackberries taste sweet.
+D) Blackberries, which are botanically classified as fruits, taste sweet and thus are commonly considered fruits.
+K: B
+#25
+L: Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.
+L: His work <i>Untitled (Pollo Frito)</i> was completed in 1982 and sold at auction in 2018 for $25.7 million.
+L: <i>Untitled (Pollo Frito)</i> is composed of acrylic, oil, and enamel on canvas and has an area of 7,230 square inches.
+L: His work <i>Danny Rosen</i> was completed in 1983 and sold at auction in 2013 for $4.9 million.
+L: <i>Danny Rosen</i> is composed of acrylic, oil stick, and paper collage on canvas and has an area of 4,507 square inches.
+Q: Which choice most effectively uses information from the given sentences to emphasize a difference between the two works?
+A) Decades after Jean-Michel Basquiat completed <i>Untitled (Pollo Frito)</i> and <i>Danny Rosen</i>, the works were sold at auction.
+B) <i>Untitled (Pollo Frito)</i> (1982) and <i>Danny Rosen</i> (1983) are just two of the more than two thousand drawings and paintings produced by American artist Jean-Michel Basquiat.
+C) <i>Untitled (Pollo Frito)</i> and <i>Danny Rosen</i>, two works by artist Jean-Michel Basquiat, were completed in the same decade, but the former fetched a higher price at auction.
+D) Composed by artist Jean-Michel Basquiat in 1982 and 1983, respectively, both <i>Untitled (Pollo Frito)</i> and <i>Danny Rosen</i> use acrylic paint as a medium.
+K: C
+#26
+L: Ursula K. Le Guin was an acclaimed writer.
+L: Le Guin's first published work of fiction was a 1962 short story called "April in Paris."
+L: It is about an American professor living in Paris who travels through time.
+L: This story showcases Le Guin's nuanced portrayal of characters' thoughts.
+L: Le Guin's nuanced portrayal of characters' thoughts is a hallmark of her subsequent novels and stories.
+L: Le Guin's most famous novels include <i>A Wizard of Earthsea</i> (1968) and <i>The Left Hand of Darkness</i> (1969).
+Q: The student wants to emphasize a stylistic similarity between Le Guin's 1962 short story and some of her subsequent works. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Similar to Le Guin's most famous novels, such as <i>A Wizard of Earthsea</i> (1968) and <i>The Left Hand of Darkness</i> (1969), the 1962 short story "April in Paris" is about an American professor living in Paris who travels through time.
+B) "April in Paris" (1962) showcases Le Guin's nuanced portrayal of characters' thoughts, a hallmark of later works such as <i>A Wizard of Earthsea</i> (1968) and <i>The Left Hand of Darkness</i> (1969).
+C) Both <i>A Wizard of Earthsea</i> (1968) and <i>The Left Hand of Darkness</i> (1969) are novels that showcase Le Guin's nuanced portrayal of characters' thoughts.
+D) "April in Paris" (1962) is a short story, and <i>A Wizard of Earthsea</i> (1968) and <i>The Left Hand of Darkness</i> (1969) are novels.
+K: B
+#27
+L: The Clovis First hypothesis proposes that ancient humans known as Clovis were the first to populate North America.
+L: The Clovis arrived around 13,000 years ago.
+L: They settled in various locations over a roughly 200-year period.
+L: Stone tools found at the Sand Creek site in Texas date to approximately 16,540 years ago.
+L: These items support the idea that humans were present in North America before the Clovis population arrived.
+L: More than a dozen North American sites containing pre-Clovis items have been identified.
+Q: The student wants to emphasize the number of sites containing pre-Clovis items. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) After arriving in North America around 13,000 years ago, the Clovis, an ancient human population, settled in numerous locations over a roughly 200-year period.
+B) Far from being the only place where evidence of human activity predating Clovis has been found, the Sand Creek site in Texas is among more than a dozen such locations in North America.
+C) Dating to approximately 16,540 years old, the items found at Sand Creek, a site in Texas, predate the arrival of the Clovis population.
+D) North American sites where pre-Clovis items have been found include Sand Creek, a site in Texas.
+K: B
