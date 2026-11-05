@@ -1,0 +1,744 @@
+# Math Hard Book: Geometry and Trigonometry (repeats of earlier questions are left out)
+@G1 | CIR | B
+In the xy-plane, a circle has center C with coordinates (h, k). Points A and B lie on the circle. Point A has coordinates (h, k + 231), and ∠ACB is a right angle. What is the length of AB?
+A) 231√{3}
+B) 231√{2}
+C) 2√{230}
+D) 462
+= CA = CB = 231 (radii), and the angle between them is 90°, so AB = 231√{2}.
+
+@G2 | CIR | D
+A circle has center O, and points A and B lie on the circle. The measure of arc AB is 20°, and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?
+A) 4
+B) 8
+C) 16
+D) 72
+= 20° is {1/18} of the circle, so the circumference is 18(4) = 72 inches.
+
+@G3 | LAT | A
+A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of these eight angles is (7x - 250)°. The sum of the measures of four of the eight angles is k°. Which of the following could NOT be equivalent to k, for all values of x?
+A) -14x + 1,540
+B) 14x - 320
+C) -28x + 1,720
+D) 360
+= Four angles equal 7x - 250 and four equal 430 - 7x. The possible sums are 28x - 1,000, 14x - 320, 360, -14x + 1,040, and -28x + 1,720; -14x + 1,540 is not one of them.
+
+@G4 | LAT | B
+In triangle ABC and triangle DEF, sides AB and DE each have a side length of 10 inches, and angles A and D each have an angle measure of 40°. Which of the following additional pieces of information is (are) sufficient to prove whether triangle ABC is congruent to triangle DEF?
+I. The measures of angles B and C are equal.
+II. The lengths of sides AC and DF are equal.
+III. The lengths of sides BC and EF are equal.
+A) I is sufficient, but II and III are not.
+B) II is sufficient, but I and III are not.
+C) III is sufficient, but I and II are not.
+D) II is sufficient and III is sufficient, but I is not.
+= II gives two sides and the included angle (SAS). III gives two sides and a non-included angle, which does not guarantee congruence, and I says nothing about triangle DEF.
+
+@G5 | LAT | 125
+In triangle RST, the measure of angle R is 39°, the measure of angle S is x°, and the measure of angle T is (8x - 3)°. Point L lies on RS, point K lies on ST, and LK is parallel to RT. What is the measure, in degrees, of angle SKL? (Disregard the degree symbol when entering your answer.)
+= 39 + x + 8x - 3 = 180 gives x = 16, so angle T = 125°. Since LK ∥ RT, angle SKL equals angle STR = 125°.
+
+@G6 | RT | 42
+If the perimeter of an equilateral triangle with a height of 21 is a√{3}, what is the value of a?
+= The side is {2(21)/√{3}} = 14√{3}, so the perimeter is 42√{3}.
+
+@G7 | LAT | 320 | fig:g7
+Note: Figure not drawn to scale.
+In the figure shown, AB = √{89} units, AC = 8 units, and CE = 24 units. What is the area, in square units, of triangle ADE?
+= BC = √{89 - 64} = 5 and AE = 32. Triangles ABC and ADE are similar, so DE = 5 · {32/8} = 20 and the area is {1/2}(32)(20) = 320.
+
+@G8 | AREA | C | fig:g8
+The figure shown is a right circular cylinder with a radius of r and height of h. A second right circular cylinder (not shown) has a volume that is 576 times as large as the volume of the cylinder shown. Which of the following could represent the radius R, in terms of r, and the height H, in terms of h, of the second cylinder?
+A) R = 9r and H = 8h
+B) R = 9r and H = 64h
+C) R = 8r and H = 9h
+D) R = 64r and H = 9h
+= The volume ratio is ({R/r})^2 · {H/h}. For C it is 64 · 9 = 576.
+
+@G9 | LAT | D
+For triangle PQR and triangle STU, angles P and S each measure 30°, QR = 16, and TU = 12. Which additional piece(s) of information is (are) sufficient to prove that triangle PQR is similar to triangle STU?
+I. The length of PQ is {4/3} the length of ST.
+II. The length of PR is {4/3} the length of SU.
+A) I is sufficient, but II is not.
+B) II is sufficient, but I is not.
+C) I is sufficient, and II is sufficient.
+D) Neither I nor II is sufficient.
+= QR and TU are opposite the 30° angles. Either statement gives two proportional sides and a non-included angle (side-side-angle), which does not prove similarity.
+
+@G10 | CIR | 86.5 | 173/2 | fig:g10
+Note: Figure not drawn to scale.
+In the figure shown, points A, B, C, and E lie on the circle, and AB < BC. Segment AC is perpendicular to segment BE at point D, and BD = √{346}. The diameter of the circle is 175. If {CD/AD} = r, what is the value of r?
+= Angle ABC is a right angle, so AC is a diameter: AD + DC = 175. The altitude gives AD · DC = BD^2 = 346, so AD = 2 and DC = 173, and r = {173/2} = 86.5.
+
+@G11 | AREA | C
+The volume of a right rectangular prism with a square base is 539 cubic centimeters. If the area of each of the four lateral faces is 77 square centimeters, what is the height, in centimeters, of the prism?
+A) 77
+B) 49
+C) 11
+D) 7
+= s^2h = 539 and sh = 77, so s = 7 and h = 11.
+
+@G12 | AREA | 5376
+Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 52 square centimeters (cm^2), and the surface area of right rectangular prism Y is 3,328 cm^2. The volume of right rectangular prism X is 10.5 cubic centimeters (cm^3). What is the volume, in cm^3, of right rectangular prism Y?
+= The area ratio is 64, so the length ratio is 8 and the volume ratio is 512: 10.5(512) = 5,376.
+
+@G14 | LAT | 85/87 | 0.977 | 0.9770
+A polygon has exactly 87 sides. If the measure of each of the 87 interior angles of this polygon is (180p)°, what is the value of p?
+= Each interior angle is {(87 - 2)180/87} degrees, so p = {85/87} ≈ 0.977.
+
+@G15 | AREA | 1512
+Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm^2), and the surface area of right rectangular prism Y is 1,475 cm^2. The volume of right rectangular prism Y is 1,500 cubic centimeters (cm^3). What is the sum of the volumes, in cm^3, of right rectangular prism X and right rectangular prism Y?
+= The area ratio is 25, so the length ratio is 5 and the volume ratio is 125. X has volume 12, and 12 + 1,500 = 1,512.
+
+@G16 | RT | 2 | fig:g16
+Note: Figure not drawn to scale.
+For triangle ABC, the length of AB is 11 less than the length of AC, and AC = 22. Point D (not shown) lies on AC such that BD (not shown) is perpendicular to AC. What is the value of {BC/BD}?
+= AB = 11 and AC = 22, so BC = 11√{3} and the altitude is BD = {11 · 11√{3}/22} = {11√{3}/2}. So {BC/BD} = 2.
+
+@G17 | LAT | D | fig:g17
+Note: Figure not drawn to scale.
+In the figure, LQ intersects MP at point R and LM is parallel to PQ. The lengths of MR and RP are 8 and 14 units, respectively. The area of △LMR is 36 square units. What is the area of △PQR, in square units?
+A) {576/49}
+B) {144/7}
+C) 63
+D) {441/4}
+= The triangles are similar with ratio {14/8} = {7/4}, so the area is 36 · {49/16} = {441/4}.
+
+@G18 | CIR | A
+A circle is inscribed in a square such that the circumference of the circle touches the midpoint of each side of the square. The length of the diagonal of the square is 228 units. What is the area, in square units, of the circle?
+A) 6,498π
+B) 12,996π
+C) 25,992π
+D) 51,984π
+= The side is {228/√{2}}, so the radius is {114/√{2}} and r^2 = 6,498.
+
+@G19 | AREA | A
+A right square pyramid has a total surface area of 28,160 square inches, and the combined surface area of the four lateral faces of this pyramid is 16,060 square inches. What is the height, in inches, of this pyramid?
+A) 48
+B) 55
+C) 73
+D) 110
+= The base is 12,100, so its side is 110. Each face is 4,015 = {1/2}(110)ℓ, so the slant height is 73 and the height is √{73^2 - 55^2} = 48.
+
+@G20 | CIR | D
+Point F lies on a unit circle in the xy-plane and has coordinates (1, 0). Point G is the center of the circle and has coordinates (0, 0). Point H also lies on the circle and has coordinates (-1, y), where y is a constant. Which of the following could be the positive measure of angle FGH, in radians?
+A) {27π/2}
+B) {29π/2}
+C) 24π
+D) 25π
+= H must be (-1, 0), which is an angle of π plus any number of full turns: an odd multiple of π. 25π works.
+
+@G21 | AREA | 4
+A rectangular region of land is divided into 88 square lots of equal area R, in square units. The length of the region is 5.5 times the width of the region. If the width of the region is x√{R} units, what is the value of x?
+= 5.5w^2 = 88R, so w^2 = 16R and w = 4√{R}.
+
+@G22 | CIR | 292/3 | 97.33 | 97.34
+The perimeter of an equilateral triangle is 876 centimeters. The three vertices of the triangle lie on a circle. The radius of the circle is w√{3} centimeters. What is the value of w?
+= The side is 292, and the circumradius is {292/√{3}} = {292/3}√{3}, so w = {292/3} ≈ 97.33.
+
+@G23 | AREA | 74088 | fig:g23
+Note: Figure not drawn to scale.
+For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?
+= r^2 = 84^2 - 42^2 = 5,292, so the volume is {1/3}π(5,292)(42) = 74,088π.
+
+@G24 | LAT | 1760
+A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (7x - 610)°. The sum of the measures of one of the acute angles and three of the obtuse angles is (-14x + w)°. What is the value of w?
+= Each obtuse angle is 790 - 7x, so the sum is (7x - 610) + 3(790 - 7x) = -14x + 1,760.
+
+@G25 | LAT | D
+In triangle FGH and triangle KLM, the measures of angles G and L are each 60°. The lengths of GH and LM are each 34 centimeters, and
+$ {GH/GF} = {LM/LK}
+Which additional piece of information would be necessary to prove that triangle FGH is congruent to triangle KLM?
+A) The lengths of FG and KM are each 17 centimeters.
+B) The measures of angles H and M are each 30°.
+C) The measures of angles F and K are each 90°.
+D) No additional information is necessary.
+= The ratio gives GF = LK, so the triangles already match by side-angle-side.
+
+@G26 | LAT | 72
+In triangle RST, the measure of angle R is 18 degrees and the measure of angle T is 72 degrees. Point L lies on RS, point K lies on ST, and LK is parallel to RT. What is the measure, in degrees, of angle SKL? (Disregard the degree symbol when entering your answer.)
+= Since LK ∥ RT, angle SKL equals angle STR, which is 72°.
+
+@G27 | LAT | 65 | fig:g27
+Note: Figure not drawn to scale.
+In the figure, AC = CD. The measure of angle EBC is 29°, and the measure of angle ACD is 108°. What is the value of x?
+= Triangle ACD is isosceles, so angle CDA = {180 - 108/2} = 36°. In triangle DBE, the exterior angle at E is 36 + 29 = 65°.
+
+@G29 | LAT | A
+In isosceles triangle ABC, sides AB and AC are congruent. Point D divides side BC such that the length of BD is {4/7} of the length of BC. Point E lies on side AB and point F lies on side AC such that when segments DE and DF are drawn, angle BED is congruent to angle CFD. If the length of BE is 8, what is the length of CF?
+A) 6
+B) 14
+C) 32
+D) 56
+= Angles B and C are equal, so triangles BED and CFD are similar with ratio {BD/CD} = {4/3}. So CF = 8 · {3/4} = 6.
+
+@G30 | LAT | 80 | fig:g30
+Note: Figure not drawn to scale.
+In the figure shown, point T lies on segment SW, and segment TU is parallel to segment VW. The measure of angle V is 26°, and the measure of angle STU is 74°. What is the value of p - r?
+= r = 74 (corresponding angles), and p = 180 - 26 = 154 (angles on the same side between parallel lines). So p - r = 80.
+
+@G31 | RT | C
+The perimeter of an isosceles right triangle is 52 + 52√{2} inches. What is the length, in inches, of the hypotenuse of this triangle?
+A) 26
+B) 26√{2}
+C) 52
+D) 52√{2}
+= With legs a, a(2 + √{2}) = 52(1 + √{2}), so a = 26√{2} and the hypotenuse is a√{2} = 52.
+
+@G32 | RT | C
+Triangles PQR and LMN are graphed in the xy-plane. Triangle PQR has vertices P, Q, and R at (5, 2), (5, 4), and (7, 2), respectively. Triangle LMN has vertices L, M, and N at (5, 2), (5, 4 + k), and (7 + k, 2), respectively, where k is a positive constant. If the measure of ∠Q is t°, what is the measure of ∠N?
+A) (90 - (t - k))°
+B) (90 - (t + k))°
+C) (90 - t)°
+D) (90 + k)°
+= Both triangles are isosceles right triangles (legs 2 and 2, and 2 + k and 2 + k), so t = 45 and ∠N = 45° = (90 - t)°.
+
+@G33 | AREA | B
+A right rectangular prism has a base area of 16t square centimeters (cm^2). The length of the base of the rectangular prism is {8/3} cm, and the height of the rectangular prism is 9 cm. Which expression represents the surface area, in cm^2, of the right rectangular prism?
+A) 32t + 96
+B) 140t + 48
+C) 800t + 48
+D) 144t
+= The width is 6t. Surface area = 2(16t) + 2({8/3})(9) + 2(6t)(9) = 32t + 48 + 108t = 140t + 48.
+
+@G34 | AREA | A
+A cube has an edge length of 82 inches. A solid sphere with a radius of 41 inches is inside the cube, such that the sphere touches the center of each face of the cube. To the nearest cubic inch, what is the volume of the space in the cube not taken up by the sphere?
+A) 262,672
+B) 288,532
+C) 334,846
+D) 546,087
+= 82^3 - {4/3}π(41)^3 ≈ 551,368 - 288,696 = 262,672.
+
+@G35 | LAT | 39
+In triangle PQR, the measure of angle P is (3x + 5)°, the measure of angle Q is (2x + 9)°, and the measure of angle R is (4y + 5)°. If side QR is extended through point R to point S and the measure of angle PRS is (x + y)°, what is the value of x + y?
+= The exterior angle gives x + y = 5x + 14, so y = 4x + 14. The angle sum gives 5x + 4y + 19 = 180, so 21x = 105, x = 5, y = 34, and x + y = 39.
+
+@G36 | RT | B | fig:g36
+The line segment shown in the xy-plane represents one of the legs of a right triangle. The area of this triangle is 48√{13} square units. What is the length, in units, of the other leg of this triangle?
+A) 16
+B) 32
+C) 3√{13}
+D) 6√{13}
+= The segment goes from (-5, 3) to (4, 9), so its length is √{81 + 36} = 3√{13}. Then {1/2}(3√{13})(L) = 48√{13} gives L = 32.
+
+@G37 | AREA | D
+A right circular cone has a volume of 2,700π cubic centimeters and the area of its base is 225π square centimeters. What is the slant height, in centimeters, of this cone?
+A) 12
+B) 15
+C) 36
+D) 39
+= r = 15 and {1/3}(225π)h = 2,700π gives h = 36, so the slant height is √{15^2 + 36^2} = 39.
+
+@G38 | LAT | 9600 | fig:g38
+A property owner wants to find the length x, in feet, across a pond as represented in the figure. PR intersects ST at point Q, and ∠PTQ is congruent to ∠RSQ. The lengths represented by PQ, TQ, QS, and RS were determined to be 4,200 feet, 8,400 feet, 1,400 feet, and 1,600 feet, respectively. What is the value of x?
+= The vertical angles at Q and the given angles make triangle PTQ similar to triangle RSQ, with TQ matching SQ. The ratio is {8,400/1,400} = 6, so x = PT = 6(1,600) = 9,600.
+
+@G39 | AREA | 100
+A right square pyramid has a surface area of 75,264 square inches, which includes a base area of 36,864 square inches. What is the slant height, in inches, of this pyramid?
+= The base side is 192. Each face is {75,264 - 36,864/4} = 9,600 = {1/2}(192)ℓ, so ℓ = 100.
+
+@G40 | AREA | -1534 | fig:g40
+Note: Figure not drawn to scale.
+In the given figure, NP is the diameter of semicircle O. Angles Q, R, and S are right angles, and point P is the midpoint of NQ. If PQ = 52 feet and NS = 18 feet, the area of the figure can be expressed as aπ + b square feet, where a and b are integers. What is the value of a - b?
+= NQ = 104 and the semicircle has radius 26. The area is 104(18) + {1/2}π(26)^2 = 1,872 + 338π, so a - b = 338 - 1,872 = -1,534.
+
+@G41 | AREA | B
+The volume of a right rectangular prism with a square base is 2,448 cubic centimeters. If the area of the square base is 144 square centimeters, what is the area, in square centimeters, of one of the four lateral faces of the prism?
+A) 17
+B) 204
+C) 540
+D) 816
+= The side is 12 and the height is {2,448/144} = 17, so a lateral face is 12(17) = 204.
+
+@G42 | AREA | A
+A right square pyramid has a height of 11 centimeters (cm). A second right square pyramid has a height of 22 centimeters. The area of the bases of each of the two pyramids is 100 cm^2. Which of the following is closest to the difference in the surface area of the second pyramid and the surface area of the first pyramid, in cm^2?
+A) 209
+B) 220
+C) 367
+D) 551
+= The slant heights are √{22^2 + 5^2} = √{509} and √{11^2 + 5^2} = √{146}. The difference is 4 · {1/2} · 10(√{509} - √{146}) ≈ 209.6.
+
+@G43 | LAT | D | fig:g43
+In the figure, parallel lines r and s are intersected by lines t, u, and w. If d = 42, g = 143, and h > d, which statement about j and p must be true?
+A) j = p
+B) j + p = 90
+C) j > p
+D) j < p
+= Line u meets r at 180 - 143 = 37°, and line w meets s at 42°, so p = 180 - 37 - 42 = 101. In the top triangle, j = 180 - 37 - h = 143 - h, and h > 42 makes j < 101.
+
+@G44 | AREA | 9216
+A right triangular pyramid has exactly six edges. Each of these edges is 96 centimeters long. If the surface area of the pyramid is k√{3} square centimeters, what is the value of k?
+= The four faces are equilateral triangles with side 96: 4 · {√{3}/4}(96)^2 = 9,216√{3}.
+
+@G45 | AREA | B
+A right rectangular prism has a base area of 28p square centimeters (cm^2). The length of the base of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm. Which expression represents the surface area, in cm^2, of the right rectangular prism?
+A) {512p/3}
+B) {224p/3} + 96
+C) 56p + 192
+D) 560p + 96
+= The width is {7p/3}. Surface area = 2(28p) + 2(12)(4) + 2({7p/3})(4) = 56p + 96 + {56p/3} = {224p/3} + 96.
+
+@G46 | AREA | 990
+| | Volume (cubic units) |
+| Cylinder A | 72π |
+| Cylinder B | 4,608π |
+The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 3 units. The surface area of right circular cylinder A is kπ square units, and the surface area of right circular cylinder B is nπ square units, where k and n are constants. What is the value of n - k? (The surface area of a right circular cylinder with radius r and height h is 2πr^2 + 2πrh.)
+= The volume ratio 64 gives a length ratio 4 and an area ratio 16. Cylinder A has h = 8, so k = 18 + 48 = 66 and n = 16(66) = 1,056. So n - k = 990.
+
+@G47 | CIR | C
+$ x^2 - 6x + y^2 - 12y - 36 = 0
+In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?
+A) 18
+B) 36
+C) 72
+D) 144
+= (x - 3)^2 + (y - 6)^2 = 81, so the radius is 9, the square's side is 18, and its perimeter is 72.
+
+@G49 | CIR | C
+$ x^2 - 16x + y^2 - 10y - 55 = 0
+In the xy-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?
+A) 24
+B) 48
+C) 96
+D) 220
+= (x - 8)^2 + (y - 5)^2 = 144, so the radius is 12, the side is 24, and the perimeter is 96.
+
+@G50 | CIR | D
+A circle in the xy-plane has a diameter with endpoints (a, 11) and (a, d), where a and d are constants. An equation of this circle is (x - a)^2 + (y - 17)^2 = r^2, where r is a positive constant. What is the value of d?
+A) 5
+B) 12
+C) 17
+D) 23
+= The center (a, 17) is the midpoint, so {11 + d/2} = 17 and d = 23.
+
+@G51 | RT | -5/3 | -1.666 | -1.667
+In the xy-plane, a unit circle with center at the origin O contains point A with coordinates (1, 0) and point B with coordinates ({5/√{34}}, -{3/√{34}}). If the measure of angle AOB, measured counterclockwise from OA to OB, is p radians, what is the value of {cos p/sin p}?
+= cos p = {5/√{34}} and sin p = -{3/√{34}}, so the ratio is -{5/3}.
+
+@G52 | RT | -1.6 | -8/5
+In the xy-plane, a unit circle with center at the origin O contains point A with coordinates (1, 0) and point B with coordinates (-{5/√{89}}, {8/√{89}}). If the measure of angle AOB is w radians, what is the value of tan w?
+= tan w = {8/√{89}} ÷ (-{5/√{89}}) = -{8/5}.
+
+@G53 | AREA | 704
+| | Volume (cubic units) |
+| Cylinder A | 112π |
+| Cylinder B | 3,024π |
+The table shows the volume of two similar solids, right circular cylinder A and right circular cylinder B. The radius of right circular cylinder A is 4 units. The surface area of right circular cylinder A is kπ square units, and the surface area of right circular cylinder B is nπ square units, where k and n are constants. What is the value of n - k? (The surface area of a right circular cylinder with radius r and height h is 2πr^2 + 2πrh.)
+= The volume ratio 27 gives an area ratio 9. Cylinder A has h = 7, so k = 32 + 56 = 88, n = 792, and n - k = 704.
+
+@G54 | RT | D
+Point M lies on a unit circle in the xy-plane and has coordinates (1, 0). Point C is the center of the circle at (0, 0). Point N also lies on the unit circle, and the measure of angle MCN is {385π/6} radians. If the coordinates of point N are (p, q), where p and q are constants, what is the value of q?
+A) -{1/2}
+B) {√{3}/2}
+C) -{√{3}/2}
+D) {1/2}
+= {385π/6} = 64π + {π/6}, so q = sin {π/6} = {1/2}.
+
+@G55 | CIR | 4
+$ 2x^2 + 2y^2 + tx + ty - 78 = 0
+The given equation, where t is a positive constant, defines a circle in the xy-plane. The radius of this circle is √{41}. What is the value of t?
+= Divide by 2 and complete the squares: (x + {t/4})^2 + (y + {t/4})^2 = 39 + {t^2/8}. Then 39 + {t^2/8} = 41 gives t = 4.
+
+@G56 | AREA | A | fig:g56
+The figure shows a rectangular pool surrounded by a concrete path that is x feet (ft) wide on all sides. The pool is 21 ft long and 13 ft wide. The area of the concrete path is 240 ft^2. What is the value of x?
+A) 3
+B) 6
+C) 20
+D) 40
+= (21 + 2x)(13 + 2x) - 273 = 240 gives x^2 + 17x - 60 = 0, so x = 3.
+
+@G58 | RT | B | fig:g58
+In the figure above, AB = AD, BC = CD, BE = 4, BC = 8, and AC = 12. What is the area of triangle ABD?
+A) 96 - 32√{3}
+B) 48 - 16√{3}
+C) 24 - 8√{3}
+D) 12 - 4√{3}
+= The diagonals of the kite are perpendicular at E. EC = √{64 - 16} = 4√{3}, so AE = 12 - 4√{3}. The area is {1/2}(8)(12 - 4√{3}) = 48 - 16√{3}.
+
+@G59 | AREA | C | fig:g59
+The solid in the figure is the shaded part of a cone with a height of 20 cm, obtained by cutting off its top parallel to the base, 10 cm from its tip. The volume of the solid is
+A) 188.52 cm^3
+B) 23.57 cm^3
+C) 164.93 cm^3
+D) 145.29 cm^3
+= Whole cone minus top cone: {1/3}π(3)^2(20) - {1/3}π(1.5)^2(10) = 60π - 7.5π = 52.5π ≈ 164.93.
+
+@G60 | AREA | D | fig:g60
+A futuristic football is built from two right circular cones and a right circular cylinder with internal measurements represented by the figure above. Of the following, which is closest to the volume of the football, in cubic inches?
+A) 56.1
+B) 169.6
+C) 197.9
+D) 226.2
+= Cylinder π(3)^2(6) = 54π plus two cones 2 · {1/3}π(3)^2(3) = 18π, for 72π ≈ 226.2.
+
+@G61 | CIR | B | fig:g61
+The area of an isosceles right triangle inscribed in the circle with center at O and radius 5√{2} is
+A) 100
+B) 50
+C) 10√{2}
+D) 25√{2}
+= The hypotenuse is a diameter, 10√{2}, so each leg is 10 and the area is 50.
+
+@G62 | RT | 40/9 | 4.444 | fig:g62
+Note: Figure not drawn to scale.
+In the figure, ∠ABD = w°, ∠CAD = z°, and cos w = {9/41}. What is the value of tan z?
+= In right triangle ABC with altitude AD, angle CAD equals angle ABC, so z = w. sin w = {40/41}, so tan z = {40/9}.
+
+@G63 | CIR | B
+In the xy-plane, a circle has center C with coordinates (p, 8), where p is a constant. Points G and H lie on the circle. Point G has coordinates (p + 3√{5}, 14), and point H has coordinates (q, 8), where q is a constant greater than p. What is the area, in square units, of triangle CGH?
+A) 27√{5}
+B) 27
+C) 5√{27}
+D) 27√{6}
+= r^2 = 45 + 36 = 81, so CH = 9 along the line y = 8, and G is 6 above it. The area is {1/2}(9)(6) = 27.
+
+@G64 | CIR | D
+In the xy-plane, the line y = 3x - 14 is tangent to a circle with center (h, 1). Which of the following is a possible value for h if the center lies to the right of the tangent line?
+A) 2
+B) 3
+C) 5
+D) 7
+= The line reaches y = 1 at x = 5, so a center to the right of it needs h > 5.
+
+@G65 | AREA | 12.6 | 63/5
+Identical rectangles X and Y each have an area of {49/5} square meters and a perimeter of P meters. If one of the shorter sides of rectangle X is glued to one of the shorter sides of rectangle Y, the resulting rectangle has a perimeter of {14/9}P meters. What is the value of P?
+= With sides L > W: 2(2L + W) = {14/9} · 2(L + W) gives W = 0.8L. Then 0.8L^2 = 9.8, so L = 3.5, W = 2.8, and P = 12.6.
+
+@G66 | CIR | C | fig:g66
+In the figure above, P and N are the centers of the circles and PN = 6. What is the area of the intersection?
+A) 18π - 9√{3}
+B) 24π - 9√{3}
+C) 24π - 18√{3}
+D) 36π - 18√{3}
+= Each circle has radius 6. The overlap is two segments, each a 120° sector minus a triangle: 2(12π - 9√{3}) = 24π - 18√{3}.
+
+@G67 | CIR | C | fig:g67
+In the circle above, chord RS is parallel to diameter PQ. If the length of RS is {3/4} of the length of PQ and the distance between the chord and the diameter is 2√{7}, what is the radius of the circle?
+A) 6
+B) 3√{7}
+C) 8
+D) 4√{7}
+= Half the chord is {3/4}r, so r^2 = {9/16}r^2 + 28. Then {7/16}r^2 = 28 and r = 8.
+
+@G68 | RT | D
+The ratio of the internal angles of triangle A is 1:2:3. Triangle B is an equilateral triangle with a side of 12 cm. If the areas of triangle A and B are equal and the perimeter of triangle A is m√{2} + n√{6}, what is the value of m + n?
+A) 6
+B) 12
+C) 18
+D) 24
+= Triangle A is 30-60-90 with short leg s and area {√{3}/2}s^2 = 36√{3}, so s = 6√{2}. Its perimeter is 3s + s√{3} = 18√{2} + 6√{6}, so m + n = 24.
+
+@G69 | RT | 736 | fig:g69
+Note: Figure not drawn to scale.
+In quadrilateral KLMN shown, KL = 3, LM = 3, KN = 27, and MN = 27. Diagonals KM and LN (not shown) intersect at point G (not shown), where GK = 1 and GM = 1. If the length of diagonal LN is √{p} + √{w}, where p and w are integers, what is the value of p + w?
+= KLMN is a kite, so LN is perpendicular to KM at G. LG = √{9 - 1} = √{8} and GN = √{729 - 1} = √{728}, so p + w = 736.
+
+@G70 | AREA | D
+A hollow steel pipe is in the shape of a right circular cylinder. The steel pipe has an outside diameter of 48 inches, a wall thickness of {3/5} inches, and a height of 144 inches. Which of the following is closest to the volume, in cubic inches, of the wall of this steel pipe?
+A) 177
+B) 565
+C) 2,160
+D) 13,395
+= π(24^2 - 23.4^2)(144) ≈ 12,866, which is closest to 13,395.
+
+@G71 | CIR | D | fig:g71
+The figure above shows a semicircle with the lengths of the adjacent arcs a, a + 1, a + 2, a + 3, and a + 4. If the value of x is 42, what is the value of a?
+A) 7
+B) 8
+C) 9
+D) 10
+= The five arcs total 5a + 10 for 180°, and the arc a + 4 has the central angle 42°: {a + 4/5a + 10} = {42/180}. Then 30a + 120 = 35a + 70, so a = 10.
+
+@G72 | RT | C | fig:g72
+In the figure, AC is a diameter of the circle with center O, and AC = 10. Triangle ACB is equilateral. Segment BO intersects the circle at point P. The length of BP is n times the length of AO. What is the value of n?
+A) √{5}
+B) √{3}
+C) √{3} - 1
+D) √{5} - 1
+= BO is the height of the equilateral triangle, 5√{3}, and OP = 5. So BP = 5√{3} - 5 = (√{3} - 1)(5).
+
+@G73 | CIR | A
+In the xy-plane, a circle has center D with coordinates (m, 16), where m is a constant. Points E and F lie on the circle. Point E has coordinates (m + 4√{10}, 34), and point F has coordinates (n, 16), where n is a constant greater than m. What is the area, in square units, of triangle DEF?
+A) 198
+B) 72√{10}
+C) 242
+D) 99√{10}
+= r^2 = 160 + 324 = 484, so DF = 22 and E is 18 above line DF. The area is {1/2}(22)(18) = 198.
+
+@G74 | AREA | A
+A right square pyramid has a total surface area of 36,864 square inches, and the combined surface area of the four lateral faces of this pyramid is 20,480 square inches. What is the height, in inches, of this pyramid?
+A) 48
+B) 64
+C) 80
+D) 128
+= The base is 16,384, so its side is 128. Each face is 5,120 = 64ℓ, so ℓ = 80 and the height is √{80^2 - 64^2} = 48.
+
+@G77 | AREA | A | fig:g77
+The figure shown is a right rectangular pyramid, where l = 18 units, w = 9 units, and h = 12 units. What is the surface area, in square units, of the pyramid?
+A) 297 + 27√{73}
+B) 162 + 54√{73}
+C) 162 + 27√{193}
+D) 324 + 18√{73}
+= Base 162. The faces on the 18-unit sides have slant height √{144 + 20.25} = {3√{73}/2}, for 2 · 9 · {3√{73}/2} = 27√{73}. The faces on the 9-unit sides have slant height 15, for 2 · 67.5 = 135. Total 297 + 27√{73}.
+
+@G78 | AREA | A
+| | Area | Perimeter |
+| Rectangle A | 2,450 | 490 |
+| Rectangle B | 9,800 | n |
+The table gives the areas (square inches) and perimeters (inches) of two similar rectangles, where n is a constant. What is the value of n?
+A) 980
+B) 1,960
+C) 3,920
+D) 4,900
+= The area ratio is 4, so the length ratio is 2 and n = 980.
+
+@G80 | CIR | 10 | fig:g80
+Note: Figure not drawn to scale.
+A circle is inscribed in an equilateral triangle as shown above. Point L is the center of the circle. Points A, B, and C all lie on the circle and the sides of the triangle. The perimeter of the triangle is 90√{3}. The length of arc AC is equal to kπ. What is the value of k?
+= The side is 30√{3}, so the radius is {30√{3}/2√{3}} = 15. Arc AC subtends 120° (the angle at Q is 60°), so its length is {1/3}(30π) = 10π.
+
+@G81 | CIR | 1040
+$ 5x^2 - 40px + 5y^2 + 70py = 325p^2
+In the xy-plane, the graph of the given equation is a circle, where p is a constant. The center of the circle is (-8, 14). If a square is inscribed in the circle, what is the area of the square?
+= Divide by 5: the center is (4p, -7p) = (-8, 14), so p = -2, and r^2 = 65p^2 + 16p^2 + 49p^2 = 520. The square's diagonal is 2r, so its area is 2r^2 = 1,040.
+
+@G82 | LAT | A
+In triangle DEF, angle F is a right angle, point Q lies on DE, point J lies on EF, and QJ is parallel to DF. If the length of EF is 45 units, the length of FJ is 24 units, and the area of triangle DEF is 630 square units, what is the perimeter of triangle QEJ, in units?
+A) {294/5}
+B) 63
+C) {441/5}
+D) 126
+= DF = {2(630)/45} = 28 and DE = 53, so the perimeter of DEF is 126. EJ = 21, a ratio of {21/45} = {7/15}, so the perimeter of QEJ is {7/15}(126) = {294/5}.
+
+@G83 | RT | C | fig:g83
+In the figure above, what is the length of NQ?
+A) 2.2
+B) 2.3
+C) 2.4
+D) 2.5
+= MP = 5, and the altitude to the hypotenuse is {3 · 4/5} = 2.4.
+
+@G84 | CIR | A
+An equilateral triangle is inscribed in a circle with a radius of 8 inches. What is the area of the region that lies within the circle but outside the triangle, in square inches?
+A) 64π - 48√{3}
+B) 64π - 24√{3}
+C) 64π - 32√{3}
+D) 16π - 12√{3}
+= The side is 8√{3}, so the triangle's area is {√{3}/4}(192) = 48√{3}.
+
+@G85 | LAT | B
+In triangles PQR and XYZ, angles R and Z each have a measure of 38°. The length of side QR is equal to 11. The length of side YZ is equal to 27.5. Which additional piece of information is sufficient to prove that triangle PQR is similar to triangle XYZ?
+A) The measure of angle P is 46°
+B) The length of side PR is 14 and the length of side XZ is 35
+C) The measure of angle Q is 49° and the measure of angle Y is 94°
+D) No additional information is necessary
+= {11/27.5} = {14/35} = 0.4, and the 38° angles are between these sides, so the triangles are similar by SAS.
+
+@G86 | LAT | 56 | fig:g86
+Note: Figure not drawn to scale.
+In the figure shown, point B lies on line segment DF, point E lies on line segment AC, line segments AB and DE intersect at point W, and line segments BC and EF intersect at point X. The measure of ∠A is 40°, the measure of ∠C is 60°, the measure of ∠D is 68°, and the measure of ∠FBC is 72°. What is the measure, in degrees, of ∠AED?
+= Angle ABC = 80°, so angle DBA = 180 - 80 - 72 = 28°. In triangle DBW, angle DWB = 180 - 68 - 28 = 84°, which equals angle AWE. In triangle AWE, angle AED = 180 - 40 - 84 = 56°.
+
+@G87 | AREA | 24.5 | 49/2 | fig:g87
+What is the area, in square units, of the triangle formed by connecting the three points shown?
+= The points are (-3, 4), (5, 3), and (4, -3). By the shoelace formula, the area is {1/2}|-3(6) + 5(-7) + 4(1)| = {49/2}.
+
+@G88 | LAT | 10/3 | 3.333 | 15/4 | 3.75 | 25/6 | 4.166 | 4.167 | fig:g88
+Note: Figure not drawn to scale.
+The area of triangle ABC above is at least 48 but no more than 60. If y is an integer, what is one possible value of x?
+= AC = 12, so the area is 6y and 8 ≤ y ≤ 10. The small triangle is similar to ABC, so x = {5y/12}: {10/3}, {15/4}, or {25/6}.
+
+@G90 | RT | 6 | fig:g90
+In the figure above, tan B = {3/4}, BC = 15, and DA = 4. What is the length of DE?
+= AC = 9 and AB = 12, so BD = 8 and DE = 8 tan B = 6.
+
+@G91 | AREA | A
+| | Volume |
+| Square pyramid A | 16 |
+| Square pyramid B | 5,488 |
+In geometry, a square pyramid is a pyramid that has a square base and four lateral faces. Square pyramid A is similar to square pyramid B. The table gives the volumes, in cubic inches, of the two square pyramids. If the height of square pyramid A is 8 inches, what is the perimeter of the square base of square pyramid B, in inches?
+A) 28√{6}
+B) 4√{6}
+C) 196√{6}
+D) 7√{6}
+= {1/3}s^2(8) = 16 gives s = √{6}. The volume ratio 343 gives a length ratio 7, so B's base perimeter is 4(7√{6}) = 28√{6}.
+
+@G92 | CIR | A
+A circle has center A, and points B and C lie on the circle. Line segments BD and CD are tangent to the circle at points B and C, respectively. The measure of angle BDC is 120°. The length of line segment CD is 12 inches. What is the area of the region that is both inside quadrilateral ABDC and outside the circle, in square inches?
+A) 144√{3} - 72π
+B) 72√{3} - 36π
+C) 144√{3} - 24π
+D) 144 - 36π
+= Angle BAC = 60° and the radius is 12 tan 60° = 12√{3}. The quadrilateral is 2 · {1/2}(12)(12√{3}) = 144√{3}, and the 60° sector is {1/6}π(432) = 72π.
+
+@G93 | CIR | 57 | fig:g93
+Note: Figure not drawn to scale.
+In the circle shown, point C is the center, and radius PC bisects AB at point Q. The diameter of the circle has a length of 22. Line segment QP has a length of 3. If the length of line segment AQ is equal to √{x}, what is the value of x?
+= CQ = 11 - 3 = 8 and CA = 11, so AQ^2 = 121 - 64 = 57.
+
+@G94 | AREA | D
+A right circular cone has a volume of 71,148π cubic centimeters and the area of its base is 5,929π square centimeters. What is the slant height, in centimeters, of this cone?
+A) 12
+B) 36
+C) 77
+D) 85
+= r = 77 and h = {3(71,148)/5,929} = 36, so the slant height is √{77^2 + 36^2} = 85.
+
+@G95 | CIR | 0.682 | 0.6820 | 0.6821 | fig:g95
+Point Q is the center of the circle. Point A, point B, and point C all lie on the circle. Point D lies on segment AC as shown. Segment BD is perpendicular to segment AC. In the figure shown, AB = 58 and AD = 40. If a point within the figure is selected at random, what is the probability that the point is within the shaded region? (Express your answer as a decimal, not as a percent. Round your answer to the nearest thousandth.)
+= BD = 42. AC is a diameter, so DC = {42^2/40} = 44.1, AC = 84.1, and r = 42.05. The shaded region is the circle minus triangle ABC: {π(42.05)^2 - 1,766.1/π(42.05)^2} ≈ 0.682.
+
+@G96 | CIR | A
+In circle O, there are two diameters, AC and BD. The circumference of the circle is 96π and arc AB is three times the length of arc AD. What is the length of arc BC?
+A) 12π
+B) 24π
+C) 36π
+D) 48π
+= Arcs AB and AD make a semicircle, so AD = 45° and arc BC = arc AD = {1/8}(96π) = 12π.
+
+@G97 | CIR | 64 | fig:g97
+In the figure, D is the center of the circle and A, B, and C lie on the circle. The measure of angle BDC, in radians, is equal to {aπ/b}, where a and b are positive integer constants. What is the smallest possible value of a + b?
+= DA = DB = DC, so angles DAB and DAC are each 19°, and angle BAC = 38°. The central angle BDC is 76° = {19π/45}, so a + b = 64.
+
+@G98 | AREA | A
+A regular hexagonal prism has a volume of 350 cubic inches and a height of 14 inches. What is the perimeter of each of the hexagonal bases, in inches?
+A) 10^4√{12}
+B) 10√{3}
+C) 6√{25}
+D) 25√{3}
+= The base area is 25 = {3√{3}/2}s^2, so s^2 = {50/3√{3}} and s ≈ 3.10. The perimeter is 6s ≈ 18.6, and 10^4√{12} ≈ 18.6.
+
+@G99 | RT | 3/4 | 0.75 | fig:g99
+In the figure above, O is the center of the circle and AC is tangent to the circle at D. If triangle ABC is equilateral, what is the ratio {FE/AC}?
+= BD is a diameter, so angle BFD = 90° and BF = BD cos 30° = {3/4}AB. Since FE ∥ AC, {FE/AC} = {BF/BA} = {3/4}.
+
+@G100 | CIR | D | fig:g100
+In the figure, if the radius of circle O is 10, what is the length of diagonal AC of rectangle OABC?
+A) √{2}
+B) √{10}
+C) 5√{2}
+D) 10
+= The diagonals of a rectangle are equal, and OB is a radius, so AC = OB = 10.
+
+@G101 | AREA | B
+Two identical rectangular prisms each have a height of 90 centimeters (cm). The base of each prism is a square, and the surface area of each prism is K cm^2. If the prisms are glued together along a square base, the resulting prism has a surface area of {92/47}K cm^2. What is the side length, in cm, of each square base?
+A) 4
+B) 8
+C) 9
+D) 16
+= K = 2s^2 + 360s and the new prism has 2s^2 + 720s. So 47(2s^2 + 720s) = 92(2s^2 + 360s), which gives 90s^2 = 720s and s = 8.
+
+@G102 | RT | B | fig:g102
+In the figure above, the area of triangle ABC is equal to 2x^2. What is the cosine of ∠BCP?
+A) {1/√{10}}
+B) {3/√{10}}
+C) {1/3}
+D) 3
+= {1/2}(AC)(x) = 2x^2 gives AC = 4x, so PC = 3x and BC = x√{10}. So cos ∠BCP = {3/√{10}}.
+
+@G103 | AREA | 6510
+| | Radius | Height |
+| Cylinder A | R | H |
+| Cylinder B | 4R | 3H + 24 |
+Cylinders A and B are similar. The volume of cylinder A is 1,176π cm^3. If the surface areas of cylinder B and A are nπ cm^2 and kπ cm^2, respectively, what is the value of n - k?
+= Similar means 3H + 24 = 4H, so H = 24, and R^2(24) = 1,176 gives R = 7. Then k = 98 + 336 = 434, n = 16k = 6,944, and n - k = 6,510.
+
+@G104 | LAT | D
+For triangles PQR and KLM, the angles Q and L are equal and PR = {3/4}KM. Which of the following information is enough to claim that PQR and KLM are similar?
+I. The length of PQ is {3/4} of the length of KL.
+II. The length of LM is {3/4} of the length of QR.
+A) Only I
+B) I and II
+C) Only II
+D) Neither I nor II
+= I gives side-side-angle, which is not enough. II gives the ratio {QR/LM} = {4/3}, not {3/4}, so it does not match the other sides.
+
+@G105 | RT | 16
+A circle with radius of 8 cm is inscribed in an equilateral triangle. If the length of the triangle is k√{3} cm, what is the value of k?
+= The inradius is {s/2√{3}}, so s = 16√{3}.
+
+@G107 | RT | A | fig:g107
+In the diagram, OB = OA, AB = BC, the measure of angle FAO = 30°, DE is parallel to AC, and AB = 58. What is the length of BE?
+A) {116/3}
+B) 29
+C) {87/2}
+D) 58
+= Angle OAB = angle OBA = α and α + (30 + α) = 90, so α = 30 and the triangle is equilateral. O is {2/3} of the way down the height BF, so BE = {2/3}(58) = {116/3}.
+
+@G109 | RT | 2888/35 | 82.51
+In isosceles triangle RST, SR = ST and the length of RT is 76. If tan(∠R) = {2/35}, what is the area of triangle RST?
+= The height from S is 38 · {2/35} = {76/35}, so the area is {1/2}(76)({76/35}) = {2,888/35} ≈ 82.51.
+
+@G111 | AREA | 18.47 | 18.466
+A right square pyramid has a surface area of 64 + 16√{357} square inches, which includes a base area of 64 square inches. What is the height, in inches, of this pyramid? (Round your answer to the nearest hundredth.)
+= The base side is 8 and each face is 4√{357} = 4ℓ, so ℓ = √{357}. The height is √{357 - 16} = √{341} ≈ 18.47.
+
+@G112 | CIR | C
+A circle in the xy-plane has its center at (-3, 3). Line t is tangent to this circle at the point (6, -3). Which of the following points also lies on line t?
+A) (0, {5/2})
+B) (3, 12)
+C) (12, 6)
+D) (15, 3)
+= The radius has slope -{2/3}, so line t has slope {3/2}: y + 3 = {3/2}(x - 6). At x = 12, y = 6.
+
+@G120 | RT | B
+In right triangle RST, angle T is a right angle. Point X lies on RT and point Z lies on ST such that XZ is parallel to RS. If tan R = {216/713}, what is the value of sin(∠TXZ)?
+A) {216/929}
+B) {216/745}
+C) {713/745}
+D) {713/216}
+= Angle TXZ equals angle R. The hypotenuse for legs 216 and 713 is 745, so the sine is {216/745}.
+
+@G121 | CIR | -23
+A circle in the xy-plane has its center at (-7, 3) and has a radius of 9. An equation of this circle is x^2 + y^2 + ax + by + c = 0, where a, b, and c are constants. What is the value of c?
+= (x + 7)^2 + (y - 3)^2 = 81 expands to x^2 + y^2 + 14x - 6y + 58 - 81 = 0, so c = -23.
+
+@G124 | CIR | D
+A circle has center G, and points M and N lie on the circle. Line segments MH and NH are tangent to the circle at M and N, respectively. If the radius is 168 mm and the perimeter of quadrilateral GMHN is 3,856 mm, what is the distance, in mm, between G and H?
+A) 168
+B) 1,752
+C) 1,760
+D) 1,768
+= Each tangent is {3,856 - 336/2} = 1,760, and GH = √{168^2 + 1,760^2} = 1,768.
+
+@G125 | AREA | B
+A triangular prism has an equilateral triangle base with side length x and a prism height of x√{3}. If the volume of the prism is {2187/4}, what is the value of x?
+A) 3
+B) 9
+C) 27
+D) 81
+= {√{3}/4}x^2 · x√{3} = {3/4}x^3 = {2187/4}, so x^3 = 729 and x = 9.
+
+@G126 | CIR | D
+$ (x - 5)^2 + (y + 12)^2 = 169
+The given equation represents a circle. If the point (r, s) lies on the circle, which of the following could NOT be the point (r, s)?
+A) (-7, -7)
+B) (10, -24)
+C) (√{140} + 5, √{29} - 12)
+D) (√{140} - 5, √{29} + 12)
+= A, B, and C each give squares adding to 169. For D, (√{140} - 10)^2 + (√{29} + 24)^2 is not 169.
+
+@G127 | LAT | 2/45 | 0.044 | 0.0444
+A regular polygon has exactly 45 sides. If the measure of each exterior angle is (180k)°, what is the value of k?
+= Each exterior angle is {360/45} = 8°, so k = {8/180} = {2/45}.
+
+@G129 | RT | C
+Point N lies on a unit circle in the xy-plane and has coordinates (1, 0). Point O is the center at (0, 0). Point M also lies on the unit circle, and the measure of angle NOM is {272π/3} radians. If the coordinates of point M are (a, b), what is the value of a?
+A) {1/2}
+B) {√{3}/2}
+C) -{1/2}
+D) -{√{3}/2}
+= {272π/3} = 90π + {2π/3}, and 90π is 45 full turns, so a = cos {2π/3} = -{1/2}.
+
+@G133 | LAT | 10/3 | 3.333
+In triangle ABC, ∠C is a right angle. Point D lies on AB, point E lies on BC, and DE is parallel to AC. If the length of AB is 39 units, DE is 8 units, the length of AC is greater than the length of BC, and the area of triangle ABC is 270 square units, what is the length of BE, in units?
+= The legs satisfy ab = 540 and a^2 + b^2 = 1,521, so they are 15 and 36, with AC = 36 and BC = 15. Then BE = 15 · {8/36} = {10/3}.
+
+@G135 | AREA | 500
+The points (0, 15), (10, 8), and (10, 3) define one base of a triangular prism. The distance between the two bases of the prism is 20 units. What is the volume, in cubic units, of the prism?
+= The base has a vertical side of 5 at x = 10 and a height of 10, so its area is 25 and the volume is 25(20) = 500.
+
+@G137 | CIR | 3
+$ 8x^2 + 112px + 8y^2 - 64py = -448p^2
+In the xy-plane, the graph of the given equation is a circle. The length of the radius is np, where n and p are positive constants. What is the value of n?
+= Divide by 8: (x + 7p)^2 + (y - 4p)^2 = 49p^2 + 16p^2 - 56p^2 = 9p^2, so the radius is 3p.

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* STEP12 brand — navy + crimson, taken from step12.uz */
+/* Humo AI brand — navy + crimson */
 @theme {
   --font-sans: "Onest", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Literata", ui-serif, Georgia, serif;
@@ -11,9 +11,9 @@
   --color-moss: #56657a;       /* muted slate */
   --color-cream: #f6f7fb;      /* brand light */
   --color-sand: #dde3ec;
-  --color-navy: #03244a;       /* STEP12 logo navy */
+  --color-navy: #03244a;       /* brand navy */
   --color-navy-2: #0a3263;
-  --color-crimson: #bb0937;    /* STEP12 logo crimson */
+  --color-crimson: #bb0937;    /* brand crimson */
   --color-card: #ffffff;       /* app surfaces (cards, inputs) */
   --color-soft: #eef1f6;       /* quiet fills, tracks */
   --color-line: #e3e7ee;       /* hairlines and borders */
@@ -33,6 +33,9 @@
   --animate-breathe: breathe 3.2s ease-in-out infinite;
   --animate-flicker: flicker 2.4s ease-in-out infinite;
   --animate-shimmer: shimmer 2.2s linear infinite;
+  @keyframes pulseRing {
+    50% { box-shadow: 0 0 0 18px rgba(200,16,63,.08); }
+  }
   @keyframes shake {
     10%, 90% { transform: translateX(-1px); }
     20%, 80% { transform: translateX(3px); }
@@ -150,7 +153,7 @@ html.dark-app .prose-q th, html.dark-app .prose-q td { border-color: #2c3f5e; }
 }
 
 @layer components {
-  /* Literata display — STEP12's signature serif */
+  /* Literata display — Humo AI's signature serif */
   .display {
     font-family: var(--font-serif);
     font-weight: 450;
@@ -158,7 +161,7 @@ html.dark-app .prose-q th, html.dark-app .prose-q td { border-color: #2c3f5e; }
     letter-spacing: -0.025em;
     line-height: 1.02;
   }
-  /* STEP12's hand-drawn green underline */
+  /* Humo AI's hand-drawn green underline */
   .brush {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 14' preserveAspectRatio='none'%3E%3Cpath d='M3 9c40-5 90-7 150-6s100 3 144 1' fill='none' stroke='%2362b968' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -206,6 +209,19 @@ html.dark-app .prose-q th, html.dark-app .prose-q td { border-color: #2c3f5e; }
   .prose-q table { border-collapse: collapse; margin: .5em 0; font-size: .92em; }
   .prose-q th, .prose-q td { border: 1px solid #cfd6e1; padding: .35em .6em; }
   .prose-q u { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  .math-q .eq { margin: .6em 0; text-align: center; font-size: 1.05em; }
+  .math-q .fr { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; margin: 0 .12em; font-size: .9em; line-height: 1.25; }
+  .math-q .fr > span:last-child { border-top: 1px solid currentColor; padding-top: .08em; }
+  .math-q .fr > span:first-child { padding-bottom: .1em; }
+  .math-q .fr > span { padding: 0 .15em; }
+  /* square root: the sign is a drawn shape joined to the bar over the radicand */
+  .math-q .rad { display: inline-block; position: relative; border-top: .07em solid currentColor; padding: .1em .12em 0 .62em; margin: 0 .04em 0 .06em; line-height: 1.1; }
+  .math-q .rad::before { content: ''; position: absolute; left: 0; top: -.07em; bottom: .02em; width: .62em; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 20' preserveAspectRatio='none'%3E%3Cpath d='M0 12.3 L2.9 10.7 L5.7 17.2 L11.1 0 L12 0 L12 1.3 L11.9 1.3 L6.3 20 L5.1 20 L2.3 12.6 L0.5 13.4 Z'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 20' preserveAspectRatio='none'%3E%3Cpath d='M0 12.3 L2.9 10.7 L5.7 17.2 L11.1 0 L12 0 L12 1.3 L11.9 1.3 L6.3 20 L5.1 20 L2.3 12.6 L0.5 13.4 Z'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat; }
+  .math-q .rq { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .math-q .ri { font-size: .62em; margin-right: -.62em; vertical-align: 1.25em; position: relative; z-index: 1; }
+  .math-q table { margin: .6em auto; }
+  .math-q caption { font-weight: 600; padding-bottom: .3em; }
+  .math-q .hb-opt { display: block; max-width: 100%; height: auto; max-height: 220px; border-radius: .5rem; }
   /* Reading & Writing highlights (Bluebook-style) */
   mark.hl { color: inherit; border-radius: 3px; padding: 0 1px; cursor: pointer; transition: background-color .2s; }
   mark.hl-yellow { background: #fde68a; }

@@ -25,7 +25,7 @@ function Leaderboard({ rows, me }: { rows: Row[] | null; me?: string }) {
         <span className="flex items-center gap-2">
           <Trophy className="size-4 text-orange-500" /> This week's leaderboard
         </span>
-        <span className="text-[12px] font-normal text-moss">STEP12 students</span>
+        <span className="text-[12px] font-normal text-moss">Humo AI students</span>
       </p>
       {!rows ? (
         <p className="mt-4 text-[13px] text-moss">Leaderboard is available when the server is running.</p>

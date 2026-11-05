@@ -4,6 +4,7 @@ import { Check, Plus } from 'lucide-react'
 import { GoogleButton } from '../auth/GoogleButton'
 import { Reveal, Spotlight } from '../components/motion'
 import { motion } from 'framer-motion'
+import { HumoLogo } from '../brand/HumoLogo'
 
 export const UNIVERSITIES: [string, string][] = [
   ['Westminster International University in Tashkent', 'wiut.uz'],
@@ -24,7 +25,7 @@ export function Proof() {
   const row = [...UNIVERSITIES, ...UNIVERSITIES]
   return (
     <section className="border-t border-white/[0.07] py-12" aria-label="Universities our students aim for">
-      <p className="mx-auto max-w-7xl px-4 text-[13px] text-white/40 sm:px-6">STEP12 students aim for universities like these</p>
+      <p className="mx-auto max-w-7xl px-4 text-[13px] text-white/40 sm:px-6">Humo AI students aim for universities like these</p>
       <div className="relative mt-6 overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_10%,black_90%,transparent)]">
         <ul className="flex w-max animate-marquee gap-4 hover:[animation-play-state:paused]">
           {row.map(([u, d], i) => (
@@ -44,7 +45,7 @@ export function Proof() {
 export function HowItWorks() {
   const steps = [
     ['Take a 40-minute diagnostic', 'A short, timed mix of every Digital SAT domain. You get an estimated score right away.'],
-    ['Sensai builds your plan', 'Your test date, target score and weak spots become a week-by-week schedule.'],
+    ['Humo builds your plan', 'Your test date, target score and weak spots become a week-by-week schedule.'],
     ['Practice and review daily', 'Short sets from the question bank. Every mistake goes to your notebook with an explanation.'],
     ['Sit full mocks before test day', 'Timed, adaptive mocks show whether you are on track — and what to fix in the last weeks.'],
   ]
@@ -73,24 +74,24 @@ const PLANS = [
     name: 'Free',
     price: '0',
     unit: "so'm",
-    note: 'For trying STEP12',
+    note: 'For trying Humo AI',
     cta: 'Start free',
-    features: ['300 practice questions', '1 full Digital SAT mock', '20 Sensai messages a day', 'Mistake notebook'],
+    features: ['Full question bank: 3,000+ questions', '1 Ask Humo question a day', '1 Desmos Lab solve a day', 'Explanations on every question'],
   },
   {
     name: 'Pro',
     price: '149 000',
-    unit: "so'm / month",
+    unit: "so'm / month · ≈ $12",
     note: 'For students with a test date',
     cta: 'Start with Pro',
     featured: true,
-    features: ['Full question bank', 'Unlimited full SAT mocks', 'Unlimited Sensai', 'Personal study plan', 'Detailed analytics by skill'],
+    features: ['Unlimited Ask Humo and Desmos Lab', 'Every full-length practice test', 'Video lessons and Learn courses', 'Personal study plan', 'Vocabulary, Blitz and analytics by skill'],
   },
   {
     name: 'Academy',
     price: 'Included',
     unit: 'with your course',
-    note: 'For STEP12 students',
+    note: 'For Humo AI students',
     cta: 'Join with academy code',
     features: ['Everything in Pro', 'Your teacher sees your progress', 'Weekly mock with group ranking', 'Speaking practice with teachers'],
   },
@@ -149,11 +150,11 @@ export function Pricing() {
 }
 
 const FAQ = [
-  ['Is STEP12 the same as the official SAT?', 'No. Our questions and mocks follow the official formats and timing closely, but they are written by STEP12 teachers. Use the official Bluebook practice tests as well before test day.'],
-  ['How accurate are the score estimates?', 'Estimates are most reliable after a full mock. A single practice set gives a rough range; Sensai tells you how confident the estimate is.'],
-  ['Can Sensai explain in Uzbek or Russian?', "Yes. Ask in O'zbekcha or Русский and Sensai will answer in that language, while keeping exam terms in English so they match the real test."],
-  ['Does Sensai just give me the answers?', 'When you are practising, Sensai starts with a hint and only shows the full solution if you ask. In review mode it explains the full reasoning.'],
-  ['I study at STEP12. Do I pay separately?', 'No. Academy students get full access with the code from their teacher.'],
+  ['Is Humo AI the same as the official SAT?', 'No. Our questions and mocks follow the official formats and timing closely, but they are written by Humo AI teachers. Use the official Bluebook practice tests as well before test day.'],
+  ['How accurate are the score estimates?', 'Estimates are most reliable after a full mock. A single practice set gives a rough range; Humo tells you how confident the estimate is.'],
+  ['Can Humo explain in Uzbek or Russian?', "Yes. Ask in O'zbekcha or Русский and Humo will answer in that language, while keeping exam terms in English so they match the real test."],
+  ['Does Humo just give me the answers?', 'When you are practising, Humo starts with a hint and only shows the full solution if you ask. In review mode it explains the full reasoning.'],
+  ['I study at the academy. Do I pay separately?', 'No. Academy students get full access with the code from their teacher.'],
   ['Can I cancel Pro at any time?', 'Yes. Pro is monthly, and you keep access until the end of the month you paid for.'],
 ]
 
@@ -190,8 +191,8 @@ export function FinalCta() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 size-[46rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-jg-500/[0.13] blur-[140px]" />
       <div className="pointer-events-none absolute left-1/2 top-1/2 size-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-jg-500/20" />
       <div className="relative mx-auto flex max-w-3xl flex-col items-center px-4 text-center">
-        <img src="/sensai-mark-512.png" alt="" className="size-16 rounded-2xl shadow-[0_20px_60px_-20px_rgba(200,16,63,0.7)]" />
-        <h2 className="display mt-8 pb-2 text-[clamp(2.4rem,6vw,4.6rem)]">Sensai is ready <span className="gold-text">when you are</span>.</h2>
+        <img src="/humo-mark-512.png" alt="" className="size-16 rounded-2xl shadow-[0_20px_60px_-20px_rgba(200,16,63,0.7)]" />
+        <h2 className="display mt-8 pb-2 text-[clamp(2.4rem,6vw,4.6rem)]">Humo is ready <span className="gold-text">when you are</span>.</h2>
         <p className="mt-5 max-w-md text-[16px] text-white/55">Take the diagnostic today and see where you stand in 40 minutes.</p>
         <div className="mt-9">
           <GoogleButton />
@@ -204,16 +205,15 @@ export function FinalCta() {
 export function Footer() {
   return (
     <footer className="border-t border-white/[0.07]">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[2fr_1fr_1fr]">
         <div>
           <span className="flex items-center gap-2.5">
-            <img src="/brand/step12-logo.png" alt="STEP12" className="h-9 w-auto rounded-[5px] ring-1 ring-white/10" />
+            <HumoLogo className="h-9" />
           </span>
-          <p className="mt-4 max-w-xs text-[13px] leading-relaxed text-white/45">The digital SAT platform of STEP12, Tashkent — full-length practice, a smart question bank and Sensai, your AI tutor.</p>
+          <p className="mt-4 max-w-xs text-[13px] leading-relaxed text-white/45">Humo AI, the digital SAT platform from Tashkent — full-length practice, a smart question bank and Humo, your AI tutor.</p>
         </div>
         {[
-          ['Product', [['Try Sensai', '#try'], ['Features', '#features'], ['Pricing', '#pricing']]],
-          ['Academy', [['step12.uz', 'https://step12.uz'], ['Courses', 'https://step12.uz'], ['Telegram', 'https://t.me/STEP12_UZ'], ['Instagram', 'https://www.instagram.com/step12.uz/'], ['+998 55 050 12 12', 'tel:+998550501212']]],
+          ['Product', [['Try Humo', '#try'], ['Features', '#features'], ['Pricing', '#pricing']]],
           ['Legal', [['Privacy Policy', '/privacy'], ['Terms of Service', '/terms']]],
         ].map(([h, links]) => (
           <div key={h as string}>
@@ -232,7 +232,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/[0.07]">
         <p className="mx-auto max-w-7xl px-4 py-6 text-[11px] leading-relaxed text-white/30 sm:px-6">
-          © {new Date().getFullYear()} STEP12. SAT® is a trademark of the College Board, which is not affiliated with and does not endorse this product.
+          © {new Date().getFullYear()} Humo AI. SAT® is a trademark of the College Board, which is not affiliated with and does not endorse this product.
         </p>
       </div>
     </footer>
@@ -241,7 +241,7 @@ export function Footer() {
 
 const INSIDE = [
   ['Exam, practice & sprint modes', 'Take any full test the way you need today: real timing, instant feedback, or less time to build pacing.'],
-  ['Sensai in every screen', 'A hint while you practise, an explanation above every reviewed question, and a chat that knows your answers.'],
+  ['Humo in every screen', 'A hint while you practise, an explanation above every reviewed question, and a chat that knows your answers.'],
   ['Desmos & reference sheet', 'The same graphing calculator and formula sheet you get in Bluebook, built into every Math test.'],
   ['Weekly study plan', 'A schedule that counts down to your test date, with tasks you tick off.'],
   ['Drills & daily question', 'Short sets with instant explanations, plus one new question every day.'],

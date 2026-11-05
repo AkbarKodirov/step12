@@ -1,6 +1,6 @@
-// Backups for Sensai: when every Gemini model is busy or out of quota, the same request goes to the next
+// Backups for Humo: when every Gemini model is busy or out of quota, the same request goes to the next
 // OpenAI-compatible provider that has a key, in this order:
-//   Groq → NVIDIA NIM → Mistral → OpenRouter → SambaNova → Cloudflare Workers AI → IteraCompute → Z.ai → DeepSeek (paid)
+//   Mistral → Groq → NVIDIA NIM → OpenRouter → SambaNova → Cloudflare Workers AI → IteraCompute → Z.ai → DeepSeek (paid)
 // Every provider is optional: it switches on only when its key is set on the server. Model lists can be overridden
 // with <NAME>_TEXT_MODELS / <NAME>_VISION_MODELS (comma-separated); a retired model name just falls through to the next.
 // (GitHub Models was retired by GitHub on 30 July 2026, so it is not used.)
@@ -10,6 +10,15 @@
 const env = (...names) => names.map((n) => process.env[n]).find(Boolean)
 
 const PROVIDERS = [
+  {
+    // free plan: Large 4 (50 req/min, 20K tokens/min) and Ministral 14B (30 req/min, 937K tokens/min) both read photos;
+    // Small and Medium have no free quota. Each model has its own limit, so a busy one falls through to the next.
+    name: 'mistral',
+    key: env('MISTRAL_API_KEY', 'Mistral_API_KEY'),
+    url: 'https://api.mistral.ai/v1/chat/completions',
+    text: (env('MISTRAL_TEXT_MODELS') || 'ministral-14b-2512,ministral-8b-2512,mistral-large-4').split(','),
+    vision: (env('MISTRAL_VISION_MODELS') || 'ministral-14b-2512,mistral-large-4,ministral-8b-2512').split(','),
+  },
   {
     name: 'groq',
     key: env('GROQ_API_KEY', 'Groq_API_KEY', 'groq_api_key'),
@@ -25,20 +34,13 @@ const PROVIDERS = [
     vision: (env('NVIDIA_VISION_MODELS') || 'nvidia/nemotron-3.5-super-vl-120b-a12b').split(','),
   },
   {
-    name: 'mistral',
-    key: env('MISTRAL_API_KEY', 'Mistral_API_KEY'),
-    url: 'https://api.mistral.ai/v1/chat/completions',
-    text: (env('MISTRAL_TEXT_MODELS') || 'mistral-medium-latest,mistral-small-latest').split(','),
-    vision: (env('MISTRAL_VISION_MODELS') || 'mistral-small-latest,mistral-medium-latest').split(','),
-  },
-  {
     name: 'openrouter',
     key: env('OPENROUTER_API_KEY', 'OpenRouter_API_KEY', 'OPENROUTER_KEY'),
     url: 'https://openrouter.ai/api/v1/chat/completions',
     // OpenRouter tries the listed models in order itself (the "models" field)
     text: [(env('OPENROUTER_TEXT_MODELS') || 'openrouter/free,nvidia/nemotron-3-super-120b-a12b:free,google/gemma-4-31b-it:free').split(',')],
     vision: [(env('OPENROUTER_VISION_MODELS') || 'openrouter/free,google/gemma-4-31b-it:free,nvidia/nemotron-3.5-super-vl:free').split(',')],
-    headers: { 'HTTP-Referer': 'https://step12.uz', 'X-Title': 'STEP12 Sensai' },
+    headers: { 'HTTP-Referer': 'https://step12.onrender.com', 'X-Title': 'Humo AI' },
   },
   {
     name: 'sambanova',
@@ -80,7 +82,23 @@ const PROVIDERS = [
 
 export const groqReady = PROVIDERS.length > 0
 export const backupNames = PROVIDERS.map((p) => p.name)
+export const mistralReady = PROVIDERS.some((p) => p.name === 'mistral')
+/** Backups other than Mistral (Mistral is tried before Gemini, so after Gemini only these are left). */
+export const othersReady = PROVIDERS.some((p) => p.name !== 'mistral')
 const resting = new Map()
+
+/** Mistral model orders by job. Ministral 14B is fast and was right on 24/24 SAT math and 19/20 hard Reading and Writing;
+ * Large 4 thinks first (as accurate, ~7x slower, 20K tokens/min), so it leads only the math solves. */
+const MISTRAL = {
+  solve: ['mistral-large-4', 'ministral-14b-2512', 'ministral-8b-2512'],
+  check: ['ministral-14b-2512', 'mistral-large-4', 'ministral-8b-2512'],
+}
+
+/** Rests one backup model (label "provider:model") for a minute, e.g. after it went silent mid-answer. */
+export const restBackup = (label) => label && resting.set(label, Date.now() + 60_000)
+
+/** Message text from a reply. Some models (Mistral Large 4) send a list of parts with their thinking first: keep only the answer. */
+const textOf = (c) => (typeof c === 'string' ? c : Array.isArray(c) ? c.filter((x) => x?.type === 'text').map((x) => x.text || '').join('') : '')
 
 function toMessages({ contents, config = {} }) {
   const messages = []
@@ -105,7 +123,7 @@ function toMessages({ contents, config = {} }) {
   return { messages, images }
 }
 
-async function callOne(p, model, req, stream) {
+async function callOne(p, model, req, stream, timeoutMs = 60_000) {
   const { messages, images } = toMessages(req)
   const body = { messages, temperature: req.config?.temperature ?? 0.4, stream }
   if (Array.isArray(model)) body.models = model
@@ -115,7 +133,7 @@ async function callOne(p, model, req, stream) {
     method: 'POST',
     headers: { Authorization: `Bearer ${p.key}`, 'Content-Type': 'application/json', ...(p.headers || {}) },
     body: JSON.stringify(body),
-    signal: AbortSignal.timeout(60_000),
+    signal: AbortSignal.timeout(timeoutMs),
   })
   if (!res.ok) {
     const err = new Error(`${p.name} ${Array.isArray(model) ? model[0] : model} ${res.status}: ${(await res.text()).slice(0, 200)}`)
@@ -126,37 +144,53 @@ async function callOne(p, model, req, stream) {
 }
 
 /** Tries each provider (and each of its models) until one answers. */
-async function call(req, stream) {
+async function call(req, stream, { only, skip, kind, timeoutMs } = {}) {
   const hasImages = toMessages(req).images
   let last
-  const order = PROVIDERS.filter((p) => (resting.get(p.name) || 0) < Date.now())
-  for (const p of order.length ? order : PROVIDERS) {
-    for (const model of hasImages ? p.vision : p.text) {
+  const pool = PROVIDERS.filter((p) => (!only || p.name === only) && p.name !== skip)
+  const order = pool.filter((p) => (resting.get(p.name) || 0) < Date.now())
+  for (const p of order.length ? order : pool) {
+    const models = p.name === 'mistral' && MISTRAL[kind] ? MISTRAL[kind] : hasImages ? p.vision : p.text
+    for (const model of models) {
+      const id = `${p.name}:${Array.isArray(model) ? model[0] : model}`
+      if ((resting.get(id) || 0) > Date.now()) continue
       try {
-        const { res } = await callOne(p, model, req, stream)
+        const { res } = await callOne(p, model, req, stream, timeoutMs)
         return { res, label: `${p.name}:${Array.isArray(model) ? model[0] : model}` }
       } catch (e) {
         last = e
         console.warn(`Backup ${e.message}`)
-        if (e.status === 429 || e.status === 401 || e.status === 403 || e.status >= 500) {
-          resting.set(p.name, Date.now() + (e.status === 401 || e.status === 403 ? 3600_000 : 60_000))
-          break // this provider is out for now: go to the next one
+        if (e.name === 'TimeoutError' || e.name === 'AbortError') {
+          resting.set(id, Date.now() + 60_000)
+          break // too slow right now: don't spend another full wait on this provider
+        }
+        if (e.status === 401 || e.status === 403) {
+          resting.set(p.name, Date.now() + 3600_000)
+          break // bad key: skip this provider for an hour
+        }
+        if (e.status === 429 || e.status >= 500) {
+          resting.set(id, Date.now() + 60_000) // this model is busy: rest it and try the provider's next model
+          continue
         }
         // 400/404 (e.g. a retired model name): try this provider's next model
       }
     }
   }
-  throw last || new Error('No backup AI provider is configured')
+  throw last || Object.assign(new Error('No backup AI provider is configured'), { status: 503 })
 }
 
-export async function groqGenerate(req) {
-  const { res } = await call(req, false)
+export async function groqGenerate(req, opts) {
+  const { res } = await call(req, false, opts)
   const j = await res.json()
-  return { text: j.choices?.[0]?.message?.content || '' }
+  return { text: textOf(j.choices?.[0]?.message?.content) }
 }
 
-export async function groqStream(req) {
-  const { res, label } = await call(req, true)
+/** Only Mistral; `kind` picks the model order ('solve', 'check', or the default chat/photo order). */
+export const mistralGenerate = (req, kind, timeoutMs) => groqGenerate(req, { only: 'mistral', kind, timeoutMs })
+export const mistralStream = (req, kind) => groqStream(req, { only: 'mistral', kind })
+
+export async function groqStream(req, opts) {
+  const { res, label } = await call(req, true, opts)
   const gen = (async function* () {
     const decoder = new TextDecoder()
     let buf = ''
@@ -171,7 +205,7 @@ export async function groqStream(req) {
         if (data === '[DONE]') return
         let t
         try {
-          t = JSON.parse(data).choices?.[0]?.delta?.content
+          t = textOf(JSON.parse(data).choices?.[0]?.delta?.content)
         } catch {
           continue // keep-alive comments and partial lines
         }

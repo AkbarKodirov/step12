@@ -55,11 +55,11 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="max-w-2xl">
           <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">Everything between you and test day, in one place.</h2>
-          <p className="mt-5 text-[16px] leading-relaxed text-white/55">Practice, full mocks, review and planning share one record of your progress, so Sensai always knows what to give you next.</p>
+          <p className="mt-5 text-[16px] leading-relaxed text-white/55">Practice, full mocks, review and planning share one record of your progress, so Humo always knows what to give you next.</p>
         </Reveal>
 
         <div className="mt-14 grid gap-3 md:grid-cols-6">
-          <Card className="md:col-span-6 border-[#2d70b3]/30" title="Sensai solves Math the Desmos way — only in Uzbekistan" body="Send any Math question. Sensai turns it into Desmos lines, graphs it on a real Desmos screen and checks every number before you see it. Open it live in one click, or train on 132 hard questions in the Desmos Lab.">
+          <Card className="md:col-span-6 border-[#2d70b3]/30" title="Humo solves Math the Desmos way — only in Uzbekistan" body="Send any Math question. Humo turns it into Desmos lines, graphs it on a real Desmos screen and checks every number before you see it. Open it live in one click, or train on 132 hard questions in the Desmos Lab.">
             <div className="grid items-center gap-5 lg:grid-cols-[0.8fr_1.2fr]">
               <ol className="space-y-2 font-mono text-[13px] text-white/75">
                 {['1  y = 3(x − 2)', '2  y = 2x + 5', '→  intersection (11, 27)', '✓  x = 11, checked by plugging back'].map((l, i) => (
@@ -68,7 +68,7 @@ export function Features() {
                   </li>
                 ))}
               </ol>
-              <DesmosScreen screen={{ ...(sample as unknown as Screen), title: 'Sensai · Desmos solve' }} compact />
+              <DesmosScreen screen={{ ...(sample as unknown as Screen), title: 'Humo · Desmos solve' }} compact />
             </div>
           </Card>
 
@@ -90,7 +90,7 @@ export function Features() {
             </div>
           </Card>
 
-          <Card className="md:col-span-2" title="Mistake notebook" body="Every miss is saved with Sensai's explanation and comes back until you get it right twice.">
+          <Card className="md:col-span-2" title="Mistake notebook" body="Every miss is saved with Humo's explanation and comes back until you get it right twice.">
             <ul className="space-y-2 text-[13px]">
               {[
                 ['Partial distribution', 'Algebra', '2 left'],
@@ -106,7 +106,7 @@ export function Features() {
             </ul>
           </Card>
 
-          <Card className="md:col-span-3" title="A study plan Sensai can rewrite" body="Answer six questions and Sensai builds your week. Edit any task, ask Sensai to change it in your own words, and send it to Google Calendar.">
+          <Card className="md:col-span-3" title="A study plan Humo can rewrite" body="Answer six questions and Humo builds your week. Edit any task, ask Humo to change it in your own words, and send it to Google Calendar.">
             <div className="grid grid-cols-7 gap-1.5 text-center text-[11px]">
               {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((d, i) => (
                 <div key={d} className={`rounded-xl border px-1 py-2.5 ${i === 2 ? 'border-jg-500/50 bg-jg-500/10' : 'border-white/[0.07]'}`}>

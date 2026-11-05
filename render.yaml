@@ -24,3 +24,9 @@ services:
         sync: false # build.nvidia.com (free, NVIDIA Developer Program)
       - key: MISTRAL_API_KEY
         sync: false # console.mistral.ai (free tier)
+      - key: STRIPE_SECRET_KEY
+        sync: false # Visa card payments for Humo Pro (Stripe Checkout); leave empty until ready
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false # optional: Stripe webhook for /api/billing/stripe-webhook
+      - key: TELEGRAM_MANAGER
+        sync: false # e.g. https://t.me/your_manager (Click / Payme payments)

@@ -1,0 +1,482 @@
+# Math Hard Book: Advanced Math, questions 61–120
+@M61 | NLF | A
+The functions f and g are defined by the given equations, where 2 ≤ x ≤ 5. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where 2 ≤ x ≤ 5?
+I. f(x) = -(x - 4)^2 + 7
+II. g(x) = -(x + 4)^2 + 7
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= The vertex of f, x = 4, is inside the interval, so its maximum is 7. g is decreasing on the interval, so its maximum is g(2) = -29, which is not shown.
+
+@M62 | EQX | A
+In the given equations, a and b are constants, a > 1 and b > 1. What is the value of x?
+$ ^7√{a^5} = √{b^5}
+$ a^{3x - 3} = b^3
+A) {27/21}
+B) {21/27}
+C) {32/21}
+D) {38/21}
+= a^{{5/7}} = b^{{5/2}}, so b = a^{{2/7}} and b^3 = a^{{6/7}}. Then 3x - 3 = {6/7}, so x = {27/21}.
+
+@M63 | NLF | D
+$ P(t) = 260(1.03)^{{t/8}}
+The function P models the population, in thousands, of a certain city t years after 2009. According to the model, the population is predicted to increase by n% every 8 years. What is the value of n?
+A) 0.22
+B) 1.03
+C) 2
+D) 3
+= When t increases by 8, the exponent increases by 1, so P is multiplied by 1.03: a 3% increase.
+
+@M64 | NLF | A
+Quadratic function h is defined by
+$ h(x) = ax^2 - 2x + c
+where a and c are constants. The graph of y = h(x) in the xy-plane is a parabola that opens downward and has a vertex of (h, k), where k > 0. If h(1) = h(-13), which of the following must be true?
+I. -1 < a < 0
+II. c > 0
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= The axis is x = -6, so {2/2a} = -6 and a = -{1/6} (I is true). The vertex value is k = h(-6) = -6 + 12 + c = c + 6 > 0, so c > -6; c need not be positive.
+
+@M65 | NLF | C
+$ f(x) = -2x^2 + bx + c
+In the given quadratic function, b and c are constants. The graph of y = f(x) is a parabola that has a vertex at the point (h, k), where h and k are constants. If k < 0 and f(-5) = f(7), which of the following must be true?
+I. c < -1
+II. b ≥ 3
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= The axis is x = 1, so {b/4} = 1 and b = 4. Then k = f(1) = 2 + c < 0 gives c < -2, so both statements are true.
+
+@M66 | NLE | A
+The function f is defined by
+$ f(x) = 9x^2 + kx - 21
+where k is a constant. In the xy-plane, the graph of y = f(x) passes through the points (r, 23) and (2r, 139), where r is a constant. Which of the following could be the value of k?
+A) 4
+B) 12
+C) 116
+D) 162
+= 9r^2 + kr = 44 and 36r^2 + 2kr = 160. Subtract twice the first from the second: 18r^2 = 72, so r = ±2 and kr = 8, giving k = ±4.
+
+@M67 | NLF | C
+The function f is defined by
+$ f(x) = a√{-x + b}
+where a and b are constants. In the xy-plane, the graph of y = f(x) passes through the point (5, 0), and f(-12) > f(-7). Which of the following must be true?
+A) a < f(b)
+B) a > b
+C) f(3) < f(-2b)
+D) a < b
+= f(5) = 0 gives b = 5. f(-12) = a√{17} > f(-7) = a√{12} means a > 0. Then f(3) = a√{2} is less than f(-10) = a√{15}.
+
+@M68 | NLF | 630
+The function q is defined by
+$ q(x) = a|x - 9|^2 - 87|x - 9| + b
+where a and b are constants and a > b > 87. If q(639) = h and q(-621) = k, where h and k are constants, what is the value of 9(-639)^{h - k} + 621(9)^{k - h}?
+= |639 - 9| = |-621 - 9| = 630, so h = k. Both powers are then 1, and the value is 9 + 621 = 630.
+
+@M69 | EQX | 1021
+$ 34z^{18} + bz^9 + 30
+In the given expression, b is a positive integer. If qz^9 + r is a factor of the expression, where q and r are positive integers, what is the greatest possible value of b?
+= With (qz^9 + r)(sz^9 + t), qs = 34, rt = 30, and b = qt + rs. The largest is q = 34, t = 30, r = s = 1: b = 1,020 + 1 = 1,021.
+
+@M70 | NLF | 9
+The function
+$ v(x) = {x^2 + bx + c/(x - 7)(x - 17)}
+where b and c are constants, goes through the points (0, {99/119}) and (11, 0). There is another point where v(q) = 0. What is the value of q?
+= v(0) = {c/119} gives c = 99, and v(11) = 0 gives 121 + 11b + 99 = 0, so b = -20. Then x^2 - 20x + 99 = (x - 9)(x - 11), so q = 9.
+
+@M71 | NLF | B
+The function
+$ f(x) = 6(x - a)(x - b)(x - c)
+is defined by the given equation, where a, b, and c are distinct constants. When a < x < b, the value of f(x) is positive. The graph of y = f(x) in the xy-plane contains the point (r, s), where r and s are constants. If s = 9, which of the following could be true?
+I. r < a
+II. b < r < c
+III. r > c
+A) I only
+B) III only
+C) I and III only
+D) II and III only
+= A cubic with a positive leading coefficient is positive between its two smallest zeros and after its largest zero, so a < b < c and f > 0 only on a < x < b or x > c. Of the three, only r > c is possible.
+
+@M72 | NLF | D
+$ f(x) = 15(b)^x
+In the given function, b is a positive constant. For every increase in the value of x by 1, the value of f(x) increases by c%, where 0 < c < 100. Which expression gives the value of c in terms of b?
+A) 1 + {b/100}
+B) b + 100
+C) 100(b + 1)
+D) 100(b - 1)
+= Each step multiplies f by b = 1 + {c/100}, so c = 100(b - 1).
+
+@M73 | NLF | B
+$ g(x) = 12(x - a)(x - b)(x - c)
+where a, b, and c are distinct constants. When a < x < b, g(x) will be positive. If (p, q) is on the graph of g(x), where p and q are constants, and q = 45, which of the following could be true?
+I. p < a
+II. b < p < c
+III. p > c
+A) Only I
+B) Only III
+C) I and III only
+D) II and III only
+= g is positive only between its two smallest zeros a and b and after its largest zero c. Since q > 0, p is between a and b or greater than c; of the three statements only III can hold.
+
+@M74 | NLF | 1215
+The function f is defined by
+$ f(x) = ab^x
+where a and b are constants, and b is an integer. If f(4) = 5 and f(7) = 135, what is the value of f(9)?
+= {f(7)/f(4)} = b^3 = 27, so b = 3 and f(9) = 135(3^2) = 1,215.
+
+@M75 | NLF | B
+$ r(t) = 55t - 2t^2
+The function r is defined by the given equation. The function s is defined by s(t) = r(t) + 1. Which expression represents the maximum value of s(t)?
+A) 1 + ({55/2})^2
+B) 1 + 2({55/4})^2
+C) 1 - 2({55/4})^2
+D) 1 - ({55/2})^2
+= r is greatest at t = {55/4}: r = 55({55/4}) - 2({55/4})^2 = 2({55/4})^2. Add 1.
+
+@M76 | EQX | 18 | 28
+The polynomial
+$ 8x^4 + 50x^2 + 63
+can be factored, and one of the factors is of the form (ax^2 + b). What is one possible value of the product a · b?
+= 8x^4 + 50x^2 + 63 = (4x^2 + 7)(2x^2 + 9), so ab is 28 or 18.
+
+@M78 | NLF | A
+The function f is defined by f(x) = a^x - b, where a and b are constants. In the xy-plane, the graph of y = f(x) passes through the points (c, 7) and (2c, 117), where c is a constant. Which of the following could be the value of b?
+A) 4
+B) 17
+C) 110
+D) 124
+= Let u = a^c > 0. Then u - b = 7 and u^2 - b = 117, so u^2 - u = 110, u = 11, and b = 4.
+
+@M79 | NLF | B
+The graphs of functions f and g are parabolas, such that g(x) = 6f(x). The vertex of f(x) is at (2, 10). The y-intercepts of f(x) and g(x) are at (0, b) and (0, c), respectively. If the point (3, 78) is on the graph of g(x), what is the value of b - c?
+A) -60
+B) -110
+C) -130
+D) -200
+= f(x) = p(x - 2)^2 + 10 and g(3) = 6(p + 10) = 78 give p = 3. Then b = f(0) = 22, c = 6b = 132, and b - c = -110.
+
+@M80 | NLF | A
+The functions f and g are defined by the given equations, where x ≤ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x ≤ 0?
+I. f(x) = -(x + 4)^2 + 7
+II. g(x) = -(x - 4)^2 + 7
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= f has its vertex at x = -4, inside the domain, so its maximum 7 is shown. g increases for x ≤ 0, so its maximum is g(0) = -9, which is not shown.
+
+@M81 | NLF | C
+The function f is defined by
+$ f(x) = ax^2 + bx + c
+where a, b, and c are constants. The graph of y = f(x) in the xy-plane passes through the points (13, 0) and (-6, 0). Which of the following is the value of a + b in terms of a?
+A) 7a
+B) 6a
+C) -6a
+D) -7a
+= f(x) = a(x - 13)(x + 6) = a(x^2 - 7x - 78), so b = -7a and a + b = -6a.
+
+@M82 | NLF | C
+$ f(x) = {3/8}(x - 3)^3 + {ax^2/4} + {bx/4} + {c/4} + {99/2}
+If the x-coordinates of the x-intercepts of the given function f are x = 4, x = 12, and x = -2, what is the value of 16(a + b + c)?
+A) -322
+B) -457
+C) -600
+D) -789
+= f(x) = {3/8}(x - 4)(x - 12)(x + 2), so f(1) = {297/8}. Also f(1) = {3/8}(-8) + {a + b + c/4} + {99/2}, which gives {a + b + c/4} = -{75/8} and 16(a + b + c) = -600.
+
+@M83 | NLF | 18
+The function f is defined by
+$ f(x) = 3x^2 - 5x + 10
+If the function f(x - 2) is written in the form ax^2 + bx + c, what is the value of a + b + c?
+= a + b + c is the value at x = 1, which is f(1 - 2) = f(-1) = 3 + 5 + 10 = 18.
+
+@M84 | NLE | B
+In the given equation, p is a positive constant. The product of the solutions to the equation
+$ (3x - 7p)(5x^2 + 8x - 4p)(x^3 + 3x^2 - 16x - 48) = 0
+is -{560/9}. What is the value of p?
+A) -{5/6}
+B) {5/6}
+C) {25/36}
+D) {5/12}
+= The cubic is (x + 3)(x - 4)(x + 4), with product 48. So {7p/3} · (-{4p/5}) · 48 = -{560/9}, which gives p^2 = {25/36} and p = {5/6}.
+
+@M85 | NLE | A
+$ (6a + 10b)x^2 + (9a^2 - 25b^2)x - 15ab = 0
+The equation above has two real solutions, where a and b are positive constants. The sum of the solutions to the given equation is k(21a - 35b), where k is a constant. What is the value of k?
+A) -{1/14}
+B) {1/14}
+C) -{1/7}
+D) -14
+= The sum is -{(3a - 5b)(3a + 5b)/2(3a + 5b)} = -{3a - 5b/2}, and 21a - 35b = 7(3a - 5b). So 7k = -{1/2} and k = -{1/14}.
+
+@M86 | NLF | A
+An acceptable noise criterion rating for the background noise in a school classroom is 30. For a noise criterion rating of 30, the equation
+$ y = 19(0.978)^{x - 50} + 37
+gives the estimated sound pressure level, y, in decibels, as a function of the octave band center frequency, x, in hertz, where x ≥ 50. Which of the following is the best interpretation of 37 in this context?
+A) 37 is 19 less than the estimated sound pressure level, in decibels, at an octave band frequency of 50
+B) 37 is 19 less than the estimated sound pressure level, in decibels, at an octave band frequency of 0
+C) 37 is the estimated sound pressure level, in decibels, at an octave band frequency of 50
+D) 37 is the estimated sound pressure level, in decibels, at an octave band frequency of 0
+= At x = 50 the level is 19 + 37 = 56, so 37 is 19 less than the level at 50 hertz.
+
+@M87 | NLF | B
+The functions f, g, and h are defined by the given equations, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the maximum or minimum value of the function it defines, where x ≥ 0?
+I. f(x) = (x - 3)^2 + 6
+II. g(x) = (x + 3)^2 + 6
+III. h(x) = (x - 5)^2 + 8
+A) I only
+B) I and III only
+C) Both I and II
+D) None of these
+= f and h have their vertices at x = 3 and x = 5, inside x ≥ 0, so their minimums 6 and 8 are shown. g's minimum on x ≥ 0 is g(0) = 15, which is not shown.
+
+@M88 | NLF | C
+$ f(x) = -2(x - a)(x - b)(x - c)
+The function f is defined by the given equation, where a, b, and c are distinct constants. When b < x < c, the value of f(x) is positive. The graph of y = f(x) in the xy-plane contains the point (m, n), where m and n are constants. If n is equal to -5, which of the following could be true?
+I. m < a
+II. a < m < b
+III. m > c
+A) I only
+B) II only
+C) II and III
+D) I and III
+= With a negative leading coefficient, f is positive before its smallest zero and between the other two, so a < b < c, and f is negative on a < x < b and on x > c.
+
+@M89 | EQX | A
+Which of the following has a factor of 4x + 7b, where b is a non-positive integer?
+I. 16x^2 - 49
+II. 16x^2 + 56x + 49
+III. 64x^3 + 343
+A) I only
+B) II and III only
+C) I and III only
+D) All of them
+= I is (4x - 7)(4x + 7), which has the factor 4x + 7b with b = -1. II is (4x + 7)^2 and III is (4x + 7)(16x^2 - 28x + 49): their only linear factor of that form needs b = 1, which is positive.
+
+@M90 | NLF | 18
+A quadratic function can be used to model the height, in meters, of an object above the ground in terms of time, in seconds, after the object was launched into the air. The object reached a height of 148 meters 2 seconds and a maximum height of 340 meters 10 seconds after it was launched. Based on the model, for how many seconds was the object at a height of at least 97 meters?
+= h(t) = a(t - 10)^2 + 340 and h(2) = 148 give a = -3. Then h(t) = 97 when (t - 10)^2 = 81, at t = 1 and t = 19, so the object was at least 97 meters high for 18 seconds.
+
+@M91 | NLF | A
+The exponential function f is defined by
+$ f(x) = ab^x
+where a and b are positive. If f(n - 1) = f(n) + {61/100}f(n - 1), where n is a constant, what is the value of b?
+A) 0.39
+B) 0.61
+C) 1.61
+D) 2.56
+= f(n) = 0.39f(n - 1), and {f(n)/f(n - 1)} = b, so b = 0.39.
+
+@M92 | NLF | B
+The equation N(m) = 63(Q)^{{m/6}} gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 180 seconds. What is the value of p in terms of Q?
+A) 100(Q^{30} - 1)
+B) 100(Q^{{1/2}} - 1)
+C) 100(Q^{30} + 1)
+D) 100(Q^{{1/2}} + 1)
+= 180 seconds is 3 minutes, which multiplies N by Q^{{3/6}} = Q^{{1/2}}. So p = 100(Q^{{1/2}} - 1).
+
+@M93 | NLF | C
+For the polynomial function v, v(2) = 3 and v(0) = -13. The graph of y = v(x) in the xy-plane passes through the points (-2, 7) and (6, 0). Which of the following must be true?
+A) When v(x) is divided by (x + 13), the remainder is 0.
+B) When v(x) is divided by (x + 7), the remainder is -2.
+C) When v(x) is divided by (x + 2), the remainder is 7.
+D) When v(x) is divided by (x - 6), the remainder is -13.
+= By the remainder theorem, dividing by x + 2 leaves v(-2) = 7.
+
+@M94 | NLF | 12
+When the polynomial P(x) = 2x^3 - 5x^2 + ax + b is divided by x - 2, the remainder is 10. When P(x) is divided by x + 1, the remainder is 1. What is the value of a + b?
+= P(2) = 2a + b - 4 = 10 and P(-1) = -a + b - 7 = 1. So 2a + b = 14 and -a + b = 8, giving a = 2, b = 10, and a + b = 12.
+
+@M95 | NLE | D
+$ {x^2/√{x^2 - c^2}} = {c^2/√{x^2 - c^2}} + 39
+In the given equation, c is a positive constant. Which of the following is one of the solutions to the given equation?
+A) -c
+B) -c^2 - 39^2
+C) -√{39^2 - c^2}
+D) -√{c^2 + 39^2}
+= Subtract: {x^2 - c^2/√{x^2 - c^2}} = √{x^2 - c^2} = 39, so x^2 = c^2 + 39^2 and x = ±√{c^2 + 39^2}.
+
+@M96 | EQX | B
+The expression
+$ 12x^2 + 41x + 35
+can be rewritten as (4x + r)(3x + s), where r and s are integers, or as (4x + t)(3x + v), where t and v are not integers. What is the value of s + v?
+A) {41/3}
+B) {41/4}
+C) 12
+D) 35
+= 3t + 4v = 41 and tv = 35 give t = 7, v = 5 (so r = 7, s = 5) or t = {20/3}, v = {21/4}. So s + v = 5 + {21/4} = {41/4}.
+
+@M97 | NLF | D
+For the function f, for each increase in the value of x by 4, the value of f(x) increases by a factor of m. Which of the following equivalent forms displays m as a constant or coefficient?
+A) f(x) = 13(1,000)^{{x/2}}
+B) f(x) = 13(10)^{{3x/2}}
+C) f(x) = 13(100)^{{3x/4}}
+D) f(x) = 13(1,000,000)^{{x/4}}
+= In D, adding 4 to x adds 1 to the exponent, so f is multiplied by the base 1,000,000 = m. All four forms equal 13(10)^{1.5x}.
+
+@M98 | NLF | 1458
+The function f is defined by
+$ f(x) = ab^x
+where a and b are constants, and b is an integer. If f(2) = 6 and f(5) = 162, what is the value of f(7)?
+= b^3 = {162/6} = 27, so b = 3 and f(7) = 162(9) = 1,458.
+
+@M99 | NLE | 188.5 | 377/2
+$ x(9x - 2a) + b(9x - 2a) - (x + b) = 0
+In the given equation, a and b are positive constants. A solution to the equation is x = 42. What is the value of a?
+= The left side factors as (x + b)(9x - 2a - 1). Since x + b > 0 at x = 42, 9(42) - 2a - 1 = 0 and a = 188.5.
+
+@M100 | NLF | D
+For a polynomial function f, the graph of y = f(x) in the xy-plane contains the points (-6, 0), (7, 0), (0, 0), and (4, 0). Which of the following must be a factor of f(x)?
+A) x^2 - 2x - 24
+B) x^2 - x + 42
+C) x^2 - 11x - 28
+D) x^2 - 7x
+= 0 and 7 are zeros, so x(x - 7) = x^2 - 7x is a factor.
+
+@M101 | NLF | D
+The function f is defined by f(x) = a(x - h)^2 + k, where a, h, and k are constants. The vertex of the parabola is at (3, -5) and the parabola passes through the point (5, 3). What is the value of a?
+A) {1/2}
+B) 1
+C) {3/2}
+D) 2
+= 3 = a(5 - 3)^2 - 5 gives 4a = 8, so a = 2.
+
+@M102 | NLE | 2
+$ (2x - 3)(x^2 + 5x - 14) = 0
+What is the greatest solution to the given equation?
+= The solutions are {3/2}, -7, and 2.
+
+@M103 | NLF | -11 | fig:m103
+In the xy-plane above, the function f is defined by f(x) = 2x^3 + 3x^2 + ax + b, where a and b are constants. If the graph of f intersects the x-axis at three points, what is the value of a?
+= From the graph, f(0) = -6 and f(2) = 0. So b = -6 and 16 + 12 + 2a - 6 = 0, giving a = -11.
+
+@M104 | NLF | C | fig:m104
+The graph of y = a(x + 1)(x - 5) is shown in the xy-plane above, where a is a constant. If the graph with vertex (h, k) intersects the y-axis at point (0, 5), which of the following is equal to k?
+A) 7
+B) 8
+C) 9
+D) 10
+= a(1)(-5) = 5 gives a = -1. The vertex is at x = 2, so k = -(3)(-3) = 9.
+
+@M105 | NLF | 10 | fig:m105
+In the xy-plane above, the graph of a quadratic function y = f(x) intersects the x-axis at points O and Q, and has a vertex at point P. If line ℓ passes through points P and Q, what is the y-intercept of line ℓ?
+= P = (3, 5) and Q = (6, 0), so line ℓ has slope -{5/3}. Then 0 = -{5/3}(6) + b gives b = 10.
+
+@M106 | NLF | -72 | fig:m106
+The function f is defined by f(x) = x^3. The function g is defined by g(x) = a · f(x + b) + c, where a, b, and c are constants. The graph of y = g(x) is shown in the xy-plane. What is the value of ab?
+= The centre of the cubic is (4, 6), so g(x) = a(x - 4)^3 + 6 with b = -4. g(5) = a + 6 = 24 gives a = 18, so ab = -72.
+
+@M107 | NLE | 2 | fig:m107
+The graphs of y = x^2 and y = mx - 1 are shown in the xy-plane, where m is the slope of the line. If the graph of y = mx - 1 is tangent to the graph of y = x^2, what is the value of m?
+= x^2 - mx + 1 = 0 must have one solution: m^2 - 4 = 0. The line in the graph has a positive slope, so m = 2.
+
+@M108 | NLF | A
+A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Akeyla opened one of these accounts with an original account balance of $700.00 and did not make any other deposits or withdrawals. 4 months after Akeyla opened the account, the balance had increased by 0.6% of the original balance. 6 months after Akeyla opened the account, the balance had increased by an additional 0.1% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.1% of the balance 2 months before. Which of the following equations could represent the account balance B(x) in dollars, x months after the account was opened, where x ≥ 4?
+A) B(x) = 704.20(1.001)^{{x - 4/2}}
+B) B(x) = 700.00(1.001)^{{x - 4/2}}
+C) B(x) = 704.20(1.001)^{2(x - 4)}
+D) B(x) = 700.00(1.001)^{2(x - 4)}
+= After 4 months the balance is 700(1.006) = 704.20. After that it grows by 0.1% every 2 months, which is {x - 4/2} periods.
+
+@M109 | NLF | A | fig:m109
+Which of the following could be the equation of the graph shown in the xy-plane?
+A) y = -{1/15}(x - 6)(x - 4)^2(x + 1)
+B) y = -{1/15}(x - 6)^2(x - 4)(x + 1)^2
+C) y = -{1/15}(x + 6)(x + 4)^2(x + 1)
+D) y = -{1/15}(x + 6)^2(x + 4)(x - 1)^2
+= The graph crosses the x-axis at -1 and 6 and touches it at 4, so the factors are (x + 1), (x - 6), and (x - 4)^2. Check: at x = 0, A gives 6.4.
+
+@M110 | EQX | C
+For a certain circuit, its power P, in watts; current C, in amperes; voltage V, in volts; and resistance R, in ohms, are related as
+$ {CV^2/P} = √{PR}
+where P, C, V, and R are positive. When R = 18, which equation correctly expresses P in terms of C and V?
+A) P = {CV^2/√{18P}}
+B) P = {CV^2/√{18}}
+C) P = ^3√{{C^2V^4/18}}
+D) P = ^3√{{18/C^2V^4}}
+= Square both sides: {C^2V^4/P^2} = 18P, so P^3 = {C^2V^4/18}.
+
+@M111 | NLE | B | fig:m111
+In the xy-plane above, the graphs of y = x^2 - 4 and y = mx + k intersect at x = -2 and x = 3. What is the value of k?
+A) 1
+B) 2
+C) 3
+D) 4
+= x^2 - 4 - mx - k = (x + 2)(x - 3) = x^2 - x - 6, so m = 1 and -4 - k = -6, k = 2.
+
+@M112 | NLF | 5
+An exponential function f is defined by f(x) = c^x, where c is a constant greater than 1. If f(6) = 25 · f(4), what is the value of c?
+= c^6 = 25c^4, so c^2 = 25 and c = 5.
+
+@M113 | EQX | B
+$ {1/R} = {1/p} + {1/q} + {1/s} + {1/13}
+A parallel electric circuit contains four resistors with resistances of p ohms, q ohms, s ohms, and 13 ohms. The given equation relates the resistance R, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses R in terms of p, q, and s?
+A) R = {13pqs/p + q + s + 13}
+B) R = {13pqs/13qs + 13ps + 13pq + pqs}
+C) R = {13qs + 13ps + 13pq + pqs/13pqs}
+D) R = p + q + s + 13
+= Over the common denominator 13pqs, the right side is {13qs + 13ps + 13pq + pqs/13pqs}. R is its reciprocal.
+
+@M114 | EQX | B
+In the given equation,
+$ {1/5xy} + xyz = {1/4yz}
+x, y, and z are positive. Which expression is equivalent to y?
+A) {5x - 4z/20x^2z^2}
+B) √{{5x - 4z/20x^2z^2}}
+C) √{{1/4xz^2 - 5xz}}
+D) √{{1/4xz^2 - 5xz^2}}
+= Multiply by y: {1/5x} + xy^2z = {1/4z}, so xzy^2 = {5x - 4z/20xz} and y^2 = {5x - 4z/20x^2z^2}.
+
+@M115 | EQX | A
+Which of the following expressions has 6x - 5b as a factor, where b is a positive integer constant?
+A) 24x^2 - 2xb - 15b^2
+B) 24x^2 + 18xb - 15b^2
+C) 24x^2 + 36xb - 15b^2
+D) 24x^2 - 484xb - 15b^2
+= (6x - 5b)(4x + 3b) = 24x^2 - 2xb - 15b^2.
+
+@M116 | NLF | A
+The function v is defined by the equation
+$ v(x) = {x^2 + bx + c/(x + 5)(x - 15)}
+where b and c are constants. In the xy-plane, the graph of y = v(x) passes through the points (0, {22/25}) and (11, 0). If v(q) = 0, which of the following could be the value of q?
+A) -6
+B) -5
+C) 5
+D) 6
+= v(0) = {c/-75} = {22/25} gives c = -66; v(11) = 0 gives b = -5. Then x^2 - 5x - 66 = (x - 11)(x + 6), so q = -6.
+
+@M117 | NLF | B
+$ y = 3({a/6})^{x + c} - b
+How many times does the graph of the given equation in the xy-plane cross the x-axis, where a, b, and c are positive constants such that a > 6 and b > c?
+A) Zero
+B) One
+C) Two
+D) Three
+= The base {a/6} is greater than 1, so the graph increases from its asymptote y = -b (below the axis) without bound. It crosses the x-axis exactly once.
+
+@M118 | NLE | D
+$ 2x^2 - 8x - 21 = 0
+One solution to the given equation can be written as x = h - {1/2}√{k}, where h and k are integer constants. What is the value of h + k?
+A) -24
+B) 10
+C) 29
+D) 60
+= x = {8 ± √{64 + 168}/4} = 2 ± {1/2}√{58}, so h + k = 2 + 58 = 60.
+
+@M119 | NLF | D
+At different times on a certain day, a manager at a theme park recorded the number of visitors. An exponential model gives the estimated number of visitors, V, at the theme park t hours after the theme park opened, where t ≤ 3. Based on the model, 85 visitors were estimated to be at the theme park when it opened, and every 30 minutes the estimated number of visitors increased by 140% of the estimated number of visitors 30 minutes earlier. Which of the following equations best represents this model?
+A) V = 85(1.40)^{{t/2}}
+B) V = 85(1.40)^{2t}
+C) V = 85(2.40)^{{t/2}}
+D) V = 85(2.40)^{2t}
+= An increase of 140% multiplies by 2.40, and there are 2t half-hours in t hours.
+
+@M120 | EQX | 3
+$ r(x) = 9(x - 3)
+$ s(x) = x^3 + nx^2 + 3nx + 27
+For the given functions r and s, n is a constant. If r(x) · s(x) = 9(x^4 - 81), what is the value of n?
+= s(x) = {x^4 - 81/x - 3} = x^3 + 3x^2 + 9x + 27, so n = 3.

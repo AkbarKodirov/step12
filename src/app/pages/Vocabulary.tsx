@@ -106,7 +106,7 @@ function Quiz({ words, types, onExit, title }: { words: AnyWord[]; types: QType[
     return (
       <div className="card relative mx-auto max-w-xl p-8 text-center">
         <Confetti fire={score / items.length >= 0.8} />
-        <img src="/sensai-mark.png" alt="" className="mx-auto size-14 rounded-2xl" />
+        <img src="/brand/humo-mark.svg" alt="" className="mx-auto size-14 rounded-2xl" />
         <h2 className="display mt-5 text-[34px]">
           {score}/{items.length}
         </h2>

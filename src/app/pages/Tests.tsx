@@ -1,9 +1,11 @@
 import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ArrowRight, BookOpen, Calculator, CheckCircle2, Clock, GraduationCap, ListChecks, Timer, X, Zap } from 'lucide-react'
+import { ArrowRight, BookOpen, Calculator, CheckCircle2, Clock, Crown, GraduationCap, ListChecks, Lock, Timer, X, Zap } from 'lucide-react'
 import { loadIndex, useAsync, useStore, type Mode, type TestMeta } from '../store'
 import { ScoreRing, Tilt } from '../../components/motion'
+import { openUpgrade, useAccount } from '../account'
+import { FREE_TESTS } from '../../../shared/plans.js'
 
 export const MODES: { id: Mode; name: string; icon: typeof Timer; line: string; points: string[] }[] = [
   {
@@ -11,14 +13,14 @@ export const MODES: { id: Mode; name: string; icon: typeof Timer; line: string; 
     name: 'Exam mode',
     icon: GraduationCap,
     line: 'Exactly like test day.',
-    points: ['Real timing per module', 'No answers until the end', 'No going back to a finished module', 'Score + full Sensai review after'],
+    points: ['Real timing per module', 'No answers until the end', 'No going back to a finished module', 'Score + full Humo review after'],
   },
   {
     id: 'practice',
     name: 'Practice mode',
     icon: ListChecks,
     line: 'Learn as you go.',
-    points: ['No time pressure', 'Check each answer instantly', 'Sensai explains right after you answer', 'Move freely between modules'],
+    points: ['No time pressure', 'Check each answer instantly', 'Humo explains right after you answer', 'Move freely between modules'],
   },
   {
     id: 'sprint',
@@ -103,6 +105,9 @@ export default function Tests() {
   const s = useStore()
   const [filter, setFilter] = useState<'all' | 'EBRW' | 'MATH' | 'todo' | 'done'>('all')
   const [open, setOpen] = useState<TestMeta | null>(null)
+  const acc = useAccount()
+  const isFree = (t: TestMeta) => FREE_TESTS.includes(t.id)
+  const locked = (t: TestMeta) => !acc.pro && !isFree(t)
 
   const best = useMemo(() => {
     const m = new Map<string, { scaled: number; raw: number; total: number; id: string; n: number }>()
@@ -127,7 +132,7 @@ export default function Tests() {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="display text-[clamp(2rem,4vw,2.75rem)]">Practice tests</h1>
-          <p className="mt-2 text-[15px] text-moss">Full Digital SAT sections written by STEP12 teachers. Pick a test, then pick a mode.</p>
+          <p className="mt-2 text-[15px] text-moss">Full Digital SAT tests built from real exam questions, collected and put together by Humo Academy teachers. Pick a test, then pick a mode.</p>
         </div>
         {data && (
           <div className="card flex items-center gap-5 px-5 py-3">
@@ -145,6 +150,24 @@ export default function Tests() {
           </div>
         )}
       </div>
+
+      {acc.loaded && !acc.pro && data && (
+        <div className="relative mt-6 overflow-hidden rounded-[24px] bg-[#03244a] p-5 text-white sm:p-6">
+          <div className="pointer-events-none absolute -right-16 -top-20 size-56 rounded-full bg-[#bb0937]/35 blur-3xl" />
+          <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-amber-300">
+                <Crown className="size-3.5" /> Free plan
+              </p>
+              <p className="mt-1.5 text-[18px] font-semibold leading-snug">Practice Tests 1, 2 and 3 are free. Take one and get your real score.</p>
+              <p className="mt-1 text-[13.5px] text-white/70">Pro unlocks all {data.length} full-length tests, plus Humo reviewing every mistake with you.</p>
+            </div>
+            <button onClick={() => openUpgrade()} className="btn h-11 shrink-0 bg-gradient-to-r from-amber-300 to-amber-500 px-6 text-[14px] text-[#3a2400] shadow-lg shadow-amber-500/20 hover:brightness-105">
+              <Crown className="size-4" /> Unlock all tests
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className="mt-7 flex flex-wrap gap-2">
         {(
@@ -176,6 +199,7 @@ export default function Tests() {
           const b = best.get(t.id)
           const Icon = t.type === 'MATH' ? Calculator : BookOpen
           const mins = t.minutesPerModule * t.modules
+          const lock = locked(t)
           return (
             <motion.div key={t.id} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: Math.min(i * 0.04, 0.35), ease: [0.22, 1, 0.36, 1] }}>
               <Tilt className="h-full">
@@ -187,7 +211,15 @@ export default function Tests() {
                         <Icon className="size-3.5" /> {t.type === 'MATH' ? 'Math' : 'Reading & Writing'}
                         {t.modules > 1 && <span className="opacity-70">· Full</span>}
                       </span>
-                      {!b && <span className="rounded-full bg-pine px-2.5 py-1 text-[11px] font-semibold text-cream">New</span>}
+                      {lock ? (
+                        <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-2.5 py-1 text-[11px] font-bold text-[#3a2400]">
+                          <Lock className="size-3" /> Pro
+                        </span>
+                      ) : !acc.pro && isFree(t) ? (
+                        <span className="rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-semibold text-white">Free</span>
+                      ) : (
+                        !b && <span className="rounded-full bg-pine px-2.5 py-1 text-[11px] font-semibold text-cream">New</span>
+                      )}
                     </div>
                   </div>
                   <div className="flex flex-1 flex-col p-5">
@@ -212,9 +244,15 @@ export default function Tests() {
                       </div>
                     </div>
                     <div className="mt-auto flex gap-2 pt-5">
-                      <button onClick={() => setOpen(t)} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
-                        {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
-                      </button>
+                      {lock ? (
+                        <button onClick={() => openUpgrade()} className="btn group/btn h-11 flex-1 bg-gradient-to-r from-amber-300 to-amber-500 text-[14px] text-[#3a2400] hover:brightness-105">
+                          <Lock className="size-4" /> Unlock with Pro
+                        </button>
+                      ) : (
+                        <button onClick={() => setOpen(t)} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
+                          {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
+                        </button>
+                      )}
                       {b && (
                         <Link to={`/app/results/${b.id}`} className="btn btn-ghost h-11 px-4 text-[13px]">
                           Review

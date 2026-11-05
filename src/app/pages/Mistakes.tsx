@@ -224,7 +224,7 @@ export default function Mistakes() {
             <span className="ml-auto flex gap-2">
               {tab === 'mistakes' && shown.length > 0 && (
                 <button onClick={() => setHumo(true)} className="btn btn-ghost h-10 px-4 text-[13px]">
-                  <img src="/sensai-mark.png" alt="" className="size-5 rounded-md" /> Find my patterns
+                  <img src="/brand/humo-mark.svg" alt="" className="size-5 rounded-md" /> Find my patterns
                 </button>
               )}
               {shown.length > 0 && (

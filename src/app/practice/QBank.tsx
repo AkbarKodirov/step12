@@ -57,7 +57,7 @@ export function QBankHome() {
   return (
     <div>
       <h1 className="display text-[clamp(2rem,4vw,2.75rem)]">Question Bank</h1>
-      <p className="mt-2 text-[15px] text-moss">{bank ? `${bank.length} questions` : 'Loading…'} by skill and difficulty — with Sensai watching every answer, so you can ask "why?" the moment you miss one.</p>
+      <p className="mt-2 text-[15px] text-moss">{bank ? `${bank.length} questions` : 'Loading…'} by skill and difficulty — with Humo watching every answer, so you can ask "why?" the moment you miss one.</p>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
         {(
@@ -110,7 +110,7 @@ export function QBankHome() {
       <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {[
           { icon: X, tone: 'bg-red-50 text-red-600', t: 'Retry my mistakes', d: `${openMistakes.length} waiting — they leave once you get them right`, to: openMistakes.length ? `/app/practice/run?keys=${openMistakes.slice(-40).map((x) => x.key).join(',')}` : null },
-          { icon: Target, tone: 'bg-violet-50 text-violet-600', t: weakest ? `Weakest: ${weakest}` : 'Your weakest skill', d: weakest ? '10 unsolved questions on the skill costing you most' : 'Answer a few questions and Sensai finds it', to: weakest ? `/app/practice/run?skills=${encodeURIComponent(weakest)}&status=unsolved&order=random&n=10` : null },
+          { icon: Target, tone: 'bg-violet-50 text-violet-600', t: weakest ? `Weakest: ${weakest}` : 'Your weakest skill', d: weakest ? '10 unsolved questions on the skill costing you most' : 'Answer a few questions and Humo finds it', to: weakest ? `/app/practice/run?skills=${encodeURIComponent(weakest)}&status=unsolved&order=random&n=10` : null },
           { icon: Sigma, tone: 'bg-[#2d70b3]/10 text-[#2d70b3]', t: 'Desmos collection', d: '132 hard Math questions with full Desmos walkthroughs', to: '/app/practice/run?set=desmos&status=unsolved&order=random&n=10' },
           { icon: Shuffle, tone: 'bg-amber-50 text-amber-700', t: 'Random 10, mixed', d: 'Both sections, unsolved, like a mini module', to: '/app/practice/run?status=unsolved&order=random&n=10' },
         ].map(({ icon: Icon, tone, t, d, to }, i) => (
@@ -298,7 +298,7 @@ export function QBankSection() {
               </div>
               <p className="mt-1 text-[13px] text-moss">{mode.join(', ')}</p>
               {[
-                { m: 'practice' as const, icon: ListChecks, t: 'Question bank', d: 'Your own pace, check each answer, Sensai explains and sees your screen.', c: 'bg-pine text-cream' },
+                { m: 'practice' as const, icon: ListChecks, t: 'Question bank', d: 'Your own pace, check each answer, Humo explains and sees your screen.', c: 'bg-pine text-cream' },
                 { m: 'rush' as const, icon: Timer, t: 'Question Rush', d: '10 questions against the clock (75s R&W / 95s Math). Builds test-day pace.', c: 'bg-orange-500 text-white' },
               ].map(({ m, icon: Icon, t, d, c }) => (
                 <button key={m} onClick={() => nav(url(mode, m))} className="mt-3 flex w-full items-center gap-4 rounded-2xl bg-cream/70 p-4 text-left transition hover:bg-cream">

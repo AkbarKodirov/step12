@@ -1,7 +1,7 @@
 import type { Skill } from '../store'
 
 /**
- * STEP12 courses. Two tracks, like a masterclass: SAT Reading & Writing, and Math & Desmos.
+ * Humo AI courses. Two tracks, like a masterclass: SAT Reading & Writing, and Math & Desmos.
  * Math & Desmos lessons follow the desmos-sat-coach playbook; each comes with live Desmos lines.
  */
 export type Example = { text?: string; question: string; choices?: string[]; answer: string; why: string }
@@ -25,7 +25,7 @@ export const RW: Course = {
   id: 'rw',
   title: 'SAT Reading & Writing',
   short: 'Reading & Writing',
-  tagline: 'Every question type in the Reading and Writing section, one clear method each — with Sensai checking your thinking.',
+  tagline: 'Every question type in the Reading and Writing section, one clear method each — with Humo checking your thinking.',
   color: 'from-jg-700 to-jg-500',
   modules: [
     {
@@ -192,6 +192,15 @@ export const RW: Course = {
           traps: ['A choice that is accurate to the notes but does a different job.'],
           rule: 'Goal, not notes.',
         },
+        {
+          id: 'sat-revamp',
+          title: 'The SAT Revamp: new-style transitions and cross-text questions',
+          min: 8,
+          summary: 'The newer, longer transition choices and cross-text connection questions, with a method for each.',
+          steps: ['New transition choices are long phrases. Check the direction first, then ask what the phrase points back to.', 'The right answer goes in the right direction and says only true things about the text.', 'For cross-text questions, sum up each text in five words and name how they relate.', 'Then answer as the author would, and cross out anything they never said.'],
+          traps: ['Picking a long transition that goes the right way but points back to the wrong idea.', 'Choosing an answer that sounds like the author but was never said.'],
+          rule: 'Direction first, then what it points to.',
+        },
       ],
     },
   ],
@@ -204,6 +213,112 @@ export const MATH: Course = {
   tagline: 'The Desmos way to every Digital SAT math pattern — the same calculator you get in Bluebook, used like a top scorer. Every lesson opens a live Desmos with the lines typed in.',
   color: 'from-[#1f4f86] to-[#2d70b3]',
   modules: [
+    {
+      id: 'video',
+      title: 'Video lessons',
+      blurb: 'Watch a teacher solve SAT math step by step, then take the Mastery Check.',
+      lessons: [
+        {
+          id: 'math-intro',
+          title: 'Intro to SAT Math: expressions and linear equations',
+          min: 14,
+          summary: 'How the two Math modules work, then the first big topic: equivalent expressions, solving for one variable, and linear equations with one, none or infinitely many solutions.',
+          steps: ['Module 1 decides Module 2, so protect the easy points. You have about 95 seconds per question.', 'Equivalent expressions: expand, factor, or plug in a number and compare.', '"In terms of": get the letter alone by undoing operations in reverse order.', 'Read what they ask. If the x-coefficients match, there is no solution or there are infinitely many.'],
+          traps: ['Solving for x when the question asks for an expression like 2x + 3.', 'Dropping the minus sign in front of a bracket.'],
+          rule: 'Read what they ask, then undo in reverse order.',
+        },
+        {
+          id: 'linear-functions',
+          title: 'Linear functions',
+          min: 9,
+          summary: 'Slope and intercepts in every form, parallel and perpendicular lines, and reading linear models from words, tables and graphs.',
+          steps: ['In y = mx + b, m is the slope (the rate) and b is the starting value. In standard form Ax + By = C, the slope is −A/B.', 'For the x-intercept set y = 0; for the y-intercept set x = 0.', 'Parallel lines have the same slope. Perpendicular lines have negative reciprocal slopes.', 'f(a) = b just means the point (a, b) is on the graph.'],
+          traps: ['Reading B/A as the slope in standard form.', 'Mixing up the rate and the starting value in a word problem.'],
+          rule: 'm is the rate, b is the start.',
+        },
+        {
+          id: 'systems-video',
+          title: 'Systems of equations',
+          min: 9,
+          summary: 'The three pictures of a system (one, none or infinitely many solutions), the ratio test in standard form, and when to use substitution or elimination.',
+          steps: ['Two lines cross once, are parallel, or are the same line: one solution, none, or infinitely many. Never two.', 'Compare the ratios. All three equal: infinitely many. Only the x and y ratios equal: no solution.', 'Use substitution when a variable is alone, and elimination otherwise.', 'When they ask for a combination like 4x + 4y, add or subtract the equations first.'],
+          traps: ['Solving for x and y when the question asks for a combination.', 'Saying "two solutions" for two lines.'],
+          rule: 'Compare the ratios, then add or subtract.',
+        },
+        {
+          id: 'linear-inequalities',
+          title: 'Linear inequalities',
+          min: 10,
+          summary: 'Translating words into inequalities, solving them, graphing them, and finding the solutions of a system of inequalities.',
+          steps: ['At least / no less than / minimum mean ≥. At most / no more than / maximum mean ≤.', 'When you multiply or divide by a negative number, flip the sign.', 'Dashed line for < and >, solid for ≤ and ≥. "y >" means shade above. When in doubt, test (0, 0).', 'For a system, the solutions are in the overlap. Test one point from each region.'],
+          traps: ['Forgetting to flip the sign after dividing by a negative.', 'Using a solid line for a strict inequality.'],
+          rule: 'Negative divide: flip. Strict: dashed.',
+        },
+        {
+          id: 'functions-video',
+          title: 'Functions, exponentials and quadratics',
+          min: 11,
+          summary: 'Function notation, the three forms of a quadratic and what each one shows, exponential growth and decay, and shortcuts for the solutions of a quadratic.',
+          steps: ['f(3) means put 3 in. f(x) = 47 means solve for x. f(a) = b is a point on the graph.', 'Standard form shows the y-intercept, factored form the roots, and vertex form the vertex (the minimum or maximum).', 'Exponentials are a · bˣ. Growth by r% is 1 + r, decay is 1 − r. "Every k units" means divide the exponent by k.', 'Shifting left or right does not change the minimum value. For x² + bx + c = 0, the solutions add to −b and multiply to c.'],
+          traps: ['Using 0.06 instead of 1.06 for 6% growth.', 'Reading the x-coordinate of the vertex as the minimum value.'],
+          rule: 'Pick the form that shows what they ask for.',
+        },
+        {
+          id: 'polynomials-video',
+          title: 'Polynomials, exponents and radicals',
+          min: 9,
+          summary: 'The discriminant, factoring quadratics, the factor theorem, and turning roots into fraction exponents.',
+          steps: ['The discriminant b² − 4ac counts real solutions: positive two, zero one, negative none.', 'To factor x² + bx + c, find two numbers that add to b and multiply to c.', 'Factor theorem: x − c is a factor exactly when f(c) = 0, and the graph crosses the x-axis at c. Watch the sign.', 'Turn roots into fraction exponents. When you multiply, add the exponents.'],
+          traps: ['Writing x + 3 as the factor when f(3) = 0.', 'Multiplying exponents when you should add them.'],
+          rule: 'f(c) = 0 means x − c is a factor.',
+        },
+        {
+          id: 'percent-video',
+          title: 'Percent, ratio and units',
+          min: 8,
+          summary: 'Translating percent sentences, percent increase and decrease as multipliers, converting units, and ratio problems.',
+          steps: ['Translate: "what" is x, "is" is =, "of" is ×, and "percent" is ÷ 100.', 'Up r% means × (1 + r). Down r% means × (1 − r). Successive changes multiply.', 'Convert units with fractions equal to 1. Squared units convert twice, cubed units three times.', 'For ratios, add the parts first. Then read what they actually ask.'],
+          traps: ['Adding successive percent changes instead of multiplying.', 'Converting square units only once.'],
+          rule: 'Percent change is a multiplier.',
+        },
+        {
+          id: 'stats-video',
+          title: 'Statistics and probability',
+          min: 8,
+          summary: 'Mean, median, range and outliers, how changes to data move the center and spread, and probability from tables.',
+          steps: ['The mean is total ÷ count, and total = mean × count solves most mean questions.', 'The median is the middle value in order. Outliers pull the mean but barely touch the median.', 'Add the same number to every value: the center moves, the spread stays the same.', 'Probability is target ÷ possible. When you see "given that", shrink the group first.'],
+          traps: ['Using the whole table as the total in a "given that" question.', 'Forgetting to sort the data before finding the median.'],
+          rule: 'Total = mean × count.',
+        },
+        {
+          id: 'lines-triangles',
+          title: 'Lines, angles and triangles',
+          min: 9,
+          summary: 'Angle facts on lines and in triangles, the Pythagorean theorem, special right triangles, SOH CAH TOA, and similar triangles.',
+          steps: ['Angles on a straight line add to 180°, vertical angles are equal, and parallel lines make only two angle sizes.', "A triangle's angles add to 180°, and an exterior angle equals the two far angles.", 'Right triangles: use the Pythagorean theorem, the special right triangles, or SOH CAH TOA.', 'Similar figures: sides times k, areas times k², volumes times k³. π radians is 180°.'],
+          traps: ['Multiplying the area by k instead of k² for similar figures.', 'Using the adjacent side for sine.'],
+          rule: 'Two angle sizes on parallel lines; k, k², k³ for similar figures.',
+        },
+        {
+          id: 'trig-circles',
+          title: 'Trigonometry and circles',
+          min: 11,
+          summary: 'The trig ratios, radians and the unit circle, then circles: arcs, sectors, angle facts and the equation of a circle.',
+          steps: ['SOH CAH TOA. The sine of an angle equals the cosine of its complement. 180° is π radians.', 'On the unit circle, cosine is x and sine is y.', 'Circumference is 2πr and area is πr². For arcs and sectors, find the fraction of the circle.', 'An inscribed angle is half its arc, a tangent is perpendicular to the radius, and (x − h)² + (y − k)² = r² gives the center and r².'],
+          traps: ['Reading r² in the circle equation as the radius.', 'Forgetting to flip the signs for the center.'],
+          rule: 'Arcs and sectors are a fraction of the whole circle.',
+        },
+        {
+          id: 'volumes',
+          title: 'Volumes and surface area',
+          min: 9,
+          summary: 'Prisms, cylinders, spheres, pyramids and cones: every volume and surface-area formula the SAT uses, with examples.',
+          steps: ["Prisms and cylinders: volume is base area times height. A cube's volume is a³ and its surface area is 6a².", 'Surface area is the side faces plus the two bases. An unrolled cylinder is a rectangle.', "A sphere's volume is (4/3)πr³ and its surface area is 4πr². A hemisphere is half.", 'Pyramids and cones are one third of base times height. The slant height comes from the Pythagorean theorem.'],
+          traps: ['Forgetting the one third for cones and pyramids.', 'Using the diameter instead of the radius.'],
+          rule: 'Base times height, and one third for anything with a point.',
+        },
+      ],
+    },
     {
       id: 'foundations',
       title: 'Desmos foundations',
@@ -429,7 +544,7 @@ export const MATH: Course = {
     {
       id: 'engine',
       title: 'The Desmos-AI engine',
-      blurb: 'One list regression for almost any word problem — the move Sensai uses first.',
+      blurb: 'One list regression for almost any word problem — the move Humo uses first.',
       lessons: [
         {
           id: 'list-engine',

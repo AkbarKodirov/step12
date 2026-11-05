@@ -8,16 +8,18 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { answerValue, DESMOS_GUIDE, prepareScreen } from './desmos.js'
-import { backupNames, groqGenerate, groqReady, groqStream } from './groq.js'
+import { backupNames, groqGenerate, groqReady, groqStream, mistralGenerate, mistralReady, mistralStream, othersReady, restBackup } from './groq.js'
 import { findQuestion, memoryNote, memorySize, practiceSummary } from './retrieve.js'
 import { kvBackend, kvDel, kvGet, kvSet } from './kv.js'
+import { adminOverview, billingInfo, confirmCheckout, isAdmin, nextReset, planOf, refundUse, startCheckout, stripeWebhook, takeUse, usageOf } from './billing.js'
+import { FREE_LIMITS } from '../shared/plans.js'
 import { createHash } from 'node:crypto'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const PORT = process.env.PORT || 3001
 const JWT_SECRET = process.env.JWT_SECRET || 'dev-only-change-me'
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || process.env.VITE_GOOGLE_CLIENT_ID || '1007781081540-u54cner78n5lvsq76ftp185a9825ec4a.apps.googleusercontent.com'
-// Free-tier models, tried in order: if one is rate-limited or retired, Sensai falls back to the next.
+// Free-tier models, tried in order: if one is rate-limited or retired, Humo falls back to the next.
 const GEMINI_MODELS = (process.env.GEMINI_MODEL || 'gemini-3.6-flash,gemini-3.5-flash,gemini-3.8-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite').split(',').map((m) => m.trim())
 const genai = process.env.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY }) : null
 // a model that just failed or timed out is skipped for a while, so students don't wait on it again
@@ -55,6 +57,11 @@ async function withFallback(req, fn, timeoutMs) {
       last = e
       const code = e?.status || e?.code
       if (![404, 429, 500, 503, 'timeout'].includes(code)) throw e
+      // a slow model usually means Gemini is slow right now: go straight to the backups instead of waiting on each model
+      if (code === 'timeout' && othersReady) {
+        cooldown.set(model, Date.now() + 60_000)
+        throw e
+      }
       // a used-up daily quota says how long until it resets; skip that model until then instead of retrying it every minute
       const wait = Number(String(e?.message || '').match(/retry in ([\d.]+)s/i)?.[1] || 0) * 1000
       cooldown.set(model, Date.now() + (code === 404 ? 3600_000 : code === 429 && wait ? Math.min(wait, 6 * 3600_000) : 60_000))
@@ -64,35 +71,102 @@ async function withFallback(req, fn, timeoutMs) {
   throw last
 }
 
-/** A stream counts as started only once its first piece arrives, so a model that hangs before answering times out. */
+/** A stream counts as started only once its first words arrive, so a model that hangs before answering times out.
+ * (Pieces without text, e.g. thinking markers, don't count: a model can send one and then hang.) */
 async function startStream(req) {
   const it = await genai.models.generateContentStream(req)
-  const first = await it.next()
+  const head = []
+  for (;;) {
+    const r = await it.next()
+    if (r.done) break
+    head.push(r.value)
+    if (r.value?.text) break
+  }
   const gen = (async function* () {
-    if (!first.done) yield first.value
+    yield* head
     yield* it
   })()
   gen.model = req.model
   return gen
 }
 
+/** Passes a stream through, but fails it if no new piece arrives for `ms`, so a model that stalls mid-answer is replaced. */
+async function* stallGuard(stream, ms) {
+  const it = stream[Symbol.asyncIterator]()
+  for (;;) {
+    let timer
+    const r = await Promise.race([it.next(), new Promise((_, fail) => (timer = setTimeout(() => fail(Object.assign(new Error(`no new words for ${ms} ms`), { status: 'timeout' })), ms)))]).finally(() => clearTimeout(timer))
+    if (r.done) return
+    yield r.value
+  }
+}
+
 /** Gemini first; when every Gemini model is busy or out of free quota, the free Groq backup answers instead. */
 async function withGroq(geminiCall, groqCall, req) {
-  if (groqReady && GEMINI_MODELS.every(resting)) return groqCall(req)
+  if (othersReady && GEMINI_MODELS.every(resting)) return groqCall(req)
   try {
     return await geminiCall()
   } catch (e) {
-    if (!groqReady || ![404, 429, 500, 503, 'timeout'].includes(e?.status || e?.code)) throw e
-    console.warn(`All Gemini models unavailable (${e?.status || e?.code}), answering with a backup (${backupNames.join(' → ')})`)
+    if (!othersReady || ![404, 429, 500, 503, 'timeout'].includes(e?.status || e?.code)) throw e
+    console.warn(`All Gemini models unavailable (${e?.status || e?.code}), answering with a backup (${backupNames.filter((n) => n !== 'mistral').join(' → ')})`)
     return groqCall(req)
   }
 }
 
+/** Waits up to `ms` for the first real words of a stream, so a busy model is skipped instead of keeping the student waiting. */
+async function firstWords(stream, ms) {
+  const it = stream[Symbol.asyncIterator]()
+  const head = []
+  const deadline = Date.now() + ms
+  for (;;) {
+    let timer
+    const r = await Promise.race([it.next(), new Promise((_, fail) => (timer = setTimeout(() => fail(Object.assign(new Error(`no words after ${ms} ms`), { status: 'timeout' })), Math.max(0, deadline - Date.now()))))]).finally(() => clearTimeout(timer))
+    if (r.done) break
+    head.push(r.value)
+    if (r.value?.text) break
+  }
+  if (!head.some((c) => c?.text)) throw Object.assign(new Error('empty answer'), { status: 500 })
+  const gen = (async function* () {
+    yield* head
+    yield* { [Symbol.asyncIterator]: () => it }
+  })()
+  gen.model = stream.model
+  return gen
+}
+
+/** Mistral answers first everywhere (it got every SAT math question and 19/20 hard Reading and Writing questions right in
+ * our tests, with far higher free limits than Gemini). If Mistral is busy or fails, Gemini and then the other backups answer.
+ * `req.mistral` picks Mistral's model order: 'solve' (Large 4 first) or 'check' (Ministral 14B first); everything else uses the
+ * fast default (Ministral 14B first). Large 4 is kept off JSON jobs like Desmos screens, where it takes ~30 s. */
+async function mistralFirst(req, stream, rest, timeoutMs) {
+  const { mistral: kind, ...r } = req
+  if (!mistralReady) return rest(r)
+  // Desmos screen repairs: Gemini follows the strict screen format best, so it goes first there and Mistral backs it up
+  if (kind === 'last') {
+    try {
+      return await rest(r)
+    } catch (e) {
+      console.warn(`Gemini and backups unavailable (${e?.status || e?.message}), repairing with Mistral`)
+      return stream ? firstWords(await mistralStream(r), 12_000) : mistralGenerate(r, undefined, timeoutMs)
+    }
+  }
+  try {
+    if (stream) return await firstWords(await mistralStream(r, kind), 12_000)
+    const out = await mistralGenerate(r, kind, timeoutMs)
+    if (!out.text) throw Object.assign(new Error('empty answer'), { status: 500 })
+    return out
+  } catch (e) {
+    console.warn(`Mistral unavailable (${e?.status || e?.message}), trying Gemini`)
+    return rest(r)
+  }
+}
+
+const skipMistral = (fn) => (r) => fn(r, { skip: 'mistral' })
 const gemini = genai && {
   models: {
-    generateContent: (req, timeoutMs = 60_000) => withGroq(() => withFallback(req, (r) => genai.models.generateContent(r), timeoutMs), groqGenerate, req),
-    // the timeout covers the wait for the first words only
-    generateContentStream: (req, timeoutMs = 10_000) => withGroq(() => withFallback(req, startStream, timeoutMs), groqStream, req),
+    generateContent: (req, timeoutMs = 60_000) => mistralFirst(req, false, (r) => withGroq(() => withFallback(r, (x) => genai.models.generateContent(x), timeoutMs), skipMistral(groqGenerate), r), timeoutMs),
+    // the timeout covers the wait for the first words only: a model with no words after 5 s is skipped for the next one
+    generateContentStream: (req, timeoutMs = 5_000) => mistralFirst(req, true, (r) => withGroq(() => withFallback(r, startStream, timeoutMs), skipMistral(groqStream), r)),
   },
 }
 
@@ -118,7 +192,7 @@ export const idFor = (email) => 'u_' + createHash('sha256').update(String(email)
 const getUser = (email) => kvGet('users', String(email || '').trim().toLowerCase())
 
 function publicUser(u) {
-  return { id: u.id, name: u.name, email: u.email, picture: u.picture, provider: u.provider, createdAt: u.createdAt }
+  return { id: u.id, name: u.name, email: u.email, picture: u.picture, provider: u.provider, createdAt: u.createdAt, plan: planOf(u).tier, admin: isAdmin(u.email) || undefined }
 }
 function issue(u) {
   return { token: jwt.sign({ sub: u.id, email: u.email }, JWT_SECRET, { expiresIn: '60d' }), user: publicUser(u) }
@@ -127,6 +201,8 @@ async function upsertUser(data) {
   const key = data.email.trim().toLowerCase()
   const prev = await getUser(key)
   const u = { createdAt: Date.now(), ...prev, ...data, email: key, id: idFor(key) }
+  // an admin may have made this email Pro before the student signed up: their real join date is today
+  if (prev && !prev.provider && data.provider) u.createdAt = Date.now()
   await kvSet('users', key, u)
   return u
 }
@@ -135,6 +211,18 @@ async function upsertUser(data) {
 const app = express()
 
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') || true }))
+
+// Stripe signs the raw body, so this route reads it before the JSON parser does
+app.post('/api/billing/stripe-webhook', express.raw({ type: '*/*', limit: '1mb' }), async (req, res) => {
+  try {
+    await stripeWebhook(req.body.toString('utf8'), req.headers['stripe-signature'], getUser, upsertUser)
+    res.json({ received: true })
+  } catch (e) {
+    console.warn('Stripe webhook refused:', e.message)
+    res.status(e.status || 500).json({ error: e.message })
+  }
+})
+
 app.use(express.json({ limit: '12mb' }))
 
 function auth(req, res, next) {
@@ -199,6 +287,69 @@ app.delete('/api/me', auth, async (req, res) => {
   res.json({ ok: true })
 })
 
+/* ---------- plans: Free / Pro, daily limits, card payments ---------- */
+async function account(email) {
+  let u = await getUser(email)
+  if (!u && email) u = await upsertUser({ email, name: email.split('@')[0], provider: 'google' })
+  return u
+}
+
+app.get('/api/account', auth, async (req, res) => {
+  const u = await account(req.user.email)
+  if (!u) return res.status(404).json({ error: 'Account not found.' })
+  // "last seen" for the admin panel, written at most once an hour
+  if (!u.lastSeen || Date.now() - u.lastSeen > 3600000) await kvSet('users', u.email, { ...u, lastSeen: Date.now() })
+  res.json({ plan: planOf(u), admin: isAdmin(u.email), usage: await usageOf(u.id), limits: FREE_LIMITS, resetAt: nextReset(), billing: billingInfo() })
+})
+
+app.post('/api/billing/checkout', auth, async (req, res) => {
+  try {
+    const origin = process.env.PUBLIC_URL || process.env.RENDER_EXTERNAL_URL || `${req.protocol}://${req.get('host')}`
+    const url = await startCheckout(req.user.email, origin.replace(/\/$/, ''))
+    if (!url) return res.status(503).json({ error: 'Card payments are being set up. Message our manager on Telegram to pay today.', code: 'card_off' })
+    res.json({ url })
+  } catch (e) {
+    console.error('Checkout failed:', e.message)
+    res.status(502).json({ error: 'The card payment page could not open. Try again in a minute.' })
+  }
+})
+
+app.post('/api/billing/confirm', auth, async (req, res) => {
+  try {
+    const r = await confirmCheckout(req.body?.sessionId, req.user.email, getUser, upsertUser)
+    const u = await getUser(req.user.email)
+    res.json({ ok: r.ok, plan: planOf(u, req.user.email) })
+  } catch (e) {
+    console.error('Payment check failed:', e.message)
+    res.status(502).json({ error: 'We could not check the payment yet. It usually appears within a minute.' })
+  }
+})
+
+/* ---------- admin panel ---------- */
+function admin(req, res, next) {
+  if (!isAdmin(req.user?.email)) return res.status(403).json({ error: 'Only Humo AI admins can open this.' })
+  next()
+}
+
+app.get('/api/admin/users', auth, admin, async (_req, res) => {
+  res.json(await adminOverview())
+})
+
+app.post('/api/admin/plan', auth, admin, async (req, res) => {
+  const email = String(req.body?.email || '').trim().toLowerCase()
+  const { tier } = req.body || {}
+  const days = req.body?.days == null ? null : Math.max(1, Math.min(3650, Math.round(Number(req.body.days) || 0)))
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return res.status(400).json({ error: 'Enter a valid email.' })
+  if (tier !== 'pro' && tier !== 'free') return res.status(400).json({ error: 'Choose Pro or Free.' })
+  const prev = (await getUser(email)) || { email, name: email.split('@')[0] }
+  if (tier === 'free' && planOf(prev, email).source === 'owner') return res.status(400).json({ error: 'This account is always Pro.' })
+  // admins set the exact length from today ("30 days" means until 30 days from now)
+  const pro = tier === 'pro' ? { until: days == null ? null : Date.now() + days * 86400000, source: 'admin', by: req.user.email, at: Date.now() } : null
+  const u = await upsertUser({ ...prev, email, pro })
+  console.log(`Admin ${req.user.email} set ${email} to ${tier}${tier === 'pro' ? (days ? ` for ${days} days` : ' with no end date') : ''}`)
+  res.json({ ok: true, plan: planOf(u) })
+})
+
 /* ---------- student progress sync (chats, plan, onboarding, results…) ---------- */
 app.get('/api/progress', auth, async (req, res) => {
   const p = await kvGet('progress', idFor(req.user.email || ''))
@@ -214,8 +365,8 @@ app.put('/api/progress', express.json({ limit: '8mb' }), auth, async (req, res) 
   res.json({ ok: true })
 })
 
-/* ---------- Sensai ---------- */
-const HUMO_SYSTEM = `You are Sensai, the AI tutor of STEP12 — the SAT school in Tashkent (step12.uz) that takes students from STEP1 to STEP12. Your name means teacher: calm, precise and encouraging.
+/* ---------- Humo ---------- */
+const HUMO_SYSTEM = `You are Humo, the AI tutor of Humo AI, a Digital SAT platform from Tashkent. You are named after the Humo, the legendary bird of happiness: calm, precise and encouraging.
 You are an expert Digital SAT tutor with a warm, precise, encouraging style.
 - Reply in the language the student writes in (English, O'zbekcha or Русский); keep exam terms in English.
 - When a student is practising, give a hint first; give the full solution only if they ask.
@@ -223,7 +374,7 @@ You are an expert Digital SAT tutor with a warm, precise, encouraging style.
 - When asked for a study plan, ask for (or use) test date, target score and weak areas, then give a week-by-week plan.
 - Keep answers short and scannable; use plain text, not markdown tables. Write math in plain text (x², √2, 7/2, ≤), never LaTeX or $…$ delimiters; put Desmos lines in \`backticks\`.
 - Never claim to be affiliated with the College Board.
-- When you recommend practice, point to the STEP12 features by name: Practice tests (Exam / Practice / Sprint mode), Question bank (filter by skill and difficulty, Question Rush), Desmos Lab (upload a photo of a math question), Learn courses (SAT Reading & Writing, Math & Desmos), Vocabulary (Practice, Word list, My words), Blitz, Study plan, Saved & mistakes (saved, mistakes log, notes, collections), Analytics. There are no Drills or Lessons pages any more.
+- When you recommend practice, point to the Humo AI features by name: Practice tests (Exam / Practice / Sprint mode), Question bank (filter by skill and difficulty, Question Rush), Desmos Lab (upload a photo of a math question), Learn courses (SAT Reading & Writing, Math & Desmos), Vocabulary (Practice, Word list, My words), Blitz, Study plan, Saved & mistakes (saved, mistakes log, notes, collections), Analytics. There are no Drills or Lessons pages any more.
 - Digital SAT skills: Words in context, Transitions, Standard English conventions, Rhetorical synthesis, Command of evidence, Central ideas & details, Text structure & purpose, Inferences, Algebra, Advanced math, Problem solving & data, Geometry & trigonometry.`
 
 const PLAN_GUIDE = `STUDY PLAN EDITS
@@ -238,9 +389,9 @@ review (review last test), desmos (Desmos Lab), custom (any other task). 0–5 t
 The app shows your plan as a card with an "Apply" button right after your words; never claim it is already applied and don't write anything after the block.`
 
 const HUMO_FULL = `${HUMO_SYSTEM}\n\n${DESMOS_GUIDE}\n\n${PLAN_GUIDE}`
-const NO_KEY = 'Sensai is taking a short break. Please try again later.' // (server has no GEMINI_API_KEY)
+const NO_KEY = 'Humo is taking a short break. Please try again later.' // (server has no GEMINI_API_KEY)
 
-/* ---------- Sensai replies: pull out checked Desmos screens and plan proposals ---------- */
+/* ---------- Humo replies: pull out checked Desmos screens and plan proposals ---------- */
 const PLAN_KINDS = new Set(['drill-rw', 'drill-math', 'skill', 'vocab', 'mistakes', 'lesson', 'blitz', 'test', 'review', 'desmos', 'custom'])
 export function cleanPlan(p) {
   if (!p || !Array.isArray(p.days) || p.days.length !== 7) return null
@@ -255,9 +406,10 @@ export function cleanPlan(p) {
 
 async function repairDesmos(spec, errors, question, expect) {
   const out = await gemini.models.generateContent({
+    mistral: 'last',
     contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nRecompute the math and return ONLY the corrected spec as JSON (same format). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. A slider value goes in its own line with a "result"; the answer goes in a "result" expression on the line that really produces it (never a separate line like "n = 2"), and a count of solutions is shown by marking each intersection as a point.` }] }],
     config: { systemInstruction: DESMOS_GUIDE, temperature: 0.1, responseMimeType: 'application/json' },
-  })
+  }, 15_000)
   return parseSpec(out.text)
 }
 
@@ -316,7 +468,7 @@ function toParts(m) {
 }
 
 /** Turns the chat into a history Gemini accepts: starts with the student, roles alternate, no empty turns,
- * Sensai's error notes left out, and only the latest photos and the last few turns kept (smaller = faster). */
+ * Humo's error notes left out, and only the latest photos and the last few turns kept (smaller = faster). */
 function chatContents(messages) {
   const turns = []
   for (const m of messages.slice(-30)) {
@@ -352,13 +504,13 @@ function chatContents(messages) {
 /** Same chat as one plain transcript: the fallback if Gemini refuses the multi-turn history. */
 function flatContents(contents) {
   const last = contents[contents.length - 1]
-  const earlier = contents.slice(0, -1).map((c) => `${c.role === 'user' ? 'Student' : 'Sensai'}: ${c.parts.map((p) => p.text || '[photo]').join(' ')}`).join('\n\n')
+  const earlier = contents.slice(0, -1).map((c) => `${c.role === 'user' ? 'Student' : 'Humo'}: ${c.parts.map((p) => p.text || '[photo]').join(' ')}`).join('\n\n')
   const text = `${earlier ? `Conversation so far:\n${earlier}\n\nThe student now says:\n` : ''}${last.parts.find((p) => p.text)?.text || ''}`
   return [{ role: 'user', parts: [...last.parts.filter((p) => p.inlineData), { text }] }]
 }
 
-/* ---------- Desmos Lab: the answer is solved twice and checked with code before Sensai explains it ---------- */
-const SOLVE_CHECK = `You check SAT math questions for Sensai, a tutor, before Sensai explains them. You never talk to the student.
+/* ---------- Desmos Lab: the answer is solved twice and checked with code before Humo explains it ---------- */
+const SOLVE_CHECK = `You check SAT math questions for Humo, a tutor, before Humo explains them. You never talk to the student.
 Look at the student's LATEST message (a photo, a screenshot or typed text; earlier messages are context, e.g. "now what if it were 16?").
 If it is not a math question to solve (a Reading & Writing question, a question about Desmos itself, a greeting, a request for a plan), answer only: {"kind":"other"}
 Otherwise:
@@ -391,25 +543,61 @@ function sameAnswer(a, b) {
 
 async function solveOnce(contents, temperature, extra = '') {
   const out = await gemini.models.generateContent(
-    { contents, config: { systemInstruction: SOLVE_CHECK + extra, temperature, tools: [{ codeExecution: {} }], thinkingConfig: { thinkingLevel: 'high' } } },
+    // the two checks use different Mistral models (Large 4 and Ministral 14B), so one model's mistake is caught by the other
+    { mistral: temperature < 0.5 ? 'solve' : 'check', contents, config: { systemInstruction: SOLVE_CHECK + extra, temperature, tools: [{ codeExecution: {} }], thinkingConfig: { thinkingLevel: 'high' } } },
     35_000,
   )
   return lastJson(out.text)
 }
 
-/** Two independent solves (each checked with Python); if they disagree, a third one decides. Null when it can't be settled. */
+/** Resolves with the results that arrive within `ms`; stops early when one says it is not a math question to solve. */
+function settle(promises, ms) {
+  return new Promise((resolve) => {
+    const out = []
+    let left = promises.length
+    const timer = setTimeout(() => resolve(out), Math.max(0, ms))
+    for (const p of promises)
+      p.then((x) => {
+        out.push(x)
+        if ((x?.kind && x.kind !== 'math') || --left === 0) {
+          clearTimeout(timer)
+          resolve(out)
+        }
+      })
+  })
+}
+
+// the whole check gets at most this long, so a slow or busy model can't keep the student waiting for minutes
+const CHECK_MS = 25_000
+const TIEBREAK_MS = 12_000
+const FIRST_MS = 35_000 // extra wait when neither solve is back after CHECK_MS
+
+/** Two independent solves (each checked with Python); if they disagree, a third one decides. Null when it can't be settled.
+ * Solves that are still running after CHECK_MS are not waited for: Humo then uses the answer that did arrive. */
 async function verifiedAnswer(contents) {
   const input = flatContents(contents)
-  const [a, b] = await Promise.all([solveOnce(input, 0.2).catch(() => null), solveOnce(input, 0.8).catch(() => null)])
-  const first = [a, b].find((x) => x?.kind)
+  const solves = [solveOnce(input, 0.2).catch(() => null), solveOnce(input, 0.8).catch(() => null)]
+  let got = await settle(solves, CHECK_MS)
+  // nothing back yet (busy models): an unchecked answer is often wrong, so wait a little longer for the first solve
+  if (!got.some((x) => x?.kind)) {
+    const firstGood = Promise.race([...solves.map((p) => p.then((x) => (x?.kind ? x : new Promise(() => {})))), Promise.all(solves).then(() => null)])
+    got = await settle([firstGood], FIRST_MS)
+  }
+  const first = got.find((x) => x?.kind)
   if (!first) return null
   if (first.kind !== 'math') return first
-  const math = [a, b].filter((x) => x?.kind === 'math' && x.answer != null && x.answer !== '')
+  const math = got.filter((x) => x?.kind === 'math' && x.answer != null && x.answer !== '')
   if (math.length === 2 && sameAnswer(math[0], math[1])) return { ...math[0], agreed: true }
   const candidates = math.map((x, i) => `Solver ${i + 1} answered: ${x.answer}${x.choice ? ` (${x.choice})` : ''}`).join('\n')
-  const c = await solveOnce(input, 0.2, `\n\nOther solvers already tried this question:\n${candidates || 'They could not finish.'}\nAt least one of them is wrong or unsure. Solve it from scratch, check each candidate with Python, and give the answer that is actually correct.`).catch(() => null)
+  const [c] = await settle([solveOnce(input, 0.2, `\n\nOther solvers already tried this question:\n${candidates || 'They could not finish.'}\nAt least one of them is wrong or unsure. Solve it from scratch, check each candidate with Python, and give the answer that is actually correct.`).catch(() => null)], TIEBREAK_MS)
   if (c?.kind === 'math' && c.answer) return { ...c, agreed: math.some((x) => sameAnswer(x, c)) }
   return math[0] ? { ...math[0], agreed: false } : null
+}
+
+/** A typed message with no photo and no numbers ("teach me list regression", "how do sliders work?") has nothing to solve. */
+function hasQuestionToSolve(contents) {
+  const last = contents[contents.length - 1]
+  return !!last?.parts?.some((p) => p.inlineData || /\d/.test(p.text || ''))
 }
 
 function withVerified(system, v) {
@@ -422,14 +610,27 @@ The correct final answer is ${v.answer}${v.choice ? ` (choice ${v.choice})` : ''
 
 const CHAT_THINKING = { thinkingLevel: process.env.GEMINI_CHAT_THINKING || 'low' }
 
-app.post('/api/chat', async (req, res) => {
+app.post('/api/chat', auth, async (req, res) => {
   const { messages = [], context, space, stream, recent } = req.body || {}
   if (!gemini) return res.status(503).json({ error: NO_KEY })
   let contents = chatContents(messages)
-  if (!contents.length) return res.status(400).json({ error: 'Send Sensai a question first.' })
+  if (!contents.length) return res.status(400).json({ error: 'Send Humo a question first.' })
+  // Free plan: one Ask Humo question and one Desmos Lab solve a day (checked here, not only in the app)
+  const feature = space === 'desmos' ? 'desmos' : 'humo'
+  const me = await account(req.user.email)
+  if (!me) return res.status(401).json({ error: 'Log in again to chat with Humo.' })
+  const use = await takeUse(me, req.user.email, feature)
+  if (!use.ok)
+    return res.status(402).json({
+      code: 'limit',
+      feature,
+      resetAt: use.resetAt,
+      error: feature === 'desmos' ? "You've used today's free Desmos Lab solve. Go Pro for unlimited solves, or come back tomorrow." : "You've used today's free question to Humo. Go Pro to keep chatting, or come back tomorrow.",
+    })
+  const giveBack = () => refundUse(me, feature)
   let system = context ? `${HUMO_FULL}\n\nContext about what the student is working on right now:\n${String(context).slice(0, 14000)}` : HUMO_FULL
   if (space === 'desmos') system = `${system}\n\n${DESMOS_LAB}`
-  // STEP12's own questions carry checked keys: if the student is asking about one, Sensai is told the answer first
+  // Humo AI's own questions carry checked keys: if the student is asking about one, Humo is told the answer first
   const lastText = messages.filter((m) => m.role === 'user').pop()?.text || ''
   const onScreen = String(context || '').match(/(?:Passage:|Question:)[\s\S]*?(?=Student's answer|The student has not answered|$)/)?.[0] || ''
   const practice = practiceSummary(recent)
@@ -437,7 +638,7 @@ app.post('/api/chat', async (req, res) => {
   const known = findQuestion(lastText) || (onScreen ? findQuestion(onScreen) : null)
   if (known) {
     system = `${system}\n\n${memoryNote(known)}`
-    console.log(`Sensai memory: matched a ${known.source} question (${known.confidence}% of words)`)
+    console.log(`Humo memory: matched a ${known.source} question (${known.confidence}% of words)`)
   }
   const config = { systemInstruction: system, temperature: 0.4, thinkingConfig: CHAT_THINKING }
   const question = messages.filter((m) => m.role === 'user').pop()?.text
@@ -454,10 +655,12 @@ app.post('/api/chat', async (req, res) => {
     }
   }
   const check = async () => {
-    if (space !== 'desmos') return null
+    if (space !== 'desmos' || !hasQuestionToSolve(contents)) return null
     const v = await verifiedAnswer(contents).catch((e) => (console.warn('Answer check failed:', e?.message), null))
     if (v) console.log(`Desmos Lab check: ${v.kind}${v.kind === 'math' ? ` → ${v.answer}${v.agreed ? ' (solvers agreed)' : ' (solvers split)'}` : ''} in ${Date.now() - started} ms`)
     config.systemInstruction = withVerified(system, v)
+    // no checked answer to lean on: Humo thinks harder before writing so the math is still right
+    if (!v || v.kind === 'math' && !v.agreed) config.thinkingConfig = { thinkingLevel: 'high' }
     return v
   }
   const expectOf = (v) => (v?.kind === 'math' && !v.choice ? (answerValue(norm(v.answer)) ?? undefined) : undefined)
@@ -466,14 +669,15 @@ app.post('/api/chat', async (req, res) => {
       const v = await check()
       const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
       const r = await finishReply(out.text || '', { question: v?.read || question, expect: expectOf(v) })
-      res.json({ reply: r.text, desmos: r.desmos, plan: r.plan, tutor: 'Sensai' })
+      res.json({ reply: r.text, desmos: r.desmos, plan: r.plan, tutor: 'Humo' })
     } catch (e) {
       console.error('Chat failed:', e?.status || '', e?.message || e)
-      res.status(502).json({ error: 'Sensai is very busy right now. Please try again in a minute.' })
+      giveBack()
+      res.status(502).json({ error: 'Humo is very busy right now. Please try again in a minute.' })
     }
     return
   }
-  // streaming: one JSON object per line — {"delta": "..."} while Sensai writes, then {"done": true, ...}
+  // streaming: one JSON object per line — {"delta": "..."} while Humo writes, then {"done": true, ...}
   let opened = false
   // the student pressed Stop or closed the page: stop reading from the model so no more quota is spent
   let gone = false
@@ -489,27 +693,40 @@ app.post('/api/chat', async (req, res) => {
   }
   try {
     let v = null
-    if (space === 'desmos') {
+    if (space === 'desmos' && hasQuestionToSolve(contents)) {
       send({ status: 'Reading the question and solving it twice to double-check…' })
       v = await check()
     }
-    const it = await ask((c) => gemini.models.generateContentStream({ contents: c, config }))
+    const streamOnce = () => ask((c) => gemini.models.generateContentStream({ contents: c, config }))
+    let it = await streamOnce()
     let text = ''
-    try {
-      for await (const chunk of it) {
+    for (let restarts = 0; ; restarts++) {
+      try {
+        for await (const chunk of stallGuard(it, 15_000)) {
+          if (gone) break
+          const t = chunk.text || ''
+          if (!t) continue
+          text += t
+          send({ delta: t })
+        }
+        break
+      } catch (e) {
+        // the model broke off mid-answer (busy or rate-limited): rest it and stream the answer again from the next model,
+        // so the student sees new words within a second or two instead of waiting for a whole answer to be written
+        console.warn(`Gemini ${it.model} stopped mid-answer (${e?.status || e?.message}), restarting on another model`)
+        if (it.model) cooldown.set(it.model, Date.now() + 60_000)
+        restBackup(it.model) // a Mistral/backup model ("mistral:ministral-14b-2512") is rested too
         if (gone) break
-        const t = chunk.text || ''
-        if (!t) continue
-        text += t
-        send({ delta: t })
+        text = ''
+        send({ reset: true })
+        if (restarts >= 1) {
+          const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
+          text = out.text || ''
+          send({ delta: text })
+          break
+        }
+        it = await streamOnce()
       }
-    } catch (e) {
-      // the model broke off mid-answer (busy or rate-limited): rest it and get the whole answer from the next model
-      console.warn(`Gemini ${it.model} stopped mid-answer (${e?.status || e?.message}), finishing on another model`)
-      if (it.model) cooldown.set(it.model, Date.now() + 60_000)
-      const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
-      text = out.text || ''
-      send({ reset: true, delta: text })
     }
     if (gone) {
       console.log(`Chat stopped by the student after ${Date.now() - started} ms`)
@@ -520,14 +737,15 @@ app.post('/api/chat', async (req, res) => {
     console.log(`Chat answered in ${Date.now() - started} ms (${contents.length} turns)`)
   } catch (e) {
     console.error('Chat failed:', e?.status || '', e?.message || e)
-    const error = 'Sensai is very busy right now. Please try again in a minute.'
+    giveBack()
+    const error = 'Humo is very busy right now. Please try again in a minute.'
     if (opened) send({ error })
     else res.status(502).json({ error })
   }
   res.end()
 })
 
-/* ---------- "Similar question": Sensai writes a fresh question on the same skill ---------- */
+/* ---------- "Similar question": Humo writes a fresh question on the same skill ---------- */
 app.post('/api/similar', async (req, res) => {
   const { passage, question, options = [], skill, section } = req.body || {}
   if (!question && !passage) return res.status(400).json({ error: 'Missing question.' })
@@ -546,7 +764,7 @@ Use plain text math (x², √, 7/2). Exactly four options, exactly one correct. 
     res.json({ passage: String(j.passage || ''), question: String(j.question), options: j.options.map(String), correct: Number(j.correct), explanation: String(j.explanation || '') })
   } catch (e) {
     console.error(e)
-    res.status(502).json({ error: 'Sensai could not write a similar question right now. Try again.' })
+    res.status(502).json({ error: 'Humo could not write a similar question right now. Try again.' })
   }
 })
 
@@ -591,25 +809,26 @@ app.post('/api/desmos/solve', async (req, res) => {
     res.json(await solving.get(id))
   } catch (e) {
     console.error(e)
-    res.status(502).json({ error: 'Sensai could not finish the Desmos solve. Try again in a moment.' })
+    res.status(502).json({ error: 'Humo could not finish the Desmos solve. Try again in a moment.' })
   }
 })
 
-/* ---------- Sensai edits the study plan ---------- */
-app.post('/api/plan', async (req, res) => {
+/* ---------- Humo edits the study plan ---------- */
+app.post('/api/plan', auth, async (req, res) => {
   const { plan, profile, instruction } = req.body || {}
-  if (!instruction) return res.status(400).json({ error: 'Tell Sensai what to change.' })
+  if (planOf(await getUser(req.user.email), req.user.email).tier !== 'pro') return res.status(402).json({ code: 'pro', error: 'The study plan is part of Humo Pro.' })
+  if (!instruction) return res.status(400).json({ error: 'Tell Humo what to change.' })
   if (!gemini) return res.status(503).json({ error: NO_KEY })
   try {
     const prompt = `Student profile: ${JSON.stringify(profile || {}).slice(0, 2000)}\nCurrent plan: ${JSON.stringify(plan || {}).slice(0, 8000)}\n\nThe student says: "${String(instruction).slice(0, 600)}"\n\nReturn JSON: {"note": "one or two friendly sentences on what you changed", "days": [7 arrays of tasks]}.`
     const out = await gemini.models.generateContent({ contents: [{ role: 'user', parts: [{ text: prompt }] }], config: { systemInstruction: `${HUMO_SYSTEM}\n\n${PLAN_GUIDE}`, temperature: 0.4, responseMimeType: 'application/json' } })
     const j = JSON.parse(out.text)
     const p = cleanPlan(j)
-    if (!p) return res.status(502).json({ error: 'Sensai returned a plan the app could not read. Try rephrasing.' })
+    if (!p) return res.status(502).json({ error: 'Humo returned a plan the app could not read. Try rephrasing.' })
     res.json({ plan: p, note: String(j.note || '').slice(0, 400) })
   } catch (e) {
     console.error(e)
-    res.status(502).json({ error: 'Sensai could not change the plan right now. Try again.' })
+    res.status(502).json({ error: 'Humo could not change the plan right now. Try again.' })
   }
 })
 
@@ -629,7 +848,7 @@ app.post('/api/explain', async (req, res) => {
 ${passage ? `Text:\n${passage}\n` : ''}Question: ${question}
 ${options.length ? `Choices:\n${options.join('\n')}\n` : ''}Correct answer: ${correct}
 
-Write the explanation Sensai shows above the question in review:
+Write the explanation Humo shows above the question in review:
 1. One sentence naming the skill being tested.
 2. Why the correct answer is right, step by step (show the math if it is a math question).
 ${options.length ? '3. One short line for each wrong choice saying exactly why it is wrong or what trap it sets.\n' : ''}Plain text, no markdown headings, under 170 words, English.`
@@ -648,7 +867,7 @@ ${options.length ? '3. One short line for each wrong choice saying exactly why i
     res.json({ explanation: await inflight.get(id) })
   } catch (e) {
     console.error(e)
-    res.status(502).json({ error: 'Sensai could not reach Gemini. Try again in a moment.' })
+    res.status(502).json({ error: 'Humo could not reach Gemini. Try again in a moment.' })
   }
 })
 
@@ -683,7 +902,7 @@ app.get('/api/blitz/leaderboard', (_, res) => {
   res.json({ week: weekKey(), rows })
 })
 
-app.get('/api/health', (_, res) => res.json({ status: 'ok', platform: 'STEP12', tutor: 'Sensai', gemini: !!gemini, groq: groqReady, backups: backupNames, memory: memorySize(), storage: kvBackend }))
+app.get('/api/health', (_, res) => res.json({ status: 'ok', platform: 'Humo AI', tutor: 'Humo', gemini: !!gemini, groq: groqReady, backups: backupNames, memory: memorySize(), storage: kvBackend }))
 
 /* ---------- serve the built website from the same server (one free service on Render) ---------- */
 const DIST = join(__dirname, '..', 'dist')
@@ -706,7 +925,7 @@ if (existsSync(join(DIST, 'index.html'))) {
   })
 }
 
-app.listen(PORT, () => console.log(`STEP12 backend running on http://localhost:${PORT}`))
+app.listen(PORT, () => console.log(`Humo AI backend running on http://localhost:${PORT}`))
 
 // Render's free plan sleeps after 15 minutes without visitors (the next visitor waits ~40 s).
 // The server pings its own public address every 10 minutes, which counts as a visit and keeps it awake.

@@ -10,7 +10,7 @@ export default function ResultsList() {
   return (
     <div>
       <h1 className="display text-[clamp(2rem,4vw,2.75rem)]">My results</h1>
-      <p className="mt-2 text-[15px] text-moss">Every test you finish, with Sensai's review.</p>
+      <p className="mt-2 text-[15px] text-moss">Every test you finish, with Humo's review.</p>
 
       {chart.length > 1 && (
         <section className="card mt-6 p-6">
@@ -41,7 +41,7 @@ export default function ResultsList() {
 
       {list.length === 0 ? (
         <div className="mt-6">
-          <EmptyState title="No results yet" body="Finish your first practice test and your score, skills and Sensai's review will appear here." action={{ to: '/app/tests', label: 'Take a practice test' }} />
+          <EmptyState title="No results yet" body="Finish your first practice test and your score, skills and Humo's review will appear here." action={{ to: '/app/tests', label: 'Take a practice test' }} />
         </div>
       ) : (
         <ul className="mt-5 space-y-2.5">

@@ -1,5 +1,5 @@
 // Builds public/bank/bank.json — the Question Bank — from:
-//   • STEP12's own question sets (Shakhna Academy data files, original content)
+//   • Humo AI's own question sets (Shakhna Academy data files, original content)
 //   • tests already in public/tests that are NOT "Practice Test N" (those stay full tests)
 //   • the desmos-sat-coach skill's 132 verified Math questions
 // Images embedded as data: URLs are written to public/qimg/ so the JSON stays small.

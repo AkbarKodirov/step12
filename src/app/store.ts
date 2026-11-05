@@ -53,7 +53,7 @@ export type PlanKind = 'drill-rw' | 'drill-math' | 'skill' | 'vocab' | 'mistakes
 export type PlanTask = { id: string; kind: PlanKind; title: string; min: number; skill?: string }
 export type WeekPlan = { days: PlanTask[][] }
 
-export type ChatMsg = { role: 'user' | 'humo'; text: string; desmos?: DesmosScreenData[]; plan?: WeekPlan | null; at?: number; images?: string[]; error?: boolean }
+export type ChatMsg = { role: 'user' | 'humo'; text: string; desmos?: DesmosScreenData[]; plan?: WeekPlan | null; at?: number; images?: string[]; error?: boolean; limit?: 'humo' | 'desmos' | 'pro' }
 export type Chat = { id: string; title: string; createdAt: number; updatedAt: number; pinned?: boolean; space?: 'humo' | 'desmos'; msgs: ChatMsg[] }
 
 export type Highlight = { start: number; end: number; color: 'yellow' | 'blue' | 'pink' | 'underline'; note?: string }
@@ -72,13 +72,16 @@ export type BankQ = TestQuestion & {
   challenge?: boolean
   topic?: string
   explanation?: string
+  /** Math Hard Book: the same question and choices with fractions, powers and tables as HTML */
+  questionHtml?: string
+  optionsHtml?: string[]
   bankId?: string
   solution?: { hints: string[]; desmos: string[]; look_for: string; why: string; trap: string; rule: string; topic: string }
 }
 export type BankProgress = { tries: number; correct: boolean; chosen: string | null; at: number; seconds: number }
 export type Collection = { id: string; name: string; keys: string[]; createdAt: number }
 
-type State = {
+export type State = {
   profile: Profile
   attempts: Attempt[]
   vocab: Record<string, VocabProgress>
@@ -103,6 +106,10 @@ type State = {
   notes: Record<string, string>
   collections: Collection[]
   lessonsDone: Record<string, number>
+  /** Video lessons: where the student stopped (seconds) and the video length. Keyed `${course}:${lesson}`. */
+  lessonVideo: Record<string, { pos: number; dur: number; at: number }>
+  /** Mastery Check after a video lesson: best score out of total. */
+  mastery: Record<string, { best: number; total: number; at: number }>
   updatedAt?: number
 }
 export type CustomWord = { word: string; pos: 'adj' | 'verb' | 'noun' | 'adv'; def: string; ex: string; syn: string[]; level: 'mine'; addedAt: number }
@@ -132,6 +139,8 @@ const initial: State = {
   notes: {},
   collections: [],
   lessonsDone: {},
+  lessonVideo: {},
+  mastery: {},
 }
 
 /* ---------------- tiny global store (per user, localStorage) ---------------- */
@@ -142,7 +151,7 @@ const listeners = new Set<() => void>()
 // Progress is keyed by the account EMAIL, so the same student always finds their data again —
 // even if the server forgot their account id.
 const keyFor = (id: string) => `step12.progress.${id}`
-/** Progress saved before the STEP12 rebrand used this prefix; it is moved over on first load. */
+/** Progress saved before the Humo AI rebrand used this prefix; it is moved over on first load. */
 const oldKeyFor = (id: string) => `jamals.progress.${id}`
 
 function hydrate(saved: Partial<State> | null): State {
@@ -297,7 +306,7 @@ export function markActive(seconds = 0, kind = 'practice', subject?: 'EBRW' | 'M
   }))
 }
 
-/** Read the whole store once (for export / Sensai context). */
+/** Read the whole store once (for export / Humo context). */
 export const getStore = () => state
 export function resetStore() {
   setStore(() => ({ ...initial }))
@@ -366,7 +375,7 @@ export function loadTest(id: string) {
   return testCache.get(id)!
 }
 let bankP: Promise<BankQ[]> | null = null
-/** The whole Question Bank (STEP12's own sets + the Desmos collection), loaded once. */
+/** The whole Question Bank (Humo AI's own sets + the Desmos collection), loaded once. */
 export const loadBank = (): Promise<BankQ[]> => (bankP ??= fetch('/bank/bank.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : Promise.reject(new Error('Question bank unavailable')))))
 
 /** Saved / mistake entries point at either a test question or a bank question. */
@@ -404,6 +413,13 @@ export function toggleSavedBank(id: string) {
 }
 
 export const loadIndex = () => fetch('/tests/index.json', { cache: 'no-cache' }).then((r) => r.json() as Promise<TestMeta[]>)
+
+/** Practice tests get renumbered now and then (ids never change), so saved results show each test's current name. */
+export function syncTestNames(index: TestMeta[]) {
+  const names = new Map(index.map((t) => [t.id, t.name]))
+  if (!state.attempts.some((a) => names.has(a.testId) && names.get(a.testId) !== a.testName)) return
+  setStore((s) => ({ ...s, attempts: s.attempts.map((a) => (names.has(a.testId) && names.get(a.testId) !== a.testName ? { ...a, testName: names.get(a.testId)! } : a)) }))
+}
 
 export const stripHtml = (h: string | null) => (h || '').replace(/<li>/g, '\n• ').replace(/<[^>]+>/g, ' ').replace(/\s+\n/g, '\n').replace(/[ \t]+/g, ' ').trim()
 

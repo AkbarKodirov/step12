@@ -6,8 +6,8 @@ import { HumoReply } from './HumoDrawer'
 import type { TestQuestion } from '../store'
 import { RichText } from './RichText'
 
-/** Sensai's explanation card — shown above each question in review, and after "Check answer" in practice mode. */
-/** Sensai's Desmos walkthrough with a checked Desmos screen for a math question. */
+/** Humo's explanation card — shown above each question in review, and after "Check answer" in practice mode. */
+/** Humo's Desmos walkthrough with a checked Desmos screen for a math question. */
 export function DesmosSolvePanel({ id, q }: { id: string; q: TestQuestion }) {
   const { token } = useAuth()
   const [st, setSt] = useState<{ data?: DesmosSolve; error?: string; busy?: boolean }>({})
@@ -32,7 +32,7 @@ export function DesmosSolvePanel({ id, q }: { id: string; q: TestQuestion }) {
     <div className="mt-3">
       <button onClick={go} disabled={st.busy} className="inline-flex items-center gap-2 rounded-full bg-[#2d70b3] px-3.5 py-1.5 text-[12.5px] font-semibold text-white transition hover:bg-[#245d96] disabled:opacity-70">
         {st.busy ? <span className="size-3.5 animate-spin rounded-full border-2 border-white border-t-transparent" /> : <span className="grid size-4 place-items-center rounded bg-card text-[9px] font-bold text-[#2d70b3]">D</span>}
-        {st.busy ? 'Sensai is solving it in Desmos…' : 'Solve it with Desmos'}
+        {st.busy ? 'Humo is solving it in Desmos…' : 'Solve it with Desmos'}
       </button>
       {st.error && <p className="mt-2 text-[12.5px] text-moss">{st.error}</p>}
     </div>
@@ -57,10 +57,10 @@ export function HumoExplain({ testId, qKey, q, compact = false, onAsk, math = fa
 
   return (
     <div className={`flex gap-3 rounded-2xl border border-jg-500/25 bg-gradient-to-b from-jg-50 to-card ${compact ? 'p-3.5' : 'p-4 sm:p-5'}`}>
-      <img src="/sensai-mark.png" alt="" className="size-9 shrink-0 rounded-xl" />
+      <img src="/brand/humo-mark.svg" alt="" className="size-9 shrink-0 rounded-xl" />
       <div className="min-w-0 flex-1">
         <div className="flex items-center justify-between gap-2">
-          <p className="text-[13px] font-semibold text-jg-700">Sensai explains</p>
+          <p className="text-[13px] font-semibold text-jg-700">Humo explains</p>
           {onAsk && (
             <button onClick={onAsk} className="text-[12px] font-medium text-jg-700 hover:text-jg-600">
               Ask a follow-up
@@ -73,7 +73,7 @@ export function HumoExplain({ testId, qKey, q, compact = false, onAsk, math = fa
           </div>
         ) : state.error ? (
           <div className="mt-1.5 text-[13.5px] text-pine/75">
-            <p>{state.offline ? 'Sensai is offline right now.' : state.error}</p>
+            <p>{state.offline ? 'Humo is offline right now.' : state.error}</p>
             {state.offline && <p className="mt-1 text-[12px] text-moss">{state.error}</p>}
             {!state.offline && (
               <button onClick={() => setN((x) => x + 1)} className="mt-2 inline-flex items-center gap-1 text-[12px] font-semibold text-jg-700">
@@ -82,7 +82,7 @@ export function HumoExplain({ testId, qKey, q, compact = false, onAsk, math = fa
             )}
           </div>
         ) : (
-          <div className="mt-2.5 space-y-2" aria-label="Sensai is writing">
+          <div className="mt-2.5 space-y-2" aria-label="Humo is writing">
             <div className="h-2.5 w-11/12 skeleton rounded-full" />
             <div className="h-2.5 w-4/5 skeleton rounded-full" />
             <div className="h-2.5 w-2/3 skeleton rounded-full" />

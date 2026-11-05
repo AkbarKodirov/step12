@@ -1,0 +1,249 @@
+# Math Hard Book: Advanced Math, questions 121–180 (repeats of earlier questions are left out)
+@M121 | NLF | B
+A certain investment account offers a special interest rate for the first 6 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Bennett opened one of these accounts with an original account balance of $600 and did not make any other deposits or withdrawals. 6 months after Bennett opened the account, the balance had increased by 0.4% of the original balance. 8 months after Bennett opened the account, the balance had increased by an additional 0.3% of the balance at the end of the first 6 months. Every 2 months after the first 8 months, the balance had increased by an additional 0.3% of the balance 2 months before. Which of the following equations could represent the account balance B(x), in dollars, x months after the account was opened, where x ≥ 6?
+A) B(x) = 602.40(1.003)^{{x/2} - 6}
+B) B(x) = 602.40(1.003)^{{x - 6/2}}
+C) B(x) = 602.40(1.003)^{2x - 12}
+D) B(x) = 602.40(1.003)^{2x - 6}
+= After 6 months the balance is 600(1.004) = 602.40, and then it grows by 0.3% every 2 months: {x - 6/2} periods.
+
+@M122 | NLF | A
+The function j is defined by j(x) = {10x + 5/3p}, and the function k is defined by k(x) = {j(x) · p/x + 1}, where p is a positive constant. What is the value of k(9)?
+A) {19/6}
+B) {10/3}
+C) {95/13}
+D) {85/3}
+= j(9) = {95/3p}, so k(9) = {95/3p} · {p/10} = {95/30} = {19/6}.
+
+@M123 | NLF | B
+$ h(x) = 4^{3 - x}
+Which of the following equivalent forms of the given function h displays the y-coordinate of the y-intercept of the graph of y = h(x) in the xy-plane as a constant or coefficient?
+A) h(x) = 4^3 · ({1/4})^x
+B) h(x) = 64({1/4})^x
+C) h(x) = 4^{-(x - 3)}
+D) h(x) = ({1/4})^{x - 3}
+= h(0) = 4^3 = 64, which is the coefficient in B.
+
+@M125 | NLF | 74
+The function p is defined by p(x) = a(x - 1)^2 + b, where a and b are constants. If p(0) = 10 and p(3) = 19, what is the value of p(-1) + p(5)?
+= a + b = 10 and 4a + b = 19 give a = 3, b = 7. Then p(-1) = 4a + b = 19 and p(5) = 16a + b = 55, for a total of 74.
+
+@M126 | NLF | 9
+$ z(w) = (0.954)^{2w}
+The function z is defined by the equation shown. The value of z(w) decreases by q% for each increase by 1 in the value of w. To the nearest whole number, what is the value of q?
+= 0.954^2 ≈ 0.9101, a decrease of about 8.99% for each increase of 1 in w, so q ≈ 9.
+
+@M127 | NLF | 3
+The exponential function f is defined by f(x) = a · b^x, where a and b are positive constants. If f(2) = 12 and f(5) = 324, what is the value of b?
+= b^3 = {324/12} = 27, so b = 3.
+
+@M128 | NLF | 1
+The function f is defined by f(x) = {x^2 + ax + b/3x + c}, where a, b, and c are constants. The graph of y = f(x) in the xy-plane does not intersect the line x = 2. If f(3) = f(5) = 0, what is the value of a + b + c?
+= The graph misses x = 2, so 3(2) + c = 0 and c = -6. The zeros 3 and 5 give x^2 - 8x + 15. So a + b + c = -8 + 15 - 6 = 1.
+
+@M129 | NLE | -4
+$ (x - k)^2 = (k - 3a)(x - k)
+In the given equation, a and k are constants, where k > 3a. The sum of the solutions to the equation is 3k + 12. What is the value of a?
+= The solutions are x = k and x = 2k - 3a, so 3k - 3a = 3k + 12 and a = -4.
+
+@M132 | INEQ | B
+$ -4 < 3x + 5 ≤ 17
+Which of the following represents all the values of x that satisfy the inequality above?
+A) -3 ≤ x < 4
+B) -3 < x ≤ 4
+C) -9 < x ≤ 12
+D) -9 ≤ x < 12
+= Subtract 5 and divide by 3: -3 < x ≤ 4.
+
+@M144 | NLF | D
+The functions f and g are defined by the equations shown, where a and b are integer constants, a < b and b < 0. Which of the following equations displays, as a constant or coefficient, the y-coordinate of the y-intercept of the graph of the corresponding function?
+I. f(x) = a(4.2)^{x + b}
+II. g(x) = a(4.2)^x + b
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= f(0) = a(4.2)^b and g(0) = a + b. Neither value appears by itself in its equation.
+
+@M145 | EQX | C
+Which of the following expressions has a factor of 2x + 3b, where b is a positive integer constant?
+A) 4x^2 + 10x + 9b
+B) 4x^2 + 21x + 18b
+C) 4x^2 + 24x + 18b
+D) 4x^2 + 33x + 18b
+= With x = -{3b/2}, 4x^2 + kx + 18b = 9b^2 - {3bk/2} + 18b = 0 gives k = 6b + 12. For b = 2, k = 24.
+
+@M146 | NLE | -1
+$ f(x) = (r - s)x^2 - (s - r)x + rs
+In the function f defined above, r and s are positive constants. When the graph of y = f(x) is plotted in the xy-plane, it intersects the x-axis at (a, 0) and (b, 0). What is the value of a + b?
+= f(x) = (r - s)x^2 + (r - s)x + rs, so the sum of the zeros is -{r - s/r - s} = -1.
+
+@M148 | NLF | 54.5 | 109/2
+The vertex of the function f(x) is (9, -13), and the point (3, -4) lies on the parabola. If h(x) = 4 · f(x - 2), what is the value of h(0) - 2f(0)?
+= f(x) = p(x - 9)^2 - 13 with 36p - 13 = -4, so p = {1/4}. Then h(0) = 4f(-2) = 4({121/4} - 13) = 69 and f(0) = {81/4} - 13 = 7.25, so h(0) - 2f(0) = 54.5.
+
+@M149 | NLF | D
+Which of the following functions has (have) a minimum value at -3?
+I. f(x) = -6(3)^x - 3
+II. g(x) = -3(6)^x
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= Both functions decrease without bound as x grows, so neither has a minimum value. (f only approaches -3 from below as x goes to negative infinity.)
+
+@M150 | NLF | 11.46
+A quadratic function gives the estimated length of daylight d(t), in hours, in a certain city t months after March 1, where 0 ≤ t ≤ 7. According to the function, the estimated length of daylight is 12.66 hours 6 months after March 1 and the maximum estimated length of daylight is 13.91 hours 3.5 months after March 1. Based on this function, what is the estimated length of daylight, in hours, on March 1?
+= d(t) = a(t - 3.5)^2 + 13.91 and d(6) = 12.66 give a = -0.2. Then d(0) = -0.2(12.25) + 13.91 = 11.46.
+
+@M151 | NLF | -13/3 | -4.333
+The function f is defined by f(x) = ax^2 + bx + c, where a, b, and c are constants. The graph of y = f(x) is a parabola where f(-11) = f(-1). If b is an integer less than -3, what is the greatest possible value of a + b?
+= The axis is x = -6, so -{b/2a} = -6 and a = {b/12}. Then a + b = {13b/12}, greatest when b = -4: -{13/3}.
+
+@M152 | NLE | 33
+$ nx^2 - 16x = 26x^2 - 8
+In the given equation, n is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of n?
+= (n - 26)x^2 - 16x + 8 = 0 needs 256 - 32(n - 26) > 0, so n < 34. The greatest integer is 33.
+
+@M153 | NLF | D
+$ f(x) = k^3(k^x) + b
+The function f is defined by the equation above for x ≥ 0, where k and b are positive constants and k < 1. Which of the following must be true?
+I. The maximum value of the function is displayed as a constant or coefficient.
+II. f(1) = f(0) · k
+III. f(a) < b for some a > 0
+A) I only
+B) II and III only
+C) I and III only
+D) Neither I, II, nor III
+= f decreases, so its maximum is f(0) = k^3 + b, which is not displayed. f(1) = k^4 + b, but f(0) · k = k^4 + bk. And f(a) = k^{3 + a} + b is always greater than b.
+
+@M154 | NLF | 4.8
+A quadratic function models the height, in feet, of an object above the ground in terms of time in seconds after the object was launched. The model estimates that the object was launched from a height of 0 feet and reached a maximum height of 207.36 feet at 3.6 seconds. The model also estimates that the object was at a height of 184.32 feet x seconds after it was launched. What is the greatest possible value of x?
+= h(t) = a(t - 3.6)^2 + 207.36 with h(0) = 0 gives a = -16. Then (t - 3.6)^2 = {23.04/16} = 1.44, so t = 2.4 or 4.8.
+
+@M155 | NLE | 4 | -4
+$ 80x^2 + 80x = -10
+One solution to the given equation can be written as x = {-8 - k√{2}/16}, where k is a constant. What is the value of k?
+= 8x^2 + 8x + 1 = 0 gives x = {-8 ± √{32}/16} = {-8 ± 4√{2}/16}, so k = 4 (k = -4 names the other solution).
+
+@M156 | NLF | C
+$ g(x) = x^3 + ax^2 + bx + c
+The function g is defined by the given equation, where a, b, and c are integer constants. The zeros of the function are -2, -7, and 3. What is the value of a?
+A) -42
+B) -6
+C) 6
+D) 42
+= g(x) = (x + 2)(x + 7)(x - 3), and a is minus the sum of the zeros: -(-2 - 7 + 3) = 6.
+
+@M157 | EQX | 329
+$ 57x^{18} + bx^9 + 34
+The given expression, where b is a constant, is equivalent to (3x^9 + q)(rx^9 + 2), where q and r are constants. What is the value of b?
+= 3r = 57 and 2q = 34 give r = 19 and q = 17. Then b = 3(2) + qr = 6 + 323 = 329.
+
+@M159 | NLF | A
+$ f(x) = -(x + a)^2(x - b)(x - c)
+For the polynomial function above, a, b, and c are positive constants. Let b < k < c for some constant k. Which of the following must be true?
+I. k > 0
+II. f(k) > 0
+III. f(0) > 0
+A) I and II only
+B) II and III only
+C) I and III only
+D) I, II, and III
+= k > b > 0. At x = k, (k - b) > 0 and (k - c) < 0, so f(k) = -(positive)(negative) > 0. But f(0) = -a^2bc < 0.
+
+@M160 | NLE | 6.5 | 13/2
+The function w is defined by w(r) = {1/r - 8} - {r - 5/-r + 4.25}. What is the greatest possible value of r such that w(r) = 0?
+= {1/r - 8} = {r - 5/4.25 - r} gives 4.25 - r = (r - 5)(r - 8), so r^2 - 12r + 35.75 = 0 and r = 5.5 or 6.5.
+
+@M161 | NLF | C
+The function f is defined by f(x) = 11x^3. The graph of y = f(-x) + c in the xy-plane, where c is a positive integer constant, has an x-intercept at (r, 0) and a y-intercept at (0, t). Which of the following must be true about r and t?
+A) r < 0 and t < 0
+B) r < 0 and t > 0
+C) r > 0 and t > 0
+D) r > 0 and t < 0
+= y = -11x^3 + c. The y-intercept is t = c > 0, and the x-intercept is r = ^3√{{c/11}} > 0.
+
+@M162 | NLF | D
+$ f(x) = b√{a - x} + 7√{a - x}
+For the function f, a and b are constants and f(16) = 0. If f(9) > 0, which of the following could be the value of a + b?
+A) -3
+B) 7
+C) 9
+D) 15
+= f(x) = (b + 7)√{a - x}, and f(16) = 0 gives a = 16. f(9) = (b + 7)√{7} > 0 means b > -7, so a + b > 9.
+
+@M164 | EQX | D
+Which expression is a factor of y^2(x - 9) - 36(x - 9)^3?
+A) y(x - 9)
+B) (x - 9)(x - 6)
+C) y + x - 9
+D) y + 6x - 54
+= The expression is (x - 9)(y^2 - 36(x - 9)^2) = (x - 9)(y - 6x + 54)(y + 6x - 54).
+
+@M165 | NLE | D
+$ x^2 + y^2 = 36
+$ y = mx + {b/4}
+In the given system, m and b are negative constants. The graphs intersect at (-5, y_1), where y_1 < 0. Which expression represents the value of b?
+A) -{5m/4} + {√{11}/4}
+B) {5m/4} - {√{11}/4}
+C) -20m + 4√{11}
+D) 20m - 4√{11}
+= From the circle, y_1 = -√{36 - 25} = -√{11}. Then -√{11} = -5m + {b/4}, so b = 20m - 4√{11}.
+
+@M166 | NLF | A
+The functions f and g are defined by the given equations, where x ≥ 0, a and b are integer constants, a < b, and a > 1. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, for x ≥ 0?
+I. f(x) = a(0.63)^{-bx}
+II. g(x) = a(1.37)^{x + 2} + b
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= f increases for x ≥ 0 (b > 0), so its minimum is f(0) = a, the coefficient. g's minimum is g(0) = 1.37^2 a + b, which is not shown.
+
+@M167 | NLF | B
+The function h is defined by h(x) = a^x + b, where a and b are positive constants. The graph of y = h(x) passes through (0, 4) and (2, 12). What is the value of ab?
+A) 8
+B) 9
+C) 12
+D) 15
+= h(0) = 1 + b = 4 gives b = 3, and a^2 + 3 = 12 gives a = 3. So ab = 9.
+
+@M169 | NLE | C
+For the equation x(14x + 15) + c = 9, one possible solution is x = {-15 + √{113}/28}. What is the value of c?
+A) 2
+B) 9
+C) 11
+D) -7
+= 14x^2 + 15x + (c - 9) = 0 has discriminant 225 - 56(c - 9) = 113, so c - 9 = 2 and c = 11.
+
+@M170 | EQX | 19/24 | 0.791 | 0.7916 | 0.7917
+Given n^{{5/3}} = k^{{2/5}} and n^{4a + 1} = k, what is the value of a?
+= k = n^{{5/3} · {5/2}} = n^{{25/6}}, so 4a + 1 = {25/6} and a = {19/24}.
+
+@M171 | NLF | A
+$ f(x) = (1.84)^{{x/4}}
+The function f is defined by the given equation. The equation can be rewritten as f(x) = (1 + {p/100})^x, where p is a constant. Which of the following is closest to the value of p?
+A) 16
+B) 21
+C) 46
+D) 96
+= 1.84^{{1/4}} ≈ 1.165, so p ≈ 16.5, closest to 16.
+
+@M172 | NLE | 23
+$ 0 = (x - k)(7x + t) - (x - k)
+In the given equation, k and t are positive constants. A solution to the equation is x = -{22/7}. What is the value of t?
+= The equation is (x - k)(7x + t - 1) = 0. Since k > 0, x = -{22/7} must solve 7x + t - 1 = 0: -22 + t - 1 = 0, so t = 23.
+
+@M173 | EQX | A
+$ -12(5x - 3)^2 + 6(5x - 4)^2
+The given expression can be rewritten as {a/6}x^2 + {b/6}x + {c/6}, where a, b, and c are constants. What is the value of a + b + c?
+A) -252
+B) -126
+C) -42
+D) -7
+= The expression equals -150x^2 + 120x - 12, so a = -900, b = 720, c = -72, and a + b + c = -252.
+
+@M177 | NLF | 638
+The function f is defined by f(x) = {|x|/a} - 14, where a < 0. What is the product of f(15a) and f(8a)?
+= Since a < 0, {|15a|/a} = -15, so f(15a) = -29 and f(8a) = -22. The product is 638.

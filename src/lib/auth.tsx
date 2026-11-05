@@ -21,7 +21,7 @@ type AuthCtx = {
 }
 
 const KEY = 'step12.session'
-const OLD_KEY = 'jamals.session' // before the STEP12 rebrand
+const OLD_KEY = 'jamals.session' // before the Humo AI rebrand
 const Ctx = createContext<AuthCtx | null>(null)
 
 export const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined
@@ -89,7 +89,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   const signInDemo = useCallback(() => {
-    setSession({ token: 'demo', user: { id: 'demo', name: 'Demo student', email: 'demo@step12.uz', provider: 'demo' } })
+    setSession({ token: 'demo', user: { id: 'demo', name: 'Demo student', email: 'demo@humo.ai', provider: 'demo' } })
   }, [])
 
   const signOut = useCallback(() => setSession(null), [])

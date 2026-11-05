@@ -1,0 +1,615 @@
+# Math Hard Book: Problem Solving and Data Analysis (repeats of earlier questions are left out)
+@P1 | EVAL | D
+To determine if age and gender are related to pet ownership at his school, Mark selected a random sample of 50 male 14- to 15-year-old students from the school and a random sample of 60 female 17- to 18-year-old students from the school. For each student, he recorded the student's age, gender, and whether the student owned a pet. Which of the following provides the best explanation for why Mark cannot draw a valid conclusion from this study?
+A) The sample sizes are too small.
+B) The two samples are not of equal size.
+C) Mark will be unable to tell whether a difference in pet ownership is related to age because the two age groups are too close in age.
+D) Mark will be unable to tell whether a difference in pet ownership is related to gender because of the difference in age. Similarly, he will be unable to tell whether a difference in pet ownership is related to age.
+= Every male in the study is younger and every female is older, so age and gender are confounded: any difference could come from either one.
+
+@P2 | ONEV | 18
+A science class studied the feeding behavior of the birds that visited a bird feeder each school day for a period of time. The table summarizes the number of birds the class observed visiting the bird feeder each school day during this period of time.
+| Number of birds | Number of days |
+| 14 | 3 |
+| 15 | 3 |
+| 16 | 4 |
+| 17 | 1 |
+| 18 | 3 |
+| 19 | 9 |
+What is the median number of birds the class observed visiting the bird feeder each school day during this period of time?
+= There are 3 + 3 + 4 + 1 + 3 + 9 = 23 days, so the median is the 12th value. The running totals are 3, 6, 10, 11, 14, so the 12th value is 18.
+
+@P3 | PCT | 15100
+A researcher surveyed undergraduate students, graduate students, and postgraduate students. The number of undergraduate students surveyed was 7,450% of the number of postgraduate students surveyed, and the number of graduate students surveyed was 24% of the undergraduate students surveyed. If there were 3,576 graduate students surveyed, what was the sum of the number of undergraduate students and postgraduate students surveyed?
+= Undergraduates: 3,576 ÷ 0.24 = 14,900. Postgraduates: 14,900 ÷ 74.5 = 200. The sum is 15,100.
+
+@P4 | ONEV | D | fig:p4
+Each of the three data sets represented by the three dot plots has 18 values. The medians of data sets A, B, and C are a, b, and c, respectively. What is the relationship between a, b, and c?
+A) a < b < c
+B) c < b < a
+C) b < c < a
+D) a = b = c
+= With 18 values the median is the mean of the 9th and 10th values. In each plot both of those values are 5, so a = b = c = 5.
+
+@P5 | ONEV | B | fig:p5
+The dot plot represents 13 values in data set A. Data set B is created by adding 39 to each of the values in data set A. Which of the following correctly compares the medians and standard deviations of data sets A and B?
+A) The median of data set B is equal to the median of data set A, and the standard deviation of data set B is equal to the standard deviation of data set A.
+B) The median of data set B is greater than the median of data set A, and the standard deviation of data set B is equal to the standard deviation of data set A.
+C) The median of data set B is greater than the median of data set A, and the standard deviation of data set B is greater than the standard deviation of data set A.
+D) The median of data set B is less than the median of data set A, and the standard deviation of data set B is equal to the standard deviation of data set A.
+= Adding 39 to every value shifts the median up by 39 but does not change how spread out the values are.
+
+@P6 | PCT | A
+The positive number a is 2,800% of the number c, and c is 20% of the number b. What is the value of a - b in terms of c?
+A) 23c
+B) 140c
+C) 560c
+D) 2,240c
+= a = 28c and b = c ÷ 0.2 = 5c, so a - b = 23c.
+
+@P7 | EVAL | D
+A researcher selected 26 guinea pigs from one habitat and 18 wild cavies from another habitat at random in Venezuela. The researcher found that in early adolescence, the number of virtual squares the wild cavies crossed was significantly more than the number of virtual squares the guinea pigs crossed. The researcher also found that the number of virtual squares crossed by both the wild cavies and the guinea pigs decreased from early adolescence to late adolescence. Based on the researcher's findings, which of the following statements is an appropriate conclusion that can be drawn from this study?
+A) The statistically significant difference in behavior between the two species was caused by the differences in habitat.
+B) The statistically significant difference in behavior between the two species was caused by the biological differences between guinea pigs and wild cavies.
+C) The statistically significant difference in behavior during early adolescence between the two groups of animals can be generalized to all guinea pigs and wild cavies.
+D) The statistically significant difference in behavior during early adolescence between the two groups of animals can only be generalized to the habitats in the study.
+= The animals were sampled at random only from these two habitats and were not randomly assigned to anything, so no cause can be claimed and the result applies only to the habitats studied.
+
+@P8 | PCT | 272
+A real estate company offers a series of three webinars. 1,250 people attended the first webinar. 68% of the people who attended the first webinar attended the second webinar, and 32% of the people who attended the first and second webinars attended the third webinar. How many people attended all three webinars?
+= 1,250 × 0.68 = 850 attended the first two, and 850 × 0.32 = 272 attended all three.
+
+@P9 | ONEV | A
+The table gives the frequency of each value in four data sets, A, B, C, and D.
+| Value | Data set A | Data set B | Data set C | Data set D |
+| 5 | 0 | 11 | 15 | 18 |
+| 6 | 10 | 17 | 15 | 14 |
+| 7 | 55 | 19 | 15 | 11 |
+| 8 | 10 | 17 | 18 | 14 |
+| 9 | 0 | 11 | 15 | 18 |
+Which data set has the smallest standard deviation?
+A) Data set A
+B) Data set B
+C) Data set C
+D) Data set D
+= Data set A has most of its values at the center (7) and none at the ends, so its values are the least spread out.
+
+@P10 | PCT | 32
+The positive number a is 3,700% of the number c, and c is 20% of the number b. If a - b = wc, where w is a constant, what is the value of w?
+= a = 37c and b = 5c, so a - b = 32c and w = 32.
+
+@P11 | EVAL | D
+Researchers must conduct an experiment to see whether a new vaccine is effective in relieving certain allergies. They have selected a random sample of 100 patients suffering from allergies. Some of the patients are assigned to the new vaccine while the rest are assigned to the traditional treatment. Which of the following methods of assigning each patient's treatment is most likely to lead to a reliable conclusion about the effectiveness of the new vaccine?
+A) Those who have more than one allergy are assigned to the new vaccine.
+B) The median weight of the patients is found. Those who weigh less than the median weight are assigned to the new vaccine.
+C) The patients divide themselves evenly into two groups. A coin is tossed to decide which group is assigned to the new vaccine.
+D) Each patient is given a random number. Those with an even number are assigned to the new vaccine.
+= Only D assigns each patient at random. In C the patients choose their own groups, which can create differences between the groups.
+
+@P12 | ONEV | C
+$ a, 26, 29, b, 33, 49, c
+For the given data set, the data values are listed in ascending order, where a, b, and c are constants. For this data set, the mean is 36, the median is 29, and the range is 72. What is the value of c?
+A) 53
+B) 72
+C) 79
+D) 98
+= The median is the 4th value, so b = 29. The sum is 7(36) = 252, so a + c = 252 - 166 = 86. With c - a = 72, c = 79.
+
+@P13 | EVAL | D
+A biologist wanted to study the effectiveness of a fertilizer on the growth of corn seeds. The greenhouse was split down the middle: half A was treated with fertilizer, half B was not. The biologist obtained two 750-seed packages. The seeds from one package were planted in the soil treated by the fertilizer, and the seeds from the other package were planted in the soil not treated by the fertilizer. How should the experiment be changed to allow the researcher to conclude whether the fertilizer has an effect on the growth of corn seeds?
+A) No changes to the experiment are required.
+B) All 1,500 corn seeds should receive the fertilizer.
+C) One of the packages of corn seeds should be planted in a field rather than the greenhouse.
+D) Half of the seeds from each package should be randomly assigned to each half of the greenhouse.
+= As it is, a difference could come from the package rather than the fertilizer. Randomly assigning seeds from both packages to both halves removes that problem.
+
+@P14 | ONEV | D
+Data set A consists of 18 different values that have a minimum of 12, a maximum of 80, a mean of 46, and a standard deviation of 17. The values 12 and 80 are removed from the set to create data set B, which consists of 16 different values. Which of the following statements is true?
+A) The mean of data set B is greater than 46.
+B) The mean of data set B is less than 46.
+C) The standard deviation of data set B is greater than 17.
+D) The standard deviation of data set B is less than 17.
+= 12 and 80 average to 46, so the mean stays 46. Removing the two most extreme values makes the data less spread out, so the standard deviation decreases.
+
+@P15 | ONEV | A
+The table gives the frequency of each value in four data sets, A, B, C, and D.
+| Value | Data set A | Data set B | Data set C | Data set D |
+| 60 | 2 | 6 | 4 | 5 |
+| 70 | 3 | 3 | 4 | 4 |
+| 80 | 4 | 3 | 4 | 4 |
+| 90 | 5 | 6 | 4 | 5 |
+Which data set has the greatest mean?
+A) Data set A
+B) Data set B
+C) Data set C
+D) Data set D
+= B, C, and D are symmetric about 75, so each has mean 75. A has mean {1,100/14} ≈ 78.6.
+
+@P16 | PCT | D
+The positive number a is 480% of the number b, and a is 70% of the number c. If c is p% of b, which of the following is closest to the value of p?
+A) 267
+B) 336
+C) 550
+D) 685
+= c = {a/0.7} = {4.8b/0.7} ≈ 6.857b, so p ≈ 685.7.
+
+@P17 | ONEV | A
+Harold is writing a book. To finish by his deadline, he needs to write an average of 3,000 words per week for 4 weeks. He wrote 4,500 words in the first week, 2,800 words in the second week, and 2,400 words in the third week. Which inequality represents the number of words, x, Harold needs to write in the 4th week to meet or exceed his goal?
+A) 4,500 + 2,800 + 2,400 + x ≥ 4(3,000)
+B) {4,500 + 2,800 + 2,400/3} + x ≥ 3,000
+C) 4,500 + 2,800 + 2,400 ≥ x(3,000)
+D) {4,500/4} + {2,800/4} + {2,400/4} + x ≥ 3,000
+= An average of at least 3,000 over 4 weeks means a total of at least 4(3,000) words.
+
+@P18 | PCT | 500
+The mass of object A is 450% of the mass of object B, and the mass of object A is 0.090% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of {p/1,000}?
+= C = {4.5B/0.0009} = 5,000B, so p = 500,000 and {p/1,000} = 500.
+
+@P19 | ONEV | 166
+Data set A contains 23 positive integers and has a mean of 83. The highest value and the two lowest values in data set A are removed to create data set B. The mean of data set B is 87. What is the greatest possible range of the 3 values that were removed to create data set B?
+= The 3 removed values sum to 23(83) - 20(87) = 169. To make the range as large as possible, the two lowest values are 1 and 1, so the highest is 167 and the range is 166.
+
+@P21 | INF | C
+For a poll, an organizer randomly selected 21 professors from a certain liberal arts program at a university. These professors were asked whether they were interested in using a new textbook for their classes, and 14 of them responded "Yes." What is the largest group to which the results of the poll can be generalized?
+A) The 14 professors who responded "Yes"
+B) All liberal arts professors at the university
+C) All professors in the program
+D) All professors at the university
+= The random sample came from this one program, so the results extend only to that program's professors.
+
+@P22 | PCT | B
+The result of increasing a positive quantity by 11% is x. Which expression represents the original quantity in terms of x?
+A) 1.11x
+B) {x/1.11}
+C) 1.11({100 + x/100})
+D) 1.11({100/100 + x})
+= Original × 1.11 = x, so the original quantity is {x/1.11}.
+
+@P23 | PCT | A
+While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 170.00 pounds on Earth and a weight of 186.32 pounds on Neptune. The object's weight on Jupiter is 252.8% of its weight on Earth. If the object's weight on Neptune is x% of its weight on Jupiter, which of the following is closest to the value of x?
+A) 43.35
+B) 71.73
+C) 277.07
+D) 429.76
+= On Jupiter: 170 × 2.528 = 429.76 pounds. Then {186.32/429.76} ≈ 0.4335, so x ≈ 43.35.
+
+@P24 | PCT | 700
+The mass of object A is 483% of the mass of object B, and the mass of object A is 0.069% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of {p/1,000}?
+= C = {4.83B/0.00069} = 7,000B, so p = 700,000 and {p/1,000} = 700.
+
+@P25 | PCT | 395.76
+The value of a video game console increased by 285% from the end of 2015 to the end of 2016. The value of the console then decreased by 21% from the end of 2016 to the end of 2017. Finally, the value of the console increased by 63% from the end of 2017 to the end of 2018. What was the net percentage increase in the value of the video game console from the end of 2015 to the end of 2018? (Round to the nearest hundredth of a percent. Disregard the % sign when entering your answer.)
+= 3.85 × 0.79 × 1.63 = 4.957645, which is a 395.76% increase.
+
+@P26 | RAT | C
+Ashley wanted to save an average of $20 per week over the past 15 weeks. For the first 5 weeks, she saved an average of $15 per week. For the next 5 weeks, she saved an average of $19 per week. For the last 5 weeks, she saved an average of $23 per week. How much more should she have saved each week to hit her goal?
+A) $0.75
+B) $0.80
+C) $1.00
+D) $1.50
+= Her goal was 15 × $20 = $300. She saved 5(15 + 19 + 23) = $285, which is $15 short, or $1.00 per week.
+
+@P27 | PCT | D
+In a collection of items, 10% are red, 25% are green, 35% are blue, and 30% are yellow. If there are 40 green items, how many blue items are in the collection?
+A) 14
+B) 16
+C) 48
+D) 56
+= 40 is 25%, so there are 160 items, and 35% of 160 is 56.
+
+@P28 | ONEV | 14
+A data set consists of 5 numbers. The minimum is 5 and the range is 25. If we delete the minimum, the median will not change, but if we delete the maximum, the median will decrease by 1 unit. If the mean of the data set is 15, what is the median of the data set?
+= Write the set as 5, b, c, d, 30. Deleting 5 gives median {c + d/2} = c, so d = c. Deleting 30 gives median {b + c/2} = c - 1, so b = c - 2. The sum is 75: 5 + (c - 2) + 2c + 30 = 75, so c = 14.
+
+@P29 | INF | D
+A development company is advertising that the mean area of the apartments in a new complex is 1,450 square feet. The complex consists of 10 buildings with a total of 1,000 apartments. A sample of 50 apartments will be selected from the complex to test the company's statement about the mean apartment area. Which of the following is an unbiased sampling method?
+A) Select the first 50 apartments built.
+B) Select the first 50 apartments that are occupied.
+C) Select at random 5 top-floor apartments from each of the buildings.
+D) Select at random 50 apartments from all the apartments in the 10 buildings.
+= Only D gives every apartment the same chance of being chosen.
+
+@P30 | EVAL | D
+To determine if eating chocolate has an effect on men's standardized test scores, researchers surveyed a random population of 8,000 men. Study participants were identified as regular chocolate eaters or non-chocolate eaters and were given a standardized test. They found that the regular chocolate eaters had higher scores than the non-chocolate eaters. What is the most appropriate conclusion for this study?
+A) Eating chocolate regularly causes higher standardized test scores for men and women.
+B) Eating chocolate regularly causes higher standardized test scores for men but not necessarily for women.
+C) There is an association between eating chocolate and higher standardized test scores for men and women, but it is not necessarily a cause-and-effect relationship.
+D) There is an association between eating chocolate and higher standardized test scores for men, but it is not necessarily a cause-and-effect relationship and it does not necessarily exist for women.
+= This is an observational study of men only, so it shows an association for men and nothing about cause or about women.
+
+@P31 | PCT | 15
+For the positive quantities h, j, and k, 94% of h is equivalent to 47% of j, and j is equivalent to 30% of k. What percentage of k is h? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39.)
+= 0.94h = 0.47j gives h = 0.5j, and j = 0.3k, so h = 0.15k, which is 15% of k.
+
+@P32 | EVAL | D
+To study the effect of magnesium supplementation on the sleep quality of adults, a researcher selected 190 adults at random from a community center to participate in a study. Each participant was randomly assigned to take a magnesium supplement or a placebo each day for 6 weeks. At the end of the 6 weeks, the researcher found that the magnesium supplement caused statistically significant improved sleep quality. What feature of this study allowed the researcher to conclude that the magnesium supplement caused the improved sleep quality?
+A) There were more than 100 participants in the study.
+B) The participants were selected at random from the community center.
+C) The sleep efficiency of each participant was measured again at the end of 6 weeks.
+D) Each participant was randomly assigned to take a magnesium supplement or a placebo.
+= Random assignment to treatment is what allows a cause-and-effect conclusion. Random selection only allows generalizing.
+
+@P34 | INF | D
+A researcher conducted a study to determine if certain memorization strategies could improve the performance of chess players. For the study, the researcher selected a random sample of adults who are competing in a chess tournament. At the end of the study, 80% of those sampled reported that they did not find the memorization strategies to be useful during their chess games. Which of the following is the largest population to which the results of this study can be applied?
+A) All chess players who compete in tournaments
+B) All adults who compete in chess tournaments
+C) All chess players competing in the tournament
+D) All adults competing in the tournament
+= The sample was drawn at random from adults in this one tournament, so that is the largest group the results apply to.
+
+@P35 | RAT | B
+John and Karen work at the bakery. John works 7 hours per day, and Karen works 6 hours per day. John produces x brownies per hour and Karen produces y brownies per hour. Which of the following expressions gives the average number of brownies John and Karen produce per hour?
+A) {x + y/13}
+B) {7x + 6y/13}
+C) {xy/13}
+D) {6x + 7y/13}
+= Together they make 7x + 6y brownies in 7 + 6 = 13 hours.
+
+@P37 | PCT | 34.1
+The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined that the buffalo had 139.2 kilograms of muscle, which made up approximately 67.7% of its composition. Of the remaining composition of this buffalo, approximately 51.4% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?
+= Total: 139.2 ÷ 0.677 ≈ 205.61 kg. The rest is 32.3%, about 66.41 kg, and 51.4% of that is about 34.1 kg.
+
+@P38 | PCT | 9.45
+A clothing store buys shirts at a wholesale price of $5.00 each and resells them each at a price that is 270% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 70% of the retail price. What is the discounted price of each remaining shirt, in dollars?
+= Retail: 5 × 2.7 = $13.50. Discounted: 13.50 × 0.7 = $9.45.
+
+@P39 | PCT | 66.07
+A juice mixture has a total volume of 125 liters and is 45% juice by volume. The mixture was created by mixing two different solutions (solution A and solution B). Solution A was 24% juice by volume. Solution B was 64% juice by volume. The volume, in liters, of juice in solution A is equal to a. The volume, in liters, of juice in solution B is equal to b. The numbers a, b, and p are all positive constants. If a is p% less than b, what is the value of p? (Round your answer to the nearest hundredth.)
+= With x liters of A: 0.24x + 0.64(125 - x) = 56.25, so x = 59.375. Then a = 14.25 and b = 42, and p = {42 - 14.25/42} × 100 ≈ 66.07.
+
+@P40 | PCT | 1.07 | 1.067
+A set of five consecutive even integers is ordered from least to greatest. The sum of the first and fourth even integers is 5,860% more than the quotient of the fifth even integer and 30. The first even integer is p% less than the fifth even integer, where p is a constant. What is the value of p? (Round your answer to the nearest hundredth.)
+= With integers n, n + 2, …, n + 8: 2n + 6 = 59.6 · {n + 8/30}, which gives n = 742 and a fifth integer of 750. Then p = {8/750} × 100 ≈ 1.07.
+
+@P41 | ONEV | D
+A digital marketing agency has three groups of clients. The first group consists of 8 clients who are charged a monthly fee of at least $170 but no more than $190. The second group consists of 11 clients who are charged a monthly fee of at least $200 but no more than $230. The third group consists of 21 clients who are charged a monthly fee of at least $240 but no more than $300. If a new client who is charged a monthly fee of $250 is added to the third group, what will be the effect on the mean monthly fee charged by the agency?
+A) The mean will increase.
+B) The mean will decrease.
+C) The mean will remain the same.
+D) There is not enough information to determine how the mean will change.
+= The current mean can be anywhere from $215 to about $258.75. Since $250 is inside that range, the mean could go up or down.
+
+@P42 | RAT | B
+A chemist mixed x liters of a 2% saline solution with y liters of a 5% saline solution to produce a 3% saline solution. Which equation best represents this situation? (Assume the volumes of the solutions are additive.)
+A) 0.02x + 0.05y = 3(x + y)
+B) 0.02x + 0.05y = 0.03(x + y)
+C) 0.2x + 0.5y = 3(x + y)
+D) 0.2x + 0.5y = 0.3(x + y)
+= The salt from each solution adds up to 3% of the total volume x + y.
+
+@P43 | PCT | 17.9
+On a plot of land, 52.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 21.5% of the square footage of the farmland, and there are buildings on exactly 14.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?
+= p = 0.52(21.5) + 0.48(14.0) = 11.18 + 6.72 = 17.9.
+
+@P44 | ONEV | B
+The standard deviation of data set A is x, and the standard deviation of data set B is y.
+$ Data set A: 19, 19, 21, 21, 23, 24, 24
+$ Data set B: 1, 1, 3, 3, 5, 6, 6
+Which of the following statements about the standard deviations of the data sets is true?
+A) x > y
+B) x = y
+C) x < y
+D) The relationship between x and y cannot be determined.
+= Each value in A is 18 more than the matching value in B. Shifting data does not change the spread, so x = y.
+
+@P45 | PCT | A
+The value of an autographed baseball increased by 178% from the end of 2012 to the end of 2013 and then decreased by 21% from the end of 2013 to the end of 2014. What was the net percentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?
+A) 119.62%
+B) 140.62%
+C) 157.00%
+D) 236.38%
+= 2.78 × 0.79 = 2.1962, which is a 119.62% increase.
+
+@P46 | PCT | 451.5
+A field study tracked two animal populations: lions and antelopes. At the start of a week, the two populations were equal in number. By the end of the week, the number of antelopes had increased by 2,106% of its starting number, and the number of lions had increased by 300% of its starting number. At the end of the week, the number of antelopes was p% greater than the number of lions. What is the value of p?
+= Starting from N each: antelopes 22.06N and lions 4N. {22.06/4} = 5.515, so p = 451.5.
+
+@P47 | ONEV | C | fig:p47
+The graph shows the distribution of all stars within 12 light-years of Earth by total energy output per second, or luminosity. Which of the following could be the median luminosity of all the stars within 12 light-years of Earth?
+A) 0.18
+B) 0.052
+C) 0.0063
+D) 0.0003
+= There are 31 stars, so the median is the 16th from the lowest. The lowest 9 are below 0.001 and the next 7 are from 0.001 to 0.01, so the 16th is in 0.001 to 0.01.
+
+@P48 | ONEV | 18 | fig:p48
+The histograms shown summarize two data sets, X and Y. Each data set consists of 25 whole numbers. In each histogram, the first interval represents the frequency of whole numbers greater than or equal to 70, but less than 75. The second interval represents the frequency of whole numbers greater than or equal to 75, but less than 80, and so on. What is the largest possible difference between the median of data set Y and the mean of data set X?
+= The median of Y is the 13th value, which falls in 90 to 95, so it is at most 94. The smallest possible mean of X is {9(70) + 6(75) + 6(80) + 4(85)/25} = 76. The difference is at most 94 - 76 = 18.
+
+@P49 | PCT | A
+The speeds of particles A, B, and C are a meters per second, b meters per second, and c meters per second, respectively. If the speed of particle A is 6,000% of the speed of particle C and the speed of particle C is 0.008% of the speed of particle B, which expression represents the value of a + b in terms of c?
+A) 12,560c
+B) 6,125c
+C) 6,008c
+D) 1,850c
+= a = 60c and b = c ÷ 0.00008 = 12,500c, so a + b = 12,560c.
+
+@P50 | ONEV | C
+A data set of 27 different numbers has a mean of 18 and a median of 18. A new data set is created by adding 20 to all of the values greater than the median while leaving all other numbers in the data set unchanged. Which of the following values will not change?
+A) Mean
+B) Range
+C) Median
+D) Sum of the numbers
+= The 14th value stays in the middle and is not changed, so the median stays 18. The sum, mean, and range all increase.
+
+@P51 | EVAL | B
+A survey of 500 adults finds a correlation coefficient of 0.7 between the number of hours spent reading per week and their vocabulary test scores. The survey also reports that 60% of participants read more than 5 hours per week, with a margin of error of ±5%. Which conclusion is most appropriate?
+A) Reading more hours per week causes higher vocabulary scores.
+B) There is a strong positive relationship between reading hours and vocabulary scores, but causation cannot be determined.
+C) Between 55% and 65% of adults read more than 5 hours per week, and this improves their vocabulary.
+D) The correlation of 0.7 means 70% of vocabulary scores are explained by reading hours.
+= A survey shows association, not cause. A correlation of 0.7 is a strong positive relationship.
+
+@P53 | ONEV | C
+A data set of 77 different numbers has a mean of 1,073. A new data set is created by adding 93 to each number in the original data set that is greater than the median and subtracting 93 from each number in the original data set that is less than the median. Which of the following measures does NOT have the same value in both the original and the new data sets?
+A) Sum of the numbers
+B) Mean
+C) Standard deviation
+D) Median
+= 38 numbers go up by 93 and 38 go down by 93, so the sum, mean, and median stay the same. The values spread farther apart, so the standard deviation changes.
+
+@P54 | ONEV | C
+There are 50 unique numbers in a data set. If the value of each number increases by 25%, which of the following will be true?
+A) The new mean will remain the same, but the new standard deviation will be 25% more than the previous standard deviation.
+B) The new mean will be 25% more than the previous mean, but the standard deviation will remain the same.
+C) The new mean will be 25% more than the previous mean, but the standard deviation will increase.
+D) Neither the mean nor the standard deviation of the values will change.
+= Multiplying every value by 1.25 multiplies the mean by 1.25 and also multiplies the standard deviation by 1.25, so it increases.
+
+@P55 | PCT | 19.459 | 19.46
+The mass of object A is 144% of the mass of object B, and the mass of object A is 0.740% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of {p/1,000}?
+= C = {1.44B/0.0074} ≈ 194.59B, so p ≈ 19,459 and {p/1,000} ≈ 19.459.
+
+@P56 | INF | D
+A nutritionist wants to conduct a survey to estimate the mean number of servings of vegetables eaten by a certain group of people each day. The nutritionist has not yet decided which group of people to survey. Surveying a random sample from which of the following groups would most likely result in the smallest margin of error?
+A) Residents of the same city
+B) Customers of a certain restaurant
+C) Viewers of the same television show
+D) Students who are following the same daily diet plan
+= People on the same diet plan eat very similar amounts of vegetables. Less variability gives a smaller margin of error.
+
+@P57 | PCT | A
+The value of a collectible comic book increased by 167% from the end of 2011 to the end of 2012 and then decreased by 16% from the end of 2012 to the end of 2013. What was the net percentage increase in the value of the collectible comic book from the end of 2011 to the end of 2013?
+A) 124.28%
+B) 140.28%
+C) 151.00%
+D) 209.72%
+= 2.67 × 0.84 = 2.2428, which is a 124.28% increase.
+
+@P59 | INF | C
+The principal of a local high school is conducting a survey on whether students felt online learning was still effective during the COVID-19 pandemic. Of the 200 students who were randomly sampled, 43% felt that online learning is still effective. Based on the margin of error, the principal expects that somewhere between 35% and 51% of all students feel that online learning is still effective during the COVID-19 pandemic. What is the margin of error?
+A) 43%
+B) 16%
+C) 8%
+D) 2%
+= 35% to 51% is 43% ± 8%.
+
+@P61 | ONEV | A
+For which of the following sets of 9 data points is the median less than the mean?
+A) [img:p61a] Dot plot: 1 (4 dots), 2 (2 dots), 3, 4, 5 (1 dot each)
+B) [img:p61b] Dot plot: 1 (1), 2 (1), 3 (2), 4 (3), 5 (2)
+C) [img:p61c] Dot plot: 1 (1), 2 (2), 3 (3), 4 (2), 5 (1)
+D) [img:p61d] Dot plot: 1 (1), 2 (1), 3 (1), 4 (2), 5 (4)
+= In A the median (5th value) is 2 and the mean is {20/9} ≈ 2.2, so the median is less. B and D are skewed left (median greater), and C is symmetric.
+
+@P62 | RAT | C
+A biologist mixed a solution that is 0.3% sodium chloride by mass with a solution that is 0.15% sodium chloride by mass to obtain a new solution, which has a mass of 80 grams and contains 0.21 grams of sodium chloride. How many grams of 0.3% sodium chloride solution did the biologist use?
+A) 0.14
+B) 20
+C) 60
+D) 79.86
+= 0.003x + 0.0015(80 - x) = 0.21, so 0.0015x = 0.09 and x = 60.
+
+@P63 | ONEV | A
+The table gives the distribution of daily travel times between two towns for bus A and bus B over a 40-day period.
+| Bus A time (min) | Frequency | Bus B time (min) | Frequency |
+| 44 | 5 | 25 | 5 |
+| 45 | 10 | 30 | 10 |
+| 47 | 15 | 35 | 15 |
+| 48 | 10 | 40 | 10 |
+Which statement correctly compares the standard deviations of travel times for bus A and bus B?
+A) The standard deviation of travel times for bus A is less than the standard deviation of travel times for bus B.
+B) The standard deviation of travel times for bus B is less than the standard deviation of travel times for bus A.
+C) The standard deviation of travel times for bus A is equal to the standard deviation of travel times for bus B.
+D) There is not enough information to compare these standard deviations.
+= Bus A's times range only from 44 to 48, while bus B's range from 25 to 40, so bus A's times are much less spread out.
+
+@P65 | PCT | C
+In 2005, Aster earned 12% more than in 2004, and in 2006 Aster earned 6% more than in 2005. If Aster earned y times as much in 2004 as in 2006, which of the following is closest to the value of y?
+A) 0.5000
+B) 0.7200
+C) 0.8423
+D) 1.1872
+= 2006 earnings are 1.12 × 1.06 = 1.1872 times 2004 earnings, so y = {1/1.1872} ≈ 0.8423.
+
+@P66 | INF | B
+A survey was conducted in Arlington to estimate the percent of adult residents who support the addition of a gas station at a popular intersection in their town. Based on the survey, it is estimated that 51% of all adult residents of Arlington support the addition of a gas station at a popular intersection in their town, with an associated margin of error of 7%. Which of the following is the most appropriate conclusion about all adult residents of Arlington?
+A) The addition of a gas station at a popular intersection in the town is supported by more than 58% of all adult residents of Arlington.
+B) Plausible values for the percent of all adult residents of Arlington who support the addition of a gas station at a popular intersection in their town are between 44% and 58%.
+C) Plausible values for the percent of all adult residents of Arlington who support the addition of a gas station at a popular intersection in their town are either less than 44% or more than 58%.
+D) The addition of a gas station at a popular intersection in the town is supported by exactly 44% of all adult residents of Arlington.
+= 51% ± 7% gives plausible values from 44% to 58%.
+
+@P67 | PCT | A
+The value of a painting increased by 186% from the end of 2011 to the end of 2012 and then decreased by 21% from the end of 2012 to the end of 2013. What was the net percentage increase in the value of the painting from the end of 2011 to the end of 2013?
+A) 125.94%
+B) 146.9%
+C) 165.00%
+D) 246.00%
+= 2.86 × 0.79 = 2.2594, which is a 125.94% increase.
+
+@P68 | RAT | A
+The area of a rectangular region is increasing at a rate of 210 square feet per hour. Which of the following is closest to this rate in square meters per minute? (Use 1 meter = 3.28 feet.)
+A) 0.33
+B) 1.07
+C) 11.48
+D) 19.52
+= 1 square meter = 3.28^2 = 10.7584 square feet, so {210/10.7584 × 60} ≈ 0.33 square meters per minute.
+
+@P69 | RAT | A
+A store sells notebooks individually and in packs of 8. Individual notebooks are sold for $3 each, and packs of 8 are sold for $19 per pack. Last week, the store received a total of $589 from notebook sales. If the store sold n individual notebooks and p packs, which equation represents this situation?
+A) 3n + 19p = 589
+B) 8n + 19p = 589
+C) 3n + 8p = 589
+D) 19n + 3p = 589
+= Individual sales bring in 3n dollars and packs bring in 19p dollars.
+
+@P70 | PROB | B
+A survey was conducted asking adults which of three streaming services (A, B, and C) they subscribe to. The results showed that 55% subscribe to service A, 40% subscribe to service B, and 25% subscribe to both A and B. None of the respondents subscribe to service C. A person who subscribes to service A is selected at random. What is the probability that this person also subscribes to service B?
+A) {1/4}
+B) {5/11}
+C) {4/11}
+D) {1/2}
+= P(B given A) = {25/55} = {5/11}.
+
+@P71 | RAT | C
+A college student earns $12 per hour working part-time. After working for a number of hours, the student's total earnings can be modeled by the equation E = 12h. If the student works an additional 5 hours per week for 4 weeks, which of the following represents the change in total earnings?
+A) $48
+B) $60
+C) $240
+D) $480
+= 5 × 4 = 20 extra hours, and 12 × 20 = $240.
+
+@P72 | TWOV | B | fig:p72
+The scatterplot shows the relationship between the number of practice hours x and test scores y for 12 students. A line of best fit is drawn through the data. Which of the following statements about the line of best fit must be true?
+A) The line passes through all 12 data points.
+B) As x increases, y tends to increase.
+C) The data has no outliers.
+D) The correlation is negative.
+= The line of best fit has a positive slope, so test scores tend to rise as practice hours rise. The line does not pass through every point.
+
+@P73 | INF | D
+A researcher surveyed 200 randomly selected adults and found that 84 of them regularly exercised. Based on the survey, which of the following is the best estimate for the proportion of adults in the population who regularly exercise?
+A) 0.22
+B) 0.35
+C) 0.38
+D) 0.42
+= {84/200} = 0.42.
+
+@P74 | ONEV | A
+A data set has a mean of 72 and a standard deviation of 8. A new data set is created by multiplying each value in the original data set by 2. What are the mean and standard deviation of the new data set?
+A) Mean: 144, Standard deviation: 16
+B) Mean: 144, Standard deviation: 8
+C) Mean: 72, Standard deviation: 16
+D) Mean: 72, Standard deviation: 8
+= Multiplying every value by 2 doubles both the mean and the standard deviation.
+
+@P75 | RAT | C
+A hotel offers two types of rooms: single and double. On a given night, the hotel has 120 rooms available. Single rooms cost $90 per night and double rooms cost $130 per night. On that night, all rooms were booked and the total revenue was $13,400. How many double rooms were booked?
+A) 35
+B) 50
+C) 65
+D) 85
+= 90(120 - d) + 130d = 13,400 gives 40d = 2,600, so d = 65.
+
+@P76 | PCT | B
+A population of bacteria doubles every 3 hours. If there are initially 500 bacteria, which of the following expressions gives the number of bacteria after t hours?
+A) 500(2)^t
+B) 500(2)^{t/3}
+C) 500(3)^t
+D) 500(3)^{t/2}
+= The population is multiplied by 2 once every 3 hours, which is {t/3} times in t hours.
+
+@P80 | PROB | 1/4 | 15/60 | .25 | 0.25
+A department store sells pants in three lengths: short, regular, and long. The table shows the distribution of pant length and color. A pair of pants is selected at random. What is the probability of selecting a pair of pants that is brown, given that the pair of pants is regular length?
+| Length | Black | Brown | Blue | Total |
+| Short | 25 | 14 | 24 | 63 |
+| Regular | 23 | 15 | 22 | 60 |
+| Long | 20 | 19 | 19 | 58 |
+| Total | 68 | 48 | 65 | 181 |
+= Of the 60 regular-length pants, 15 are brown: {15/60} = {1/4}.
+
+@P81 | INF | C
+A science club from a high school in Ohio conducted an experiment on the effect of smell on taste. 80 students from the high school were selected at random. 32 were able to correctly identify the pureed food sample while wearing nose plugs. Which of the following is the largest population to which the results of the experiment can be generalized?
+A) All students from high schools in Ohio
+B) The 80 students who participated in the experiment
+C) All students from the high school
+D) The 32 students who correctly identified the food sample
+= The random sample came from one high school, so the results extend to that school's students.
+
+@P82 | INF | A
+A research manager selected 2 random samples of ovens to estimate the average preheat time to 325°F. The first sample gave an estimate of 15.2 minutes with a margin of error of 1 minute. The second sample gave 15.4 minutes with a margin of error of 2.2 minutes. Which of the following is the most likely reason the first sample obtained a smaller margin of error?
+A) The first sample contained more ovens than the second sample.
+B) The first sample contained fewer ovens than the second sample.
+C) The first sample took more time on average to preheat.
+D) The first sample took less time on average to preheat.
+= Larger samples give smaller margins of error.
+
+@P83 | PCT | 14100
+A researcher surveyed undergraduate, graduate, and postdoctoral students. The number of undergraduate students surveyed was 6,950% of the number of postdoctoral students surveyed, and the number of graduate students surveyed was 35% of the number of undergraduate students surveyed. If there were 4,865 graduate students surveyed, what was the sum of the number of undergraduate and postdoctoral students surveyed?
+= Undergraduates: 4,865 ÷ 0.35 = 13,900. Postdoctoral: 13,900 ÷ 69.5 = 200. The sum is 14,100.
+
+@P84 | RAT | 7
+The floor of a business office has an area of 1,575 square meters. An architect creates a scale model where each side of the model is {1/15} times the length of the corresponding side of the actual floor. What is the area, in square meters, of the scale model?
+= Areas scale by ({1/15})^2 = {1/225}, and {1,575/225} = 7.
+
+@P85 | PCT | 3400
+When a collection of books is sorted, 20% are nonfiction and the remaining books are fiction. Of the fiction books, 55% are mysteries and the remaining fiction books are romance. If there are 1,224 romance books in this collection, what is the total number of books in the collection?
+= Romance books are 0.8 × 0.45 = 0.36 of the total, so the total is 1,224 ÷ 0.36 = 3,400.
+
+@P86 | RAT | C
+A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week w after the initial observation, where w > 2, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?
+A) p(w) = 2,600 - 180w
+B) p(w) = 2,480 + 180w
+C) p(w) = 1,620 - 180w
+D) p(w) = -120 + 180w
+= After 2 weeks there are 1,340 bees, and after week w there are 1,340 + 180(w - 2) = 980 + 180w. The bees still needed are 2,600 - (980 + 180w) = 1,620 - 180w.
+
+@P87 | RAT | D
+A square map has a side length of 30 inches, and 1 inch on the map represents an actual distance of 17 miles. A smaller version of the same map is printed as a square with the side length 65% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?
+A) 5.95
+B) 10.30
+C) 19.50
+D) 48.57
+= The map shows 30 × 17 = 510 miles across. The smaller map is 30 × 0.35 = 10.5 inches wide, so 1 inch represents {510/10.5} ≈ 48.57 miles.
+
+@P89 | ONEV | B | fig:p89
+The histogram summarizes the distribution of an original data set that represents the number of points per game a basketball team has scored in the last 50 games played. Each bar covers an interval of 10 points centered on the value labeled below it. If the team scores 18 points in the next game and this game is added to the original data set to create a new data set of 51 values, which of the following must be true?
+I. The median number of points per game for the new data set is less than the median number of points per game for the original data set.
+II. The mean number of points per game for the new data set is less than the mean number of points per game for the original data set.
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+= 18 is lower than every score in the original data, so the mean must go down. The new median is the 26th value, which is in the same bar as the old 25th and 26th values; those values could be equal, so the median does not have to decrease.
+
+@P91 | PCT | 31.3
+The composition of a young swamp buffalo is its muscle, bone, and fat. The buffalo had 128.2 kilograms of muscle, comprising approximately 64.4% of its composition. Of the remaining composition, approximately 44.2% was bone. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition were bone?
+= Total: 128.2 ÷ 0.644 ≈ 199.07 kg. The rest is 35.6%, about 70.87 kg, and 44.2% of that is about 31.3 kg.
+
+@P92 | RAT | 4
+How many liters of a 30% chlorine solution must be added to 12 liters of a 10% chlorine solution to obtain a 15% chlorine solution?
+= 0.30x + 0.10(12) = 0.15(x + 12) gives 0.15x = 0.6, so x = 4.
+
+@P93 | RAT | 120
+A 180-gram metal alloy is 50% aluminum. It is made from one metal alloy that is 30% aluminum and a second metal alloy that is 60% aluminum. What is the mass, in grams, of the second metal alloy?
+= 0.3(180 - y) + 0.6y = 90 gives 0.3y = 36, so y = 120.
+
+@P103 | RAT | D
+A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 19 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?
+A) 5.70
+B) 11.18
+C) 31.50
+D) 63.33
+= The map shows 45 × 19 = 855 miles across. The smaller map is 45 × 0.3 = 13.5 inches wide, so 1 inch represents {855/13.5} ≈ 63.33 miles.
+
+@P106 | INF | D
+A company surveyed employees in departments A, B, and C of a large corporation to understand their average daily time spent on remote work and their overall job satisfaction score. They randomly picked 2,500 employees across several regional offices in the US. Employees were asked to categorize their daily remote work hours as less than 2 hours, between 2 and 5 hours, or more than 5 hours. If the results show a connection between time spent remote and job satisfaction, which factor would limit applying these findings to all employees in departments A, B, and C across the entire company?
+A) The employees came from multiple regional offices.
+B) The sample size was too small.
+C) There were more employees from departments B and C than department A.
+D) Employees were not randomly chosen from all departments A, B, and C throughout the company.
+= The sample came only from some regional offices, so it was not a random sample of all employees in those departments across the company.
+
+@P108 | PROB | 0.32 | .32 | 8/25
+For 100 neurons, the table summarizes the distribution of classification and cell body diameter, in micrometers.
+| Classification | Less than 20 | 20 to 30 | Greater than 30 |
+| Sensory neuron | 12 | 3 | 5 |
+| Motor neuron | 0 | 17 | 18 |
+| Interneuron | 10 | 32 | 3 |
+One of these neurons will be selected at random. What is the probability of selecting an interneuron that has a cell body diameter between 20 and 30 micrometers? (Express your answer as a decimal or fraction, not as a percent.)
+= 32 of the 100 neurons are interneurons with a diameter from 20 to 30, so the probability is 0.32.
+
+@P109 | ONEV | 83/122 | .6803 | 0.680 | fig:p109
+Two data sets each containing 20 integers are summarized in histograms. For each histogram, the first interval represents the frequency of integers greater than or equal to 20, but less than 30. The second interval represents the frequency of integers greater than or equal to 30, but less than 40, and so on. The mean of data set A is equal to a. The mean of data set B is equal to b. What is the smallest possible value of {b/a}?
+= Make b as small and a as large as possible. Smallest b = {8(30) + 4(40) + 5(50) + 3(60)/20} = 41.5. Largest a = {4(49) + 8(59) + 8(69)/20} = 61. So {b/a} = {41.5/61} = {83/122}.

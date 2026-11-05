@@ -2,12 +2,13 @@ import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Check, Copy, RotateCcw, Send, X } from 'lucide-react'
 import { useAuth } from '../../lib/auth'
-import { askHumo, HumoOffline, HumoStopped, streamingText, type ChatMsg } from '../humo'
+import { askHumo, HumoLimit, HumoOffline, HumoStopped, streamingText, type ChatMsg } from '../humo'
+import { LimitCard, UsageLine } from './Upgrade'
 import { RichText } from './RichText'
 import { DesmosScreen } from '../../desmos/DesmosScreen'
 import { PlanProposal } from './PlanProposal'
 
-/** Sensai's text with its checked Desmos screens and plan proposals placed where Sensai put them. */
+/** Humo's text with its checked Desmos screens and plan proposals placed where Humo put them. */
 export function HumoReply({ msg }: { msg: ChatMsg }) {
   const parts = msg.text.split(/(\[\[(?:desmos:\d+|plan)\]\])/g)
   const used = new Set<number>()
@@ -30,7 +31,7 @@ export function HumoReply({ msg }: { msg: ChatMsg }) {
   )
 }
 
-/** Copy / try-again row under Sensai's latest reply. */
+/** Copy / try-again row under Humo's latest reply. */
 function ReplyActions({ msg, onRetry }: { msg: ChatMsg; onRetry?: () => void }) {
   const [copied, setCopied] = useState(false)
   const copy = async () => {
@@ -45,7 +46,7 @@ function ReplyActions({ msg, onRetry }: { msg: ChatMsg; onRetry?: () => void }) 
   return (
     <div className="mt-1.5 flex items-center gap-1 pl-9 text-[12px] text-moss">
       {msg.error ? (
-        onRetry && (
+        onRetry && !msg.limit && (
           <button onClick={onRetry} className="inline-flex items-center gap-1.5 rounded-full bg-jg-500 px-3 py-1 font-semibold text-white hover:bg-jg-600">
             <RotateCcw className="size-3.5" /> Try again
           </button>
@@ -84,10 +85,13 @@ export function HumoMessages({ msgs, busy, onRetry }: { msgs: ChatMsg[]; busy: b
           style={{ transformOrigin: m.role === 'user' ? 'bottom right' : 'bottom left' }}
           className={`flex gap-2.5 ${m.role === 'user' ? 'justify-end' : ''}`}
         >
-          {m.role === 'humo' && <img src="/sensai-mark.png" alt="" className="mt-0.5 size-7 shrink-0 rounded-lg" />}
+          {m.role === 'humo' && <img src="/brand/humo-mark.svg" alt="" className="mt-0.5 size-7 shrink-0 rounded-lg" />}
           <div className={`rounded-2xl px-4 py-2.5 text-[14.5px] leading-relaxed ${m.role === 'user' ? 'max-w-[82%] bg-pine text-cream' : `border border-line bg-card text-pine ${m.desmos?.length || m.plan ? 'w-full max-w-[94%]' : 'max-w-[82%]'}`}`}>
             {m.role === 'humo' ? (
-              <HumoReply msg={m} />
+              <>
+                <HumoReply msg={m} />
+                {m.limit && <LimitCard feature={m.limit} />}
+              </>
             ) : (
               <>
                 {m.images?.length ? (
@@ -108,7 +112,7 @@ export function HumoMessages({ msgs, busy, onRetry }: { msgs: ChatMsg[]; busy: b
         <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="flex gap-2.5">
           <span className="relative">
             <span className="absolute inset-0 animate-ping rounded-lg bg-jg-400/40" />
-            <img src="/sensai-mark.png" alt="" className="relative size-7 rounded-lg" />
+            <img src="/brand/humo-mark.svg" alt="" className="relative size-7 rounded-lg" />
           </span>
           <span className="flex items-center gap-1 rounded-2xl border border-line bg-card px-4 py-3">
             {[0, 1, 2].map((i) => (
@@ -164,13 +168,14 @@ export function useHumoChat(greeting: string, context?: string, opts: { initial?
         put({ role: 'humo', text: kept ? `${kept}\n\n*Stopped.*` : '*Stopped.*', at })
         return
       }
+      if (e instanceof HumoLimit) return put({ role: 'humo', error: true, limit: e.feature, text: e.message, at: Date.now() })
       put({ role: 'humo', error: true, text: e instanceof HumoOffline ? e.message : (e as Error).message, at: Date.now() })
     } finally {
       ctl.current = null
       setBusy(false)
     }
   }
-  /** Stops the reply Sensai is writing; what it wrote so far stays. */
+  /** Stops the reply Humo is writing; what it wrote so far stays. */
   function stop() {
     ctl.current?.abort()
   }
@@ -180,7 +185,7 @@ export function useHumoChat(greeting: string, context?: string, opts: { initial?
   return { msgs, busy, send, reset, retry, stop }
 }
 
-/** Slide-over chat with Sensai that already knows the test the student just took. */
+/** Slide-over chat with Humo that already knows the test the student just took. */
 export function HumoDrawer({ open, onClose, context, greeting, suggestions, prefill, subtitle = 'Your Digital SAT tutor', autoSend }: { open: boolean; onClose: () => void; context: string; greeting: string; suggestions: string[]; prefill?: string; subtitle?: string; autoSend?: string | null }) {
   const { msgs, busy, send, retry } = useHumoChat(greeting, context)
   const [input, setInput] = useState('')
@@ -202,7 +207,7 @@ export function HumoDrawer({ open, onClose, context, greeting, suggestions, pref
           <motion.div className="fixed inset-0 z-40 bg-pine/40 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} />
           <motion.aside
             role="dialog"
-            aria-label="Chat with Sensai"
+            aria-label="Chat with Humo"
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
@@ -210,9 +215,9 @@ export function HumoDrawer({ open, onClose, context, greeting, suggestions, pref
             className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col bg-cream"
           >
             <div className="flex items-center gap-3 border-b border-line bg-card px-5 py-4">
-              <img src="/sensai-mark.png" alt="" className="size-10 rounded-xl" />
+              <img src="/brand/humo-mark.svg" alt="" className="size-10 rounded-xl" />
               <div className="flex-1">
-                <p className="text-[15px] font-semibold">Sensai</p>
+                <p className="text-[15px] font-semibold">Humo</p>
                 <p className="text-[12px] text-moss">{subtitle}</p>
               </div>
               <button onClick={onClose} aria-label="Close" className="rounded-full p-2 text-moss hover:bg-cream">
@@ -231,6 +236,9 @@ export function HumoDrawer({ open, onClose, context, greeting, suggestions, pref
                 ))}
               </div>
             )}
+            <div className="mx-4">
+              <UsageLine feature="humo" />
+            </div>
             <form
               onSubmit={(e) => {
                 e.preventDefault()
