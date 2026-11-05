@@ -204,6 +204,30 @@
   "minutesPerModule": 32
  },
  {
+  "id": "dsat24-10-c-rw",
+  "name": "October 2024 International · Form C · Reading & Writing",
+  "type": "EBRW",
+  "year": 2024,
+  "month": 10,
+  "region": "International",
+  "form": "C",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat24-10-c-math",
+  "name": "October 2024 International · Form C · Math",
+  "type": "MATH",
+  "year": 2024,
+  "month": 10,
+  "region": "International",
+  "form": "C",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat24-10-d-math",
   "name": "October 2024 International · Form D · Math",
   "type": "MATH",
