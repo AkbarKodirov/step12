@@ -181,7 +181,7 @@ for (const g of genned) {
   const mc = g.options?.length === 4
   final.push({
     id: `j-${g.id}`,
-    set: 'step12',
+    set: 'humo',
     setName: 'Humo AI collection',
     section: g.section,
     domain: g.domain,

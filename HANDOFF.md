@@ -89,7 +89,7 @@ Humo AI is a Digital SAT prep platform for **Humo AI** in Tashkent. Its AI tutor
 - `server/retrieve.js` ("Humo memory"): indexes every bank and practice-test question (~3,900) at startup. When a student pastes or views one, `/api/chat` adds its checked answer + explanation to the system prompt, so Humo never contradicts Humo AI's key. Word-statistics matching, no AI calls; tested 299/300 exact, 0 wrong, 0 false positives.
 
 ## Oct 22 afternoon (Humo AI rebrand + Humo upgrades)
-- Brand is **Humo AI** (navy #03244a + crimson #bb0937) and the AI is **Humo** (ensō mark, `src/three/HumoCore.tsx`). Internal file/variable names still say `humo`. Storage keys are now `step12.session` / `step12.progress.<email>`; old `jamals.*` keys are read once and moved over (keep that fallback).
+- Brand is **Humo AI** (navy #03244a + crimson #bb0937) and the AI is **Humo** (ensō mark, `src/three/HumoCore.tsx`). Internal file/variable names still say `humo`. Storage keys are now `humo.session` / `humo.progress.<email>`; older `step12.*` and `jamals.*` keys are read once and moved over (keep that fallback).
 - Backups: `server/groq.js` chains Groq → OpenRouter → DeepSeek (DeepSeek only if `DEEPSEEK_API_KEY` is set). GitHub Models was retired by GitHub on 30 Jul 2026 — don't add it back.
 - Humo gets `recent` (last-14-day bank answers) from the client and `practiceSummary()` turns it into per-skill accuracy in the system prompt.
 - Chat: Copy / Answer again / Try again, Stop (also stops generation on the server), voice input (Web Speech API).

@@ -150,9 +150,10 @@ let state: State = initial
 const listeners = new Set<() => void>()
 // Progress is keyed by the account EMAIL, so the same student always finds their data again —
 // even if the server forgot their account id.
-const keyFor = (id: string) => `step12.progress.${id}`
-/** Progress saved before the Humo AI rebrand used this prefix; it is moved over on first load. */
-const oldKeyFor = (id: string) => `jamals.progress.${id}`
+const keyFor = (id: string) => `humo.progress.${id}`
+/** Prefixes used by older builds; progress saved under them is moved to the humo key on first load. */
+const OLD_PREFIXES = ['step12.progress.', 'jamals.progress.']
+const oldRaw = (id: string) => OLD_PREFIXES.reduce<string | null>((r, p) => r ?? localStorage.getItem(p + id), null)
 
 function hydrate(saved: Partial<State> | null): State {
   // returning students who already used the app skip onboarding
@@ -165,14 +166,14 @@ function hydrate(saved: Partial<State> | null): State {
 function legacy(oldId?: string): string | null {
   try {
     if (oldId) {
-      const raw = localStorage.getItem(keyFor(oldId)) ?? localStorage.getItem(oldKeyFor(oldId))
+      const raw = localStorage.getItem(keyFor(oldId)) ?? oldRaw(oldId)
       if (raw) return raw
     }
     let best: string | null = null
     let bestAt = 0
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i)!
-      if (!(k.startsWith('step12.progress.') || k.startsWith('jamals.progress.')) || k.includes('@')) continue
+      if (![keyFor(''), ...OLD_PREFIXES].some((p) => k.startsWith(p)) || k.includes('@')) continue
       const raw = localStorage.getItem(k)!
       const j = JSON.parse(raw)
       const at = Math.max(j.updatedAt ?? 0, ...(j.chats ?? []).map((c: Chat) => c.updatedAt), ...(j.attempts ?? []).map((a: Attempt) => a.finishedAt), ...(j.sessions ?? []).map((x: Session) => x.at), 0)
@@ -192,7 +193,7 @@ function load(key: string, oldId?: string) {
   try {
     let raw = localStorage.getItem(keyFor(key))
     if (!raw) {
-      raw = localStorage.getItem(oldKeyFor(key)) ?? legacy(oldId)
+      raw = oldRaw(key) ?? legacy(oldId)
       if (raw) localStorage.setItem(keyFor(key), raw)
     }
     state = hydrate(raw ? JSON.parse(raw) : null)

@@ -96,7 +96,7 @@ export default function Settings() {
     const blob = new Blob([JSON.stringify({ app: 'Humo AI', exportedAt: new Date().toISOString(), user: { name: user?.name, email: user?.email }, progress: getStore() }, null, 2)], { type: 'application/json' })
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
-    a.download = `step12-progress-${new Date().toISOString().slice(0, 10)}.json`
+    a.download = `humo-ai-progress-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
   }
   async function importData(f: File) {
@@ -118,7 +118,7 @@ export default function Settings() {
     }
     resetStore()
     try {
-      localStorage.removeItem(`step12.progress.${user?.email?.toLowerCase()}`)
+      localStorage.removeItem(`humo.progress.${user?.email?.toLowerCase()}`)
       localStorage.removeItem(`jamals.progress.${user?.email?.toLowerCase()}`)
     } catch {
       /* ignore */

@@ -3,12 +3,12 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Environment, Lightformer, Sparkles } from '@react-three/drei'
 import { Bloom, EffectComposer, Vignette } from '@react-three/postprocessing'
 import * as THREE from 'three'
-import { SensaiCore, introProgress } from './SensaiCore'
+import { HumoCore, introProgress } from './HumoCore'
 import { humoMood } from './humoMood'
 
 type Layout = 'hero' | 'compact'
 
-/** Thin glowing rings behind Sensai. */
+/** Thin glowing rings behind Humo. */
 function Halo() {
   const a = useRef<THREE.Mesh>(null)
   const b = useRef<THREE.Mesh>(null)
@@ -63,7 +63,7 @@ function GoldDust({ count = 1400 }: { count?: number }) {
   )
 }
 
-/** Places Sensai depending on screen shape and scroll position. */
+/** Places Humo depending on screen shape and scroll position. */
 function Rig({ layout, children }: { layout: Layout; children: React.ReactNode }) {
   const group = useRef<THREE.Group>(null)
   const { viewport, size } = useThree()
@@ -130,7 +130,7 @@ export default function HumoScene({ layout = 'hero', bg = '#050e19' }: { layout?
       <Suspense fallback={null}>
         <Rig layout={layout}>
           <Halo />
-          <SensaiCore />
+          <HumoCore />
           <Sparkles count={small ? 30 : 60} scale={[6, 5, 3]} size={2.2} speed={0.35} color="#ffd1dc" opacity={0.8} />
         </Rig>
         {layout === 'hero' && <GoldDust count={small ? 500 : 1400} />}

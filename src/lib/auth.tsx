@@ -20,8 +20,8 @@ type AuthCtx = {
   signOut: () => void
 }
 
-const KEY = 'step12.session'
-const OLD_KEY = 'jamals.session' // before the Humo AI rebrand
+const KEY = 'humo.session'
+const OLD_KEYS = ['step12.session', 'jamals.session'] // used by older builds; moved over on first load
 const Ctx = createContext<AuthCtx | null>(null)
 
 export const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined
@@ -46,7 +46,7 @@ function isOffline(e: unknown) {
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [session, setSession] = useState<Session | null>(() => {
     try {
-      const raw = localStorage.getItem(KEY) ?? localStorage.getItem(OLD_KEY)
+      const raw = localStorage.getItem(KEY) ?? OLD_KEYS.map((k) => localStorage.getItem(k)).find(Boolean) ?? null
       return raw ? (JSON.parse(raw) as Session) : null
     } catch {
       return null
@@ -57,7 +57,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     try {
       if (session) localStorage.setItem(KEY, JSON.stringify(session))
       else localStorage.removeItem(KEY)
-      localStorage.removeItem(OLD_KEY)
+      OLD_KEYS.forEach((k) => localStorage.removeItem(k))
     } catch {
       /* storage blocked — session lives in memory */
     }

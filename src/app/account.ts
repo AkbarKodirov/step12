@@ -20,7 +20,7 @@ const FALLBACK: Account = {
   billing: { priceUzs: PRICE_UZS, priceUsd: PRICE_USD, days: PRO_DAYS, card: null, telegram: TELEGRAM_MANAGER },
 }
 
-const KEY = 'step12.account'
+const KEY = 'humo.account'
 let token: string | null = null
 let state: { account: Account; loaded: boolean } = { account: FALLBACK, loaded: false }
 const subs = new Set<() => void>()

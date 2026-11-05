@@ -35,7 +35,7 @@ export const isPhone = () =>
 export function googleRedirect() {
   const state = Math.random().toString(36).slice(2)
   try {
-    sessionStorage.setItem('step12.oauth', state)
+    sessionStorage.setItem('humo.oauth', state)
   } catch {
     /* ignore */
   }

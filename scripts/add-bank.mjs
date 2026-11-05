@@ -56,7 +56,7 @@ for (const g of adds) {
   const mc = g.options?.length === 4
   bank.push({
     id,
-    set: 'step12',
+    set: 'humo',
     setName: 'Humo AI collection',
     section: t.section,
     domain: t.domain,

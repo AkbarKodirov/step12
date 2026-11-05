@@ -4,8 +4,8 @@ import * as THREE from 'three'
 import { humoMood } from './humoMood'
 
 /**
- * Procedural 3D Sensai — an ensō (the single brush-stroke circle a Zen master draws in one breath)
- * in STEP12 crimson, around a living crimson light, and a small white spark of
+ * Procedural 3D Humo — an ensō (the single brush-stroke circle a Zen master draws in one breath)
+ * in Humo AI crimson, around a living crimson light, and a small white spark of
  * insight resting in the gap of the stroke. Everything is built from geometry: no model files.
  */
 
@@ -132,7 +132,7 @@ const GLOW: [number, number, [number, number, number]][] = Array.from({ length: 
   return [0.17 + k * 0.6, 0.16 * (1 - k) ** 1.4 + 0.012, [2.6 - k * 1.6, 0.9 * (1 - k) + 0.04, 1.2 * (1 - k) + 0.22]]
 })
 
-export function SensaiCore(props: ThreeElements['group']) {
+export function HumoCore(props: ThreeElements['group']) {
   const root = useRef<THREE.Group>(null)
   const stroke = useRef<THREE.Mesh>(null)
   const light = useRef<THREE.Group>(null)

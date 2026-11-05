@@ -116,7 +116,7 @@ export function downloadIcs(plan: WeekPlan, profile: Profile) {
   const blob = new Blob([planToIcs(plan, profile, location.origin)], { type: 'text/calendar' })
   const a = document.createElement('a')
   a.href = URL.createObjectURL(blob)
-  a.download = 'step12-study-plan.ics'
+  a.download = 'humo-ai-study-plan.ics'
   a.click()
   setTimeout(() => URL.revokeObjectURL(a.href), 2000)
 }

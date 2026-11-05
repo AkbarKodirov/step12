@@ -12,8 +12,8 @@ export default function GoogleCallback() {
     const token = h.get('access_token')
     let expected: string | null = null
     try {
-      expected = sessionStorage.getItem('step12.oauth')
-      sessionStorage.removeItem('step12.oauth')
+      expected = sessionStorage.getItem('humo.oauth')
+      sessionStorage.removeItem('humo.oauth')
     } catch {
       /* ignore */
     }
