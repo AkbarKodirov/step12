@@ -251,7 +251,7 @@ export default function AppShell() {
       <div className="min-h-svh bg-card text-pine">
         <Suspense fallback={<PageLoading />}>
           <Routes>
-            <Route path="papers/:id" element={<PaperPlayer />} />
+            <Route path="papers/:id" element={<ProGate full><PaperPlayer /></ProGate>} />
             <Route path="tests/:id/take" element={<TestGate><TakeTest /></TestGate>} />
             <Route path="practice/run" element={<Runner />} />
           </Routes>
