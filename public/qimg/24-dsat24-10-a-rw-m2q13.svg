@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="560" viewBox="0 0 520 560" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="520" height="560" fill="#fff"/>
+<text x="280.0" y="30" text-anchor="middle" font-size="18">Ratings, by Painting Style</text>
+<line x1="100" y1="386.0" x2="490" y2="386.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="386.0" x2="100" y2="386.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="391.0" text-anchor="end" font-size="16">0</text>
+<line x1="100" y1="321.4" x2="490" y2="321.4" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="321.4" x2="100" y2="321.4" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="326.4" text-anchor="end" font-size="16">0.1</text>
+<line x1="100" y1="256.8" x2="490" y2="256.8" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="256.8" x2="100" y2="256.8" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="261.8" text-anchor="end" font-size="16">0.2</text>
+<line x1="100" y1="192.2" x2="490" y2="192.2" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="192.2" x2="100" y2="192.2" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="197.2" text-anchor="end" font-size="16">0.3</text>
+<line x1="100" y1="127.6" x2="490" y2="127.6" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="127.6" x2="100" y2="127.6" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="132.6" text-anchor="end" font-size="16">0.4</text>
+<line x1="100" y1="63.0" x2="490" y2="63.0" stroke="#999" stroke-width="1"/>
+<line x1="94" y1="63.0" x2="100" y2="63.0" stroke="#111" stroke-width="1.5"/>
+<text x="90" y="68.0" text-anchor="end" font-size="16">0.5</text>
+<line x1="100" y1="63" x2="100" y2="386" stroke="#111" stroke-width="1.5"/>
+<line x1="100" y1="386" x2="490" y2="386" stroke="#111" stroke-width="1.5"/>
+<text transform="translate(28 224.5) rotate(-90)" text-anchor="middle" font-size="17">Correlation</text>
+<rect x="129.2" y="282.6" width="45.5" height="103.4" fill="#888" stroke="#111"/>
+<rect x="174.8" y="198.7" width="45.5" height="187.3" fill="#ddd" stroke="#111"/>
+<rect x="220.2" y="108.2" width="45.5" height="277.8" fill="#222" stroke="#111"/>
+<text x="197.5" y="410" text-anchor="middle" font-size="16">Abstract</text>
+<rect x="324.2" y="185.7" width="45.5" height="200.3" fill="#888" stroke="#111"/>
+<rect x="369.8" y="211.6" width="45.5" height="174.4" fill="#ddd" stroke="#111"/>
+<rect x="415.2" y="211.6" width="45.5" height="174.4" fill="#222" stroke="#111"/>
+<text x="392.5" y="410" text-anchor="middle" font-size="16">Cubist</text>
+<text x="295.0" y="436" text-anchor="middle" font-size="17">Painting style</text>
+<rect x="140" y="457" width="16" height="16" fill="#888" stroke="#111"/>
+<text x="166" y="471" font-size="17">P3</text>
+<rect x="140" y="485" width="16" height="16" fill="#ddd" stroke="#111"/>
+<text x="166" y="499" font-size="17">P7</text>
+<rect x="140" y="513" width="16" height="16" fill="#222" stroke="#111"/>
+<text x="166" y="527" font-size="17">P6</text>
+</svg>

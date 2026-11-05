@@ -192,6 +192,18 @@
   "minutesPerModule": 35
  },
  {
+  "id": "dsat24-10-a-rw",
+  "name": "October 2024 International · Form A · Reading & Writing",
+  "type": "EBRW",
+  "year": 2024,
+  "month": 10,
+  "region": "International",
+  "form": "A",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat24-10-d-math",
   "name": "October 2024 International · Form D · Math",
   "type": "MATH",
