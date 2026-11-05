@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250">
+<rect width="520" height="250" fill="#fff"/>
+<g stroke="#111" stroke-width="2.5" fill="none"><polygon points="40,200 470,200 470,40"/><line x1="190" y1="200" x2="190" y2="144.2"/><polyline points="176,200 176,186 190,186" stroke-width="2"/><polyline points="456,200 456,186 470,186" stroke-width="2"/></g>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#111" font-style="italic"><text x="22" y="210">A</text><text x="183" y="226">C</text><text x="463" y="226">E</text><text x="182" y="132">B</text><text x="476" y="36">D</text></g>
+</svg>

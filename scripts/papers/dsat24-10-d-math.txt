@@ -1,0 +1,332 @@
+!id: dsat24-10-d-math
+!name: October 2024 International · Form D · Math
+!type: MATH
+!year: 2024
+!month: 10
+!region: International
+!form: D
+=M1
+#1
+T: <table><tr><th></th><th>Live north of Center St.</th><th>Live south of Center St.</th><th>Total</th></tr><tr><td>Less than 45 years old</td><td>13</td><td>12</td><td>25</td></tr><tr><td>At least 45 years old</td><td>22</td><td>88</td><td>110</td></tr><tr><td>Total</td><td>35</td><td>100</td><td>135</td></tr></table>
+Q: The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?
+A) (25)/(135)
+B) (35)/(135)
+C) (100)/(135)
+D) (110)/(135)
+K: D
+E: 110 of the 135 members are at least 45 years old, so the probability is 110/135.
+#2
+Q: Which expression is equivalent to 8(x^2 + 6)?
+A) 8x^2 + 48
+B) 8x^2 + 14
+C) 8x^2 + 6
+D) 8x^2 + 2
+K: A
+E: Distribute: 8 · x^2 + 8 · 6 = 8x^2 + 48.
+#3
+Q: For the linear function f, the graph of y = f(x) in the xy-plane has a slope of (1)/(3) and passes through the point (0, 7). Which equation defines f?
+A) f(x) = (1)/(3)x + 7
+B) f(x) = (1)/(3)x + (1)/(7)
+C) f(x) = (1)/(3)x − (7)/(3)
+D) f(x) = (1)/(3)x − 7
+K: A
+E: Slope 1/3 and y-intercept 7 give f(x) = (1/3)x + 7.
+#4
+Q: The function f is defined by f(x) = 7 + √(x). What is the value of f(36)?
+K: 13
+E: f(36) = 7 + √36 = 7 + 6 = 13.
+#5
+P: 5x − 4y = −60
+Q: For the given equation, which table gives three values of x and their corresponding values of y?
+A) <table><tr><td>x</td><td>0</td><td>4</td><td>8</td></tr><tr><td>y</td><td>15</td><td>20</td><td>25</td></tr></table>
+B) <table><tr><td>x</td><td>0</td><td>4</td><td>8</td></tr><tr><td>y</td><td>25</td><td>20</td><td>15</td></tr></table>
+C) <table><tr><td>x</td><td>15</td><td>20</td><td>25</td></tr><tr><td>y</td><td>0</td><td>4</td><td>8</td></tr></table>
+D) <table><tr><td>x</td><td>15</td><td>20</td><td>25</td></tr><tr><td>y</td><td>8</td><td>4</td><td>0</td></tr></table>
+K: A
+E: x = 0 gives −4y = −60, so y = 15; x = 4 gives 20 − 4y = −60, so y = 20; x = 8 gives 40 − 4y = −60, so y = 25.
+#6
+Q: A geologist estimates that the volume of a boulder is greater than 14.6 cubic feet but less than 18.6 cubic feet. The geologist also estimates that the boulder weighs 160 pounds per cubic foot of volume. Which inequality represents this situation, where x represents the estimated total weight, in pounds, of the boulder?
+A) 160 − 18.6 &lt; x &lt; 160 − 14.6
+B) 160 + 14.6 &lt; x &lt; 160 + 18.6
+C) 160(14.6) &lt; x &lt; 160(18.6)
+D) (160)/(18.6) &lt; x &lt; (160)/(14.6)
+K: C
+E: Weight = 160 × volume, and the volume is between 14.6 and 18.6, so 160(14.6) < x < 160(18.6).
+#7
+Q: A rectangular region of land is divided into 88 square lots of equal area R, in square units. The length of the region is 5.5 times the width of the region. If the width of the region is x√(R) units, what is the value of x?
+K: 4
+E: The total area is 88R = (5.5w)(w) = 5.5w^2, so w^2 = 16R and w = 4√R. So x = 4.
+#8
+Q: If 48 = 18 + 2(x − 9), what is the value of 2(x − 9)?
+A) 18
+B) 24
+C) 30
+D) 39
+K: C
+E: Subtract 18 from both sides: 2(x − 9) = 30.
+#9
+P: y = x^2 + 1.3
+P: y = 1.3 − x
+Q: Which graph represents the given system of equations?
+A) <img src="/qimg/24-dsat24-10-d-math-m1q9a.svg" alt="graph A">
+B) <img src="/qimg/24-dsat24-10-d-math-m1q9b.svg" alt="graph B">
+C) <img src="/qimg/24-dsat24-10-d-math-m1q9c.svg" alt="graph C">
+D) <img src="/qimg/24-dsat24-10-d-math-m1q9d.svg" alt="graph D">
+K: B
+E: The parabola has its vertex at (0, 1.3) and opens upward, and the line has y-intercept 1.3 and slope −1. Only graph B shows both.
+#10
+Q: In triangle ABC, the measure of angle A is 53°, the measure of angle B is 90°, and the measure of angle C is ((k)/(2))°. What is the value of k?
+A) 37
+B) 45
+C) 74
+D) 106
+K: C
+E: 53 + 90 + k/2 = 180, so k/2 = 37 and k = 74.
+#11
+I: /qimg/24-dsat24-10-d-math-m1q11.svg
+P: The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.
+Q: Which of the following is closest to the slope of this line of best fit?
+A) −4.5
+B) −1.1
+C) 1.1
+D) 4.5
+K: B
+E: The line passes through about (0, 12) and (11, 0), so the slope is about −12/11 ≈ −1.1.
+#12
+Q: The expression 54y^5 − 36y^4 is equivalent to ry^4(9y − 6), where r is a constant. What is the value of r?
+K: 6
+E: 54y^5 − 36y^4 = 6y^4(9y − 6), so r = 6.
+#13
+P: y = 0.25x^2 − 7.5x + 77.25
+Q: The equation gives the estimated stock price y, in dollars, for a certain company x days after the company went public, where 0 ≤ x ≤ 20. Which statement is the best interpretation of (x, y) = (1, 70) in this context?
+A) The company's estimated stock price increased $70 every day after the company went public.
+B) The company's estimated stock price increased $1 every 70 days after the company went public.
+C) 1 day after the company went public, the company's estimated stock price is $70.
+D) 70 days after the company went public, the company's estimated stock price is $1.
+K: C
+E: x is days and y is the price, so (1, 70) means 1 day after going public the price is $70.
+#14
+Q: The total mass, in kilograms, of r identical objects is t. Which expression represents the total mass, in kilograms, of 112r of these objects?
+A) 112 − t
+B) 112 + t
+C) (t)/(112)
+D) 112t
+K: D
+E: 112r objects are 112 groups of r objects, each with mass t, so the total is 112t.
+#15
+Q: If (48)/(x) = 6x, what is the value of 6x^2?
+A) 6
+B) 8
+C) 48
+D) 288
+K: C
+E: Multiply both sides by x: 48 = 6x^2.
+#16
+P: w(t) = 600 − 3t
+Q: The function w models the volume of water, in milliliters, in a container t seconds after it begins draining from a hole at the bottom. According to the model, what is the predicted volume, in milliliters, draining from the container each second?
+A) 3
+B) 200
+C) 597
+D) 600
+K: A
+E: The volume falls by 3 mL for each second, the coefficient of t.
+#17
+I: /qimg/24-dsat24-10-d-math-m1q17.svg
+Q: Line k is shown in the xy-plane. Line j (not shown) is perpendicular to line k. What is the slope of line j?
+K: 4/3 | 1.333 | 1.334
+E: Line k passes through (−4, 0) and (0, −3), so its slope is −3/4. A perpendicular line has slope 4/3.
+#18
+Q: The equation h = (9(v − 273.15))/(5) + 32 gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has a temperature of v kelvins, where v &gt; 0. If a substance has a temperature of 539.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?
+K: 555
+E: 539.33 − 32 = 507.33; 507.33 × 5/9 = 281.85; v = 281.85 + 273.15 = 555.
+#19
+Q: A circle in the xy-plane has its center at (19, 16) and has a radius of 8k. Which equation represents this circle?
+A) (x − 19)^2 + (y − 16)^2 = 64k
+B) (x − 19)^2 + (y − 16)^2 = 64k^2
+C) (x − 19)^2 + (y − 16)^2 = 8k
+D) (x − 19)^2 + (y − 16)^2 = 8k^2
+K: B
+E: The right side is the radius squared: (8k)^2 = 64k^2.
+#20
+I: /qimg/24-dsat24-10-d-math-m1q20.svg
+P: Note: Figure not drawn to scale.
+Q: In the triangle shown, RS = √(167). What is the value of sin R?
+K: 83/84 | .9880 | .9881 | 0.988
+E: TR = 84 is the hypotenuse, so TS = √(84^2 − 167) = √6889 = 83. sin R = opposite/hypotenuse = TS/TR = 83/84.
+#21
+Q: Parallelogram ABCD is similar to parallelogram PQRS. The length of each side of parallelogram PQRS is 2 times the length of its corresponding side of parallelogram ABCD. The area of parallelogram ABCD is 30 square centimeters. What is the area, in square centimeters, of parallelogram PQRS?
+A) 32
+B) 60
+C) 120
+D) 900
+K: C
+E: Areas scale by the square of the side ratio: 30 × 2^2 = 120.
+#22
+P: r(t) = 53t − 2t^2
+Q: The function r is defined by the given equation. The function s is defined by s(t) = r(t) + 1. Which expression represents the maximum value of s(t)?
+A) 1 − ((53)/(2))^2
+B) 1 − 2((53)/(4))^2
+C) 1 + 2((53)/(4))^2
+D) 1 + ((53)/(2))^2
+K: C
+E: The vertex of r is at t = 53/4, where r = 53(53/4) − 2(53/4)^2 = 4(53/4)^2 − 2(53/4)^2 = 2(53/4)^2. So the maximum of s is 1 + 2(53/4)^2.
+=M2
+#1
+Q: The value of y is 49 more than twice the value of x. Which equation represents y in terms of x?
+A) y = 2x + 49
+B) y = 49x + 2
+C) y = 51x + 2
+D) y = 51x + 49
+K: A
+E: Twice x is 2x, and 49 more is 2x + 49.
+#2
+Q: To purchase a used car at a total price of 14,000 dollars, a onetime down payment is required, and then fixed monthly payments are made for the remaining amount owed for the car. The equation 14,000 = 2,800 + 200t represents this situation, where t is the number of fixed monthly payments that are made. Which of the following is the best interpretation of 200 in this context?
+A) The amount, in dollars, of the down payment
+B) The amount, in dollars, of each fixed monthly payment
+C) The total amount, in dollars, paid for the car after t fixed monthly payments
+D) The total number of fixed monthly payments
+K: B
+E: 200 is multiplied by the number of monthly payments, so it is the amount of each monthly payment.
+#3
+Q: How many solutions does the equation 5x + 3 = 5x have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: A
+E: Subtracting 5x gives 3 = 0, which is never true, so there are no solutions.
+#4
+Q: A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population p increased by 8% of the previous year's population. Which equation best represents this model, where x is the number of years after 2007, for x ≤ 5?
+A) p = 0.92(3,000)^x
+B) p = 1.08(3,000)^x
+C) p = 3,000(0.92)^x
+D) p = 3,000(1.08)^x
+K: D
+E: Start at 3,000 and multiply by 1.08 each year: p = 3,000(1.08)^x.
+#5
+Q: A park rents beach umbrellas to visitors. The park earns revenue of $16 for each beach umbrella they rent for the day. On Wednesday, the park earned $400 in profit from renting beach umbrellas after paying daily expenses of $144. How many beach umbrellas did the park rent on Wednesday? (profit = total revenue − total expenses)
+A) 16
+B) 25
+C) 32
+D) 34
+K: D
+E: Revenue = 400 + 144 = 544, and 544 ÷ 16 = 34.
+#6
+P: x^2 − 2x − 18 = 0
+Q: One solution to the given equation can be written as 1 + √(k), where k is a constant. What is the value of k?
+A) 17
+B) 19
+C) 38
+D) 76
+K: B
+E: Complete the square: (x − 1)^2 = 19, so x = 1 ± √19 and k = 19.
+#7
+P: r = √(5w − 3)
+Q: The given equation relates the real numbers r and w, where w &gt; (3)/(5). Which equation correctly expresses w in terms of r?
+A) w = √(−3r + 5)
+B) w = √(5r − 3)
+C) w = (r^2)/(5) + (3)/(5)
+D) w = (r^2)/(5) + 3
+K: C
+E: Square both sides: r^2 = 5w − 3, so w = r^2/5 + 3/5.
+#8
+Q: A hemisphere is half of a sphere. If a hemisphere has a radius of 70 inches, which of the following is closest to the volume, in cubic inches, of this hemisphere?
+A) 10,300
+B) 41,100
+C) 538,800
+D) 718,400
+K: D
+E: V = (1/2)(4/3)π(70)^3 = (2/3)π(343,000) ≈ 718,400.
+#9
+Q: For a certain type of rope, the equation y = 900ax^2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 2.75 inches, it has an estimated breaking strength of 9,528.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 7.50 inches?
+K: 70875
+E: 9,528.75 = 900a(2.75)^2 = 900a(7.5625), so 900a = 1,260. Then y = 1,260(7.5)^2 = 1,260(56.25) = 70,875.
+#10
+Q: The function h is defined by h(x) = (x + p)(x − 2)(2x − 12), where p is a constant. In the xy-plane, the graph of y = h(x) passes through the point (−3, 0). What is the value of h(0)?
+A) −36
+B) −3
+C) 5
+D) 72
+K: D
+E: h(−3) = 0 and the other factors aren't 0 at x = −3, so −3 + p = 0 and p = 3. h(0) = (3)(−2)(−12) = 72.
+#11
+Q: If x ≥ −6 represents all solutions to the inequality ax − 27 ≤ 15, where a is a constant, what is the greatest possible value of a?
+K: -7
+E: ax ≤ 42. For the solutions to be x ≥ −6, a must be negative, so x ≥ 42/a. Then 42/a = −6 and a = −7.
+#12
+P: 5(8x) + 4(6y) = 12
+P: −5(8x) + 4(6y) = 12
+Q: The solution to the given system of equations is (x, y). What is the value of 8x + 6y?
+A) 0.5
+B) 0.6
+C) 3
+D) 12
+K: C
+E: Adding the equations gives 8(6y) = 24, so 6y = 3. Subtracting gives 10(8x) = 0, so 8x = 0. Then 8x + 6y = 3.
+#13
+Q: For the positive quantities h, j, and k, 27% of h is equivalent to 24% of j, and j is equivalent to 45% of k. What percentage of k is h? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)
+K: 40
+E: j = 0.45k, so 0.27h = 0.24(0.45k) = 0.108k and h = 0.4k, which is 40% of k.
+#14
+Q: The function f is defined by f(x) = 30x. For what value of x is f(x) = 180?
+K: 6
+E: 30x = 180, so x = 6.
+#15
+P: 4x^2 + 21 = 48x + r
+Q: In the given equation, r is a constant. The equation has exactly one real solution. What is the value of r?
+K: -123
+E: 4x^2 − 48x + (21 − r) = 0 has one solution when the discriminant is 0: 48^2 − 16(21 − r) = 0, so 21 − r = 144 and r = −123.
+#16
+Q: For the function f, for every increase of 2 in the value of x, the value of f(x) increases by a factor of c, where c is a constant. Which of the following equivalent forms of function f displays the value of c as the base or the coefficient?
+A) f(x) = 26(2)^(6x)
+B) f(x) = 26(8)^(2x)
+C) f(x) = 26(64)^x
+D) f(x) = 26(4,096)^(x/2)
+K: D
+E: All four forms are equal. When x increases by 2, 2^(6x) grows by 2^12 = 4,096, so c = 4,096, which is the base in choice D.
+#17
+I: /qimg/24-dsat24-10-d-math-m2q17.svg
+P: Note: Figure not drawn to scale.
+Q: In the figure shown, AB = √(89) units, AC = 8 units, and CE = 24 units. What is the area, in square units, of triangle ADE?
+K: 320
+E: BC = √(89 − 64) = 5. Triangles ABC and ADE are similar with AE = 32 = 4 × 8, so DE = 4 × 5 = 20. Area = (1/2)(32)(20) = 320.
+#18
+I: /qimg/24-dsat24-10-d-math-m2q18.svg
+Q: The graph of line g is shown in the xy-plane. Line k is defined by 165x + py = w, where p and w are constants. If line k is graphed in this xy-plane, resulting in the graph of a system of two linear equations, the system of two linear equations will have infinitely many solutions. What is the value of p + w?
+K: 300
+E: Line g passes through (−10, 12) and (0, 1), so y = −1.1x + 1, or 11x + 10y = 10. Multiplying by 15 gives 165x + 150y = 150, so p + w = 300.
+#19
+Q: Each of the following frequency tables represents a data set. Which of these frequency tables represents the data set with the smallest standard deviation?
+A) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>3</td><td>0</td></tr><tr><td>4</td><td>10</td></tr><tr><td>5</td><td>55</td></tr><tr><td>6</td><td>10</td></tr><tr><td>7</td><td>0</td></tr></table>
+B) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>3</td><td>11</td></tr><tr><td>4</td><td>17</td></tr><tr><td>5</td><td>19</td></tr><tr><td>6</td><td>17</td></tr><tr><td>7</td><td>11</td></tr></table>
+C) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>3</td><td>15</td></tr><tr><td>4</td><td>15</td></tr><tr><td>5</td><td>15</td></tr><tr><td>6</td><td>15</td></tr><tr><td>7</td><td>15</td></tr></table>
+D) <table><tr><th>Value</th><th>Frequency</th></tr><tr><td>3</td><td>30</td></tr><tr><td>4</td><td>5</td></tr><tr><td>5</td><td>5</td></tr><tr><td>6</td><td>5</td></tr><tr><td>7</td><td>30</td></tr></table>
+K: A
+E: In A most values are exactly 5 and the rest are only 1 away, so the data are the most tightly clustered around the mean.
+#20
+P: 6x + 3y = 5
+Q: The given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?
+Q: I. 9x + 4.5y = 7.5
+Q: II. 9x − 4.5y = 7.5
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: C
+E: Equation I is 1.5 times the given equation (same line, infinitely many solutions). Equation II has a different slope, so it meets the line at one point. Both work.
+#21
+Q: The function f is defined by f(x) = ax^2 + bx + c, where a, b, and c are constants. The graph of y = f(x) in the xy-plane passes through the points (10, 0) and (−5, 0). If a is an integer greater than 1, which of the following could be the value of a + b?
+A) −8
+B) −4
+C) 5
+D) 6
+K: A
+E: f(x) = a(x − 10)(x + 5) = a(x^2 − 5x − 50), so b = −5a and a + b = −4a. With a = 2, a + b = −8.
+#22
+Q: An object's speed is increasing at a rate of 1.1 meters per second squared. What is this rate, in <u>miles per minute squared</u>, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)
+A) 0
+B) 2.5
+C) 29.5
+D) 1,462.7
+K: B
+E: 1.1 m/s^2 × 3,600 s^2/min^2 = 3,960 m/min^2, and 3,960 ÷ 1,609 ≈ 2.5 miles per minute squared.
