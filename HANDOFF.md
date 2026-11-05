@@ -48,6 +48,10 @@ STEP12 is a Digital SAT prep platform for **STEP12** in Tashkent. Its AI tutor i
   - It must never contain practice-test or exam-paper questions.
 - **Learn courses:** `src/app/learn/` (SAT Reading & Writing; Math & Desmos).
 - **Other pages:** Saved & mistakes (`Mistakes.tsx`), Settings (tabs; light, dark or system theme; no score editing), Analytics, Vocabulary, Blitz, Exam papers, Score calculator.
+- **Paper SAT shelf (Exam papers, 2023):** past paper-based SATs (4 sections: Reading 52, Writing & Language 44, Math No Calculator 20, Math Calculator 38) live as `public/papers/<id>.json` plus images in `public/papers/<id>/`, listed by `public/papers/index.json` and run section by section by `src/app/pages/PaperPlayer.tsx` (route `/app/papers/:id`, full-screen like the test runner). Raw score per section, no 400–1600 estimate (conversion tables differ per paper). This content is kept out of the question bank on purpose.
+  - Live: **SAT US, March 2023.** Reading is typed from OCR (with a "show original page" toggle for tables and graphs); Writing questions are typed but the passages are shown as the original pages (underlines and `[n]` markers); Math questions are the cropped original images with A–D buttons or a grid-in box. The answer key was read from the paper's own key page.
+  - Not yet verified word for word: all typed text comes from Windows OCR and was spot-checked on 8 Reading questions (matched the scan; quote marks and leaked number tabs were fixed in the builder). Math is not typed yet; typed versions are the next step.
+  - Tooling: the `sat-paper-import` skill (in the owner's `~/.claude/skills`) preps a paper unattended (`prep.mjs`), then `buildpaper.mjs` writes these files and `check.mjs` validates. It handled the March and May 2023 US papers; the other 2023 PDFs (US June/Aug/Oct/Nov, Int, web) use different layouts or scan quality and need tuning first.
 - **Desmos:**
   - `server/desmos.js` builds screens and validates them with mathjs.
   - `shared/desmos-render.js` renders them as SVG.

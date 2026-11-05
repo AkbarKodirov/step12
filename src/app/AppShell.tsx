@@ -22,6 +22,7 @@ const Blitz = lazy(() => import('./pages/Blitz'))
 const Mistakes = lazy(() => import('./pages/Mistakes'))
 const StudyPlan = lazy(() => import('./pages/StudyPlan'))
 const ExamPapers = lazy(() => import('./pages/ExamPapers'))
+const PaperPlayer = lazy(() => import('./pages/PaperPlayer'))
 const Analytics = lazy(() => import('./pages/Analytics'))
 const ScoreCalculator = lazy(() => import('./pages/ScoreCalculator'))
 const SettingsPage = lazy(() => import('./pages/Settings'))
@@ -179,11 +180,12 @@ export default function AppShell() {
   }, [s.settings.reminders, s.profile.studyDays, s.profile.studyTime, s.plan])
 
   // The test runner is full-screen, like the real exam app.
-  if (/\/app\/tests\/[^/]+\/take/.test(pathname) || pathname.startsWith('/app/practice/run'))
+  if (/\/app\/tests\/[^/]+\/take/.test(pathname) || pathname.startsWith('/app/practice/run') || /^\/app\/papers\/[^/]+/.test(pathname))
     return (
       <div className="min-h-svh bg-card text-pine">
         <Suspense fallback={<PageLoading />}>
           <Routes>
+            <Route path="papers/:id" element={<PaperPlayer />} />
             <Route path="tests/:id/take" element={<TakeTest />} />
             <Route path="practice/run" element={<Runner />} />
           </Routes>
