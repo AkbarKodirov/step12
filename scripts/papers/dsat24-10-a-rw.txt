@@ -1,0 +1,327 @@
+!id: dsat24-10-a-rw
+!name: October 2024 International · Form A · Reading & Writing
+!type: EBRW
+!year: 2024
+!month: 10
+!region: International
+!form: A
+=M1
+#1
+P: To assist with the development of new water-repellant materials for aviation and other applications, a team including both engineers and entomologists conducted a study of the water-repellant properties of cicada wings. The team explained that the ______ experts in these two disciplines resulted in a more comprehensive approach than independent efforts by experts in either discipline could have achieved.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) skepticism toward
+B) exaggeration of
+C) distrust among
+D) collaboration between
+K: D
+E: Engineers and entomologists worked together, and that teamwork produced a more comprehensive approach than independent efforts.
+#2
+P: The following text is adapted from John Matheus’s 1926 short story, “Mr. Bradford Teaches Sunday School.” Mr. Bradford is driving through the countryside in Florida.
+P: The moss in the towering water oaks had become enlivened with a verdant sheen of silver and hung like festoons of carnival or like funeral decorations for the mourning of the dead. The pine green was resplendent. The bald cypresses spread themselves along the water courses while the willows wept as they always did.
+P: Mr. Bradford was conscious of this gorgeous <u>display</u> of nature.
+Q: As used in the text, what does the word “display” most nearly mean?
+A) Reproduction
+B) Concealment
+C) Pretentiousness
+D) Exhibition
+K: D
+E: The trees and moss form a gorgeous exhibition, or show, of nature.
+#3
+P: Both sharks and crayfish can detect electrical fields around them, but the ______ of their sensitivities differs substantially. Whereas crayfish can detect fields emitted by household electronics, those are many times stronger than the fields created by water moving through Earth’s magnetic field, which sharks are sensitive enough to detect.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) magnitude
+B) firmness
+C) gathering
+D) orientation
+K: A
+E: Sharks detect much weaker fields than crayfish can, so the size, or magnitude, of their sensitivity differs.
+#4
+P: New and interesting research conducted by Suleiman A. Al-Sweedan and Moath Alhaj is inspired by their observation that though studies of the effect of high altitude on blood chemistry are ______, the effect on blood chemistry of living in locations below sea level, such as the California towns of Niland and Heber, has received comparatively little notice.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) abundant
+B) equivocal
+C) sporadic
+D) preliminary
+K: A
+E: “Though” sets up a contrast with “comparatively little notice,” so high-altitude studies must be plentiful, or abundant.
+#5
+P: The following text is adapted from Adib Khorram’s 2018 novel <i>Darius the Great Is Not Okay</i>. The narrator, Darius, is a teenager visiting family in Iran. He and his friend Sohrab are at the entrance of the ruins of the ancient city of Persepolis.
+P: “The Gate of All Nations,” Sohrab said. He gestured to the lamassus [sculptures] and pillars surrounding us. “That’s the name in English.”
+P: It wasn’t much of a gate anymore, since anyone of any nation could have easily stepped around it instead of walking through. But it was still amazing.
+P: Behind the lamassu, more columns <u>sprouted from the ground like ancient trees in a petrified forest</u>, forty feet tall, spindly but still miraculously upright. Giant stone slabs formed the remains of what must once have been a breathtaking structure.
+Q: Which choice best describes the function of the underlined portion of the text?
+A) It presents an image to illustrate what one part of the ruins looks like.
+B) It emphasizes that the narrator already knows a lot about the city.
+C) It suggests that the narrator had expected to visit a forest.
+D) It indicates the specific time in the past when the buildings became ruins.
+K: A
+E: The simile compares the tall columns to trees in a petrified forest, helping the reader picture them.
+#6
+P: In the early twentieth century, the Japanese poet Yosano Akiko was known mainly for passionate, unconventional love poems. <u>Yet she also wrote essays arguing that women should have the right to economic independence and to an education equal to men’s.</u> These essays made her one of the most prominent voices in debates about women’s roles in Japanese society.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It introduces a less familiar part of Akiko’s work that the text then explains was influential.
+B) It challenges the claim that Akiko’s love poems were unconventional.
+C) It describes the education that prepared Akiko to become a poet.
+D) It explains why Akiko’s poems were more popular than her essays.
+K: A
+E: The sentence turns from Akiko’s well-known poems to her essays, and the next sentence explains their impact. (Humo AI replacement: this question was missing from the source scans.)
+#7
+P: Can field mustard plants grow on Mars? Can pea plants? You might think the answer to these questions is obviously no, but researchers in the Netherlands recently showed that the seeds of many common plant species can germinate in soil designed to simulate Martian conditions, as long as water is supplied. In fact, some species actually did <i>better</i> in Martian soil than in Earth soil: 30 percent of field mustard seeds sprouted when planted in simulated Martian soil, compared with 4 percent that did when planted in soil from their home planet.
+Q: Which choice best states the main purpose of the text?
+A) To answer long-standing questions about how Martian soil conditions can be simulated on Earth
+B) To present a surprising finding about plants grown in soil intended to be similar to Martian soil
+C) To discuss an unexpected result about the role of water in plants grown in simulated Martian soil
+D) To explain an important study of differences in the composition of Martian soil and the composition of Earth soil
+K: B
+E: The text highlights the unexpected result that seeds can sprout, sometimes better, in simulated Martian soil.
+#8
+P: The following text is adapted from Jerome K. Jerome’s 1889 novel <i>Three Men in a Boat (To Say Nothing of the Dog)</i>.
+P: We [people] are creatures of the sun. We love light and life. That is why we crowd into the towns and cities, and the country grows more and more deserted every year. In the sunlight—in the daytime, when Nature is alive and busy all around us, we like the open hill-sides and the deep woods well enough: but in the night, when our Mother Earth has gone to sleep, and left us waking, oh! the world seems so lonesome, and we get frightened, like children in a silent house. Then we sit and sob, and long for the gas-lit streets, and the sound of human voices, and the answering throb of human life.
+Q: Which choice best states the main purpose of the text?
+A) To address common traits that motivate many people to choose to live in urban environments
+B) To indicate that people sometimes experience feelings of isolation in crowded areas
+C) To illustrate the idea that most people tend to prefer hillsides in the country to certain aspects of towns and cities
+D) To caution people not to be so quick to dismiss the natural beauty that can be found in rural areas
+K: A
+E: The narrator explains that people’s love of light and fear of lonely nights is “why we crowd into the towns and cities.”
+#9
+P: Biologist Rachel Carson’s 1962 book <i>Silent Spring</i> documented the harmful effects of widespread pesticide use on birds, fish, and other wildlife. Although chemical companies attacked the book, it reached millions of readers. Many historians credit it with building the public support that led to the creation of the US Environmental Protection Agency in 1970.
+Q: Which choice best states the main idea of the text?
+A) Despite criticism from chemical companies, <i>Silent Spring</i> is widely seen as an important influence on environmental policy.
+B) Chemical companies reduced their use of pesticides after <i>Silent Spring</i> was published.
+C) <i>Silent Spring</i> was the first book to describe the effects of pesticides on fish.
+D) Historians disagree about whether <i>Silent Spring</i> was widely read.
+K: A
+E: The text notes opposition to the book but stresses its wide readership and its role in the creation of the EPA. (Humo AI replacement: this question was missing from the source scans.)
+#10
+T: <table><caption>Millions of Metric Tons of Copper Mined in 1995 and 2020</caption><tr><th>Country</th><th>1995</th><th>2020</th></tr><tr><td>Mexico</td><td>0.33</td><td>0.73</td></tr><tr><td>United States</td><td>1.85</td><td>1.20</td></tr><tr><td>Peru</td><td>0.38</td><td>2.15</td></tr><tr><td>Poland</td><td>0.38</td><td>0.39</td></tr></table>
+P: While doing research for a paper about metal exports, a student finds information about copper mining in different countries in 1995 and 2020. The student notes that Peru produced 0.38 million metric tons of copper in 1995 and ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) 1.20 million metric tons of copper in 2020.
+B) 0.39 million metric tons of copper in 2020.
+C) 2.15 million metric tons of copper in 2020.
+D) 0.73 million metric tons of copper in 2020.
+K: C
+E: The table shows Peru mined 2.15 million metric tons in 2020.
+#11
+P: Puerto Rico is an island in the Caribbean Sea. Indigenous people there started raising guinea pigs about 1,700 years ago. Guinea pigs had originally been domesticated much earlier in both Colombia and Peru. So were guinea pigs brought to Puerto Rico from Colombia or from Peru? Ancient Caribbean trade routes connected Puerto Rico with Colombia but not with Peru. <u>Therefore, guinea pigs in Puerto Rico probably came from Colombia and descended from Colombian guinea pigs.</u>
+Q: Which finding, if true, would most directly weaken the underlined claim?
+A) Guinea pigs are common in ancient Puerto Rican art, especially in pottery.
+B) Ancient guinea pigs in Puerto Rico were genetically less similar to ancient guinea pigs in Colombia than to ancient guinea pigs in Peru.
+C) The guinea pig population of ancient Colombia was much larger than the guinea pig population of ancient Peru.
+D) Modern breeds of guinea pigs don’t look like images of guinea pigs in ancient art from Puerto Rico, Colombia, and Peru.
+K: B
+E: If Puerto Rican guinea pigs were genetically closer to Peruvian ones, they likely did not descend from Colombian guinea pigs.
+#12
+T: <table><caption>Studies of the Effects of Tilling vs. No Tilling on Crop Yields</caption><tr><th>Authors</th><th>Location</th><th>Crop</th><th>Crop yield with tilling (kilograms per hectare)</th><th>Crop yield with no tilling (kilograms per hectare)</th></tr><tr><td>T.K. Das and colleagues</td><td>India</td><td>maize</td><td>2,760</td><td>4,040</td></tr><tr><td>Igor Bogunovic and colleagues</td><td>Croatia</td><td>maize</td><td>8,553</td><td>6,065</td></tr><tr><td>Vinicius Brown and colleagues</td><td>Brazil</td><td>soybeans</td><td>3,070</td><td>2,270</td></tr><tr><td>Adrian Gracia-Romero and colleagues</td><td>Zimbabwe</td><td>maize</td><td>2,420</td><td>2,990</td></tr></table>
+P: Tilling is the practice of turning over soil before planting crops. A student reviewing several studies claims that tilling always results in greater crop yields than not tilling does.
+Q: Which choice best describes data from the table that weaken the student’s claim?
+A) There are some studies, such as the study by T.K. Das and colleagues, that have found crop yields to be lower with tilling than without it.
+B) The finding that tilling is associated with an increase in crop yield has not been replicated outside of Croatia.
+C) The study by Bogunovic and colleagues actually found that tilling was associated with a decrease in crop yield rather than an increase.
+D) Vinicius Brown and colleagues reported a crop yield of 3,070 kilograms per hectare when no tilling was used but a yield of only 2,270 kilograms per hectare when tilling was used.
+K: A
+E: In the Das study the yield with tilling (2,760) was lower than without it (4,040), so tilling does not always raise yields. B, C, and D misread the table.
+#13
+P: Almost all works of fiction contain references to the progression of time, including the time of day when events in a story take place. In a 2020 study, Allen Kim, Charuta Pethe, and Steven Skiena claim that an observable pattern in such references reflects a shift in human behavior prompted by the spread of electric lighting in the late nineteenth century. The researchers drew this conclusion from an analysis of more than 50,000 novels spanning many centuries and cultures, using software to recognize and tally both specific time references—that is, clock phrases, such as 7 a.m. or 2:30 p.m.—and implied ones, such as mentions of meals typically associated with a particular time of day.
+Q: Which finding from the study, if true, would most directly support the researchers’ conclusion?
+A) Novels published after the year 1800 include the clock phrase 10 a.m. less often than novels published before the year 1800 do.
+B) Among novels published in the nineteenth century, implied time references become steadily more common than clock phrases as publication dates approach 1900.
+C) The time references of noon (12 p.m.) and midnight (12 a.m.) are used with roughly the same frequency in the novels.
+D) Novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than do novels from earlier periods.
+K: D
+E: Electric lighting let people stay active later at night, so more late-night activity in novels after 1880 would support the claim.
+#14
+P: As exemplified by Temiar songs about landforms and landmarks and Lakota songs about gathering mouse beans, ecological information can be transmitted in Indigenous songs, and in some instances is maintained only in this way. Kwaxsistalla Wathl’thla, a song keeper for the Kwakwaka’wakw people in Canada, collaborated with ethnobiologist Dana Lepofsky et al., sharing songs referencing terraced intertidal clam gardens the people implemented in the past to foster healthy development of a dietary staple. Drawing on archaeological evidence as well, Lepofsky et al. determined that the prevalence of the practice described in the songs corresponded with growth in clam size and abundance despite increased harvesting pressure—a finding that demonstrates that ______
+Q: Which choice most logically completes the text?
+A) representation of practical applications of ecological knowledge is the defining characteristic of the music of certain Indigenous peoples.
+B) the Kwakwaka’wakw people likely would not have detailed their creation of clam gardens in songs if their efforts had not produced significantly larger clams.
+C) the clams harvested from intertidal terraces by Kwakwaka’wakw people in the past likely were a different species than the clams found in those areas today.
+D) effective methods for the cultivation of sources of sustenance are among the ecological knowledge preserved in Indigenous songs.
+K: D
+E: The songs describe clam gardens, and the evidence shows the gardens worked, so songs preserve effective food-cultivation methods.
+#15
+P: A group of primate conservationists recently began a long-term study of the effects of different conservation strategies on the white-headed langur (<i>Trachypithecus poliocephalus</i>). The species population is currently estimated to be around 1,000. It is challenging to accurately count these primates, however, which makes it difficult to tell whether the population is increasing, decreasing, or staying stable. The study may thus ______
+Q: Which choice most logically completes the text?
+A) risk making inaccurate conclusions about the effectiveness of different conservation strategies.
+B) cause other conservationists to adopt a new methodology for counting populations.
+C) benefit from including species beyond the white-headed langur.
+D) fail to consider less-well-known conservation approaches for the white-headed langur.
+K: A
+E: If researchers can’t tell whether the population is changing, they can’t reliably judge which strategies work.
+#16
+P: Writing in hieroglyphs, ancient Egyptians recorded measurements using units such as the <i>sa</i>, a unit of ______ and the <i>khar</i>, a unit of volume. The <i>sa</i>, for instance, is written as a hieroglyph that looks like a duck or goose.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) area; the <i>shesep</i>; a unit of length;
+B) area the <i>shesep</i>, a unit of length
+C) area; the <i>shesep</i>, a unit of length;
+D) area, the <i>shesep</i>; a unit of length,
+K: C
+E: The list items contain internal commas, so semicolons separate the items: “the sa, a unit of area; the shesep, a unit of length; and the khar ….”
+#17
+P: Included in <i>Serial Intent</i>, a 2017 group exhibition at the Akron Art Museum in Ohio, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that ______ images of African American women with text fragments. Her work is credited with expanding the horizons of conceptual photographic art, and it challenges conventional notions of race, gender, history, and memory.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) juxtapose—
+B) juxtapose,
+C) juxtapose:
+D) juxtapose
+K: D
+E: No punctuation belongs between a verb and its object, “images.”
+#18
+P: Contrasting a high saturation color palette against dark paper and stoneware, Atlanta-based artist Jiha Moon creates fused pieces, wherein Korean folk art, Western contemporary art, and global popular culture mix. New York’s Derek Eller Gallery ______ her work in a solo exhibition that ran in early 2022.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) features
+B) has been featured
+C) featured
+D) will feature
+K: C
+E: The exhibition ran in early 2022, a completed past event, so the simple past “featured” fits.
+#19
+P: While the greater adjutant can be found in places like the Inner Gulf of Thailand and the Chhep Wildlife Sanctuary in Cambodia, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of conservation efforts that—through community involvement and scientific ______ aim to bring adjutants back from near extinction.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) study,
+B) study—
+C) study:
+D) study
+K: B
+E: The interruption begins with a dash, so it must end with a dash.
+#20
+P: The human shoulder contains the infraspinatus, a skeletal muscle that is attached to the ______ this muscle plays a role in rotating the upper arm.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) scapula,
+B) scapula;
+C) scapula
+D) scapula that
+K: B
+E: Two independent clauses are joined; a semicolon does this correctly.
+#21
+P: The unconventional literary philosophy with which Fernando Pessoa approached his writing is manifested in the Portuguese poet’s “heteronyms,” his term for the dozens of fictional personas in whose voices he authored many of his ______ among these personas was Ricardo Reis, author of classical odes in a Horatian style.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) works: and
+B) works;
+C) works and
+D) works,
+K: B
+E: “Among these personas was Ricardo Reis…” is an independent clause, so a semicolon separates it from the first.
+#22
+P: William Shakespeare likely arrived in London as early as 1585, at the age of 21, to pursue a career in the theater. Little is known of his early years there, but by 1593 he was becoming known for plays such as <i>Richard III</i>. ______ in 1599, he would delight audiences with <i>Much Ado About Nothing</i>, considered by some to be one of his greatest works.
+Q: Which choice completes the text with the most logical transition?
+A) In other words,
+B) Conversely,
+C) Thus,
+D) Later,
+K: D
+E: The text moves forward in time from 1593 to 1599.
+#23
+P: Soil polluted with cadmium (a heavy metal) is harmful to many plants and animals, but the plant species <i>Elodea canadensis</i>, or Canadian waterweed, not only thrives in such conditions but also helps remediate them. As a metal hyperaccumulator, <i>Elodea canadensis</i> absorbs a large amount of cadmium and stores it safely in its roots and shoots; ______ cadmium concentrations in the soil decrease.
+Q: Which choice completes the text with the most logical transition?
+A) specifically,
+B) nevertheless,
+C) in addition,
+D) accordingly,
+K: D
+E: Soil cadmium falls as a result of the plant absorbing it.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: A supercontinent is a single landmass made up of most or all of Earth’s continents.
+L: Over time, continents merge together to form supercontinents, which then break apart.
+L: This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.
+L: Ur and Columbia were supercontinents.
+L: Ur formed about 3.1 billion years ago.
+L: Columbia formed about 1.8 billion years ago.
+Q: The student wants to specify when Ur formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Ur was a supercontinent, a single landmass made up of most or all of Earth’s continents.
+B) The supercontinent Ur formed about 3.1 billion years ago.
+C) Long ago, the Earth was home to supercontinents like Ur and Columbia.
+D) Over hundreds of millions of years, the supercontinent cycle results in supercontinents forming and breaking apart.
+K: B
+E: Only B gives the time Ur formed.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Ixmiquilpan is a municipality in the state of Hidalgo, Mexico.
+L: Municipalities are governmental regions responsible for providing many public services to their residents.
+L: One service they provide is water treatment.
+L: Ixmiquilpan’s population was 98,654 in 2020.
+L: Hidalgo is divided into 84 municipalities.
+Q: The student wants to provide an example of a public service that Ixmiquilpan is responsible for. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Ixmiquilpan is one of 84 municipalities in Hidalgo providing public services to their communities.
+B) Ixmiquilpan—a governmental region in the state of Hidalgo, Mexico—provides public services to its residents.
+C) As a municipality, Ixmiquilpan is responsible for providing water treatment to its residents.
+D) In 2020, the municipality of Ixmiquilpan had a population of 98,654.
+K: C
+E: Only C names a specific service, water treatment.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Oak Tree House is an Ancestral Puebloan dwelling site located in southwestern Colorado.
+L: It was built under a rock overhang and inhabited from approximately 1180–1210 CE.
+L: The overhanging rock ledges offered protection from heavy rain and snow.
+L: Yucca House is an Ancestral Puebloan dwelling site located in southwestern Colorado.
+L: It was built on relatively flat terrain and inhabited from approximately 1080–1275 CE.
+L: This level surface allowed for the construction of large terraced buildings.
+Q: The student wants to explain an advantage of the Oak Tree House dwelling site. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The location of Oak Tree House, an Ancestral Puebloan dwelling site in southwestern Colorado, provided an advantage to its inhabitants.
+B) Located in southwestern Colorado, Oak Tree House is an Ancestral Puebloan dwelling site that was inhabited from approximately 1180–1210 CE.
+C) The relatively flat terrain on which Oak Tree House was built allowed for the construction of large terraced buildings.
+D) Since it was built under a rock overhang, Oak Tree House was naturally protected from heavy rain and snow.
+K: D
+E: D explains the specific advantage. C describes Yucca House, not Oak Tree House.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: In a 2010 study, researchers Katrin Heer, Larissa Albrecht, and Elisabeth K.V. Kalko wanted to explore the effects of ingestion by bats on the germination of <i>Ficus obtusifolia</i> seeds in Panama.
+L: The team of researchers tested 120 <i>Ficus obtusifolia</i> seeds that had been ingested by Jamaican fruit bats.
+L: Of these, 111 seeds (93%) germinated.
+L: As a control, K. Heer et al. tested 120 <i>Ficus obtusifolia</i> seeds that had not been ingested by Jamaican fruit bats.
+L: Of these, 116 seeds (97%) germinated.
+Q: The student wants to describe the study’s research methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) In the study, a lower percentage of <i>Ficus obtusifolia</i> seeds ingested by bats germinated than those that had not been ingested by bats.
+B) The team of researchers tested the germination of 120 <i>Ficus obtusifolia</i> seeds that had been ingested by Jamaican fruit bats and 120 <i>Ficus obtusifolia</i> seeds that had not been ingested.
+C) K. Heer et al. wanted to explore the effects of Jamaican fruit bats’ ingestion on <i>Ficus obtusifolia</i> seed germination.
+D) Research by K. Heer et al. revealed that 111 of 120—that is, 93%—of the <i>Ficus obtusifolia</i> seeds that had been ingested by bats germinated.
+K: B
+E: B describes how the study was done (the test and control groups); the others give the goal or results.
+=M2
+#1
+P: Despite stated claims of global relevance, much major research on income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later ______ this shortcoming after gaining new access to administrative records located in nations in South America, such as Brazil, and Eastern Europe, such as Russia.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) validate
+B) presuppose
+C) categorize
+D) mitigate
+K: D
+E: New data from other regions helped lessen, or mitigate, the narrow focus.
+#2
+P: One popular theory of the origin of the Moon, the “big whack,” posits that a protoplanet called Theia collided with Earth, flinging debris into orbit that eventually coalesced into the Moon. Until recently, Theia was ______, but researcher Qian Yuan and colleagues now claim to have identified pieces of the protoplanet in the lowermost section of Earth’s mantle.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) desultory
+B) notional
+C) veritable
+D) spurious
+K: B
+E: Before physical evidence was found, Theia existed only as an idea; it was notional.
+#3
+P: Political blogs with conspicuous ideological alignments became an integral component of US media in the early 2000s. While some commentators lauded this development, asserting that such blogs had a welcome transparency missing from traditional news, less ______ observers countered that such blogs tended to ideological extremes that exacerbated political polarization to problematic levels.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) recalcitrant
+B) earnest
+C) sanguine
+D) misanthropic
+K: C
+E: These observers were less optimistic, or less sanguine, than those who praised the blogs.
+#4
+P: Vertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. <u>While horizontal gene transfer is common among prokaryotes—single-celled organisms, such as the bacteria <i>Brevundimonas diminuta</i> and <i>Massilia timonae</i>—it has rarely been observed among eukaryotes (multicellular organisms).</u> However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.
+Q: Which choice best states the function of the underlined sentence in the text as a whole?
+A) It contrasts the frequency with which a biological phenomenon has been detected in two categories of organisms.
+B) It argues that two biological phenomena are more similar than they may initially appear to be.
+C) It explains why a common perception of a biological process is flawed.
+D) It indicates a distinction between the mechanics of two kinds of biological processes.
+K: A
+E: The sentence contrasts how often horizontal gene transfer is seen in prokaryotes versus eukaryotes.
+#5
+P: During Rome’s republican period, which ended in the first century BCE, libraries were predominantly owned by wealthy individuals who tightly controlled access to their book collections. The first public library became available in Rome in 28 BCE and was soon followed by one commissioned by Emperor Augustus. As modern scholar Fabio Fernandes notes, however, these two traditions aren’t as distinct as they seem, as both the emperor and the private library owners viewed their libraries as extensions of their personal patronage, just on vastly differing scales.
+Q: Which choice best states the main purpose of the text?
+A) To call into question the notion that private Roman libraries disappeared during the first century BCE
+B) To contend that early imperial leaders in Rome wielded too much influence over libraries
+C) To give a brief overview of public access to libraries throughout Rome’s republican period
+D) To assert that private and early public libraries in ancient Rome had an essential similarity
+K: D
+E: The text’s point is that both kinds of libraries were seen as extensions of personal patronage.
