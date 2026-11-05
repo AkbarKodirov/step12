@@ -1,0 +1,68 @@
+[
+ {
+  "id": "dsat23-11-rw",
+  "name": "November 2023 International · Reading & Writing",
+  "type": "EBRW",
+  "year": 2023,
+  "month": 11,
+  "region": "International",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat23-11-math",
+  "name": "November 2023 International · Math",
+  "type": "MATH",
+  "year": 2023,
+  "month": 11,
+  "region": "International",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
+  "id": "dsat23-10-rw",
+  "name": "October 2023 International · Reading & Writing",
+  "type": "EBRW",
+  "year": 2023,
+  "month": 10,
+  "region": "International",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat23-10-math",
+  "name": "October 2023 International · Math",
+  "type": "MATH",
+  "year": 2023,
+  "month": 10,
+  "region": "International",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
+  "id": "dsat23-06-rw",
+  "name": "June 2023 International · Reading & Writing",
+  "type": "EBRW",
+  "year": 2023,
+  "month": 6,
+  "region": "International",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat23-06-math",
+  "name": "June 2023 International · Math",
+  "type": "MATH",
+  "year": 2023,
+  "month": 6,
+  "region": "International",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ }
+]

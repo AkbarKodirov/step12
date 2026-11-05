@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="446" viewBox="0 0 935 596">
+<rect width="935" height="596" fill="#fff"/>
+<g stroke="#111" stroke-width="3" fill="none" stroke-linecap="butt">
+<line x1="303" y1="48" x2="313" y2="532"/>
+<line x1="481" y1="48" x2="485" y2="530"/>
+<line x1="118" y1="48" x2="730" y2="268"/>
+<line x1="108" y1="432" x2="732" y2="148"/>
+<line x1="103" y1="298" x2="730" y2="512"/>
+</g>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#111">
+<text x="322" y="170">v°</text>
+<text x="626" y="224">x°</text>
+<text x="500" y="282">y°</text>
+<text x="190" y="378">w°</text>
+<text x="496" y="476">z°</text>
+<text x="741" y="152">c</text>
+<text x="735" y="290">d</text>
+<text x="735" y="525">e</text>
+<text x="306" y="572">a</text>
+<text x="479" y="572">b</text>
+</g>
+</svg>

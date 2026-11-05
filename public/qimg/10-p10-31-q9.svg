@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="363" viewBox="0 0 560 290">
+<rect width="560" height="290" fill="#fff"/>
+<g stroke="#222" stroke-width="1.6" fill="none" stroke-linejoin="miter">
+<polygon points="62,72 168,70 117,157"/>
+<polygon points="287,40 472,37 388,187"/>
+<path d="M 76,74 A 15 15 0 0 0 69,85" stroke-width="1.2"/>
+</g>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#111">
+<text x="40" y="78" font-style="italic">A</text>
+<text x="173" y="78" font-style="italic">B</text>
+<text x="110" y="180" font-style="italic">C</text>
+<text x="66" y="130" font-style="italic">d</text>
+<text x="80" y="91">60°</text>
+<text x="264" y="44" font-style="italic">X</text>
+<text x="476" y="37" font-style="italic">Y</text>
+<text x="383" y="210" font-style="italic">Z</text>
+<text x="125" y="268" font-size="14.5">Note: Figures not drawn to scale.</text>
+</g>
+</svg>
