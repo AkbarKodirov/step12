@@ -113,19 +113,14 @@ export default function Home() {
   return (
     <div className="space-y-5">
       {/* Hero */}
-      <section className="theme-light relative overflow-hidden rounded-[28px] bg-pine text-cream">
-        <div className="pointer-events-none absolute -left-24 -top-24 size-80 rounded-full bg-jg-500/20 blur-3xl" />
-        <div className="pointer-events-none absolute bottom-0 left-1/3 h-40 w-96 rounded-full bg-[#d79a2c]/10 blur-3xl" />
-        <div className="absolute inset-y-0 right-0 hidden w-[46%] lg:block">
+      {/* one colour, one scene: the stars drift across the whole banner and Humo sits large on the right */}
+      <section className="theme-light relative overflow-hidden rounded-[28px] bg-[#0b1d36] text-cream lg:min-h-[300px]">
+        <div className="pointer-events-none absolute inset-0">
           <Suspense fallback={null}>
-            <HumoScene layout="compact" bg="#0b1d36" />
+            <HumoScene layout="banner" bg="#0b1d36" />
           </Suspense>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-pine to-transparent" />
         </div>
         <div className="relative max-w-xl p-7 sm:p-10">
-          <div className="flex items-center gap-2.5 lg:hidden">
-            <img src="/brand/humo-mark.svg" alt="" className="size-10 rounded-xl" />
-          </div>
           <motion.p initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="text-[13px] font-medium text-jg-300">
             {greet}
           </motion.p>

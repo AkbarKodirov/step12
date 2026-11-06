@@ -46,7 +46,7 @@ export const nextReset = () => {
 
 export async function usageOf(id) {
   const u = await kvGet('usage', `${id}:${dayKey()}`)
-  return { humo: u?.humo || 0, desmos: u?.desmos || 0 }
+  return { humo: u?.humo || 0, desmos: u?.desmos || 0, blitz: u?.blitz || 0 }
 }
 
 // one change at a time per student, so two quick requests can't both use the last free question

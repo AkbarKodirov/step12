@@ -6,7 +6,7 @@ import * as THREE from 'three'
 import { HumoCore, introProgress } from './HumoCore'
 import { humoMood } from './humoMood'
 
-type Layout = 'hero' | 'compact'
+type Layout = 'hero' | 'compact' | 'banner'
 
 /** Thin glowing rings behind Humo. */
 function Halo() {
@@ -74,9 +74,11 @@ function Rig({ layout, children }: { layout: Layout; children: React.ReactNode }
     const g = group.current
     if (!g) return
     const scroll = layout === 'hero' ? Math.min(window.scrollY / Math.max(window.innerHeight, 1), 1.2) : 0
-    const baseX = layout === 'hero' && wide ? viewport.width * 0.25 : 0
-    const baseY = layout === 'hero' ? (wide ? -0.15 : viewport.height * 0.22) : 0.1
-    const baseScale = layout === 'compact' ? 0.58 : wide ? Math.min(0.66, viewport.height / 7.4) : Math.min(0.5, viewport.width / 6)
+    // banner: one full-width scene behind the home greeting, Humo large on the right (top-right corner on phones)
+    const banner = layout === 'banner'
+    const baseX = banner ? viewport.width * (wide ? 0.29 : 0.33) : layout === 'hero' && wide ? viewport.width * 0.25 : 0
+    const baseY = banner ? (wide ? 0.05 : viewport.height * 0.3) : layout === 'hero' ? (wide ? -0.15 : viewport.height * 0.22) : 0.1
+    const baseScale = banner ? (wide ? Math.min(0.9, viewport.height / 5.2) : 0.42) : layout === 'compact' ? 0.58 : wide ? Math.min(0.66, viewport.height / 7.4) : Math.min(0.5, viewport.width / 6)
     const s = baseScale * (1 - scroll * 0.15)
     // first frame snaps into place (matters for reduced-motion, which renders on demand)
     const k = snapped.current ? 0.08 : 1
@@ -88,6 +90,12 @@ function Rig({ layout, children }: { layout: Layout; children: React.ReactNode }
   })
 
   return <group ref={group}>{children}</group>
+}
+
+/** Stars drifting across the whole banner, behind the greeting too. */
+function BannerStars({ count }: { count: number }) {
+  const { viewport } = useThree()
+  return <Sparkles count={count} scale={[viewport.width, viewport.height, 2]} size={2.4} speed={0.4} color="#ffd1dc" opacity={0.85} />
 }
 
 /** On-demand mode (reduced motion) renders only when asked — keep asking until assets and effects settle. */
@@ -134,6 +142,7 @@ export default function HumoScene({ layout = 'hero', bg = '#050e19' }: { layout?
           <Sparkles count={small ? 30 : 60} scale={[6, 5, 3]} size={2.2} speed={0.35} color="#ffd1dc" opacity={0.8} />
         </Rig>
         {layout === 'hero' && <GoldDust count={small ? 500 : 1400} />}
+        {layout === 'banner' && <BannerStars count={small ? 50 : 120} />}
 
         {/* Studio lighting baked into an environment — no HDR download needed */}
         <Environment resolution={256} frames={1}>
