@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowLeft, BookOpen, Bookmark, Check, ChevronRight, Flame, Gauge, ListChecks, Shuffle, Sigma, Target, Timer, X, Zap } from 'lucide-react'
+import { openUpgrade, useAccount } from '../account'
 import { loadBank, streak, useStore, type BankQ } from '../store'
 import { ScoreRing } from '../../components/motion'
 import { lessonFor } from '../learn/courses'
@@ -40,6 +41,8 @@ export function QBankHome() {
   const tries = Object.values(s.qbank)
   const acc = tries.length ? Math.round((tries.filter((x) => x.correct).length / tries.length) * 100) : null
   const openMistakes = s.mistakes.filter((x) => !x.cleared)
+  const account = useAccount()
+  const freePlan = account.loaded && !account.pro
   const weakest = useMemo(() => {
     if (!bank) return null
     const by = new Map<string, { r: number; t: number }>()
@@ -111,12 +114,22 @@ export function QBankHome() {
         {[
           { icon: X, tone: 'bg-red-50 text-red-600', t: 'Retry my mistakes', d: `${openMistakes.length} waiting — they leave once you get them right`, to: openMistakes.length ? `/app/practice/run?keys=${openMistakes.slice(-40).map((x) => x.key).join(',')}` : null },
           { icon: Target, tone: 'bg-violet-50 text-violet-600', t: weakest ? `Weakest: ${weakest}` : 'Your weakest skill', d: weakest ? '10 unsolved questions on the skill costing you most' : 'Answer a few questions and Humo finds it', to: weakest ? `/app/practice/run?skills=${encodeURIComponent(weakest)}&status=unsolved&order=random&n=10` : null },
-          { icon: Sigma, tone: 'bg-[#2d70b3]/10 text-[#2d70b3]', t: 'Desmos collection', d: '132 hard Math questions with full Desmos walkthroughs', to: '/app/practice/run?set=desmos&status=unsolved&order=random&n=10' },
+          { icon: Sigma, tone: 'bg-[#2d70b3]/10 text-[#2d70b3]', t: 'Module 2', d: 'Guaranteed hard Module 2 questions for any exam, with full Desmos walkthroughs', to: '/app/practice/run?set=desmos&status=unsolved&order=random&n=10', pro: true },
           { icon: Shuffle, tone: 'bg-amber-50 text-amber-700', t: 'Random 10, mixed', d: 'Both sections, unsolved, like a mini module', to: '/app/practice/run?status=unsolved&order=random&n=10' },
-        ].map(({ icon: Icon, tone, t, d, to }, i) => (
+        ].map(({ icon: Icon, tone, t, d, to, pro }: { icon: typeof Sigma; tone: string; t: string; d: string; to: string | null; pro?: boolean }, i) => (
           <motion.div key={t} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 + i * 0.05 }}>
             {to ? (
-              <Link to={to} className="card card-hover flex h-full flex-col p-5">
+              <Link
+                to={to}
+                onClick={(e) => {
+                  // Module 2 is Pro: the card shows for everyone, the lock appears on click
+                  if (pro && freePlan) {
+                    e.preventDefault()
+                    openUpgrade()
+                  }
+                }}
+                className="card card-hover flex h-full flex-col p-5"
+              >
                 <span className={`grid size-10 place-items-center rounded-xl ${tone}`}>
                   <Icon className="size-5" />
                 </span>
