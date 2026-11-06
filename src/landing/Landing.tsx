@@ -140,16 +140,19 @@ function Hero() {
             Free to start. No card needed.
           </motion.p>
 
-          <motion.dl custom={5} initial="hidden" animate="show" variants={item} className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-6">
-            {/* real numbers from the app: question bank, practice tests + exam papers, Desmos Lab walkthroughs */}
-            {[
-              [4100, 'questions in the bank', '+'],
-              [97, 'full tests: practice + real exams', ''],
-              [132, 'Desmos walkthroughs', ''],
-            ].map(([v, l, plus]) => (
+          <motion.dl custom={5} initial="hidden" animate="show" variants={item} className="mt-12 grid max-w-2xl grid-cols-2 gap-6 border-t border-white/10 pt-6 sm:grid-cols-4">
+            {/* numbers count up; words (All, Video) show as they are */}
+            {(
+              [
+                [4100, 'questions in the question bank'],
+                ['All', 'real exam papers'],
+                [150, 'prediction tests'],
+                ['Video', 'Desmos walkthroughs'],
+              ] as const
+            ).map(([v, l]) => (
               <div key={l}>
                 <dt className="font-serif text-[28px] tracking-tight">
-                  <CountUp to={v as number} duration={1.8} format={(n) => `${Math.round(n).toLocaleString('en-US')}${plus}`} />
+                  {typeof v === 'number' ? <CountUp to={v} duration={1.8} format={(n) => `${Math.round(n).toLocaleString('en-US')}+`} /> : v}
                 </dt>
                 <dd className="mt-1 text-[12px] leading-snug text-white/45">{l}</dd>
               </div>
