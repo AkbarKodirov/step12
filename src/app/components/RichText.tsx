@@ -1,45 +1,49 @@
-import { Fragment } from 'react'
+import { Fragment, type ReactNode } from 'react'
+import { looksLikeMath, plainMath, TexMath } from './MathTex'
 
-/** Turns stray LaTeX ($x^2$, \frac{a}{b}, \text{…}) into readable plain math. */
-function plainMath(t: string) {
-  return t
-    .replace(/\$\$?([^$\n]+)\$\$?/g, (all: string, m: string) =>
-      // money like "$5 and $10" stays as is; only math-looking spans are converted
-      !/[\\^_{}=]|^\s*[a-zA-Z]\s*$|^\(/.test(m)
-        ? all
-        : m
-        .replace(/\\text\{([^}]*)\}/g, '$1')
-        .replace(/\\frac\{([^}]*)\}\{([^}]*)\}/g, '($1)/($2)')
-        .replace(/\\sqrt\{([^}]*)\}/g, '√($1)')
-        .replace(/\\cdot|\\times/g, '·')
-        .replace(/\\le(q)?/g, '≤')
-        .replace(/\\ge(q)?/g, '≥')
-        .replace(/\\pi/g, 'π')
-        .replace(/\^2(?!\d)/g, '²')
-        .replace(/\^3(?!\d)/g, '³')
-        .replace(/\\left|\\right/g, '')
-        .replace(/[{}]/g, ''),
-    )
+// $…$ / \(…\) formulas: an opening $ not followed by a space, a closing $ not preceded by one and not followed by a digit,
+// so money like "$5 and $10" stays text
+const MATH = /\\\$|\$\$([^$]+?)\$\$|\$(?!\s)([^$\n]+?)(?<!\s)\$(?!\d)|\\\((.+?)\\\)|\\\[(.+?)\\\]/g
+
+/** Swaps each formula for a placeholder (so **bold $x$** still works) and returns the formulas. */
+function protect(s: string) {
+  const math: { src: string; display: boolean }[] = []
+  const text = s.replace(MATH, (all: string, dd?: string, d?: string, p?: string, b?: string) => {
+    if (all === '\\$') return '$'
+    const src = dd ?? d ?? p ?? b ?? ''
+    if (d != null && !looksLikeMath(src)) return all
+    math.push({ src, display: dd != null || b != null })
+    return `\u0000${math.length - 1}\u0000`
+  })
+  return { text, math }
 }
 
-/** Renders Humo's light markdown (**bold**, *italic*, `code`, bullet lines) as React nodes — no raw HTML. */
+/** Renders Humo's light markdown (**bold**, *italic*, `code`, bullet lines) and typeset math as React nodes — no raw HTML. */
 export function RichText({ text }: { text: string }) {
-  const inline = (s: string, k: string) =>
-    plainMath(s).split(/(\*\*[^*]+\*\*|`[^`\n]+`|\*[^*\n]+\*)/g).map((part, i) =>
+  const inline = (s: string, k: string): ReactNode[] => {
+    const { text: t, math } = protect(s)
+    // text pieces: formulas from placeholders, raw x^2 / 4/7 / sqrt(2) the model left untypeset
+    const words = (piece: string, kk: string) =>
+      piece.split(/\u0000(\d+)\u0000/g).map((p, j) =>
+        j % 2 ? <TexMath key={`${kk}m${j}`} src={math[Number(p)]?.src ?? ''} display={math[Number(p)]?.display} /> : <Fragment key={`${kk}t${j}`}>{plainMath(p, `${kk}t${j}`)}</Fragment>,
+      )
+    return t.split(/(\*\*[^*]+\*\*|`[^`\n]+`|\*[^*\n]+\*)/g).map((part, i) =>
       part.startsWith('`') && part.endsWith('`') && part.length > 2 ? (
-        <code key={k + i} className="rounded-md bg-[#2d70b3]/10 px-1.5 py-0.5 font-mono text-[0.9em] text-[#1f5a94]">
-          {part.slice(1, -1)}
+        // Desmos lines stay exactly as the student types them
+        <code key={k + i} className="rounded-md bg-[#2d70b3]/10 px-1.5 py-0.5 font-mono text-[0.9em] text-[#1f5a94] [overflow-wrap:anywhere]">
+          {part.slice(1, -1).replace(/\u0000(\d+)\u0000/g, (_, n) => `$${math[Number(n)]?.src ?? ''}$`)}
         </code>
       ) : part.startsWith('**') && part.endsWith('**') ? (
         <strong key={k + i} className="font-semibold">
-          {part.slice(2, -2)}
+          {words(part.slice(2, -2), `${k}${i}`)}
         </strong>
       ) : part.startsWith('*') && part.endsWith('*') && part.length > 2 ? (
-        <em key={k + i}>{part.slice(1, -1)}</em>
+        <em key={k + i}>{words(part.slice(1, -1), `${k}${i}`)}</em>
       ) : (
-        <Fragment key={k + i}>{part}</Fragment>
+        <Fragment key={k + i}>{words(part, `${k}${i}`)}</Fragment>
       ),
     )
+  }
   return (
     <>
       {text.split('\n').map((line, i) => {
