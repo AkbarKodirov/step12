@@ -26,7 +26,7 @@ export const TELEGRAM_MANAGER = 'https://t.me/HUMO_SAT_SUPPORT'
 export const FREE_TESTS = ['pt15', 'pt16', 'pt14']
 
 /** Can a Free student take this test? Every exam paper (ids start with dsat<yy>-) is free; practice tests only from FREE_TESTS. */
-export const isFreeTest = (id) => FREE_TESTS.includes(id) || /^dsatdd-/.test(String(id))
+export const isFreeTest = (id) => FREE_TESTS.includes(id) || /^dsat\d\d-/.test(String(id))
 
 /** App pages only Pro students can open (paths under /app). */
 export const PRO_PAGES = []
