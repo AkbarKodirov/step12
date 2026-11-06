@@ -1,0 +1,336 @@
+!id: dsat25-10-us1-math
+!name: October 2025 · US · Version 1 · Math
+!type: MATH
+!year: 2025
+!month: 10
+!region: US
+!form: 1
+=M1
+#1
+Q: A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. The model estimates that the object was launched from an initial height of 0.00 feet above the ground and was at a maximum height of 207.36 feet above the ground 3.6 seconds after it was launched. The model also estimates that the object was at a height of 184.32 feet above the ground <i>x</i> seconds after it was launched. What is a possible value of <i>x</i>?
+K: 2.4 | 4.8
+E: The vertex is (3.6, 207.36) and the curve passes through (0, 0), so y = 207.36 − 16(x − 3.6)^2. Setting y = 184.32 gives 16(x − 3.6)^2 = 23.04, so x − 3.6 = ±1.2 and x = 2.4 or 4.8.
+#2
+Q: The function <i>h</i> is defined by <i>h</i>(<i>x</i>) = 5(9<i>x</i> − 10). What is the value of <i>h</i>(10)?
+A) 400
+B) 10
+C) 50
+D) 90
+K: A
+E: h(10) = 5(90 − 10) = 5(80) = 400.
+#3
+Q: A pet service that takes care of both cats and dogs can care for at most 43 animals. Which inequality represents this situation, where <i>c</i> is the number of cats and <i>d</i> is the number of dogs?
+A) <i>c</i> − <i>d</i> ≤ 43
+B) <i>c</i> − <i>d</i> ≥ 43
+C) <i>c</i> + <i>d</i> ≥ 43
+D) <i>c</i> + <i>d</i> ≤ 43
+K: D
+E: The total number of animals is c + d, and it can be at most 43, so c + d ≤ 43.
+#4
+P: 9<i>x</i> + 17 = 9<i>x</i> + <i>k</i>
+Q: In the given equation, <i>k</i> is a constant. The equation has infinitely many solutions. What is the value of <i>k</i>?
+K: 17
+E: An equation has infinitely many solutions when both sides are identical. The 9x terms already match, so k must equal 17.
+#5
+Q: The <i>y</i>-intercept of the graph of <i>y</i> = 6(1.85)^<i>x</i> in the <i>xy</i>-plane is (0, <i>y</i>). What is the value of <i>y</i>?
+K: 6
+E: At x = 0, y = 6(1.85)^0 = 6(1) = 6.
+#6
+I: /qimg/oct1-math-m1-q6.svg
+Q: The graph of the linear function <i>f</i> is shown, where <i>y</i> = <i>f</i>(<i>x</i>). What is the slope of the graph of <i>f</i>?
+A) (1)/(6)
+B) −7
+C) −(1)/(6)
+D) 7
+K: A
+E: Using the points (−6, −8) and (6, −6), the slope is (−6 − (−8))/(6 − (−6)) = 2/12 = 1/6.
+#7
+Q: A triathlon is a multisport race consisting of three different legs. A triathlon participant completed the cycling leg with an average speed of 17.700 miles per hour. What was the average speed, in <u>yards</u> per hour, of the participant during the cycling leg? (1 mile = 1,760 yards)
+K: 31152
+E: Multiply by the conversion factor: 17.7 × 1,760 = 31,152 yards per hour.
+#8
+Q: Triangle <i>ABC</i> is similar to triangle <i>DEF</i>, where angle <i>A</i> corresponds to angle <i>D</i> and angle <i>C</i> corresponds to angle <i>F</i>. Angles <i>C</i> and <i>F</i> are right angles. If tan <i>A</i> = (612)/(35), what is the value of sin <i>D</i>?
+A) (612)/(613)
+B) (35)/(613)
+C) (613)/(612)
+D) (613)/(35)
+K: A
+E: Take legs 612 and 35 in triangle ABC; the hypotenuse is √(612^2 + 35^2) = 613. Similar triangles have equal angle measures, so sin D = sin A = 612/613.
+#9
+Q: The function <i>A</i>(<i>b</i>) = 7<i>b</i>^2 gives the area of a right triangle, in square centimeters (cm^2), if the length of its base is <i>b</i> cm and the length of its height is 14 times the length of its base. Which of the following is the best interpretation of <i>A</i>(18) = 2,268?
+A) If the length of the base of the triangle is 2,268 cm, then the length of the height of the triangle is 18 cm.
+B) If the length of the base of the triangle is 18 cm, then the length of the height of the triangle is 2,268 cm.
+C) If the length of the base of the triangle is 18 cm, then the area of the triangle is 2,268 cm^2.
+D) If the length of the base of the triangle is 2,268 cm, then the area of the triangle is 18 cm^2.
+K: C
+E: The input b = 18 is the base length and the output A(18) = 2,268 is the area, so a base of 18 cm gives an area of 2,268 cm^2.
+#10
+P: −4(<i>v</i> − 9)(<i>v</i> − 2)(<i>v</i> + 7) = 0
+Q: What value of <i>v</i> is a solution to the given equation?
+A) −2
+B) 7
+C) 9
+D) −4
+K: C
+E: By the zero product property, the solutions are v = 9, v = 2, and v = −7. Only 9 is among the choices.
+#11
+Q: Circle <i>K</i> has a radius of 8 millimeters (mm). Circle <i>L</i> has an area of 144π mm^2. What is the total area, in mm^2, of circles <i>K</i> and <i>L</i>?
+A) 40π
+B) 20π
+C) 80π
+D) 208π
+K: D
+E: Circle K has area π(8)^2 = 64π. Adding circle L gives 64π + 144π = 208π.
+#12
+P: <i>x</i>^2 + 49<i>x</i> + 1 = 0
+Q: What is one of the solutions to the given equation?
+A) (−49 + √(49^2 − 4(1)(1)))/(2(1))
+B) (−49 + √(49^2 − 4(49)(49)))/(2(49))
+C) (−1 + √(1^2 − 4(1)(49)))/(2(1))
+D) (−1 + √(1^2 − 4(49)(1)))/(2(49))
+K: A
+E: For ax^2 + bx + c = 0 the quadratic formula is x = (−b ± √(b^2 − 4ac))/(2a). Here a = 1, b = 49, c = 1, which matches choice A.
+#13
+Q: A model estimates that the initial number of photons in an X-ray beam is 800 when the beam reaches the surface of a certain material. The model also estimates that when the beam passes through this material, the number of photons in the beam decreases by 50% for each 7 millimeters of the material the beam passes through. Which equation represents this model, where <i>I</i> is the estimated number of photons in the beam when the beam reaches a point <i>x</i> millimeters from the surface?
+A) <i>I</i> = 800(7)^(<i>x</i>/7)
+B) <i>I</i> = 800(0.5)^<i>x</i>
+C) <i>I</i> = 800(2)^(<i>x</i>/7)
+D) <i>I</i> = 800(0.5)^(<i>x</i>/7)
+K: D
+E: A 50% decrease multiplies the count by 0.5 once per 7 mm, which is x/7 times over x mm. So I = 800(0.5)^(x/7).
+#14
+Q: In the <i>xy</i>-plane, line <i>k</i> passes through the points (3, 0) and (0, 5). Which of the following is an equation of line <i>k</i>?
+A) 3<i>x</i> − 5<i>y</i> = 15
+B) 5<i>x</i> + 3<i>y</i> = 15
+C) 3<i>x</i> + 5<i>y</i> = 15
+D) 5<i>x</i> − 3<i>y</i> = 15
+K: B
+E: The intercepts are x = 3 and y = 5, so x/3 + y/5 = 1, which gives 5x + 3y = 15. Both points satisfy it.
+#15
+I: /qimg/oct1-math-m1-q15.svg
+Q: In right triangle <i>ABC</i> shown, what is the measure of ∠<i>C</i>?
+A) 124°
+B) 146°
+C) 56°
+D) 34°
+K: D
+E: The angles of a triangle sum to 180°, so ∠C = 180° − 90° − 56° = 34°.
+#16
+P: <i>x</i> + 4<i>y</i> = −3
+P: 4<i>x</i> − <i>y</i> = 22
+Q: The solution to the given system of equations is (<i>x</i>, <i>y</i>). What is the value of 3<i>x</i> − 5<i>y</i>?
+K: 25
+E: From the second equation y = 4x − 22; substituting gives 17x − 88 = −3, so x = 5 and y = −2. Then 3(5) − 5(−2) = 25.
+#17
+Q: A circle in the <i>xy</i>-plane has its center at (−4, 1) and the point (−8, 4) lies on the circle. Which equation represents this circle?
+A) (<i>x</i> − 4)^2 + (<i>y</i> + 1)^2 = 5
+B) (<i>x</i> + 4)^2 + (<i>y</i> − 1)^2 = 25
+C) (<i>x</i> − 4)^2 + (<i>y</i> + 1)^2 = 25
+D) (<i>x</i> + 4)^2 + (<i>y</i> − 1)^2 = 5
+K: B
+E: The radius squared is (−8 + 4)^2 + (4 − 1)^2 = 16 + 9 = 25, so the equation is (x + 4)^2 + (y − 1)^2 = 25.
+#18
+I: /qimg/oct1-math-m1-q18.svg
+Q: In the figure, lines <i>r</i> and <i>s</i> are parallel and line <i>t</i> intersects both lines. If <i>a</i> = 4<i>k</i> + 57 and <i>b</i> = (<i>k</i>)/(4) + 55, what is the value of <i>c</i>?
+K: 121
+E: Angle a corresponds to the angle at s that forms a linear pair with b, so a + b = 180: 4.25k + 112 = 180, giving k = 16 and a = 121. Angle c is vertical to a, so c = 121.
+#19
+P: 0.5<i>x</i> + 1.2<i>y</i> = 9
+P: 1.5<i>x</i> + 3.6<i>y</i> = 27
+Q: How many solutions does the given system of equations have?
+A) Infinitely many
+B) Exactly two
+C) Exactly one
+D) Zero
+K: A
+E: Multiplying the first equation by 3 gives the second equation exactly, so the lines coincide and there are infinitely many solutions.
+#20
+Q: For a study, a research team measured the heights of 380 king penguins from the Kerguelen Islands and 190 king penguins from the Falkland Islands. The research team determined that the mean height of the 380 king penguins from the Kerguelen Islands was 87 centimeters and the mean height of the 190 king penguins from the Falkland Islands was 93 centimeters. What was the mean height, in centimeters, of all 570 king penguins the research team measured for this study?
+A) 91
+B) 89
+C) 90
+D) 88
+K: B
+E: The weighted mean is (380(87) + 190(93))/570 = (33,060 + 17,670)/570 = 89.
+#21
+I: /qimg/oct1-math-m1-q21.svg
+Q: The scatterplot has 13 data points in an exponential pattern trending up from left to right. Which of the following equations is the most appropriate model for the data shown in the scatterplot?
+A) <i>y</i> = 24(1.55)^<i>x</i>
+B) <i>y</i> = 24(1.55)^<i>x</i> + 18
+C) <i>y</i> = (1.55)^<i>x</i> + 23
+D) <i>y</i> = 6(1.55)^<i>x</i> + 18
+K: D
+E: The points level off near y = 19 on the left, so the model has a vertical shift of +18. The point (0, 24) gives 6(1)+18 = 24, and (4.3, 57) gives about 6(6.6)+18 ≈ 58.
+#22
+P: 18<i>qrt</i> − 2<i>qrs</i> + 10<i>rst</i> = 0
+Q: In the given equation, <i>q</i>, <i>r</i>, <i>s</i>, and <i>t</i> are positive, and (<i>q</i>)/(<i>t</i>) is greater than 5. Which expression is equivalent to <i>s</i>?
+A) (−9<i>qt</i>)/(<i>q</i> − 5<i>t</i>)
+B) (9<i>qt</i>)/(<i>q</i> − 5<i>t</i>)
+C) 18<i>qrt</i>
+D) (2<i>qt</i>)/(<i>q</i> − 5<i>t</i>)
+K: B
+E: Divide by 2r: 9qt − qs + 5st = 0, so s(q − 5t) = 9qt and s = 9qt/(q − 5t). Since q/t > 5, q − 5t is positive.
+=M2
+#1
+I: /qimg/oct1-math-m2-q1.svg
+Q: <i>y</i> > −36. Which shaded region represents the solutions to the given inequality? (Graphs A–D are shown in the figure; each boundary is a dashed line.)
+A) Graph A: slanted dashed line through (−10, −46), (0, −36), (10, −26); region below and to the right shaded
+B) Graph B: horizontal dashed line <i>y</i> = −36; region above shaded
+C) Graph C: slanted dashed line through (−10, −46), (0, −36), (10, −26); region above and to the left shaded
+D) Graph D: horizontal dashed line <i>y</i> = −36; region below shaded
+K: B
+E: The boundary y = −36 is a horizontal dashed line, and y > −36 means the region above it is shaded.
+#2
+Q: A chemist combines 25 grams of compound A, 35 grams of compound B, and <i>x</i> grams of compound C. The resulting mixture has a mass of 125 grams. What is the value of <i>x</i>?
+A) 25
+B) 65
+C) 35
+D) 10
+K: B
+E: 25 + 35 + x = 125, so x = 125 − 60 = 65.
+#3
+I: /qimg/oct1-math-m2-q3.svg
+Q: The graph of a system of a linear equation and a nonlinear equation is shown. What is the solution (<i>x</i>, <i>y</i>) to this system?
+A) (4, 0)
+B) (5, 4)
+C) (0, 0)
+D) (0, 5)
+K: B
+E: A solution of the system is a point on both graphs; the line and the curve intersect at (5, 4).
+#4
+Q: Carmen needs at least 100 signatures to submit a petition. If Carmen already has 51 signatures, what is the minimum number of additional signatures Carmen needs to submit the petition?
+A) 41
+B) 151
+C) 49
+D) 51
+K: C
+E: She needs 100 − 51 = 49 more signatures.
+#5
+Q: There are a total of 340 seats in a school auditorium. During an assembly, students occupied 50% of the seats in the auditorium. How many seats did the students occupy during this assembly?
+A) 290
+B) 25
+C) 170
+D) 50
+K: C
+E: 50% of 340 is 0.5 × 340 = 170.
+#6
+I: /qimg/oct1-math-m2-q6.svg
+Q: The graph of the polynomial function <i>f</i>, where <i>y</i> = <i>f</i>(<i>x</i>), is shown. The <i>y</i>-intercept of the graph is (0, <i>y</i>). What is the value of <i>y</i>?
+K: 5
+E: The graph crosses the y-axis at the point (0, 5), so y = 5.
+#7
+Q: If 5<i>c</i> = 15, what is the value of 5<i>c</i> − 8?
+A) 3
+B) 67
+C) 7
+D) 23
+K: C
+E: Since 5c = 15, 5c − 8 = 15 − 8 = 7.
+#8
+Q: The ratio of <i>k</i> to <i>p</i> is constant. If <i>k</i> = 7, then <i>p</i> = 6. What is the value of <i>k</i> when <i>p</i> = 336?
+A) 288
+B) 56
+C) 48
+D) 392
+K: D
+E: k/p = 7/6, so k = (7/6)(336) = 392.
+#9
+Q: Each of 185 animals can be classified as one of three species, as shown in the frequency table.
+T: <table><tr><th>Classification</th><th>Frequency</th></tr><tr><td>species X</td><td>112</td></tr><tr><td>species Y</td><td>3</td></tr><tr><td>species Z</td><td>70</td></tr></table>
+Q: If one of the animals is selected at random, what is the probability of selecting an animal of species Y?
+A) (70)/(185)
+B) (3)/(185)
+C) (182)/(185)
+D) (112)/(185)
+K: B
+E: Three of the 185 animals are species Y, so the probability is 3/185.
+#10
+Q: For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.
+T: <table><tr><th>Air temperature</th><th>Wind chill temperature at wind speed 5 mph</th><th>Wind chill temperature at wind speed 15 mph</th></tr><tr><td>27°F</td><td>21°F</td><td>15°F</td></tr><tr><td>29°F</td><td>24°F</td><td>18°F</td></tr><tr><td>31°F</td><td>26°F</td><td>20°F</td></tr></table>
+Q: According to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 29°F and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)
+K: 18
+E: In the 29°F row and the 15 mph column, the wind chill temperature is 18°F.
+#11
+Q: In a right triangle, the measure of one of the acute angles is 14°. What is the measure of the other acute angle, in degrees? (Disregard the degree symbol when entering your answer.)
+K: 76
+E: The acute angles of a right triangle sum to 90°, so the other is 90 − 14 = 76°.
+#12
+Q: Which expression is a factor of 3<i>x</i>^2 + 57<i>x</i> + 15?
+A) 3<i>x</i>^2
+B) 5<i>x</i>
+C) 3
+D) 57<i>x</i>
+K: C
+E: Factoring gives 3x^2 + 57x + 15 = 3(x^2 + 19x + 5), so 3 is a factor.
+#13
+Q: A city has an area of <i>x</i> square miles and a population density of 1,035 people per square mile. The suburb adjacent to the city has an area of <i>y</i> square miles and a population density of 535 people per square mile. The combined population of the city and the suburb adjacent to the city is 13,165 people. Which equation represents this situation?
+A) 1,035<i>x</i> + 535<i>y</i> = 13,165
+B) 1,035<i>x</i> + 535 = 13,165<i>y</i>
+C) 1,035<i>x</i> + 535 = 1,570<i>y</i>
+D) 1,035<i>x</i> + 535<i>y</i> = 1,570
+K: A
+E: Population = density × area, so the city has 1,035x people and the suburb 535y; together 1,035x + 535y = 13,165.
+#14
+Q: A triangle has a base length of 48 centimeters and a height of 96 centimeters. What is the area, in square centimeters, of the triangle?
+A) 2,304
+B) 1,152
+C) 4,608
+D) 144
+K: A
+E: Area = (1/2)(48)(96) = 2,304 square centimeters.
+#15
+Q: The function <i>f</i>(<i>x</i>) = −40<i>x</i> + 340 gives the predicted height above the ground <i>f</i>(<i>x</i>), in feet, of a model airplane <i>x</i> minutes after it begins to descend. What is the predicted height above the ground, in feet, of the model airplane 3 minutes after it begins to descend?
+A) 120
+B) 220
+C) 300
+D) 460
+K: B
+E: f(3) = −40(3) + 340 = 220 feet.
+#16
+Q: 5<i>a</i> = (4<i>b</i>^2)/(<i>a</i>) − 20<i>a</i>. The given equation relates the positive variables <i>a</i> and <i>b</i>. Which equation correctly expresses <i>a</i> in terms of <i>b</i>?
+A) <i>a</i> = (4<i>b</i>)/(25)
+B) <i>a</i> = (4<i>b</i>^2)/(25)
+C) <i>a</i> = (2<i>b</i>)/(5)
+D) <i>a</i> = (2<i>b</i>^2)/(5)
+K: C
+E: Adding 20a gives 25a = 4b^2/a, so 25a^2 = 4b^2; since a and b are positive, 5a = 2b and a = 2b/5.
+#17
+Q: Charles saves (3)/(5) of the $225 he earns each week from his summer job. If Charles continues to save at this rate, how much money, in dollars, will Charles save in 3 weeks?
+K: 405
+E: Each week he saves (3/5)(225) = 135 dollars, so in 3 weeks he saves 3 × 135 = 405 dollars.
+#18
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = 2<i>x</i>^3 + (1)/(3)<i>x</i>^2 − <i>x</i>. What is the value of <i>f</i>(1)?
+A) (4)/(3)
+B) 2
+C) (10)/(3)
+D) 6
+K: A
+E: f(1) = 2 + 1/3 − 1 = 4/3.
+#19
+Q: In the <i>xy</i>-plane, what is the slope of the line that passes through the points (0, 0) and (13, 14)?
+A) 13
+B) (14)/(13)
+C) (13)/(14)
+D) 14
+K: B
+E: Slope = (14 − 0)/(13 − 0) = 14/13.
+#20
+Q: Function <i>f</i> is defined as <i>f</i>(<i>x</i>) = (2<i>x</i> − 5)^2, and function <i>g</i> is defined as <i>g</i>(<i>x</i>) = 2(2<i>x</i> + 7). Which of the following is equivalent to <i>f</i>(<i>x</i>) + <i>g</i>(<i>x</i>)?
+A) 4<i>x</i>^2 − 16<i>x</i> + 11
+B) 4<i>x</i>^2 − 16<i>x</i> + 39
+C) 4<i>x</i>^2 − 6<i>x</i> + 39
+D) 4<i>x</i>^2 + 24<i>x</i> + 11
+K: B
+E: (2x − 5)^2 = 4x^2 − 20x + 25 and g(x) = 4x + 14; the sum is 4x^2 − 16x + 39.
+#21
+Q: 15<i>x</i>^2 = 15(9). What is the negative solution to the given equation?
+K: -3
+E: Dividing by 15 gives x^2 = 9, so x = ±3; the negative solution is −3.
+#22
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = <i>a</i>(4)^<i>x</i>, where <i>a</i> is a positive constant. In the <i>xy</i>-plane, the graph of <i>y</i> = <i>f</i>(<i>x</i>) passes through the point (0, 13). What is the value of <i>f</i>(0)?
+A) 4
+B) 1
+C) 13
+D) 9
+K: C
+E: The graph passes through (0, 13), so f(0) = 13 (indeed f(0) = a·4^0 = a = 13).
