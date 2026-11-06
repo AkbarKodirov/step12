@@ -1,9 +1,11 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Bookmark, Check, FolderPlus, Play, Plus, StickyNote, Trash2, X } from 'lucide-react'
-import { plainMath, resolveRef, setStore, stripHtml, useStore, type QRef, type Resolved } from '../store'
-import { refOf } from '../practice/Runner'
+import { Bookmark, Check, ChevronLeft, ChevronRight, FolderPlus, History, Play, Plus, RotateCcw, StickyNote, Trash2, X } from 'lucide-react'
+import { isCorrect, plainMath, previousTry, resolveRef, retryMistake, setStore, stripHtml, useStore, type QRef, type Resolved } from '../store'
+import { refOf, SolutionCard } from '../practice/Runner'
+import { Passage, QuestionBody } from './TakeTest'
+import { HumoExplain } from '../components/HumoExplain'
 import { EmptyState } from '../components/EmptyState'
 import { HumoDrawer } from '../components/HumoDrawer'
 import { studentContext } from '../humoContext'
@@ -119,6 +121,194 @@ function RowCard({ row, i, onOpen, tab }: { row: Row; i: number; onOpen: () => v
   )
 }
 
+const L = ['A', 'B', 'C', 'D']
+
+/** One mistake, opened like a fresh question: no answer shown until the student answers again. */
+function MistakeRetry({ row, onNext, last }: { row: Row; onNext: () => void; last: boolean }) {
+  const s = useStore()
+  const r = row.r!
+  const key = row.ref.key
+  const q = r.q
+  const b = r.bank
+  const m = s.mistakes.find((x) => x.key === key)
+  const prev = m ? previousTry(s, m) : null
+  const [value, setValue] = useState<string | null>(null)
+  const [result, setResult] = useState<null | boolean>(null)
+  const [showPrev, setShowPrev] = useState(false)
+  const started = useRef(Date.now())
+  const checked = result !== null
+  const prevLabel = prev == null || prev === '' ? 'No answer (left blank)' : q.format === 'mc' ? `${L[Number(prev)] ?? '?'}` : prev
+
+  function check() {
+    if (value == null || value === '' || checked) return
+    const ok = isCorrect(q, value)
+    setResult(ok)
+    setShowPrev(false)
+    retryMistake(key, value, ok, Math.max(1, Math.round((Date.now() - started.current) / 1000)), r)
+  }
+  function again() {
+    setValue(null)
+    setResult(null)
+    setShowPrev(false)
+    started.current = Date.now()
+  }
+
+  return (
+    <div className="card min-w-0 overflow-hidden">
+      <div className="flex flex-wrap items-center gap-1.5 border-b border-line px-4 py-3 text-[11.5px] font-medium sm:px-5">
+        <span className="rounded-md bg-cream px-2 py-0.5">{r.section === 'MATH' ? 'Math' : 'Reading & Writing'}</span>
+        {r.difficulty !== 'Test' && <span className={`rounded-md px-2 py-0.5 ${r.difficulty === 'Hard' ? 'bg-rose-50 text-rose-700' : r.difficulty === 'Medium' ? 'bg-amber-50 text-amber-700' : 'bg-emerald-50 text-emerald-700'}`}>{r.difficulty}</span>}
+        <span className="rounded-md bg-violet-50 px-2 py-0.5 text-violet-700">{r.topic ?? r.skill}</span>
+        <span className="w-full text-[11.5px] font-normal text-moss sm:ml-auto sm:w-auto">{r.source}</span>
+      </div>
+
+      <div className="space-y-5 p-4 sm:p-6">
+        {!checked && m && (
+          <div>
+            <button onClick={() => setShowPrev((v) => !v)} className="inline-flex items-center gap-1.5 rounded-full bg-cream px-3 py-1.5 text-[12.5px] font-medium text-moss hover:text-pine" aria-expanded={showPrev}>
+              <History className="size-3.5" /> {showPrev ? 'Hide previous try' : 'Previous try'}
+              {(m.tries ?? 0) > 0 && <span className="text-[11px]">· {m.tries} {m.tries === 1 ? 'retry' : 'retries'}</span>}
+            </button>
+            <AnimatePresence>
+              {showPrev && (
+                <motion.p initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden">
+                  <span className="mt-2 block rounded-xl bg-red-50 px-3 py-2 text-[13px] text-red-700">
+                    Last time you answered <b>{prevLabel}</b>, and it was wrong. Try a different approach.
+                  </span>
+                </motion.p>
+              )}
+            </AnimatePresence>
+          </div>
+        )}
+
+        {q.passageImage && <img src={q.passageImage} alt="" className="max-w-full rounded-xl" />}
+        {q.passage && (
+          <div className="rounded-2xl bg-cream p-4 sm:p-5">
+            <Passage html={q.passage} />
+          </div>
+        )}
+        <QuestionBody q={b?.questionHtml ? { ...q, question: b.questionHtml } : q} />
+
+        {q.format === 'mc' ? (
+          <div className="grid gap-2">
+            {q.options.map((opt, k) => {
+              const picked = value === String(k)
+              const right = checked && result === false && q.correct === k
+              const wrong = checked && picked && !result
+              const good = checked && picked && result
+              const wasPrev = showPrev && !checked && prev === String(k)
+              return (
+                <button
+                  key={k}
+                  disabled={checked}
+                  onClick={() => setValue(String(k))}
+                  className={`flex w-full min-w-0 items-center gap-3 rounded-xl border-2 px-3.5 py-2.5 text-left text-[14.5px] transition sm:px-4 ${good || right ? 'animate-pop border-emerald-500 bg-emerald-50' : wrong ? 'animate-shake border-red-400 bg-red-50' : picked ? 'border-[#2d70b3] bg-[#2d70b3]/[0.06]' : wasPrev ? 'border-dashed border-red-300' : 'border-line hover:border-line-strong'}`}
+                >
+                  <span className={`grid size-7 shrink-0 place-items-center rounded-full border-2 text-[12px] font-bold ${picked && !checked ? 'border-[#2d70b3] bg-[#2d70b3] text-white' : 'border-pine/40'}`}>{L[k]}</span>
+                  <span className="prose-q math-q min-w-0 flex-1 break-words" dangerouslySetInnerHTML={{ __html: b?.optionsHtml?.[k] ?? opt }} />
+                  {wasPrev && <span className="shrink-0 text-[11px] font-semibold text-red-600">Last try</span>}
+                  {(good || right) && <Check className="size-5 shrink-0 text-emerald-600" />}
+                  {wrong && <X className="size-5 shrink-0 text-red-500" />}
+                </button>
+              )
+            })}
+          </div>
+        ) : (
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              check()
+            }}
+            className="flex flex-wrap items-center gap-2"
+          >
+            <input
+              disabled={checked}
+              inputMode="decimal"
+              value={value ?? ''}
+              onChange={(e) => setValue(e.target.value.replace(/[^0-9./-]/g, '').slice(0, 6))}
+              placeholder="Answer"
+              aria-label="Your answer"
+              className={`w-40 rounded-xl border-2 px-4 py-3 font-mono text-[18px] focus:outline-none ${checked ? (result ? 'border-emerald-500 bg-emerald-50' : 'border-red-400 bg-red-50') : 'border-line focus:border-[#2d70b3]'}`}
+            />
+          </form>
+        )}
+
+        {!checked && (
+          <button onClick={check} disabled={value == null || value === ''} className="btn btn-dark h-11 w-full px-6 text-[14px] disabled:opacity-40 sm:w-auto">
+            Check answer
+          </button>
+        )}
+
+        <AnimatePresence>
+          {checked && (
+            <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className={`flex flex-wrap items-center gap-3 rounded-2xl p-4 ${result ? 'bg-emerald-50' : 'bg-red-50'}`}>
+              <span className={`flex min-w-0 items-center gap-2 text-[15px] font-semibold ${result ? 'text-emerald-700' : 'text-red-700'}`}>
+                {result ? <Check className="size-5 shrink-0" /> : <X className="size-5 shrink-0" />}
+                {result ? 'Correct, removed from your mistakes' : q.format === 'sa' ? `Not quite. The answer is ${q.answer}` : `Not quite. The answer is ${L[q.correct ?? 0]}`}
+              </span>
+              <span className="flex w-full flex-wrap gap-2 sm:ml-auto sm:w-auto">
+                {!result && (
+                  <button onClick={again} className="btn btn-ghost h-10 flex-1 px-4 text-[13px] sm:flex-none">
+                    <RotateCcw className="size-4" /> Try again
+                  </button>
+                )}
+                {!last && (
+                  <button onClick={onNext} className="btn btn-dark h-10 flex-1 px-4 text-[13px] sm:flex-none">
+                    Next mistake <ChevronRight className="size-4" />
+                  </button>
+                )}
+              </span>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {checked && !result && (
+          <div className="space-y-3">
+            <HumoExplain testId={b ? 'bank' : row.ref.testId} qKey={b ? b.id : `${row.ref.module}:${row.ref.index}`} q={q} math={r.section === 'MATH'} compact />
+            {b?.solution && <SolutionCard b={b} />}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+/** Steps through a frozen list of mistakes; fixed ones leave the store but stay here until the student goes back. */
+function RetryView({ rows, start, onClose }: { rows: Row[]; start: number; onClose: () => void }) {
+  const [pos, setPos] = useState(start)
+  const top = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    top.current?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+  }, [pos])
+  const row = rows[pos]
+  return (
+    <div ref={top} className="mt-5 min-w-0 scroll-mt-20">
+      <div className="mb-3 flex items-center gap-2">
+        <button onClick={onClose} className="inline-flex items-center gap-1 rounded-full bg-cream px-3.5 py-1.5 text-[13px]">
+          <ChevronLeft className="size-4" /> Mistakes log
+        </button>
+        <span className="ml-auto text-[13px] tabular-nums text-moss">
+          {pos + 1} of {rows.length}
+        </span>
+        <button aria-label="Previous mistake" disabled={pos === 0} onClick={() => setPos((p) => p - 1)} className="grid size-9 place-items-center rounded-xl border border-line disabled:opacity-40">
+          <ChevronLeft className="size-4" />
+        </button>
+        <button aria-label="Next mistake" disabled={pos >= rows.length - 1} onClick={() => setPos((p) => p + 1)} className="grid size-9 place-items-center rounded-xl border border-line disabled:opacity-40">
+          <ChevronRight className="size-4" />
+        </button>
+      </div>
+      <MistakeRetry key={row.ref.key} row={row} last={pos >= rows.length - 1} onNext={() => setPos((p) => Math.min(p + 1, rows.length - 1))} />
+      {pos >= rows.length - 1 && (
+        <div className="mt-4 text-center">
+          <button onClick={onClose} className="text-[13px] font-medium text-moss hover:text-pine">
+            Back to the mistakes log
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function Mistakes() {
   const s = useStore()
   const [params, setParams] = useSearchParams()
@@ -128,7 +318,10 @@ export default function Mistakes() {
   const [showFixed, setShowFixed] = useState(false)
   const [coll, setColl] = useState<string | null>(null)
   const [humo, setHumo] = useState(false)
+  // mistakes open here as fresh questions (not in the practice runner, which shows the old answer)
+  const [retry, setRetry] = useState<{ rows: Row[]; start: number } | null>(null)
   const nav = useNavigate()
+  useEffect(() => setRetry(null), [tab])
 
   const refs = useMemo(() => {
     if (tab === 'saved') return s.saved.map((x) => ({ ...(x.bankId ? refOf(x.key) : { key: x.key, testId: x.testId, module: x.module, index: x.index }), at: x.at }))
@@ -165,7 +358,9 @@ export default function Mistakes() {
         ))}
       </div>
 
-      {tab === 'collections' && !coll ? (
+      {tab === 'mistakes' && retry ? (
+        <RetryView rows={retry.rows} start={retry.start} onClose={() => setRetry(null)} />
+      ) : tab === 'collections' && !coll ? (
         <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {s.collections.length === 0 && (
             <div className="sm:col-span-2 lg:col-span-3">
@@ -227,11 +422,16 @@ export default function Mistakes() {
                   <img src="/brand/humo-mark.svg" alt="" className="size-5 rounded-md" /> Find my patterns
                 </button>
               )}
-              {shown.length > 0 && (
-                <Link to={runUrl()} className="btn btn-dark h-10 px-4 text-[13px]">
-                  <Play className="size-4" /> {tab === 'mistakes' ? 'Retry' : 'Practice'} all {shown.length}
-                </Link>
-              )}
+              {shown.length > 0 &&
+                (tab === 'mistakes' ? (
+                  <button onClick={() => setRetry({ rows: shown, start: 0 })} className="btn btn-dark h-10 px-4 text-[13px]">
+                    <Play className="size-4" /> Retry all {shown.length}
+                  </button>
+                ) : (
+                  <Link to={runUrl()} className="btn btn-dark h-10 px-4 text-[13px]">
+                    <Play className="size-4" /> Practice all {shown.length}
+                  </Link>
+                ))}
             </span>
           </div>
           {tab === 'mistakes' && mistakeSkills.length > 0 && (
@@ -257,7 +457,7 @@ export default function Mistakes() {
             <ul className="card mt-4 overflow-hidden">
               <AnimatePresence initial={false}>
                 {shown.map((row, i) => (
-                  <RowCard key={row.ref.key} row={row} i={i} tab={tab} onOpen={() => nav(runUrl(i))} />
+                  <RowCard key={row.ref.key} row={row} i={i} tab={tab} onOpen={() => (tab === 'mistakes' ? setRetry({ rows: shown, start: i }) : nav(runUrl(i)))} />
                 ))}
               </AnimatePresence>
             </ul>
