@@ -1,7 +1,8 @@
 import { useMemo, useRef, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ArrowRight, Award, BookOpen, Check, Clock, Lightbulb, Play, PlayCircle, Sparkles, Target } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Award, BookOpen, Check, Clock, Lightbulb, Lock, Play, PlayCircle, Sparkles, Target } from 'lucide-react'
+import { openUpgrade, useAccount } from '../account'
 import { setStore, useStore, type State } from '../store'
 import { allLessons, COURSES, type Course } from './courses'
 import { LiveDesmos } from '../../desmos/DesmosScreen'
@@ -27,6 +28,13 @@ function progress(c: Course, s: State) {
 
 /* ---------------- lesson card ---------------- */
 
+/** Free students can look through a course, but every lesson opens the Go Pro window. */
+function useLessonLock() {
+  const a = useAccount()
+  const locked = a.loaded && !a.pro
+  return { locked, guard: (e: React.MouseEvent) => { if (locked) { e.preventDefault(); openUpgrade() } } }
+}
+
 function LessonCard({ c, l, s }: { c: Course; l: FullLesson; s: State }) {
   const key = `${c.id}:${l.id}`
   const v = VIDEOS[l.id]
@@ -36,9 +44,15 @@ function LessonCard({ c, l, s }: { c: Course; l: FullLesson; s: State }) {
   const mastered = m && m.best / m.total >= 0.8
   const done = !!s.lessonsDone[key]
   const left = v && watch && watch.pos > 5 ? Math.max(0, Math.round((watch.dur - watch.pos) / 60)) : null
+  const { locked, guard } = useLessonLock()
   return (
-    <Link to={`/app/learn/${c.id}/${l.id}`} className="card card-hover group flex flex-col overflow-hidden">
+    <Link to={`/app/learn/${c.id}/${l.id}`} onClick={guard} className="card card-hover group flex flex-col overflow-hidden">
       <div className="relative aspect-video overflow-hidden bg-gradient-to-br from-navy to-navy-2">
+        {locked && (
+          <span className="absolute left-2 top-2 z-10 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-2.5 py-1 text-[11px] font-bold text-[#3a2400]">
+            <Lock className="size-3" /> Pro
+          </span>
+        )}
         {v ? (
           <>
             <img src={posterSrc(v)} alt="" loading="lazy" className="size-full object-cover transition-transform duration-500 group-hover:scale-[1.04]" />
@@ -94,6 +108,7 @@ export function CoursePage() {
   const c = COURSES[course as 'rw' | 'math']
   const s = useStore()
   const [filter, setFilter] = useState('all')
+  const { guard } = useLessonLock()
   if (!c) return <Navigate to="/app" replace />
   const p = progress(c, s)
   const all = allLessons(c)
@@ -129,7 +144,7 @@ export function CoursePage() {
           </h1>
           <p className="mt-3 max-w-xl text-[15px] text-white/75">{p.videos > 0 ? 'Video lessons with a teacher’s cursor pointing at every word, a Mastery Check after each one, and Humo ready for your questions.' : c.tagline}</p>
           <div className="mt-6 flex flex-wrap items-center gap-2.5">
-            <Link to={`/app/learn/${c.id}/${next.id}`} className="btn h-12 bg-white px-6 text-[15px] font-bold text-navy hover:bg-white/90">
+            <Link to={`/app/learn/${c.id}/${next.id}`} onClick={guard} className="btn h-12 bg-white px-6 text-[15px] font-bold text-navy hover:bg-white/90">
               <PlayCircle className="size-5" /> {fv ? `Watch ${next.title} · ${Math.round(fv.duration / 60)} min` : p.done ? 'Continue' : 'Start the course'}
             </Link>
             <a href="#lessons" className="btn h-12 bg-white/10 px-5 text-[14px] text-white hover:bg-white/15">
@@ -148,7 +163,7 @@ export function CoursePage() {
             </p>
           </div>
         </div>
-        <Link to={`/app/learn/${c.id}/${next.id}`} className="group relative block aspect-video max-w-full overflow-hidden rounded-[20px] shadow-[0_30px_60px_-20px_rgba(0,0,0,.6)] ring-1 ring-white/10 lg:-rotate-[1.2deg]">
+        <Link to={`/app/learn/${c.id}/${next.id}`} onClick={guard} className="group relative block aspect-video max-w-full overflow-hidden rounded-[20px] shadow-[0_30px_60px_-20px_rgba(0,0,0,.6)] ring-1 ring-white/10 lg:-rotate-[1.2deg]">
           {fv ? (
             <>
               <img src={posterSrc(fv)} alt={`${next.title} video lesson`} className="size-full object-cover" />
