@@ -384,7 +384,7 @@ export default function AppShell() {
             <Route path="vocab" element={<Vocabulary />} />
             <Route path="blitz" element={<Blitz />} />
             <Route path="mistakes" element={<Mistakes />} />
-            <Route path="plan" element={<ProGate><StudyPlan /></ProGate>} />
+            <Route path="plan" element={<StudyPlan />} />
             <Route path="drills" element={<Navigate to="/app/practice" replace />} />
             <Route path="papers" element={<ExamPapers />} />
             <Route path="lessons" element={<Navigate to="/app/learn/rw" replace />} />

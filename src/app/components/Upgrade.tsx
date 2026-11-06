@@ -51,7 +51,7 @@ export function ProLock({ title, blurb }: { title: string; blurb: string }) {
         </span>
         <span className="min-w-0 flex-1">
           <span className="block text-[15px] font-semibold">Keep practicing for free</span>
-          <span className="block text-[13px] text-moss">The full question bank stays free: 3,000+ questions with explanations.</span>
+          <span className="block text-[13px] text-moss">The full question bank stays free: 4,000+ questions with explanations.</span>
         </span>
       </Link>
     </motion.div>
