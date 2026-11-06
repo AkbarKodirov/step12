@@ -1,0 +1,540 @@
+!id: dsat25-03-v4-rw
+!name: March 2025 · International · Version 4 · Reading & Writing
+!type: EBRW
+!year: 2025
+!month: 3
+!region: International
+!form: 4
+=M1
+#1
+P: In some of his sculptures, Allan Houser uses abstract geometric shapes to depict his subjects rather than portraying them in realistic detail. For instance, his 1989 work <i>Embrace</i> is highly abstract and therefore differs strikingly from some of his other pieces in which the viewer can easily ______ familiar objects.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) reveal
+B) remember
+C) ignore
+D) identify
+K: D
+E: The contrast is with abstract works, so in the other pieces the viewer can easily identify familiar objects.
+#2
+P: During film’s early years, those who worked in the industry had a vested interest in convincing the public to embrace the new medium. As Sumiko Higashi argues, some filmmakers relied on film critics to influence the public’s ______ the world of cinema. Critics who drew similarities between film and traditional art forms, like drama, could help legitimize film as an art form.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) contribution to
+B) perception of
+C) reproduction of
+D) application to
+K: B
+E: Critics were meant to shape how the public viewed film, so “perception of” fits.
+#3
+P: The dinosaur displays at museums such as the Field Museum of Natural History in Chicago (which has a mounted <i>Apatosaurus</i> skeleton among its holdings) are notable for the ______ of the research behind them—the museum staff consulted numerous sources to ensure the accuracy of the displays.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) rigor
+B) obscurity
+C) shallowness
+D) novelty
+K: A
+E: Consulting numerous sources to ensure accuracy shows the research was thorough, or rigorous.
+#4
+P: Agglomeration economies arise when multiple firms in related industries ______ an area, as with ceramic tile manufacturers and nonconstruction ceramics manufacturers in London, UK. Economists have assumed that companies cluster for the same reasons, but Giulia Faggio et al. found that factors driving agglomeration in some cases are only weakly correlated with agglomeration in others.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) amass in
+B) appeal to
+C) intercede in
+D) concur with
+K: A
+E: Agglomeration means firms clustering, so firms “amass in” an area.
+#5
+P: Today’s theater stages are frequently filled with props and scenery to immerse the audience in a play’s world. Because theatergoers have grown used to carefully designed sets, plays with few visual elements can surprise audiences. But simple, unadorned stages were likely ______ audiences in the very distant past: highly decorated and detailed sets were not common until the 1600s.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) disliked by
+B) confusing to
+C) expected by
+D) exciting to
+K: C
+E: Elaborate sets were uncommon before the 1600s, so plain stages would have been what audiences expected.
+#6
+P: Idealism aside, the mayor took a <u>______</u> view of the budget, funding only the programs the city could realistically sustain.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) reckless
+B) pragmatic
+C) sentimental
+D) theoretical
+K: B
+#7
+P: The following text is adapted from George Eliot’s 1857 short story “The Sad Fortunes of the Rev. Amos Barton.” Mr. Ely is a clergyman in the town of Milby.
+P: By the laity of Milby and its neighbourhood [Mr. Ely] was regarded as a man of quite remarkable powers and learning, who must make a considerable sensation in London pulpits and drawing-rooms on his occasional visit to the metropolis; and by his brother clergy he was regarded as a discreet and agreeable fellow. Mr. Ely never got into a warm discussion; he suggested what might be thought, but rarely said what he thought himself; he never let either men or women see that he was laughing at them, and he never gave any one an opportunity of laughing at <i>him</i>.
+Q: Which choice best describes the overall structure of the text?
+A) It shows that Mr. Ely had originally been held in high regard by his friends and then details the events that caused their regard for him to subside.
+B) It highlights the disparity between Mr. Ely’s public and private behavior and then conveys why he labors to obscure his true self from other people.
+C) It implies that Mr. Ely’s neighbors are more naïve in their estimation of him than people in London are and then explains why his neighbors have been so easily misled.
+D) It presents the favorable opinion of Mr. Ely that other people hold and then describes the behaviors of Mr. Ely that enable him to maintain that favorable opinion.
+K: D
+E: The text first reports how others esteem Mr. Ely, then describes his guarded habits that sustain that reputation.
+#8
+P: Elio Sucena and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.
+Q: Which choice best states the overall structure of the text?
+A) It explains a widespread assumption about a phenomenon, describes two studies that are based on that assumption, and explains why the assumption is unfounded.
+B) It discusses a particular study of a phenomenon, elaborates on how two other studies have approached this phenomenon in the past, and critiques the first study’s approach.
+C) It details the development of a field of scientific inquiry, gives examples of three studies that were important to this development, and speculates on how future studies can develop these ideas.
+D) It describes a phenomenon, provides examples of two studies of that phenomenon, and mentions a third study of that phenomenon.
+K: D
+E: The text defines convergent evolution, summarizes the Sucena and Wittkopp studies, and then mentions the third study by Green and Extavour.
+#9
+P: The following text is from a translation of María Dueñas’s 2009 novel <i>The Time in Between</i>. The narrator has just rented an apartment and is entering it for the first time.
+P: Over the years there have been many times when my destiny has delivered me unexpected moments, unforeseen twists and turns that I’ve had to handle on the fly as they appeared. Occasionally I was ready for them; very often I wasn’t. Never, however, was I so aware of entering a new stage as I was that afternoon in October when I finally dared to cross the threshold and my steps sounded hollowly in the unfurnished apartment. Behind me was a complicated past, and in front of me, like an omen, I could see a space opening out, a great empty space that time would take care of filling up.
+P: ©2009 by María Dueñas. Translation ©2011 by Daniel Hahn.
+Q: Which choice best states the main idea of the text?
+A) The narrator feels optimistic about the future success of a new business.
+B) The narrator recognizes that a particular moment marks a major shift in her life.
+C) The narrator has always had a plan for how to handle big moments in her life.
+D) The narrator wants to express her gratitude for the people who have helped her.
+K: B
+E: She says she was never so aware of entering a new stage, with a past behind her and an empty space ahead.
+#10
+P: In Brazil, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by around 70 percent between 2000 and 2019; such shifts are typically explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Alemu Mekonnen and Gunnar Köhlin’s study of fuel use in Ethiopia shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including households’ cooking habits.
+Q: Based on the text, how would an advocate of the energy ladder model most likely explain the change observed in Brazil?
+A) Between 2000 and 2019, household incomes rose in Brazil, resulting in households meeting a greater proportion of their fuel needs with high-technology fuels.
+B) Beginning in 2000, high-technology fuels became more readily available in Brazil, enabling households of various income levels to shift away from solid fuels.
+C) Solid fuel use declined in Brazil between 2000 and 2019 because changes in household income during that period made solid fuels more expensive relative to income.
+D) Household incomes in Brazil rose from 2000 to 2019, which weakened the association between income and household fuel choice.
+K: A
+E: The energy ladder says high-technology fuels displace solid fuels as incomes rise, so rising incomes explain the shift.
+#11
+T: <table style="border-collapse:collapse;margin:0 auto 10px"><caption style="padding-bottom:6px">Millions of Metric Tons of Copper Mined in 1995 and 2020</caption><thead><tr><td style="border:1px solid #000;padding:4px 10px"><b>Country</b></td><td style="border:1px solid #000;padding:4px 10px"><b>1995</b></td><td style="border:1px solid #000;padding:4px 10px"><b>2020</b></td></tr></thead><tbody><tr><td style="border:1px solid #000;padding:4px 10px">Mexico</td><td style="border:1px solid #000;padding:4px 10px">0.33</td><td style="border:1px solid #000;padding:4px 10px">0.73</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">United States</td><td style="border:1px solid #000;padding:4px 10px">1.85</td><td style="border:1px solid #000;padding:4px 10px">1.20</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Peru</td><td style="border:1px solid #000;padding:4px 10px">0.38</td><td style="border:1px solid #000;padding:4px 10px">2.15</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Poland</td><td style="border:1px solid #000;padding:4px 10px">0.38</td><td style="border:1px solid #000;padding:4px 10px">0.39</td></tr></tbody></table>
+P: While doing research for a paper about metal exports, a student finds information about copper mining in different countries in 1995 and 2020. The student notes that Peru produced 0.38 million metric tons of copper in 1995 and ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) 0.73 million metric tons of copper in 2020.
+B) 0.39 million metric tons of copper in 2020.
+C) 2.15 million metric tons of copper in 2020.
+D) 1.20 million metric tons of copper in 2020.
+K: C
+E: The table lists Peru at 2.15 million metric tons in 2020, so C completes the statement accurately.
+#12
+P: “Aunt Sue’s Stories” is a 1926 poem by Langston Hughes. In the poem, the speaker indicates that the stories Aunt Sue tells are based on Aunt Sue’s personal experiences, saying that ______
+Q: Which choice most effectively uses a quotation from “Aunt Sue’s Stories” to illustrate the claim?
+A) a listening child “knows that Aunt Sue / Never got her stories out of any book at all, / But that they came / Right out of her own life.”
+B) the people in the stories “Mingle themselves softly / In the flow of old Aunt Sue’s voice, / Mingle themselves softly.”
+C) dark shadows “cross and recross / Aunt Sue’s stories.”
+D) the stories are told during “Summer nights on the front porch.”
+K: A
+E: Only A says the stories came from her own life, not from books.
+#13
+P: A professor at the University of Oklahoma, Amy McGovern works on developing artificial intelligence technology, with a specific focus on supervised machine <u>______</u> machine learning involves teaching computer algorithms to organize large amounts of data.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) learning supervised
+B) learning, supervised
+C) learning. Supervised
+D) learning, which supervised
+K: C
+#14
+P: Although Eastern North Pacific (ENP) gray whales generally migrate between their wintering waters along the coast of Mexico and their foraging waters in the Arctic, a subset of this population—known as the Pacific Coast Feeding Group (PCFG)—forages along the coastlines of Northern California (USA) and British Columbia (Canada) instead. Interestingly, individuals in this subset reach smaller maximum sizes than other ENP whales do, despite having similar pre-maximum growth rates. Researchers hypothesize that this difference may be an adaptation to distinct resource opportunities in the PCFG foraging range.
+Q: Which finding, if true, would most directly support the researchers’ claim regarding the size of PCFG whales?
+A) When foraging along the coasts of Northern California and British Columbia, PCFG whales are in closer proximity to major ports and urban populations than ENP whales in the main group are when foraging in Arctic waters.
+B) The average body size of PCFG whales observed along the coasts of Northern California and British Columbia has remained relatively steady in recent decades, while the average body size of ENP whales in the main group has slightly decreased.
+C) When present along the coasts of Northern California and British Columbia, PCFG whales tend to forage in rocky kelp beds at shallow depths inaccessible to whales as large as those in the ENP main group.
+D) Certain crustacean prey species available along the coasts of Northern California and British Columbia where PCFG whales tend to forage are not available in the Arctic waters where ENP whales in the main group forage.
+K: D
+E: The claim is that smaller size adapts to resources unique to the PCFG range; prey available only there supports it.
+#15
+P: Ocean Vuong’s 2019 novel <i>On Earth We’re Briefly Gorgeous</i> is regularly described as autobiographical. That characterization is apt—there are many parallels between the experiences of the novel’s character of Little Dog and those of Vuong—but it should not be taken to mean that all the people and events depicted in <i>On Earth We’re Briefly Gorgeous</i> are based on actual people and events. The novel is largely pure invention, and readers who neglect this fact and instead try to identify more and more real-life analogues thus risk ______
+Q: Which choice most logically completes the text?
+A) positing unsupportable connections between <i>On Earth We’re Briefly Gorgeous</i> and Vuong’s life.
+B) minimizing the fact that Vuong drew on real-world material when writing <i>On Earth We’re Briefly Gorgeous</i>.
+C) misrepresenting <i>On Earth We’re Briefly Gorgeous</i> as being more widely read than it actually is.
+D) overemphasizing the extent to which Vuong took inspiration from earlier writers.
+K: A
+E: Since the novel is largely invention, hunting for real-life analogues risks drawing connections that the evidence cannot support.
+#16
+P: The first modern public zoo opened at the height of the French Revolution in 1793. Located in downtown Paris, the zoo was called the Menagerie du Jardin des Plantes. It was filled with living animals that had been confiscated ______ the private collections of French aristocrats.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) from;
+B) from
+C) from:
+D) from,
+K: B
+E: No punctuation is needed between the verb phrase “had been confiscated” and its prepositional phrase.
+#17
+P: Museo de Recursos Históricos de Lares, a history museum in Lares, Puerto Rico, is one of more than eighty museums in the US territory. Puerto Rico’s museums ______ visitors about everything from the territory’s history to its architecture to its coffee.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) having informed
+B) informing
+C) to inform
+D) inform
+K: D
+E: The plural subject “museums” needs the present-tense finite verb “inform.”
+#18
+P: In May of 1959, the song “Danny Boy” was a top-ten hit. Having climbed the charts for ten weeks, ______ ranked No. 1 on the Billboard Hot 100 list of most popular songs.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) those
+B) they
+C) each
+D) it
+K: D
+E: The modifier refers to the singular song, so the singular pronoun “it” is needed.
+#19
+P: A worker cooperative is a business that is owned and operated by its workers. This model stands in contrast to traditional models in which a smaller group of owners controls a company. Because the profits made by a cooperative are shared by all workers—who are also owners—the workers ______ directly from its success.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) benefit
+B) had benefited
+C) benefited
+D) were benefiting
+K: A
+E: The passage describes the model in the present tense, so the present-tense “benefit” fits.
+#20
+P: The 2020 documentary <i>Without a Whisper—Konnon:Kwe</i> was directed by Katsitsionni Fox. It explores how Indigenous Haudenosaunee culture shaped the woman suffrage movement in the early nineteenth ______ how the personal and political authority Haudenosaunee women had in their communities influenced the first suffragists in the US.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) century revealing
+B) century; revealing
+C) century. Revealing
+D) century, revealing
+K: D
+E: A comma attaches the participial phrase “revealing...” to the complete clause before it.
+#21
+P: Generally, sleek vehicles are more aerodynamic than bulkier ones. For example, the streamlined nose of the T-38 Talon jet helps it glide through wind with relative ease. ______ a boxy semitruck encounters more wind resistance, making it less aerodynamic.
+Q: Which choice completes the text with the most logical transition?
+A) As a result,
+B) Specifically,
+C) In conclusion,
+D) On the other hand,
+K: D
+E: The semitruck contrasts with the sleek jet, so “On the other hand” fits.
+#22
+P: In astrophysics, a ring of debris orbiting a larger object within the object’s Roche limit is expected to persist as a ring, whereas a ring of debris orbiting outside this limit would likely accrete into a satellite (e.g., a moon). Bruno Morgado and colleagues, ______ detected a dense ring of material orbiting the trans-Neptunian object Quaoar at a distance of 2,500 miles, well outside the calculated Roche limit of 1,100 miles, that has remained intact.
+Q: Which choice completes the text with the most logical transition?
+A) fittingly,
+B) for example,
+C) likewise,
+D) though,
+K: D
+E: The ring stayed intact despite being outside the Roche limit, which is contrary to expectation, so a contrast word like “though” fits.
+#23
+P: While researching a topic, a student has taken the following notes:
+L: Tianguistengo is a municipality in the state of Hidalgo, Mexico.
+L: Municipalities are governmental regions responsible for providing many public services to their residents.
+L: One service they provide is traffic control.
+L: Tianguistengo covers an area of roughly 256 km<sup>2</sup>.
+L: Hidalgo is divided into 84 municipalities.
+Q: The student wants to emphasize the size of Tianguistengo. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Tianguistengo is one of 84 governmental regions, known as municipalities, across Hidalgo.
+B) Providing traffic control is just one example of the public services that municipalities provide.
+C) Tianguistengo—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents.
+D) The municipality of Tianguistengo in Hidalgo, Mexico, covers an area of roughly 256 km<sup>2</sup>.
+K: D
+E: Only D gives the area, which directly states its size.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Most of the plant and bird species in Oahu, Hawaii, are non-native.
+L: In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.
+L: Researchers catalogued plant seeds found in fecal samples from non-native birds.
+L: <i>Psydrax odorata</i>, a flowering shrub, was one of fifteen native species catalogued.
+L: <i>Cestrum nocturnum</i>, a nightshade, was one of twenty-nine non-native species catalogued.
+L: Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.
+Q: The student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Most plant species found in Oahu, Hawaii, like <i>Cestrum nocturnum</i>, are non-native.
+B) Though <i>Psydrax odorata</i> and <i>Cestrum nocturnum</i> can both be found in Oahu, Hawaii, only the former plant is native.
+C) A 2019 study catalogued plant seeds found in bird fecal samples in Oahu, Hawaii, to determine what role non-native birds play in seed dispersal.
+D) Seeds from <i>Psydrax odorata</i> and <i>Cestrum nocturnum</i> plants were found in the fecal samples of non-native Hawaiian birds, according to a 2019 study.
+K: B
+E: B contrasts the two plants: one is native and the other is not.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: A supercontinent is a single landmass made up of most or all of Earth’s continents.
+L: Over time, continents merge together to form supercontinents, which then break apart.
+L: This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.
+L: Ur was a supercontinent that formed about 3.1 billion years ago.
+L: Pangaea was a supercontinent that formed about 300 million years ago.
+Q: The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Ur formed about 3.1 billion years ago but eventually broke apart.
+B) Ur and Pangaea were both supercontinents, single landmasses made up of most or all of Earth’s continents.
+C) The supercontinent Pangaea formed long after the supercontinent Ur.
+D) Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth’s continents.
+K: C
+E: Only C states which supercontinent formed first and which later.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Generally, an object will heat up when twisted.
+L: The twisting of an object is known as torsion.
+L: A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.
+L: When a sample of ethylene propylene diene monomer (EPDM) rubber fiber was twisted, its average surface temperature increased by 12°C.
+L: When a sample of four-ply nickel-titanium (NiTi) wire was twisted, its average surface temperature increased by 30.4°C.
+Q: The student wants to emphasize a similarity between EPDM rubber and four-ply NiTi wire fibers. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) In 2019, two research teams observed the effects of torsional heating on various fibers, including EPDM rubber and four-ply NiTi wire.
+B) Both EPDM rubber and four-ply NiTi wire fibers heat up when twisted, according to a 2019 study.
+C) Researchers determined that when the fibers were twisted, the average surface temperature of four-ply NiTi wire increased more than that of EPDM rubber.
+D) Twisting an object will generally cause its temperature to increase, a process known as torsional heating.
+K: B
+E: B names what both fibers share, heating up when twisted.
+#27
+L: In a 2003 study, Alexander and Schrag tested the effect of plant litter on seedling emergence in a grassland setting.
+L: The test site was a mesic grassland in a dry midlatitude climate in the United States.
+L: The researchers found that in these environmental conditions the presence of plant litter had a positive effect on seedling emergence.
+L: Seedling emergence is when a seedling sprouts above ground and begins photosynthesis.
+Q: Which choice most effectively uses information from the given sentences to present the study’s findings to an audience already familiar with the concept of seedling emergence?
+A) The findings of Alexander and Schrag’s study were published in 2003.
+B) In a 2003 study by Alexander and Schrag, plant litter was found to have a positive effect on seedling emergence, which is when a seedling sprouts and begins photosynthesis.
+C) The effect of plant litter, which includes dead leaves and other plant matter, on seedling emergence has been the subject of scientific study.
+D) Alexander and Schrag found that in a mesic grassland and a dry midlatitude climate the presence of plant litter had a positive effect on seedling emergence.
+K: D
+E: The audience knows the concept, so D gives the findings and conditions without defining the term.
+=M2
+#1
+P: As with other river deltas, the Shatt al-Arab River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Persian Gulf.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) dynamic
+B) immutable
+C) unrivaled
+D) sustainable
+K: A
+E: The colon introduces a description of constant change, so "dynamic" fits; "immutable" means unchanging.
+#2
+P: Lucian of Samosata (modern-day Turkey) was a second-century satirist who mostly published critiques of philosophers of the time. His work <i>True History</i>, however, is ______: featuring tropes that are hallmarks of present-day science fiction (e.g., space travel, interplanetary conflict), it is regarded by some scholars as the earliest known work in the genre.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) authorized
+B) applicable
+C) sarcastic
+D) visionary
+K: D
+E: The work anticipated later science fiction, so "visionary" fits; "however" signals a contrast with his satirical critiques.
+#3
+P: In medieval Russia, squirrel pelts were used as a commodity currency. By using specific goods like squirrel pelts as common units of exchange, commodity currency economies streamline trade, which is why they often replaced barter economies. Barter economies eschew <u>______</u> that requires what economist W.S. Jevons deems a "double coincidence of wants"—in other words, each trading party must want precisely what the other has.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) currency, in favor of a direct trade system
+B) currency in favor of a direct trade system
+C) currency, in favor of a direct trade system,
+D) currency—in favor of a direct trade system
+K: B
+#4
+P: Founded in Long Beach, California, in 1996, the Museum of Latin American Art is dedicated to modern and contemporary art by Latin American artists and Latino artists in the United States. Since its founding, it has acquired more than 1,300 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the National Hispanic Cultural Center. Located in Albuquerque, it focuses on the literature, art, and cultures of Latin America as well as of Latino communities in the United States.
+Q: Which choice best states the main purpose of the text?
+A) To trace the founding of two institutions, including how they acquired funding to purchase artworks
+B) To draw a contrast between the collection sizes of two institutions
+C) To present information about two institutions, including each institution’s area of focus
+D) To trace a historical development that encouraged the founding of two institutions
+K: C
+E: The text describes two institutions and what each focuses on; it does not discuss funding, contrast collection sizes, or trace a development.
+#5
+P: Paintings by the Florida Highwaymen—an informal collective of prolific landscape artists active in Florida during the 1950s and ’60s—are recognizable by their reiteration of the same general compositional structures and subjects: breaking waves and backcountry pines, to name two. But there was room for individuation: Sam Newton’s <i>Tangerine Sky</i>, for example, may resemble other Highwaymen paintings at first glance, but his works stand out for their more realistic and less impressionistic qualities.
+Q: Which choice best describes the overall structure of the text?
+A) It describes an aesthetic framework shared by a particular group of artists and then makes and illustrates the claim that individuals introduced variations within that framework.
+B) It describes the common perception that a particular group of artists’ works are derivative and then provides a specific piece of evidence that reinforces that perception.
+C) It offers historical context that accounts for a particular group of artists’ shared style and then indicates the circumstances under which several members of that group began exploring more unconventional themes.
+D) It explains how a particular group of artists began collaborating and then recounts how one member of that group became especially influential among them.
+K: A
+E: The text describes the shared style, then claims individuals varied and illustrates with Newton’s work.
+#6
+P: <b>Text 1</b>
+P: Hycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water—critical to supporting life—and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.
+P: <b>Text 2</b>
+P: In a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.’s calculations therefore placed the inner edge for these planets’ HZ as far out as 3.85 AU.
+Q: Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.’s research, as presented in Text 1?
+A) By observing that unlike the hycean candidate Madhusudhan et al. discovered, most other types of planets with hydrogen-rich atmospheres are likely located within the HZ
+B) By maintaining that Madhusudhan et al. relied on a model whose estimates of surface temperatures on hycean candidates are likely too high
+C) By arguing that K2-18 b and other hycean candidates are unlikely to support life because these planets are located too far from the stars they orbit
+D) By stating that the chemical composition of the atmosphere of the hycean candidate Madhusudhan et al. identified suggests that this planet’s surface is unlikely to harbor liquid water
+K: D
+E: Tsai et al. argue hydrogen-rich atmospheres cause heating and evaporation, pushing the HZ outward, so K2-18 b would likely be too hot to keep liquid water.
+#7
+P: Mexican architect Luis Barragán’s prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barragán began incorporating principles derived from functionalism and modernism in his work, as seen in the Pizarro Suárez House, whose unadorned geometric forms contrast with his earlier projects in Guadalajara, such as the house in Calle Pedro Loza, which evince the aesthetics of traditional Mediterranean and Mexican styles.
+Q: Information in the text best supports which statement about the design of the house in Calle Pedro Loza?
+A) It represents a transitional moment between the early and late phases of Barragán’s development.
+B) It reflects an approach to ornamentation and shape that Barragán later stopped using.
+C) It displays the effects of Barragán’s exposure to international architectural trends in the 1930s.
+D) It is characteristic of the Guadalajaran architecture that influenced Barragán throughout his career.
+K: B
+E: The Calle Pedro Loza house is one of his earlier traditional-style projects, contrasted with the later unadorned modernist work, so he moved away from that approach.
+#8
+P: Norfolk, Virginia, has installed engineered structures along 56% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures—riprap and bulkheads—Diann Prosser et al. surveyed waterbird communities consisting of the osprey, the common tern, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.
+Q: Which finding, if true, would most directly illustrate the researchers’ finding?
+A) Waterbird communities at Curtis, a site with a high percentage of shoreline consisting of bulkheads and riprap, had lower average IWCI scores than did waterbird communities at Onancock, a site with a low percentage of shoreline consisting of bulkheads and riprap.
+B) Waterbird communities at Old Road, a site with a relatively high percentage of shoreline consisting of bulkheads, had lower average IWCI scores than did waterbird communities at Miles, a site with a relatively high percentage of shoreline consisting of riprap.
+C) Waterbird communities at Curtis, a site with equal percentages of shoreline consisting of bulkheads and riprap, had higher average IWCI scores than did waterbird communities at Miles, a site with different percentages of shoreline consisting of bulkheads and riprap.
+D) The difference in average IWCI scores for waterbird communities at Stony and Old Road, two sites with a higher percentage of shoreline consisting of bulkheads than of riprap, was statistically insignificant.
+K: B
+E: The finding compares bulkheads with riprap; only B contrasts a bulkhead-heavy site with a riprap-heavy site and shows lower integrity at the bulkhead site.
+#9
+I: /qimg/mar4-rw-m2-q9.svg
+P: Chesapeake Bay seagrass meadows constitute crucial habitats for many aquatic species. Historically, eelgrass has been predominant, but widgeon grass is proving better suited to recent increases in sea temperature, tolerating heat better and growing faster than eelgrass does. Although the increase in widgeon grass has been associated with a substantial increase in total seagrass coverage in the bay, researchers caution that the latter change does not necessarily make the seagrass ecosystem as a whole more resilient to environmental shocks.
+Q: Which statement, if true, would account for data shown in the graph and would illustrate the point made by the researchers?
+A) In early 2019, unusually heavy rains washed excessive nutrients into the bay, leading to algal blooms that prevented sunlight from reaching many seagrass species.
+B) In early 2018, a fungal infection that affects widgeon grass and eelgrass but does not affect other types of seagrass spread through the bay.
+C) Between 2012 and 2017, the total area covered by widgeon grass and the total area covered by all types of seagrass increased as water temperatures in the bay increased.
+D) Water temperatures in the bay increased slowly from 2012 to 2018, but in early 2019 there was an unprecedented large increase in temperatures, which reached levels that can be tolerated by few seagrass species other than widgeon grass.
+K: A
+E: The sharp 2019 drop in total coverage, despite earlier widgeon growth, is best explained by an environmental shock that harmed many species.
+#10
+P: <p style="text-align:center"><b>Reported Annual Travel Distances in Four Studies of Migrating Animal Populations</b>
+T: <table><tr><th>Species</th><th>Continent</th><th>Distance (km)</th><th>Measurement method</th></tr><tr><td>Brown bear</td><td>North America</td><td>1,325</td><td>GPS</td></tr><tr><td>Tibetan antelope</td><td>Asia</td><td>700</td><td>RTD</td></tr><tr><td>Caribou</td><td>North America</td><td>4,868</td><td>GPS</td></tr><tr><td>Reindeer</td><td>Asia</td><td>1,200</td><td>RTD</td></tr></table>
+P: Some studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal’s movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it’s very likely that the distance reported for the ______
+Q: Which choice most effectively uses data from the table to complete the example?
+A) Tibetan antelope would be less than 700 kilometers if the GPS method had been used.
+B) caribou would be less than 4,868 kilometers if the RTD method had been used.
+C) caribou would be greater than 1,325 kilometers if the RTD method had been used.
+D) Tibetan antelope would be greater than 4,868 kilometers if the GPS method had been used.
+K: B
+E: GPS gives higher distances than RTD, so the GPS-measured caribou figure (4,868 km) would be lower under RTD.
+#11
+P: Piezoelectric harvesters convert kinetic energy (resonance) to electrical energy, precluding the need for external electrical sources. The vibration of a spacecraft, for example, can provide sufficient energy to power many of its sensors piezoelectrically. A newly designed piezoelectric harvester incorporating a highly conductive carbon-fiber-reinforced polymer (CFRP) electrode has been shown to provide steady energy loads during resonance, an absolute prerequisite for wireless communication devices to be powered piezoelectrically.
+Q: Which finding, if true, would most directly support the text’s claim about wireless communication devices?
+A) The near-constant kinetic vibration of a spacecraft makes it possible to power its wireless communication devices using only non-CFRP piezoelectric harvesters.
+B) Intermittent or unpredictable electrical supply undermines the efficacy of wireless communication devices.
+C) The CFRP electrode is incompatible with most wireless communication devices.
+D) The high conductivity of the CFRP is what makes the energy output from a piezoelectric harvester sufficient for wireless communication devices.
+K: D
+E: The claim is that the CFRP harvester’s steady energy load is needed for wireless devices; D ties the CFRP to adequate output for them.
+#12
+P: Consumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivery to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as the increasing congestion of roadways, persist. While innovations to mitigate these challenges have been emerging—the use of aerial drones, for instance—success has been constrained due to the additional complications that arise (e.g., a lack of suitable drone landing sites in residential areas). Consequently, ______
+Q: Which choice most logically completes the text?
+A) in the near term, delivery companies are unlikely to overcome the impediments associated with last-mile logistics.
+B) innovations in last-mile logistics seem poised to increase consumers’ expectations for rapid delivery.
+C) delivery companies should invest more funds in proven long-distance transport technologies than in untested last-mile solutions.
+D) the use of aerial drones may enable delivery companies to meet consumers’ expectations now but likely is not viable as a permanent solution.
+K: A
+E: Persistent obstacles and constrained innovations lead to the conclusion that last-mile impediments are unlikely to be overcome soon.
+#13
+P: Scientists looking for signs of ancient life in Asia have found many examples of fossilized hominins, including in a geological formation at the Minatogawa Limestone Quarry. However, to find even older specimens like early multicellular organisms from the Ediacaran period, scientists must look elsewhere, such as in the Ediacaran geological formation at Mistaken Point in North America, because ______
+Q: Which choice most logically completes the text?
+A) North America has sites with hominins but not sites with early multicellular organisms.
+B) early multicellular organisms are found at more sites around the world than hominins.
+C) that formation is from an earlier time than the formation with the hominins.
+D) the hominins at Mistaken Point are better preserved than the hominins at the Minatogawa Limestone Quarry.
+K: C
+E: Older specimens require an older formation, so the Mistaken Point formation must predate the hominin-bearing one.
+#14
+P: Microbial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal, liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxidation-reduction (redox) reactions. Accordingly, MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm<sup>2</sup>). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm<sup>2</sup>. Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that ______
+Q: Which choice most logically completes the text?
+A) silver nanoparticles may increase the metabolic processes of the bacteria, thereby increasing the number of free electrons available to transfer to the electrode.
+B) as the density of the biofilm increases, the series of redox reactions may accelerate independent of the presence of the silver nanoparticles.
+C) electrons may be conducted directly to the electrode before the silver nanoparticles catalyze the redox reactions.
+D) silver nanoparticles may allow electrons to bypass the series of redox reactions and transfer directly to the electrode.
+K: D
+E: High conductivity suggests silver lets electrons skip the inefficient redox steps and reach the electrode directly, raising power output.
+#15
+P: The ratio of methane to other atmospheric constituents—represented by a measure called the methane mole fraction—influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn’s largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model’s developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______
+Q: Which choice most logically completes the text?
+A) further observations of Titan may clarify the moon’s methane mole fraction sufficiently for the model to employ a single value rather than a range.
+B) some disagreements between the model’s simulations of Titan’s precipitation and humidity and the moon’s actual precipitation and humidity are to be expected.
+C) inconsistencies across the model’s simulations of Titan’s precipitation and humidity could be attributable to variations in the moon’s methane mole fraction.
+D) even though the model’s outputs sometimes agree with observational data, Titan’s real methane mole fraction is likely higher than the methane mole fraction used in the model.
+K: B
+E: Because the model assumes a single methane value that data cannot confirm, mismatches with real precipitation and humidity should be expected.
+#16
+P: Cy Twombly, a US painter and sculptor, created many large-scale abstract works, such as his 10-painting series <i>Fifty Days at Iliam</i>. In these works, Twombly’s artistic style is exemplified by his use of graffiti-like ______ often incorporate words or phrases from poetry and mythology.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) scribbles. That
+B) scribbles: that
+C) scribbles; that
+D) scribbles that
+K: D
+E: "Scribbles that often incorporate..." needs a relative clause with no punctuation; the other choices break the sentence apart.
+#17
+P: Kizomba, a genre of dance that originated in Angola, has become an international ______ 2022, the Indian dance duo known as Elvis and Namrata defeated performers from around the world to win the annual Olympiads of Kizomba competition held in Paris, France, becoming the first ever Asian winners.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) phenomenon in
+B) phenomenon, in
+C) phenomenon and in
+D) phenomenon. In
+K: D
+E: The first clause is complete, so a period is needed before the new sentence beginning "In 2022".
+#18
+P: The Austronesian language family comprises some 1,200 languages—including the ______ Tetum and Fijian, which are spoken by 800,000 and 640,000 speakers, respectively—and accounts for one-fifth of the world’s languages, making it of keen interest to linguists like Diane Massam.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) languages,
+B) languages:
+C) languages
+D) languages—
+K: C
+E: "The languages Tetum and Fijian" has the noun directly before its identifying names, so no punctuation is used.
+#19
+P: Although 2060 Chiron and 2008 FC76 are both classified as centaur objects—outer solar system bodies in unstable orbits—they exhibit striking differences in ______ object 2060 Chiron is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface), 2008 FC76, showing no such activity, is considered dormant.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) behavior; the
+B) behavior. The
+C) behavior, while the
+D) behavior: while the
+K: D
+E: A colon after the complete clause introduces the explanation, and "while" correctly sets up the contrast without a comma splice.
+#20
+P: Advancements like the emergence of glassmaking in Mesopotamia circa 3500 BCE are overemphasized in innovation studies, contributing to the idea that technological change always brings greater complexity. Research by Nathaniel Erb-Satullo reveals an important exception: gold metallurgy flourished in the Caucasus in the Bronze Age, but a steep drop during that time (circa 1500 BCE) in objects featuring gold filigree (in which fine threads of gold are arranged in intricate patterns) and other sophisticated goldsmithing techniques suggests that simpler processes supplanted advanced methods.
+Q: Which choice best describes the overall structure of the text?
+A) It details the near-consensus among researchers in a particular field of study regarding how technology evolves and then indicates the controversial nature of a study challenging that broadly accepted view.
+B) It explains that a particular interpretation of technological development has been perpetuated in an academic field and then provides a counterexample demonstrating that the interpretation isn't always accurate.
+C) It summarizes the findings of several studies into the origins of a particular invention and then presents additional evidence from a more recent study that contradicts those findings.
+D) It advances a claim made by researchers in one academic field about the nature of technological change and then critiques a contrasting claim presented by a researcher from a related academic field.
+K: B
+#21
+P: In a US national election, one might expect major-party campaigns to focus on the most populous states. However, if polls and past voting data suggest that the outcome in a given state is a foregone conclusion, a campaign will not invest its resources there. Ultimately, a state’s voting record and polling data, not its population size, ______ its importance to campaigns.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) determines
+B) has determined
+C) determining
+D) determine
+K: D
+E: The subject is the plural "voting record and polling data", so the plural verb "determine" is needed.
+#22
+P: To notice subtle variations in the progression of the still life painting genre in Europe, first consider Willem van Aelst’s “Still Life with Dead Game” from 1661; ______ compare it to Jan van Huysum’s “Still Life with Flowers” from 1723.
+Q: Which choice completes the text with the most logical transition?
+A) therefore,
+B) still,
+C) instead,
+D) next,
+K: D
+E: The sentence lays out sequential steps ("first consider... ; next, compare").
+#23
+P: Soil polluted with iron (a heavy metal) is harmful to many plants and animals, but the plant species <i>Limnocharis flava</i>, or yellow velvetleaf, not only thrives in such conditions but also helps remediate them. As a metal hyperaccumulator, <i>Limnocharis flava</i> absorbs a large amount of iron and stores it safely in its roots and shoots; ______ iron concentrations in the soil decrease.
+Q: Which choice completes the text with the most logical transition?
+A) specifically,
+B) accordingly,
+C) nevertheless,
+D) in addition,
+K: B
+E: Absorbing iron causes soil iron levels to fall, a result, so "accordingly" fits.
+#24
+P: The novelist was admired less for the intricacy of her plots than <u>______</u>, which could compress a lifetime of feeling into a single, unhurried clause.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) for the precision of her sentences
+B) because her sentences were precise
+C) her precise sentences
+D) that her sentences were precise
+K: A
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Stylistic analysis and historical analysis are two approaches to art criticism.
+L: Stylistic analysis examines how an artwork’s visual features contribute to its overall style.
+L: Such an analysis of Claude Monet’s <i>Water Lilies</i> might consider how the painting’s loose brushwork represents an impressionist style.
+L: Historical analysis considers the historical context in which a work was created.
+L: Such an analysis of Diego Velázquez’s <i>Las Meninas</i> might consider how the painting’s depiction of the artist with King Philip IV symbolizes art’s historical ties to power.
+Q: The student wants to present historical analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) An approach to art criticism, historical analysis considers the historical context in which a work was created.
+B) <i>Las Meninas</i>’s depiction of the artist with King Philip IV symbolizes art’s historical ties to power.
+C) A stylistic analysis of <i>Water Lilies</i> might consider how the painting’s loose brushwork represents an impressionist style.
+D) Stylistic analysis differs from historical analysis in that stylistic analysis examines how an artwork’s visual features contribute to its overall style.
+K: A
+E: A defines historical analysis for an unfamiliar audience.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Carbon can exist in several distinct structural forms called allotropes.
+L: Graphite is a carbon allotrope.
+L: Graphite is composed of stacked graphene sheets.
+L: Each graphene sheet is composed of carbon atoms arranged in a flat honeycomb pattern.
+L: Carbon nanotubes are carbon allotropes.
+L: They are composed of one or more graphene sheets wrapped into a cylindrical shape.
+Q: The student wants to emphasize a difference between carbon nanotubes and graphite. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Composed of sheets wrapped into a cylindrical shape, carbon nanotubes contrast with graphite, a carbon allotrope composed of graphene sheets.
+B) Graphite and carbon nanotubes are allotropes composed of stacked or wrapped graphene sheets, but carbon can exist in several distinct structural forms.
+C) Unlike carbon nanotubes, which are composed of sheets of carbon atoms arranged in a flat honeycomb pattern, graphite is a cylindrical carbon allotrope.
+D) The graphene sheets in graphite are stacked, whereas in carbon nanotubes, they form a cylinder.
+K: D
+E: D states the specific difference: stacked sheets in graphite versus a cylinder in nanotubes.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Modularity of mind is the notion that the mind is at least partly composed of innate neural structures (modules) that perform fast, necessary tasks.
+L: 1983: cognitive scientist Jerry A. Fodor hypothesized that low-level cognitive systems (e.g., perception, language) are modular.
+L: In Fodorian modularity, high-level systems (e.g., reasoning) are not modular.
+L: 2003: cognitive scientist Peter Carruthers proposed the massive modularity hypothesis (MMH).
+L: MMH expands modularity to include all cognitive systems.
+Q: The student wants to compare Fodor’s hypothesis with Carruthers’s. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) In 2003, Carruthers proposed the massive modularity hypothesis, disagreeing with Fodor’s earlier hypothesis that the mind is composed of innate neural structures.
+B) In considering some but not all cognitive systems modular, Fodorian modularity is not as expansive in its definition of modularity as MMH is.
+C) The hypotheses of Fodor and Carruthers differ in whether they consider low-level cognitive systems, such as perception and language, modular.
+D) Following Fodor’s 1983 hypothesis, Carruthers proposed that modularity of mind includes all cognitive systems.
+K: B
+E: Both hypotheses are compared on scope: Fodor limits modularity to some systems, while MMH extends it to all.
