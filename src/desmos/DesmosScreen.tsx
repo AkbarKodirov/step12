@@ -2,38 +2,22 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Download, ExternalLink, X } from 'lucide-react'
-import { renderDesmosSvg, type DesmosScreen as Screen } from '../../shared/desmos-render.js'
+import { desmosLatex, fmt, renderDesmosSvg, toLatex, type DesmosScreen as Screen } from '../../shared/desmos-render.js'
 
 export type { Screen as DesmosScreenData }
 
 // Desmos's public demo key works for study; set VITE_DESMOS_API_KEY to the site's own free key from desmos.com/api.
 const DESMOS_KEY = import.meta.env.VITE_DESMOS_API_KEY || 'dcb31709b452b1cf9dc26972add0fda6'
 
-/** Plain Desmos text → Desmos LaTeX, for lines Humo didn't give LaTeX for. */
-export function toLatex(t: string) {
-  let s = t
-  // sqrt(…) → \sqrt{…}
-  for (let guard = 0; guard < 10 && s.includes('sqrt('); guard++) {
-    const i = s.indexOf('sqrt(')
-    let depth = 0
-    let j = i + 4
-    for (; j < s.length; j++) {
-      if (s[j] === '(') depth++
-      if (s[j] === ')' && --depth === 0) break
-    }
-    s = `${s.slice(0, i)}\\sqrt{${s.slice(i + 5, j)}}${s.slice(j + 1)}`
-  }
-  return s
-    .replace(/~/g, '\\sim ')
-    .replace(/<=/g, '\\le ')
-    .replace(/>=/g, '\\ge ')
-    .replace(/\*/g, '\\cdot ')
-    .replace(/\bpi\b/g, '\\pi ')
-    .replace(/\[/g, '\\left[')
-    .replace(/\]/g, '\\right]')
-}
+export { toLatex }
 
-type DesmosCalc = { setExpression: (e: { id: string; latex: string }) => void; setMathBounds: (b: object) => void; destroy: () => void }
+type Helper = { numericValue: number; observe: (prop: string, cb: () => void) => void; unobserve?: (prop: string) => void }
+type DesmosCalc = {
+  setExpression: (e: { id: string; latex: string }) => void
+  setMathBounds: (b: object) => void
+  HelperExpression: (e: { latex: string }) => Helper
+  destroy: () => void
+}
 declare global {
   interface Window {
     Desmos?: { GraphingCalculator: (el: HTMLElement, opts?: object) => DesmosCalc }
@@ -59,6 +43,9 @@ function loadDesmos() {
 export function LiveDesmos({ screen, className = 'h-[60vh]' }: { screen: Screen; className?: string }) {
   const el = useRef<HTMLDivElement>(null)
   const [err, setErr] = useState<string | null>(null)
+  // what Desmos itself fitted for each regression parameter (read live from the calculator)
+  const [fit, setFit] = useState<[string, number][]>([])
+  const names = useMemo(() => [...new Set(screen.lines.flatMap((l) => (l.params || []).map(([k]) => k)))].filter((k) => /^[A-Za-z](_\w+)?$/.test(k)), [screen])
   useEffect(() => {
     let calc: DesmosCalc | null = null
     let alive = true
@@ -66,17 +53,36 @@ export function LiveDesmos({ screen, className = 'h-[60vh]' }: { screen: Screen;
       .then(() => {
         if (!alive || !el.current || !window.Desmos) return
         calc = window.Desmos.GraphingCalculator(el.current, { expressionsCollapsed: false, settingsMenu: false })
-        screen.lines.forEach((l, i) => calc!.setExpression({ id: `e${i}`, latex: l.latex || toLatex(l.text) }))
+        // regressions go in as Desmos LaTeX with \sim (the calculator's tilde)
+        screen.lines.forEach((l, i) => calc!.setExpression({ id: `e${i}`, latex: desmosLatex(l.latex, l.text) }))
         const [left, right, bottom, top] = screen.window
         calc.setMathBounds({ left, right, bottom, top })
+        for (const n of names) {
+          const h = calc.HelperExpression({ latex: n.replace(/_(\w+)/, '_{$1}') })
+          h.observe('numericValue', () => {
+            if (!alive || !Number.isFinite(h.numericValue)) return
+            setFit((f) => [...f.filter(([k]) => k !== n), [n, h.numericValue] as [string, number]].sort((a, b) => names.indexOf(a[0]) - names.indexOf(b[0])))
+          })
+        }
       })
       .catch((e) => alive && setErr(e.message))
     return () => {
       alive = false
       calc?.destroy()
     }
-  }, [screen])
-  return err ? <p className="grid h-40 place-items-center text-[13px] text-moss">{err}</p> : <div ref={el} className={`w-full ${className}`} />
+  }, [screen, names])
+  if (err) return <p className="grid h-40 place-items-center text-[13px] text-moss">{err}</p>
+  return (
+    <div className="w-full">
+      {names.length > 0 && (
+        <p className="flex flex-wrap items-center gap-x-3 gap-y-1 border-b border-line bg-[#2d70b3]/[0.06] px-4 py-2 text-[13px] text-pine">
+          <span className="font-semibold text-[#2d70b3]">Desmos regression</span>
+          {fit.length ? fit.map(([k, v]) => <span key={k} className="font-serif text-[15px]"><i>{k}</i> = {fmt(v).replace(/^-/, '−')}</span>) : <span className="text-moss">fitting…</span>}
+        </p>
+      )}
+      <div ref={el} className={`w-full ${className}`} />
+    </div>
+  )
 }
 
 /** Humo's checked Desmos screen picture, with "open live" and "save" actions. */
@@ -84,6 +90,7 @@ export function DesmosScreen({ screen, compact = false }: { screen: Screen; comp
   const [live, setLive] = useState(false)
   const svg = useMemo(() => renderDesmosSvg(screen), [screen])
   const src = useMemo(() => `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`, [svg])
+  const fitted = screen.lines.filter((l) => l.params?.length)
 
   function save() {
     const img = new Image()
@@ -116,6 +123,24 @@ export function DesmosScreen({ screen, compact = false }: { screen: Screen; comp
         </button>
       </figcaption>
       <img src={src} alt={`Desmos screen: ${screen.lines.map((l) => l.text).join('; ')}`} className="block w-full" draggable={false} />
+      {fitted.length > 0 && (
+        <div className="space-y-1 border-t border-line bg-[#2d70b3]/[0.05] px-3 py-2 text-[12.5px] text-pine">
+          {fitted.map((l, i) => (
+            <p key={i} className="flex flex-wrap items-baseline gap-x-2">
+              <code className="rounded bg-white px-1.5 py-0.5 font-mono text-[11.5px] text-[#1f5a94] ring-1 ring-line">{l.text}</code>
+              <span className="font-serif text-[14.5px]">
+                {l.params!.map(([k, v], j) => (
+                  <span key={k}>
+                    {j > 0 && ', '}
+                    <i>{k}</i> = {v.replace(/^-/, '−')}
+                  </span>
+                ))}
+              </span>
+              {l.others?.length ? <span className="text-moss">· other solution: {l.others.map((o) => o.map(([k, v]) => `${k} = ${v.replace(/^-/, '−')}`).join(', ')).join('; ')}</span> : null}
+            </p>
+          ))}
+        </div>
+      )}
       {createPortal(
         <AnimatePresence>
           {live && (
