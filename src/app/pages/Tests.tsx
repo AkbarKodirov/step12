@@ -5,7 +5,7 @@ import { ArrowRight, BookOpen, Calculator, CheckCircle2, Clock, Crown, Graduatio
 import { loadIndex, useAsync, useStore, type Mode, type TestMeta } from '../store'
 import { ScoreRing, Tilt } from '../../components/motion'
 import { openUpgrade, useAccount } from '../account'
-import { FREE_TESTS } from '../../../shared/plans.js'
+import { isFreeTest } from '../../../shared/plans.js'
 
 export const MODES: { id: Mode; name: string; icon: typeof Timer; line: string; points: string[] }[] = [
   {
@@ -106,7 +106,7 @@ export default function Tests() {
   const [filter, setFilter] = useState<'all' | 'EBRW' | 'MATH' | 'todo' | 'done'>('all')
   const [open, setOpen] = useState<TestMeta | null>(null)
   const acc = useAccount()
-  const isFree = (t: TestMeta) => FREE_TESTS.includes(t.id)
+  const isFree = (t: TestMeta) => isFreeTest(t.id)
   const locked = (t: TestMeta) => !acc.pro && !isFree(t)
 
   const best = useMemo(() => {

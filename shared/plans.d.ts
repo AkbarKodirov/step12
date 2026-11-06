@@ -6,6 +6,8 @@ export const ALWAYS_PRO: string[]
 export const ADMINS: string[]
 export const TELEGRAM_MANAGER: string
 export const FREE_TESTS: string[]
+export const FREE_PAPER_YEARS: number[]
+export function isFreeTest(id: string): boolean
 export const PRO_PAGES: string[]
 export const FREE_FEATURES: string[]
 export const PRO_FEATURES: string[]

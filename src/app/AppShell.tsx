@@ -9,7 +9,7 @@ import { HumoLogo } from '../brand/HumoLogo'
 import { openUpgrade, proOnly, useAccount, useAccountSync } from './account'
 import { ProLock, ProTag } from './components/Upgrade'
 import { UpgradeModal } from './components/UpgradeModal'
-import { FREE_TESTS } from '../../shared/plans.js'
+import { isFreeTest } from '../../shared/plans.js'
 
 const HomePage = lazy(() => import('./pages/Home'))
 const HumoChat = lazy(() => import('./pages/HumoChat'))
@@ -66,7 +66,7 @@ function ProGate({ children, full }: { children: React.ReactNode; full?: boolean
 /** Free students can take the free practice tests; every other test shows the paywall. */
 function TestGate({ children }: { children: React.ReactNode }) {
   const { id = '' } = useParams()
-  if (FREE_TESTS.includes(id)) return <>{children}</>
+  if (isFreeTest(id)) return <>{children}</>
   return <ProGate full>{children}</ProGate>
 }
 
@@ -383,15 +383,15 @@ export default function AppShell() {
             <Route path="practice/:section" element={<QBankSection />} />
             <Route path="vocab" element={<ProGate><Vocabulary /></ProGate>} />
             <Route path="blitz" element={<ProGate><Blitz /></ProGate>} />
-            <Route path="mistakes" element={<ProGate><Mistakes /></ProGate>} />
+            <Route path="mistakes" element={<Mistakes />} />
             <Route path="plan" element={<ProGate><StudyPlan /></ProGate>} />
             <Route path="drills" element={<Navigate to="/app/practice" replace />} />
-            <Route path="papers" element={<ProGate><ExamPapers /></ProGate>} />
+            <Route path="papers" element={<ExamPapers />} />
             <Route path="lessons" element={<Navigate to="/app/learn/rw" replace />} />
-            <Route path="learn/:course" element={<ProGate><CoursePage /></ProGate>} />
+            <Route path="learn/:course" element={<CoursePage />} />
             <Route path="learn/:course/:lesson" element={<ProGate><LessonPage /></ProGate>} />
-            <Route path="analytics" element={<ProGate><Analytics /></ProGate>} />
-            <Route path="calculator" element={<ProGate><ScoreCalculator /></ProGate>} />
+            <Route path="analytics" element={<Analytics />} />
+            <Route path="calculator" element={<ScoreCalculator />} />
             <Route path="desmos" element={<HumoChat key="desmos" space="desmos" />} />
             <Route path="settings" element={<SettingsPage />} />
             <Route path="*" element={<Navigate to="/app" replace />} />
