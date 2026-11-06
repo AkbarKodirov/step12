@@ -1,7 +1,7 @@
 export const PRICE_UZS: number
 export const PRICE_USD: number
 export const PRO_DAYS: number
-export const FREE_LIMITS: { humo: number; desmos: number }
+export const FREE_LIMITS: { humo: number; desmos: number; blitz: number }
 export const ALWAYS_PRO: string[]
 export const ADMINS: string[]
 export const TELEGRAM_MANAGER: string

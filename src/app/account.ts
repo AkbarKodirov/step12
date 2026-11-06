@@ -1,7 +1,7 @@
 import { useEffect, useSyncExternalStore } from 'react'
 import { FREE_LIMITS, PRICE_UZS, PRICE_USD, PRO_DAYS, PRO_PAGES, TELEGRAM_MANAGER } from '../../shared/plans.js'
 
-export type Feature = 'humo' | 'desmos'
+export type Feature = 'humo' | 'desmos' | 'blitz'
 export type Account = {
   plan: { tier: 'pro' | 'free'; until: number | null; source: string | null; expired?: number }
   admin: boolean
@@ -14,7 +14,7 @@ export type Account = {
 const FALLBACK: Account = {
   plan: { tier: 'free', until: null, source: null },
   admin: false,
-  usage: { humo: 0, desmos: 0 },
+  usage: { humo: 0, desmos: 0, blitz: 0 },
   limits: FREE_LIMITS,
   resetAt: 0,
   billing: { priceUzs: PRICE_UZS, priceUsd: PRICE_USD, days: PRO_DAYS, card: null, telegram: TELEGRAM_MANAGER },
@@ -67,11 +67,11 @@ export async function refreshAccount(t: string | null = token, who: string = ema
 
 /** Counts a question locally right away so the "left today" label updates before the server answers. */
 export function noteUse(f: Feature) {
-  state = { ...state, account: { ...state.account, usage: { ...state.account.usage, [f]: state.account.usage[f] + 1 } } }
+  state = { ...state, account: { ...state.account, usage: { ...state.account.usage, [f]: (state.account.usage[f] ?? 0) + 1 } } }
   emit()
 }
 export function markLimit(f: Feature) {
-  state = { ...state, account: { ...state.account, usage: { ...state.account.usage, [f]: Math.max(state.account.usage[f], state.account.limits[f]) } } }
+  state = { ...state, account: { ...state.account, usage: { ...state.account.usage, [f]: Math.max(state.account.usage[f] ?? 0, state.account.limits[f] ?? FREE_LIMITS[f]) } } }
   emit()
 }
 
@@ -85,7 +85,7 @@ export function useAccount() {
   )
   const a = s.account
   const pro = a.plan.tier === 'pro'
-  const left = (f: Feature) => (pro ? Infinity : Math.max(0, a.limits[f] - a.usage[f]))
+  const left = (f: Feature) => (pro ? Infinity : Math.max(0, (a.limits[f] ?? FREE_LIMITS[f]) - (a.usage[f] ?? 0)))
   return { ...a, loaded: s.loaded, pro, left }
 }
 

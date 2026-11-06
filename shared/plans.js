@@ -1,6 +1,6 @@
 /**
  * Humo AI plans: one source of truth for the server (limits, who is Pro) and the app (prices, copy).
- * Free: the whole question bank + 1 Ask Humo question and 1 Desmos Lab solve a day.
+ * Free: the whole question bank + 3 Ask Humo questions, 1 Desmos Lab solve and 1 Blitz run a day.
  * Pro: everything, unlimited.
  */
 export const PRICE_UZS = 149000
@@ -9,7 +9,7 @@ export const PRICE_USD = 12
 export const PRO_DAYS = 30
 
 /** Daily limits on the Free plan. Days start at 00:00 Tashkent time. */
-export const FREE_LIMITS = { humo: 1, desmos: 1 }
+export const FREE_LIMITS = { humo: 3, desmos: 1, blitz: 1 }
 
 /** Always Pro, whatever the database says. */
 export const ALWAYS_PRO = ['jobirovich.akbarjon@gmail.com']
@@ -29,9 +29,9 @@ export const FREE_TESTS = ['pt15', 'pt16', 'pt14']
 export const isFreeTest = (id) => FREE_TESTS.includes(id) || /^dsatdd-/.test(String(id))
 
 /** App pages only Pro students can open (paths under /app). */
-export const PRO_PAGES = ['plan']
+export const PRO_PAGES = []
 
-export const FREE_FEATURES = ['Full question bank: 3,000+ questions, every topic and level', '3 full-length practice tests with a real score', 'Every exam paper', 'Vocabulary trainer and Blitz', 'Analytics, mistakes notebook and score calculator', '1 Ask Humo question a day', '1 Desmos Lab solve a day', 'Explanations on every bank question']
+export const FREE_FEATURES = ['Full question bank: 3,000+ questions, every topic and level', '3 full-length practice tests with a real score', 'Every exam paper', 'Vocabulary trainer, study plan and 1 Blitz run a day', 'Analytics, mistakes notebook and score calculator', '3 Ask Humo questions a day', '1 Desmos Lab solve a day', 'Explanations on every bank question']
 
 export const PRO_FEATURES = [
   'Unlimited Ask Humo and Desmos Lab',

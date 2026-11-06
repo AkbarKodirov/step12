@@ -5,6 +5,7 @@ import { Check, Flame, Heart, Trophy, X, Zap } from 'lucide-react'
 import { isCorrect, loadIndex, loadTest, markActive, setStore, useStore, type TestQuestion } from '../store'
 import { Passage } from './TakeTest'
 import { useAuth } from '../../lib/auth'
+import { markLimit, noteUse, openUpgrade, useAccount } from '../account'
 
 type Row = { id: string; name: string; picture: string | null; score: number }
 
@@ -83,6 +84,29 @@ export default function Blitz() {
     return () => clearTimeout(t)
   })
 
+  const acc = useAccount()
+  const runsLeft = acc.left('blitz')
+  const [starting, setStarting] = useState(false)
+
+  /** Free students get one run a day: the server counts it, the app asks for Pro when it is used. */
+  async function tryStart() {
+    if (!acc.pro && acc.loaded && runsLeft <= 0) return openUpgrade()
+    setStarting(true)
+    try {
+      const r = await fetch('/api/blitz/start', { method: 'POST', headers: { Authorization: `Bearer ${token}` } })
+      if (r.status === 402) {
+        markLimit('blitz')
+        return openUpgrade()
+      }
+      if (r.ok && !acc.pro) noteUse('blitz')
+    } catch {
+      /* no server (local preview): let the run start */
+    } finally {
+      setStarting(false)
+    }
+    start()
+  }
+
   function start() {
     setPhase('play')
     setI(Math.floor(Math.random() * 50))
@@ -160,9 +184,12 @@ export default function Blitz() {
               )
             })}
           </div>
-          <button disabled={!pool} onClick={start} className="btn relative mt-8 h-12 bg-orange-500 px-8 text-[15px] text-white hover:bg-orange-400 disabled:opacity-50">
-            {pool ? (phase === 'over' ? 'Play again' : 'Start run') : 'Loading questions…'}
+          <button disabled={!pool || starting} onClick={tryStart} className="btn relative mt-8 h-12 bg-orange-500 px-8 text-[15px] text-white hover:bg-orange-400 disabled:opacity-50">
+            {!pool ? 'Loading questions…' : !acc.pro && acc.loaded && runsLeft <= 0 ? 'Unlimited runs with Pro' : phase === 'over' ? 'Play again' : 'Start run'}
           </button>
+          {acc.loaded && !acc.pro && (
+            <p className="relative mt-3 text-[12.5px] text-cream/60">{runsLeft > 0 ? `${runsLeft} free run left today` : 'Your free run for today is used. Come back tomorrow or go Pro.'}</p>
+          )}
         </div>
         <Leaderboard rows={board} me={user?.name} />
       </div>

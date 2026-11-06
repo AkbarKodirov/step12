@@ -615,7 +615,7 @@ app.post('/api/chat', auth, async (req, res) => {
   if (!gemini) return res.status(503).json({ error: NO_KEY })
   let contents = chatContents(messages)
   if (!contents.length) return res.status(400).json({ error: 'Send Humo a question first.' })
-  // Free plan: one Ask Humo question and one Desmos Lab solve a day (checked here, not only in the app)
+  // Free plan: FREE_LIMITS Ask Humo questions and Desmos Lab solves a day (checked here, not only in the app)
   const feature = space === 'desmos' ? 'desmos' : 'humo'
   const me = await account(req.user.email)
   if (!me) return res.status(401).json({ error: 'Log in again to chat with Humo.' })
@@ -625,7 +625,7 @@ app.post('/api/chat', auth, async (req, res) => {
       code: 'limit',
       feature,
       resetAt: use.resetAt,
-      error: feature === 'desmos' ? "You've used today's free Desmos Lab solve. Go Pro for unlimited solves, or come back tomorrow." : "You've used today's free question to Humo. Go Pro to keep chatting, or come back tomorrow.",
+      error: feature === 'desmos' ? "You've used today's free Desmos Lab solve. Go Pro for unlimited solves, or come back tomorrow." : "You've used today's free questions to Humo. Go Pro to keep chatting, or come back tomorrow.",
     })
   const giveBack = () => refundUse(me, feature)
   let system = context ? `${HUMO_FULL}\n\nContext about what the student is working on right now:\n${String(context).slice(0, 14000)}` : HUMO_FULL
@@ -881,6 +881,15 @@ const weekKey = () => {
   return d.toISOString().slice(0, 10)
 }
 const blitzNs = (wk = weekKey()) => `blitz-${wk}`
+
+/** Starts a Blitz run: Free students get FREE_LIMITS.blitz runs a day, Pro students are unlimited. */
+app.post('/api/blitz/start', auth, async (req, res) => {
+  const me = await account(req.user.email)
+  if (!me) return res.status(401).json({ error: 'Log in again to play Blitz.' })
+  const use = await takeUse(me, req.user.email, 'blitz')
+  if (!use.ok) return res.status(402).json({ code: 'limit', feature: 'blitz', resetAt: use.resetAt, error: "You've used today's free Blitz run. Go Pro for unlimited runs, or come back tomorrow." })
+  res.json({ ok: true, used: use.used, limit: use.limit })
+})
 
 app.post('/api/blitz', auth, async (req, res) => {
   const score = Math.max(0, Math.min(100000, Math.round(Number(req.body?.score) || 0)))
