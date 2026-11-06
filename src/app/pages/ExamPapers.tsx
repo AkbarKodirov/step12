@@ -1,10 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ArrowRight, BookOpen, Calculator, CalendarClock, Clock, Crown, Lock } from 'lucide-react'
+import { ArrowRight, BookOpen, Calculator, CalendarClock, Clock } from 'lucide-react'
 import { useStore, type TestMeta } from '../store'
-import { openUpgrade, useAccount } from '../account'
-import { FREE_PAPER_YEARS, isFreeTest } from '../../../shared/plans.js'
 import { ScoreRing, Tilt } from '../../components/motion'
 import { ModeSheet } from './Tests'
 
@@ -22,7 +20,7 @@ const version = (p: PaperTest) => {
 /**
  * Exam papers: real Digital SAT papers from past test dates, sorted by year. Each paper is an ordinary
  * test (public/tests/<id>.json, 2 modules) and public/papers/index.json says which tests sit on this shelf.
- * Cards look like Practice tests: exam date, version, length, one button. FREE_PAPER_YEARS are free; the rest need Pro.
+ * Cards look like Practice tests: exam date, version, length, one button. Every paper is free for every student.
  */
 export default function ExamPapers() {
   const [papers, setPapers] = useState<PaperTest[] | null>(null)
@@ -39,7 +37,6 @@ export default function ExamPapers() {
   }, [])
 
   const s = useStore()
-  const acc = useAccount()
   const [params, setParams] = useSearchParams()
   const [section, setSection] = useState<'all' | 'EBRW' | 'MATH'>('all')
   const [open, setOpen] = useState<TestMeta | null>(null)
@@ -64,8 +61,6 @@ export default function ExamPapers() {
   const all = papers ?? []
   const done = all.filter((p) => best.has(p.id)).length
   const bestOf = (type: 'EBRW' | 'MATH') => Math.max(0, ...all.filter((p) => p.type === type && best.has(p.id)).map((p) => best.get(p.id)!.scaled)) || null
-  const freePlan = acc.loaded && !acc.pro
-  const locked = (p: PaperTest) => freePlan && !isFreeTest(p.id)
 
   // one card per paper, newest test date first; Reading & Writing before Math for the same version
   const list = useMemo(
@@ -104,24 +99,6 @@ export default function ExamPapers() {
           </div>
         )}
       </div>
-
-      {freePlan && papers && all.length > 0 && (
-        <div className="relative mt-6 overflow-hidden rounded-[24px] bg-[#03244a] p-5 text-white sm:p-6">
-          <div className="pointer-events-none absolute -right-16 -top-20 size-56 rounded-full bg-[#bb0937]/35 blur-3xl" />
-          <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-amber-300">
-                <Crown className="size-3.5" /> Free plan
-              </p>
-              <p className="mt-1.5 text-[18px] font-semibold leading-snug">Every {FREE_PAPER_YEARS.join(' and ')} paper is free. Take one and get your real score.</p>
-              <p className="mt-1 text-[13.5px] text-white/70">Pro unlocks all {all.length} papers from every year.</p>
-            </div>
-            <button onClick={() => openUpgrade()} className="btn h-11 shrink-0 bg-gradient-to-r from-amber-300 to-amber-500 px-6 text-[14px] text-[#3a2400] shadow-lg shadow-amber-500/20 hover:brightness-105">
-              <Crown className="size-4" /> Unlock all papers
-            </button>
-          </div>
-        </div>
-      )}
 
       <div className="mt-7 grid items-start gap-6 lg:grid-cols-[210px_minmax(0,1fr)]">
         {/* year switch: a vertical list, kept in view beside the cards on wide screens */}
@@ -167,7 +144,7 @@ export default function ExamPapers() {
 
           <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {list.map((p, i) => (
-              <PaperCard key={p.id} p={p} b={best.get(p.id)} lock={locked(p)} free={freePlan && !locked(p)} delay={Math.min(i * 0.04, 0.35)} onStart={() => setOpen(p)} />
+              <PaperCard key={p.id} p={p} b={best.get(p.id)} delay={Math.min(i * 0.04, 0.35)} onStart={() => setOpen(p)} />
             ))}
           </div>
         </div>
@@ -178,7 +155,7 @@ export default function ExamPapers() {
   )
 }
 
-function PaperCard({ p, b, lock, free, delay, onStart }: { p: PaperTest; b?: { scaled: number; id: string; n: number }; lock: boolean; free: boolean; delay: number; onStart: () => void }) {
+function PaperCard({ p, b, delay, onStart }: { p: PaperTest; b?: { scaled: number; id: string; n: number }; delay: number; onStart: () => void }) {
   const math = p.type === 'MATH'
   const Icon = math ? Calculator : BookOpen
   const v = version(p)
@@ -192,13 +169,6 @@ function PaperCard({ p, b, lock, free, delay, onStart }: { p: PaperTest; b?: { s
               <span className={`inline-flex items-center gap-1.5 rounded-full bg-white/80 px-2.5 py-1 text-[11.5px] font-semibold backdrop-blur ${math ? 'text-sky-700' : 'text-jg-700'}`}>
                 <Icon className="size-3.5" /> {math ? 'Math' : 'Reading & Writing'}
               </span>
-              {lock ? (
-                <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-2.5 py-1 text-[11px] font-bold text-[#3a2400]">
-                  <Lock className="size-3" /> Pro
-                </span>
-              ) : free ? (
-                <span className="rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-semibold text-white">Free</span>
-              ) : null}
             </div>
           </div>
           <div className="flex flex-1 flex-col p-5">
@@ -219,15 +189,9 @@ function PaperCard({ p, b, lock, free, delay, onStart }: { p: PaperTest; b?: { s
               <Clock className="size-3.5" /> {p.minutesPerModule * p.modules} min · {p.questions} questions{b ? ` · taken ${b.n}×` : ''}
             </p>
             <div className="mt-auto flex gap-2 pt-4">
-              {lock ? (
-                <button onClick={() => openUpgrade()} className="btn h-11 flex-1 bg-gradient-to-r from-amber-300 to-amber-500 text-[14px] text-[#3a2400] hover:brightness-105">
-                  <Lock className="size-4" /> Unlock with Pro
-                </button>
-              ) : (
-                <button onClick={onStart} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
-                  {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
-                </button>
-              )}
+              <button onClick={onStart} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
+                {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
+              </button>
               {b && (
                 <Link to={`/app/results/${b.id}`} className="btn btn-ghost h-11 px-4 text-[13px]">
                   Review
