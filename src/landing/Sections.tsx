@@ -76,7 +76,7 @@ const PLANS = [
     unit: "so'm",
     note: 'For trying Humo AI',
     cta: 'Start free',
-    features: ['Full question bank: 3,000+ questions', '1 Ask Humo question a day', '1 Desmos Lab solve a day', 'Explanations on every question'],
+    features: ['Full question bank: 4,000+ questions', 'Every real exam paper and 3 practice tests', '3 Ask Humo questions and 1 Desmos Lab solve a day', 'Study plan, vocabulary, analytics and mistakes', '1 Blitz run a day'],
   },
   {
     name: 'Pro',
@@ -85,7 +85,7 @@ const PLANS = [
     note: 'For students with a test date',
     cta: 'Start with Pro',
     featured: true,
-    features: ['Unlimited Ask Humo and Desmos Lab', 'Every full-length practice test', 'Video lessons and Learn courses', 'Personal study plan', 'Vocabulary, Blitz and analytics by skill'],
+    features: ['Unlimited Ask Humo, Desmos Lab and Blitz', 'Every full-length practice test', 'Video lessons and Learn courses', 'Module 2 question sets with Desmos walkthroughs', 'Humo reviews every mistake with you'],
   },
   {
     name: 'Academy',
