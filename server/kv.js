@@ -6,8 +6,9 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { createHash } from 'node:crypto'
+import { fileURLToPath } from 'node:url'
 
-const DIR = join(new URL('.', import.meta.url).pathname, 'data', 'kv')
+const DIR = join(fileURLToPath(new URL('.', import.meta.url)), 'data', 'kv')
 let pool = null
 let ready = null
 

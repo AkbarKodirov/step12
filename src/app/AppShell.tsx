@@ -381,8 +381,8 @@ export default function AppShell() {
             <Route path="results/:attemptId" element={<Results />} />
             <Route path="practice" element={<QBankHome />} />
             <Route path="practice/:section" element={<QBankSection />} />
-            <Route path="vocab" element={<ProGate><Vocabulary /></ProGate>} />
-            <Route path="blitz" element={<ProGate><Blitz /></ProGate>} />
+            <Route path="vocab" element={<Vocabulary />} />
+            <Route path="blitz" element={<Blitz />} />
             <Route path="mistakes" element={<Mistakes />} />
             <Route path="plan" element={<ProGate><StudyPlan /></ProGate>} />
             <Route path="drills" element={<Navigate to="/app/practice" replace />} />

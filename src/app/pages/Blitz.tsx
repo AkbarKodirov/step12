@@ -28,7 +28,7 @@ function Leaderboard({ rows, me }: { rows: Row[] | null; me?: string }) {
         <span className="text-[12px] font-normal text-moss">Humo AI students</span>
       </p>
       {!rows ? (
-        <p className="mt-4 text-[13px] text-moss">Leaderboard is available when the server is running.</p>
+        <p className="mt-4 text-[13px] text-moss">Couldn't load the leaderboard. Check your connection and try again.</p>
       ) : rows.length === 0 ? (
         <p className="mt-4 text-[13px] text-moss">No runs yet this week — be the first.</p>
       ) : (

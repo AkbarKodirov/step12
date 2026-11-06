@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url'
 import { answerValue, DESMOS_GUIDE, prepareScreen } from './desmos.js'
 import { backupNames, groqGenerate, groqReady, groqStream, mistralGenerate, mistralReady, mistralStream, othersReady, restBackup } from './groq.js'
 import { findQuestion, memoryNote, memorySize, practiceSummary } from './retrieve.js'
-import { kvBackend, kvDel, kvGet, kvSet } from './kv.js'
+import { kvAll, kvBackend, kvDel, kvGet, kvSet } from './kv.js'
 import { adminOverview, billingInfo, confirmCheckout, isAdmin, nextReset, planOf, refundUse, startCheckout, stripeWebhook, takeUse, usageOf } from './billing.js'
 import { FREE_LIMITS } from '../shared/plans.js'
 import { createHash } from 'node:crypto'
@@ -871,35 +871,38 @@ ${options.length ? '3. One short line for each wrong choice saying exactly why i
   }
 })
 
-/* ---------- Blitz weekly leaderboard (shared by all students) ---------- */
-const BLITZ_FILE = join(DATA_DIR, 'blitz.json')
+/* ---------- Blitz weekly leaderboard (shared by all students) ----------
+ * Kept in the kv store (Postgres on Render), one row per student per week, so it survives deploys and restarts.
+ * The old server/data/blitz.json lived on Render's temporary disk and was wiped on every deploy. */
 const weekKey = () => {
   const d = new Date()
   const day = (d.getUTCDay() + 6) % 7
   d.setUTCDate(d.getUTCDate() - day)
   return d.toISOString().slice(0, 10)
 }
-const loadBlitz = () => (existsSync(BLITZ_FILE) ? JSON.parse(readFileSync(BLITZ_FILE, 'utf8')) : {})
+const blitzNs = (wk = weekKey()) => `blitz-${wk}`
 
 app.post('/api/blitz', auth, async (req, res) => {
   const score = Math.max(0, Math.min(100000, Math.round(Number(req.body?.score) || 0)))
   const u = await getUser(req.user.email)
   if (!u) return res.status(404).json({ error: 'Account not found.' })
-  const all = loadBlitz()
-  const wk = weekKey()
-  all[wk] = all[wk] || {}
-  const prev = all[wk][u.id]
-  if (!prev || score > prev.score) all[wk][u.id] = { name: u.name || 'Student', picture: u.picture || null, score, at: Date.now() }
-  writeFileSync(BLITZ_FILE, JSON.stringify(all))
-  res.json({ ok: true })
+  const ns = blitzNs()
+  const prev = await kvGet(ns, u.id)
+  if (!prev || score > prev.score) await kvSet(ns, u.id, { id: u.id, name: u.name || 'Student', picture: u.picture || null, score, at: Date.now() })
+  res.json({ ok: true, best: Math.max(score, prev?.score ?? 0) })
 })
 
-app.get('/api/blitz/leaderboard', (_, res) => {
-  const rows = Object.entries(loadBlitz()[weekKey()] || {})
-    .map(([id, r]) => ({ id, ...r }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 10)
-  res.json({ week: weekKey(), rows })
+app.get('/api/blitz/leaderboard', async (_, res) => {
+  try {
+    const rows = (await kvAll(blitzNs()))
+      .filter((r) => r && r.id && r.score > 0)
+      .sort((a, b) => b.score - a.score || a.at - b.at)
+      .slice(0, 10)
+    res.json({ week: weekKey(), rows })
+  } catch (e) {
+    console.error(e)
+    res.status(500).json({ error: 'Leaderboard is unavailable right now.' })
+  }
 })
 
 app.get('/api/health', (_, res) => res.json({ status: 'ok', platform: 'Humo AI', tutor: 'Humo', gemini: !!gemini, groq: groqReady, backups: backupNames, memory: memorySize(), storage: kvBackend }))
