@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ArrowRight, BookOpen, Calculator, CalendarClock, CheckCircle2, Clock, FileText, Globe2, ListChecks, Sparkles } from 'lucide-react'
+import { ArrowRight, BookOpen, Calculator, CalendarClock, Clock, Crown, Lock } from 'lucide-react'
 import { useStore, type TestMeta } from '../store'
+import { openUpgrade, useAccount } from '../account'
+import { FREE_PAPER_YEARS, isFreeTest } from '../../../shared/plans.js'
 import { ScoreRing, Tilt } from '../../components/motion'
 import { ModeSheet } from './Tests'
 
@@ -10,12 +12,17 @@ type PaperTest = TestMeta & { year: number; month: number; region: string; form?
 
 const YEARS = [2023, 2024, 2025, 2026]
 const MONTHS = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-const SHORT = ['', 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+
+/** "Version 2", "Form A" or "US · Form A"; empty for the only paper of its month. */
+const version = (p: PaperTest) => {
+  const v = p.form ? (/^\d+$/.test(p.form) ? `Version ${p.form}` : `Form ${p.form}`) : ''
+  return p.region === 'US' ? (v ? `US · ${v}` : 'US') : v
+}
 
 /**
  * Exam papers: real Digital SAT papers from past test dates, sorted by year. Each paper is an ordinary
  * test (public/tests/<id>.json, 2 modules) and public/papers/index.json says which tests sit on this shelf.
- * A paper opens the same Exam / Practice / Sprint sheet as Practice tests.
+ * Cards look like Practice tests: exam date, version, length, one button. FREE_PAPER_YEARS are free; the rest need Pro.
  */
 export default function ExamPapers() {
   const [papers, setPapers] = useState<PaperTest[] | null>(null)
@@ -32,6 +39,7 @@ export default function ExamPapers() {
   }, [])
 
   const s = useStore()
+  const acc = useAccount()
   const [params, setParams] = useSearchParams()
   const [section, setSection] = useState<'all' | 'EBRW' | 'MATH'>('all')
   const [open, setOpen] = useState<TestMeta | null>(null)
@@ -56,24 +64,24 @@ export default function ExamPapers() {
   const all = papers ?? []
   const done = all.filter((p) => best.has(p.id)).length
   const bestOf = (type: 'EBRW' | 'MATH') => Math.max(0, ...all.filter((p) => p.type === type && best.has(p.id)).map((p) => best.get(p.id)!.scaled)) || null
+  const freePlan = acc.loaded && !acc.pro
+  const locked = (p: PaperTest) => freePlan && !isFreeTest(p.id)
 
-  // one group per test date (month + region), newest first; Reading & Writing before Math inside a group
-  const sittings = useMemo(() => {
-    const list = all.filter((p) => p.year === year && (section === 'all' || p.type === section))
-    const groups = new Map<string, PaperTest[]>()
-    for (const p of list) {
-      const k = `${p.month}|${p.region}|${p.form ?? ''}`
-      groups.set(k, [...(groups.get(k) ?? []), p])
-    }
-    return [...groups.values()].map((g) => g.sort((a, b) => (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1))).sort((a, b) => b[0].month - a[0].month || a[0].region.localeCompare(b[0].region) || (a[0].form ?? '').localeCompare(b[0].form ?? ''))
-  }, [all, year, section])
+  // one card per paper, newest test date first; Reading & Writing before Math for the same version
+  const list = useMemo(
+    () =>
+      all
+        .filter((p) => p.year === year && (section === 'all' || p.type === section))
+        .sort((a, b) => b.month - a.month || version(a).localeCompare(version(b), undefined, { numeric: true }) || (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1)),
+    [all, year, section],
+  )
 
   return (
     <div>
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div className="max-w-2xl">
           <h1 className="display text-[clamp(2rem,4vw,2.75rem)]">Exam papers</h1>
-          <p className="mt-2 text-[15px] text-moss">Real Digital SAT papers from past test dates, sorted by year. Every paper has two modules and runs exactly like Practice tests: pick a paper, then pick a mode.</p>
+          <p className="mt-2 text-[15px] text-moss">Real Digital SAT papers from past test dates. Pick a paper, then pick a mode.</p>
         </div>
         {papers && all.length > 0 && (
           <div className="card flex items-center gap-5 px-5 py-3">
@@ -97,174 +105,128 @@ export default function ExamPapers() {
         )}
       </div>
 
-      <div className="mt-7 grid items-start gap-6 lg:grid-cols-[210px_minmax(0,1fr)]">
-        {/* year switch: a vertical list, kept in view beside the cards on wide screens */}
-        <div role="tablist" aria-label="Exam year" aria-orientation="vertical" className="grid gap-1.5 rounded-[22px] bg-card p-1.5 ring-1 ring-line lg:sticky lg:top-6">
+      {freePlan && papers && all.length > 0 && (
+        <div className="relative mt-6 overflow-hidden rounded-[24px] bg-[#03244a] p-5 text-white sm:p-6">
+          <div className="pointer-events-none absolute -right-16 -top-20 size-56 rounded-full bg-[#bb0937]/35 blur-3xl" />
+          <div className="relative flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-amber-300">
+                <Crown className="size-3.5" /> Free plan
+              </p>
+              <p className="mt-1.5 text-[18px] font-semibold leading-snug">Every {FREE_PAPER_YEARS.join(' and ')} paper is free. Take one and get your real score.</p>
+              <p className="mt-1 text-[13.5px] text-white/70">Pro unlocks all {all.length} papers from every year.</p>
+            </div>
+            <button onClick={() => openUpgrade()} className="btn h-11 shrink-0 bg-gradient-to-r from-amber-300 to-amber-500 px-6 text-[14px] text-[#3a2400] shadow-lg shadow-amber-500/20 hover:brightness-105">
+              <Crown className="size-4" /> Unlock all papers
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* year tabs and section filter in one row; scrolls sideways on phones */}
+      <div className="-mx-4 mt-7 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">
+        <div role="tablist" aria-label="Exam year" className="flex shrink-0 gap-1 rounded-full bg-card p-1 ring-1 ring-line">
           {years.map((y) => {
             const on = y === year
             const n = count(y)
             return (
-              <button key={y} role="tab" aria-selected={on} onClick={() => pick(y)} className={`relative flex items-center justify-between gap-3 rounded-[16px] px-4 py-3 text-left transition ${on ? '' : 'hover:bg-cream'}`}>
-                {on && <motion.span layoutId="paper-year" className="absolute inset-0 rounded-[16px] bg-pine shadow-lg shadow-pine/20" transition={{ type: 'spring', damping: 28, stiffness: 320 }} />}
-                <span className={`relative font-serif text-[24px] leading-none tabular-nums ${on ? 'text-cream' : 'text-pine'}`}>{y}</span>
-                <span className={`relative rounded-full px-2.5 py-1 text-[11.5px] font-medium ${on ? 'bg-white/15 text-cream' : n ? 'bg-jg-50 text-jg-700' : 'bg-cream text-moss'}`}>{papers ? (n ? `${n} test${n > 1 ? 's' : ''}` : 'Soon') : '…'}</span>
+              <button key={y} role="tab" aria-selected={on} onClick={() => pick(y)} className={`relative rounded-full px-3.5 py-1.5 text-[13px] font-semibold tabular-nums transition ${on ? 'text-cream' : 'text-pine hover:bg-cream'}`}>
+                {on && <motion.span layoutId="paper-year" className="absolute inset-0 rounded-full bg-pine" transition={{ type: 'spring', damping: 28, stiffness: 320 }} />}
+                <span className="relative">
+                  {y}
+                  {papers && n > 0 && <span className={`ml-1 text-[11px] font-medium ${on ? 'text-cream/70' : 'text-moss'}`}>{n}</span>}
+                </span>
               </button>
             )
           })}
         </div>
-
-        <div className="min-w-0">
-      <div className={`flex-wrap items-center gap-2 ${papers && count(year) === 0 ? 'hidden' : 'flex'}`}>
-        {(
-          [
-            ['all', 'All sections'],
-            ['EBRW', 'Reading & Writing'],
-            ['MATH', 'Math'],
-          ] as const
-        ).map(([k, l]) => (
-          <button key={k} onClick={() => setSection(k)} className={`rounded-full px-4 py-2 text-[13px] font-medium transition ${section === k ? 'bg-pine text-cream' : 'bg-card text-pine ring-1 ring-line hover:ring-line-strong'}`}>
-            {l}
-          </button>
-        ))}
+        {papers &&
+          count(year) > 0 &&
+          (
+            [
+              ['all', 'All'],
+              ['EBRW', 'Reading & Writing'],
+              ['MATH', 'Math'],
+            ] as const
+          ).map(([k, l]) => (
+            <button key={k} onClick={() => setSection(k)} className={`shrink-0 rounded-full px-4 py-2 text-[13px] font-medium transition ${section === k ? 'bg-pine text-cream' : 'bg-card text-pine ring-1 ring-line hover:ring-line-strong'}`}>
+              {l}
+            </button>
+          ))}
       </div>
 
       {failed && <p className="mt-8 text-[14px] text-red-600">Couldn't load the exam papers. Check your connection and refresh the page.</p>}
       {!papers && (
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          {Array.from({ length: 4 }, (_, i) => (
-            <div key={i} className="skeleton h-64 rounded-[24px]" />
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 6 }, (_, i) => (
+            <div key={i} className="skeleton h-52 rounded-[24px]" />
           ))}
         </div>
       )}
 
-      <AnimatePresence mode="wait">
-        <motion.div key={`${year}-${section}`} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}>
-          {papers && !failed && count(year) === 0 && <EmptyYear year={year} next={fallback !== year && count(fallback) ? fallback : null} onPick={pick} />}
-          {sittings.map((group, gi) => {
-            const head = group[0]
-            return (
-              <section key={`${head.month}-${head.region}-${head.form ?? ''}`} className="mt-7">
-                <div className="flex items-center gap-3">
-                  <div className="grid w-14 shrink-0 overflow-hidden rounded-2xl text-center ring-1 ring-line">
-                    <span className="bg-jg-600 py-0.5 text-[10px] font-bold tracking-[0.12em] text-white">{SHORT[head.month]}</span>
-                    <span className="bg-card py-1 font-serif text-[18px] leading-tight tabular-nums">{String(head.year).slice(2)}</span>
-                  </div>
-                  <div className="min-w-0">
-                    <h2 className="font-serif text-[22px] leading-tight sm:text-[24px]">
-                      {MONTHS[head.month]} {head.year}
-                      {head.form && <span className="text-moss"> · Form {head.form}</span>}
-                    </h2>
-                    <p className="flex items-center gap-1.5 text-[13px] text-moss">
-                      <Globe2 className="size-3.5" /> {head.region} test · {group.length === 2 ? 'Reading & Writing + Math' : `${group.length} section${group.length > 1 ? 's' : ''}`}
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                  {group.map((p, i) => (
-                    <PaperCard key={p.id} p={p} b={best.get(p.id)} delay={Math.min((gi * 2 + i) * 0.05, 0.35)} onStart={() => setOpen(p)} />
-                  ))}
-                </div>
-              </section>
-            )
-          })}
-        </motion.div>
-      </AnimatePresence>
-        </div>
-      </div>
+      {papers && !failed && count(year) === 0 && <EmptyYear year={year} next={fallback !== year && count(fallback) ? fallback : null} onPick={pick} />}
 
-      {papers && all.length > 0 && (
-        <div className="mt-12 grid gap-3 sm:grid-cols-3">
-          {[
-            [FileText, 'Pick a paper', 'Each test date has a Reading & Writing paper and a Math paper.'],
-            [ListChecks, 'Choose a mode', 'Exam mode times you like test day; Practice mode checks each answer as you go.'],
-            [Sparkles, 'Get your score', 'See your scaled score and go through every mistake with Humo.'],
-          ].map(([Icon, t, d], i) => {
-            const I = Icon as typeof FileText
-            return (
-              <div key={t as string} className="flex gap-3 rounded-[20px] bg-cream/70 p-4">
-                <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-card text-pine ring-1 ring-line">
-                  <I className="size-[18px]" />
-                </span>
-                <div>
-                  <p className="text-[14px] font-semibold">
-                    {i + 1}. {t as string}
-                  </p>
-                  <p className="mt-0.5 text-[12.5px] text-moss">{d as string}</p>
-                </div>
-              </div>
-            )
-          })}
-        </div>
-      )}
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {list.map((p, i) => (
+          <PaperCard key={p.id} p={p} b={best.get(p.id)} lock={locked(p)} free={freePlan && !locked(p)} delay={Math.min(i * 0.04, 0.35)} onStart={() => setOpen(p)} />
+        ))}
+      </div>
 
       <AnimatePresence>{open && <ModeSheet test={open} onClose={() => setOpen(null)} />}</AnimatePresence>
     </div>
   )
 }
 
-function PaperCard({ p, b, delay, onStart }: { p: PaperTest; b?: { scaled: number; id: string; n: number }; delay: number; onStart: () => void }) {
+function PaperCard({ p, b, lock, free, delay, onStart }: { p: PaperTest; b?: { scaled: number; id: string; n: number }; lock: boolean; free: boolean; delay: number; onStart: () => void }) {
   const math = p.type === 'MATH'
   const Icon = math ? Calculator : BookOpen
-  const perModule = Math.round(p.questions / p.modules)
+  const v = version(p)
   return (
     <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay, ease: [0.22, 1, 0.36, 1] }}>
       <Tilt className="h-full">
         <article className="card card-hover flex h-full flex-col overflow-hidden">
-          <div className={`relative h-24 overflow-hidden px-5 pt-4 ${math ? 'bg-gradient-to-br from-sky-50 to-sky-100/70' : 'bg-gradient-to-br from-jg-50 to-jg-200/40'}`}>
-            <Icon className={`absolute -bottom-5 -right-3 size-28 rotate-[-12deg] ${math ? 'text-sky-200' : 'text-jg-200'}`} strokeWidth={1.2} />
+          <div className={`relative h-20 overflow-hidden px-5 pt-4 ${math ? 'bg-gradient-to-br from-sky-50 to-sky-100/70' : 'bg-gradient-to-br from-jg-50 to-jg-200/40'}`}>
+            <Icon className={`absolute -bottom-5 -right-3 size-24 rotate-[-12deg] ${math ? 'text-sky-200' : 'text-jg-200'}`} strokeWidth={1.2} />
             <div className="relative flex items-center justify-between gap-2">
               <span className={`inline-flex items-center gap-1.5 rounded-full bg-white/80 px-2.5 py-1 text-[11.5px] font-semibold backdrop-blur ${math ? 'text-sky-700' : 'text-jg-700'}`}>
                 <Icon className="size-3.5" /> {math ? 'Math' : 'Reading & Writing'}
-                <span className="opacity-70">· Full</span>
               </span>
-              {b ? (
-                <span className="inline-flex items-center gap-1 rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-semibold text-white">
-                  <CheckCircle2 className="size-3" /> Done
+              {lock ? (
+                <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-2.5 py-1 text-[11px] font-bold text-[#3a2400]">
+                  <Lock className="size-3" /> Pro
                 </span>
-              ) : (
-                <span className="rounded-full bg-pine px-2.5 py-1 text-[11px] font-semibold text-cream">Real exam</span>
-              )}
+              ) : free ? (
+                <span className="rounded-full bg-emerald-600 px-2.5 py-1 text-[11px] font-semibold text-white">Free</span>
+              ) : null}
             </div>
           </div>
           <div className="flex flex-1 flex-col p-5">
             <div className="flex items-start justify-between gap-3">
-              <div>
+              <div className="min-w-0">
                 <h3 className="font-serif text-[22px] leading-tight">
                   {MONTHS[p.month]} {p.year}
                 </h3>
-                <p className="mt-0.5 text-[13px] text-moss">
-                  {p.region}{p.form ? ` · Form ${p.form}` : ''} · {math ? 'Math' : 'Reading & Writing'}
-                </p>
+                {v && <p className="mt-0.5 text-[13px] text-moss">{v}</p>}
               </div>
               {b && (
-                <ScoreRing value={b.scaled - 200} max={600} size={52} stroke={5} color={math ? '#38bdf8' : '#c8103f'} track="#e9edf3">
+                <ScoreRing value={b.scaled - 200} max={600} size={48} stroke={5} color={math ? '#38bdf8' : '#c8103f'} track="#e9edf3">
                   <span className="text-[12px] font-semibold tabular-nums">{b.scaled}</span>
                 </ScoreRing>
               )}
             </div>
-
-            {/* the paper's structure: module by module, like test day */}
-            <div className="mt-4 flex items-stretch gap-1.5">
-              {Array.from({ length: p.modules }, (_, m) => (
-                <div key={m} className="flex flex-1 items-center gap-1.5">
-                  <div className="flex-1 rounded-xl bg-cream px-3 py-2.5">
-                    <p className="text-[11px] text-moss">Module {m + 1}</p>
-                    <p className="text-[14px] font-semibold tabular-nums">
-                      {perModule} Q · {p.minutesPerModule} min
-                    </p>
-                  </div>
-                  {m < p.modules - 1 && <ArrowRight className="size-3.5 shrink-0 text-moss/60" />}
-                </div>
-              ))}
-            </div>
-            <p className="mt-2.5 flex items-center gap-1.5 text-[12px] text-moss">
+            <p className="mt-3 flex items-center gap-1.5 text-[12.5px] text-moss">
               <Clock className="size-3.5" /> {p.minutesPerModule * p.modules} min · {p.questions} questions{b ? ` · taken ${b.n}×` : ''}
             </p>
-
-            <div className="mt-auto flex gap-2 pt-5">
-              <button onClick={onStart} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
-                {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
-              </button>
+            <div className="mt-auto flex gap-2 pt-4">
+              {lock ? (
+                <button onClick={() => openUpgrade()} className="btn h-11 flex-1 bg-gradient-to-r from-amber-300 to-amber-500 text-[14px] text-[#3a2400] hover:brightness-105">
+                  <Lock className="size-4" /> Unlock with Pro
+                </button>
+              ) : (
+                <button onClick={onStart} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
+                  {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
+                </button>
+              )}
               {b && (
                 <Link to={`/app/results/${b.id}`} className="btn btn-ghost h-11 px-4 text-[13px]">
                   Review
