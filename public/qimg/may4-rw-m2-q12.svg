@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial,sans-serif" font-size="14"><rect width="640" height="400" fill="#fff"/>
+<text x="320" y="22" text-anchor="middle" font-size="15" font-weight="bold">Annual Number of Forest Patches by Land Use Capability Class, Chorotega Region</text>
+<g stroke="#000" fill="none"><path d="M80 40V290H600"/><path d="M75 290h5M75 230h5M75 170h5M75 110h5M75 50h5"/></g>
+<g text-anchor="end"><text x="70" y="295">0</text><text x="70" y="235">400</text><text x="70" y="175">800</text><text x="70" y="115">1,200</text><text x="70" y="55">1,600</text></g>
+<text transform="translate(22 170) rotate(-90)" text-anchor="middle">Number of patches</text>
+<g stroke="#000" stroke-width="1">
+<rect x="110" y="218" width="26" height="72" fill="#555"/><rect x="136" y="213" width="26" height="77" fill="#bbb"/><rect x="162" y="210" width="26" height="80" fill="#000"/>
+<rect x="240" y="246" width="26" height="44" fill="#555"/><rect x="266" y="245" width="26" height="45" fill="#bbb"/><rect x="292" y="241" width="26" height="49" fill="#000"/>
+<rect x="370" y="113" width="26" height="177" fill="#555"/><rect x="396" y="103" width="26" height="187" fill="#bbb"/><rect x="422" y="90" width="26" height="200" fill="#000"/>
+<rect x="490" y="97" width="26" height="193" fill="#555"/><rect x="516" y="83" width="26" height="207" fill="#bbb"/><rect x="542" y="80" width="26" height="210" fill="#000"/></g>
+<g text-anchor="middle"><text x="149" y="310">1960</text><text x="279" y="310">1979</text><text x="409" y="310">1986</text><text x="529" y="310">2000</text><text x="340" y="334" font-weight="bold">Year</text></g>
+<g><rect x="150" y="345" width="12" height="12" fill="#555"/><text x="168" y="356">Class VI</text><rect x="260" y="345" width="12" height="12" fill="#bbb" stroke="#000"/><text x="278" y="356">Class VIII</text><rect x="380" y="345" width="12" height="12" fill="#000"/><text x="398" y="356">Class VII</text></g>
+</svg>

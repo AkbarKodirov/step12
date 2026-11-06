@@ -1,0 +1,554 @@
+!id: dsat25-05-v4-rw
+!name: May 2025 · US · Version 4 · Reading & Writing
+!type: EBRW
+!year: 2025
+!month: 5
+!region: US
+!form: 4
+=M1
+#1
+P: The following text is from Lilliam Rivera's 2020 novel <i>Never Look Back</i>. The text describes the narrator arriving at her father's apartment.
+P: "Pops, I'm here!" I <u>drop</u> my bag and set my guitar case against a wall. I place my keys on the bowl right next to the ceramic elephant Pops got me on one of his trips to Santo Domingo when I was a little kid.
+P: ©2020 by Lilliam Rivera
+Q: As used in the text, what does the word "drop" most nearly mean?
+A) Forget about
+B) Put down
+C) Unbolt
+D) Empty
+K: B
+E: The narrator drops her bag and then sets down her guitar case, so "drop" means put down.
+#2
+P: The invertebrates <i>Haywardozoon pacificum</i> and <i>Trophomera mangani</i> have recently been discovered inhabiting the Clarion-Clipperton Zone (CCZ), an area of abyssal plain between Hawaii and Mexico where mining is permitted. The number of other invertebrates that may inhabit the CCZ is currently ________, as the area's biota is poorly sampled and the few samples that have been taken cannot be presumed to be representative.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) infinitesimal
+B) verifiable
+C) tenuous
+D) inestimable
+K: D
+E: Because sampling is poor and unrepresentative, the number cannot be estimated, so "inestimable" fits.
+#3
+P: Given that healthy genetic diversity supports honey bee population robustness—a matter of public interest given the bees' crucial role as pollinators of many crops, such as watermelon—a study revealing a ________ of diversity among US honey bees raised concern, though it also noted the potential to enhance the number of bees carrying several newly discovered genetic variants (e.g., A2-829-4-USA).
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) paucity
+B) redundancy
+C) disparity
+D) repository
+K: A
+E: The study raised concern about diversity, so it revealed a scarcity (paucity) of it.
+#4
+P: Maryam Hosseini and her team used aerial images of well-mapped areas of Boston to train a computer program to identify sidewalks. When it was tested on images of Brooklyn, it ________ identified sidewalks in the vast majority of cases and even whether sidewalks were concrete or brick. Hosseini believes the program will improve on this already-strong performance as it gets used more.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) clumsily
+B) reliably
+C) rarely
+D) slowly
+K: B
+E: The program performed strongly in most cases, so it identified sidewalks reliably.
+#5
+P: The Polynesian languages, a group of related languages originating on islands in the Pacific, typically have ________ array of consonant sounds. For example, the Tokelauan language of the South Pacific has eleven consonants, and 'Olelo Hawai'i, the language of the Native Hawaiian people, has eight. Globally, however, the median number of consonants per language is over twenty-two.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) a musical
+B) an unvarying
+C) an exclusive
+D) a modest
+K: D
+E: Eleven and eight consonants are far below the global median of over twenty-two, so the array is modest.
+#6
+P: Movies that are part of larger franchises are often criticized for being predictable. Take, for instance, <i>Spider-Man: Far From Home</i> (2019), which is part of the Marvel Cinematic Universe franchise. It's true that this movie resembles earlier Marvel movies. But just because a movie has familiar elements doesn't mean it can't also be worth watching. Critics generally agree that <i>Spider-Man: Far From Home</i> isn't the most exciting franchise movie, but franchise movies are rarely as stale as some people claim. And some franchise movies, like <i>Logan</i> (2017), are wonderfully original.
+Q: Which choice best describes the overall structure of the text?
+A) The text summarizes the plot of a franchise movie, then explains how the plot is continued in a later movie in that franchise.
+B) The text explains why some people enjoyed a particular franchise movie, then considers why other people disliked it.
+C) The text describes audiences' reactions to a movie that is part of a larger franchise, then presents some critics reactions to that movie.
+D) The text discusses a common criticism of franchise movies, then argues that the criticism is mostly undeserved.
+K: D
+E: The text raises the criticism that franchise movies are predictable and then argues it is overstated.
+#7
+P: The following text is from Julia Alvarez's 2000 novel <i>In the Name of Salomé</i>. Salomé, a poet, is hosting guests in the front parlor of her family home, and Ramona is her sister: A salon is a social gathering for the exploration of intellectual ideas.
+P: It was evening when the two men got up to leave. Tía Ana had already come into the room several times to see if these guests had departed yet. The front parlor had always been her <u>special province</u>, as she used it for her little school. Now, every evening, it turned into Salomé's salon, as Ramona called it, and was never in order for its transformation back to a classroom the following morning.
+P: ©2000 by Julia Alvarez
+Q: Which choice best describes the function of the reference to the parlor as Tía Ana's "special province"?
+A) It reveals that Tía Ana feels as if Salomé has betrayed her trust by allowing guests into space she considers her own.
+B) It indicates the joy that Tía Ana feels when she uses her classroom for varying purposes.
+C) It characterizes the room as a place where Tía Ana can go to escape social pressures.
+D) It introduces an idea that helps explain Tía Ana's apparent eagerness for Salomé's guests to leave the space.
+K: D
+E: The parlor is Ana's own domain, which explains why she keeps checking whether the guests have left.
+#8
+P: <b>Text 1</b>
+P: Despite how the Indian dish madras differs from Mauritius's gato pima, both dishes are described as a "curry." The word's history, however, is fraught. It's a term created by British and Portuguese colonizers to refer to the myriad spiced sauces with ties to the Indian subcontinent. In 1973, chef Madhur Jaffrey dismissed the term "curry" as inaccurate, and in 2021 blogger Nisha Vedi Pawar suggested that people abandon the term both for its colonial origin and for its failure to grasp the intricacies of India's cuisines.
+P: <b>Text 2</b>
+P: Growing up in India, chef Chintan Pandya didn't encounter the term "curry" often: his family didn't cook curries, but some of his neighbors did. Although the blanket use of the term is rooted in colonialism, Pandya calls some of his dishes curries. Having traveled throughout India as part of his training, he came to appreciate the country's diverse cuisines and the diverse uses of the term "curry."
+Q: Text 1 and Text 2 present points of view about which topic?
+A) The history about the peoples on the Indian subcontinent
+B) The use of the term "curry"
+C) The difference between madras and gato pima
+D) The best method for studying a region's cuisine
+K: B
+E: Both texts discuss whether and how the term "curry" should be used.
+#9
+P: Sandra Cisneros's English-language short story "Eyes of Zapata" occasionally includes words and phrases from the Mexican dialect of Spanish. While the story doesn't translate the Spanish text into English, the meaning can be inferred from the surrounding English text. Ana Castillo adopts a comparable approach to Spanish in her English-language novel <i>So Far from God</i>. Both works thus remain accessible to all readers of English, not just those who can also read Spanish.
+Q: What is the main topic of the text?
+A) The difficulty of translating Sandra Cisneros's works into languages other than English
+B) The commercial success of English-language literature around the world
+C) The enduring popularity of Ana Castillo's works in Mexico
+D) The use of non-English vocabulary in two English-language literary works
+K: D
+E: The text is about how two English-language works include Spanish words.
+#10
+P: In a large community science effort, biologist Grace Herzel and colleagues collaborated with hundreds of students and other amateur science enthusiasts for more than three years to study how butterfly color and weather conditions relate to butterfly behavior. They found that butterfly color might influence behavior more than butterfly size does, and that butterflies tended to prefer orange and red flowers on cloudy days and multicolor flowers on partly cloudy days.
+Q: Which choice best states the main idea of the text?
+A) Collaboration between professional scientists and members of the public is especially useful when studying the behavior of butterflies and other flying insects.
+B) A recent study suggested that butterflies' coloring seems to be less relevant to their behavior than weather conditions.
+C) Weather conditions and butterfly color seem to have less influence on butterfly behavior than the location where the butterflies are studied does.
+D) A large study suggested that butterfly color and weather conditions might influence the behavior of certain butterflies.
+K: D
+E: The text reports a large study finding that color and weather might influence butterfly behavior.
+#11
+P: <i>Uncle Boonmee Who Can Recall His Past Lives</i> (2010) and other films by Thai director Apichatpong Weerasethakul are contributions to slow cinema, an art house genre whose contemplative pacing and deprivileging of narrative are further exemplified in films such as Andrei Tarkovsky's <i>Solaris</i> (1972). Apichatpong describes his films as sleep inducing, which might suggest that they bore their audiences, but boredom does not necessarily cause sleep: in the absence of a goal to which one attaches attention and interest, the tension of boredom can be anxiety inducing rather than soporific. Thus, Apichatpong's description of his films is not self-deprecation; rather, his work invites sleep and thereby strips the description of its negative connotation.
+Q: Which choice best states the main idea of the text?
+A) Audiences will fail to enjoy both <i>Solaris</i> and <i>Uncle Boonmee Who Can Recall His Past Lives</i> if they confuse sleepiness with boredom.
+B) Slow-cinema films can relieve anxiety for those who embrace their languid pace, but the films increase anxiety for those experiencing boredom as a result of the lack of a cohesive narrative.
+C) <i>Solaris</i> and many other slow cinema films often induce anxiety in their audiences due to their measured pace, but films by Apichatpong do not, despite possessing other traits characteristic of the genre.
+D) It would be a misunderstanding to interpret Apichatpong's reflection on his work as a confession of its failure, because the effects his films produce on audiences are intentional.
+K: D
+E: The text argues that Apichatpong's description of his films as sleep inducing is not self-deprecation but reflects an intended effect.
+#12
+P: <b>Total Areas of Five Pueblo Nations in New Mexico</b>
+T: <table><thead><tr><th>Tribal nation</th><th>Area (square miles)</th></tr></thead><tbody><tr><td>Pueblo of Acoma</td><td>595.7</td></tr><tr><td>Taos Pueblo</td><td>156.2</td></tr><tr><td>Pueblo of Sandia</td><td>38.9</td></tr><tr><td>Pueblo de Cochiti</td><td>82.1</td></tr><tr><td>Pueblo of Pojoaque</td><td>21.4</td></tr></tbody></table>
+P: The Pueblo of Laguna is the largest of the nineteen Pueblo tribal nations in New Mexico, covering nearly 800 square miles. Most Pueblo tribal nations are much smaller. For example, the total area of Pueblo of Sandia is 38.9 square miles, and the total area of Pueblo de Cochiti is ________.
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) 156.2 square miles.
+B) 595.7 square miles.
+C) 82.1 square miles.
+D) 21.4 square miles.
+K: C
+E: The table lists Pueblo de Cochiti at 82.1 square miles.
+#13
+P: <b>Volcanoes in Ecuador</b>
+T: <table><thead><tr><th>Name of volcano</th><th>Year of last eruption</th><th>Volcano type</th></tr></thead><tbody><tr><td>Chacana</td><td>1773 CE</td><td>caldera</td></tr><tr><td>Imbabura</td><td>5550 BCE</td><td>compound</td></tr><tr><td>Chimborazo</td><td>550 BCE</td><td>stratovolcano</td></tr><tr><td>Fernandina</td><td>2020 CE</td><td>shield</td></tr></tbody></table>
+P: A student who is researching volcanoes in Ecuador notes that the country is home to different types of volcanoes. For example, ________
+Q: Which choice most effectively uses information from the table to complete the example?
+A) Chacana is a caldera volcano, and Fernandina is a stratovolcano.
+B) Chimborazo is a caldera volcano, and Imbabura is a stratovolcano.
+C) Imbabura is a compound volcano, and Chacana is a shield volcano.
+D) Fernandina is a shield volcano, and Chimborazo is a stratovolcano.
+K: D
+E: Only choice D matches the table: Fernandina is a shield volcano and Chimborazo is a stratovolcano.
+#14
+P: Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water in North America. But Enelton Fagnani, José Roberto Guimarães, and Pedro Sérgio Fadini did not find this correlation in a study conducted in Brazil, leading some scientists to hypothesize that the pattern is particular to North America. However, Kerstin Leopold, Anja Zierhut, and Jessica Huber reported dissolved organic carbon and mercury rising or falling together in a study conducted in Germany, and several other studies from outside North America have yielded similar results, suggesting that ________
+Q: Which choice most logically completes the text?
+A) bodies of fresh water outside North America are more likely to show a negative association between dissolved organic carbon and mercury levels than a positive association.
+B) there may be circumstances specific to the bodies of water examined in Fagnani, Guimarães, and Fadini's study that disrupted a general positive association between dissolved organic carbon and mercury levels.
+C) environmental characteristics unique to Brazil likely result in dissolved organic carbon and mercury levels in bodies of fresh water both being significantly higher there than elsewhere.
+D) the bodies of water examined in Fagnani, Guimarães, and Fadini's study may be more similar to the bodies of water examined in studies conducted in North America than to those examined in Leopold, Zierhut, and Huber's study.
+K: B
+E: Since the positive association appears outside North America too, the Brazil result is likely due to local circumstances.
+#15
+P: British professional soccer team Manchester United Football Club, whose home uniform color is mainly red, won more than half its home matches between 1947 and 2003. This is a higher proportion of home matches than Hull City Association Football Club, whose home uniform color is not red, won during the same period. According to a study by Martin J. Attrill and colleagues, the color red can cause people to respond with fear and hesitation, which the researchers think helps explain Manchester United's success. Nadav Goldschmied and colleagues reanalyzed the published data from this study, however, and found no evidence that red uniformed teams are more likely than other teams to win, suggesting that Manchester United's performance at its home stadium ________
+Q: Which choice most logically completes the text?
+A) would probably have remained roughly the same if its players had not been wearing red uniforms.
+B) was likely influenced by its opponents associations with the color red.
+C) was directly tied to its players' general satisfaction with their uniform color
+D) may have influenced other teams to change their uniform colors.
+K: A
+E: No evidence red uniforms help teams win suggests United's success was not due to its uniform color.
+#16
+P: London-based Nigerian sculptor Sokari Douglas Camp creates art by cutting, bending, and welding recycled metal materials into new and thought-provoking shapes. Her work—which has been featured in galleries around the world, such as the Potters Field Commission for Southwark Council in London and Skidmore College's Tang Teaching Museum and Art Gallery in New York—often references at least one of several ________ the environment, and Kalabari culture.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) themes; movement,
+B) themes. Movement,
+C) themes movement,
+D) themes: movement,
+K: D
+E: A colon introduces the list of themes after a complete clause.
+#17
+P: Drummer Dennis Chambers's distinguished career includes many memorable achievements, such as working on the Brecker Brothers' album <i>Return of the Brecker Brothers</i>. However, as house drummer at Sugar Hill Records, a record label that was a pioneer of early hip hop ______ Chambers joined too late to play drums on the label's classic song "Rapper's Delight."
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) music,
+B) music;
+C) music, which
+D) music
+K: A
+E: The appositive ends with a comma, matching the comma after Records, before the main clause.
+#18
+P: Blaise Pascal's Pascaline device—conceived, like William Oughtred's earlier Circular Slide Rule, amid the seventeenth century push to replace manual calculations with faster and more accurate machine-based methods—______ among the first reproducible calculating machines.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) being
+B) were
+C) was
+D) are
+K: C
+E: The singular subject "device" in the past takes "was" to form a complete sentence.
+#19
+P: When a soil is classified using the International Union of Soil Sciences' system, its similarity to each of the 32 soil reference groups—defined by several criteria—______ evaluated, one group at a time, until a match is found. The comparisons are made in a specific order: thus, the criteria for lixisols (soils with clay-rich subsoil) are only applied if the soil doesn't match the criteria for ferralsols.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) have been
+B) are
+C) is
+D) was
+K: C
+E: The singular subject "similarity" requires the singular present verb "is".
+#20
+P: Enacted in 1944, Iceland's constitution, according to legal ______ contains one of the six constitutional features that enhance judicial independence. Explicit provisions for judicial Independence. Melton and Ginsburg's research explains, are more likely to be found in constitutions enacted after 1985.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) researchers James Melton and Tom Ginsburg
+B) researchers, James Melton and Tom Ginsburg
+C) researchers James Melton and Tom Ginsburg,
+D) Researchers, James Melton and Tom Ginsburg,
+K: C
+E: No comma after "researchers" (the names are essential), and a comma closes the interrupting phrase.
+#21
+P: In a 2024 study, researchers investigating the biodiversity of trees in Amsterdam counted and classified the city's trees. They found notable variation in the percentage of native trees in different areas of the city. ________ more than half of the trees in administrative unit GE05 (54%) were native species, but only 12% of the trees in administrative unit GE04 were native species.
+Q: Which choice completes the text with the most logical transition?
+A) As was previously stated,
+B) Exemplifying this variation,
+C) Contrary to this finding,
+D) Resulting from this conclusion,
+K: B
+E: The percentages for GE05 and GE04 illustrate the variation just described.
+#22
+P: Amruta Yelamanchili has worked at NASA's famed Jet Propulsion Laboratory (JPL), one of the world's leading facilities for robotic space exploration. ________ Yelamanchili worked as a data scientist on the JPL's Mars 2020 Perseverance rover team, which improved upon the 2011 <i>Curiosity</i> rover design by adding a coring drill to the robot that could collect rock samples for later analysis.
+Q: Which choice completes the text with the most logical transition?
+A) Specifically,
+B) Conversely,
+C) Finally,
+D) Nevertheless,
+K: A
+E: The second sentence gives a specific example of her work at JPL.
+#23
+P: Two siblings from the same biological parents can inherit different physical traits. For instance, one sibling might inherit thin lips; the other sibling, ________ might inherit full lips.
+Q: Which choice completes the text with the most logical transition?
+A) by contrast,
+B) for example,
+C) with this in mind,
+D) lastly,
+K: A
+E: Full lips contrast with thin lips, so "by contrast" fits.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Grimanesa Amoros is a Peruvian American artist well known for her LED light sculptures.
+L: Her sculpture <i>Uros House</i> is made of smooth multicolored LED domes.
+L: It occupies 250 cubic feet of space.
+L: Her sculpture <i>Golden Waters</i> is made of entangled blue and white LED tubes.
+L: It occupies 118,080 cubic feet of space.
+Q: The student wants to emphasize a similarity between <i>Uros House</i> and <i>Golden Waters</i>. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) <i>Uros House</i> is an LED light sculpture made by Grimanesa Amoros, as is <i>Golden Waters</i>.
+B) The smooth LED domes of Grimanesa Amoros's <i>Uros House</i> stand in contrast to the tangled LED tubes of <i>Golden Waters</i>.
+C) Grimanesa Amoros is the artist behind <i>Uros House</i>—a sculpture made of smooth multicolored LED domes.
+D) At 118,080 cubic feet in size, Grimanesa Amoros's <i>Golden Waters</i> cuts a larger figure than the 250-cubic-foot <i>Uros House</i>.
+K: A
+E: Only choice A points out what the two works share: both are LED light sculptures by Amoros.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: E.M. Forster was an acclaimed writer.
+L: He is best known for his novels.
+L: Forster's most famous novels include <i>A Room with a View</i> (1908) and <i>Howards End</i> (1910).
+L: His first published work of fiction was a short story called "Albergo Empedocle."
+L: It was published in <i>Temple Bar</i> in 1903.
+Q: The student wants to provide a specific example of one of E.M. Forster's most famous works. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) E.M. Forster was an acclaimed writer known for his novels
+B) "Albergo Empedocle" was published before some of E. M. Forster's most famous novels.
+C) The 1908 novel <i>A Room with a View</i> is one of E. M. Forster's most famous works.
+D) E. M. Forster's first published work of fiction was a 1903 short story called "Albergo Empedocle."
+K: C
+E: Choice C names a specific famous work, A Room with a View.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: The Carnegie Prize is an international art competition administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.
+L: Painter Anselm Kiefer of Germany won a Carnegie Prize gold medal in 1985.
+L: Kiefer's winning artwork was a painting entitled <i>Midgard</i>.
+L: Sculptor Jean Arp of Germany won a Carnegie Prize gold medal in 1964.
+L: Arp's winning artwork was a sculpture entitled <i>Sculpture Classique</i>.
+Q: The student wants to contrast the two artworks. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Kiefer's <i>Midgard</i> is a painting, while Arp's <i>Sculpture Classique</i> is a sculpture.
+B) Kiefer won a Carnegie Prize gold medal in 1985 for the painting <i>Magard</i>.
+C) Carnegie Prize gold medals have been awarded to both painters and sculptors.
+D) Both <i>Midgard</i> and <i>Sculpture Classique</i> are Carnegie Prize gold medal-winning artworks.
+K: A
+E: Choice A contrasts the two works by medium.
+#27
+L: In a 2003 study, Alexander and Schrag tested the effect of plant litter on seedling emergence in a grassland setting.
+L: The test site was a mesic grassland in a dry midlatitude climate in the United States.
+L: The researchers found that in these environmental conditions the presence of plant litter had a positive effect on seedling emergence.
+L: Seedling emergence is when a seedling sprouts above ground and begins photosynthesis.
+Q: Which choice most effectively uses information from the given sentences to present the study's findings to an audience already familiar with the concept of seedling emergence?
+A) The findings of Alexander and Schrag's study were published in 2003.
+B) In a 2003 study by Alexander and Schrag, plant litter was found to have a positive effect on seedling emergence, which is when a seedling sprouts and begins photosynthesis.
+C) The effect of plant litter, which includes dead leaves and other plant matter, on seedling emergence has been the subject of scientific study.
+D) Alexander and Schrag found that in a mesic grassland and a dry midlatitude climate the presence of plant litter had a positive effect on seedling emergence.
+K: D
+E: The audience knows the term, so the best choice states the findings and conditions without defining it.
+=M2
+#1
+P: Writer Lydia Davis observed that while ______ literary forms, such as the short story, are recognizable as such even as they evolve, there are rarer “intergeneric” forms that might, for example, use elements of both fiction and essays to create something unclassifiable. The very short publications of Diane Williams arguably fit in this category, since they straddle the line between prose and poetry.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) equivocal
+B) orthodox
+C) intermediate
+D) neutral
+K: B
+E: Orthodox (conventional) forms contrast with the rarer intergeneric forms.
+#2
+P: For most of its length, the Pungue River has sufficiently high flow velocity to suspend sedimentary particles; but when the river reaches the calmer waters of the Indian Ocean, its channel widens and divides, reducing flow velocity and thereby ______ sedimentary particle suspension. Particles are thus deposited, eventually forming deltaic lobes.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) compounding
+B) obscuring
+C) interrupting
+D) expediting
+K: C
+E: Reduced velocity interrupts suspension, so particles are deposited.
+#3
+P: Postcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal’s lungs and air sacs inside its bones. Though such structures do not typically fossilize, they are believed to have been present in <i>Tyrannosaurus</i>, <i>Anhanguera</i>, and other Cretaceous theropods and pterosaurs. To ______ PSP from fossils, researchers look for indicators such as large foramina (holes in bones).
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) infer
+B) preserve
+C) isolate
+D) acquire
+K: A
+E: Researchers use indirect indicators to infer PSP, since the structures themselves do not fossilize.
+#4
+P: The subscription model in which consumers who do not deliberately cancel their subscriptions automatically pay recurring fees for access to products and services benefits retailers when consumer ______ is high. Many of the 8.5 percent of subscribers who canceled their food and beverage subscriptions in January 2022 had stopped valuing their subscriptions long before then, but sellers profited from those customers’ passivity in the interim.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inertia
+B) evasion
+C) decisiveness
+D) turnover
+K: A
+E: Customers’ passivity describes inertia, which keeps them paying.
+#5
+P: Urban green spaces can improve air quality, as vegetation absorbs pollutants and also dilutes pollutant concentrations through ventilation. However, data from air-quality monitoring stations in locations throughout Romania suggest that this often-cited benefit of vegetation is not always ______: researchers found that when there are many trees along a busy street, ventilation has minimal effect on the air quality.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) immoderate
+B) realized
+C) unappreciated
+D) compressed
+K: B
+E: The benefit is often cited but not always realized, as the street-tree finding shows.
+#6
+P: Founded in Denver in 1991, the Museo de Las Americas is one of the best-known US based institutions showcasing Latino cultures. Since its founding, it has acquired more than 4,800 objects for its permanent collection. <u>Since 2000, the number of Latino cultural institutions in the US has expanded considerably</u>, LA Plaza de Cultura y Artes, which opened in Los Angeles in 2011 and focuses on Mexican American art and culture, is among the most prominent.
+Q: Which choice best states the function of the underlined sentence in the text as a whole?
+A) It contrasts the focus of the Latino cultural institution discussed earlier in the text with the focus of the institution discussed later in the text.
+B) It identifies a historical trend of which the Latino cultural institution discussed later in the text is a part.
+C) It analyzes how two institutions’ approach to exhibiting artworks reflects the approach taken by most Latino cultural institutions.
+D) It describes a historical development that encouraged the founding of the two Latino cultural institutions discussed in the text.
+K: B
+E: The sentence states a broad trend of expansion, of which LA Plaza is one example.
+#7
+P: In Bhutan, use of solid fuel (e.g., coal wood) as a share of total household fuel use fell by approximately two thirds between 2000 and 2019; such shifts are often explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high technology fuels displace solid fuels as incomes rise). Rasmus Heltberg’s study of fuel use in Nepal shows this model to be reductive, however; household fuel use was heterogeneous, flexible, and influenced by several factors, including the stability of the local electrical grid.
+Q: Which choice best describes the main purpose of the text?
+A) To challenge a common explanation for households fuel choices
+B) To contrast patterns in household fuel use in two countries
+C) To account for the effect of fuel use on household income
+D) To critique a frequently used model of changes In household fuel prices
+K: A
+E: The text presents the energy ladder model and then a study showing it is reductive.
+#8
+P: The following text is from George Eliot’s 1857 short story “The Sad Fortunes of the Rev. Amos Barton.” The Countess Czerlaski is a newcomer to the town of Milby.
+P: It is true, the Countess was a little vain, a little ambitious, a little selfish, a little shallow and frivolous, a little given to white lies. — But who considers such slight blemishes, such moral pimples as these, disqualifications for entering into the most respectable society? Indeed, the severest ladies in Milby would have been perfectly aware that these characteristics would have created no wide distinction between the Countess Czeriaski and themselves; and since it was clear that a wide distinction — why it must lie in the possession of some vices from which they were undeniably free.
+Q: Which choice best states the main idea of the text?
+A) The residents of Milby had initially viewed the Countess Czeriaski with suspicion, but they have gradually come to see her as mostly harmless.
+B) Although the countess Czeriaski actively cultivates a sense of mystery about her, her background is less Interesting than what many residents of Milby have been led to believe.
+C) Although the residents of Milby are generally thought to be hospitable, the Countess Czeriaski has committed many social blunders that have caused her to be widely disliked.
+D) Some residents of Milby are determined to disapprove of the Countess Czeriaskt, even though the reasons for their dislike are largely groundless.
+K: D
+E: The Countess’s faults are slight and shared by the ladies, yet they insist on a distinction, so their disapproval is largely groundless.
+#9
+P: Some researchers posit that species on the South Pacific island of Grande Terre are the surviving members of clades that inhabited other islands in the region before the complete emergence of Grande Terre 37 million years ago. In a 2012 study, however, Hervé Sauquet et al, found that the crown age (the age of the most recent common ancestor of all living and extinct species in the clade) of the clade of southern beeches on Grande Terre is 16.4 million years; Sauquet et al, further found that the crown age of the clade of southern beeches in the South Pacific generally is also approximately 16.4 million years.
+Q: As presented in the text, the findings of Sauquet et al. best support which statement?
+A) The southern beeches found on Grande terre are members of a clade that likely originated outside the South Pacific.
+B) The most recent common ancestor of the southern beeches found on Grande Terre lived at least 37 million years ago
+C) The southern beeches found on Grande Terre are not members of a clade that existed before the island completely emerged.
+D) The ancestors of most species found on Grande Terre arrived on the island earlier than did the most recent common ancestor of the island’s southern beeches.
+K: C
+E: A crown age of 16.4 million years is younger than the island’s 37 million years, so the beech clade did not exist before the island emerged.
+#10
+P: A student is writing a research paper on the history of irrigation in the southwestern United States, situating the development of Lake Sabrina (a man-made body of water created in Inyo County. California, in 1908) in a larger historical context. The student claims that some modern-day irrigation methods used in southwestern states, such as California, Arizona, and New Mexico, have a lineage that long predates the completion of Lake Sabrina.
+Q: Which quotation from a historian best supports the student’s claim?
+A) “Sprinkler irrigation systems, which were developed in the late 20th century, are a convenient technique of irrigating that makes use of machinery in order to spray water in all directions. Many areas of the Southwestern United States are currently irrigated by this method.”
+B) “In the decades following the Second world War, irrigation of arid areas for agriculture increased to such a degree that it now accounts for roughly 70% of the world’s water usage.”
+C) “The irrigation system developed by the Hiohokam people in what is now central Arizona in the 7th century CE was simple but made use of hydraulic engineering design principles that are still utilized by today’s engineers.”
+D) “The importance of the development of irrigation infrastructure in the American Southwest today cannot be overstated, since it is the most common means of conveying water for food production.”
+K: C
+E: Only choice C describes a very old system whose principles are still used today.
+#11
+P: Periods of subfreezing temperatures in Alaska have been growing shorter as a result of climate changes, potentially enabling increased carbon dioxide (CO<sub>2</sub>) absorption through greater productivity of sidebells wintergreen (<i>Orthilia secunda</i>) plants and other vegetation, but also potentially enabling increased CO<sub>2</sub> output through greater heterotrophic respiration (CO<sub>2</sub> generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs — years of soil moisture and snow cover data among them — to evaluate the effects of climate changes on the CO<sub>2</sub> balance in Alaska, concluding that net CO<sub>2</sub> is likely to increase if seasonal snow cover arrives earlier relative to the onset of soil surface freezing.
+Q: Which finding, if true, would most directly support the researchers’ conclusion?
+A) Relatively early snow cover reduces the amount of soil moisture available for the growth of plant species such as <i>O. secunda</i> and lowers the rate of heterotrophic respiration.
+B) The soil insulation provided by snow cover enables heterotrophic respiration to continue during a period in which plant species such as <i>O. secunda</i> are typically not growing.
+C) The effect of soil moisture on the growth of vegetation and on the rate of heterotrophic respiration is stronger during the period of seasonal snow cover than during the period without snow cover.
+D) Seasonal snow cover tends to persist longer in areas of relatively low vegetation growth and high heterotrophic respiration than in areas of relatively high vegetation growth and low heterotrophic respiration
+K: B
+E: If snow insulation keeps microbes releasing CO2 while plants are dormant, earlier snow cover would raise net CO2.
+#12
+I: /qimg/may4-rw-m2-q12.svg
+P: To understand the extent of deforestation in the Chorotega region of Costa Rica, Juan Pablo Arroyo Mora and colleagues used historical aerial photography and remote sensing data to track changes in the total number of forest patches in areas of different land use capability classes (categories that indicate possible uses of forest land). Due to the Chorotega region’s accessibility, various types of forested areas were converted to cattle pasture as rising international meat prices drove a cattle ranching boom in the 1960s and 1970s: this conversion is evident in the ______
+Q: Which choice most effectively uses data from the graph to complete the assertion?
+A) high number of patches in class VII and class VIII in 1986.
+B) difference between the number of patches in Class VII and in Cass VI in 2000.
+C) increase in the number of patches for all classes from 1979 to 2000.
+D) decrease in the number of patches for all classes from 1960 to 1979.
+K: D
+E: Every class shows fewer patches in 1979 than in 1960, matching conversion to pasture in the 1960s and 1970s.
+#13
+T: <table><caption>Value, Cost, and Seigniorage of US Coins by Denomination, 2023</caption><thead><tr><th>Denomination</th><th>Total value of units produced (in millions of dollars)</th><th>Gross cost (in millions of dollars)</th><th>Seigniorage (in millions of dollars)</th><th>Seigniorage per $1 issued (dollars)</th></tr></thead><tbody><tr><td>One-cent</td><td>41.4</td><td>127.4</td><td>-86.0</td><td>-2.08</td></tr><tr><td>Five-cent</td><td>70.8</td><td>163.4</td><td>-92.6</td><td>-1.31</td></tr><tr><td>Ten-cent</td><td>266.6</td><td>141.1</td><td>125.5</td><td>0.47</td></tr><tr><td>Quarter dollar</td><td>568.4</td><td>264.4</td><td>304.0</td><td>0.53</td></tr></tbody></table>
+P: Issuing a one-dollar coin yields positive seigniorage — profit generated when the face value of a coin exceeds the unit cost of producing it — for Singapore’s government, which can be used to fund such services as education. Issuing coins can also result in negative seigniorage, however, and this phenomenon led Australia to stop producing certain coins. A student argues that it is in the financial interest of the United States to follow the example of Australia with regard to each of the four coins shown in the table.
+Q: Which choice best describes data from the table that weaken the student’s argument?
+A) Seigniorage per dollar issued was slightly greater for quarter-dollar coins than for ten cent coins, but seigniorage in millions of dollars was much greater for quarter dollar coins than for ten-cent coins.
+B) Although issuing one cent and five cent coins resulted in negative seigniorage in millions of dollars, issuing ten-cent and quarter-dollar coins resulted in positive seigniorage in millions of dollars.
+C) Issuing one-cent and five-cent coins created negative seigniorage in millions of dollars, but for each of those coins, the gross cost of issuing the coin was lower than the gross cost of issuing ten-cent or quarter-dollar coins was.
+D) Although issuing five-cent coins created the greatest negative seigniorage in millions of dollars, issuing one-cent coins created the greatest negative seigniorage per dollar issued
+K: B
+E: Ten-cent and quarter coins earn positive seigniorage, so stopping all four would not serve US financial interest.
+#14
+P: Though longitudinal studies like the Northern Ireland Longitudinal Study (NILS), which has surveyed approximately 500,000 participants in Northern Ireland to find trends in public health, are expensive because they are conducted over many years, by spanning these time frames, they can reveal causal patterns. But studies for which cause and effect is not at issue, like a public opinion study that merely seeks to determine the proportion of a city’s population that supports a particular tax proposal, can succeed without longitudinal methods, which means that ______
+Q: Which choice most logically completes the text?
+A) the public opinion study could likely be completed at a considerably lower cost than NILS.
+B) longitudinal methods would likely be less suitable for studies in public opinion than for studies in public health.
+C) longitudinal methods would likely be less expensive for studies in public opinion than for studies in public health.
+D) the results from NILS would likely be more reliable than those from the public opinion study.
+K: A
+E: Without long, costly longitudinal methods, the opinion study would cost far less than NILS.
+#15
+P: The Virgin Group’s introduction of the Virgin Atlantic airline in 1984 is an instance of brand extension—the company leveraged its brand recognition as a music retailer to enter a new product category. To investigate how market share affects consumers’ likelihood of purchasing brand extensions, Alicia Grasby et al identified 30 extended brand pairs (e.g., the same brand of vacuum cleaner and microwave) in household purchasing data; for each pair, Grasby et al. calculated the branded products’ market share and calculated the increase in probability of a brand in one category being purchased if the same brand was purchased in the other category. A broad inverse relationship between the two values emerged, which can most reasonably be attributed to the fact that ______
+Q: Which choice most logically completes the text?
+A) the purchase probability of a brand is affected by the purchase probability of the particular product category to which it belongs, and thus brands in categories that are rarely purchased tend to have low purchase probabilities regardless of market share.
+B) as a brand’s market share increases, the number of competing brands in the same product category tends to decrease, and thus the rate of increase in market share tends to accelerate as a brand’s market share grows.
+C) brands with high market share have high purchase probability regardless of whether the other product in the pair is purchased and thus have less potential to increase in purchase probability than brands with low market share do.
+D) consumers tend to be less familiar with brands with low market share than brands with high market share and thus may purchase both products in a pair with low market share without recognizing that the products are the same brand.
+K: C
+E: High-share brands are already likely to be bought, so purchasing the other product adds little; low-share brands can gain more.
+#16
+P: The small celestial body known as 2060 Chiron is expected to have a relatively short lifetime in the outer solar system. Within just a few million years, 2060 Chiron is likely to migrate into the inner solar system or be destroyed, according to ______ trajectory.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) astronomers modeling of the objects
+B) astronomer’s modeling of the object’s
+C) astronomers modeling of the object’s
+D) astronomers’ modeling of the object’s
+K: D
+E: Plural possessive “astronomers’” modifies “modeling,” and “object’s” is the singular possessive of the trajectory.
+#17
+P: Focusing on <i>Mirounga angustirostris</i>—or ______ 2021 study by researchers Akinori Takahashi, Daniel Costa, and Patrick Robinson found that female elephant seals devote more than 80% of their time to foraging for prey in the northern Pacific Ocean.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) northern elephant seals, as they’re more commonly known, a
+B) northern elephant seals, as they’re more commonly known—a
+C) northern elephant seals, as they’re more commonly known. A
+D) northern elephant seals—as they’re more commonly known, a
+K: B
+E: The opening dash needs a closing dash after “known,” so the aside is set off by a matching dash.
+#18
+P: A 2016 study by researchers Andreas Keller and Leslie Vosshall evaluating how participants described the odors of various chemical compounds revealed some similarities between the odor of sample 15 (linoleic acid) and that of sample 18 (propionic acid). The ______ primary descriptors both included “sour”; however, the next most common word used for sample 15 was “decayed,” while that for sample 18 was “musky.”
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) sample’s odors
+B) samples’ odor’s
+C) samples odors’
+D) samples’ odors’
+K: D
+E: Two samples’ odors’ primary descriptors: plural possessive for both nouns.
+#19
+P: The Orionid meteor shower’s brightness typically surpasses that of the Daytime Arietid meteor shower due to the interplay of three main factors—namely the size and composition of the ______ velocity upon entering Earth’s mesosphere, with higher velocity meteoroids releasing more energy; and atmospheric fluctuations, such as changes in sky conditions.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) meteoroids; their
+B) meteoroids. Their
+C) meteoroids, their
+D) meteoroids—their
+K: A
+E: A semicolon links the two related independent clauses and sets up the list of factors.
+#20
+P: Despite differences in history, language, and geography, the geopolitical entities that constitute the South Pacific regions of Micronesia, Melanesia, and Polynesia share one feature: ______ an island or a group of islands. For example, the Pitcairn Islands in Polynesia is a territory that is part of Great Britain and consists of only one inhabited island with fewer than one hundred residents.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) all of them are
+B) all of them is
+C) each of them is
+D) each of them are
+K: C
+E: “Each” takes a singular verb, so “each of them is.”
+#21
+P: The parks of Memphis, Tennessee, seem to be making people happier. In 2022, a team of researchers ______ to find connections between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from various sites in Memphis. The team found that posts from the city’s parks contained more words associated with happiness than did the other posts.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) hoped
+B) hoping
+C) was hoping
+D) were hoping
+K: B
+E: The participial phrase “hoping to find…” modifies the subject; the main verb is “analyzed.”
+#22
+P: Space scientist Antonella Nota is excited about the potential of the new James Webb Space Telescope (JWST). Unlike its predecessor, the Hubble Telescope, the JWST is primarily an infrared telescope. Most light from distant galaxies is infrared; ______ the JWST can provide Nota and her team much more information about these galaxies than the Hubble could.
+Q: Which choice completes the text with the most logical transition?
+A) alternatively,
+B) in contrast,
+C) for instance,
+D) hence,
+K: D
+E: Because most light from distant galaxies is infrared, the infrared JWST gets more information, a result.
+#23
+P: While researching a topic, a student has taken the following notes:
+L: Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.
+L: It features images of many cultural artifacts relevant to the history of the Choctaw people.
+L: It features basketry, including a trunk basket (<i>tapushik pothoma</i> in Choctaw) made from cane.
+L: The trunk basket was made in 2019.
+L: The archive features household items, including a stamp (<i>isht inchunwa</i>) made from rubber.
+L: The stamp was made in the 1800s.
+Q: The student wants to support the claim that the online archive features both older and newer artifacts. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The rubber stamp (<i>isht inchunwa</i>) was made in the 1800s.
+B) Hina Hanta, an online archive, features both basketry and household items.
+C) Not all artifacts in the Hina Hanta archive are from the 1800s.
+D) The Hina Hanta online archive features cultural artifacts both old and new, including a rubber stamp from the 1800s and a cane trunk basket from 2019.
+K: D
+E: Only D gives both an older (1800s) and a newer (2019) artifact.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: The Peloncillo-Pan Duro Mountains are located in northwestern Mexico.
+L: They cover an area of 1,360 square miles (mi<sup>2</sup>).
+L: The Big Hatchet Mountains are located in the southwestern United States.
+L: They cover an area of 65 mi<sup>2</sup>.
+L: These mountain ranges are two of the dozens of “sky islands” in the southwestern US and northwestern Mexico.
+L: A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.
+Q: The student wants to compare the sizes of the two mountain ranges. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) There are dozens of isolated mountain ranges located in the southwestern US and northwestern Mexico.
+B) In terms of area, the Peloncillo-Pan Duro Mountains (which cover 1,360 mi<sup>2</sup>) are larger than the Big Hatchet Mountains (65 mi<sup>2</sup>).
+C) Sky islands in northwestern Mexico and the southwestern US can vary in size.
+D) The Peloncillo-Pan Duro Mountains and the Big Hatchet Mountains are both isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands.
+K: B
+E: Only B compares the two ranges’ areas.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Bengali is a language in the Indo-Aryan language family.
+L: In Bengali, a noun takes a different form when that noun functions as a location in a sentence.
+L: The Bengali noun <i>bari (house)</i> is combined with the locative suffix-te to become the locative noun <i>barite</i> (in the house).
+L: Danish is a language in the Germanic language family.
+L: In Danish, nouns do not change form to indicate location.
+L: In Danish, nouns used as a location must be indicated by prepositions such as <i>i (in)</i> or <i>på (on)</i>.
+Q: The student wants to emphasize a difference between Bengali and Danish nouns. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) To indicate location in Bengali, a suffix is appended to a noun, but in Danish, the noun is unchanged and a preposition is used.
+B) Bengali and Danish belong to two distinct language families; the former is in the Indo-Aryan family, while the latter is a Germanic language.
+C) Though nouns in Bengali change form to indicate location, this Indo-Aryan language belongs to a different language family than Danish does.
+D) In Bengali, nouns take a different form when they function as a location, as the language belongs to the Indo-Aryan family: Danish, however, belongs to the Germanic family.
+K: A
+E: A contrasts how the two languages mark location on nouns.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Lou Scheper-Berkenkamp was a painter and author born in Wesel, Germany.
+L: She began attending the Bauhaus in 1920.
+L: The Bauhaus was an influential German art and design school.
+L: The school famously espoused the design principle of “form follows function.”
+L: “Form follows function” means that an object’s shape should be determined primarily by its intended purpose.
+Q: The student wants to explain the principle espoused by the Bauhaus. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) According to the Bauhaus, an object’s intended purpose (function) should primarily determine its shape (form).
+B) Lou Scheper-Berkenkamp was a painter and author who attended the Bauhaus, famous for espousing the principle of “form follows function.”
+C) Famous for its principle of “form follows function,” the Bauhaus was an influential German art and design school.
+D) An object’s intended purpose and its shape are two elements of the design principle “form follows function.”
+K: A
+E: Only A explains what the principle means.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: According to researcher Muhammad Rayyan Fazal, “geothermal electric energy… [is] capable of producing more energy per megawatt per year as compared to similar capacity solar and wind power systems.”
+L: Geothermal power plants typically employ dry steam systems, flash steam systems, or binary cycle systems to produce electricity from high-temperature geothermal fluid.
+L: The Platanares geothermal power plant in Honduras uses a binary cycle system.
+L: Fazal says that binary cycle systems “pump 100% geothermal fluid back to the injection well, hence offering the least environmental impact with little or no emissions.”
+Q: The student wants to use a quotation from Fazal to explain an advantage of the geothermal system at the Platanares plant. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Compared with dry steam systems and flash steam systems, the binary cycle system used at the Platanares plant is “capable of producing more energy per megawatt per year,” Fazal notes.
+B) According to Fazal, because it uses high-temperature geothermal fluid to produce electricity, the system used at the Platanares plant results in “little or no emissions,” making it environmentally friendly.
+C) Since they return all geothermal fluid to the injection well, binary cycle systems—such as the one at the Platanares plant—produce “the least environmental impact,” according to Fazal.
+D) The Platanares plant uses a binary cycle system to produce electricity; in this type of geothermal system, fluid is pumped “back to the injection well,” Fazal explains.
+K: C
+E: Binary cycle systems return all fluid to the well, giving the least environmental impact, quoted from Fazal.

@@ -1,0 +1,534 @@
+!id: dsat25-05-v2-rw
+!name: May 2025 · International · Version 2 · Reading & Writing
+!type: EBRW
+!year: 2025
+!month: 5
+!region: International
+!form: 2
+=M1
+#1
+P: <i>The Gleaners</i>, painted in the realist style by Jean-François Millet, depicts peasants picking stray wheat from a field after the harvest. The realists’ emphasis on accurately portraying the experiences of average working people was largely a rejection of the romantic style evident in many paintings by Paul Delaroche, which instead ______ their subjects’ beauty or heroism while hiding all imperfection.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) mock
+B) exaggerate
+C) correct
+D) undermine
+K: B
+E: Romantic painters like Delaroche, in contrast to realists, inflated their subjects’ beauty or heroism while hiding flaws, so “exaggerate” fits.
+#2
+P: The minor planet 1061 Paeonia was named after the plant genus that includes peonies. But most minor planets are given only an identification number, largely due to there being over 500,000 such bodies known at present. So while the task of finding a unique name for each minor planet was ______ when few had been discovered, so many minor planets have since been discovered that the task has become nearly impossible.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) substantial
+B) insurmountable
+C) feasible
+D) ambiguous
+K: C
+E: The text contrasts the past, when few planets were known, with now, when naming is nearly impossible; so naming was once “feasible.”
+#3
+P: The term “agglomeration economies” refers to the economic benefits enjoyed by firms in the same industry that ______ in a region. For example, in the computer manufacturing industry in the United Kingdom, firms that locate near one another can more readily take advantage of increased potential for information sharing among firms that fosters greater technological innovation.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) recur
+B) dissipate
+C) concentrate
+D) terminate
+K: C
+E: The example describes firms locating near one another, so the benefits go to firms that “concentrate” in a region.
+#4
+P: In the decades after Mexico won its independence from Spain, literature became a medium through which the new nation ______ its autonomous identity, with authors like Manuel Payno and Justo Sierra Méndez helping to shape what would become a distinctly Mexican literary tradition.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) overcame
+B) realized
+C) decried
+D) evaded
+K: B
+E: Literature helped the new nation come to understand and give form to its autonomous identity, so “realized” fits best.
+#5
+P: Researchers examining data from the New Horizons space probe, which passed Pluto in 2015, were puzzled by a 27-mile-long crater on Pluto’s icy surface. Although Pluto is mostly covered in frozen methane and nitrogen, the surface near the crater seemed to show the presence of water ice and ammonia— both of which are associated with eruptions from ice volcanoes. <u>Additionally, the shape and appearance of the crater did not suggest that it was formed by impact.</u> Based on this evidence, scientist Dale Cruikshank and his team hypothesized that the crater was likely once a massive ice volcano.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It introduces previous findings that suggested a research method for Cruikshank and his team.
+B) It implies that the research team eliminated an alternative explanation for the crater based on available evidence.
+C) It emphasizes the importance of the New Horizons space probe to researchers.
+D) It identifies a misconception that the researchers had about the crater when they were first studying the data.
+K: B
+E: The sentence says the crater’s shape did not suggest an impact origin, ruling out that explanation and supporting the ice-volcano hypothesis.
+#6
+P: <b>Text 1</b>
+P: In the past, music albums were created to be played back on physical formats like records. A typical record holds only about twenty-five minutes of music on each of its shiny black sides. This forced artists and producers to think carefully about what music to include on an album and what to leave out. Today’s artists don’t have to worry as much about fitting their music on physical formats. For this reason, many of today’s artists are making albums that are much longer than albums from decades past.
+P: <b>Text 2</b>
+P: In today’s digital age, most music is created to be streamed from online services. These services remove the limitations of physical formats like records and CDs. This may be why many new albums are longer and have more songs than albums crafted for physical formats. Unfortunately, many of these longer albums suffer from a lack of focus.
+Q: Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement about many new albums?
+A) Many new albums include more artwork than albums generally once included.
+B) Many new albums sell more copies than albums generally once sold.
+C) Many new albums are longer than albums generally once were.
+D) Many new albums are quieter than albums generally once were.
+K: C
+E: Both texts say many new albums are longer than albums made for physical formats.
+#7
+P: It has long been thought that the original author of the US Pledge of Allegiance was Francis Bellamy, who said that he wrote the pledge one evening in August of 1892. But a historian recently discovered a newspaper article that was published several months before August 1892. The article describes students reciting the same pledge that Bellamy claims he first wrote in August. This means that Bellamy may not have created the pledge after all.
+Q: Based on the text, what piece of knowledge about the Pledge of Allegiance has recently become uncertain?
+A) How many changes were made to the pledge in the 1900s
+B) Which part of the pledge students liked best in 1892
+C) The name of the newspaper that first published the pledge
+D) The identity of the person who first wrote the pledge
+K: D
+E: The new article suggests Bellamy may not have written the pledge, so who first wrote it is now uncertain.
+#8
+P: Sheep and macaque monkeys can see in three dimensions (3D), which helps them perceive distance and depth. Octopuses and squid are thought to lack 3D vision. Many researchers once thought the same about cuttlefish, but Trevor Wardill and his team wanted to test whether this assumption was true. The team studied how cuttlefish wearing 3D glasses reacted to 3D images of shrimp (a favorite prey) projected on a tank wall. Cuttlefish changed their striking position to match the 3D images, suggesting that their vision is more like that of sheep and macaque monkeys than that of octopuses or squid.
+Q: Which choice best states the main idea of the text?
+A) Cuttlefish eyes are much more complex than those of either sheep or macaque monkeys.
+B) Before completing their study, Wardill’s team showed that sheep have 3D vision, but macaque monkeys may not.
+C) Wardill’s team designed 3D glasses for cuttlefish.
+D) The findings of Wardill’s team’s study suggest that like sheep and macaque monkeys, cuttlefish may also have 3D vision.
+K: D
+E: The passage centers on the study’s finding that cuttlefish respond to 3D images, suggesting they have 3D vision like sheep and macaques.
+#9
+P: The following text is from Anthony Trollope’s 1855 novel <i>The Warden</i>. Tom Towers is a writer for the newspaper <i>The Jupiter</i>.
+P: It is true that in far-off provinces men did not talk daily of Tom Towers but they read <i>The Jupiter</i>, and acknowledged that without <i>The Jupiter</i> life was not worth having. This kind of hidden but still conscious glory suited the nature of the man. He loved to sit silent in a corner of his club and listen to the loud chattering of politicians, and to think how they all were in his power; — how he could smite the loudest of them, were it worth his while to raise his pen for such a purpose.
+Q: What does the text most strongly suggest about Tom Towers?
+A) He has received much praise but tends to place too much value on his own importance.
+B) He takes private satisfaction in his capacity to influence public opinion.
+C) He aims mainly to win the regard of readers who reside in other provinces.
+D) He flatters himself that his readers take a greater interest in him than in politicians.
+K: B
+E: Towers enjoys silently thinking that politicians are in his power, showing private satisfaction in his influence.
+#10
+P: <i>Life Among the Paiutes</i> is an 1882 autobiographical narrative by Sarah Winnemucca Hopkins, a Northern Paiute author, educator, and activist. In the work, Winnemucca directly addresses the reader to explain certain customs, writing ______
+Q: Which quotation from <i>Life Among the Paiutes</i> most effectively illustrates the claim?
+A) “During the time my grandfather was away in California, where he [stayed] till after the Mexican war, there was a girl-baby born in our family.”
+B) “Now, my dear reader, there is no word so endearing as the word father, and that is why [my people] call all good people father or mother.”
+C) “But how can I describe the scene that followed? Some of you, dear readers, can imagine.”
+D) “We would all go in company to see if the flowers we were named for were yet in bloom, for almost all the girls are named for flowers.”
+K: B
+E: Only choice B directly addresses the reader (“my dear reader”) while explaining a custom, calling good people father or mother.
+#11
+P: <b>Effect of Neighboring Species on Pollinator Visits to Target Species</b>
+T: <table><thead><tr><th>Neighboring species</th><th>Target species</th><th>Effect value</th></tr></thead><tbody><tr><td>leafy spurge</td><td>Lewis flax</td><td>-0.3238</td></tr><tr><td>Himalayan balsam</td><td>marsh woundwort</td><td>0.7905</td></tr><tr><td>Canadian wood betony</td><td>mayapple</td><td>0.4729</td></tr></tbody></table>
+P: Researchers Carolina Laura Morales and Anna Traveset gathered data about flowering plants growing alongside each other in different locations. In each case, the researchers identified one plant as a “target species” and a nearby plant as a “neighboring species.” The researchers then calculated a value to show how the neighboring species affected pollinator visits to the target species. The table shows that the Himalayan balsam had an effect value of ______
+Q: Which choice most effectively uses data from the table to complete the example?
+A) 0.7905.
+B) -0.3238.
+C) -3.2570.
+D) 0.4729.
+K: A
+E: The table lists Himalayan balsam with an effect value of 0.7905.
+#12
+P: <b>Impact of Four Key Industries on Oklahoma Economy in 2017</b>
+T: <table><thead><tr><th>Industry</th><th>Approximate total contribution by industry</th><th>Number of people employed by industry</th><th>Average contribution per employee by industry</th></tr></thead><tbody><tr><td>Accommodation/ food services</td><td>$5,242,100,000</td><td>150,373</td><td>$34,861</td></tr><tr><td>Tribal economic activity</td><td>$7,312,400,000</td><td>51,674</td><td>$141,510</td></tr><tr><td>Health care</td><td>$13,727,300,000</td><td>193,514</td><td>$70,937</td></tr><tr><td>Retail</td><td>$10,738,800,000</td><td>179,208</td><td>$59,924</td></tr></tbody></table>
+P: The nearly forty tribes located in Oklahoma, including the Chickasaw Nation and the Seminole Nation, operate numerous businesses and generate billions of dollars in revenue. A student in an economics class is researching the tribes’ collective activity as a single industry. The student wants to compare that industry’s contribution to Oklahoma’s overall economy in 2017 with the contributions made by three other industries in the state. Looking at the table, the student finds that tribal economic activity totaled over $7.3 billion, ranking it above ______
+Q: Which choice most effectively uses data from the table to complete the comparison?
+A) both accommodation/ food services and retail but below health care.
+B) accommodation/ food services but below both health care and retail.
+C) health care, retail, and accommodation/ food services.
+D) accommodation/ food services and nearly equal to health care and retail.
+K: B
+E: $7.3 billion exceeds accommodation/food services ($5.2 billion) but is below retail ($10.7 billion) and health care ($13.7 billion).
+#13
+P: Assessing the role of forests as sinks for airborne microplastics that would otherwise continue to disperse in the atmosphere, Akane Miyazaki and her team measured concentrations of plastic particulates on leaves from konara oak trees in Japan. The team used three separate extraction methods: an ultrapure water rinse, a rinse combined with ultrasonic waves, and an alkaline solution treatment that removes epicuticular wax (a surface coating on most land plants to which particles can adhere). The concentrations of particulates recovered were 7.6 percent for water extraction, 38.4 percent for ultrasonic extraction, and 53.8 percent for alkaline extraction, leading the team to conclude that previous assessments have likely underestimated forest canopies’ capacity as sinks.
+Q: Which detail, if true, would most directly support the team’s conclusion?
+A) Most studies of microplastic accumulation on leaves have utilized extraction methods that do not have a substantial effect on epicuticular wax.
+B) Most studies of microplastic accumulation on leaves have focused on forests with diverse tree species that exhibit varying levels of epicuticular wax.
+C) Most studies of microplastic accumulation on leaves have found particulate concentrations that greatly exceed 53.8 percent.
+D) Most studies of microplastic accumulation on leaves have involved the application of alkaline treatments before water and ultrasonic treatments rather than after them.
+K: A
+E: If prior studies used methods that left wax intact, they would recover far less plastic (like the water rinse at 7.6%), so earlier estimates of sink capacity were too low.
+#14
+P: Mariana Lopes Barata and Pedro Simões Coelho collected data from 324 music-streaming service users to identify factors that influence users to opt for paid (premium) versions of music-streaming services, like Apple Music. They hypothesized that hedonic motivation (the enjoyment that a consumer perceives to be associated with using a service) would be positively correlated with users’ intentions to adopt premium versions. The researchers asked participants to rate statements such as “Using paid music streaming services is pleasant.” They found that, indeed, hedonic motivation positively influences the intention to adopt premium streaming service versions, which suggests that ______
+Q: Which choice most logically completes the text?
+A) it may be advantageous for music streaming companies to try to influence the extent to which potential users perceive the premium version as pleasant to use.
+B) participants who strongly agreed with the statement “Using paid music streaming services is pleasant” were more likely to express loyalty to Apple Music than to other streaming services.
+C) the statement “Using paid music streaming services is pleasant” is not a reliable measure of hedonic motivation.
+D) users’ intentions to pay for premium streaming services are probably unaffected by factors other than hedonic motivation.
+K: A
+E: Since perceived enjoyment boosts intention to adopt premium versions, companies could benefit from shaping how pleasant users find the premium service.
+#15
+P: On August 15, 2013, the <i>Navajo Times</i> ______ a profile of Manuelito Chapter (<i>Kin Hózhóní</i>), which is one of the 110 chapters of the Navajo Nation (<i>Naabeehó Bináhásdzo</i>). The article was later included in a book series called <i>Exploring the Navajo Nation Chapter by Chapter</i>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) will publish
+B) published
+C) publishes
+D) is publishing
+K: B
+E: The specific past date (August 15, 2013) requires the simple past tense, “published.”
+#16
+P: According to the original text of the US Constitution, written in 1787, the presidential candidate receiving the second-most Electoral College votes becomes vice president. The 12th amendment, ratified in ______ separated the elections for the two offices.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) 1804,
+B) 1804—
+C) 1804
+D) 1804;
+K: A
+E: The phrase “ratified in 1804” is a nonessential modifier that opens with a comma after “amendment,” so a closing comma is needed after 1804.
+#17
+P: The colors of Navajo (Diné) weaver Melisa Cody’s work <i>World Traveler</i> (2014) recall both the Germantown revival, a weaving style developed by Navajo Nation ______ ago, and the color palette of the video games that Cody played as a child.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) artist’s over 160 year’s
+B) artists over 160 years’
+C) artists’ over 160 years
+D) artists over 160 years
+K: D
+E: “Artists” is a simple plural and “years ago” needs no apostrophes, so no possessives are required.
+#18
+P: The editors of <i>Home Ground: A Guide to the American Landscape</i> turned to Luis Alberto Urrea, a poet, to craft the entry for “atarque,” a term referring to a watering hole formed by a natural or artificial dam. For “muskeg,” however, the editors chose the ______ author of <i>Of Landscape and Longing</i>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) essayist Carolyn Servid
+B) essayist, Carolyn Servid
+C) essayist Carolyn Servid,
+D) essayist, Carolyn Servid,
+K: C
+E: “Essayist” is a restrictive modifier needing no comma, while “author of…” is a nonessential appositive that must follow a comma after “Servid.”
+#19
+P: A groundbreaking visual artist of her day, ______ including artists Vasily Kandinsky and Piet Mondrian.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Hilma af Klint, well before many of her contemporaries, explored abstract modes of painting,
+B) Hilma af Klint explored abstract modes of painting well before many of her contemporaries,
+C) well before many of her contemporaries, Hilma af Klint explored abstract modes of painting,
+D) the explorations of Hilma af Klint into abstract modes of painting occured well before those of many of her contemporaries,
+K: B
+E: The opening modifier must describe Hilma af Klint, who comes right after the comma; only B has her as the subject and a clean “including…” phrase after the comma.
+#20
+P: The small celestial body known as 2010 BL4 is expected to have a relatively short lifetime in the outer solar system. Within just a few million years, 2010 BL4 is likely to migrate into the inner solar system or be destroyed, according to ______ trajectory.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) astronomers modeling of the objects
+B) astronomer’s modeling of the object’s
+C) astronomers’ modeling of the object’s
+D) astronomers modeling of the object’s
+K: C
+E: “Astronomers’” is the plural possessive (the modeling belongs to astronomers) and “object’s” is the singular possessive of “trajectory.”
+#21
+P: Many works of the Roman scholar Varro (1st century BCE), including his history of Rome, <i>De gente populi Romani</i>, have been lost to time. Scholars wishing to read a work written by the Roman scholar needn’t ______ they can still procure a copy of Varro’s <i>Rerum rusticarum libra tres</i>, a treatise on agriculture.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) despair, though
+B) despair, though,
+C) despair, though;
+D) despair—though
+K: C
+E: “Though” is a nonessential interrupter set off by commas, and a semicolon is needed before the independent clause “they can still procure a copy.”
+#22
+P: Using LiDAR (Light Detection and Ranging) technology, Tulane University archaeologists scanned and mapped the ancient Mayan city of Tikal, which lies deep in the Guatemalan rainforest. Some of Tikal’s old stones are intertwined with the roots of surrounding trees, rendering parts of the complex physically inaccessible to researchers. ______ the LiDAR’s penetrating light waves were the only way to reveal some previously unknown aspects of the Mayan city.
+Q: Which choice completes the text with the most logical transition?
+A) Similarly,
+B) Afterward,
+C) Hence,
+D) Specifically,
+K: C
+E: Because parts of the site were physically inaccessible, LiDAR became the only way to reveal them; “Hence” signals that result.
+#23
+P: Imagine a magazine that a reader has thrown away. This magazine is post-consumer waste, as it became waste after reaching the consumer. ______ the paper scraps left over from printing the magazine are pre-consumer waste, as they became waste before reaching the consumer.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) Specifically,
+C) By contrast,
+D) As a result,
+K: C
+E: The sentence contrasts pre-consumer waste with the post-consumer waste just described, so “By contrast” fits.
+#24
+P: One proposed boundary between Earth’s atmosphere and outer space is the Kármán line, 100 km above sea level. Based on the work of physicist Theodore von Kármán, this line marks the theoretical height at which an aircraft no longer remains aloft using the force of lift. ______ an aircraft sustains flight past this altitude primarily by its velocity, reaching a speed sufficient to maintain an orbit but not to generate enough lift from the thin air.
+Q: Which choice completes the text with the most logical transition?
+A) Regardless,
+B) For instance,
+C) Granted,
+D) Instead,
+K: D
+E: Past the line an aircraft stays up through velocity rather than lift, so “Instead” correctly signals the alternative.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: The Schomburg Center for Research in Black Culture is a research library in New York City.
+L: It was named for Arturo Alfonso Schomburg.
+L: It was founded in 1925.
+Q: The student wants to indicate the year the Schomburg Center was founded. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Schomburg Center was named for Arturo Alfonso Schomburg.
+B) The Schomburg Center is a research library.
+C) The Schomburg Center was founded in 1925.
+D) The Schomburg Center is located in New York City.
+K: C
+E: Only choice C gives the founding year, 1925.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Brussels sprouts are vegetables that contain ascorbic acid, an essential nutrient for humans.
+L: Apples are fruits that contain ascorbic acid.
+L: There is 80 milligrams (mg) of ascorbic acid in every 100 grams (g) of brussels sprouts.
+L: There is 6 mg of ascorbic acid in every 100g of apple.
+L: Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables.
+L: Ascorbic acid is also known as vitamin C.
+Q: The student wants to compare the vitamin C content of brussels sprouts and apples. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Brussels sprouts contain vitamin C (also known as ascorbic acid) —80 mg in every100g, to be exact.
+B) Brussels sprouts and apples both contain vitamin C, but brussels sprouts contain more.
+C) Brussels sprouts are vegetables, and apples are fruits.
+D) Humans cannot make ascorbic acid in their bodies, but they can get it from brussels sprouts.
+K: B
+E: Choice B directly compares the two foods’ vitamin C content (80 mg versus 6 mg per 100 g).
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Merle Oberon (1911–1979) was an actress born in Mumbai (then known as Bombay), India.
+L: She was of Indian, Maori, and Irish heritage.
+L: She was the first Indian-born actress to be nominated for an Academy Award.
+L: Early in her career, she played many nameless, uncredited roles, such as her role in <i>The Three Passions</i> (1928).
+L: Later, she played many named, credited roles, such as Empress Josephine in <i>Désirée</i> (1954).
+Q: The student wants to emphasize a similarity between the two films. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) <i>The Three Passions</i> and <i>Désirée</i> are both films that include Merle Oberon, the first Indian-born actress to be nominated for an Academy Award.
+B) <i>The Three Passions</i> (1928) was released early in actress Merle Oberon’s career, whereas <i>Désirée</i> (1954) came out later.
+C) In <i>The Three Passions</i> (1928), actress Merle Oberon played a nameless, uncredited role; however, in <i>Désirée</i> (1954), she played a credited role that of Empress Josephine.
+D) Early in her career, Merle Oberon wasn’t listed in some film credits, such as the credits for the film <i>The Three Passions</i>, where she played a nameless, uncredited role.
+K: A
+E: Only choice A stresses what the two films share: both include Merle Oberon, the first Indian-born actress nominated for an Academy Award.
+=M2
+#1
+P: The Apalachicola River delta in Florida is where the river flows into the Gulf of Mexico. As the river reaches the gulf, it forms smaller channels where sediments carried by the river are deposited and form many deltaic lobes, or wetland formations. The shape and size of the delta are ______ by the gulf’s tides, which shift sediments along the coast and reshape the deltaic lobes over time.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) surpassed
+B) enhanced
+C) influenced
+D) protected
+K: C
+E: Tides that shift sediments and reshape the lobes influence the delta's shape and size.
+#2
+P: Lisa Linn Kanae is a celebrated contemporary Hawaiian author whose work is ______ by a rich literary history. From the traditional stories of the <i>Kanaka Maoli</i>, or Native Hawaiian people, to the works of writers such as David Malo, the literary heritage of Hawai‘i is distinctive and vibrant.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) preceded
+B) summarized
+C) supplanted
+D) overlooked
+K: A
+E: The earlier traditional stories and writers came before Kanae, so her work was preceded by that history.
+#3
+P: Archaeologists have identified a plethora of beads fashioned from <i>Tritia gibbosula</i> shells in many Middle Stone Age (MSA) sites across western North Africa, including El Mnasra Cave, Morocco. In a 2021 paper, El Mehdi Sehasseh et al. attribute these artifacts’ ______ to the evolution and propagation of symbolic behavior (e.g., use of personal ornaments) in humans and the availability of <i>T. gibbosula</i> during the MSA.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) expediency
+B) fecundity
+C) ubiquity
+D) heterogeneity
+K: C
+E: Beads found at many sites show they were widespread, so ubiquity fits.
+#4
+P: Svante Pääbo and other researchers studying the history of organisms have long utilized ancient DNA—DNA recovered from ancient organic material that has been preserved under natural conditions. However, Reyjane P. Oliveira and colleagues’ 2017 study of the evolutionary trajectory of the Malagasy grass genus <i>Chasechloa</i> instead relied on historical DNA—genomic data incidentally preserved in specimens that are housed in natural history collections—<u>thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight into the biological past.</u>
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It specifies potential applications of the approach that Oliveira and colleagues used in their study.
+B) It offers commentary on the significance of the approach that Oliveira and colleagues used for their study.
+C) It emphasizes the importance of Oliveira and colleagues’ findings about the DNA of flora.
+D) It explains why the research methodology selected by Oliveira and colleagues is not widely used.
+K: B
+E: The underlined phrase comments on how valuable the historical-DNA approach is as an underused source of insight.
+#5
+P: Established knowledge of prehistoric societies primarily stems from analysis of durable historical artifacts, including stone tools, but Mercedes Murillo-Barroso and team have contributed new insights with a unique analysis of plant-based items. Plant-based artifacts, including straw baskets, are seldom studied due to their perishable nature. <u>This relative scarcity</u> made it all the more exciting when the team examined remains of well-preserved organic artifacts discovered in a cave in Spain and determined that they dated even further back than previously thought.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It suggests that the researchers did not fully achieve a goal outlined earlier in the text.
+B) It describes the uncertain nature of a discovery by the researchers mentioned earlier in the text.
+C) It distinguishes between the two types of historical artifacts discussed earlier in the text.
+D) It refers to a challenging situation presented earlier in the text.
+K: D
+E: "This relative scarcity" points back to the earlier-stated problem that plant-based artifacts are seldom studied because they perish.
+#6
+P: In 2023 Nobel Prize-winning physicist Giorgio Parisi published <i>In a Flight of Starlings</i>, a collection of essays on scientific subjects. Acclaimed author Sam Kean, who uses the form of nonfiction narrative to explore scientific discoveries, is interested in the collection less for its aesthetic merit than for its focus on “the false starts . . . and mistakes that beset real scientific research every day.” Kean argues that all too often, scientists omit this “human stuff” from written accounts of their research and thus ultimately “fail to explain how science really gets done.”
+Q: Which choice best states the main purpose of the text?
+A) It explores a subtle difference between Kean’s and Parisi’s respective objections to scientific research methods.
+B) It outlines an area of agreement between Parisi and Kean in how they think about the work of science.
+C) It describes Kean’s view that nonfiction narrative is an effective way for Parisi to share his accomplishments.
+D) It presents Kean’s claim that Parisi is too modest about his own achievements as a scientist.
+K: B
+E: Kean values Parisi's essays for showing the messy human side of science, which he thinks accounts usually omit, so the text outlines shared thinking about science.
+#7
+P: The following text is from William Shakespeare’s circa 1611 play <i>The Winter’s Tale</i>. Camillo has been away from his home in Sicily and serves in the court of Polixenes, the king of Bohemia. He has asked Polixenes for permission to return to Sicily.
+P: POLIXENES: I pray thee, good Camillo, be no more<br>importunate. ’Tis a sickness denying thee anything,<br>a death to grant this.
+P: CAMILLO: It is fifteen years since I saw my country.<br>Though I have for the most part been aired abroad,<br>I desire to lay my bones there. Besides, the penitent<br>king, my master, hath sent for me, <u>to whose feeling<br>sorrows I might be some allay—or I o’erween [presume] to<br>think so</u>—which is another spur to my departure.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It bolsters the idea that Camillo’s primary motivation to return home is his concern for the king of Sicily’s well-being in his absence.
+B) It suggests that Camillo feels compelled to persuade Polixenes that Camillo’s decision to leave the court is justified.
+C) It establishes Camillo’s hope that Polixenes will be comforted knowing that Camillo isn’t departing at his own discretion.
+D) It conveys Camillo’s recognition that one benefit his presence may afford the king of Sicily is merely speculative.
+K: D
+E: Camillo says he might ease the king's sorrows, then admits he may be presuming so, showing he knows this benefit is uncertain.
+#8
+P: The following text is from Narcís Tondreau’s 1898 poem “Yesterday and To-Day” (translated by Agnes Blake Poor in 1918). The poem is about an old statue of the Greek goddess Venus, which now lies on the ground in a state of disrepair.
+P: How long ago, by summer breezes fanned,<br>Here stood the newborn Venus, fresh and fair;<br>All palpitating from the master’s hand,<br>The last touch of his chisel lingering there.
+P: “And surely this shall last!” he proudly thought;<br>“Fixed in immortal marble is my fame!”<br>Just here, where human hand has surely wrought,<br>Some crumbling letters may have spelled his name.
+Q: In the text, what does the speaker say that the artist believed about his sculpture?
+A) It would be praised for its intricate details that he carefully chiseled.
+B) It would be carefully repaired when it inevitably begins to deteriorate.
+C) It would bring him enduring fame by withstanding time.
+D) Its beauty would be recognized as surpassing that of other images of Venus.
+K: C
+E: The artist thought the statue would last and that his fame would be fixed in immortal marble.
+#9
+T: <table style='border-collapse:collapse;margin:8px auto'><caption><b>Ranking of Environmental and Sociocultural Benefits of Urban Agriculture</b> (scale of 1 to 25; 1 = highest)</caption><thead><tr><th style='border:1px solid #000;padding:4px'>Social or ecological service</th><th style='border:1px solid #000;padding:4px'>Project leaders</th><th style='border:1px solid #000;padding:4px'>Stakeholders</th><th style='border:1px solid #000;padding:4px'>General public</th></tr></thead><tbody><tr><td style='border:1px solid #000;padding:4px;'>provision of medicinal plants</td><td style='border:1px solid #000;padding:4px;text-align:center'>22</td><td style='border:1px solid #000;padding:4px;text-align:center'>21</td><td style='border:1px solid #000;padding:4px;text-align:center'>5</td></tr><tr><td style='border:1px solid #000;padding:4px;'>enhancement of pollination</td><td style='border:1px solid #000;padding:4px;text-align:center'>1</td><td style='border:1px solid #000;padding:4px;text-align:center'>7</td><td style='border:1px solid #000;padding:4px;text-align:center'>12</td></tr><tr><td style='border:1px solid #000;padding:4px;'>enhancement of carbon sequestration</td><td style='border:1px solid #000;padding:4px;text-align:center'>17</td><td style='border:1px solid #000;padding:4px;text-align:center'>22</td><td style='border:1px solid #000;padding:4px;text-align:center'>21</td></tr><tr><td style='border:1px solid #000;padding:4px;'>preservation of cultural knowledge and heritage</td><td style='border:1px solid #000;padding:4px;text-align:center'>8</td><td style='border:1px solid #000;padding:4px;text-align:center'>15</td><td style='border:1px solid #000;padding:4px;text-align:center'>13</td></tr><tr><td style='border:1px solid #000;padding:4px;'>prevention of soil erosion</td><td style='border:1px solid #000;padding:4px;text-align:center'>13</td><td style='border:1px solid #000;padding:4px;text-align:center'>11</td><td style='border:1px solid #000;padding:4px;text-align:center'>23</td></tr></tbody></table>
+P: Esther Sanyé-Mengual, Kathrin Specht, and their team surveyed three groups of people in Bologna, Italy—leaders of urban agriculture projects, stakeholders in urban agriculture (e.g., food researchers and urban farming associations), and the general public—to compare their views about the extent to which urban agriculture contributes to 25 social or ecological services that the team identified. The researchers used these ratings to rank the services for each group, with a ranking of 1 indicating that a group perceives that urban agriculture benefits that service the most. Using only the rankings shown in the table, a city planner in Bologna who is promoting a new urban agriculture project concludes that advertisements aimed at stakeholders should emphasize the project’s benefit to the enhancement of pollination.
+Q: Which choice best describes data in the table that support the city planner’s conclusion?
+A) The enhancement of pollination was ranked higher for stakeholders than were the other four services.
+B) The prevention of soil erosion was ranked lower for stakeholders than it was for project leaders.
+C) The enhancement of pollination was ranked higher for the general public than it was for stakeholders.
+D) The enhancement of carbon sequestration was ranked higher for stakeholders than was the enhancement of pollination.
+K: A
+E: Stakeholders ranked pollination 7, better than 21, 22, 15 and 11 for the other four services.
+#10
+P: In an international collaboration, Elaine Ostrander, Alan K. Outram, and other researchers probed the evolutionary history of size variation in modern dogs. Scientific consensus held that early dogs had large body mass and that a genetic driver of smaller size in some breeds (e.g., bulldogs) developed only within the last 20,000 years as a result of selective breeding for characteristics favored by humans. Ostrander et al. assert that this explanation is flawed, having discovered that a mutation responsible for variants of <i>IGF1</i>, a gene found in many mammals that regulates production of insulin-like growth factor 1, is ubiquitous in domestic dog breeds.
+Q: Which finding, if true, would most directly support the researchers’ assertion?
+A) <i>IGF1</i> has been isolated in genetic material from fossils more than 20,000 years old of the red wolf (<i>Canis rufus</i>) and certain other species related to dogs.
+B) An additional mutation related to <i>IGF1</i> affects the development of characteristics other than body size in smaller dog breeds like bulldogs.
+C) The mutation related to <i>IGF1</i> influences body size and is found in 53,000-year-old genetic material from fossils of Siberian wolves (<i>Canis lupus campestris</i>), an ancestor of dogs.
+D) One variant of <i>IGF1</i> is found only in smaller dog breeds like bulldogs and appears to have emerged no more than 20,000 years ago.
+K: C
+E: Finding the size-related mutation in 53,000-year-old ancestor fossils shows it predates the last 20,000 years.
+#11
+P: Callie W. Babbitt, Hema Madaka, and colleagues assembled a database of materials used in consumer electronics by studying products in the lab and by gathering data from similar product studies. The team gave each of these studies a rating for level of detail (with a higher rating for reported data with more detail) and for level of traceability (with a higher rating for clearer descriptions of procedures). Based on these ratings, a second research team concluded that a study by Greg L. Kozak and Gregory A. Keoleian provided more specificity in its data than a study by Oguchi Masahiro and colleagues did.
+Q: Which finding, if true, would most directly challenge the second research team’s conclusion?
+A) The study by Kozak and Keoleian had a lower detail rating than the study by Oguchi and colleagues did.
+B) The study by Kozak and Keoleian had a lower traceability rating than the study by Oguchi and colleagues did.
+C) The study by Kozak and Keoleian had a high detail rating and a high traceability rating.
+D) The study by Oguchi and colleagues had a low detail rating and a low traceability rating.
+K: A
+E: Specificity corresponds to the detail rating, so a lower detail rating for Kozak and Keoleian would undercut the conclusion.
+#12
+P: Soil thawing in Alaska has been accelerating as a result of climate changes, potentially enabling increased carbon dioxide (CO<sub>2</sub>) absorption through greater productivity of artic bramble (<i>Rubus arcticus</i>) plants and other vegetation, but also potentially enabling increased CO<sub>2</sub> output through greater heterotrophic respiration (CO<sub>2</sub> generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs—years of soil temperature and snow cover data among them—to evaluate the effects of climate changes on the CO<sub>2</sub> balance in Alaska, concluding that net CO<sub>2</sub> is likely to increase if seasonal snow cover arrives earlier relative to the onset of soil surface freezing.
+Q: Which finding, if true, would most directly support the researchers’ conclusion?
+A) The effect of soil temperature on the growth of vegetation and on the rate of heterotrophic respiration is stronger during the period of seasonal snow cover than during the period without snow cover.
+B) Relatively early snow cover reduces the amount of soil moisture available for the growth of plant species such as <i>R. arcticus</i> and lowers the rate of heterotrophic respiration.
+C) Seasonal snow cover tends to persist longer in areas of relatively low vegetation growth and high heterotrophic respiration than in areas of relatively high vegetation growth and low heterotrophic respiration.
+D) The soil insulation provided by snow cover enables heterotrophic respiration to continue during a period in which plant species such as <i>R. arcticus</i> are typically not growing.
+K: D
+E: Snow cover keeps respiration (CO2 output) going when plants are not absorbing CO2, so earlier snow raises net CO2.
+#13
+P: Over 600 languages are spoken in New York City in addition to English—one can find Bambara spoken in the neighborhood of Kingsbridge, or Ghale in Jackson Heights. Most speakers of Chinese languages reside in the neighborhood of Flushing (part of New York City’s borough of Queens), where the dominant Chinese language is Mandarin, and in Chinatown, in the borough of Manhattan, where the dominant Chinese languages are Cantonese and Fuzhounese. Mandarin is widely spoken in north China, while Cantonese and Fuzhounese are widely spoken in south China. It can therefore be inferred that ______
+Q: Which choice most logically completes the text?
+A) Chinese immigrants who emigrated to New York City many years ago are more likely to speak several Chinese languages than are more recent Chinese immigrants.
+B) people who emigrate from north China tend to settle in Queens, while people who emigrate from south China tend to settle in Manhattan.
+C) taken together, there are more Cantonese and Fuzhounese speakers among Chinese immigrants in New York City than there are Mandarin speakers.
+D) Chinese immigrants regularly change their residences between Queens and Manhattan after they emigrate, rather than staying in one borough.
+K: B
+E: Mandarin (north China) dominates in Queens and Cantonese/Fuzhounese (south China) in Manhattan, supporting the inference about settlement patterns.
+#14
+P: David Mitchell’s 2006 novel <i>Black Swan Green</i> contains elements drawn from Mitchell’s own life—there are many parallels between the experiences of the novel’s protagonist, Jason Taylor, and those of Mitchell—and as a result <i>Black Swan Green</i> is regularly described as an autobiographical novel. This characterization can be useful, but it also presents drawbacks in terms of how the work is perceived, given the high value placed on creativity and imagination in artistic endeavors. Readers who take this characterization to mean that Mitchell merely fictionalized actual events may conclude that ______
+Q: Which choice most logically completes the text?
+A) <i>Black Swan Green</i> is not as worthy of praise as it might have been if it had no basis in fact.
+B) critics disagree about whether <i>Black Swan Green</i> shows greater originality than works without autobiographical elements.
+C) the real-world counterparts of other characters in <i>Black Swan Green</i> are hard to identify.
+D) Mitchell should not have claimed that <i>Black Swan Green</i> is based on real events.
+K: A
+E: If the novel merely retells real events, readers may value its creativity less, so it is less praiseworthy than a wholly invented work.
+#15
+P: Since the nineteenth century, Egyptologists have commonly divided ancient Egyptian history into three primary ______ Old Kingdom (2700–2200 BCE), the Middle Kingdom (2050–1800 BCE), and the New Kingdom (1550–1100 BCE). Some historians, however, criticize the names of these periods for revealing more about the culture of the mainly European Egyptologists than that of ancient Egypt itself.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) periods. The
+B) periods; the
+C) periods: the
+D) periods, the
+K: C
+E: A colon correctly introduces the list of the three periods after a complete clause.
+#16
+P: If you had turned on the radio in the fall of 1964, chances are you would have heard the hit ______ “Little Marie” by Chuck Berry. The song spent nine straight weeks on the Billboard Hot 100 chart that year.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) song
+B) song,
+C) song:
+D) song;
+K: A
+E: The title is essential to identify which hit, so no punctuation is needed.
+#17
+P: The allocation of a new country dialing prefix (+380) to route incoming international calls ______ among the infrastructural changes necessitated by Ukraine’s 1991 split from the Soviet Union.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) are
+B) was
+C) have been
+D) were
+K: B
+E: The singular subject "allocation" requires the singular past verb "was".
+#18
+P: The Lyrid meteor shower’s brightness typically surpasses that of the Puppid-Velid meteor shower due to the interplay of three main factors—namely, the size and composition of the ______ velocity upon entering Earth’s mesosphere, with higher-velocity meteoroids releasing more energy; and atmospheric fluctuations, such as changes in humidity.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) meteoroids—their
+B) meteoroids, their
+C) meteoroids; their
+D) meteoroids. Their
+K: C
+E: A semicolon separates the three items in the list, one of which contains an internal comma.
+#19
+P: In Hafez’s <i>Divān</i>, the writer muses on love, faith, and protest. So impactful is this particular work by Hafez, a Persian lyric poet whose authorial perspective was at once mystical and critical, that its ruminations on fourteenth-century Persian life ______ Iranian society hundreds of years later.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) influence
+B) influences
+C) is influencing
+D) has influenced
+K: A
+E: The plural subject "ruminations" takes the plural present verb "influence".
+#20
+P: In 2018, the Contessa Gallery in Miami, Florida, exhibited the work of Slovak ______ who aptly describes her photos as “minimalistic but also futuristic.”
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) photographer Mária Svarbová,
+B) photographer Mária Svarbová
+C) photographer, Mária Svarbová
+D) photographer, Mária Svarbová,
+K: A
+E: The name restricts "Slovak photographer" without a preceding comma, and the nonrestrictive clause after it needs a comma.
+#21
+P: Instead of sleeping on soft pillows, ancient Egyptians slept on hard, elevated headrests, their design ______ airflow, protection from insects, and hairstyle maintenance over comfort.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) was prioritizing
+B) had prioritized
+C) prioritizing
+D) prioritized
+K: C
+E: The participle "prioritizing" correctly modifies "design" in an absolute phrase without a second finite verb.
+#22
+P: French mathematician Michel Talagrand has shown that over large numbers of trials, variables that appear to be independent and random are in fact extremely likely to cluster around an average. ______ according to Talagrand’s research, if you flip a coin 1,000 times, there is a 99.7% probability that the coin will land heads side up between 450 and 550 times.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) However,
+C) For instance,
+D) In comparison,
+K: C
+E: The coin-flip example illustrates the general claim, so "For instance" fits.
+#23
+P: Topographic maps show the elevation of landforms above sea level. Bathymetric maps, ______ show the elevation of landforms below the sea, providing valuable information to marine geophysicists like Claudia Flores, who studies seismic data from the northeastern Caribbean.
+Q: Which choice completes the text with the most logical transition?
+A) afterward,
+B) in conclusion,
+C) for example,
+D) by contrast,
+K: D
+E: Bathymetric maps show elevation below the sea, in contrast to topographic maps above it.
+#24
+P: Edge modeling is one process digital artists employ while developing visuals for video games. ______ digital artists use edge modeling to piece together separate shapes to create 3D objects for games.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) Specifically,
+C) Thus,
+D) By comparison,
+K: B
+E: The second sentence specifies how edge modeling is used.
+#25
+P: In the Southeast Asian country of Indonesia, the percentage of the population living in cities rose from 53.3% to 56.6% between 2015 and 2020. ______ urbanization rates climbed across Southeast Asia as a whole, rising 2.8 percentage points in that five-year period.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) Eventually,
+C) In other words,
+D) Concurrently,
+K: D
+E: The regional increase happened during the same period as Indonesia's, so "Concurrently" fits.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Linguistic typologists classify and compare languages according to their structural features.
+L: One such structure is word order, or the way subjects (S), verbs (V), and objects (O) are typically arranged in a sentence.
+L: English employs an SVO word order (e.g., <i>Cows eat grass</i>).
+L: Bengali employs an SOV word order (e.g., <i>Cows grass eat</i>).
+L: Filipino employs a VSO word order (e.g., <i>Eat cows grass</i>).
+L: 87% of the world’s languages are classified as either SVO or SOV.
+Q: The student wants to make a generalization about how word order is employed across languages. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Word order is one of the structural features by which linguistic typologists classify and compare the world’s languages.
+B) Linguistic typologists analyze and compare how word order is employed across languages.
+C) The way in which subjects, verbs, and objects are typically arranged in a sentence is also called word order.
+D) The majority of languages place the subject of a sentence before the verb and object.
+K: D
+E: Only D generalizes across languages: 87% are SVO or SOV, so most languages put the subject before the verb and object.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Producing the nutrient-rich cyanobacterium <i>L. maxima</i> at industrial scale requires high-quality samples of <i>L. maxima</i> DNA.
+L: Yirlis Yadeth Pineda-Rodriguez and a team of researchers at the University of Córdoba, Colombia, evaluated the quantity and purity of <i>L. maxima</i> DNA extracted using three different DNA extraction kits.
+L: CTAB 2X (kit 1) had a DNA yield of 2,134 nanograms per microliter (ng/µL) and a purity ratio of 2.2.
+L: Pbact (kit 2) had a DNA yield of 157 ng/µL and a purity ratio of 1.6.
+L: Pplant (kit 3) had a DNA yield of 12.5 ng/µL and a purity ratio of 1.5.
+L: According to the researchers, Pbact was the most effective because it was the only one with both a sufficiently high yield and a purity rate close to the ideal of 1.8.
+Q: The student wants to emphasize the significance of a similarity between two of the kits. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) CTAB 2X and Pplant both had a DNA yield above 10 and a purity ratio above 1.4.
+B) Due to their insufficient yield or purity, CTAB 2X and Pplant were deemed by the researchers to be less effective than Pbact.
+C) With the ideal purity ratio being 1.8, CTAB 2X and Pbact were equal in purity, according to the researchers.
+D) Compared to CTAB 2X, which had a DNA yield of 2,134 ng/µL, both Pbact and Pplant had insufficient yields; Pplant, in particular, was ineffective due to its low yield.
+K: A
+E: Choice A states a true similarity between CTAB 2X and Pplant (yield above 10, purity above 1.4).
