@@ -109,7 +109,7 @@ function AskTab({ item, a, auto }: { item: Item; a: Ans; auto: string | null }) 
   )
 }
 
-function SolutionCard({ b }: { b: BankQ }) {
+export function SolutionCard({ b }: { b: BankQ }) {
   const sol = b.solution!
   return (
     <div className="rounded-2xl border border-line bg-card p-4 text-[13.5px]">
