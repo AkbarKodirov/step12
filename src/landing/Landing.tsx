@@ -141,14 +141,15 @@ function Hero() {
           </motion.p>
 
           <motion.dl custom={5} initial="hidden" animate="show" variants={item} className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-6">
+            {/* real numbers from the app: question bank, practice tests + exam papers, Desmos Lab walkthroughs */}
             {[
-              [12, 'mastery steps in the program'],
-              [288, 'lessons in the program'],
-              [48, 'mocks and gate tests'],
-            ].map(([v, l]) => (
+              [4100, 'questions in the bank', '+'],
+              [97, 'full tests: practice + real exams', ''],
+              [132, 'Desmos walkthroughs', ''],
+            ].map(([v, l, plus]) => (
               <div key={l}>
                 <dt className="font-serif text-[28px] tracking-tight">
-                  <CountUp to={v as number} duration={1.8} format={(n) => `${Math.round(n)}`} />
+                  <CountUp to={v as number} duration={1.8} format={(n) => `${Math.round(n).toLocaleString('en-US')}${plus}`} />
                 </dt>
                 <dd className="mt-1 text-[12px] leading-snug text-white/45">{l}</dd>
               </div>
