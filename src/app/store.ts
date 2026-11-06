@@ -89,7 +89,9 @@ export type State = {
   studySeconds: number
   practice: { solved: number; correct: number }
   blitzBest: number
-  mistakes: { key: string; testId: string; module: number; index: number; addedAt: number; cleared: boolean; bankId?: string }[]
+  mistakes: Mistake[]
+  /** Mistakes the student fixed by retrying them on the Saved & mistakes page (they leave the list). */
+  mistakesFixed?: number
   customWords: CustomWord[]
   saved: { key: string; testId: string; module: number; index: number; at: number; bankId?: string }[]
   weakSkills: string[]
@@ -112,6 +114,8 @@ export type State = {
   mastery: Record<string, { best: number; total: number; at: number }>
   updatedAt?: number
 }
+/** One entry in the mistakes log. `last`/`tries` come from retries on the mistakes page (older entries have neither). */
+export type Mistake = { key: string; testId: string; module: number; index: number; addedAt: number; cleared: boolean; bankId?: string; last?: string | null; lastAt?: number; tries?: number }
 export type CustomWord = { word: string; pos: 'adj' | 'verb' | 'noun' | 'adv'; def: string; ex: string; syn: string[]; level: 'mine'; addedAt: number }
 
 const initial: State = {
@@ -406,6 +410,41 @@ export function recordBank(b: BankQ, chosen: string, correct: boolean, seconds: 
     practice: { solved: s.practice.solved + 1, correct: s.practice.correct + (correct ? 1 : 0) },
   }))
   markActive(seconds, 'practice', b.section)
+}
+
+/** What the student answered last time for a mistake: the latest retry, else the Question Bank or test attempt answer. */
+export function previousTry(s: State, m: Mistake): string | null {
+  let value: string | null = null
+  let at = -1
+  if (m.bankId) {
+    const p = s.qbank[m.bankId]
+    if (p && !p.correct) [value, at] = [p.chosen, p.at]
+  } else {
+    for (let j = s.attempts.length - 1; j >= 0; j--) {
+      const a = s.attempts[j]
+      if (a.testId !== m.testId) continue
+      const x = a.answers.find((y) => y.module === m.module && y.index === m.index)
+      if (x && !x.correct) {
+        ;[value, at] = [x.value, a.finishedAt]
+        break
+      }
+    }
+  }
+  // a retry on the mistakes page counts when it is newer than the test / Question Bank answer
+  return m.last !== undefined && (m.lastAt ?? 0) >= at ? m.last : value
+}
+
+/** A retry from the mistakes page: a right answer removes the mistake, a wrong one becomes the new previous try. */
+export function retryMistake(key: string, value: string, correct: boolean, seconds: number, r: Resolved) {
+  const wasOpen = state.mistakes.some((m) => m.key === key && !m.cleared)
+  if (r.bank) recordBank(r.bank, value, correct, seconds)
+  else markActive(seconds, 'mistakes', r.section)
+  setStore((s) => ({
+    ...s,
+    mistakes: correct ? s.mistakes.filter((m) => m.key !== key) : s.mistakes.map((m) => (m.key === key ? { ...m, cleared: false, last: value, lastAt: Date.now(), tries: (m.tries ?? 0) + 1 } : m)),
+    mistakesFixed: (s.mistakesFixed ?? 0) + (correct && wasOpen ? 1 : 0),
+    practice: r.bank ? s.practice : { solved: s.practice.solved + 1, correct: s.practice.correct + (correct ? 1 : 0) },
+  }))
 }
 
 export function toggleSavedBank(id: string) {

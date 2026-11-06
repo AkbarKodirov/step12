@@ -548,7 +548,7 @@ export default function Analytics() {
             {[
               ['Words mastered', mastered, '/app/vocab'],
               ['Desmos Lab solved', desmosSolved, '/app/desmos'],
-              ['Mistakes fixed', s.mistakes.filter((m) => m.cleared).length, '/app/mistakes'],
+              ['Mistakes fixed', s.mistakes.filter((m) => m.cleared).length + (s.mistakesFixed ?? 0), '/app/mistakes'],
             ].map(([l, v, to]) => (
               <Link key={l as string} to={to as string} className="card-hover rounded-2xl bg-cream p-4">
                 <p className="font-serif text-[26px] tabular-nums">{v}</p>
