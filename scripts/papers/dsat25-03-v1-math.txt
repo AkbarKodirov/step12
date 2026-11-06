@@ -1,0 +1,332 @@
+!id: dsat25-03-v1-math
+!name: March 2025 · International · Version 1 · Math
+!type: MATH
+!year: 2025
+!month: 3
+!region: International
+!form: 1
+=M1
+#1
+P: <i>s</i> = 40 + 2<i>t</i>
+Q: The equation gives the speed <i>s</i>, in miles per hour, of a certain car <i>t</i> seconds after it began to accelerate. What is the speed, in miles per hour, of the car 4 seconds after it began to accelerate?
+A) 40
+B) 42
+C) 44
+D) 48
+K: D
+E: Substitute t = 4: s = 40 + 2(4) = 48.
+#2
+I: /qimg/mar1-math-m1-q2.svg
+Q: Which equation shows the relationship between the side lengths of the given triangle?
+A) 8<i>b</i> = 20
+B) 8 + <i>b</i> = 20
+C) 8^2 + <i>b</i>^2 = 20^2
+D) 8^2 − <i>b</i>^2 = 20^2
+K: C
+E: The triangle is a right triangle with hypotenuse 20 and legs 8 and b, so the Pythagorean theorem gives 8^2 + b^2 = 20^2.
+#3
+I: /qimg/mar1-math-m1-q3.svg
+Q: The histogram shows the distribution of 20 lengths, in feet, in a data set. The first bar represents the lengths that are less than 50 feet, the second bar represents the lengths that are at least 50 feet but less than 100 feet, and so on. Which of the following could be the maximum length, in feet, in this data set?
+A) 69
+B) 119
+C) 169
+D) 219
+K: D
+E: The last bar (200 to less than 250 feet) has a frequency of 5, so the maximum length lies in that interval. Only 219 is in it.
+#4
+Q: The function f is defined by f(x) = −39ˣ. The function g is a decreasing linear function. In the xy-plane, the graphs of y = f(x) and y = g(x) intersect at two points, (h, j) and (k, m), where j > m. When g(x) < f(x), which of the following must also be true?
+A) x > k
+B) x < h
+C) x > k or x < h
+D) h < x < k
+K: D
+#5
+P: 7<i>x</i> + 28 = 7<i>x</i> + <i>k</i>
+Q: In the given equation, <i>k</i> is a constant. The equation has infinitely many solutions. What is the value of <i>k</i>?
+K: 28
+E: An equation has infinitely many solutions when both sides are identical, so k = 28.
+#6
+Q: A line segment that has a length of 113 centimeters (cm) is divided into three parts. One part is 47 cm long. The other two parts have lengths that are equal to each other. What is the length, in cm, of one of the other two parts of equal length?
+K: 33
+E: The other two parts total 113 − 47 = 66 cm, so each is 66 ÷ 2 = 33 cm.
+#7
+Q: Point O is the center of a unit circle in the xy-plane, and its coordinates are (0, 0). Point A lies on the unit circle, and its coordinates are (0, 1). Point P on the unit circle is obtained by rotating point A 7π/6 radians about the origin in the counterclockwise direction. What are the coordinates of point P?
+A) (−√3/2, −1/2)
+B) (−√3/2, 1/2)
+C) (1/2, −√3/2)
+D) (−1/2, −√3/2)
+K: C
+#8
+I: /qimg/mar1-math-m1-q8.svg
+Q: The scatterplot shows the relationship between two variables, <i>x</i> and <i>y</i>. A line of best fit is also shown. Which of the following equations best represents the line of best fit shown?
+A) <i>y</i> = <i>x</i> − 16.3
+B) <i>y</i> = −<i>x</i> + 16.3
+C) <i>y</i> = <i>x</i> − 2.3
+D) <i>y</i> = −<i>x</i> + 2.3
+K: D
+E: The line falls from (−14, 16) to (0, 2), so its slope is −1 and its y-intercept is about 2. Only y = −x + 2.3 fits.
+#9
+Q: The expression 7<i>x</i>^6 + 9<i>x</i>^6 − 8<i>x</i>^6 is equivalent to <i>bx</i>^6, where <i>b</i> is a constant. What is the value of <i>b</i>?
+K: 8
+E: Combine like terms: 7 + 9 − 8 = 8.
+#10
+Q: At what point (<i>x</i>, <i>y</i>) do the graphs of the equations <i>y</i> = 5<i>x</i> + 8 and <i>y</i> = 6<i>x</i> − 2 intersect in the <i>xy</i>-plane?
+A) (5, 6)
+B) (6, 5)
+C) (10, 58)
+D) (58, 10)
+K: C
+E: Set 5x + 8 = 6x − 2 to get x = 10, then y = 5(10) + 8 = 58.
+#11
+Q: A rectangle has a length that is 72 times its width. The function <i>y</i> = (72<i>w</i>)(<i>w</i>) represents this situation, where <i>y</i> is the area, in square feet, of the rectangle and <i>y</i> > 0. Which of the following is the best interpretation of 72<i>w</i> in this context?
+A) The length of the rectangle, in feet
+B) The area of the rectangle, in square feet
+C) The difference between the length and the width of the rectangle, in feet
+D) The width of the rectangle, in feet
+K: A
+E: The length is 72 times the width w, so 72w is the length in feet.
+#12
+P: <i>f</i>(<i>x</i>) = 29
+Q: For the given linear function <i>f</i>, which table gives three values of <i>x</i> and their corresponding values of <i>f</i>(<i>x</i>)?
+A) <table><tr><th><i>x</i></th><th><i>f</i>(<i>x</i>)</th></tr><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td></tr><tr><td>2</td><td>0</td></tr></table>
+B) <table><tr><th><i>x</i></th><th><i>f</i>(<i>x</i>)</th></tr><tr><td>0</td><td>29</td></tr><tr><td>1</td><td>29</td></tr><tr><td>2</td><td>29</td></tr></table>
+C) <table><tr><th><i>x</i></th><th><i>f</i>(<i>x</i>)</th></tr><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>29</td></tr><tr><td>2</td><td>58</td></tr></table>
+D) <table><tr><th><i>x</i></th><th><i>f</i>(<i>x</i>)</th></tr><tr><td>0</td><td>29</td></tr><tr><td>1</td><td>0</td></tr><tr><td>2</td><td>−29</td></tr></table>
+K: B
+E: Since f(x) = 29 for every x, the table must show 29 for every x value.
+#13
+I: /qimg/mar1-math-m1-q13.svg
+Q: In the figure shown, line <i>k</i> intersects lines <i>r</i> and <i>s</i>. If <i>w</i> = 160, which additional piece of information is sufficient to prove that lines <i>r</i> and <i>s</i> are parallel?
+A) <i>x</i> = 20
+B) <i>y</i> = 160
+C) <i>w</i> + <i>y</i> = 180
+D) <i>y</i> + <i>z</i> = 180
+K: B
+E: Angles w and y are corresponding angles on line k. If y = 160 = w, then r and s are parallel.
+#14
+P: <i>x</i>^2 − 4<i>x</i> + <i>y</i>^2 − 8<i>y</i> − 80 = 0
+Q: In the <i>xy</i>-plane, the graph of the given equation is a circle. If this circle is inscribed in a square, what is the perimeter of the square?
+A) 20
+B) 40
+C) 80
+D) 320
+K: C
+E: Completing the square gives (x − 2)^2 + (y − 4)^2 = 100, so r = 10. The square has side 20 and perimeter 80.
+#15
+Q: A real estate company offers a series of three webinars. 1,250 people attended the first webinar. 46% of the people who attended the first webinar attended the second webinar, and 32% of the people who attended the first and second webinars attended the third webinar. How many people attended all three webinars?
+K: 184
+E: 1,250 × 0.46 = 575 attended the first two, and 575 × 0.32 = 184 attended all three.
+#16
+P: <i>f</i>(<i>x</i>) = 24(2)^(<i>x</i>/6)
+Q: Which table gives four values of <i>x</i> and their corresponding values of <i>f</i>(<i>x</i>) for the given exponential function?
+A) <table><tr><th><i>x</i></th><td>−6</td><td>0</td><td>6</td><td>12</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>12</td><td>0</td><td>48</td><td>96</td></tr></table>
+B) <table><tr><th><i>x</i></th><td>−6</td><td>0</td><td>6</td><td>12</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>12</td><td>24</td><td>48</td><td>96</td></tr></table>
+C) <table><tr><th><i>x</i></th><td>−6</td><td>0</td><td>6</td><td>12</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>−12</td><td>24</td><td>48</td><td>96</td></tr></table>
+D) <table><tr><th><i>x</i></th><td>−6</td><td>0</td><td>6</td><td>12</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>12</td><td>24</td><td>36</td><td>48</td></tr></table>
+K: B
+E: f(−6) = 24(1/2) = 12, f(0) = 24, f(6) = 48, f(12) = 96, which matches only choice B.
+#17
+Q: In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by x. The product of 18 and the fourth odd integer is at most 22 less than the sum of the first and third odd integers. Which inequality represents this situation?
+A) 18(x + 6) ≤ x + (x + 4) - 22
+B) 18(x + 6) ≥ 22 - (x + (x + 4))
+C) 18(x + 4) ≤ x + (x + 3) - 22
+D) 18(x + 4) ≥ 22 - (x + (x + 3))
+K: A
+#18
+Q: To study fluctuations in leaf water potential, samples of wood were taken from 22 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 3.000 centimeters. This cube has a density of 0.250 grams per cubic centimeter. What is the mass of this cube, in grams?
+K: 6.75
+E: Volume = 3^3 = 27 cm^3, so mass = 27 × 0.250 = 6.75 grams.
+#19
+P: −2|5<i>x</i> + 9| + 7 = −11
+Q: What are all solutions to the given equation?
+A) 0
+B) 0 and −(7)/(5)
+C) 0 and −(18)/(5)
+D) There is no solution.
+K: C
+E: Subtract 7 and divide by −2 to get |5x + 9| = 9, so 5x + 9 = 9 or −9, giving x = 0 or x = −18/5.
+#20
+P: <i>x</i>^2 − 84<i>x</i> − 14 = 0
+Q: What is the sum of the solutions to the given equation?
+A) 0
+B) 7
+C) 14
+D) 84
+K: D
+E: The sum of the solutions of x^2 + bx + c = 0 is −b, so the sum is 84.
+#21
+I: /qimg/mar1-math-m1-q21.svg
+Q: For the right circular cone shown, <i>B</i> is a point on the circumference of the base, and the length of segment <i>AB</i> (not shown) is 32 centimeters. If the height of the cone is 16 centimeters and the volume of the cone is <i>k</i>π cubic centimeters, what is the value of <i>k</i>?
+K: 4096
+E: The radius satisfies r^2 = 32^2 − 16^2 = 768. Then V = (1)/(3)π(768)(16) = 4096π, so k = 4096.
+#22
+Q: In the <i>xy</i>-plane, line <i>k</i> and line ℓ are perpendicular and intersect at the point (2, 8). If line <i>k</i> is defined by the equation <i>y</i> = <i>mx</i> + <i>b</i>, where <i>m</i> and <i>b</i> are constants and <i>m</i> > 1, which of the following points lies on line ℓ?
+A) (3, 8 − (1)/(<i>m</i>))
+B) (3, 8 + (1)/(<i>m</i>))
+C) (3, 8 − <i>m</i>)
+D) (3, 8 + <i>m</i>)
+K: A
+E: Line ℓ has slope −1/m and passes through (2, 8), so at x = 3 it has y = 8 − 1/m.
+=M2
+#1
+Q: A right square pyramid has a height of 11 centimeters (cm). A second right square pyramid has a height of 22 centimeters. The area of the bases of each of the two pyramids is 100 cm². Which of the following is closest to the difference in the surface area of the second pyramid and the surface area of the first pyramid, in cm²?
+A) 209
+B) 220
+C) 367
+D) 551
+K: A
+#2
+Q: In one week in 2017, a technician earned a total of $700 by working at her regular job and at a second job doing part-time work. The equation 16<i>h</i> + 13<i>c</i> = 700 represents this situation, where <i>h</i> is the number of hours worked at her regular job and <i>c</i> is the number of hours worked at her second job. Which of the following is the best interpretation of 16 in this context?
+A) The amount, in dollars, the technician earned for each hour she worked at her regular job
+B) The amount, in dollars, the technician earned for each hour she worked at her second job
+C) The number of hours the technician worked in one week at her regular job
+D) The number of hours the technician worked in one week at her second job
+K: A
+E: The term 16<i>h</i> is the earnings from the regular job, and <i>h</i> is hours, so 16 is dollars earned per hour at the regular job.
+#3
+Q: Which of the following lists represents a data set with the smallest standard deviation?
+A) 44, 45, 47, 49, 50
+B) 45, 45, 47, 49, 49
+C) 45, 46, 47, 48, 49
+D) 46, 47, 47, 47, 48
+K: D
+E: All lists have mean 47, and list D has the values closest to 47, so it has the smallest spread and smallest standard deviation.
+#4
+Q: For the equation x(14x + 15) + c = 9, one possible solution is (-15 + √113)/28. What is the value of c?
+A) 2
+B) 9
+C) 11
+D) -7
+K: C
+#5
+Q: At a convention center, there are a total of 375 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.64, and the probability of selecting a visitor who is located in room B is 0.32. How many visitors are located in room C?
+A) 4
+B) 15
+C) 77
+D) 120
+K: B
+E: The probability for room C is 1 − 0.64 − 0.32 = 0.04, and 0.04 × 375 = 15.
+#6
+Q: <i>y</i> = (<i>x</i>)/(4) + 6
+Q: <i>y</i> = −(<i>x</i>)/(4) + 20
+Q: The solution to the given system of equations is (<i>x</i>, <i>y</i>). What is the value of 2<i>y</i>?
+A) 26
+B) 20
+C) 14
+D) 6
+K: A
+E: Setting the expressions equal gives <i>x</i>/2 = 14, so <i>x</i> = 28 and <i>y</i> = 7 + 6 = 13. Then 2<i>y</i> = 26.
+#7
+Q: In 5 days, a polar bear ate 22.0 pounds of fat. Which equation describes the amount of fat <i>y</i>, in pounds, the polar bear ate in these 5 days?
+A) <i>y</i> = 22 + 5
+B) <i>y</i> = 22
+C) <i>y</i> = (22)/(5)
+D) <i>y</i> = 5
+K: B
+E: The total amount of fat eaten in the 5 days is given as 22.0 pounds, so <i>y</i> = 22.
+#8
+Q: A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 22% every 11.11 minutes. Which of the following equations could represent this model, where <i>M</i> is the estimated mass, in grams, of the sample <i>t</i> minutes after the researcher began observing the sample?
+A) <i>M</i> = 100(0.22)^(<i>t</i> + 11.11)
+B) <i>M</i> = 100(0.22)^((<i>t</i>)/(11.11))
+C) <i>M</i> = 100(0.78)^(<i>t</i> + 11.11)
+D) <i>M</i> = 100(0.78)^((<i>t</i>)/(11.11))
+K: D
+E: A 22% decrease multiplies the mass by 0.78 each 11.11 minutes, so the exponent is <i>t</i>/11.11 and the model is 100(0.78)^(<i>t</i>/11.11).
+#9
+Q: A hollow steel pipe is in the shape of a right circular cylinder. The steel pipe has an outside diameter of 48 inches, a wall thickness of ⅝ inches, and a height of 144 inches. Which of the following is closest to the volume, in cubic inches, of the wall of this steel pipe?
+A) 177
+B) 565
+C) 2,160
+D) 13,395
+K: D
+#10
+Q: For the linear function <i>p</i>, <i>p</i>(<i>c</i>) = −6, where <i>c</i> is a constant, <i>p</i>(5) = 42, and the slope of the graph of <i>y</i> = <i>p</i>(<i>x</i>) in the <i>xy</i>-plane is 8. For the linear function <i>t</i>, <i>t</i>(<i>c</i>) = −7 and <i>t</i>(6) = 56. What is the slope of the graph of <i>y</i> = <i>t</i>(<i>x</i>) in the <i>xy</i>-plane?
+A) −1
+B) 2
+C) 8
+D) 9
+K: D
+E: From 42 − (−6) = 8(5 − <i>c</i>), <i>c</i> = −1. Then the slope of <i>t</i> is (56 − (−7))/(6 − (−1)) = 63/7 = 9.
+#11
+Q: If 2(4 − 5<i>x</i>) + 7(4 − 5<i>x</i>) + 9 = 8(4 − 5<i>x</i>) + 6, what is the value of 5<i>x</i> − 4?
+K: 3
+E: Subtract 8(4 − 5<i>x</i>) from both sides: (4 − 5<i>x</i>) + 9 = 6, so 4 − 5<i>x</i> = −3 and 5<i>x</i> − 4 = 3.
+#12
+I: /qimg/mar1-math-m2-q12.svg
+Q: The shaded region shown represents the solutions to <i>rx</i> + <i>ty</i> ≥ −44, where <i>r</i> and <i>t</i> are constants. What is the value of <i>r</i> + <i>t</i>?
+A) −4
+B) −3
+C) 3
+D) 5
+K: D
+E: The boundary line passes through (0, −11) and (−4, −10), so <i>y</i> = −<i>x</i>/4 − 11, or <i>x</i> + 4<i>y</i> = −44. The shaded region is above it, so <i>r</i> = 1, <i>t</i> = 4 and <i>r</i> + <i>t</i> = 5.
+#13
+P: <i>f</i>(<i>x</i>) = √(3<i>x</i> + 8)
+Q: The function <i>f</i> is defined by the given equation. If <i>f</i>(<i>a</i>) = −9<i>a</i>, where <i>a</i> is a constant, what is the value of <i>a</i>?
+A) (1)/(3)
+B) (8)/(27)
+C) −(8)/(27)
+D) −(1)/(3)
+K: C
+E: Squaring √(3<i>a</i> + 8) = −9<i>a</i> gives 81<i>a</i>^2 − 3<i>a</i> − 8 = 0, so <i>a</i> = 1/3 or −8/27. Since the square root is nonnegative, −9<i>a</i> ≥ 0 and <i>a</i> = −8/27.
+#14
+Q: The scatterplot for data set A consists of the weights y, in pounds, of a Labrador retriever puppy at various ages x, in months. The equation of a line of best fit for the relationship in data set A can be written as y = -5.0 + 8.7x, where 2 ≤ x ≤ 6. The puppy was weighed again at 9 months old and weighed 52 pounds. Data set B consists of all the data points in data set A as well as the data point (9, 52). The equation of a line of best fit for data set B can be written as y = r + sx, where r and s are constants and 2 ≤ x ≤ 9. Assuming the equations of the lines of best fit are calculated in the same way, which of the following is the best estimate for the value of s?
+A) 5.8
+B) 8.7
+C) 13.7
+D) 17.7
+K: A
+#15
+Q: The function <i>f</i> is a quadratic function. In the <i>xy</i>-plane, the graph of <i>y</i> = <i>f</i>(<i>x</i>) has a vertex at (1, 6) and passes through the points (2, 40) and (−1, 142). What is the value of <i>f</i>(−2) − <i>f</i>(0)?
+A) 108
+B) 176
+C) 272
+D) 312
+K: C
+E: Write <i>f</i>(<i>x</i>) = <i>a</i>(<i>x</i> − 1)^2 + 6; <i>f</i>(2) = 40 gives <i>a</i> = 34. Then <i>f</i>(−2) = 34(9) + 6 = 312 and <i>f</i>(0) = 40, so the difference is 272.
+#16
+Q: Points A, O, and C are collinear, and B is a point not on line AC, so that angle AOB and angle BOC form a linear pair. Ray OP bisects angle AOB, and ray OQ bisects angle BOC. What is the measure of angle POQ?
+A) 90°
+B) 45°
+C) 60°
+D) It cannot be determined.
+K: A
+#17
+I: /qimg/mar1-math-m2-q17.svg
+Q: The graph of <i>y</i> = <i>f</i>(<i>x</i>) + 2 is shown. Which equation defines function <i>f</i>?
+A) <i>f</i>(<i>x</i>) = −5^<i>x</i> + 1
+B) <i>f</i>(<i>x</i>) = −5^<i>x</i> + 3
+C) <i>f</i>(<i>x</i>) = −5^<i>x</i> + 4
+D) <i>f</i>(<i>x</i>) = −5^<i>x</i> + 5
+K: B
+E: The graph has a horizontal asymptote at <i>y</i> = 5 and crosses the <i>y</i>-axis at (0, 4), matching <i>y</i> = −5^<i>x</i> + 5. Subtracting 2 gives <i>f</i>(<i>x</i>) = −5^<i>x</i> + 3.
+#18
+Q: A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?
+A) 3.90
+B) 7.65
+C) 31.50
+D) 43.33
+K: D
+E: The original map covers 45 × 13 = 585 miles per side. The smaller side is 0.30 × 45 = 13.5 inches, so 1 inch represents 585/13.5 ≈ 43.33 miles.
+#19
+Q: The value of an investment t years after it was made is V(t) = 2500(1.0816)^t. Which function gives the value h half-years after it was made?
+A) W(h) = 2500(1.04)^h
+B) W(h) = 2500(1.0816)^(2h)
+C) W(h) = 2500(1.04)^(h/2)
+D) W(h) = 2500(1.0408)^h
+K: A
+#20
+Q: Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm^2), and the surface area of right rectangular prism Y is 1,475 cm^2. The volume of right rectangular prism Y is 1,500 cubic centimeters (cm^3). What is the sum of the volumes, in cm^3, of right rectangular prism X and right rectangular prism Y?
+K: 1512
+E: The surface-area ratio is 59/1475 = 1/25, so the scale factor is 1/5 and the volume ratio is 1/125. Prism X has volume 1500/125 = 12, so the sum is 12 + 1500 = 1512.
+#21
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = <i>ab</i>^(<i>x</i>/<i>n</i>), where <i>a</i>, <i>b</i>, and <i>n</i> are constants, and <i>b</i> and <i>n</i> are integers. If <i>f</i>(2) = 6 and <i>f</i>(5) = 162, what is the value of <i>f</i>(7)?
+K: 1458
+E: Dividing, <i>f</i>(5)/<i>f</i>(2) = <i>b</i>^(3/<i>n</i>) = 27, so <i>b</i>^(1/<i>n</i>) = 3. Then <i>f</i>(7) = <i>f</i>(5) × 3^2 = 162 × 9 = 1458.
+#22
+Q: A data set of 15 different values is symmetric about its median. A new data set is made by adding 5 to every value greater than the median and subtracting 5 from every value less than the median; the median value itself is unchanged. Compared with the original data set, which of the following is true about the new data set?
+A) Only the mean is different.
+B) Only the median is different.
+C) Only the standard deviation is different.
+D) The mean and the standard deviation are both different.
+K: C

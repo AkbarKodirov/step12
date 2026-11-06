@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif" font-size="18"><rect width="640" height="400" fill="#fff"/>
+<polygon points="200,320 400,320 400,40" fill="none" stroke="#000" stroke-width="2"/>
+<line x1="300" y1="180" x2="400" y2="180" stroke="#000" stroke-width="2"/>
+<polyline points="388,320 388,308 400,308" fill="none" stroke="#000" stroke-width="1.5"/>
+<polyline points="388,180 388,192 400,192" fill="none" stroke="#000" stroke-width="1.5"/>
+<text x="180" y="340" font-style="italic">A</text><text x="406" y="340" font-style="italic">E</text><text x="406" y="36" font-style="italic">C</text><text x="406" y="176" font-style="italic">D</text><text x="278" y="176" font-style="italic">B</text>
+<text x="320" y="380" text-anchor="middle" font-size="15">Note: Figure not drawn to scale.</text></svg>

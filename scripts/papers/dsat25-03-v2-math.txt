@@ -1,0 +1,327 @@
+!id: dsat25-03-v2-math
+!name: March 2025 · International · Version 2 · Math
+!type: MATH
+!year: 2025
+!month: 3
+!region: International
+!form: 2
+=M1
+#1
+Q: Two angles are supplementary. Their measures are (3x + 10)° and (2x − 5)°. What is the measure of the larger angle?
+A) 115°
+B) 65°
+C) 105°
+D) 95°
+K: A
+#2
+Q: Which expression is equivalent to 9(<i>x</i>^2 + 6)?
+A) 9<i>x</i>^2 + 3
+B) 9<i>x</i>^2 + 6
+C) 9<i>x</i>^2 + 15
+D) 9<i>x</i>^2 + 54
+K: D
+E: Distribute the 9: 9(x^2 + 6) = 9x^2 + 54.
+#3
+Q: Two lines intersect. One angle measures (5x − 8)° and the angle vertical to it measures (3x + 20)°. What is the value of x?
+A) 7
+B) 12
+C) 14
+D) 28
+K: C
+#4
+P: 7<i>x</i> + 21 = 7<i>x</i> + <i>k</i>
+Q: In the given equation, <i>k</i> is a constant. The equation has infinitely many solutions. What is the value of <i>k</i>?
+K: 21
+E: Infinitely many solutions means both sides are identical, so k = 21.
+#5
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = 2<i>x</i> − (1)/(4). What is the <i>y</i>-intercept of the graph of <i>y</i> = <i>f</i>(<i>x</i>) in the <i>xy</i>-plane?
+A) (0, −(1)/(4))
+B) (0, −2)
+C) (0, 2)
+D) (0, 4)
+K: A
+E: The y-intercept occurs at x = 0, where f(0) = −(1)/(4), so the point is (0, −(1)/(4)).
+#6
+Q: The list gives the mass, in grams, of 5 ruffed lemurs.<br>3,810; 3,810; 3,530; 3,850; 3,550<br>What is the mean mass, in grams, of these 5 ruffed lemurs?
+K: 3710
+E: The sum is 3,810 + 3,810 + 3,530 + 3,850 + 3,550 = 18,550, and 18,550 ÷ 5 = 3,710.
+#7
+Q: The price of an object increased from $16 to $80. What was the percent increase in the price of the object?
+A) 20%
+B) 64%
+C) 80%
+D) 400%
+K: D
+E: The increase is 80 − 16 = 64, and 64 ÷ 16 = 4 = 400%.
+#8
+I: /qimg/mar2-math-m1-q8.svg
+Q: In the figure shown, triangle <i>CAE</i> is similar to triangle <i>CBD</i>. The measure of angle <i>CBD</i> is 59°, and <i>AE</i> = 28(<i>BD</i>). What is the measure of angle <i>CAE</i>?
+A) (28 · 59)°
+B) (28 + 59)°
+C) 59°
+D) 28°
+K: C
+E: In similar triangles corresponding angles are equal; angle CAE corresponds to angle CBD, so it measures 59°. The ratio 28 only affects side lengths.
+#9
+Q: A student needs at least 190 signatures from classmates to run for class president. The student collects 30 signatures on Monday and collects enough additional signatures on Tuesday to run for class president. Which inequality represents the number of additional signatures, <i>s</i>, that the student collects on Tuesday?
+A) <i>s</i> + 30 ≤ 190
+B) <i>s</i> + 30 ≥ 190
+C) <i>s</i> − 30 ≤ 190
+D) <i>s</i> − 30 ≥ 190
+K: B
+E: "At least 190" means s + 30 ≥ 190.
+#10
+Q: Which expression is equivalent to 7<i>x</i>^6 − 14<i>x</i>^2, where <i>x</i> > 0?
+A) 7(<i>x</i>^3 − 2<i>x</i>^2)^2
+B) <i>x</i>^2(7<i>x</i> − 2)^4
+C) 7<i>x</i>^2(<i>x</i> − 2)^4
+D) 7<i>x</i>^2(<i>x</i>^4 − 2)
+K: D
+E: Factor out 7x^2: 7x^6 − 14x^2 = 7x^2(x^4 − 2).
+#11
+Q: Parallel lines m and n are cut by a transversal t. One interior angle on line m measures (4x − 10)°, and the interior angle on line n on the same side of t measures (2x + 10)°. What is the measure of the acute angle that t makes with the parallel lines?
+A) 110°
+B) 55°
+C) 90°
+D) 70°
+K: D
+#12
+P: 8<i>x</i>^2 + 13<i>x</i> = 6
+Q: What is the positive solution to the given equation?
+K: 3/8 | 0.375
+E: Rewrite as 8x^2 + 13x − 6 = 0, which factors as (8x − 3)(x + 2) = 0. The positive solution is x = 3/8.
+#13
+Q: Harper has $110 in an account. Each year she expects to have 2.7% more money in the account than she had the previous year. Which of the following models best describes how Harper expects the money in her account to change over time?
+A) Decreasing exponential
+B) Decreasing linear
+C) Increasing exponential
+D) Increasing linear
+K: C
+E: Gaining 2.7% of the previous year's amount each year means multiplying by 1.027, which is increasing exponential growth.
+#14
+Q: In right triangle <i>RST</i>, the sum of the measures of angle <i>R</i> and angle <i>S</i> is 90 degrees. The value of sin(<i>R</i>) is (2√(10))/(7). What is the value of cos(<i>S</i>)?
+A) (3√(10))/(20)
+B) (2√(10))/(7)
+C) (7√(10))/(20)
+D) (2√(10))/(3)
+K: B
+E: Angles R and S are complementary, so cos(S) = sin(R) = (2√(10))/(7).
+#15
+Q: Line <i>t</i> is defined by <i>y</i> = −(1)/(2)<i>x</i> + 14. Line <i>s</i> is perpendicular to line <i>t</i> in the <i>xy</i>-plane. What is the slope of line <i>s</i>?
+A) 14
+B) 2
+C) (1)/(2)
+D) (1)/(14)
+K: B
+E: Perpendicular slopes are negative reciprocals, so the slope of s is −1 ÷ (−(1)/(2)) = 2.
+#16
+P: <i>f</i>(<i>x</i>) = 8(2)^(<i>x</i>/4)
+Q: Which table gives four values of <i>x</i> and their corresponding values of <i>f</i>(<i>x</i>) for the given exponential function?
+A) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th><i>x</i></th><td>−4</td><td>0</td><td>4</td><td>8</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>4</td><td>0</td><td>16</td><td>32</td></tr></table>
+B) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th><i>x</i></th><td>−4</td><td>0</td><td>4</td><td>8</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>4</td><td>8</td><td>16</td><td>32</td></tr></table>
+C) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th><i>x</i></th><td>−4</td><td>0</td><td>4</td><td>8</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>−4</td><td>8</td><td>16</td><td>32</td></tr></table>
+D) <table border="1" style="border-collapse:collapse;text-align:center"><tr><th><i>x</i></th><td>−4</td><td>0</td><td>4</td><td>8</td></tr><tr><th><i>f</i>(<i>x</i>)</th><td>4</td><td>8</td><td>16</td><td>24</td></tr></table>
+K: B
+E: f(−4) = 8(2)^(−1) = 4, f(0) = 8, f(4) = 8(2) = 16, and f(8) = 8(2)^2 = 32.
+#17
+Q: The measure of angle <i>C</i> is (3π)/(4) radians. What is the value of cos(<i>C</i>)?
+A) −(√(2))/(2)
+B) −(1)/(2)
+C) (√(2))/(2)
+D) (√(3))/(2)
+K: A
+E: 3π/4 is in the second quadrant with reference angle π/4, so cos(C) = −cos(π/4) = −(√(2))/(2).
+#18
+P: 7<i>y</i> = −6<i>x</i> + 2,170
+P: 24<i>x</i> − 28<i>y</i> = 1,400
+Q: The solution to the given system of equations is (<i>x</i>, <i>y</i>). What is the value of <i>x</i> + <i>y</i>?
+K: 340
+E: Rewrite as 6x + 7y = 2,170 and 6x − 7y = 350 (dividing the second by 4). Adding gives 12x = 2,520, so x = 210 and y = 130, and x + y = 340.
+#19
+Q: A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23% every 11.69 minutes. Which of the following equations could represent this model, where <i>M</i> is the estimated mass, in grams, of the sample <i>t</i> minutes after the researcher began observing the sample?
+A) <i>M</i> = 100(0.77)^(<i>t</i>/11.69)
+B) <i>M</i> = 100(0.77)^(<i>t</i> + 11.69)
+C) <i>M</i> = 100(0.23)^(<i>t</i>/11.69)
+D) <i>M</i> = 100(0.23)^(<i>t</i> + 11.69)
+K: A
+E: A 23% decrease multiplies the mass by 0.77 once per 11.69 minutes, so M = 100(0.77)^(t/11.69).
+#20
+P: −4|5<i>x</i> + 4| + 2 = −14
+Q: What are all solutions to the given equation?
+A) 0
+B) 0 and −(1)/(5)
+C) 0 and −(8)/(5)
+D) There is no solution.
+K: C
+E: Subtract 2 and divide by −4 to get |5x + 4| = 4. Then 5x + 4 = 4 gives x = 0, and 5x + 4 = −4 gives x = −8/5.
+#21
+I: /qimg/mar2-math-m1-q21.svg
+Q: For the right circular cone shown, <i>B</i> is a point on the circumference of the base, and the length of segment <i>AB</i> (not shown) is 84 centimeters. If the height of the cone is 42 centimeters and the volume of the cone is <i>k</i>π cubic centimeters, what is the value of <i>k</i>?
+K: 74088
+E: The radius satisfies r^2 = 84^2 − 42^2 = 5,292. Then V = (1)/(3)π(5,292)(42) = 74,088π, so k = 74,088.
+#22
+Q: A sphere has a volume of 247.00 cubic yards. What is the volume of the sphere, in cubic meters? (Use 1 yard = 0.914 meter.)
+K: 188.6 | 188.59 | 188.60 | 188.597
+E: Cubic meters per cubic yard = 0.914^3 ≈ 0.76355, so the volume is 247 × 0.76355 ≈ 188.6 cubic meters.
+=M2
+#1
+Q: y = 3x + 13
+Q: y = 3x^2 + 13
+Q: Which ordered pair (<i>x</i>, <i>y</i>) is a solution to the given system of equations?
+A) (0, 0)
+B) (0, 13)
+C) (26, 91)
+D) (26, 169)
+K: B
+E: Setting 3x + 13 = 3x^2 + 13 gives 3x^2 − 3x = 0, so x = 0 or x = 1. Only x = 0 appears in the choices, and then y = 13, giving (0, 13).
+#2
+Q: A certain elephant calf weighed 226 pounds when it was born. The elephant calf gained an average of 3 pounds per day in its first year of life. Which equation models this situation, where <i>y</i> is the estimated weight of the elephant calf, in pounds, <i>x</i> days after it was born?
+A) y = 226 + 3x
+B) y = 226 − 3x
+C) y = 3 + 226x
+D) y = 3 − 226x
+K: A
+E: The starting weight is 226 pounds and 3 pounds are added each day, so y = 226 + 3x.
+#3
+Q: f(x) = (1.84)^(x/4) The function f is defined by the given equation. The equation can be rewritten as f(x) = (1 + p/100)ˣ, where p is a constant. Which of the following is closest to the value of p?
+A) 16
+B) 21
+C) 46
+D) 96
+K: A
+#4
+Q: A rectangle has a length that is 31 times its width. The function <i>y</i> = (31<i>w</i>)(<i>w</i>) represents this situation, where <i>y</i> is the area, in square feet, of the rectangle and <i>y</i> > 0. Which of the following is the best interpretation of 31<i>w</i> in this context?
+A) The length of the rectangle, in feet
+B) The area of the rectangle, in square feet
+C) The difference between the length and width of the rectangle, in feet
+D) The width of the rectangle, in feet
+K: A
+E: The length is 31 times the width w, so 31w is the length of the rectangle in feet.
+#5
+Q: Which of the following expressions is equivalent to 11x^10 − 11x^9 + 77x?
+A) x(10x^10 − 10x^9 + 76x)
+B) x(11^10 − 11^9 + 77)
+C) 11x(x^10 − x^9 + 7x)
+D) 11x(x^9 − x^8 + 7)
+K: D
+E: Factor out the common factor 11x: 11x(x^9 − x^8 + 7).
+#6
+Q: For <i>x</i> > 0, the function <i>f</i> is defined as follows:
+Q: f(x) equals 293% of x
+Q: Which of the following could describe this function?
+A) Decreasing exponential
+B) Decreasing linear
+C) Increasing exponential
+D) Increasing linear
+K: D
+E: f(x) = 2.93x is a linear function with a positive slope, so it is increasing linear.
+#7
+Q: A circle has center G, and points M and N lie on the circle. Line segments MH and NH are tangent to the circle at points M and N, respectively. If the radius of the circle is 168 millimeters and the perimeter of quadrilateral GMHN is 3,856 millimeters, what is the distance, in millimeters, between points G and H?
+A) 168
+B) 1,752
+C) 1,760
+D) 1,768
+K: D
+#8
+Q: In the xy-plane, a circle has center D with coordinates (m, 16), where m is a constant. Points E and F lie on the circle. Point E lies on the circle and has coordinates (m + 4√10, 34) and point F has coordinates (n, 16), where n is a constant greater than m. What is the area, in square units, of triangle DEF?
+A) 198
+B) 72√10
+C) 242
+D) 99√10
+K: A
+#9
+Q: In right triangle <i>ABC</i>, angles <i>A</i> and <i>B</i> are acute, side <i>AC</i> has a length of 28.2, and tan <i>B</i> = (1)/(3). What is the length of side <i>BC</i>, rounded to the nearest tenth?
+A) 795.2
+B) 84.6
+C) 9.4
+D) 5.3
+K: B
+E: The right angle is at C, so tan B = AC/BC = 28.2/BC = 1/3, giving BC = 84.6.
+#10
+Q: If 16 − 5(3 − 7x) = 4 − 6(3 − 7x), what is the value of 3 − 7x?
+K: -12
+E: Let u = 3 − 7x. Then 16 − 5u = 4 − 6u, so u = −12.
+#11
+Q: For the linear function <i>p</i>, p(<i>c</i>) = −5, where <i>c</i> is a constant, p(3) = 23, and the slope of the graph of <i>y</i> = p(<i>x</i>) in the <i>xy</i>-plane is 7. For the linear function <i>t</i>, t(<i>c</i>) = −6 and t(4) = 34. What is the slope of the graph of <i>y</i> = t(<i>x</i>) in the <i>xy</i>-plane?
+A) −1
+B) 2
+C) 7
+D) 8
+K: D
+E: From p, c = 3 − 28/7 = −1. Then t(−1) = −6 and t(4) = 34, so the slope is (34 + 6)/(4 + 1) = 8.
+#12
+Q: The positive number <i>a</i> is 2,136% of the sum of the positive numbers <i>b</i> and <i>c</i>, and <i>b</i> is 89% of <i>c</i>. What percent of <i>b</i> is <i>a</i>?
+A) 4,536%
+B) 2,400%
+C) 40.37%
+D) 22.25%
+K: A
+E: With b = 0.89c, b + c = 1.89c = (1.89/0.89)b. Then a = 21.36 × (1.89/0.89)b = 24 × 1.89b = 45.36b, which is 4,536% of b.
+#13
+Q: F(x) = (9)/(5)(x − 273.15) + 32
+Q: The function <i>F</i> gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of <i>x</i> kelvins. If a temperature increased by 7.70 kelvins, by how much did the temperature increase, in degrees Fahrenheit?
+K: 13.86
+E: The increase is (9/5)(7.70) = 13.86 degrees Fahrenheit, since the constants cancel.
+#14
+Q: The function <i>f</i> is a quadratic function. In the <i>xy</i>-plane, the graph of <i>y</i> = f(<i>x</i>) has a vertex at (1, 4) and passes through the points (2, 27) and (−1, 96). What is the value of f(−2) − f(0)?
+A) 73
+B) 119
+C) 184
+D) 211
+K: C
+E: Write f(x) = a(x − 1)^2 + 4. From (2, 27), a = 23. Then f(−2) = 23(9) + 4 = 211 and f(0) = 27, so the difference is 184.
+#15
+T: <table><tr><th><i>x</i></th><th><i>y</i></th></tr><tr><td>−2<i>s</i></td><td>28</td></tr><tr><td>−<i>s</i></td><td>23</td></tr><tr><td><i>s</i></td><td>13</td></tr></table>
+Q: The table shows three values of <i>x</i> and their corresponding values of <i>y</i>, where <i>s</i> is a constant. There is a linear relationship between <i>x</i> and <i>y</i>. Which of the following equations represents this relationship?
+A) sx + 5y = 18s
+B) 5x + sy = 18s
+C) 5x + sy = 18
+D) sx + 5y = 18
+K: B
+E: The slope is (23 − 28)/(−s + 2s) = −5/s. Then y − 23 = (−5/s)(x + s), which simplifies to 5x + sy = 18s.
+#16
+Q: The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 7 and 10, which inequality represents the possible lengths, <i>x</i>, of the third side of the triangle?
+A) x < 17
+B) x > 17
+C) 3 < x < 17
+D) x < 3 or x > 17
+K: C
+E: The third side must be less than 7 + 10 = 17 and greater than 10 − 7 = 3, so 3 < x < 17.
+#17
+I: /qimg/mar2-math-m2-q17.svg
+Q: The graph of <i>y</i> = f(<i>x</i>) + 4 is shown. Which equation defines function <i>f</i>?
+A) f(x) = −6^x + 1
+B) f(x) = −6^x + 5
+C) f(x) = −6^x + 8
+D) f(x) = −6^x + 9
+K: B
+E: The graph has a horizontal asymptote at y = 9 and passes through (0, 8), matching y = −6^x + 9. Since y = f(x) + 4, f(x) = −6^x + 5.
+#18
+Q: y = -3x² - 34 y = qx - 31 In the given system of equations, q is a positive constant. The graphs of the equations in the given system intersect at exactly one point, (x, y), in the xy-plane. What is the value of x?
+A) -65
+B) -37
+C) -6
+D) -1
+K: D
+#19
+Q: The function <i>g</i> is defined by g(x) = 3x. For what value of <i>x</i> is g(x) = 12?
+K: 4
+E: 3x = 12, so x = 4.
+#20
+Q: Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 59 square centimeters (cm^2), and the surface area of right rectangular prism Y is 1,475 cm^2. The volume of right rectangular prism Y is 1,500 cubic centimeters (cm^3). What is the sum of the volumes, in cm^3, of right rectangular prism X and right rectangular prism Y?
+K: 1512
+E: The surface area ratio is 1475/59 = 25, so the scale factor is 5 and the volume ratio is 125. Volume of X = 1500/125 = 12, so the sum is 1512.
+#21
+Q: A right square pyramid has a total surface area of 28,160 square inches, and the combined surface area of the four lateral faces of this pyramid is 16,060 square inches. What is the height, in inches, of this pyramid?
+A) 48
+B) 55
+C) 73
+D) 110
+K: A
+#22
+Q: A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object is launched off an elevated surface. The model indicates the object has an initial height of 2 feet above the ground and reaches its maximum height of 258 feet above the ground 4 seconds after being launched. Based on the model, what is the height, in feet, of the object above the ground 5 seconds after being launched?
+A) 58
+B) 194
+C) 242
+D) 254
+K: C

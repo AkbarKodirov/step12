@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif" font-size="18"><rect width="640" height="400" fill="#fff"/>
+<ellipse cx="320" cy="270" rx="200" ry="40" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M120 270 A200 40 0 0 0 520 270" fill="none" stroke="#000" stroke-width="2"/>
+<line x1="320" y1="50" x2="120" y2="270" stroke="#000" stroke-width="2"/><line x1="320" y1="50" x2="520" y2="270" stroke="#000" stroke-width="2"/>
+<circle cx="320" cy="50" r="3"/><circle cx="268" cy="308" r="4"/>
+<text x="332" y="46" font-style="italic">A</text><text x="262" y="334" font-style="italic">B</text>
+<text x="320" y="382" text-anchor="middle" font-size="15">Note: Figure not drawn to scale.</text></svg>

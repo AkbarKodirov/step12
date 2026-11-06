@@ -1,0 +1,332 @@
+!id: dsat25-03-v3-math
+!name: March 2025 · International · Version 3 · Math
+!type: MATH
+!year: 2025
+!month: 3
+!region: International
+!form: 3
+=M1
+#1
+Q: The equation <i>s</i> = 40 + 2<i>t</i> gives the speed <i>s</i>, in miles per hour, of a certain car <i>t</i> seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?
+A) 40
+B) 42
+C) 43
+D) 46
+K: D
+E: Substitute t = 3: s = 40 + 2(3) = 46.
+#2
+I: /qimg/mar3-math-m1-q2.svg
+Q: Which of the following equations best represents the line of best fit shown?
+A) y = 0.8 + 1.7<i>x</i>
+B) y = 0.8 − 1.7<i>x</i>
+C) y = −0.8 + 1.7<i>x</i>
+D) y = −0.8 − 1.7<i>x</i>
+K: A
+E: The line crosses the y-axis slightly below 1 (about 0.8) and rises steeply, so it has a positive slope of about 1.7: y = 0.8 + 1.7x.
+#3
+Q: The width of a rectangle is 5 centimeters. The length of the rectangle is 30 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?
+A) 175
+B) 40
+C) 10
+D) 5
+K: A
+E: The length is 5 + 30 = 35 cm, so the area is 5 × 35 = 175 cm².
+#4
+Q: If 7 + <i>x</i> = 3, what is the value of 56 + 8<i>x</i>?
+K: 24
+E: From 7 + x = 3, x = −4. Then 56 + 8(−4) = 56 − 32 = 24.
+#5
+Q: In one week in 2017, a technician earned a total of $1,055 by working at her regular job and at a second job doing part-time work. The equation 20<i>h</i> + 17<i>c</i> = 1,055 represents this situation, where <i>h</i> is the number of hours worked at her regular job and <i>c</i> is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?
+A) The amount, in dollars, the technician earned for each hour she worked at her regular job
+B) The amount, in dollars, the technician earned for each hour she worked at her second job
+C) The number of hours the technician worked in one week at her regular job
+D) The number of hours the technician worked in one week at her second job
+K: A
+E: 20 multiplies h, the hours at the regular job, so it is the dollars earned per regular-job hour.
+#6
+T: <table border="1" cellpadding="6" style="border-collapse:collapse;text-align:center"><tr><th>Value</th><th>Frequency</th></tr><tr><td>20</td><td>6</td></tr><tr><td>26</td><td>1</td></tr><tr><td>32</td><td>6</td></tr><tr><td>38</td><td>3</td></tr></table>
+Q: The table shows the frequency of values in a data set. What is the minimum value of the data set?
+A) 1
+B) 6
+C) 20
+D) 26
+K: C
+E: The minimum value is the smallest value listed in the Value column, which is 20 (the frequencies are not values).
+#7
+Q: The measure of an angle is 24° less than three times the measure of its supplement. What is the measure of the angle?
+A) 51°
+B) 39°
+C) 129°
+D) 141°
+K: C
+#8
+Q: <i>x</i> + 7 = 13
+Q: y = 5<i>x</i>^2 + 5
+Q: At what point (<i>x</i>, <i>y</i>) do the graphs of the equations in the given system intersect?
+A) (6, 180)
+B) (6, 185)
+C) (13, 5)
+D) (13, 850)
+K: B
+E: From x + 7 = 13, x = 6. Then y = 5(36) + 5 = 185, so the point is (6, 185).
+#9
+Q: The expression 19<i>x</i>^5 + 20<i>x</i>^5 − 10<i>x</i>^5 is equivalent to <i>bx</i>^5, where <i>b</i> is a constant. What is the value of <i>b</i>?
+K: 29
+E: Combine like terms: 19 + 20 − 10 = 29.
+#10
+I: /qimg/mar3-math-m1-q10.svg
+Q: The point (<i>v</i>, −5) lies on the line shown. What is the value of <i>v</i>?
+A) −(72)/(11)
+B) −(11)/(12)
+C) (72)/(11)
+D) (192)/(11)
+K: A
+E: The line passes through (−12, 0) and (0, −11), so its slope is −11/12 and y = −(11)/(12)x − 11. Setting y = −5 gives x = −72/11.
+#11
+Q: The function f(x) = 5000(1.21)^(x/2) models a value x years from now. Which equivalent form shows the yearly growth factor as the base?
+A) f(x) = 5000(1.1)^x
+B) f(x) = 5000(1.21)^x
+C) f(x) = 5000(1.105)^x
+D) f(x) = 5000(2.42)^x
+K: A
+#12
+I: /qimg/mar3-math-m1-q12.svg
+Q: In the figure shown, line <i>k</i> intersects lines <i>r</i> and <i>s</i>. If <i>w</i> = 146, which additional piece of information is sufficient to prove that lines <i>r</i> and <i>s</i> are parallel?
+A) <i>x</i> = 34
+B) <i>y</i> = 146
+C) <i>w</i> + <i>y</i> = 180
+D) <i>y</i> + <i>z</i> = 180
+K: B
+E: Angles w and y are corresponding angles; if y = 146 = w, then r and s are parallel.
+#13
+Q: Which expression is equivalent to (133<i>y</i>)^(1/2), where <i>y</i> > 1?
+A) 133 · √(<i>y</i>)
+B) √(133) · <i>y</i>
+C) √(133<i>y</i>)
+D) √((133<i>y</i>)^2)
+K: C
+E: A power of 1/2 is a square root, so (133y)^(1/2) = √(133y).
+#14
+Q: f(x) = x^2 - 8x + 7. Which equivalent form shows the minimum value of f as a constant or coefficient?
+A) f(x) = (x - 1)(x - 7)
+B) f(x) = (x - 4)^2 - 9
+C) f(x) = x(x - 8) + 7
+D) f(x) = (x - 4)^2 + 7
+K: B
+#15
+Q: The measure of angle <i>B</i> is (3π)/(4) radians. What is the value of sin(<i>B</i>)?
+A) −(√(3))/(2)
+B) −(√(2))/(2)
+C) (1)/(2)
+D) (√(2))/(2)
+K: D
+E: 3π/4 is 135°, in quadrant II with reference angle 45°, so sin(B) = √2/2.
+#16
+Q: A school is ordering tablet computers for its students. The tablets cost $164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than 44,800 dollars on the tablets, including tax, what is the maximum number of tablets the school can order?
+K: 257
+E: Each tablet costs 164(1.06) = 173.84 with tax. 44,800 ÷ 173.84 ≈ 257.7, so at most 257 tablets.
+#17
+Q: A triangular prism has a height of 3 centimeters (cm) and a volume of 60 cm³. What is the area, in cm², of the base of the prism? (The volume of a triangular prism is equal to <i>Bh</i>, where <i>B</i> is the area of the base and <i>h</i> is the height of the prism.)
+K: 20
+E: 60 = B(3), so B = 20 cm².
+#18
+I: /qimg/mar3-math-m1-q18.svg
+Q: The graph of y = f(<i>x</i>) is shown, where f(<i>x</i>) = <i>ab</i>^<i>x</i> + <i>c</i>, and <i>a</i>, <i>b</i>, and <i>c</i> are constants. For how many values of <i>x</i> does f(<i>x</i>) = 0?
+A) Three
+B) Two
+C) One
+D) Zero
+K: D
+E: The whole graph lies below the x-axis (it levels off near y = −5 and then falls), so it never crosses y = 0.
+#19
+Q: <i>x</i>(<i>x</i> + 4) − 140 = 3<i>x</i>(<i>x</i> − 10)
+Q: What is the sum of the solutions to the given equation?
+A) 6
+B) 10
+C) 14
+D) 17
+K: D
+E: Expanding gives x² + 4x − 140 = 3x² − 30x, so 2x² − 34x + 140 = 0, i.e. x² − 17x + 70 = 0. The sum of the solutions is 17.
+#20
+Q: −3<i>x</i>^2 − 7<i>x</i> + 1 = 0
+Q: What is the greatest solution to the given equation?
+A) −(7)/(3) + (√(61))/(3)
+B) −(7)/(3) − (√(61))/(3)
+C) −(7)/(6) + (√(61))/(6)
+D) −(7)/(6) − (√(61))/(6)
+K: C
+E: Rewrite as 3x² + 7x − 1 = 0. The quadratic formula gives x = (−7 ± √61)/6; the greater is −7/6 + √61/6.
+#21
+I: /qimg/mar3-math-m1-q21.svg
+Q: In triangle <i>ABC</i>, <i>BC</i> = 36√(3). What is the value of cos <i>A</i>?
+K: 1/2 | .5 | 0.5
+E: Angle B is 90° and angle C is 30°, so angle A is 60° and cos A = 1/2.
+#22
+Q: The positive number <i>a</i> is 2,047% of the sum of the positive numbers <i>b</i> and <i>c</i>, and <i>b</i> is 89% of <i>c</i>. What percent of <i>b</i> is <i>a</i>?
+A) 21.36%
+B) 38.69%
+C) 2,300%
+D) 4,347%
+K: D
+E: With b = 0.89c, b + c = 1.89c, so a = 20.47(1.89c) = 38.69c. Then a/b = 38.69/0.89 = 43.47, i.e. 4,347%.
+=M2
+#1
+Q: How many solutions does the equation 2<i>x</i> − 3 = 2<i>x</i> have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: A
+E: Subtracting 2x from both sides gives −3 = 0, which is never true, so the equation has no solutions.
+#2
+Q: In the linear function <i>f</i>, <i>f</i>(0) = 2 and <i>f</i>(7) = 2. Which equation defines <i>f</i>?
+A) <i>f</i>(<i>x</i>) = 0
+B) <i>f</i>(<i>x</i>) = 7
+C) <i>f</i>(<i>x</i>) = 2
+D) <i>f</i>(<i>x</i>) = <i>x</i> + 2
+K: C
+E: The outputs at x = 0 and x = 7 are equal, so the slope is 0 and the function is the constant f(x) = 2.
+#3
+Q: A rectangle has a length that is 92 times its width. The function <i>y</i> = (92<i>w</i>)(<i>w</i>) represents this situation, where <i>y</i> is the area, in square feet, of the rectangle and <i>w</i> > 0. Which of the following is the best interpretation of 92<i>w</i> in this context?
+A) The length of the rectangle, in feet
+B) The area of the rectangle, in square feet
+C) The difference between the length and the width of the rectangle, in feet
+D) The width of the rectangle, in feet
+K: A
+E: Area = length × width, and the width is w, so the other factor 92w is the length in feet.
+#4
+Q: <i>T</i>(<i>x</i>) = 67 − 8<i>x</i>
+Q: The function <i>T</i> estimates the temperature, in degrees Fahrenheit (°F), in a certain city one day in January, where <i>x</i> is the number of hours after 10 a.m. and 1 ≤ <i>x</i> ≤ 5. According to the function, what was the estimated decrease in temperature each hour, in °F, in this city during this time period?
+A) 4
+B) 8
+C) 59
+D) 67
+K: B
+E: The coefficient of x is −8, so the temperature falls 8°F each hour.
+#5
+Q: At a convention center, there are a total of 375 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.68, and the probability of selecting a visitor who is located in room B is 0.24. How many visitors are located in room C?
+A) 8
+B) 30
+C) 61
+D) 165
+K: B
+E: 375 × (1 − 0.68 − 0.24) = 375 × 0.08 = 30.
+#6
+Q: An object is launched from a height of 121 feet above the ground. A quadratic function <i>f</i> models the height above the ground, in feet, of the object <i>t</i> seconds after it is launched. According to the model, 2 seconds after the object is launched, it reaches a maximum height of 185 feet above the ground. Which equation defines <i>f</i>?
+A) <i>f</i>(<i>t</i>) = −16(<i>t</i> + 185)^2 − 2
+B) <i>f</i>(<i>t</i>) = −16(<i>t</i> − 185)^2 + 2
+C) <i>f</i>(<i>t</i>) = −16(<i>t</i> + 2)^2 − 185
+D) <i>f</i>(<i>t</i>) = −16(<i>t</i> − 2)^2 + 185
+K: D
+E: In vertex form f(t) = a(t − h)^2 + k with vertex (2, 185) and a downward opening, f(t) = −16(t − 2)^2 + 185 (check: f(0) = 121).
+#7
+Q: 7<i>y</i> = −6<i>x</i> + 2,550
+Q: 24<i>x</i> − 28<i>y</i> = 1,800
+Q: The solution to the given system of equations is (<i>x</i>, <i>y</i>). What is the value of <i>x</i> + <i>y</i>?
+K: 400
+E: Rewrite as 6x + 7y = 2550 and 6x − 7y = 450 (dividing the second by 4). Adding gives 12x = 3000, so x = 250, then y = 150, and x + y = 400.
+#8
+Q: To study fluctuations in leaf water potential, samples of wood were taken from 21 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 3.000 centimeters. This cube has a density of 0.220 grams per cubic centimeter. What is the mass of this cube, in grams?
+K: 5.94
+E: The volume is 3^3 = 27 cm^3, so the mass is 27 × 0.220 = 5.94 grams.
+#9
+Q: −2|3<i>x</i> + 7| + 8 = −6
+Q: What are all solutions to the given equation?
+A) 0
+B) 0 and −(8)/(3)
+C) 0 and −(14)/(3)
+D) There is no solution.
+K: C
+E: Subtract 8 and divide by −2 to get |3x + 7| = 7, so 3x + 7 = 7 or −7, giving x = 0 or x = −14/3.
+#10
+Q: Point N lies on a unit circle in the xy-plane and has coordinates (1, 0). Point O is the center of the circle and has coordinates (0, 0). Point M also lies on the unit circle, and the measure of angle NOM is 272π/3 radians. If the coordinates of point M are (a, b), where a and b are constants, what is the value of a?
+A) 1/2
+B) √3/2
+C) −1/2
+D) −√3/2
+K: C
+#11
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = −10(3)^<i>x</i> + (1)/(<i>k</i>), where <i>k</i> is a constant. If <i>y</i> = <i>f</i>(<i>x</i>) is graphed in the <i>xy</i>-plane, what is the <i>y</i>-coordinate of the <i>y</i>-intercept of the graph?
+A) −10
+B) (1 − 10<i>k</i>)/(<i>k</i>)
+C) (1)/(<i>k</i>)
+D) (1 − <i>k</i>)/(<i>k</i>)
+K: B
+E: At x = 0, f(0) = −10(1) + 1/k = (1 − 10k)/k.
+#12
+I: /qimg/mar3-math-m2-q12.svg
+Q: The shaded region shown represents the solutions to <i>r</i><i>x</i> + <i>t</i><i>y</i> ≥ −77, where <i>r</i> and <i>t</i> are constants. What is the value of <i>r</i> + <i>t</i>?
+A) 8
+B) 6
+C) −6
+D) −7
+K: A
+E: The boundary line passes through (0, −11) and (−7, −10). Substituting into rx + ty = −77 gives −11t = −77, so t = 7, and −7r − 70 = −77, so r = 1. Then r + t = 8.
+#13
+Q: 3<i>x</i> = 45<i>y</i> − 27
+Q: One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?
+A) <i>x</i> = 5<i>y</i>
+B) (1)/(3)<i>x</i> = 5<i>y</i>
+C) <i>x</i> = 15<i>y</i> − 9
+D) (1)/(3)<i>x</i> = 15<i>y</i> − 9
+K: B
+E: The given equation simplifies to x = 15y − 9. Choice B simplifies to x = 15y, a parallel line with a different intercept, so the system has no solution.
+#14
+Q: A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is $22.80, which function <i>f</i> gives the total cost, in dollars, of <i>x</i> classes taken using this promotion, where <i>x</i> ≥ 2?
+A) <i>f</i>(<i>x</i>) = 22.80(<i>x</i> − 1) + 11.40
+B) <i>f</i>(<i>x</i>) = 22.80(<i>x</i> − 2) + 11.40
+C) <i>f</i>(<i>x</i>) = 22.80(<i>x</i> − 1) + 11.40(<i>x</i> − 2)
+D) <i>f</i>(<i>x</i>) = 22.80(<i>x</i> − 2) + 11.40(<i>x</i> − 1)
+K: B
+E: Of x classes, the first is free, the second costs 11.40, and the other x − 2 cost 22.80 each, so f(x) = 22.80(x − 2) + 11.40.
+#15
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = 6<i>x</i> + 14. What is the <i>y</i>-coordinate of the <i>y</i>-intercept of the graph of <i>y</i> = <i>f</i>(<i>x</i>) in the <i>xy</i>-plane?
+K: 14
+E: The y-intercept occurs at x = 0, where f(0) = 14.
+#16
+I: /qimg/mar3-math-m2-q16.svg
+Q: The graph of <i>y</i> = <i>f</i>(<i>x</i>) + 2 is shown. Which equation defines function <i>f</i>?
+A) <i>f</i>(<i>x</i>) = −3^<i>x</i> + 1
+B) <i>f</i>(<i>x</i>) = −3^<i>x</i> + 3
+C) <i>f</i>(<i>x</i>) = −3^<i>x</i> + 4
+D) <i>f</i>(<i>x</i>) = −3^<i>x</i> + 5
+K: B
+E: The shown graph passes through (0, 4) and (1, 2), matching y = −3^x + 5. Since this equals f(x) + 2, f(x) = −3^x + 3.
+#17
+Q: A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?
+A) 3.90
+B) 7.65
+C) 38.50
+D) 43.33
+K: D
+E: The actual side is 55 × 13 = 715 miles. The smaller map's side is 0.30 × 55 = 16.5 inches, so 1 inch represents 715 ÷ 16.5 ≈ 43.33 miles.
+#18
+Q: <i>y</i> = <i>x</i> − <i>c</i>
+Q: <i>y</i> = −4(<i>x</i> − 8)^2
+Q: In the given system of equations, <i>c</i> is a constant. The system has two distinct real solutions. Which of the following could be the value of <i>c</i>?
+A) 3
+B) 7
+C) (127)/(16)
+D) 13
+K: D
+E: Setting the expressions equal gives 4x^2 − 63x + 256 − c = 0. Two real solutions require 63^2 − 16(256 − c) > 0, so c > 127/16 ≈ 7.94; of the choices only 13 works.
+#19
+Q: In triangle <i>ABC</i>, the measure of angle <i>A</i> is 52° and <i>AC</i> = 35. In triangle <i>PQR</i>, the measure of angle <i>P</i> is 52° and <i>PR</i> = 105. Which additional piece of information is sufficient to prove that triangle <i>ABC</i> is similar to triangle <i>PQR</i>?
+A) <i>AB</i> = 30 and <i>PQ</i> = 30.
+B) <i>AB</i> = 30 and <i>QR</i> = 90.
+C) The measures of angle <i>B</i> and angle <i>R</i> are 34° and 94°, respectively.
+D) The measures of angle <i>B</i> and angle <i>Q</i> are 52° and 34°, respectively.
+K: C
+E: With B = 34°, angle C = 180 − 52 − 34 = 94°. With P = 52° and R = 94°, angle Q = 34°, so all three angles match and the triangles are similar by AA.
+#20
+Q: The perimeter of an equilateral triangle is 876 centimeters. The three vertices of the triangle lie on a circle. The radius of the circle is <i>w</i>√(3) centimeters. What is the value of <i>w</i>?
+K: 292/3 | 97.33 | 97.34
+E: Each side is 876 ÷ 3 = 292. The circumradius of an equilateral triangle is s/√3 = 292√3/3, so w = 292/3 ≈ 97.33.
+#21
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = |<i>x</i>|/<i>a</i> − 14, where <i>a</i> < 0. What is the product of <i>f</i>(15<i>a</i>) and <i>f</i>(8<i>a</i>)?
+K: 638
+E: Since a < 0, |15a|/a = −15 and |8a|/a = −8. So f(15a) = −29 and f(8a) = −22, and the product is 638.
+#22
+Q: The function <i>f</i> is defined by <i>f</i>(<i>x</i>) = <i>a</i><i>b</i>^(<i>x</i>/<i>n</i>), where <i>a</i>, <i>b</i>, and <i>n</i> are constants, and <i>b</i> and <i>n</i> are integers. If <i>f</i>(4) = 5 and <i>f</i>(7) = 135, what is the value of <i>f</i>(9)?
+K: 1215
+E: Dividing f(7) by f(4) gives b^(3/n) = 27, so the growth factor per unit of x is 3 and f(x) = a·3^x. Then f(9)/f(4) = 3^5 = 243, so f(9) = 5 × 243 = 1215.
