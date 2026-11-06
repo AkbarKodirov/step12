@@ -7,6 +7,7 @@ import { HumoExplain } from '../components/HumoExplain'
 import { Highlightable } from '../components/Highlightable'
 import { clearHighlights } from '../highlights'
 import { RichText } from '../components/RichText'
+import { ReferenceSheet } from '../components/ReferenceSheet'
 import { askHumo, questionPayload } from '../humo'
 import { useAuth } from '../../lib/auth'
 
@@ -109,6 +110,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
   const [confirmExit, setConfirmExit] = useState(false)
   const [calc, setCalc] = useState(false)
   const [refSheet, setRefSheet] = useState(false)
+  const closeRefSheet = useCallback(() => setRefSheet(false), [])
   const [annotate, setAnnotate] = useState(true)
   const isRW = test.type !== 'MATH'
   const started = useRef(Date.now())
@@ -525,38 +527,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
           <iframe title="Desmos graphing calculator" src="https://www.desmos.com/calculator" className="flex-1" />
         </div>
       )}
-      {refSheet && (
-        <div className="fixed right-3 top-20 z-30 w-[min(94vw,24rem)] rounded-2xl border border-line bg-card p-5 shadow-2xl">
-          <div className="flex items-center justify-between">
-            <span className="text-[13px] font-semibold">Reference sheet</span>
-            <button onClick={() => setRefSheet(false)} aria-label="Close reference sheet" className="rounded-md p-1 text-moss hover:bg-cream">
-              <X className="size-4" />
-            </button>
-          </div>
-          <ul className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 font-mono text-[12.5px]">
-            {[
-              ['Circle', 'A = πr², C = 2πr'],
-              ['Rectangle', 'A = lw'],
-              ['Triangle', 'A = ½bh'],
-              ['Pythagoras', 'c² = a² + b²'],
-              ['30-60-90', 'x, x√3, 2x'],
-              ['45-45-90', 's, s, s√2'],
-              ['Box', 'V = lwh'],
-              ['Cylinder', 'V = πr²h'],
-              ['Sphere', 'V = 4⁄3 πr³'],
-              ['Cone', 'V = 1⁄3 πr²h'],
-              ['Pyramid', 'V = 1⁄3 lwh'],
-              ['Circle', '360° = 2π rad'],
-            ].map(([k, v], i) => (
-              <li key={i} className="rounded-lg bg-cream px-2.5 py-1.5">
-                <span className="block font-sans text-[10.5px] text-moss">{k}</span>
-                {v}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-3 text-[11.5px] text-moss">The sum of the angles in a triangle is 180°.</p>
-        </div>
-      )}
+      {refSheet && test.type === 'MATH' && <ReferenceSheet onClose={closeRefSheet} />}
 
       {/* Exit confirm */}
       <AnimatePresence>
