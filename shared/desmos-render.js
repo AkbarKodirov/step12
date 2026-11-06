@@ -28,6 +28,48 @@ export function fmt(v) {
   return String(Number(v.toPrecision(6)))
 }
 
+/** Plain Desmos text → Desmos LaTeX (what the calculator API's setExpression expects): a + 7 ~ 6 → a+7\sim 6. */
+export function toLatex(t) {
+  let s = String(t ?? '')
+    .replace(/∼/g, '~')
+    .replace(/[−–]/g, '-')
+    .replace(/[·×]/g, '*')
+    .replace(/π/g, 'pi')
+    .replace(/√\s*\(/g, 'sqrt(')
+  // sqrt(…) → \sqrt{…}
+  for (let guard = 0; guard < 10 && s.includes('sqrt('); guard++) {
+    const i = s.indexOf('sqrt(')
+    let depth = 0
+    let j = i + 4
+    for (; j < s.length; j++) {
+      if (s[j] === '(') depth++
+      if (s[j] === ')' && --depth === 0) break
+    }
+    s = `${s.slice(0, i)}\\sqrt{${s.slice(i + 5, j)}}${s.slice(j + 1)}`
+  }
+  return s
+    .replace(/\^(\d{2,}|\([^()]*\))/g, (_, g) => `^{${g.replace(/^\((.*)\)$/, '$1')}}`)
+    .replace(/_(\w{2,})/g, '_{$1}')
+    .replace(/~/g, '\\sim ')
+    .replace(/<=|≤/g, '\\le ')
+    .replace(/>=|≥/g, '\\ge ')
+    .replace(/\*/g, '\\cdot ')
+    .replace(/\bpi\b/g, '\\pi ')
+    .replace(/\[/g, '\\left[')
+    .replace(/\]/g, '\\right]')
+    .replace(/\{(?=[^}]*[<>=\\])/g, '\\left\\{')
+}
+
+/** The LaTeX a line is typed into the live Desmos with. A regression always reaches Desmos with \sim (its tilde),
+ *  even when the model wrote a bare ~ (LaTeX's non-breaking space) or left the tilde out of its LaTeX. */
+export function desmosLatex(latex, text) {
+  const t = String(text ?? '')
+  let l = String(latex ?? '').trim()
+  const regression = /[~∼]/.test(t)
+  if (!l || (regression && !/\\sim|~/.test(l))) l = toLatex(t)
+  return l.replace(/(?<!\\)~/g, '\\sim ').replace(/∼/g, '\\sim ')
+}
+
 const WORDS = new Set(['of', 'mean', 'median', 'stdev', 'stdevp', 'total', 'round', 'random', 'min', 'max', 'sin', 'cos', 'tan', 'ln', 'log', 'abs', 'RMSE', 'length', 'sort', 'for', 'polygon', 'distance', 'midpoint'])
 
 function plain(t) {
