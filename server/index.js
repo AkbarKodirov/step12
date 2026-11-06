@@ -388,7 +388,16 @@ Allowed kinds: drill-rw, drill-math, skill (add "skill" with one Digital SAT ski
 review (review last test), desmos (Desmos Lab), custom (any other task). 0–5 tasks per day, 5–180 minutes each. Keep tasks the student did not ask to change.
 The app shows your plan as a card with an "Apply" button right after your words; never claim it is already applied and don't write anything after the block.`
 
-const HUMO_FULL = `${HUMO_SYSTEM}\n\n${DESMOS_GUIDE}\n\n${PLAN_GUIDE}`
+/* Chat replies are typeset by the app (RichText → real fractions, superscripts and radicals), so there Humo writes LaTeX
+   between $…$; JSON answers (similar questions, plans) keep the plain-text math rule above. */
+const PLAIN_MATH_RULE = /- Keep answers short and scannable;[^\n]*\n/
+const MATH_STYLE = `- Keep answers short and scannable; use plain text, not markdown tables.
+- MATH FORMAT: the app typesets math, so write every formula, fraction, power or root in your sentences as LaTeX between single dollar signs:
+  $x^2 - 5x + 6 = 0$, $\\frac{4}{7}$, $\\sqrt{2}$, $x \\le 3$, $a = -1$, $(x+1)^{3}$. Never write raw x^2, 4/7 or sqrt(2) in prose.
+  Desmos lines (what the student types) go in \`backticks\` exactly as typed, e.g. \`a + 7 ~ 6\` — never inside $…$. Write money as 5 dollars (or \\$5).
+`
+const HUMO_CHAT = HUMO_SYSTEM.replace(PLAIN_MATH_RULE, MATH_STYLE)
+const HUMO_FULL = `${HUMO_CHAT}\n\n${DESMOS_GUIDE}\n\n${PLAN_GUIDE}`
 const NO_KEY = 'Humo is taking a short break. Please try again later.' // (server has no GEMINI_API_KEY)
 
 /* ---------- Humo replies: pull out checked Desmos screens and plan proposals ---------- */
@@ -407,7 +416,7 @@ export function cleanPlan(p) {
 async function repairDesmos(spec, errors, question, expect) {
   const out = await gemini.models.generateContent({
     mistral: 'last',
-    contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nRecompute the math and return ONLY the corrected spec as JSON (same format). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. A slider value goes in its own line with a "result"; the answer goes in a "result" expression on the line that really produces it (never a separate line like "n = 2"), and a count of solutions is shown by marking each intersection as a point.` }] }],
+    contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}This Desmos screen spec was refused by the checker:\n${JSON.stringify(spec)}\n\nErrors:\n- ${errors.join('\n- ')}\n\nFix it and return ONLY the corrected spec as JSON (same format). The answer must come from a regression line: rename the unknown as a one-letter parameter (a, b, k … never x or y) and write the equation with ~ (e.g. "a + 7 ~ 6", latex "a+7\\\\sim 6"); the server fits it like Desmos. A system is ONE list regression like "[2a + 3b, a - b] ~ [12, 1]". For a second root divide out the first, typed as a number: "(b^2 - 5b + 6)/(b - 2) ~ 0" (a ~ line may not use another regression's letter). Every curve must be an expression in x alone: put the numbers in, never a letter like k or a. Never add a separate line like "n = 2", and a count of solutions is shown by marking each intersection as a point.` }] }],
     config: { systemInstruction: DESMOS_GUIDE, temperature: 0.1, responseMimeType: 'application/json' },
   }, 15_000)
   return parseSpec(out.text)
@@ -455,7 +464,7 @@ async function finishReply(text, { expect, question } = {}) {
 
 const DESMOS_LAB = `DESMOS LAB MODE: the student sends photos or screenshots of SAT Math questions (sometimes several, sometimes with a typed note).
 First write the question you read in one or two lines ("I read: …") so the student can catch a misread. If the photo is unreadable or cut off, say what is missing and ask for a clearer photo instead of guessing.
-Then solve it the Desmos way in the 7-part shape with exactly one desmos block. For a Reading & Writing question, answer normally without a desmos block.`
+Then solve it the Desmos way in the 7-part shape with exactly one desmos block, and get the answer from a regression: the unknown renamed as a parameter and ~ in place of = (x + 7 = 6 → \`a + 7 ~ 6\` → a = −1). Graphs may illustrate, but the answer is the regression parameter. For a Reading & Writing question, answer normally without a desmos block.`
 
 function toParts(m) {
   const parts = []
@@ -789,11 +798,11 @@ app.post('/api/desmos/solve', async (req, res) => {
   const expect = answerValue(String(correctValue ?? '').replace(/^.*=\s*/, ''))
   try {
     if (!solving.has(id)) {
-      const prompt = `Solve this Digital SAT math question the Desmos way.\n\n${question}\n\nVerified answer: ${correct}${bank ? `\nVerified Desmos route (follow it): ${bank.desmos.join(' | ')}\nLook for: ${bank.look_for}\nWhy: ${bank.why}\nTrap: ${bank.trap}\nRule: ${bank.rule}` : ''}\n\nUse the 7-part reply shape and include exactly one desmos block. The screen must show the answer${expect != null ? ` ${expect}` : ''} as a result, parameter or labeled point. Under 220 words besides the block. English.`
+      const prompt = `Solve this Digital SAT math question the Desmos way.\n\n${question}\n\nVerified answer: ${correct}${bank ? `\nVerified Desmos route (follow it): ${bank.desmos.join(' | ')}\nLook for: ${bank.look_for}\nWhy: ${bank.why}\nTrap: ${bank.trap}\nRule: ${bank.rule}` : ''}\n\nUse the 7-part reply shape and include exactly one desmos block. The answer${expect != null ? ` ${expect}` : ''} must come from a regression parameter (unknown renamed as a, b, k … and ~ in place of =), or a computed result line for stats. Under 220 words besides the block. English.`
       solving.set(
         id,
         gemini.models
-          .generateContent({ contents: [{ role: 'user', parts: [{ text: prompt }] }], config: { systemInstruction: `${HUMO_SYSTEM}\n\n${DESMOS_GUIDE}`, temperature: 0.2 } })
+          .generateContent({ contents: [{ role: 'user', parts: [{ text: prompt }] }], config: { systemInstruction: `${HUMO_CHAT}\n\n${DESMOS_GUIDE}`, temperature: 0.2 } })
           .then((o) => finishReply(o.text || '', { expect: expect ?? undefined, question }))
           .then((r) => {
             const v = { text: r.text, desmos: r.desmos }
