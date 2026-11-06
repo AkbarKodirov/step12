@@ -825,7 +825,6 @@ app.post('/api/desmos/solve', async (req, res) => {
 /* ---------- Humo edits the study plan ---------- */
 app.post('/api/plan', auth, async (req, res) => {
   const { plan, profile, instruction } = req.body || {}
-  if (planOf(await getUser(req.user.email), req.user.email).tier !== 'pro') return res.status(402).json({ code: 'pro', error: 'The study plan is part of Humo Pro.' })
   if (!instruction) return res.status(400).json({ error: 'Tell Humo what to change.' })
   if (!gemini) return res.status(503).json({ error: NO_KEY })
   try {
