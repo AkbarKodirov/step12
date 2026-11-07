@@ -4,4 +4,4 @@ Disallow: /app
 Disallow: /api/
 Disallow: /auth/
 
-Sitemap: https://step12.onrender.com/sitemap.xml
+Sitemap: https://humo-prep.com/sitemap.xml
