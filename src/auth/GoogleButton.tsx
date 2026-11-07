@@ -31,6 +31,22 @@ export const isPhone = () =>
   (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent)) || // iPadOS reports itself as a Mac
   (window.matchMedia?.('(pointer: coarse)').matches && Math.min(screen.width, screen.height) < 820)
 
+/** Google refuses to sign in inside Telegram / Instagram / other in-app browsers (error 403 disallowed_useragent).
+ * Send the student to a real browser instead: Chrome on Android (intent link), Safari on iPhone (x-safari scheme, iOS 17+).
+ * Returns false when it cannot leave the in-app browser, so the page can show "Open in browser" help. */
+export function openInRealBrowser(path = '/login') {
+  const url = new URL(path, location.origin)
+  if (/Android/i.test(navigator.userAgent)) {
+    location.href = `intent://${url.host}${url.pathname}${url.search}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(url.href)};end`
+    return true
+  }
+  if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    location.href = `x-safari-${url.href}`
+    return true
+  }
+  return false
+}
+
 /** Full-page Google sign-in (no popup) — used when a phone blocks the popup. */
 export function googleRedirect() {
   const state = Math.random().toString(36).slice(2)
@@ -85,6 +101,12 @@ function LiveButton({ size = 'lg', className = '', label = 'Continue with Google
         disabled={busy}
         onClick={() => {
           setError(null)
+          // inside Telegram/Instagram Google always fails: jump to Chrome/Safari first
+          if (inAppBrowser()) {
+            if (!openInRealBrowser(location.pathname)) setError('Open this page in Chrome or Safari to continue with Google.')
+            setTimeout(() => setError('If nothing opened: tap ⋮ or ⋯ and choose "Open in browser", or sign in with email below.'), 1500)
+            return
+          }
           setBusy(true)
           // phones: full-page sign-in every time (no popup to get blocked or lost)
           if (isPhone()) return googleRedirect()
