@@ -102,8 +102,8 @@ function PageHead({ title, sub }: { title: string; sub: string }) {
   return (
     <div className="flex flex-wrap items-end justify-between gap-3">
       <div>
-        <h1 className="display text-[clamp(1.9rem,4vw,2.6rem)] leading-tight">{title}</h1>
-        <p className="mt-1 text-[14px] text-moss">{sub}</p>
+        <h1 className="text-[clamp(1.6rem,3.2vw,2.1rem)] font-semibold leading-tight tracking-tight text-[#0b1d36]">{title}</h1>
+        <p className="mt-1 text-[13.5px] text-[#8a96a8]">{sub}</p>
       </div>
       <button
         onClick={async () => {
@@ -111,7 +111,7 @@ function PageHead({ title, sub }: { title: string; sub: string }) {
           await load()
           setSpin(false)
         }}
-        className="btn btn-ghost h-10 px-4 text-[13px]"
+        className="inline-flex h-10 items-center gap-2 rounded-xl border border-[#e8edf4] bg-white px-4 text-[13px] font-medium text-[#0b1d36] shadow-sm transition hover:bg-[#f7f9fc]"
       >
         <RefreshCw className={`size-4 ${spin ? 'animate-spin' : ''}`} /> Refresh
       </button>
@@ -135,7 +135,7 @@ function GrantForm() {
         e.preventDefault()
         if (email.trim() && (await setPlan(email.trim().toLowerCase(), 'pro', dur))) setEmail('')
       }}
-      className="card p-5"
+      className="rounded-[22px] border border-[#e8edf4] bg-white p-5 shadow-[0_12px_32px_-18px_rgba(3,36,74,.18)]"
     >
       <p className="flex items-center gap-2 text-[15px] font-semibold">
         <UserPlus className="size-4" /> Make an email Pro
@@ -158,44 +158,148 @@ function GrantForm() {
   )
 }
 
-/** Simple bar chart for the last 14 days. */
-function Bars({ trend, keys, title, total }: { trend: Trend[]; keys: { k: keyof Trend; color: string; label: string }[]; title: string; total: string }) {
-  const max = Math.max(1, ...trend.map((t) => keys.reduce((a, { k }) => a + (t[k] as number), 0)))
+/* ---------- charts ---------- */
+/** Smooth path through points (Catmull-Rom to cubic Bezier). */
+function smooth(pts: [number, number][]) {
+  if (pts.length < 2) return ''
+  let d = `M${pts[0][0]},${pts[0][1]}`
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i - 1] ?? pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] ?? p2
+    d += ` C${p1[0] + (p2[0] - p0[0]) / 6},${p1[1] + (p2[1] - p0[1]) / 6} ${p2[0] - (p3[0] - p1[0]) / 6},${p2[1] - (p3[1] - p1[1]) / 6} ${p2[0]},${p2[1]}`
+  }
+  return d
+}
+
+function Sparkline({ values, color }: { values: number[]; color: string }) {
+  const max = Math.max(1, ...values), W = 96, H = 34
+  const pts = values.map((v, i) => [(i / Math.max(1, values.length - 1)) * W, H - 3 - (v / max) * (H - 6)] as [number, number])
+  const id = `sp${color.replace('#', '')}`
   return (
-    <div className="card p-5">
-      <div className="flex items-baseline justify-between gap-2">
-        <p className="text-[14px] font-semibold">{title}</p>
-        <p className="text-[12px] text-moss">{total}</p>
-      </div>
-      <div className="mt-4 flex h-32 items-end gap-1">
-        {trend.map((t) => {
-          const sum = keys.reduce((a, { k }) => a + (t[k] as number), 0)
-          return (
-            <div key={t.day} className="group relative flex h-full flex-1 flex-col justify-end" title={`${t.day}: ${keys.map(({ k, label }) => `${t[k]} ${label}`).join(', ')}`}>
-              <div className="flex flex-col-reverse overflow-hidden rounded-t-md" style={{ height: `${(sum / max) * 100}%`, minHeight: sum ? 3 : 0 }}>
-                {keys.map(({ k, color }) => (
-                  <div key={k} style={{ flex: t[k] as number, background: color }} />
-                ))}
-              </div>
-              {!sum && <div className="h-[3px] rounded bg-soft" />}
-            </div>
-          )
-        })}
-      </div>
-      <div className="mt-2 flex justify-between text-[10.5px] text-moss">
-        <span>{trend[0]?.day.slice(5)}</span>
-        <span>Today</span>
-      </div>
-      {keys.length > 1 && (
-        <div className="mt-2 flex gap-3 text-[11.5px] text-moss">
-          {keys.map(({ k, color, label }) => (
-            <span key={k} className="inline-flex items-center gap-1.5">
-              <span className="size-2.5 rounded-sm" style={{ background: color }} /> {label}
-            </span>
-          ))}
+    <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} className="overflow-visible">
+      <defs>
+        <linearGradient id={id} x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0" stopColor={color} stopOpacity=".28" />
+          <stop offset="1" stopColor={color} stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      <path d={`${smooth(pts)} L${W},${H} L0,${H}Z`} fill={`url(#${id})`} />
+      <path d={smooth(pts)} fill="none" stroke={color} strokeWidth={2} strokeLinecap="round" />
+    </svg>
+  )
+}
+
+/** Two-series area chart for the last 14 days, with a hover readout. */
+function AreaChart({ trend }: { trend: Trend[] }) {
+  const [hover, setHover] = useState<number | null>(null)
+  const W = 640, H = 230, P = { l: 34, r: 12, t: 14, b: 26 }
+  const a = trend.map((t) => t.active), b = trend.map((t) => t.humo + t.desmos)
+  const nice = Math.ceil(Math.max(4, ...a, ...b) / 4) * 4
+  const X = (i: number) => P.l + (i / Math.max(1, trend.length - 1)) * (W - P.l - P.r)
+  const Y = (v: number) => P.t + (1 - v / nice) * (H - P.t - P.b)
+  const line = (vals: number[]) => smooth(vals.map((v, i) => [X(i), Y(v)]))
+  const area = (vals: number[]) => `${line(vals)} L${X(vals.length - 1)},${H - P.b} L${X(0)},${H - P.b}Z`
+  const h = hover != null ? trend[hover] : null
+  return (
+    <div className="relative">
+      <svg
+        viewBox={`0 0 ${W} ${H}`}
+        className="h-auto w-full touch-none"
+        onMouseLeave={() => setHover(null)}
+        onPointerMove={(e) => {
+          const r = (e.currentTarget as SVGSVGElement).getBoundingClientRect()
+          const x = ((e.clientX - r.left) / r.width) * W
+          setHover(Math.max(0, Math.min(trend.length - 1, Math.round(((x - P.l) / (W - P.l - P.r)) * (trend.length - 1)))))
+        }}
+      >
+        <defs>
+          <linearGradient id="ga" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stopColor="#03244a" stopOpacity=".22" /><stop offset="1" stopColor="#03244a" stopOpacity="0" /></linearGradient>
+          <linearGradient id="gb" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stopColor="#e0456b" stopOpacity=".26" /><stop offset="1" stopColor="#e0456b" stopOpacity="0" /></linearGradient>
+        </defs>
+        {[0, 1, 2, 3, 4].map((k) => (
+          <g key={k}>
+            <line x1={P.l} x2={W - P.r} y1={Y((nice / 4) * k)} y2={Y((nice / 4) * k)} stroke="#e8edf4" strokeDasharray={k ? '4 6' : undefined} />
+            <text x={P.l - 8} y={Y((nice / 4) * k) + 4} textAnchor="end" fontSize="11" fill="#8a96a8">{(nice / 4) * k}</text>
+          </g>
+        ))}
+        {trend.map((t, i) => (i % 2 === 0 || i === trend.length - 1 ? <text key={t.day} x={X(i)} y={H - 6} textAnchor="middle" fontSize="11" fill="#8a96a8">{i === trend.length - 1 ? 'Today' : t.day.slice(8)}</text> : null))}
+        <motion.path d={area(b)} fill="url(#gb)" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }} />
+        <motion.path d={area(a)} fill="url(#ga)" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }} />
+        <motion.path d={line(b)} fill="none" stroke="#e0456b" strokeWidth={2.5} strokeLinecap="round" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }} />
+        <motion.path d={line(a)} fill="none" stroke="#03244a" strokeWidth={2.5} strokeLinecap="round" initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }} />
+        {hover != null && (
+          <g>
+            <line x1={X(hover)} x2={X(hover)} y1={P.t} y2={H - P.b} stroke="#c9d3e1" />
+            <circle cx={X(hover)} cy={Y(a[hover])} r={5} fill="#fff" stroke="#03244a" strokeWidth={2.5} />
+            <circle cx={X(hover)} cy={Y(b[hover])} r={5} fill="#fff" stroke="#e0456b" strokeWidth={2.5} />
+          </g>
+        )}
+      </svg>
+      {h && hover != null && (
+        <div className="pointer-events-none absolute top-2 rounded-xl bg-[#03244a] px-3 py-2 text-[12px] text-white shadow-lg" style={{ left: `clamp(8px, calc(${(X(hover) / W) * 100}% - 70px), calc(100% - 170px))` }}>
+          <p className="font-semibold">{new Date(h.day).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</p>
+          <p className="text-white/75">
+            {h.active} active · {h.humo + h.desmos} questions · {h.signups} new
+          </p>
         </div>
       )}
     </div>
+  )
+}
+
+function Donut({ pro, free }: { pro: number; free: number }) {
+  const total = Math.max(1, pro + free), C = 2 * Math.PI * 52
+  return (
+    <div className="flex items-center gap-5">
+      <svg width={132} height={132} viewBox="0 0 132 132" className="shrink-0 -rotate-90">
+        <defs>
+          <linearGradient id="dg"><stop offset="0" stopColor="#f5b83d" /><stop offset="1" stopColor="#e0456b" /></linearGradient>
+        </defs>
+        <circle cx={66} cy={66} r={52} fill="none" stroke="#eef2f7" strokeWidth={16} />
+        <motion.circle cx={66} cy={66} r={52} fill="none" stroke="url(#dg)" strokeWidth={16} strokeLinecap="round" initial={{ strokeDasharray: `0 ${C}` }} animate={{ strokeDasharray: `${(pro / total) * C} ${C}` }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }} />
+      </svg>
+      <div className="min-w-0 flex-1 space-y-2.5 text-[13px] text-[#0b1d36]">
+        <p className="flex items-center gap-2"><span className="size-2.5 rounded-full bg-gradient-to-r from-amber-400 to-[#e0456b]" /> Pro <b className="ml-auto tabular-nums">{pro}</b></p>
+        <p className="flex items-center gap-2"><span className="size-2.5 rounded-full bg-[#dfe5ee]" /> Free <b className="ml-auto tabular-nums">{free}</b></p>
+        <p className="font-serif text-[26px] leading-none tabular-nums">
+          {Math.round((pro / total) * 100)}%<span className="ml-1 font-sans text-[12px] text-[#8a96a8]">paying</span>
+        </p>
+      </div>
+    </div>
+  )
+}
+
+const sum = (xs: number[]) => xs.reduce((a, b) => a + b, 0)
+/** Last 7 days against the 7 before, e.g. "+12%". */
+function delta(values: number[]) {
+  const now = sum(values.slice(-7)), before = sum(values.slice(-14, -7))
+  if (!before) return { up: true, text: now ? 'new' : '0%' }
+  const pct = Math.round(((now - before) / before) * 100)
+  return { up: pct >= 0, text: `${pct >= 0 ? '+' : ''}${pct}%` }
+}
+
+const CARD = 'rounded-[22px] border border-[#e8edf4] bg-white shadow-[0_1px_2px_rgba(3,36,74,.04),0_12px_32px_-18px_rgba(3,36,74,.18)]'
+
+function StatCard({ label, value, sub, icon: Icon, tone, spark, i }: { label: string; value: string | number; sub: string; icon: typeof Users; tone: string; spark: number[]; i: number }) {
+  const d = delta(spark)
+  return (
+    <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }} whileHover={{ y: -3 }} className={`${CARD} p-4 sm:p-5`}>
+      <div className="flex items-start justify-between gap-2">
+        <span className="grid size-10 place-items-center rounded-2xl" style={{ background: `${tone}14`, color: tone }}>
+          <Icon className="size-[18px]" />
+        </span>
+        <span className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${d.up ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-600'}`}>
+          {d.up ? '↑' : '↓'} {d.text}
+        </span>
+      </div>
+      <p className="mt-4 text-[12.5px] font-medium text-[#6b7a90]">{label}</p>
+      <div className="mt-1 flex items-end justify-between gap-2">
+        <p className="text-[28px] font-semibold leading-none tabular-nums text-[#0b1d36] sm:text-[32px]">{value}</p>
+        <span className="hidden sm:block">
+          <Sparkline values={spark} color={tone} />
+        </span>
+      </div>
+      <p className="mt-2 text-[11.5px] text-[#8a96a8]">{sub}</p>
+    </motion.div>
   )
 }
 
@@ -203,73 +307,84 @@ function Bars({ trend, keys, title, total }: { trend: Trend[]; keys: { k: keyof 
 function Overview() {
   const { data } = useAdmin()
   if (!data) return null
-  const s = data.stats
-  const tiles: [string, string | number, string, typeof Users][] = [
-    ['Students', s.users, `${s.newThisWeek} new this week`, Users],
-    ['Pro students', s.pro, `${s.users ? Math.round((s.pro / s.users) * 100) : 0}% of all students`, Crown],
-    ['Active today', s.activeToday, `${s.activeThisWeek} active this week`, Activity],
-    ['Humo today', s.humoToday + s.desmosToday, `${s.humoToday} chat · ${s.desmosToday} Desmos Lab`, Sigma],
-  ]
-  const signups = data.trend.reduce((a, t) => a + t.signups, 0)
-  const uses = data.trend.reduce((a, t) => a + t.humo + t.desmos, 0)
+  const s = data.stats, t = data.trend
+  const signups = sum(t.map((x) => x.signups))
+  const uses = sum(t.map((x) => x.humo + x.desmos))
   return (
     <>
       <PageHead title="Overview" sub="How Humo AI is doing today." />
       <div className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
-        {tiles.map(([k, v, sub, Icon], i) => (
-          <motion.div key={k} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} className="card p-4 sm:p-5">
-            <p className="flex items-center gap-1.5 text-[12.5px] font-medium text-moss">
-              <Icon className="size-3.5" /> {k}
+        <StatCard i={0} label="Students" value={s.users} sub={`${s.newThisWeek} new this week`} icon={Users} tone="#03244a" spark={t.map((x) => x.signups)} />
+        <StatCard i={1} label="Pro students" value={s.pro} sub={`${s.users ? Math.round((s.pro / s.users) * 100) : 0}% of all students`} icon={Crown} tone="#d99a1e" spark={t.map((x) => x.signups)} />
+        <StatCard i={2} label="Active today" value={s.activeToday} sub={`${s.activeThisWeek} active this week`} icon={Activity} tone="#16a34a" spark={t.map((x) => x.active)} />
+        <StatCard i={3} label="Humo today" value={s.humoToday + s.desmosToday} sub={`${s.humoToday} chat · ${s.desmosToday} Desmos Lab`} icon={Sigma} tone="#e0456b" spark={t.map((x) => x.humo + x.desmos)} />
+      </div>
+
+      <div className="mt-3 grid gap-3 lg:grid-cols-[minmax(0,1fr)_340px]">
+        <div className={`${CARD} min-w-0 p-4 sm:p-6`}>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <p className="text-[15px] font-semibold text-[#0b1d36]">Activity</p>
+              <p className="text-[12px] text-[#8a96a8]">
+                Last 14 days · {signups} sign-ups · {uses} questions
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3 text-[12px] text-[#6b7a90]">
+              <span className="inline-flex items-center gap-1.5"><span className="h-[3px] w-4 rounded bg-[#03244a]" /> Active students</span>
+              <span className="inline-flex items-center gap-1.5"><span className="h-[3px] w-4 rounded bg-[#e0456b]" /> Humo questions</span>
+            </div>
+          </div>
+          <div className="mt-4">
+            <AreaChart trend={t} />
+          </div>
+        </div>
+        <div className="grid gap-3">
+          <div className={`${CARD} p-5`}>
+            <p className="text-[15px] font-semibold text-[#0b1d36]">Free vs Pro</p>
+            <div className="mt-4">
+              <Donut pro={s.pro} free={s.free} />
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-[22px] bg-gradient-to-br from-[#0e2f5c] via-[#03244a] to-[#2a0f2e] p-5 text-white shadow-[0_18px_40px_-20px_rgba(3,36,74,.7)]">
+            <div className="pointer-events-none absolute -right-12 -top-16 size-44 rounded-full bg-[#e0456b]/40 blur-3xl" />
+            <p className="relative flex items-center gap-1.5 text-[12.5px] text-white/65">
+              <Crown className="size-3.5 text-amber-300" /> Monthly Pro value
             </p>
-            <p className="mt-1.5 text-[30px] font-semibold tabular-nums leading-none">{v}</p>
-            <p className="mt-1.5 text-[11.5px] text-moss">{sub}</p>
-          </motion.div>
-        ))}
+            <p className="relative mt-1 text-[28px] font-semibold tabular-nums">
+              {uzs(s.monthlyUzs)} <span className="text-[15px] text-white/60">so&apos;m</span>
+            </p>
+            <p className="relative mt-1 text-[12px] text-white/55">
+              {Math.round(s.monthlyUzs / data.config.priceUzs)} Pro × {uzs(data.config.priceUzs)} so&apos;m
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="relative mt-3 overflow-hidden rounded-[24px] bg-[#03244a] px-5 py-5 text-white sm:px-6">
-        <div className="pointer-events-none absolute -right-16 -top-20 size-56 rounded-full bg-[#bb0937]/40 blur-3xl" />
-        <p className="relative text-[12.5px] text-white/60">Monthly value of Pro students</p>
-        <p className="relative mt-0.5 text-[30px] font-semibold tabular-nums">{uzs(s.monthlyUzs)} so'm</p>
-        <p className="relative text-[12px] text-white/55">
-          {Math.round(s.monthlyUzs / data.config.priceUzs)} Pro × {uzs(data.config.priceUzs)} so'm, not counting always-Pro accounts
-        </p>
-      </div>
-      <div className="mt-3 grid gap-3 lg:grid-cols-2">
-        <Bars trend={data.trend} keys={[{ k: 'signups', color: '#bb0937', label: 'sign-ups' }]} title="New students" total={`${signups} in 14 days`} />
-        <Bars
-          trend={data.trend}
-          keys={[
-            { k: 'humo', color: '#03244a', label: 'Ask Humo' },
-            { k: 'desmos', color: '#2d70b3', label: 'Desmos Lab' },
-          ]}
-          title="Humo questions"
-          total={`${uses} in 14 days`}
-        />
-      </div>
+
       <div className="mt-3 grid gap-3 lg:grid-cols-2">
         <GrantForm />
-        <div className="card p-5">
+        <div className={`${CARD} p-5`}>
           <div className="flex items-center justify-between">
-            <p className="text-[15px] font-semibold">Newest students</p>
-            <Link to="/app/students" className="text-[12.5px] font-semibold text-jg-700">
+            <p className="text-[15px] font-semibold text-[#0b1d36]">Newest students</p>
+            <Link to="/app/students" className="rounded-full bg-[#f3f6fb] px-3 py-1 text-[12px] font-semibold text-[#03244a] hover:bg-[#e8edf4]">
               See all
             </Link>
           </div>
-          <div className="mt-3 space-y-2.5">
+          <div className="mt-3 divide-y divide-[#eef2f7]">
             {data.rows
               .filter((r) => !r.invited)
               .slice(0, 5)
               .map((r) => (
-                <div key={r.id} className="flex items-center gap-3">
+                <div key={r.id} className="flex items-center gap-3 py-2.5">
                   <Avatar r={r} />
                   <div className="min-w-0 flex-1">
-                    <p className="truncate text-[13.5px] font-medium">{r.name}</p>
-                    <p className="truncate text-[12px] text-moss">{r.email}</p>
+                    <p className="truncate text-[13.5px] font-medium text-[#0b1d36]">{r.name}</p>
+                    <p className="truncate text-[12px] text-[#8a96a8]">{r.email}</p>
                   </div>
-                  <span className="shrink-0 text-[11.5px] text-moss">{ago(r.createdAt)}</span>
+                  <PlanBadge p={r.plan} />
+                  <span className="hidden shrink-0 text-[11.5px] text-[#8a96a8] sm:block">{ago(r.createdAt)}</span>
                 </div>
               ))}
-            {!data.rows.length && <p className="text-[13px] text-moss">No students yet.</p>}
+            {!data.rows.length && <p className="py-3 text-[13px] text-moss">No students yet.</p>}
           </div>
         </div>
       </div>
@@ -434,7 +549,7 @@ function PlansSettings() {
     <>
       <PageHead title="Plans & settings" sub="What students pay and what Free includes." />
       <div className="mt-6 grid gap-3 lg:grid-cols-2">
-        <div className="card p-5">
+        <div className="rounded-[22px] border border-[#e8edf4] bg-white p-5 shadow-[0_12px_32px_-18px_rgba(3,36,74,.18)]">
           <p className="text-[15px] font-semibold">Pro plan</p>
           <Row2 k="Price" v={`${uzs(c.priceUzs)} so'm / month (about $${c.priceUsd})`} />
           <Row2 k="One payment gives" v={`${c.days} days, no automatic renewal`} />
@@ -442,7 +557,7 @@ function PlansSettings() {
           <Row2 k="Always Pro" v={c.alwaysPro.join(', ')} />
           <Row2 k="Admin" v={c.admins.join(', ')} />
         </div>
-        <div className="card p-5">
+        <div className="rounded-[22px] border border-[#e8edf4] bg-white p-5 shadow-[0_12px_32px_-18px_rgba(3,36,74,.18)]">
           <p className="text-[15px] font-semibold">Payments</p>
           <Row2
             k="Visa card payments"
@@ -515,18 +630,19 @@ export default function AdminApp() {
   }
   return (
     <AdminCtx.Provider value={ctx}>
-      <div className="min-h-svh bg-cream pb-20 text-pine md:pb-0 md:pl-64">
-        <aside className="theme-light fixed inset-y-0 left-0 hidden w-64 flex-col bg-[#03244a] p-4 text-white md:flex">
+      <div className="min-h-svh bg-[#f5f7fb] pb-20 text-[#0b1d36] md:pb-0 md:pl-[264px]">
+        <aside className="fixed inset-y-0 left-0 hidden w-[264px] flex-col border-r border-[#e8edf4] bg-white p-4 md:flex">
           <div className="flex items-center gap-2.5 px-2 py-2">
             <HumoLogo className="h-8" />
-            <span className="rounded-md bg-white/10 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.12em] text-white/80">Admin</span>
+            <span className="rounded-md bg-[#03244a] px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.12em] text-white">Admin</span>
           </div>
-          <nav className="mt-6 flex-1 space-y-0.5">
+          <p className="mt-6 px-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#a3aec0]">Menu</p>
+          <nav className="mt-2 flex-1 space-y-1">
             {NAV.map(({ to, label, icon: Icon, end }) => (
-              <NavLink key={to} to={to} end={end} className={({ isActive }) => `relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-[14px] font-medium transition-colors ${isActive ? 'text-white' : 'text-white/60 hover:bg-white/[0.05] hover:text-white'}`}>
+              <NavLink key={to} to={to} end={end} className={({ isActive }) => `relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-[14px] font-medium transition-colors ${isActive ? 'text-white' : 'text-[#5b6b82] hover:bg-[#f3f6fb] hover:text-[#0b1d36]'}`}>
                 {({ isActive }) => (
                   <>
-                    {isActive && <motion.span layoutId="admin-pill" className="absolute inset-0 rounded-xl bg-white/[0.1]" transition={{ type: 'spring', stiffness: 420, damping: 34 }} />}
+                    {isActive && <motion.span layoutId="admin-pill" className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#03244a] to-[#0e2f5c] shadow-[0_8px_20px_-10px_rgba(3,36,74,.8)]" transition={{ type: 'spring', stiffness: 420, damping: 34 }} />}
                     <Icon className="relative size-[18px]" />
                     <span className="relative">{label}</span>
                   </>
@@ -534,33 +650,46 @@ export default function AdminApp() {
               </NavLink>
             ))}
           </nav>
-          <div className="flex items-center gap-3 rounded-2xl bg-white/[0.06] p-2.5">
-            <span className="grid size-8 place-items-center rounded-full bg-[#bb0937] text-[13px] font-semibold">
+          <a href="/" target="_blank" rel="noreferrer" className="mb-3 flex items-center gap-2 rounded-xl px-3 py-2 text-[13px] font-medium text-[#5b6b82] hover:bg-[#f3f6fb]">
+            <ExternalLink className="size-4" /> Open the student site
+          </a>
+          <div className="flex items-center gap-3 rounded-2xl border border-[#e8edf4] bg-[#f7f9fc] p-2.5">
+            <span className="grid size-9 place-items-center rounded-full bg-gradient-to-br from-[#e0456b] to-[#a8092f] text-white">
               <ShieldCheck className="size-4" />
             </span>
             <div className="min-w-0 flex-1">
-              <p className="truncate text-[13px] font-medium">Admin</p>
-              <p className="truncate text-[11px] text-white/45">{user?.email}</p>
+              <p className="truncate text-[13px] font-semibold">{user?.name || 'Admin'}</p>
+              <p className="truncate text-[11px] text-[#8a96a8]">{user?.email}</p>
             </div>
-            <button aria-label="Log out" onClick={logout} className="rounded-lg p-1.5 text-white/45 hover:bg-white/[0.08] hover:text-white">
+            <button aria-label="Log out" onClick={logout} className="rounded-lg p-1.5 text-[#8a96a8] hover:bg-white hover:text-[#0b1d36]">
               <LogOut className="size-4" />
             </button>
           </div>
         </aside>
 
-        <header className="sticky top-0 z-30 border-b border-line bg-cream/85 backdrop-blur-xl md:hidden">
-          <div className="flex h-16 items-center justify-between px-4">
-            <span className="flex items-center gap-2">
+        {/* top bar: greeting, search, refresh time */}
+        <header className="sticky top-0 z-30 border-b border-[#e8edf4] bg-white/85 backdrop-blur-xl">
+          <div className="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4 sm:px-8">
+            <span className="flex items-center gap-2 md:hidden">
               <HumoLogo className="h-7" />
               <span className="rounded-md bg-[#03244a] px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.12em] text-white">Admin</span>
             </span>
-            <button onClick={logout} className="btn btn-ghost h-9 px-3 text-[12.5px]">
+            <p className="hidden text-[14px] text-[#5b6b82] md:block">
+              Welcome back, <b className="text-[#0b1d36]">{(user?.name || 'Admin').split(' ')[0]}</b> 👋
+            </p>
+            <button onClick={() => nav('/app/students')} className="ml-auto hidden h-10 w-72 items-center gap-2 rounded-xl border border-[#e8edf4] bg-[#f7f9fc] px-3 text-[13px] text-[#a3aec0] hover:border-[#d6deea] sm:flex">
+              <Search className="size-4" /> Search students…
+            </button>
+            <span className="ml-auto hidden rounded-xl border border-[#e8edf4] bg-white px-3 py-2 text-[12.5px] font-medium text-[#5b6b82] sm:ml-0 sm:inline-flex">
+              {new Date().toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' })}
+            </span>
+            <button onClick={logout} className="ml-auto inline-flex h-9 items-center gap-1.5 rounded-xl border border-[#e8edf4] px-3 text-[12.5px] font-medium md:hidden">
               <LogOut className="size-4" /> Log out
             </button>
           </div>
         </header>
 
-        <main className="mx-auto max-w-6xl px-4 py-8 sm:px-8">
+        <main className="mx-auto max-w-6xl px-4 py-6 sm:px-8 sm:py-8">
           {ctx.err && <p className="mb-4 rounded-2xl bg-red-50 px-4 py-3 text-[14px] text-red-700">{ctx.err}</p>}
           {!ctx.data && !ctx.err ? (
             <div className="grid h-64 place-items-center">
@@ -579,9 +708,9 @@ export default function AdminApp() {
           )}
         </main>
 
-        <nav className="theme-light fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-white/10 bg-[#03244a] pb-[env(safe-area-inset-bottom)] md:hidden">
+        <nav className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-[#e8edf4] bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl md:hidden">
           {NAV.map(({ to, short, icon: Icon, end }) => (
-            <NavLink key={to} to={to} end={end} className={({ isActive }) => `flex flex-col items-center gap-1 py-2.5 text-[11px] ${isActive ? 'text-amber-300' : 'text-white/55'}`}>
+            <NavLink key={to} to={to} end={end} className={({ isActive }) => `flex flex-col items-center gap-1 py-2.5 text-[11px] font-medium ${isActive ? 'text-[#e0456b]' : 'text-[#8a96a8]'}`}>
               <Icon className="size-5" />
               {short}
             </NavLink>
