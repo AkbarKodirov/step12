@@ -925,6 +925,13 @@ app.get('/api/blitz/leaderboard', async (_, res) => {
 app.get('/api/health', (_, res) => res.json({ status: 'ok', platform: 'Humo AI', tutor: 'Humo', gemini: !!gemini, groq: groqReady, backups: backupNames, memory: memorySize(), storage: kvBackend }))
 
 /* ---------- serve the built website from the same server (one free service on Render) ---------- */
+const CANONICAL_HOST = process.env.CANONICAL_HOST || 'humo-prep.com'
+app.use((req, res, next) => {
+  if ((req.method === 'GET' || req.method === 'HEAD') && req.hostname === 'step12.onrender.com' && !req.path.startsWith('/api/'))
+    return res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`)
+  next()
+})
+
 const DIST = join(__dirname, '..', 'dist')
 if (existsSync(join(DIST, 'index.html'))) {
   app.use(
