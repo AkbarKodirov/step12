@@ -118,7 +118,7 @@ function Ripples() {
     <>
       {rings.map((r, i) => (
         <mesh key={i} ref={r}>
-          <torusGeometry args={[1, 0.006, 8, 160]} />
+          <torusGeometry args={[1, 0.012, 16, 480]} />
           <meshBasicMaterial color={[1.8, 0.5, 0.8]} toneMapped={false} transparent opacity={0} depthWrite={false} />
         </mesh>
       ))}
