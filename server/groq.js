@@ -40,7 +40,7 @@ const PROVIDERS = [
     // OpenRouter tries the listed models in order itself (the "models" field)
     text: [(env('OPENROUTER_TEXT_MODELS') || 'openrouter/free,nvidia/nemotron-3-super-120b-a12b:free,google/gemma-4-31b-it:free').split(',')],
     vision: [(env('OPENROUTER_VISION_MODELS') || 'openrouter/free,google/gemma-4-31b-it:free,nvidia/nemotron-3.5-super-vl:free').split(',')],
-    headers: { 'HTTP-Referer': 'https://step12.onrender.com', 'X-Title': 'Humo AI' },
+    headers: { 'HTTP-Referer': 'https://humo-prep.com', 'X-Title': 'Humo AI' },
   },
   {
     name: 'sambanova',
