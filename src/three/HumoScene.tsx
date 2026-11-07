@@ -25,12 +25,12 @@ function Halo() {
   return (
     <group ref={g} position={[0, 0.35, -1.1]}>
       <mesh ref={a}>
-        <torusGeometry args={[2.35, 0.008, 16, 256]} />
-        <meshBasicMaterial color={[1.6, 0.3, 0.55]} toneMapped={false} transparent opacity={0.35} />
+        <torusGeometry args={[2.35, 0.016, 24, 720]} />
+        <meshBasicMaterial color={[2.2, 0.55, 0.85]} toneMapped={false} transparent opacity={0.75} />
       </mesh>
       <mesh ref={b} rotation={[1.2, 0, 0]}>
-        <torusGeometry args={[2.9, 0.005, 16, 256]} />
-        <meshBasicMaterial color={[1.4, 1.5, 1.8]} toneMapped={false} transparent opacity={0.35} />
+        <torusGeometry args={[2.9, 0.012, 24, 720]} />
+        <meshBasicMaterial color={[1.9, 2.0, 2.4]} toneMapped={false} transparent opacity={0.6} />
       </mesh>
     </group>
   )
@@ -58,7 +58,7 @@ function GoldDust({ count = 1400 }: { count?: number }) {
   })
   return (
     <points ref={ref} geometry={geo}>
-      <pointsMaterial size={0.028} color="#cdd9ee" transparent opacity={0.55} sizeAttenuation depthWrite={false} blending={THREE.AdditiveBlending} />
+      <pointsMaterial size={0.034} color="#dfe7f6" transparent opacity={0.8} sizeAttenuation depthWrite={false} blending={THREE.AdditiveBlending} />
     </points>
   )
 }
@@ -121,7 +121,7 @@ export default function HumoScene({ layout = 'hero', bg = '#050e19' }: { layout?
   const small = typeof window !== 'undefined' && window.innerWidth < 768
   return (
     <Canvas
-      dpr={small ? [1, 1.25] : [1, 1.75]}
+      dpr={small ? [1.5, 2] : [1.75, 2.5]}
       camera={{ position: [0, 0.2, 8], fov: 34 }}
       gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
       frameloop={reduced ? 'demand' : 'always'}
@@ -129,17 +129,17 @@ export default function HumoScene({ layout = 'hero', bg = '#050e19' }: { layout?
     >
       {reduced && <SettleFrames />}
       <color attach="background" args={[bg]} />
-      <ambientLight intensity={0.15} />
-      <directionalLight position={[3, 5, 6]} intensity={2.2} color="#ffffff" />
+      <ambientLight intensity={0.35} />
+      <directionalLight position={[3, 5, 6]} intensity={2.8} color="#ffffff" />
       <directionalLight position={[-4, 3, 6]} intensity={1.2} color="#dbe6ff" />
       <directionalLight position={[-6, 2, -4]} intensity={1.1} color="#e0456b" />
-      <pointLight position={[0, -0.5, 4]} intensity={1.2} color="#ffd6e0" distance={9} />
+      <pointLight position={[0, -0.5, 4]} intensity={2} color="#ffd6e0" distance={9} />
 
       <Suspense fallback={null}>
         <Rig layout={layout}>
           <Halo />
           <HumoCore />
-          <Sparkles count={small ? 30 : 60} scale={[6, 5, 3]} size={2.2} speed={0.35} color="#ffd1dc" opacity={0.8} />
+          <Sparkles count={small ? 40 : 80} scale={[6, 5, 3]} size={3} speed={0.35} color="#ffe3ea" opacity={1} />
         </Rig>
         {layout === 'hero' && <GoldDust count={small ? 500 : 1400} />}
         {layout === 'banner' && <BannerStars count={small ? 50 : 120} />}
@@ -155,8 +155,8 @@ export default function HumoScene({ layout = 'hero', bg = '#050e19' }: { layout?
       </Suspense>
 
       <EffectComposer multisampling={0}>
-        <Bloom mipmapBlur intensity={0.75} luminanceThreshold={0.82} luminanceSmoothing={0.2} />
-        <Vignette eskil={false} offset={0.25} darkness={layout === "hero" ? 0.75 : 0} />
+        <Bloom mipmapBlur intensity={1.05} luminanceThreshold={0.7} luminanceSmoothing={0.25} />
+        <Vignette eskil={false} offset={0.25} darkness={layout === "hero" ? 0.4 : 0} />
       </EffectComposer>
     </Canvas>
   )
