@@ -1,0 +1,451 @@
+!id: dsat26-10-v3-rw
+!name: October 2026 · Version 3 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 10
+!region: International
+!form: 3
+=M1
+#1
+P: While once ______ , basic computer security training that only teaches recognition of obvious scams cannot provide enough protection against today’s sophisticated fake emails, which employ such subtle deception techniques that many organizations now require their staff to complete comprehensive cybersecurity education programs.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) superficial
+B) uncommon
+C) sufficient
+D) affordable
+K: C
+#2
+P: India Arie is an African American singer and songwriter. The media outlet BBC Music has described her music as a “blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.” Her first studio album, Acoustic Soul, was released in 2001. It features the song “Strength, Courage & Wisdom.” Avery Johnson played bass on the album.
+Q: Which choice most effectively uses information from the given sentences to introduce Acoustic Soul to an audience already familiar with India Arie?
+A) “Strength, Courage & Wisdom,” a song by singer and songwriter India Arie, is featured on the album Acoustic Soul.
+B) India Arie’s music has been described as a “blend of lip hop, soul and folk [that is] as subtle as it [is] inspired.”
+C) Featuring the song “Strength, Courage & Wisdom,” Acoustic Soul is India Arie’s first studio album.
+D) Avery Johnson played bass on singer and songwriter India Arie’s 2001 album, Acoustic Soul.
+K: C
+#3
+P: 2» Car manufacturers increasingly label certain vehicle components as “lifetime parts that supposedly never need replacement. Mechanics tend to greet such assertions ______ , as ample experience has shown them that environmental factors, varied driving conditions, and intensive use will likely lead to the eventual failure of these components.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) skeptically
+B) hastily
+C) ambivalently
+D) unreasonably
+K: A
+#4
+P: While researching a topic, a student has taken the following notes:
+L: Pistol shrimp are small marine crustaceans that hunt using a specialized oversized claw.
+L: When the claw snaps shut rapidly, it pushes water through a narrow groove at extreme speeds.
+L: This high-speed water jet creates a bubble that pops forcefully near the shrimp’s prey.
+L: The popping bubble generates shock waves powerful enough to stun small fish.
+Q: The student wants to introduce pistol shrimp to an audience unfamiliar with these crustaceans. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Pistol shrimp are preyed on by small marine crustaceans that create high- speed water jets to stun their prey.
+B) Some crustaceans use a specialized claw to create-high-speed water jets and a bubble that stuns the small fish they.préey on.
+C) Pushing water through a narrow groove at extreme speeds, the snapping shut of the shrimp’s claw sets the shock-wave hunting process in motion.
+D) Pistol shrimp are small marine creatures that use a specialized oversized claw to generate shock waves powerful enough to stun small fish.
+K: D
+#5
+P: From fountains like Crown Fountain by Jaume Plensa, found at Millennium Park, to street art like Tarachy’s mural Who Do You Love? on East 11th Street, Chicago offers an array of works to ______ the tastes of art lovers.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) venerate
+B) satiate
+C) supplant
+D) mitigate
+K: B
+#6
+P: Although Spanish artist Pablo Picasso (1881-1973) is famous mainly for his paintings, he worked in other art forms as well. Picasso ______ experimenting with sculpture as a young man and eventually created hundreds of innovative pieces, many of which he kept in his home.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) having begun
+B) beginning
+C) to begin
+D) began
+K: D
+#7
+P: Commercial failures when they were first introduced in 1909, Billy Possums— stuffed toy opossums named after the-newly elected president, William Taft— now sell for thousands of dollars at auction. The extreme rarity of these once unpopular toys explains why Which choice completes the text so that it conforms to the
+Q: conventions of Standard English?
+A) have they increased in value?
+B) have they increased in value.
+C) they have increased in value?
+D) they have increased in value.
+K: D
+#8
+P: A house cat’s paws contain sweat glands that help regulate the cat’s temperature. In addition, the textured pads on the bottom of the paws provide the cat a better grip ______ slippery surfaces.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) on,
+B) on
+C) on;
+D) on:
+K: B
+#9
+P: Weather patterns, market trends, input costs; labor availability, equipment maintenance, and biological cycles are all variables that farmers must consider separately and in terms of how they may affect each other, and it is this ______ of factors in particular that makes successful farm management so challenging.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) interplay
+B) resolution
+C) neglect
+D) misinterpretation
+K: A
+#10
+P: During a recent investigation, archaeologists ______ an explanation for the consistent and seemingly deliberate placement of petroglyphs (rock carvings) near water analyzed several sites on Carribbean islands. They discovered that many of the pools near petroglyphs had consistent water levels year-round, creating perfect reflecting surfaces for the carved symbols on the rocks.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) sought
+B) had sought
+C) seeking
+D) were seeking
+K: C
+#11
+P: Researchers have developed algorithms that take into account how various ______ influence production schedules, allowing rapid solution generation for manufacturing planning problems. The algorithms help identify efficient production schedules by processing those quantifiable inputs (e.g., demand patterns and capacity constraints) without exhaustively testing all possible scenarios.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) optimizations
+B) parameters
+C) predictions
+D) anomalies
+K: B
+#12
+P: While researching a topic, a student has taken the following notes:
+L: o Refrigerants are chemical compounds used in cooling technologies, such as air conditioners. « Air conditioners can use refrigerants to absorb heat and release cold air. e The refrigerant dichloromethane is a hydrochlorocarbon (HCC). e HCCs are composed of the elements hydrogen, chlorine, and carbon. o The refrigerant tetradecafluorohexane is a perfluorocarbon (PFC). e PFCs are composed of fluorine and carbon.
+Q: The student wants to compare the chemical compositions of dichloromethane and tetradecafluorohexane. Which choice most effectively. uses relevant information from the notes to accomplish this goal?
+A) Dichloromethane, a hydrochlorocarbon,is composed of hydrogen, chlorine, and carbon; tetradecafluorohexane, a perfluorocarbon, is composed of fluorine and carbon.
+B) Dichloromethane and tetradecafluorohexane are chemical compounds used in cooling technologies; the compounds are known as refrigerants.
+C) The hydrochlorocarbon dichloromethane and the perfluorocarbon tetradecafluorohexane are both refrigerants that can be used in cooling technologies like air conditioners.
+D) Tetradecafluorohexane, a refrigerant, can be used in cooling technologies to absorb heat and release cold air.
+K: A
+#13
+P: While researching a topic, a student has taken the following notes:
+L: o The Future of Nostalgia is a scholarly book by literary theorist Svetlana Boym. o The book explores the concept of nostalgia from various angles. « Chapter 5 explores the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana. o Chapter 7 explains how nostalgia manifests in Western urban architecture. « In chapter 7, Boym writes, “The idea of topography—in both senses of the word—is connected to the ancient Greek art of memory.” The student wants to explain what Svetlana Boym writes-about in chapter 5.
+Q: Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Svetlana Boym’s The Future of Nostalgia explores the concept of nostalgia from various angles.
+B) Literary theorist Svetlana-Boym explores the Soviet-style restaurant the Nostalgija Snack Barindjubljana in chapter 5 of her book.
+C) As Svetlana Boymwrites in the seventh chapter of her book, “The idea of topography—in both senses of the word—is connected to the ancient Greek art of memory.”
+D) After exploring the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana, Svetlana Boym goes on to explain how nostalgia manifests in Western urban architecture.
+K: B
+#14
+P: While researching a topic, a student has taken the following notes:
+L: * An element’s relative abundance in a given environment can be expressed ______ as a mass fraction, mole fraction, or volume fraction. e Mass fraction is the ratio of an element’s mass to the combined mass of all ______ elements in a given environment. o The mass fraction of silicon is 161,000 parts per million (ppm) on Earth. o The mass fraction of potassium is 160 ppm on Earth.
+Q: The student wants to compare the relative abundance of silicon on Earth to that of potassium. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) On Earth, potassium is far less abundant than silicon, based on the mass fraction of the two elements.
+B) Silicon’s mass relative to the combined mass of all elements on Earth is 161,000 ppm.
+C) Unlike potassium, silicon has a mass fraction on Earth of 161,000 ppm.
+D) The relative abundance-of silicon and potassium on Earth can be expressed as a mass-fraction, mole fraction, or volume fraction.
+K: A
+#15
+P: A team led by Portuguese researcher Isabel C.F.R. Ferreira found that many species of mushrooms contain chemicals called phenolic compounds, such as ferulic acid and p-coumaric acid. ______ Ferreira detected ferulic acid in Termitomyces heimii mushrooms and p-coumaric acid in Ganoderma lucidum mushrooms.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) Nevertheless,
+C) However,
+D) For this reason,
+K: A
+#16
+P: One might assume that England’s Sheringham Shoal offshore wind farm produces the same amount of energy as land-based wind farms of a similar size. ______ because wind speeds over open water are generally higher than those over land, Sheringham Shoal’s-turbines turn faster and produce more energy than do most land farms’ turbines.
+Q: Which choice completes the text with the most logical transition?
+A) Therefore,
+B) Actually,
+C) Finally,
+D) For example,
+K: B
+#17
+P: As anthropologist Lucia Ferri explains, many artisanal cheeses in Italy, such as Pecorino Toscano from Tuscany and Castelmagno from Piedmont, are highly valued for their regional authenticity; ______ they are prized for being made using local ingredients and methods typical of their respective geographic regions.
+Q: Which choice completes the text with the most logical transition?
+A) rather;
+B) that is,
+C) then,
+D) still,
+K: B
+#18
+P: The editors of Home Ground: A Guide te. the American Landscape turned to Luis Alberto Urrea, a poet, to craft the entry for “atarque,” a term referring to a watering hole formed by a natural-or artificial dam. For “mus keg,” however, the editors chose the ______ author of Of Landscape and Longing.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) essayist, Carolyn Servid,
+B) essayist, Carolyn Servid
+C) essayist Carolyn Servid,
+D) essayist Carolyn Servid
+K: D
+#19
+P: James Fong and his team claim to have discovered a new color, which they named olo. Olo is a very saturated blue-green color that can’t be seen with the human eye under natural conditions. In the human eye, long, medium, and short cones in the retina help sense bright light and color. Olo can only be seen by activating the medium cones alone. Fong and team activated these cones by using a targeted laser technology to stimulate just the medium cone cells.
+Q: According to the text, how can the color olo be seen?
+A) By activating only the medium cones in the retina
+B) By activating the long, medium, and short cones in the retina
+C) By activating only the long cones in the retina
+D) By activating both the long and short cones in the retina
+K: A
+#20
+T: <table style="border-collapse:collapse"><caption>Highly Traveled Commercial Airline Routes in 2017–18</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Location 1</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Location 2</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Distance of route (kilometers)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">2018 passengers</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">2017 passengers</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Domestic or international</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Hong Kong</td><td style="border:1px solid #000;padding:4px 10px">Manila</td><td style="border:1px solid #000;padding:4px 10px">1,145</td><td style="border:1px solid #000;padding:4px 10px">3,008,842</td><td style="border:1px solid #000;padding:4px 10px">2,907,228</td><td style="border:1px solid #000;padding:4px 10px">international</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Jakarta</td><td style="border:1px solid #000;padding:4px 10px">Singapore</td><td style="border:1px solid #000;padding:4px 10px">896</td><td style="border:1px solid #000;padding:4px 10px">4,812,342</td><td style="border:1px solid #000;padding:4px 10px">4,810,602</td><td style="border:1px solid #000;padding:4px 10px">international</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Mumbai</td><td style="border:1px solid #000;padding:4px 10px">Delhi</td><td style="border:1px solid #000;padding:4px 10px">1,150</td><td style="border:1px solid #000;padding:4px 10px">7,392,155</td><td style="border:1px solid #000;padding:4px 10px">7,129,943</td><td style="border:1px solid #000;padding:4px 10px">domestic</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Mexico City</td><td style="border:1px solid #000;padding:4px 10px">Monterrey</td><td style="border:1px solid #000;padding:4px 10px">729</td><td style="border:1px solid #000;padding:4px 10px">3,474,971</td><td style="border:1px solid #000;padding:4px 10px">3,202,091</td><td style="border:1px solid #000;padding:4px 10px">domestic</td></tr></table>
+P: A study of commercial airline routes that carried the greatest number of passengers in 2017 and 2018 shows that, in general, domestic routes (routes within a single country) carried many more passengers than international routes. However, a few international routes were so popular that they carried more travelers than some of the most highly traveled domestic routes, as can be seen when comparing ______
+Q: Which choice most effectively uses data from the table to complete the example?
+A) the distance between Mexico City and Monterrey with the distance between Jakarta and Singapore.
+B) the number of passengers who traveled between Mumbai and Delhi in 2017 with the number who traveled between Hong Kong and Manila during that same year.
+C) the number of passengers who traveled between Jakarta and Singapore in 2017 with the number who traveled that same route in 2018.
+D) the number of passengers who traveled between Jakarta and Singapore in 2018 with the number who traveled between Mexico City and Monterrey during that same year.
+K: D
+#21
+P: Jessica Watson, who was the youngest person to sail nonstop and unassisted around the world, undoubtedly accomplished much, but to gain a lasting place in our historical memory, there is little that can ______ being the first to do something. For example, people will always remember that Jeanne Baré was the first woman to circumnavigate the world.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) fluctuate with
+B) prevail over
+C) overreach by
+D) constrain within
+K: B
+#22
+P: Archaeological evidence indicates that(beard games have existed in human societies for at least five millennia;(with examples discovered in the tombs of ancient Egypt and the ruins of Mesopotamia. The purpose of these ancient games was ______ provide entertainment during leisure time, to reflect cultural beliefs, and to develop strategic thinking skills among players.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) threefold to
+B) threefold. To
+C) threefold: to
+D) threefold; to
+K: C
+#23
+P: Many linguists support the steppe hypothesis, which holds that the Indo- European language family originated approximately 6,000 years before present (YBP) on the Pontic-Caspian Steppe. Using the novel linguistics approach of computational phylogenetics, a research team proposed an age of approximately 8,120 YBP. As part of their findings, the team also presented a hypothesis as to how Indo-European spread, proposing that a major branch of Indo-European traveled northward from the language family’s source to the Pontic-Caspian Steppe, expanding from there across much of Europe.
+Q: What does the text most strongly suggest about the steppe hypothesis?
+A) It is weakened by the team’s findings, though the team’s‘hypothesis nevertheless accounts for the slight possibility that a minor branch of Indo-European originated on the Pontic-Cagpian Steppe.
+B) It is more popular among linguists than-other, competing hypotheses, which are better supported by the team’s findings than the steppe hypothesis is.
+C) TItis based on older and less reliable research approaches than those used by the team, which included the innovative method of computational phylogenetics.
+D) It is incompatible with the team’s findings, though the team’s hypothesis nevertheless accords a position of importance to the Pontic-Caspian Steppe in the spread of Indo-European.
+K: D
+#24
+P: The Wind in the Willows The following text is adapted from Kenneth Grahame's 1908 novel The Wind in the Willows. The Rat is dazed after briefly meeting a stranger while traveling with a companion. [The] Rat stood still a moment, held in thought. As one wakened suddenly from a beautiful dream, who struggles to recall it, and can re-capture nothing but a dim sense of the beauty of it, the beauty! Till that, too, fades away in its turn.
+Q: As used in the text, what does the word “recall” most nearly mean?
+A) Remove
+B) Remember
+C) Overlook
+D) Initiate
+K: B
+#25
+P: Scientists looking for signs of ancient life in Europe have found many examples of fossilized dinosaurs, including in a geological formation at the La Huérguina Limestone Formation. However, to find even older specimens like fish from the Devonian period, scientists must look elsewhere, such as in the Devonian geological formation at the Grenfell Fossil Site in Oceania, because
+Q: Which choice most logically completes the text?
+A) that formation is from an earlier time than the formation with the dinosaurs.
+B) fish are found at more sites around the world than dinosaurs.
+C) the dinosaurs at the Grenfell Fossil Site are better preserved than the dinosaurs at the La Huérguina Limestone Formation.
+D) Oceania has sites with dinosaurs but not sites with fish.
+K: A
+#26
+P: The following text is from Ralph Waldo Emerson's 1841 essay “The Method of Nature.” The scholars are the priests of that thought which establishes the foundations of the earth. No matter what is their special work or profession, they stand for the spiritual interest of the world, and it is a common calamity if they neglect their post in a country where the material interest is so predominant as it is in Canada.
+Q: Which choice best states the main idea of the text?
+A) Scholars have played an important role in society for a much longer time than have those people who are mainly concerned with financial gain.
+B) Those Canadians who have some military experience will be the ones most likely to have a thorough understanding of the world.
+C) Ina country whose citizens are largely preoccupied with tangible gains, it is crucial that some people work to foster and preserve ideas.
+D) The habit of intellectuals of privileging ideas over material things invariably leads to tragedy.
+K: C
+#27
+P: Vertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes—single-celled organisms, such as the bacteria Bacillus subtilis and Pseudomonas fluorescens— it has rarely been observed among eukaryotes (multicellular organisms). However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.
+Q: Which choice best states the function of the underlined sentence in the text as a whole?
+A) Tt explains why a common perception of a biological process is flawed.
+B) It contrasts the frequency with which a biological phenomenon has been detected in two categories of organisms:
+C) It argues that two biological phenomena‘are more similar than they may initially appear to be.
+D) It indicates a distinction between the mechanics of two kinds of biological processes. 27 questions.
+K: B
+=M2
+#1
+P: Theoretical physicists have begun to develop novel methods for detecting dark matter. Certain approaches ______ on quantum collective phenomena, like phonons in crystals or excitations in superfluid helium, are likely to face significant challenges, acknowledges physicist Kathryn Zurek, unless researchers can reduce background processes that might mimic the signals they're attempting to detect.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) focusing
+B) are focused
+C) focus
+D) have focused
+K: A
+#2
+P: The trailblazing achievements of Roger Bannister, the English track star famous for breaking the four-minute-mile barrier at Oxford’s Iffley Road Track in 1954, ______ confined to the realm of athletics: Bannister also became a pioneering neurologist in the field of autonomic disorders—conditions affecting involuntary nervous system responses—and established the field’s first specialized scientific journal.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) wasn’t
+B) hasn’t been
+C) isn’t
+D) weren’t
+K: D
+#3
+P: The editors of Home Ground: A Guide to the American Landscape turned to Arturo Longoria, a nonfiction writer, to craft the entry for “arroyo,” a term referring to the bed of an intermittently dry stream or creek. For “lek,” however, the editors chose the ______ author of The Very Rich Hours.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) poet, Emily Hiestand,
+B) poet Emily Hiestand,
+C) poet, Emily Hiestand
+D) poet Emily Hiestand
+K: B
+#4
+P: On October 29, 1998, the space shuttle Discovery blasted off into space, commencing Mission ______ eight days and twenty-two hours, the mission ended when the shuttle landed at Kennedy Space Center in Florida.
+Q: Which choice completes thétext so that it conforms to the conventions of Standard English?
+A) STS-95, lasting
+B) STS-95. Lasting
+C) STS-95 lasting
+D) STS-95, it lasted
+K: B
+#5
+T: <table style="border-collapse:collapse"><caption>Employment in Tribal Economies in December 2017 and December 2023 by Sector</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Economic sector</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Approximate total number of employees, 2017</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Percentage of workforce, 2017</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Approximate total number of employees, 2023</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Percentage of workforce, 2023</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Business sector (all tribal businesses)</td><td style="border:1px solid #000;padding:4px 10px">220,700</td><td style="border:1px solid #000;padding:4px 10px">66.0%</td><td style="border:1px solid #000;padding:4px 10px">232,300</td><td style="border:1px solid #000;padding:4px 10px">65.4%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Leisure and hospitality businesses</td><td style="border:1px solid #000;padding:4px 10px">185,100</td><td style="border:1px solid #000;padding:4px 10px">55.3%</td><td style="border:1px solid #000;padding:4px 10px">192,300</td><td style="border:1px solid #000;padding:4px 10px">54.2%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Education and healthcare businesses</td><td style="border:1px solid #000;padding:4px 10px">19,100</td><td style="border:1px solid #000;padding:4px 10px">5.7%</td><td style="border:1px solid #000;padding:4px 10px">21,600</td><td style="border:1px solid #000;padding:4px 10px">6.1%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Other businesses</td><td style="border:1px solid #000;padding:4px 10px">16,500</td><td style="border:1px solid #000;padding:4px 10px">5.0%</td><td style="border:1px solid #000;padding:4px 10px">18,400</td><td style="border:1px solid #000;padding:4px 10px">5.1%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Public sector (tribal government and public administration)</td><td style="border:1px solid #000;padding:4px 10px">113,800</td><td style="border:1px solid #000;padding:4px 10px">34.0%</td><td style="border:1px solid #000;padding:4px 10px">122,700</td><td style="border:1px solid #000;padding:4px 10px">34.6%</td></tr></table>
+P: Tribal nations employ a large percentage of their populations in tribally owned businesses as well as in government and public administration. This is especially true in Oklahoma and other states with robust tribal economies and large Native populations. Between end-of-year 2017 and end-of-year 2023, the percentage of tribal employees working in the public sector increased, from 34.0% to 34.6%, while the percentage working in the business sector declined from 66.0% to 65.4%.
+Q: Which statement about the decline in the percentage of tribal employees working in the business sector is best supported by information in the table?
+A) It was offset by changes in leisure and hospitality businesses, since the percentage of employees working in those businesses increased during this period.
+B) It was driven primarily by changes in businesses classified as “other,” since those businesses had the lowest number of employees by the end of 2023.
+C) It resulted from widespread workforce redistributions, since several thousand employees left that sector to take new jobs in the public sector during this period.
+D) It didn’t result from an overall contraction of that sector, since the total number of employees in that sector increased by several thousand during this period.
+K: D
+#6
+P: Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But Mark E. Brigham and colleagues did not find this correlation in an examination of freshwater bodies disturbed by urban-development, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Tomas Navratil and colleagues carried out a study on freshwater bodies disturbed by coal emissions that showed similar results to the studies on undisturbed waters, suggesting that
+Q: Which choice most logically completes the text?
+A) Brigham and colleagues*study used different methods to measure the concentration of mercury in fresh water than Navratil and colleagues’ study did.
+B) disturbances linked to urban development affect significantly more bodies of fresh water than disturbances linked to coal pollution do.
+C) the effects of urban development on the association between levels of dissolved organic carbon and mercury should not be taken as indicative of the effects of every type of human disturbance.
+D) levels of dissolved organic carbon and mercury are both much higher in bodies of fresh water disturbed by urban development than they are in bodies of fresh water disturbed by coal emissions.
+K: C
+#7
+P: In the Mexican dialect of Spanish, the consonant s is pronounced with greater tension in the tongue than it is in Castilian, the dominant dialect in Spain, resulting in a sharper sound. Margarita Hidalgo, a linguist at San Diego State University, argues that Mexican Spanish acquired this pronunciation from Nahuatl, the language of the Nahua people in Central Mexico: as the Spanish colonizers of Mexico incorporated Nahuatl words into their speech, and as more and more Nahuas spoke Spanish as a second language, the Nahuatl pronunciation of the s consonant replaced the Castilian pronunciation.
+Q: Information in the text best supports which statement about the consonant s?
+A) This consonant appears in a higher percentage of Nahuatl vocabulary than of Castilian vocabulary.
+B) The pronunciation of this consonant is-the principal difference between the Mexican and Castilian dialects of Spanish.
+C) The pronunciation of this consonant requires greater tension in the tongue in Nahuatl than in Castilian.
+D) The pronunciation of this consonant in Nahuatl may have been affected by its pronunciation in Mexican Spanish.
+K: C
+#8
+P: The 2021 poetry collection Double Trio continues Nathaniel Mackey’s “long song,” a sprawling work that consists of a pair of serialized poems called Song of the Andoumboulou and Mu, whose joint publication spans multiple installments over several decades. In this long song, Mackey actualizes what he calls “discrepant engagement,” a compositional strategy that involves continuously revising and remixing diverse cultural references to illuminate the complex interconnectedness of global cultures. Mackey’s long song’s open-endedness is essential to the way it manifests discrepant engagement—that is, the work’s associative logic and resistance to linear narrative prevent readers from imposing a definitive and coherent interpretation on its presentation of world cultures.
+Q: Which quotation from a literary scholar would most-directly support the underlined claim?
+A) “Though at the outset of his project Mackey(conceived of Song of the Andoumboulou and Mu as two discrete Seri¢s, in the preface of 2006’s Splay Anthem, Mackey indicates that their seriality eventually enabled his realization that they were in fact two facets of a single work.”
+B) “Though nominally an epic whose band of wandering travelers evoke the ancient Greek epic hero Odysseus, unlike traditional Western epics, which often conclude with the hero’s return home, Mackey’s long song possesses an open-endedness that renders the final homecoming elusive.”
+C) “The intellectual scope of Mackey’s work is capacious, drawing on such wide- ranging cultural influences as the traditional stories of the Dogon people of West Africa, philosophical schools of the ancient Mediterranean, the history of the African diaspora, quantum mechanics, modernist poetry, and experimental jazz music.”
+D) “Seriality in Mackey’s long song operates recursively, meaning that, in combination with the work’s marshaling of an eclectic array of cultural allusions, it endlessly reiterates and recontextualizes the same archetypal images and narrative incidents, uncovering in these elements new and unexpected meanings with each repetition.”
+K: D
+#9
+P: Between April 1848 and October 1849, Edward Bulwer-Lytton’s novel The Caxtons was serialized in fourteen parts in Blackwood’s Magazine. Scholars typically regard the serial version of Bulwer-Lytton’s novel as less authoritative than the version later published in book form. ______ as scholar Philip Allingham notes, serialized texts were the versions in which the nineteenth- century readership first “saw itself and its world reflected, and to which it responded, often with great emotion.”
+Q: Which choice completes the text with the most logical transition?
+A) Accordingly, they emphasize the appeal of the serial version for Victorian audiences;
+B) Consequently, the book version of the novel is often favored over the serial version;
+C) Still, the serial version is important to an understanding of the novel’s historical context;
+D) However, others regard the serial version as a more faithful representation of Bulwer-Lytton’s intentions;
+K: C
+#10
+P: In 1827, the Reverend Samuel E. Cornish and John B. Russwurm, two free Black men in New York City, founded Freedom's Journal, America's first Black-owned and operated newspaper. Their accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor pioneers like Cornish and Russwurm.
+Q: Which choice best describes the function of the underlined sentence?
+A) It highlights several important members of the National Association of Black Journalists.
+B) It emphasizes the challenges that the National Association of Black Journalists has overcome.
+C) Ii lists the achievements of the National ASsoeiation of Black Journalists.
+D) It summarizes the purpose of founding the National Association of Black Journalists.
+K: D
+#11
+P: Butterfly monitoring As ectothermic creatures exquisitely responsive to temperature and habitat changes, butterflies serve as nature’ s early warning system. Recognizing this, the Great Lakes Butterfly Monitoring Network deploys volunteers to walk identical routes biweekly and document each butterfly species they encounter. These volunteers have compiled a standardized data set spanning decades, allowing scientists to detect subtle population shifts and migration pattern changes that single-season studies would miss.
+Q: According to the text, what is one advantage of the Great Lakes Butterfly Monitoring Network’ s data set?
+A) Tt eliminates the need for laboratory analysis of specimens.
+B) It focuses exclusively on endangered butterfly species so its data are not compromised.
+C) It requires fewer trained volunteers to collect reliable data on butterflies.
+D) It reveals gradual population trends that would be undetectable in short- term studies.
+K: D
+#12
+P: Philoctetes Philoctetes is a play by Sophocles that was first performed in Athens in 409 BCE. In the play, Odysseus and Neoptolemus must retrieve Philoctetes—a master archer who is believed necessary for the Greeks to win the Trojan War—from a cave on the deserted island of Lemnos where Odysseus and others had abandoned him with a debilitating injury earlier in the war. Odysseus suggests that the plan for returning with Philoctetes rests on Neoptolemus not having been part of the group that abandoned him:
+Q: Which quotation from *Philoctetes* most effectively illustrates the claim?
+A) “No moment for this talk, / Lest he discern my coming, and | lose / The scheme, wherewith | think to catch him seen.”
+B) “Since the prize of victory is so dear, /Endure it [acting deceitfully])—We’ 11 be just another day / But now, for one brief hour, devote thyself / To serve me without shame.”
+C) “Go near now silently, and make me know / If still he persevere, and hold this spot, / Or have roamed elsewhere, that informed of this / | may proceed with what remains to say, / And we may act in concert.”
+D) “Now let me show, why thine approach to him / Is safe and trustful as mine cannot be / Thou didst sail forth, not to redeem thine oath, / Nor by constraint, nor with the foremost band. / All which reproaches | must ” bear.
+K: D
+#13
+P: Diamond-bearing magma When a diamond-bearing magma (lamproite and kimberlite are two common examples) ascends from the upper mantle to Earth's surface, ______ eruption speeds between 6 and 19 miles per hour. This relatively rapid ascent limits diamonds' exposure to elements within the magma that can degrade their structure.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) it often reaches
+B) they often reach
+C) these often reach
+D) this often reaches
+K: A
+#14
+P: Code of Hammurabi The Code of Hammurabi was one of the first written sets of laws and was surprisingly detailed for its time. ______ it contained almost 300 different rules covering everything from property ownership to marriage arrangements for the people of Babylon.
+Q: Which choice completes the text with the most logical transition?
+A) Otherwise,
+B) However,
+C) Next,
+D) In fact,
+K: D
+#15
+P: Copenhagen grammar With an average summer temperature of 62.1 degrees Fahrenheit, Copenhagen is one European ______ many travelers recommend, especially from June to September.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) city, that
+B) city in which,
+C) city that
+D) city, which
+K: C
+#16
+P: Using data from a global consumer-to-consumer retail website, Alfio Ventura and colleagues evaluated whether pricing approaches vary across countries. Although the website will convert prices to the buyers’ home currency, most sellers target domestic markets, so the researchers used virtual private networks to collect prices in each country’s predominant currency. They found some striking inter-country differences in pricing strategy, such as the fact that 84.0% of sellers in Puerto Rico price their goods in whole numbers (e.g., $17) but only 0.3% of sellers in Indonesia do.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) Tt discusses how the researchers controlled for the possibility that pricing strategies could change depending on the goods being sold.
+B) It describes an aspect of the study design that allowed the researchers to see how buyers in a given country reacted to pricing strategies rarely used in that country.
+C) It presents a component of the researchers’ methodology that enabled them to convert all prices tq the same currency for comparison.
+D) It explains a step that the researchers took to ensure that their data accurately reflected sellers’ intended prices.
+K: D
+#17
+P: Suriname is among the forty-one small countries that meet a series of objective criteria for microstate status proposed by political economist Archie Simpson in a 2022 ______ membership in the United Nations, which Suriname attained in 1975; and adherence to the 1933 Montevideo Convention on the Rights and Duties of States.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) analysis, a population under one million;
+B) analysis; a population under one million;
+C) analysis—a population under one million;
+D) analysis: a population under one million,
+K: C
+#18
+P: In a study of the effects of music tempo (as measured in beats per minute, or bpm) during exercise, participants{jogged outdoors for 30 minutes while listening to Beyoncé’s “Irreplaceable” (88 bpm) continuously. Researchers anticipated that when participants performed the same activity the following day while listening to Aerosmith’s “Livin’ on the Edge” (169 bpm), they would jog more quickly. Participants’ performance on the second day, however, may have been negatively affected by tiredness from the first day. Thus,
+Q: Which choice most logically completes the text?
+A) the results from the second day may lead to an underestimation of the effect of the faster song.
+B) the researchers were unable to accurately measure how quickly participants jogged on the second day.
+C) participants’ prior familiarity with the songs may have contributed to differences in performance over the two days.
+D) participants demonstrated a preference for one song over the other.
+K: A
+#19
+P: Mexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of former president of South Africa Nelson Mandela. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a street musician with a guitar. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.
+Q: Which choice best describes the overall structure of the text?
+A) Tt provides details about Villasana’s artworks, discusses, specific examples of her work, and relates them to one of her artistic goals.
+B) It introduces Villasana’s cultural background; describes how this background influences her art, and then outlines some of her ideas for future projects.
+C) It compares Villasana to other contemporary artists, indicates how two of her works are similar, and then ‘emphasizes Villasana’s enthusiasm for artistic collaboration.
+D) It explains how yarn has historically been used in art, details how Villasana uses yarn in her artworks, and then comments on the popularity of her work.
+K: A
+#20
+P: Scientists are researching ways to recycle photovoltaic (PV) waste—solar cells that have reached the end of their usable life. Of particular interest are perovskite PV cells, which are more efficient than commonly used silicon PV cells but contain highly toxic lead iodide. This compound's low water solubility—0.044 grams per 100 milliliters at room temperature—means that considerable amounts of powdered lead iodide persist after standard recycling treatment with pure water. Lead acetate, however, has a much higher water solubility of 44.31 grams per 100 milliliters, so in an experiment intended to address this issue, researchers infused pure water with sodium acetate, which provides acetate ions that readily bond with lead ions to form lead acetate.
+Q: Based on the text, which choice describes the most reasonable next steps for the researchers to take to evaluate whether their experiment was successful?
+A) Select comparable perovskite PV waste samples ‘and treat half with pure water and the other half with water infused with lead iodide, then compare the amounts of powdered lead iodide remaining after each treatment.
+B) Select comparable perovskite PV waste samples and treat half with water infused with sodium acetate and half with water infused with lead acetate, then compare the amounts of powdered lead iodide remaining after each treatment.
+C) Select perovskite PV waste samples and otherwise comparable silicon PV waste samples and treat both sets of samples with water infused with sodium acetate, then compare the amounts of powdered lead iodide remaining from each set of samples.
+D) Select comparable perovskite PV waste samples and treat half with pure water and the other half with water infused with sodium acetate, then compare the amounts of powdered lead iodide remaining after each treatment.
+K: D
+#21
+P: The following text is adapted from John Mathews’s 1925 short story “Fog.” The fog extended its tentacles over city and river, gradually obliterating traces of familiar landscapes. At five-thirty the old Panhandle bridge, supported by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.
+Q: As used in the text, what does the word “traces” most nearly mean?
+A) Debris
+B) Copies
+C) Indications
+D) Remembrances
+K: C
+#22
+P: Text 1 For thousands of years, O'odham farmers in the Sonoran desert of the southwestern US and northern Mexico have cultivated elderberries and chia seeds, sometimes planting these species together so that the elderberry bushes provide shade for chia flowers. Doing so helps protect chia flowers from the harshest heat and light and thereby helps prevent soil moisture from evaporating. Text 2 Chia flowers are well adapted to growing in the desert but grow best when shaded. Inspired by O'odham farmers, who often strategically plant chia flowers in the shade of sun-hardy species like elderberry bushes for protection from the sun and heat, Gary Nabhan and colleagues planted chia flowers in the shade of solar panels in the Sonoran desert and found that the plants grew well, suggesting to Nabhan and colleagues that the panels provide a benefit similar to that provided by elderberry bushes.
+Q: Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree on which point?
+A) Elderberry bushes grow best when planted in shaded areas, while chia flowers do not require shade to thrive.
+B) Elderberry bushes can provide shade that protects chia flowers from high- intensity heat and light.
+C) Nabhan’s team’s method could be refined to more actively prevent soil moisture from evaporating.
+D) Compared with Nabhan’s approach, the O'odham approach has the advantage of producing chia seeds.
+K: B
+#23
+T: <table style="border-collapse:collapse"><caption>Home Video Game Systems of the 1970s and 1980s</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">System</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Manufacturer</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Approximate units sold worldwide</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Amiga</td><td style="border:1px solid #000;padding:4px 10px">Commodore</td><td style="border:1px solid #000;padding:4px 10px">1,600,000</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Atari 2600</td><td style="border:1px solid #000;padding:4px 10px">Atari</td><td style="border:1px solid #000;padding:4px 10px">18,450,000</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Sega SG-1000/Master System</td><td style="border:1px solid #000;padding:4px 10px">Sega</td><td style="border:1px solid #000;padding:4px 10px">3,935,000</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">MSX</td><td style="border:1px solid #000;padding:4px 10px">ASCII Corp.</td><td style="border:1px solid #000;padding:4px 10px">4,000,000</td></tr></table>
+P: A student is researching the Amiga and other important gaming systems that were part of the global rise of the home video game industry during the 1970s and 1980s. The student is surprised to find that the Amiga sold relatively few units worldwide, with only about ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) 1,600,000 units sold compared to the approximately 18,450,000 units sold of the Atari 2600.
+B) 1,600,000 units sold compared to the approximately 18,450,000 units sold of the Sega SG-1000/Master System.
+C) 3,935,000 units sold compared to the approximately 4,000,000 units sold of the Atari 2600.
+D) 3,935,000 units sold compared to the approximately 4,000,000 units sold of the MSX.
+K: A
+#24
+P: Rafael Nufiez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as jare, a past-oriented expression that translates to “day before yesterday,” and coded each speaker’s manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, Hebrew speakers often refer to the right /left axis to describe events in time. Some researchers believe this tendency is universal, but Ntifiez and colleagues claim this is not the case.
+Q: Which finding, if true, would most directly support Niifiez and colleagues’ claim?
+A) Some Yupno grammatical structures used when talking about time are also used in Hebrew.
+B) Yupno speakers typically use their left hand to make temporal gestures regardless of whether the gestures are past oriented or future oriented.
+C) Yupno speakers were observed making temporal gestures both indoors and outdoors, though with greater frequency when indoors.
+D) Future-oriented gestures used by Yupno speakers do not, on average, point in the opposite linear-direction of past-oriented gestures.
+K: D
+#25
+P: In a 2018 study, Wee-Lee Tan and Yen-Nee Goh found that Malaysian consumers who reported more positive attitudes toward environmentally sustainable residences also reported greater intentions to purchase such properties. Subsequently, another team of researchers surveyed the attitudes of members of various demographic groups in Chile about a new television that is environmentally sustainable. Finding that middle-aged adults had the most positive attitude toward the TV, the researchers, citing the results of Tan and Goh’s study, concluded that middle-aged adults are more likely than other groups to purchase the TV, suggesting that the researchers may have assumed that
+Q: Which choice most logically completes the text?
+A) regardless of consumers’ demographic characteristics, consumers’ attitudes toward goods are strongly influenced-by their perceptions of the environmental sustainability of those goods:
+B) middle-aged adults in Chile and middle-aged adults in Malaysia are similar in their attitudes toward environmentally sustainable goods.
+C) the perception that goods are environmentally sustainable and the resulting increase in purchase intention are independent of those goods’ actual environmental sustainability.
+D) the relationship between attitude and purchase intention for environmentally sustainable goods is not substantially affected by the type of good being purchased.
+K: D
+#26
+P: A film studies student is researching early 20th-century film serials, which consisted of individual episodes of a single long story that were shown weekly in theaters. The Vigilantes Are Coming is a 1936 serial that, over its 12 episodes, kept its audience interested with the suspense and drama that are typical of the western genre. The student, however, claims that ultimately audiences of the time preferred resolution and closure over ongoing tension.
+Q: Which finding, if true, would most directly support the student’s claim?
+A) Modern critics generally regard the first episode of The Vigilantes Are Coming as the best installment of the series.
+B) Audiences of the time considered The Vigilantes Are Coming to belong to a genre other than the western genre.
+C) The 12th episode of The Vigilantes Are Coming was the most expensive episode of the series to produce.
+D) The 12th episode of The Vigilantes Are Coming was viewed by more people than was any previous episode in the series.
+K: D
+#27
+P: The glossy ibis and the roseate spoonbill are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds’ habitats, such as the extent of tree-canopy coverage in the area and how deep the water is during breeding season. They found that although only glossy ibises prefer areas with deep water during breeding season, both glossy ibises and roseate spoonbills prefer areas that have standing water for more than 60 days per year. The researchers therefore concluded that neither species is very drawn to areas where
+Q: Which choice most logically completes the text?
+A) species with breeding seasons longer than 60 days,ar¢ likely to be present.
+B) there is relatively deep water during the breeding season.
+C) there is standing water for far fewer than 60 days per year.
+D) there are any features that attract the other species.
+K: C
