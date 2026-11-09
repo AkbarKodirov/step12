@@ -1,0 +1,305 @@
+!id: dsat26-03-int-b-math
+!name: March 2026 International · Version B · Math
+!type: MATH
+!year: 2026
+!month: 3
+!region: International
+!form: B
+!missing: M1 #7, M1 #9, M1 #11, M1 #20
+=M1
+#1
+I: /qimg/26-03-int-b-math-m1-q1.svg
+Q: The function w models the weight, in ounces, of the remaining solid wax of a burning candle as a function of the time x, in hours, after the candle was lit. The graph of y = w(x) is shown. According to the model, what was the weight, in ounces, of the candle's remaining solid wax 12 hours after the candle was lit?
+A) 4
+B) 8
+C) 10
+D) 13
+K: C
+E: Reading the graph at x = 12 gives a weight of about 10 ounces.
+#2
+Q: In △ABC, the sum of the measures of ∠A and ∠B is 159.5°. What is the measure of ∠C?
+A) 20.5°
+B) 90°
+C) 110.5°
+D) 180°
+K: A
+E: The angles of a triangle add to 180°, so ∠C = 180° − 159.5° = 20.5°.
+#3
+Q: A local gym is offering a 25% discount on an annual membership. The regular cost of an annual membership is $288. How much less is the discounted cost of the membership than the regular cost of the membership?
+A) $25
+B) $72
+C) $216
+D) $288
+K: B
+E: The discount is 25% of $288, which is $72.
+#4
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>8</td></tr><tr><td>1</td><td>9</td></tr><tr><td>2</td><td>10</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. Which of the following equations represents this relationship?
+A) y = 8x
+B) y = 10x + 2
+C) y = 10x
+D) y = x + 8
+K: D
+E: y starts at 8 and rises by 1 for each increase of 1 in x, so y = x + 8.
+#5
+Q: The function f is defined by the equation f(x) = 380x. What is the value of f(10)?
+K: 3800
+E: f(10) = 380 × 10 = 3,800.
+#6
+Q: An object traveled 0.20 meters for every 4.0 seconds it was in motion. If the object was in motion for 24 seconds, what is the total distance, in meters, the object traveled?
+K: 1.2
+E: 24 seconds is 6 intervals of 4 seconds, so the distance is 6 × 0.20 = 1.2 meters.
+#7
+Q: When a scientist began observing a sample of an isotope, the mass of the sample was 530,000 milligrams. The mass of the sample decreases by half approximately every 5 days. Which of the following is closest to the mass, in milligrams, of the sample 35 days after the scientist began observing the sample?
+A) 4,141
+B) 15,143
+C) 16,563
+D) 75,714
+K: A
+E: 35 days is 7 half-lives, so the mass is 530,000 × (1/2)^7 ≈ 4,141 milligrams.
+#8
+Q: The function f(w) = 6w^2 gives the area of a rectangle, in square feet (ft^2), if its width is w ft and its length is 6 times its width. Which of the following is the best interpretation of f(13) = 1,014?
+A) If the width of the rectangle is 13 ft, then the area of the rectangle is 1,014 ft^2.
+B) If the width of the rectangle is 13 ft, then the length of the rectangle is 1,014 ft.
+C) If the width of the rectangle is 1,014 ft, then the length of the rectangle is 13 ft.
+D) If the width of the rectangle is 1,014 ft, then the area of the rectangle is 13 ft^2.
+K: A
+E: The input 13 is the width in feet and the output 1,014 is the area in square feet.
+#9
+Q: The ratio of a to b is equivalent to the ratio 49 to 26. What is the value of a when b = 182?
+K: 343
+E: b = 182 is 7 times 26, so a = 7 × 49 = 343.
+#10
+Q: At the beginning of the year, Imani has $170 in her account. Each month this year, she will deposit between $30 and $60 into the account. Which inequality represents all possibilities for the total amount of money x, in dollars, in Imani's account after 10 months of deposits this year?
+A) x ≤ 300
+B) x ≥ 600
+C) 170 ≤ x ≤ 620
+D) 470 ≤ x ≤ 770
+K: D
+E: After 10 months she has deposited between 10(30) = 300 and 10(60) = 600 dollars. Adding the starting $170 gives 470 ≤ x ≤ 770.
+#11
+Q: The function f is defined by f(x) = (x − 2)(x − 8)(x + 3). In the xy-plane, the graph of y = h(x) is the result of translating the graph of y = f(x) up 6 units. What is the y-coordinate of the y-intercept of the graph of y = h(x)?
+A) 54
+B) 48
+C) 6
+D) 0
+K: A
+E: f(0) = (−2)(−8)(3) = 48, and moving the graph up 6 units gives 48 + 6 = 54.
+#12
+Q: A circle has a circumference of 28π centimeters. What is the diameter, in centimeters, of the circle?
+K: 28
+E: C = πd, so d = 28π/π = 28.
+#13
+Q: How many solutions does the equation 35x − 25 = 5(7x − 5) have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+E: Distributing gives 5(7x − 5) = 35x − 25, so both sides are identical and every x is a solution.
+#14
+Q: On January 1, 2000, the population of a town was 26,257 and on January 1, 2010, the population was 26,858. The equation 10x + 26,257 = 26,858 describes this situation. Which of the following is the best interpretation of x in this context?
+A) The total increase in population between 2000 and 2010
+B) The projected population of the town 10 years after 2010
+C) The average increase per year of the population between 2000 and 2010
+D) The percentage by which the population of the town increased each year between 2000 and 2010
+K: C
+E: The population rose by 601 over 10 years, so x, the amount added each year, is the average yearly increase.
+#15
+Q: For the linear function f, f(−5) = −7, and the slope of the graph of y = f(x) in the xy-plane is 3. Which equation defines f?
+A) f(x) = 3x + 8
+B) f(x) = 3x − 5
+C) f(x) = 3x − 7
+D) f(x) = 3x − 12
+K: A
+E: With slope 3, f(x) = 3x + b. Then −7 = 3(−5) + b gives b = 8.
+#16
+Q: In the xy-plane, an equation of circle A is (x − 2)^2 + (y − 7)^2 = 25. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?
+A) (x − 2)^2 + (y − 7)^2 = 50
+B) (x − 2)^2 + (y − 7)^2 = 100
+C) (x − 2)^2 + (y − 7)^2 = 250
+D) (x − 2)^2 + (y − 7)^2 = 625
+K: B
+E: Circle A has radius 5, so circle B has radius 10 and r^2 = 100.
+#17
+I: /qimg/26-03-int-b-math-m1-q21.svg
+Q: In right triangle FGH shown, what is the value of cos F?
+A) (√(3))/(68)
+B) (1)/(2)
+C) (√(3))/(2)
+D) 34√(3)
+K: C
+E: The angle at G is 60°, so the angle at F is 30°, and cos 30° = √3/2.
+#18
+Q: Based on a model, on day 1 of an 8-day experiment, a lima bean plant had an estimated mass of 253 grams, and each day after day 1 the estimated mass of the plant decreased by 4 grams. Which equation represents this model, where m is the estimated mass, in grams, of the plant on day x of the experiment and 1 ≤ x ≤ 8?
+A) m = −4x + 245
+B) m = −4x + 249
+C) m = −4x + 253
+D) m = −4x + 257
+K: D
+E: The mass is 253 − 4(x − 1) = −4x + 257.
+=M2
+#1
+Q: A cable company charges new customers a onetime installation fee and a monthly service fee for cable service. The equation y = 50x + 120 gives the total amount y, in dollars, the cable company charges new customers for x months of cable service. What is the amount, in dollars, of the onetime installation fee the cable company charges new customers?
+A) 170
+B) 120
+C) 70
+D) 0
+K: B
+E: The installation fee is the amount charged at x = 0, which is $120.
+#2
+Q: Data set X: 13, 16, 19, 21, 24, 25, 25, 26, 38
+Q: Data set Y: 13, 16, 19, 21, 24, 25, 25, 26, 33
+Q: Data set Y is created by replacing the number 38 in data set X with the number 33. Which of the following statements is true about the means and medians of data set X and data set Y?
+A) The mean of data set X is greater than the mean of data set Y, and the median of data set X equals the median of data set Y.
+B) The mean of data set X is greater than the mean of data set Y, and the median of data set X is greater than the median of data set Y.
+C) The mean of data set X equals the mean of data set Y, and the median of data set X equals the median of data set Y.
+D) The mean of data set X is less than the mean of data set Y, and the median of data set X is greater than the median of data set Y.
+K: A
+E: Replacing 38 with the smaller number 33 lowers the mean. The middle value, 24, does not change, so the medians are equal.
+#3
+Q: y = 4x + 36
+Q: One of the two equations in a system of linear equations is given. The system has infinitely many solutions. Which equation could be the second equation in this system?
+A) y − 4x = −36
+B) y − 4x = 36
+C) y − 9x = 18
+D) y − 9x = 0
+K: B
+E: Rewriting y = 4x + 36 as y − 4x = 36 gives the same line, so the system has infinitely many solutions.
+#4
+Q: If x + 3y = 29 and 7x − 12y = −61, what is the value of y?
+K: 8
+E: Multiply the first equation by 4 to get 4x + 12y = 116 and add it to the second: 11x = 55, so x = 5. Then 5 + 3y = 29 gives y = 8.
+#5
+Q: R = (0.36 l)/(A)
+Q: The given equation relates the resistance R, in ohms, of a wire to its length l, in meters, and its cross-sectional area A, in square meters. Which equation correctly expresses the length, in meters, of the wire in terms of its resistance, in ohms, and its cross-sectional area, in square meters?
+A) l = (R − A)/(0.36)
+B) l = (R + A)/(0.36)
+C) l = (0.36R)/(A)
+D) l = (AR)/(0.36)
+K: D
+E: Multiply both sides by A and divide by 0.36 to get l = AR/0.36.
+#6
+Q: For the polynomial function f, the graph of y = f(x) in the xy-plane passes through the points (−5, 0), (3, 0), and (7, 0). Which of the following must be a factor of f(x)?
+A) x + 3
+B) x + 7
+C) x − 3
+D) x − 5
+K: C
+E: The graph crosses the x-axis at x = 3, so x − 3 is a factor.
+#7
+Q: Which shaded region represents the solutions to the inequality 4x + 5y < 9?
+A) <img src="/qimg/26-03-int-b-math-m2-q7a.svg" alt="Graph A" style="max-width:100%;height:auto">
+B) <img src="/qimg/26-03-int-b-math-m2-q7b.svg" alt="Graph B" style="max-width:100%;height:auto">
+C) <img src="/qimg/26-03-int-b-math-m2-q7c.svg" alt="Graph C" style="max-width:100%;height:auto">
+D) <img src="/qimg/26-03-int-b-math-m2-q7d.svg" alt="Graph D" style="max-width:100%;height:auto">
+K: C
+E: The inequality is y < −0.8x + 1.8, so the boundary slopes down through (0, 1.8) and the solutions lie below the dashed line.
+#8
+Q: In the xy-plane, line k has a slope of 6/13, an x-intercept of (−6, 0), and a y-intercept of (0, p). What is the value of p?
+K: 36/13 | 2.769 | 2.77
+E: The line is y = (6/13)(x + 6). At x = 0, p = 36/13.
+#9
+Q: The measure of angle S is (8π)/(11) radians. The measure of angle T is 2 times the measure of angle S. Which expression represents the measure, in degrees, of angle T?
+A) (8)/(11)(90)(2)
+B) (8)/(11)(180)(2)
+C) (8)/(11π)(90)(2)
+D) (8π)/(11)(180)(2)
+K: B
+E: Angle T is 2(8π/11) radians. Multiplying by 180/π converts to degrees: (8/11)(180)(2).
+#10
+Q: What is the x-intercept of the graph of y = (45 − x)/(ax + b) in the xy-plane, where a and b are positive constants?
+A) (−b/a, 0)
+B) (0, 45/b)
+C) (0, −45)
+D) (45, 0)
+K: D
+E: The graph crosses the x-axis where the numerator is 0, so 45 − x = 0 and x = 45.
+#11
+Q: The ratio x to y is equivalent to the ratio 4 to 7. If x = 11t, what is the value of y in terms of t?
+A) (4)/(77)t
+B) (7)/(44)t
+C) (44)/(7)t
+D) (77)/(4)t
+K: D
+E: y = (7/4)x = (7/4)(11t) = (77/4)t.
+#12
+Q: A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 350 degrees Fahrenheit °F. The research manager recorded the amount of time, in minutes, each oven takes to preheat to 350 °F. Based on the first sample, the research manager estimated that this type of oven takes an average of 14.2 minutes to preheat to 350 °F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 14.4 minutes to preheat to 350°F, with an associated margin of error of 2.2 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?
+A) The first sample contained fewer ovens than the second sample.
+B) The first sample contained more ovens than the second sample.
+C) The first sample took less time on average to preheat to 350°F than the second sample.
+D) The first sample took more time on average to preheat to 350°F than the second sample.
+K: B
+E: With the same method, a larger sample gives a smaller margin of error, so the first sample had more ovens.
+#13
+Q: f(x) = 231(1.20)^(x/4)
+Q: For the given function f, the value of f(x) increases by p% for every increase of x by 8. What is the value of p?
+A) 20
+B) 31
+C) 40
+D) 44
+K: D
+E: Increasing x by 8 multiplies f(x) by (1.20)^(8/4) = 1.44, which is an increase of 44%.
+#14
+Q: A model estimates that in a particular forest, the number of trees with any given diameter measured at shoulder height is 21% less for each 1-inch increase in tree diameter measured at shoulder height. The model can be written in the form f(x) = ab^x, where a and b are constants and x is the tree's diameter, in inches, measured at shoulder height, and x ≥ 5. The model estimates that 3,100 trees in this forest have a diameter of 13 inches measured at shoulder height. Which function best represents this model?
+A) f(x) = 3,100(0.21)^x
+B) f(x) = 3,100(0.79)^x
+C) f(x) = 66,000(0.21)^x
+D) f(x) = 66,000(0.79)^x
+K: D
+E: A 21% decrease per inch means b = 0.79. Then 3,100 = a(0.79)^13 gives a ≈ 66,000.
+#15
+I: /qimg/26-03-int-b-math-m2-q15.svg
+Q: The scatterplot shows the relationship between two variables, t and d. Which of the following equations is the most appropriate linear model for the data shown?
+A) d = −60.1 + 2.02t
+B) d = 160.1 + 2.02t
+C) d = 359.8 + 2.02t
+D) d = 394.8 + 2.02t
+K: A
+E: The points rise about 2 units of d per unit of t, and at t = 230 the data is near d = 400. Only d = −60.1 + 2.02t gives about 404 there.
+#16
+Q: The function f is defined by f(x) = a^x − b, where a and b are constants. In the xy-plane, the graph of y = f(x) passes through the points (c, 11) and (2c, 221), where c is a constant. Which of the following could be the value of b?
+A) 4
+B) 25
+C) 210
+D) 232
+K: A
+E: Let u = a^c. Then u − b = 11 and u^2 − b = 221. Substituting u = 11 + b gives (11 + b)^2 − b = 221, so b^2 + 21b − 100 = 0, and b = 4 (or −25).
+#17
+Q: The price of an item increased by p% from $90 to $93. What is the value of p?
+K: 10/3 | 3.333 | 3.33
+E: The increase is 3 on a base of 90, so p = 3/90 × 100 = 10/3.
+#18
+Q: In triangle ABC, the measure of angle A is 56° and AC = 30. In triangle PQR, the measure of angle P is 56° and PR = 90. Which additional piece of information is sufficient to prove that triangle ABC is similar to triangle PQR?
+A) AB = 20 and PQ = 20.
+B) AB = 20 and QR = 60.
+C) The measures of angle B and angle R are 48° and 76°, respectively.
+D) The measures of angle B and angle Q are 56° and 48°, respectively.
+K: C
+E: With angle B = 48°, angle C = 180° − 56° − 48° = 76°, which equals angle R. Two pairs of equal angles prove the triangles similar.
+#19
+Q: (5)/(9)(5x + 9)(x + √(5k + 9))(x − √(5k + 9)) = 0
+Q: In the given equation, k is a positive constant. The product of the solutions to the equation is 81. What is the value of k?
+K: 36/5 | 7.2
+E: The solutions are −9/5, √(5k + 9) and −√(5k + 9). Their product is (9/5)(5k + 9) = 81, so 5k + 9 = 45 and k = 36/5.
+#20
+Q: 4x^2 − px + w = −86
+Q: In the given equation, p and w are integer constants. The equation has exactly one real solution. Which is NOT a possible value of w?
+A) −22
+B) 14
+C) 25
+D) 314
+K: C
+E: Exactly one solution means the discriminant is 0: p^2 = 16(w + 86). So w + 86 must be a perfect square. 64, 100 and 400 are, but 25 + 86 = 111 is not.
+#21
+Q: If (x + 6)/(5) = (x + 6)/(13), the value of x + 6 is between which of the following pairs of values?
+A) −7 and −5
+B) −2 and 2
+C) 2 and 7
+D) 8 and 13
+K: B
+E: The fractions can only be equal if x + 6 = 0, which lies between −2 and 2.
+#22
+Q: The expression 6x^4 + 17x^2 + 5 can be rewritten as (3x^2 + a)(2x^2 + b), where a and b are positive integers, or as (3x^2 + c)(2x^2 + d), where c and d are positive nonintegers. What is the value of a + c?
+K: 17/2 | 8.5
+E: The integer factoring is (3x^2 + 1)(2x^2 + 5), so a = 1. For the other form 2c + 3d = 17 and cd = 5, which gives c = 15/2 (c = 1 gives integers). So a + c = 1 + 15/2 = 17/2.

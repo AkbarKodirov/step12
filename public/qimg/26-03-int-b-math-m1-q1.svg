@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="452" height="452" viewBox="0 0 452 452" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="452" height="452" fill="#fff"/>
+
+<line x1="44.0" y1="408.0" x2="44.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="70.0" y1="408.0" x2="70.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="96.0" y1="408.0" x2="96.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="122.0" y1="408.0" x2="122.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="148.0" y1="408.0" x2="148.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="174.0" y1="408.0" x2="174.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="200.0" y1="408.0" x2="200.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="226.0" y1="408.0" x2="226.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="252.0" y1="408.0" x2="252.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="278.0" y1="408.0" x2="278.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="304.0" y1="408.0" x2="304.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="330.0" y1="408.0" x2="330.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="356.0" y1="408.0" x2="356.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="382.0" y1="408.0" x2="382.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="408.0" y1="408.0" x2="408.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="408.0" x2="408.0" y2="408.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="382.0" x2="408.0" y2="382.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="356.0" x2="408.0" y2="356.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="330.0" x2="408.0" y2="330.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="304.0" x2="408.0" y2="304.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="278.0" x2="408.0" y2="278.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="252.0" x2="408.0" y2="252.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="226.0" x2="408.0" y2="226.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="200.0" x2="408.0" y2="200.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="174.0" x2="408.0" y2="174.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="148.0" x2="408.0" y2="148.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="122.0" x2="408.0" y2="122.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="96.0" x2="408.0" y2="96.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="70.0" x2="408.0" y2="70.0" stroke="#bbb" stroke-width="1"/>
+<line x1="44.0" y1="44.0" x2="408.0" y2="44.0" stroke="#bbb" stroke-width="1"/>
+<line x1="38.0" y1="408.0" x2="414.0" y2="408.0" stroke="#111" stroke-width="1.6"/>
+<line x1="44.0" y1="414.0" x2="44.0" y2="38.0" stroke="#111" stroke-width="1.6"/>
+<text x="418.0" y="413.0" font-size="16" font-style="italic">x</text><text x="52.0" y="36.0" font-size="16" font-style="italic">y</text>
+<text x="96.0" y="426.0" text-anchor="middle" font-size="13">2</text>
+<text x="148.0" y="426.0" text-anchor="middle" font-size="13">4</text>
+<text x="200.0" y="426.0" text-anchor="middle" font-size="13">6</text>
+<text x="252.0" y="426.0" text-anchor="middle" font-size="13">8</text>
+<text x="304.0" y="426.0" text-anchor="middle" font-size="13">10</text>
+<text x="356.0" y="426.0" text-anchor="middle" font-size="13">12</text>
+<text x="408.0" y="426.0" text-anchor="middle" font-size="13">14</text>
+<text x="38.0" y="360.0" text-anchor="end" font-size="13">2</text>
+<text x="38.0" y="308.0" text-anchor="end" font-size="13">4</text>
+<text x="38.0" y="256.0" text-anchor="end" font-size="13">6</text>
+<text x="38.0" y="204.0" text-anchor="end" font-size="13">8</text>
+<text x="38.0" y="152.0" text-anchor="end" font-size="13">10</text>
+<text x="38.0" y="100.0" text-anchor="end" font-size="13">12</text>
+<text x="38.0" y="48.0" text-anchor="end" font-size="13">14</text>
+<line x1="44.0" y1="70.0" x2="408.0" y2="163.6" stroke="#111" stroke-width="2.4"/>
+<text x="226.0" y="446" font-size="14" text-anchor="middle">Time (hours)</text>
+<text x="54.4" y="20.6" font-size="13" text-anchor="start">Weight (ounces)</text>
+</svg>
