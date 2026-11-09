@@ -14,7 +14,7 @@ C) 600
 D) 602
 K: D
 #2
-I: /qimg/26-oct-v1-math-m1-q2.png
+I: /qimg/26-oct-v1-math-m1-q2.svg
 Q: For a project, Kayla recorded the heights of 21 people in her neighborhood. The histogram summarizes the heights, in inches (in), of these 21 people. The first bar represents people with a height of at least 51 in but less than 53 in. The second bar represents people with a height of at least 53 in but less than 55 in, and so on. How many of these 21 people had a height of at least 51 in but less than 55 in?
 K: 8
 #3
@@ -66,7 +66,7 @@ C) 52
 D) 208
 K: A
 #10
-I: /qimg/26-oct-v1-math-m1-q10.png
+I: /qimg/26-oct-v1-math-m1-q10.svg
 Q: In the given scatterplot, a line of best fit for the data is shown. Which of the following is closest to the slope of the line of best fit shown?
 A) 0.2
 B) 0.7
@@ -97,7 +97,7 @@ C) 5x − 7y = 35
 D) 7x − 5y = 35
 K: A
 #14
-I: /qimg/26-oct-v1-math-m1-q14.png
+T: <table style="border-collapse:separate;border-spacing:12px 0"><tr><td style="vertical-align:top"><b>Table A</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">y</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">-1</td><td style="border:1px solid #000;padding:4px 10px">4</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">2</td></tr></table></td><td style="vertical-align:top"><b>Table B</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">y</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">-1</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">2</td></tr></table></td><td style="vertical-align:top"><b>Table C</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">y</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">-1</td><td style="border:1px solid #000;padding:4px 10px">2</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">4</td></tr></table></td><td style="vertical-align:top"><b>Table D</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">y</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">-1</td><td style="border:1px solid #000;padding:4px 10px">2</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr></table></td></tr></table>
 Q: y < 0.5x + 3.2
 Q: For which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?
 A) Table A
@@ -130,7 +130,7 @@ C) 10
 D) 18
 K: A
 #18
-I: /qimg/26-oct-v1-math-m1-q18.png
+I: /qimg/26-oct-v1-math-m1-q18.svg
 Q: In the triangle shown, the value of x is 21. What is the value of sin A?
 A) (1)/(√(3))
 B) (1)/(√(2))
@@ -160,7 +160,7 @@ Q: What is the sum of the solutions to the given equation?
 K: 2
 =M2
 #1
-I: /qimg/26-oct-v1-math-m2-q1.png
+I: /qimg/26-oct-v1-math-m2-q1.svg
 Q: Note: Figure not drawn to scale.
 Q: In the figure shown, lines l and k are parallel and line t intersects both lines. If x > 166, which of the following must be true?
 A) y < 14
@@ -169,7 +169,7 @@ C) x + y < 180
 D) x + y > 180
 K: A
 #2
-I: /qimg/26-oct-v1-math-m2-q2.png
+T: <table style="border-collapse:collapse"><caption></caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Area (square feet)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Water (gallons)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">2,720</td><td style="border:1px solid #000;padding:4px 10px">4,896</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">4,080</td><td style="border:1px solid #000;padding:4px 10px">7,344</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">5,440</td><td style="border:1px solid #000;padding:4px 10px">9,792</td></tr></table>
 Q: The roofs on the buildings of a public garden are designed to allow water to drain into the garden. The table shows the relationship between the area x, in square feet, of a roof and the amount of water f(x), in gallons, drained from the roof into the garden over a certain period of time. Which equation could define f?
 A) f(x) = 0.6x
 B) f(x) = 1.8x
@@ -177,7 +177,7 @@ C) f(x) = 2,448.0x
 D) f(x) = 4,896.0x
 K: B
 #3
-I: /qimg/26-oct-v1-math-m2-q3.png
+I: /qimg/26-oct-v1-math-m2-q3.svg
 Q: The histograms summarize the distribution of values in data sets A and B. Which of the following statements correctly compares the means of data sets A and B?
 A) The mean of data set A is less than the mean of data set B.
 B) The mean of data set A is greater than the mean of data set B.
@@ -255,7 +255,7 @@ C) y = 14(1 + 54)^x
 D) y = 54(1 + 14)^x
 K: B
 #15
-I: /qimg/26-oct-v1-math-m2-q15.png
+I: /qimg/26-oct-v1-math-m2-q15.svg
 Q: Note: Figure not drawn to scale.
 Q: In the figure, 2r > 11s. Which of the following values must be the greatest?
 A) sin r°
@@ -264,7 +264,7 @@ C) (sin r°)/(sin s°)
 D) (sin r°)/(cos s°)
 K: C
 #16
-I: /qimg/26-oct-v1-math-m2-q16.png
+I: /qimg/26-oct-v1-math-m2-q16.svg
 Q: The rational function f is defined by an equation in the form f(x) = (a)/(x + b), where a and b are constants. The partial graph of y = f(x) is shown. If g(x) = f(x + 6), which equation could define function g?
 A) g(x) = (9)/(x)
 B) g(x) = (9)/(x + 6)
