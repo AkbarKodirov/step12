@@ -371,6 +371,18 @@
   "minutesPerModule": 32
  },
  {
+  "id": "dsat26-03-int-a-math",
+  "name": "March 2026 International · Version A · Math",
+  "type": "MATH",
+  "year": 2026,
+  "month": 3,
+  "region": "International",
+  "form": "A",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat26-03-int-b-rw",
   "name": "March 2026 International · Version B · Reading & Writing",
   "type": "EBRW",

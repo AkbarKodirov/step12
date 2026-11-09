@@ -1,0 +1,337 @@
+!id: dsat26-03-int-a-math
+!name: March 2026 International · Version A · Math
+!type: MATH
+!year: 2026
+!month: 3
+!region: International
+!form: A
+=M1
+#1
+Q: If 6 + x = 70, what is the value of 48 + 8x?
+K: 560
+E: Subtract 6 to get x = 64, so 48 + 8(64) = 560.
+#2
+T: <table><tr><th>Type of entree</th><th>Number of people</th></tr><tr><td>Beef</td><td>17</td></tr><tr><td>Chicken</td><td>20</td></tr><tr><td>Fish</td><td>6</td></tr><tr><td>Vegetarian</td><td>7</td></tr><tr><td>Total</td><td>50</td></tr></table>
+Q: A total of 50 people attended a conference and were offered 4 types of entrees. The table shows the number of people who chose each type of entree. If one of these people is selected at random, what is the probability of selecting a person who chose a vegetarian entree?
+A) (7)/(100)
+B) (7)/(50)
+C) (1)/(4)
+D) (7)/(10)
+K: B
+E: 7 of the 50 people chose a vegetarian entree, so the probability is 7/50.
+#3
+Q: y = 30x + 100
+Q: The equation gives the total cost y, in dollars, for a small business to produce x shirts. How many shirts can the business produce for a total cost of $550?
+A) −3
+B) 15
+C) 18
+D) 21
+K: B
+E: 550 = 30x + 100 gives 30x = 450, so x = 15.
+#4
+Q: Triangles XYZ and RST are congruent, where XY = 654 and YZ = 654. If RS = ST, what is the length of segment RS?
+A) 327
+B) 654
+C) 1,308
+D) 1,962
+K: B
+E: In congruent triangles RS corresponds to XY, so RS = 654.
+#5
+Q: A length of 590 meters is equal to how many decimeters? (1 meter = 10 decimeters)
+K: 5900
+E: 590 × 10 = 5,900 decimeters.
+#6
+Q: An object traveled 0.20 meters for every 4.0 seconds it was in motion. If the object was in motion for 24 seconds, what is the total distance, in meters, the object traveled?
+K: 1.2
+E: 24 seconds is 6 intervals of 4 seconds, so the distance is 6 × 0.20 = 1.2 meters.
+#7
+Q: The function f is defined by f(x) = 6(4)^x. What is the value of f(x) when x = 3?
+A) 64
+B) 81
+C) 258
+D) 384
+K: D
+E: f(3) = 6(4^3) = 6(64) = 384.
+#8
+Q: The number of cells of the bacteria Bacillus megaterium doubles every 25 minutes during its growth period when placed in a medium of sucrose-salts in a controlled laboratory environment. If a sample of 980 cells of Bacillus megaterium is placed in sucrose-salts in a controlled laboratory environment, which function f best represents the number of cells of the bacteria x minutes after the growth period begins, where x is less than the number of minutes in the growth period?
+A) f(x) = 980((1)/(2))^(x/25)
+B) f(x) = 980(2)^(x/25)
+C) f(x) = 980((1)/(3))^(x/25)
+D) f(x) = 980(3)^(x/25)
+K: B
+E: Doubling every 25 minutes means the factor is 2^(x/25), starting from 980 cells.
+#9
+Q: A model predicts that a certain elephant calf weighed 208 pounds when it was born and that the calf gained 3 pounds per day in its first year of life. This model is defined by an equation in the form f(x) = a + bx, where f(x) is the predicted weight, in pounds, of the elephant calf x days after it was born, and a and b are constants. What is the value of a?
+K: 208
+E: a is the weight at x = 0, which is the birth weight, 208 pounds.
+#10
+Q: The expression 13x^3 + 19x^3 − 17x^3 is equivalent to bx^3, where b is a constant. What is the value of b?
+K: 15
+E: 13 + 19 − 17 = 15.
+#11
+Q: x^2 − 20x = 0
+Q: Which of the following is a solution to the given equation?
+A) 40
+B) 20
+C) 10
+D) √(20)
+K: B
+E: Factor x(x − 20) = 0, so x = 0 or x = 20.
+#12
+I: /qimg/26-03-int-a-math-m1-q12.svg
+Q: In the right triangle shown, what is the value of cos A?
+A) (1)/(49)
+B) (1)/(26)
+C) (26)/(49)
+D) (49)/(26)
+K: C
+E: cos A is the side adjacent to A (26) over the hypotenuse (49), so 26/49.
+#13
+T: <table><tr><th>x</th><th>t(x)</th></tr><tr><td>29</td><td>15</td></tr><tr><td>32</td><td>(33)/(2)</td></tr><tr><td>51</td><td>26</td></tr></table>
+Q: For the linear function t, the table shows three values of x and their corresponding values of t(x). Function v is defined by v(x) = t(x) − 4. What is the x-intercept of the graph of y = v(x) in the xy-plane?
+A) (−1, 0)
+B) (3, 0)
+C) (7, 0)
+D) (8, 0)
+K: C
+E: The slope of t is 1/2, so t(x) = (1/2)x + 1/2 and v(x) = (1/2)x − 7/2. Setting v(x) = 0 gives x = 7.
+#14
+Q: For the polynomial function f, the graph of y = f(x) in the xy-plane passes through the points (−5, 0), (3, 0), and (4, 0). Which of the following must be a factor of f(x)?
+A) x + 3
+B) x + 4
+C) x − 3
+D) x − 5
+K: C
+E: The graph crosses the x-axis at x = 3, so x − 3 is a factor.
+#15
+Q: What is the x-intercept of a line in the xy-plane that has a slope of −(4)/(7) and passes through the point (0, 12)?
+A) (−21, 0)
+B) (−4, 0)
+C) (7, 0)
+D) (21, 0)
+K: D
+E: The line is y = −(4/7)x + 12. Setting y = 0 gives x = 21.
+#16
+Q: A circle has a circumference of 10π centimeters. What is the diameter, in centimeters, of the circle?
+K: 10
+E: C = πd, so d = 10π/π = 10.
+#17
+Q: A neighborhood consists of a 3-hectare park and a 34-hectare residential area. The total number of trees in the neighborhood is 4,832. The equation 3x + 34y = 4,832 represents this situation. Which of the following is the best interpretation of x in this context?
+A) The average number of trees per hectare in the park
+B) The average number of trees per hectare in the residential area
+C) The total number of trees in the park
+D) The total number of trees in the residential area
+K: A
+E: The park has 3 hectares, so 3x is its tree count and x is the average number of trees per hectare in the park.
+#18
+Q: In the xy-plane, an equation of circle A is (x − 5)^2 + (y − 7)^2 = 16. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?
+A) (x − 5)^2 + (y − 7)^2 = 32
+B) (x − 5)^2 + (y − 7)^2 = 64
+C) (x − 5)^2 + (y − 7)^2 = 128
+D) (x − 5)^2 + (y − 7)^2 = 256
+K: B
+E: Circle A has radius 4, so circle B has radius 8 and r^2 = 64.
+#19
+T: <table><tr><th>Number of employees</th><th>Number of stores</th></tr><tr><td>1 to 6</td><td>2</td></tr><tr><td>7 to 12</td><td>3</td></tr><tr><td>13 to 18</td><td>1</td></tr><tr><td>19 to 24</td><td>6</td></tr><tr><td>25 to 30</td><td>1</td></tr></table>
+Q: The table shown summarizes the number of employees at each of the 13 stores in a shopping plaza. Which of the following could be the median number of employees for the stores in the shopping plaza?
+A) 1
+B) 9
+C) 15
+D) 21
+K: D
+E: The median is the 7th of 13 stores. The first 6 stores are in the groups 1–6, 7–12 and 13–18, so the 7th store is in the 19–24 group, and only 21 fits.
+#20
+Q: For the positive quantities m, q, and r, m is 20% of m + q + r, q is 30% of q + r, and the value of r is 1,358. What is the value of m?
+K: 485
+E: q = 0.3(q + 1,358) gives q = 582. Then m = 0.2(m + 582 + 1,358), so 0.8m = 388 and m = 485.
+#21
+I: /qimg/26-03-int-a-math-m1-q21.svg
+Q: The graph of y = f(x) + 2 is shown, where f is defined by an equation of the form f(x) = a(b)^x + c. If a, b, and c are integer constants and c ≤ 0, which equation could define f?
+A) f(x) = −5(3)^x
+B) f(x) = −5(3)^x − 1
+C) f(x) = −5(3)^x − 3
+D) f(x) = −5(3)^x − 5
+K: A
+E: The graph levels off at y = 2, so f levels off at 0 and c = 0. The y-intercept of the graph is −3, so f(0) = a = −5, and the curve drops quickly with b = 3.
+#22
+Q: 30x = 1,800y − 2,700
+Q: One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?
+A) (1)/(30)x = 2y
+B) (1)/(30)x = 60y − 90
+C) x = 2y
+D) x = 60y − 90
+K: A
+E: Dividing the given equation by 900 gives (1/30)x = 2y − 3. A parallel line with a different intercept, (1/30)x = 2y, gives no solution.
+=M2
+#1
+Q: A candle is made of 18 ounces of wax. When the candle is burning, the amount of wax in the candle decreases by 1 ounce every 4 hours. If 8 ounces of wax remain in this candle, for how many hours has it been burning?
+A) 3
+B) 7
+C) 32
+D) 40
+K: D
+E: 10 ounces have burned, at 4 hours per ounce, so 40 hours.
+#2
+I: /qimg/26-03-int-a-math-m2-q2.svg
+Q: The scatterplot shows the relationship between two variables, x and y, for data set A. A line of best fit for the data is also shown. Data set B is created by subtracting 8 units from the value of y for each data point from data set A. Which of the following is closest to the y-coordinate of the y-intercept of the line of best fit for data set B?
+A) 39.17
+B) 48
+C) 52.22
+D) 72.33
+K: A
+E: The line of best fit for A has a y-intercept near 47. Subtracting 8 from every y-value moves the line down 8, so the intercept for B is about 39.
+#3
+Q: q(x) = 12(2^x)
+Q: Which table gives three values of x and their corresponding values of q(x) for function q?
+A) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>−24</td><td>0</td><td>24</td></tr></table>
+B) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>(1)/(6)</td><td>2</td><td>24</td></tr></table>
+C) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>(1)/(6)</td><td>12</td><td>24</td></tr></table>
+D) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>6</td><td>12</td><td>24</td></tr></table>
+K: D
+E: q(−1) = 12(1/2) = 6, q(0) = 12, and q(1) = 24.
+#4
+Q: For the exponential function g, the value of g(x) doubles for every increase of 2 in the value of x. If g(5) = 13, what is the value of g(7)?
+K: 26
+E: Going from x = 5 to x = 7 doubles the value, so g(7) = 2 × 13 = 26.
+#5
+Q: The length of a rectangle's diagonal is √(34), and the length of one of the rectangle's sides is 5. What is the perimeter of the rectangle?
+A) 34
+B) 16
+C) 15
+D) 8
+K: B
+E: The other side is √(34 − 25) = 3, so the perimeter is 2(5 + 3) = 16.
+#6
+Q: 2x + 12y = 6
+Q: x + 8y = 1
+Q: The solution to the given system of equations is (x, y). What is the value of x + 4y?
+A) 9
+B) 7
+C) 5
+D) 1
+K: C
+E: From the second equation x = 1 − 8y. Substituting gives 2 − 16y + 12y = 6, so y = −1 and x = 9. Then x + 4y = 5.
+#7
+Q: The expression (6x^24)/(18x^7) is equivalent to (1)/(3)x^b, where b is a constant and x > 0. What is the value of b?
+A) (7)/(24)
+B) (24)/(7)
+C) 17
+D) 31
+K: C
+E: Subtract the exponents: 24 − 7 = 17.
+#8
+Q: An object is kicked from a platform. The equation h = −4.9t^2 + 8t + 11 represents this situation, where h is the height of the object above the ground, in meters, t seconds after it is kicked. According to the equation, what is the height, in meters, from which the object was kicked?
+K: 11
+E: At the moment of the kick t = 0, so h = 11 meters.
+#9
+T: <table><tr><th>Number of cars</th><th>Maximum number of passengers and crew</th></tr><tr><td>3</td><td>139</td></tr><tr><td>6</td><td>271</td></tr><tr><td>10</td><td>447</td></tr></table>
+Q: The table shows the linear relationship between the number of cars, c, on a commuter train and the maximum number of passengers and crew, p, that the train can carry. Which equation represents the linear relationship between c and p?
+A) 44c − p = −7
+B) 44c − p = 7
+C) 44p − c = −7
+D) 44p − c = 7
+K: A
+E: The slope is (271 − 139)/3 = 44, so p = 44c + 7, which is 44c − p = −7.
+#10
+Q: x(x + 3) − 1 = 0
+Q: What are the solutions to the given equation?
+A) x = (−3 ± √(13))/(2)
+B) x = (−3 ± √(5))/(2)
+C) x = (3 ± √(13))/(2)
+D) x = (3 ± √(5))/(2)
+K: A
+E: The equation is x^2 + 3x − 1 = 0. By the quadratic formula x = (−3 ± √(9 + 4))/2 = (−3 ± √(13))/2.
+#11
+Q: y ≤ x + 14
+Q: y ≥ −3x − 14
+Q: Which point (x, y) is a solution to the given system of inequalities in the xy-plane?
+A) (0, −15)
+B) (0, 15)
+C) (−8, 0)
+D) (8, 0)
+K: D
+E: Only (8, 0) satisfies both: 0 ≤ 22 and 0 ≥ −38.
+#12
+Q: 35x + 3 = k(7x + 3) + 7x
+Q: In the given equation, k is a constant. The equation has exactly one solution. Which value CANNOT be the value of k?
+A) 5
+B) 4
+C) 0
+D) −4
+K: B
+E: The equation becomes 35x + 3 = (7k + 7)x + 3k. It has exactly one solution unless 7k + 7 = 35, which happens when k = 4.
+#13
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>−12</td><td>46</td></tr><tr><td>a</td><td>16</td></tr><tr><td>2</td><td>b</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y, where a and b are constants. There is a linear relationship between x and y. In the xy-plane, the y-intercept of the line representing this relationship is (0, −14). What is the value of a + b?
+A) −30
+B) −29
+C) −20
+D) −19
+K: A
+E: The slope is (−14 − 46)/(0 + 12) = −5, so y = −5x − 14. Then 16 = −5a − 14 gives a = −6, and b = −5(2) − 14 = −24. So a + b = −30.
+#14
+Q: Line s is perpendicular to line t in the xy-plane. Line s passes through the points (6, 7/8) and (−3, −17/8). Line t passes through the points (−8, 39) and (k, 78). What is the value of k?
+K: -21
+E: The slope of s is (7/8 + 17/8)/9 = 1/3, so the slope of t is −3. Then (78 − 39)/(k + 8) = −3, so k + 8 = −13 and k = −21.
+#15
+Q: y = 2x^2 − 24x + 54
+Q: The given equation represents a parabola in the xy-plane. Which of the following equations represents the same parabola and displays the x-intercepts as constants or coefficients?
+A) y = 2(x^2 − 12x) + 54
+B) y = 2x(x − 12) + 54
+C) y = 2(x − 6)^2 − 18
+D) y = 2(x − 9)(x − 3)
+K: D
+E: Factoring gives 2(x^2 − 12x + 27) = 2(x − 9)(x − 3), which shows the x-intercepts 9 and 3.
+#16
+I: /qimg/26-03-int-a-math-m2-q16.svg
+Q: In the figure, line m is parallel to line n, and lines AE and CD intersect at point B. Which additional piece of information is sufficient to prove that triangle ABC is congruent to triangle EBD?
+A) AB = 12 and DB = 12.
+B) AB = 12 and EB = 12.
+C) Triangles ABC and EBD are isosceles.
+D) No additional information is necessary to determine that the two triangles are congruent.
+K: B
+E: The angles at B are vertical angles and the lines are parallel, so the angles match. Adding one pair of corresponding sides, AB = EB, proves the triangles congruent.
+#17
+Q: f(x) = 12(7)^x
+Q: The function f is defined by the given equation. If g(x) = f(x + 2), which of the following equations defines the function g?
+A) g(x) = 24(7)^x
+B) g(x) = 588(7)^x
+C) g(x) = 24(14)^x
+D) g(x) = 144(49)^x
+K: B
+E: g(x) = 12(7)^(x + 2) = 12(49)(7)^x = 588(7)^x.
+#18
+Q: The value of a painting increased by 179% from the end of 2017 to the end of 2018 and then decreased by 23% from the end of 2018 to the end of 2019. What was the net percentage increase in the value of the painting from the end of 2017 to the end of 2019?
+A) 114.83%
+B) 137.83%
+C) 156.00%
+D) 243.17%
+K: A
+E: The value is multiplied by 2.79 and then by 0.77, giving 2.1483, a net increase of 114.83%.
+#19
+Q: (2)/(7)(2x + 7)(x + √(2k + 7))(x − √(2k + 7)) = 0
+Q: In the given equation, k is a positive constant. The product of the solutions to the given equation is 63. What is the value of k?
+K: 5.5 | 11/2
+E: The solutions are −7/2, √(2k + 7) and −√(2k + 7). Their product is (7/2)(2k + 7) = 63, so 2k + 7 = 18 and k = 5.5.
+#20
+Q: 4x^2 − px + w = −87
+Q: In the given equation, p and w are integer constants. The equation has exactly one real solution. Which is NOT a possible value of w?
+A) −23
+B) 13
+C) 81
+D) 313
+K: C
+E: Exactly one solution means the discriminant is 0: p^2 = 16(w + 87). So w + 87 must be a perfect square (p is a multiple of 4). 64, 100 and 400 are perfect squares, but 81 + 87 = 168 is not.
+#21
+T: <table><tr><th></th><th>Area (square inches)</th></tr><tr><td>Trapezoid ABCD</td><td>440</td></tr><tr><td>Trapezoid EFGH</td><td>11,000</td></tr></table>
+Q: Trapezoid ABCD is similar to trapezoid EFGH, where A, B, C, and D correspond to E, F, G, and H, respectively. The length of side AB is 55 inches. What is the length, in inches, of side EF?
+K: 275
+E: The area ratio is 11,000/440 = 25, so the lengths scale by 5 and EF = 5 × 55 = 275.
+#22
+Q: In triangle JKL, the measure of angle J is (90b)°, the measure of angle K is (69a)°, and the measure of angle L is (21a)°, where a and b are constants. Which of the following must be true?
+A) cos L > sin K
+B) cos L = sin K
+C) cos L < sin K
+D) There is not enough information to compare the values of cos L and sin K
+K: D
+E: The angle sum gives a + b = 2, which does not fix the individual angles, so cos L and sin K cannot be compared.
