@@ -1,0 +1,313 @@
+!id: dsat26-10-intm-math
+!name: October 2026 · International Math (int math)
+!type: MATH
+!year: 2026
+!month: 10
+!region: International
+!form: 7
+=M1
+#1
+Q: The function h is defined by h(x) = 100x − 20. What is the value of h(x) when x = 4?
+A) 84
+B) 124
+C) 380
+D) 420
+K: C
+#2
+Q: Out of 400 attempts, 35% were successful. How many of these attempts were successful?
+K: 140
+#3
+Q: A batch of smoothies consists of 8 cups of milk and 4 bananas and has 2,460 milligrams (mg) of calcium. There is 304 mg of calcium in 1 cup of milk. How much calcium, in mg, is in 1 banana?
+A) 2,432
+B) 539
+C) 28
+D) 7
+K: D
+#4
+Q: If 2(x − 10) = (2)(90), what is the value of x − 10?
+A) 180
+B) 90
+C) 18
+D) 9
+K: B
+#5
+Q: Triangle R has an area of 30 square centimeters (cm^2). Square S has side lengths of 4 cm. What is the total area of triangle R and square S, in cm^2?
+A) 17
+B) 19
+C) 34
+D) 46
+K: D
+#6
+Q: f(x) = 2x + b
+Q: For the linear function f, b is a constant and f(1) = 18. What is the value of b?
+K: 16
+#7
+Q: 22, 22, 25, 26, 29, 32, 40
+Q: What is the mean of the data set shown?
+A) 22
+B) 26
+C) 28
+D) 40
+K: C
+#8
+Q: What is the x-intercept of the graph of y = (28 − x)/(ax + b) in the xy-plane, where a and b are positive constants?
+A) (−(b)/(a), 0)
+B) (0, (28)/(b))
+C) (0, −28)
+D) (28, 0)
+K: D
+#9
+Q: A store sells two different-sized bottles of a certain shampoo. The store's sales of this shampoo totaled 910.80 dollars last month. The equation 4.53x + 6.09y = 910.80 represents this situation, where x is the number of smaller bottles sold and y is the number of larger bottles sold. According to the equation, what is the price, in dollars, of each smaller bottle?
+K: 4.53
+#10
+Q: |x| − 43 = 0
+Q: Which value is a solution to the given equation?
+A) (1)/(43)
+B) 0
+C) −(1)/(43)
+D) −43
+K: D
+#11
+Q: What is the slope of the graph of 6x − 3y = −16 in the xy-plane?
+A) −2
+B) −(3)/(8)
+C) (3)/(8)
+D) 2
+K: D
+#12
+I: /qimg/26-oct-intm-math-m1-q12.svg
+Q: Which of the following equations is the most appropriate linear model for the data shown in the scatterplot?
+A) y = 0.2 + 2.25x
+B) y = 0.2 − 2.25x
+C) y = 2.25 + 0.2x
+D) y = 2.25 − 0.2x
+K: A
+#13
+Q: 50 = (2K)/(v^2)
+Q: For an object with a mass of 50 kilograms, the given equation relates the kinetic energy K, in joules, of the object to the object's speed v, in meters per second, where K and v are positive. Which equation correctly expresses this object's speed, in meters per second, in terms of the object's kinetic energy, in joules?
+A) v = √((2K)/(50))
+B) v = √((50)/(2K))
+C) v = (50^2)/(2K)
+D) v = (2K)/(50^2)
+K: A
+#14
+Q: y ≥ x + 9
+Q: y ≤ −8x − 9
+Q: Which point (x, y) is a solution to the given system of inequalities in the xy-plane?
+A) (−1, 5)
+B) (−1, 10)
+C) (−3, 5)
+D) (−3, 10)
+K: D
+#15
+Q: y = −(1)/(4)x^2 + x + 28
+Q: The given equation models a company's active projects over 6 months, where y is the estimated number of active projects x months after the end of April 2011, where 0 ≤ x ≤ 6. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy-plane?
+A) At the end of April 2011, the estimated number of active projects was 0.
+B) At the end of April 2011, the estimated number of active projects was 28.
+C) At the end of May 2011, the estimated number of active projects was 0.
+D) At the end of May 2011, the estimated number of active projects was 28.
+K: B
+#16
+Q: Which expression is a factor of x^2 + 66x?
+A) x + 2
+B) x + 33
+C) x + 66
+D) x^2 + x
+K: C
+#17
+Q: A plumbing company charges its customers $115 for the first hour of a plumbing service call and $60 for each additional hour, plus the cost of plumbing parts. Which equation represents the total cost y, in dollars, for an x-hour plumbing service call where the cost of parts was $z and x ≥ 1?
+A) y = 60x + z
+B) y = 60x + z + 55
+C) y = 115x + z
+D) y = 115x + 60z + 55
+K: B
+#18
+Q: A customer purchases a new car from a car dealership. On the date of purchase, the dealership estimates the value of the car is $29,000. Each year after the car is purchased, the dealership estimates that the value of the car decreases by 16% of its estimated value the previous year. The dealership has a buyback program for the cars it sells. The dealership sets the buyback price of the car as the dealership's estimated value of the car plus an additional $300 if the car is sold back to the dealership within 5 years of the original purchase date. Which function represents the buyback price v(x), in dollars, of the car, where x is the number of years after the original purchase date and 0 < x ≤ 5?
+A) v(x) = (29,000 + 300)(0.16)^x
+B) v(x) = (29,000 + 300)(0.84)^x
+C) v(x) = 29,000(0.16)^x + 300
+D) v(x) = 29,000(0.84)^x + 300
+K: D
+#19
+Q: In the xy-plane, circle F is defined by the equation (x + 7)^2 + (y + 7)^2 = 25. Circle G has the same center as circle F, and the radius of circle G is 2 units greater than the radius of circle F. Circle G is defined by the equation (x + 7)^2 + (y + 7)^2 = p, where p is a constant. What is the value of p?
+K: 49
+#20
+Q: y = x − 1
+Q: y = 37(x − 1)^2 − 38
+Q: A solution to the given system of equations is (x, y). What is one possible value of x − 1?
+A) −2
+B) −(38)/(37)
+C) −1
+D) −(1)/(37)
+K: C
+#21
+Q: Triangle ABC is a right triangle, where angle B is a right angle. In triangle ABC, if tan C > 1, which of the following could be the measure of angle A?
+A) 29°
+B) 45°
+C) 61°
+D) 90°
+K: A
+#22
+I: /qimg/26-oct-intm-math-m1-q22.svg
+Q: In the figure, the length of RT is 63 units, the length of LK is 21 units, and the area of triangle RST is 252 square units. What is the length, in units, of KT?
+A) (8)/(3)
+B) (16)/(3)
+C) 8
+D) 16
+K: B
+=M2
+#1
+I: /qimg/26-oct-intm-math-m2-q1.svg
+Q: In the figure shown, lines ℓ and k are parallel and line t intersects both lines. If x > 146, which of the following must be true?
+A) y < 34
+B) y > 34
+C) x + y < 180
+D) x + y > 180
+K: A
+#2
+Q: f(x) = −10(2)^((x)/(4))
+Q: Which table gives four values of x and their corresponding values of f(x) for the given exponential function?
+A) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−4</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−5</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">−20</td><td style="border:1px solid #000;padding:4px 10px">−40</td></tr></table>
+B) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−4</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−5</td><td style="border:1px solid #000;padding:4px 10px">−10</td><td style="border:1px solid #000;padding:4px 10px">−20</td><td style="border:1px solid #000;padding:4px 10px">−40</td></tr></table>
+C) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−4</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">5</td><td style="border:1px solid #000;padding:4px 10px">−10</td><td style="border:1px solid #000;padding:4px 10px">−20</td><td style="border:1px solid #000;padding:4px 10px">−40</td></tr></table>
+D) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−4</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−5</td><td style="border:1px solid #000;padding:4px 10px">−10</td><td style="border:1px solid #000;padding:4px 10px">−20</td><td style="border:1px solid #000;padding:4px 10px">−30</td></tr></table>
+K: B
+#3
+Q: 15x + 465 = a(x + 31)
+Q: In the given equation, a is a constant. If the equation has infinitely many solutions, what is the value of a?
+K: 15
+#4
+Q: f(x) = 6(g(x)) − 2
+Q: g(x) = |13x − 7|
+Q: The functions f and g are defined by the given equations. What is the value of f(−10)?
+A) −62
+B) 137
+C) 813
+D) 820
+K: D
+#5
+I: /qimg/26-oct-intm-math-m2-q5.svg
+Q: In triangle ABC, DE is parallel to AC, BD = AD, BE = 9, and AC = 8. What is the length of BC?
+A) 72
+B) 18
+C) 17
+D) 16
+K: B
+#6
+Q: If 5x = 4, what is the value of 35x?
+A) (28)/(5)
+B) 7
+C) 28
+D) 140
+K: C
+#7
+I: /qimg/26-oct-intm-math-m2-q7.svg
+Q: Line k is shown in the xy-plane. Line n (not shown) is perpendicular to line k and passes through the point (3, 7). Which equation defines line n?
+A) y = −(4)/(3)x + 3
+B) y = −(4)/(3)x + 11
+C) y = (4)/(3)x + 3
+D) y = (4)/(3)x + 11
+K: B
+#8
+Q: The length of one side of a rectangle is 8 units longer than the length of another side. The rectangle's area is 513 square units. What is the length, in units, of the shorter of these two sides?
+K: 19
+#9
+I: /qimg/26-oct-intm-math-m2-q9.svg
+Q: The shaded region shown represents the solutions to the inequality −15y < c, where c is a constant. What is the value of c?
+A) −60
+B) −4
+C) 4
+D) 60
+K: D
+#10
+Q: 9(3x) + 7(8y) = 259
+Q: 9(3x) − 7(8y) = −637
+Q: The solution to the given system of equations is (x, y). What is the value of 3x + 8y?
+A) −85
+B) −21
+C) 43
+D) 64
+K: C
+#11
+Q: A signal from a satellite in space travels to the surface of Earth at the speed of light. The signal takes 0.1152 seconds to reach the surface of Earth. What is the approximate distance, in kilometers, from the satellite to the surface of Earth? (Note: Use 2.998 × 10^8 meters/second for the speed of light. 1,000 meters = 1 kilometer)
+A) 2,602,431
+B) 34,537
+C) 3,454
+D) 576
+K: B
+#12
+Q: A square is drawn inside a circle such that each vertex of the square lies on the circumference of the circle. The diameter of the circle is 85√(2) inches. What is the perimeter, in inches, of the square?
+A) 170√(2)
+B) 340
+C) 680
+D) 14,450
+K: B
+#13
+Q: A car dealership has only sedans, SUVs, and minivans for sale. On Monday, 30% of the vehicles for sale were sedans and 50% were SUVs. If there were 18 sedans for sale at the dealership on Monday, how many minivans were for sale?
+K: 12
+#14
+Q: x^2 + y^2 = 49
+Q: y = mx + (b)/(9)
+Q: In the given system of equations, m and b are negative constants. In the xy-plane, the graphs of the equations in the given system intersect at the point (−4, y), where y < 0. Which expression represents the value of b?
+A) 36m − 9√(33)
+B) −36m + 9√(33)
+C) (4m)/(9) − (√(33))/(9)
+D) −(4m)/(9) + (√(33))/(9)
+K: A
+#15
+Q: 25x + 10y = 7
+Q: The given equation is one equation in a system of two linear equations. The system has more than one solution. Which of the following equations could be the other equation in the system?
+Q: I. 30x + 12y = 7
+Q: II. 10x + 25y = 7
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: D
+#16
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Country</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Sweden</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">South Korea</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">United States</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Number of gamers</td><td style="border:1px solid #000;padding:4px 10px">25</td><td style="border:1px solid #000;padding:4px 10px">48</td><td style="border:1px solid #000;padding:4px 10px">53</td></tr></table>
+Q: A researcher conducted a study to examine the melatonin levels of gamers and the amount of time the gamers spent playing video games. A total of 126 gamers were selected at random from three countries. The melatonin levels of the gamers and the amount of time they spent playing video games were recorded over a 4-week period. The table gives the number of selected gamers from each country.
+Q: If the results of this study suggest a relationship between melatonin levels and the amount of time spent playing video games, which of the following aspects of the study will prevent the results from being generalized to all gamers?
+A) The gamers were not selected at random from all gamers.
+B) The number of selected gamers is too small.
+C) The number of selected gamers from each country is different.
+D) The melatonin levels of the selected gamers were not measured over a long enough period of time.
+K: A
+#17
+Q: At a hotel, guests used the pool for a total of t hours in March. At the same hotel, guests used the pool for 3.46t hours in April. What is the percent increase in the number of hours guests used the pool from March to April?
+A) 2.46%
+B) 3.46%
+C) 246%
+D) 346%
+K: C
+#18
+Q: −12(5x − 3)^2 + 6(5x − 4)^2
+Q: The given expression can be rewritten as (a)/(6)x^2 + (b)/(6)x + (c)/(6), where a, b, and c are constants. What is the value of a + b + c?
+A) −252
+B) −126
+C) −42
+D) −7
+K: A
+#19
+Q: B(t) = 800(2)^((4)/(5)t)
+Q: The function B gives the estimated number of bacteria in a population t hours after an initial observation. According to the function, the estimated number of bacteria in the population doubles every n minutes. What is the value of n?
+K: 75
+#20
+Q: Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 41 square centimeters (cm^2), and the surface area of right rectangular prism Y is 1,025 cm^2. The volume of right rectangular prism X is 17.4 cubic centimeters (cm^3). What is the volume, in cm^3, of right rectangular prism Y?
+K: 2175
+#21
+I: /qimg/26-oct-intm-math-m2-q21.svg
+Q: In triangle QRS shown, QR < RS. Which expression represents the length of QS?
+A) 26 cos Q
+B) 26 sin Q
+C) (26)/(cos Q)
+D) (26)/(sin Q)
+K: D
+#22
+Q: h(x) = a(x + 56)(x + r)(x + s)
+Q: The polynomial function h is defined by the given equation, where a, r, and s are positive constants. In the xy-plane, the graph of y = h(x) intersects the x-axis at exactly three points. If h(0) = p, which of the following must be true?
+A) p < 56rs
+B) p = 56rs
+C) p > 56rs
+D) There is not enough information to compare the values of p and 56rs.
+K: D

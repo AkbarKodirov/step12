@@ -1,5 +1,17 @@
 [
  {
+  "id": "dsat26-10-intm-math",
+  "name": "October 2026 · International Math (int math)",
+  "type": "MATH",
+  "year": 2026,
+  "month": 10,
+  "region": "International",
+  "form": "7",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat26-10-v1-rw",
   "name": "October 2026 · Version 1 · Reading & Writing",
   "type": "EBRW",
