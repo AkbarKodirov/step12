@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" font-family="Georgia, serif" font-size="13">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="230" y="18" text-anchor="middle" font-size="14">Correlation between Model-Predicted</text>
+<text x="230" y="34" text-anchor="middle" font-size="14">and Participant-Reported Enjoyment</text>
+<text x="230" y="50" text-anchor="middle" font-size="14">Ratings, by Painting Style</text>
+<line x1="80" y1="290.0" x2="400" y2="290.0" stroke="#bbb"/><text x="74" y="294.0" text-anchor="end">0</text>
+<line x1="80" y1="253.3" x2="400" y2="253.3" stroke="#bbb"/><text x="74" y="257.3" text-anchor="end">0.1</text>
+<line x1="80" y1="216.7" x2="400" y2="216.7" stroke="#bbb"/><text x="74" y="220.7" text-anchor="end">0.2</text>
+<line x1="80" y1="180.0" x2="400" y2="180.0" stroke="#bbb"/><text x="74" y="184.0" text-anchor="end">0.3</text>
+<line x1="80" y1="143.3" x2="400" y2="143.3" stroke="#bbb"/><text x="74" y="147.3" text-anchor="end">0.4</text>
+<line x1="80" y1="106.7" x2="400" y2="106.7" stroke="#bbb"/><text x="74" y="110.7" text-anchor="end">0.5</text>
+<line x1="80" y1="70.0" x2="400" y2="70.0" stroke="#bbb"/><text x="74" y="74.0" text-anchor="end">0.6</text>
+<text x="22" y="180" text-anchor="middle" transform="rotate(-90 22 180)">Correlation</text>
+<rect x="110" y="77.3" width="30" height="212.7" fill="#555" stroke="#000"/>
+<rect x="142" y="136.0" width="30" height="154.0" fill="#bbb" stroke="#000"/>
+<rect x="174" y="150.7" width="30" height="139.3" fill="#111" stroke="#000"/>
+<text x="156" y="310" text-anchor="middle">Impressionist</text>
+<rect x="260" y="238.7" width="30" height="51.3" fill="#555" stroke="#000"/>
+<rect x="292" y="249.7" width="30" height="40.3" fill="#bbb" stroke="#000"/>
+<rect x="324" y="249.7" width="30" height="40.3" fill="#111" stroke="#000"/>
+<text x="306" y="310" text-anchor="middle">Color field</text>
+<text x="240" y="334" text-anchor="middle">Painting style</text>
+<rect x="160" y="348" width="12" height="12" fill="#555" stroke="#000"/><text x="176" y="359">P1</text>
+<rect x="220" y="348" width="12" height="12" fill="#bbb" stroke="#000"/><text x="236" y="359">P3</text>
+<rect x="280" y="348" width="12" height="12" fill="#111" stroke="#000"/><text x="296" y="359">P6</text>
+</svg>

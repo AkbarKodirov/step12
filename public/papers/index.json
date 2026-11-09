@@ -432,6 +432,18 @@
   "minutesPerModule": 35
  },
  {
+  "id": "dsat24-10-us-b-rw",
+  "name": "October 2024 US · Form B · Reading & Writing",
+  "type": "EBRW",
+  "year": 2024,
+  "month": 10,
+  "region": "US",
+  "form": "B",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat24-08-a-rw",
   "name": "August 2024 International · Form A · Reading & Writing",
   "type": "EBRW",
