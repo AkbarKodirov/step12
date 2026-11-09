@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 352" width="470" height="352" font-family="serif" font-size="12">
+<text x="254.0" y="18" text-anchor="middle" font-size="13">Participants’ Openness to</text>
+<text x="254.0" y="34" text-anchor="middle" font-size="13">Marketing Message Content</text>
+<line x1="64" y1="242.0" x2="444" y2="242.0" stroke="#000" stroke-width="0.8"/><text x="58" y="246.0" text-anchor="end">0</text>
+<line x1="64" y1="220.9" x2="444" y2="220.9" stroke="#000" stroke-width="0.8"/><text x="58" y="224.9" text-anchor="end">0.5</text>
+<line x1="64" y1="199.8" x2="444" y2="199.8" stroke="#000" stroke-width="0.8"/><text x="58" y="203.8" text-anchor="end">1</text>
+<line x1="64" y1="178.7" x2="444" y2="178.7" stroke="#000" stroke-width="0.8"/><text x="58" y="182.7" text-anchor="end">1.5</text>
+<line x1="64" y1="157.6" x2="444" y2="157.6" stroke="#000" stroke-width="0.8"/><text x="58" y="161.6" text-anchor="end">2</text>
+<line x1="64" y1="136.4" x2="444" y2="136.4" stroke="#000" stroke-width="0.8"/><text x="58" y="140.4" text-anchor="end">2.5</text>
+<line x1="64" y1="115.3" x2="444" y2="115.3" stroke="#000" stroke-width="0.8"/><text x="58" y="119.3" text-anchor="end">3</text>
+<line x1="64" y1="94.2" x2="444" y2="94.2" stroke="#000" stroke-width="0.8"/><text x="58" y="98.2" text-anchor="end">3.5</text>
+<line x1="64" y1="73.1" x2="444" y2="73.1" stroke="#000" stroke-width="0.8"/><text x="58" y="77.1" text-anchor="end">4</text>
+<line x1="64" y1="52.0" x2="444" y2="52.0" stroke="#000" stroke-width="0.8"/><text x="58" y="56.0" text-anchor="end">4.5</text>
+<line x1="64" y1="52" x2="64" y2="242" stroke="#000"/>
+<rect x="173.0" y="106.9" width="54.0" height="135.1" fill="#555" stroke="#000" stroke-width="0.8"/>
+<rect x="227.0" y="94.2" width="54.0" height="147.8" fill="#ccc" stroke="#000" stroke-width="0.8"/>
+<rect x="281.0" y="81.6" width="54.0" height="160.4" fill="#000" stroke="#000" stroke-width="0.8"/>
+<text x="254.0" y="278" text-anchor="middle">Result by condition</text>
+<text x="14" y="147.0" text-anchor="middle" transform="rotate(-90 14 147.0)">Average rating</text>
+<rect x="194.0" y="292" width="12" height="12" fill="#555" stroke="#000" stroke-width="0.8"/><text x="212.0" y="303">supplement</text>
+<rect x="194.0" y="310" width="12" height="12" fill="#ccc" stroke="#000" stroke-width="0.8"/><text x="212.0" y="321">substitute</text>
+<rect x="194.0" y="328" width="12" height="12" fill="#000" stroke="#000" stroke-width="0.8"/><text x="212.0" y="339">control</text>
+</svg>

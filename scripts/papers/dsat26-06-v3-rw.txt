@@ -1,0 +1,440 @@
+!id: dsat26-06-v3-rw
+!name: June 2026 · Version 3 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 6
+!region: US & International
+!form: 3
+!missing: M2 M2 M2 M2 M2 M2
+=M1
+#1
+P: While researching a topic, a student has taken the following notes:
+P: Swimming was celebrated in ancient Rome but fell out of favor throughout Europe’s Dark Ages.
+P: English theologian Everard Digby wrote the first modern swimming manual, De Arte Natandi, in 1587.
+P: Dighy’s manual described and illustrated a variety of aquatic stunts that he had developed (e.g., “ringing the bells,” “the leap of the goat”).
+P: Historian Vicki Valosik claims, “In providing instructions for these aquatic ‘refinements,’ Digby helped to revive swimming—a once revered skill that had all but died out during Europe’s Dark Ages— and elevate it from a crude, mechanical function of the hands and feet to an artful science.”
+Q: The student wants to cite a historian to explain why Digby wrote De Arte Natandi. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) As Valosik claims, with De Arte Natandi, Digby developed the first modern swimming manual in order to illustrate why “a once revered skill...had all but died out during Europe’s Dark Ages.”
+B) Valosik claims that, by writing De Arte Natandi, Digby hoped to revive swimming...and elevate it from a crude, mechanical function...to an artful science.”
+C) According to Valosik, Digby wrote De Arte Natandi to describe and illustrate “once revered” aquatic stunts from ancient Rome, such as “ringing the bells” and “the leap of the goat.”
+D) In De Arte Natandi, Digby wrote that he “hoped to...elevate [swimming] from a crude, mechanical function of the hands and feet” by “providing instructions for..aquatic ‘refinements.”
+K: B
+#2
+P: <i>Cane</i> is a 1923 novel by Jean Toomer. In the novel, Toomer mentions a road in rural Georgia called Dixie Pike and describes it as having a deep connection to a faraway place, writing, ______
+Q: Which quotation from <i>Cane</i> most effectively illustrates the claim?
+A) “The Dixie Pike has grown from a goat path in Africa.”
+B) “One evening I walked up the [Dixie] Pike on purpose, and stopped to say hello [to Fern].”
+C) “From down the railroad track, the chug-chug of a gas engine announces that the repair gang is coming home.”
+D) “And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].”
+K: A
+#3
+P: A citizen of the Blackfeet Nation, Francis Guardipee was born on his tribe’s reservation in Montana. After studying anthropology at the University of Washington, he returned home, where in 1916 he founded the first <u>all-Native troop of</u> the Boy Scouts. ______ Guardipee was one of the first Native people to become a park ranger at Montana’s Glacier National Park in 1932.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) Specifically,
+C) Earlier,
+D) Nevertheless,
+K: A
+#4
+P: The following text is adapted from George Eliot’s 1860 novel The Mill on the Floss. After quarrelling with Tom Tulliver, Bob Jakin has just thrown his much cherished pocketknife, a gift from Tom, onto the ground in an attempt to spite Tom.
+P: [Bobs] very fingers sent entreating thrills that he would go and clutch that familiar rough buck’s-horn handle, which they had so often grasped for mere affection, as it lay idle in his pocket. And there were two blades, and they had just been sharpened! What is life without a pocket-knife to him who has once tasted a higher existence? No; to throw the handle after the hatchet is a comprehensible act of desperation, but to throw one’s pocket-knife after an implacable friend is <u>clearly in every sense a hyperbole,</u> or throwing beyond the mark.
+Q: Which choice best describes the function of the underlined phrase in the text as a whole?
+A) It suggests Bob’s dawning realization that the importance he attaches to the pocketknife is excessive and absurd.
+B) It alludes to Bob’s unbridled propensity to invent wildly embellished tales of his own exploits.
+C) It illustrates Bob’s deliberate intention of using sophisticated vocabulary to intimidate Tom.
+D) It conveys Bob’s distinct awareness that spurning Tom’s gift is an overly dramatic gesture.
+K: D
+#5
+P: Utilizing multiscale optical coherence tomography and other advanced imaging techniques, in 2018 a group of scholars conducted an in-depth analysis of Dutch painter
+P: Vermeer’s iconic work Girl with a Pearl Earring (ca. 1665). The investigation yielded fresh insights into the painting’s current condition and the techniques Vermeer employed in its creation, which were subsequently published in a series of articles. In one such article, John K. Delaney et al. expounded the way in which the group’s methodologies facilitated identification of the pigments Vermeer used in various sections of the painting.
+Q: Which choice best states the main idea of the text?
+A) Scholars have gleaned novel information about the creation and preservation state of the renowned Vermeer painting Girl with a Pearl Earring through analysis with sophisticated technology.
+B) Scholars determined in 2018 that advances in imaging technology afforded an unprecedented opportunity to resolve intricate questions about Vermeer’s Girl with a Pearl Earring.
+C) An investigation that uncovered previously undisclosed particulars about Vermeer’s masterpiece Girl with a Pearl Earring has demonstrated the superiority of multiscale optical coherence tomography to other advanced imaging techniques.
+D) An analysis that was made possible by recent technological advancements prompted the publication of a series of articles with contrasting interpretations of the analysis’s revelations about Vermeer’s Girl with a Pearl Earring.
+K: A
+#6
+P: Noise from human activity poses significant challenges to animal ______ ambient noise from automobile traffic, for example, may mask environmental signals that animals depend on for their survival.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) populations and
+B) populations,
+C) populations
+D) populations:
+K: D
+#7
+P: Antonia Olivia Dolan and colleagues conducted a study of the differences between musicians and nonmusicians in their preferred volume, in decibels (dB), for listening to various audio recordings including acoustic folk music, pop music, and nature sounds. The musicians, who reported much greater lifetime noise exposure than the nonmusicians did, tended to listen to the recordings at higher volumes than the nonmusicians did. The musicians and the nonmusicians had clinically comparable hearing, however, suggesting that while a musician’s preferred volume for playing a favorite recording might be 84.2 dB and a nonmusician’s might be 71.5 dB, this
+Q: Which choice most logically completes the text?
+A) indicates that the musician is unlikely to listen to a nonfavorite recording at a higher volume than the nonmusician would.
+B) does not arise from the musician having a clinically significant reduction in hearing ability as a result of lifetime noise exposure.
+C) shows that both the musician and the nonmusician have lower hearing ability than would be expected of clinically typical individuals with typical levels of lifetime noise exposure.
+D) cannot be explained as resulting from the musician’s relatively greater musical expertise.
+K: B
+#8
+P: The Italianate architectural style rose to prominence in both residential and commercial buildings in the US from the 1850s to the 1870s. <u>Distinguished by wide overhanging eaves, decorative brackets, and ornate moldings,</u> ______ became especially popular for buildings in the business districts that developed during the growth of urban areas.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) those
+B) it
+C) they
+D) each
+K: B
+#9
+P: Early in the morning, when the temperature is still low, the spiny lizard will sit in sunny areas for warmth. ______ as the temperature rises, the spiny lizard will hide in shady spots and under rocks to keep from getting too hot.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) Later,
+C) First,
+D) Previously,
+K: B
+#10
+P: While researching a topic, a student has taken the following notes:
+P: e The GREEN SURGE project studied different types of urban natural areas in European cities.
+P: Urban natural areas are city spaces that feature natural elements.
+P: Urban deltas are a type of urban natural area included in the study.
+P: Urban deltas are defined as the sediment deposits at the mouth of city rivers.
+P: They can benefit cities by providing fertile soil for farming.
+Q: The student wants to provide a specific example of a type of urban natural area. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) GREEN SURGE studied different types of urban natural areas, which are city spaces that feature natural elements.
+B) The spaces in European cities that feature natural elements are known as urban natural areas.
+C) Urban natural areas can benefit cities by providing fertile soil for farming.
+D) One specific example of a type of urban natural area is urban deltas, which are the sediment deposits at the mouth of city rivers.
+K: D
+#11
+P: Topographical prominence is a measure of a mountain’s independence from other mountains. Having 9,721 feet of prominence, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Pico do Ramelau, a peak located in Timor-Leste, is ranked by geographers as the world’s 98th most prominent mountain.
+B) the list of mountains geographers rank as the world’s most prominent includes Pico do Ramelau, a peak located in Timor-Leste, at number 98.
+C) geographers have ranked Pico do Ramelau, a peak in Timor-Leste, as the world’s 98th most prominent mountain.
+D) the ranking given by geographers to Pico do Ramelau, a peak located in Timor-Leste, is 98th most prominent mountain in the world.
+K: A
+#12
+P: According to historical accounts, medieval recreation— including chess, backgammon, and other board games enjoyed across royal courts and noble households— ______ primarily focused on strategic gameplay that mirrored societal structures. Chess, with its hierarchical pieces representing different social classes, was particularly popular during this period.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) was
+B) being
+C) were
+D) are
+K: A
+#13
+P: The cucumber plant has evolved a defensive mechanism that helps it deter attacks by herbivorous insects called cotton leafworms. ______ cucumber plants produce proteins that are toxic to the insects.
+Q: Which choice completes the text with the most logical transition?
+A) Specifically,
+B) Even so,
+C) On the contrary,
+D) Previously,
+K: A
+#14
+P: The following text is adapted from the 1941 nonfiction book Let Us Now Praise Famous Men, with text by James Agee and photographs by Walker Evans. Agee recounts driving a car through an area of rural Alabama that is unfamiliar with.
+P: On which road the woods might give way to any extension of farm country there was no deducing: for we were somewhere toward the middle of one of the wider gaps on the road map, and had seen nothing but woods, and <u>infrequent</u> woods farms, for a good while now.
+Q: In the text, what does the word “infrequent” most likely indicate?
+A) That long stretches of time presumably intervened between the founding of different farms in the area
+B) That the farms give the appearance of neglect, with work having been done on them only intermittently
+C) That the farms that Agee passes by in this area aren’t numerous or located close to one another
+D) That Agee is frustrated with the progress he is making through the large, wooded area
+K: C
+#15
+P: The outer limit of the Sun’s magnetic influence is known as the heliopause. This invisible boundary, which ______ created by the solar wind (charged particles from the Sun) meeting interstellar space, has been crossed by only two spacecraft: <i>Voyager 1</i> and <i>Voyager 2</i>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) is
+B) are
+C) were
+D) have been
+K: A
+#16
+P: The English oak tree has evolved a defensive mechanism that helps it deter attacks by herbivorous insects called winter moths. ______ English oaks produce chemicals that disrupt the insects’ ability to digest food.
+Q: Which choice completes the text with the most logical transition?
+A) Specifically,
+B) Previously,
+C) Even so,
+D) On the contrary,
+K: A
+#17
+P: The Mexican Revolution (1910-1920) was followed by a period of flourishing literary production, with writers such as Carlos Fuentes contributing tothe ______ of poetry, fiction, essays, and more. Unfortunately, this flood of interesting writing has diverted scholarly attention from the equally fascinating work of nineteenth-century figures like Guillermo Prieto.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) overturning
+B) underappreciation
+C) abundance
+D) erasure
+K: C
+#18
+P: Topographical prominence is a measure of a mountain’s independence from other mountains. Having 11,486 feet of prominence, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) geographers have ranked Mount Hayes, a peak in the United States, as the world’s 51st most prominent mountain.
+B) Mount Hayes, a peak located in the United States, is ranked by geographers as the world’s 51st most prominent mountain.
+C) the list of mountains geographers rank as the world’s most prominent includes Mount Hayes, a peak located in the United States, at number 51.
+D) the ranking given by geographers to Mount Hayes, a peak located in the United States, is 51st most prominent mountain in the world.
+K: B
+#19
+P: While researching a topic, a student has taken the following notes:
+P: Miriam Makeba was a South African singer.
+P: The song “Emabhaceni” appears on her 1988 album Sangoma.
+P: Sangoma features traditional Xhosa songs she learned as a child.
+P: Her 1970 album Keep Me in Mind features mostly renditions of popular songs from European and American artists of the time, such as “Down on the Corner.”
+P: “Down on the Corner” was originally made popular by the American rock band Creedence Clearwater Revival.
+Q: The student wants to emphasize a similarity between “Emabhaceni” and “Down on the Corner.” Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The songs “Emabhaceni” and “Down on the Corner” can both be found on albums recorded by the South African singer Miriam Makeba.
+B) Miriam Makeba’s 1988 album Sangoma features traditional Xhosa songs she learned as a child.
+C) Originally made popular by Creedence Clearwater Revival, the song “Down on the Corner” appears on Miriam Makeba’s album Keep Me in Mind.
+D) Miriam Makeba recorded many songs over her lifetime, including “Emabhaceni,” which appears on her 1988 album Sangoma.
+K: A
+#20
+P: While researching a topic, a student has taken the following notes:
+P: A nonnative species that causes environmental or economic harm when introduced to an ecosystem is considered invasive.
+P: Diffuse knapweed is an invasive species of flowering plant that crowds out livestock forage and native plants.
+P: e It was first introduced to the US accidentally through seed contamination. Purple loosestrife is an invasive species of wetland plant that crowds out native plants and reduces aquatic nutrients.
+P: e It was first introduced to the US accidentally in ship ballast water.
+Q: The student wants to emphasize a similarity between diffuse knapweed and purple loosestrife. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Diffuse knapweed is an invasive species of wetland plant, and purple loosestrife was first introduced accidentally through seed contamination.
+B) Diffuse knapweed was first introduced accidentally through seed contamination, but it now crowds out livestock forage and native plants.
+C) The harm to ecosystems caused by purple loosestrife and diffuse knapweed has led both species to be considered invasive in the US.
+D) Purple loosestrife is an invasive species that crowds out native plants and reduces aquatic nutrients, causing environmental harm.
+K: C
+#21
+P: Any effort to raise the toll that drivers must pay to use the Lewis and Clark Bridge, which spans the Ohio River to connect Indiana and Kentucky, should explain why a higher toll is necessary; no amount of justification, however, is likely to persuade some drivers who believe the current tollis ______
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) equivocal
+B) exorbitant
+C) contentious
+D) warranted
+K: B
+#22
+P: Over 600 languages are spoken in New York City in addition to English—one can find Aromanian spoken in the neighborhood of Ridgewood, or Irish in Red Hook. Most speakers of Chinese languages reside in the neighborhood of Flushing (part of New York City’s borough of Queens), where the dominant Chinese language is Mandarin, and in Chinatown, in the borough of Manhattan, where the dominant Chinese languages are Cantonese and Fuzhounese. Mandarin is widely spoken in north China, while Cantonese and Fuzhounese are widely spoken in south China. It can therefore be
+Q: Which choice most logically completes the text?
+A) Chinese immigrants regularly change their residences between Queens and Manhattan after they emigrate, rather than staying in one borough.
+B) people who emigrate from north China tend to settle in Flushing, while people who emigrate from south China tend to settle in Chinatown.
+C) Chinese immigrants who emigrated to New York City many years ago are more likely to speak several Chinese languages than are more recent Chinese immigrants.
+D) taken together, there are more Cantonese and Fuzhounese speakers among Chinese immigrants in New York than there are Mandarin speakers.
+K: B
+#23
+P: As volcanologists like Tamsin Mather are apt to make clear, not all volcanoes are the same. Tendiirek in Turkey, for example, is a shield volcano, a type of volcano named for its low profile, resembling a warrior’s shield lying on the ground. Opala in Russia, ______ is a caldera, a large cauldron-like hollow that forms shortly after the emptying of a magma chamber in a volcanic eruption.
+Q: Which choice completes the text with the most logical transition?
+A) in any case,
+B) by contrast,
+C) in conclusion,
+D) in fact,
+K: B
+#24
+P: While researching a topic, a student has taken the following notes:
+P: A nonnative species that causes environmental or economic harm when introduced to an ecosystem is considered invasive.
+P: Kudzu is an invasive species of vine that smothers native plants and trees.
+P: e It was first introduced to the US to help control erosion. Curly pondweed is an invasive species of aquatic plant that crowds out native plants and impedes aquatic recreation.
+P: e It was first introduced to the US accidentally during fishery stocking.
+Q: The student wants to emphasize a similarity between kudzu and curly pondweed. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Kudzu is an invasive species of aquatic plant, and curly pondweed was first introduced to help control erosion.
+B) The harm to ecosystems caused by curly pondweed and kudzu has led both species to be considered invasive in the US.
+C) Curly pondweed is an invasive species that crowds out native plants and impedes aquatic recreation, causing environmental harm.
+D) Kudzu was first introduced to help control erosion, but it now smothers native plants and trees.
+K: B
+#25
+P: While researching a topic, a student has taken the following notes:
+P: The dinosaur ant is an insect species.
+P: e It was believed to be extinct until a living dinosaur ant was identified in Australia in 1977.
+P: Mount Diablo buckwheat is a plant species.
+P: e It was believed to be extinct until a living Mount Diablo buckwheat was identified in the United States in 2005.
+P: They are considered Lazarus species.
+P: "Lazarus species" is a term for living species of organisms that were once believed to be extinct.
+Q: The student wants to specify when the dinosaur ant was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) 'Aliving dinosaur ant, once believed to be extinct, was identified in 1977.
+B) Previously believed to be extinct, a living dinosaur ant was identified in Australia.
+C) An example of a Lazarus species was found in 2005.
+D) Identified in the United States, a living Mount Diablo buckwheat was found in 2005.
+K: A
+#26
+P: Paintings by Carmen Herrera and Marcos Dimas were displayed in the Smithsonian's exhibition Our America: The Latino Presence in American Art. This 2013 exhibition celebrated the diverse achievements of ______ of Latin American descent.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) artists
+B) artists’
+C) artist's
+D) artist
+K: A
+#27
+P: The following text is adapted from Virginia Woolf's 1919 novel Night and Day. Katharine is the granddaughter of a celebrated poet.
+P: [Katharine's] descent from [a celebrated poet] was no surprise to her, but matter for satisfaction, until, as the years wore on, certain drawbacks made themselves very manifest. Perhaps it is a little depressing to inherit not lands but an example of intellectual virtue; perhaps the conclusiveness of a great ancestor is a little discouraging to those who run the risk of comparison with him.
+Q: As used in the text, what does the word "manifest" most nearly mean?
+A) Evident
+B) Particular
+C) Intended
+D) Expected
+K: A
+=M2
+#1
+P: Francoise Schein’s Subway Map Floating on a New York Sidewalk transforms an ordinary stretch of Manhattan pavement into public art. The map’s stainless steel bars and illuminated glass circles, re-creating the city transportation system across a ninety-foot expanse, ______ pedestrians with an unexpected artistic encounter underfoot.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) provide
+B) has provided
+C) providing
+D) provides
+K: A
+#2
+P: Some social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public’s understanding of history is also central to its subsequent comprehension of a state’s politics, and if an electorate is to function, historical issues cannot remain the dominion only of academics. Historyistoo <u>to</u> leave to historians alone.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) critical
+B) accessible
+C) complex
+D) respectable
+K: A
+#3
+P: <b>Text 1</b>
+P: Studies contributing to the body of evidence that people generally enjoy socializing have routinely focused on interactions in ongoing relationships (from close confidants to neighbors), but psychologist Selin Salman-Engin and colleagues have demonstrated the benefit of making connections with strangers. Greater positive affect was reported by participants in their study who warmly thanked a shuttle driver than by those who didn’t speak to the driver.
+P: <b>Text 2</b>
+P: Social relations research commonly draws on a model that centers an individual within three concentric circles. The innermost circle holds one’s strongest ties (e.g., a treasured friend), the next holds close but less important ties (e.g., a teammate), and the outermost holds weak ties (those more distant but important enough to be counted as part of one’s social network).
+Q: Based on the texts, what would Salman-Engin and colleagues (Text 1) most likely say about the discussion of the model in Text 2?
+A) It emphasizes distinctions among types of close connections that aren’t adequately represented in social relations research, since most studies categorize relationships as either close or casual.
+B) It reflects an overemphasis on relationship longevity in researchers’ evaluations of the relative importance of various connections in an individual’s social network.
+C) underscores that most research on social interactions fails to capture a category of connection that has the capacity to contribute positively to individuals’ sense of well-being.
+D) It explains researchers’ observations that individuals typically expect interactions with familiar people to be more positive than their interactions with unfamiliar people would be.
+K: C
+#4
+I: /qimg/26-06-rw-q95.svg
+P: Rural electric cooperatives (RECs), such as the Lea County Electric Cooperative based in Lovington, New Mexico, provide power to areas underserved by traditional utilities and can promote economic activity across related local industries. A 2023 nationwide industry report estimated the value RECs add to local economies. The report identified three types of impact: value added within the electric transmission and distribution industry (direct impact), value added to other industries within the same supply chain (indirect impact), and value added through local spending by employees working for RECs or in related industries (induced impact). Data from both 2019 and 2022 show that ______
+Q: Which choice most effectively uses data from the graph to complete the statement?
+A) the direct and induced economic impacts of RECs are likely to grow at similar rates while indirect impacts are likely to remain stable.
+B) induced economic impacts from RECs are less predictable than either direct or indirect impacts are.
+C) the value of the direct economic impacts of RECs is more comparable to the value of induced impacts than to that of indirect impacts.
+D) induced impacts on economic activity from RECs are less substantial than either direct or indirect impacts are.
+K: D
+#5
+P: The kilns used by the ancient Romans to make concrete extended to heights of 164 feet and diameters of 26 feet. <u>These enormous structures were used to create concrete mixtures that could reach temperatures of up to 250 degrees</u> such extreme heat enabled unique chemical outcomes impossible when working with cold-mixed materials.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Celsius,
+B) Celsius
+C) Celsius and
+D) Celsius;
+K: D
+#6
+P: While modern composers may often get inspiration from past greats like Ludwig van Beethoven, the extent of their influences is broad. The music of Sérgio Assad, for example, can be said to ______ elements of both the classical European tradition and the social, political, and cultural landscape of his native Brazil.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) defy
+B) neglect
+C) foretell
+D) exhibit
+K: D
+#7
+T: <table><caption>Number of Days to Construct Modular Retail Facilities</caption><thead><tr><th>Retail facilities</th><th>Construction company</th><th>Days to complete construction</th><th>Location</th></tr></thead><tbody><tr><td>Constitutional Hill Coffee Shop</td><td>Modular Site Solutions</td><td>23</td><td>Johannesburg, South Africa</td></tr><tr><td>Nine Sales Centre</td><td>Giant Containers</td><td>120</td><td>Ontario, Canada</td></tr><tr><td>Carter Credit Union</td><td>Black Diamond Group &amp; ProMod Manufacturing</td><td>350</td><td>Louisiana, USA</td></tr><tr><td>St. Regis Residences–Rye</td><td>Cassone Leasing</td><td>443</td><td>New York, USA</td></tr></tbody></table>
+P: The rapid completion of the Hermeus Office and Engine Testing Center, a modular structure (a structure built in pieces elsewhere and assembled on site) located in the United States, led an employee at another company to collect data on other facilities built using modular construction methods. The employee concluded that modular construction is more efficient than other construction methods.
+Q: Based on the text and the table, is the employee’s conclusion supported?
+A) No, because the data in the table show that modular construction projects vary considerably in their number of construction days
+B) No, because not enough information has been provided to allow a comparison of different construction methods’ efficiency
+C) Yes, because the Constitutional Hill Coffee Shop was completed in only 23 days
+D) Yes, because even the project with the longest construction time shown in the table was completed more quickly than it would have been if a different method had been used
+K: B
+#8
+P: In recent years, the English writer Anna Seward (1742-1809), whose poetry was widely read during her lifetime, has been rediscovered by contemporary audiences— a resurgence of interest that is largely due to literary scholars such as Gioia Angeletti, whose work ______ the richness of Seward’s poems and the poet’s historical importance to the Romantic literary movement encourages a broader rethinking of British Romanticism itself.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) highlighting
+B) has highlighted
+C) highlights
+D) is highlighting
+K: A
+#9
+P: While researching a topic, a student has taken the following notes:
+P: Late 1800s to the early 1900s: Japanese manga (comics) often used a structured, vertical layout with four panels per page.
+P: Late 1800s to the late 1980s: Heavily influenced by manga, Taiwanese manhua (comics) also favored a structured approach to layout.
+P: Post-1945: Manga artists began experimenting with dynamic panel sizing to enhance visual tension (e.g., establishing visual lines of sight between characters in one panel and objects in the next). 1947 to late 1980s: Taiwanese manhua artists adopted other manga characteristics (e.g., features of genre and narrative complexity).
+Q: The student wants to characterize Taiwanese manhua’s relationship to manga from the late 1800s to the late 1980s. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) While Taiwanese manhua artists initially resisted manga’s evolving approach to narrative complexity and genre, they adopted this approach in the early 1900s.
+B) Taiwanese manhua gradually diverged from manga, developing increasingly innovative layouts by the late 1980s.
+C) Though it didn’t always mirror manga trends during this period, Taiwanese manhua remained heavily influenced by manga.
+D) From the time manga’s layout first began to change in the late 1800s until manga’s adoption of dynamic panel sizing in the late 1980s, Taiwanese manhua maintained a structured approach.
+K: C
+#10
+P: When investigating why a house’s circuit breaker has tripped, an electrician typically asks residentsto <u>the</u> appliances that were running when the power went out. This information is needed so that the electrician can begin to investigate whether the ongoing outage stems from a faulty device or simply too many devices operating simultaneously.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) refurbish
+B) itemize
+C) exchange
+D) activate
+K: B
+#11
+P: Biologist Abbigail Merrill and colleagues conducted a study of how butterfly color and weather conditions relate to butterfly behavior, which wouldn’t have been possible without data gathered by students and other amateur science enthusiasts in the community. Considering over three years’ worth of data, the researchers found that orange butterflies were observed in the evening more often than any other butterflies, and that butterflies tended to prefer orange and red flowers on cloudy days and multicolor flowers on partly cloudy days.
+Q: According to the text, which factors seemed to be linked to the behavior of butterflies in Abbigail Merrill and colleagues’ study?
+A) Weather conditions but not butterfly color
+B) Both butterfly color and weather conditions
+C) Neither butterfly color nor weather conditions
+D) Butterfly color but not weather conditions
+K: B
+#12
+P: If Daredevil’s love interest, Karen Page, was often cast as the damsel in distress, she was ultimately an ordinary woman and thus could hardly be expected to vie with superheroes. The 1960s saw superpowered female characters emerge, yet scholars have observed that the development of these characters remained constrained by the era’s narrow expectations about femininity, including an emphasis on nurturing or romantic qualities and ineptitude in battle, with exceptions to such portrayals typically framed as aberrant and originating outside the characters’ autonomy. Even characters such as the Invisible Girl and Marvel Girl—powerful founding members of the Fantastic Four and the X-Men, respectively— followed this tendency.
+Q: Which scenario, if included in a comic book, would best illustrate the scholars’ observation about the portrayal of female superheroes in the 1960s?
+A) The Invisible Girl temporarily becomes a much more formidable combatant than any of her male teammates as a result of a mysterious influence that wholly alters her personality.
+B) When a supervillain briefly steals the Invisible Girl’s powers, her male teammates work to defeat the supervillain and restore her powers while she remains at the team’s headquarters.
+C) After Marvel Girl masters her power to move objects with her mind, she acquires new telepathic abilities, giving her access to information that none of her male teammates possess.
+D) Frustrated by her male teammates’ expectations that she handle domestic duties, Marvel Girl demands that the entire team distributes the work of maintaining the X-Men’s living quarters more equitably.
+K: A
+#13
+P: A film studies student is researching early 20th-century film serials, which consisted of individual episodes of a single long story that were shown weekly in theaters. The Mystery Squadron is a 1933 serial that, over its 12 episodes, kept its audience interested with the suspense and drama that are typical of the aviation genre. The student, however, claims that ultimately audiences of the time preferred resolution and closure over ongoing tension.
+Q: Which finding, if true, would most directly support the student’s claim?
+A) The 12th episode of The Mystery Squadron was the most expensive episode of the series to produce.
+B) Audiences of the time considered The Mystery Squadron to belong to a genre other than the aviation genre.
+C) The 12th episode of The Mystery Squadron was viewed by more people than was any previous episode in the series.
+D) Modern critics generally regard the first episode as the best installment of The Mystery Squadron.
+K: C
+#14
+I: /qimg/26-06-rw-q166.svg
+P: Having found that emoji images of objects generally have a negative effect when used in social media marketing, Lura Forcum and team studied reactions to three versions of a café’s message about coffee: one with a coffee cup emoji after the text (supplement), one with the emoji standing in for the word “coffee” (substitute), and one with no emoji (control). Participants rated their openness to the content of the version of the message they saw, on a scale from 1 (not at all open) to 7 (very open). The team hypothesized that the general negative effect they’d previously observed would be reduced when an emoji replaces the word it represents.
+Q: Which choice best describes data from the graph that support the team’s hypothesis?
+A) The average rating for the control condition was higher than the average rating for the supplement condition.
+B) The substitute condition and the control condition both received an average rating of about 4.
+C) The average rating for any of the three conditions was well below the maximum rating of 7.
+D) The average rating for the substitute condition was higher than the average rating for the supplement condition.
+K: D
+#15
+P: For brands of cereal bars sold in the United Kingdom, the mean line length— the number of products sharing a brand name— is 9.7, while for brands of soft drinks, the mean line length is 15.3. Koushyar Rajavi and colleagues examined 203 months of economic data to investigate whether line length mediates the effects of economic expansions and contractions on brand equity (the value, manifesting as a price premium, that a brand has in consumers’ minds due to its perceived quality and other associations). They noted that it becomes more difficult for consumers to evaluate brand quality as line length increases and that consumers show high risk aversion during economic downturns. Rajavi and colleagues would thus expect that ______
+Q: Which choice most logically completes the text?
+A) brand-related price premiums for cereal bars will likely show less variation across economic contractions and expansions than such premiums for soft drinks will.
+B) brand-related price premiums for cereal bars are more likely to be maintained during economic contractions than those for brands of soft drinks are.
+C) brands of cereal bars are more likely to increase their line lengths during economic contractions than brands of soft drinks are.
+D) brands of cereal bars will likely have higher brand equity than brands of soft drinks will during economic contractions but not during economic expansions.
+K: B
+#16
+P: Despite its great distance from Earth— it is 2,600 light-years away— the star Deneb is one of the brightest stars in the sky, ranking 19th. Although not as bright as Deneb, the star Alkaid also ranks among the 50 brightest stars (40th, to be exact). ______ Alkaid’s brightness is likely due to the star’s relative proximity: Alkaid is only 100 light-years away from Earth.
+Q: Which choice completes the text with the most logical transition?
+A) Indeed,
+B) Similarly,
+C) As a result,
+D) Granted,
+K: D
+#17
+P: While researching a topic, a student has taken the following notes:
+P: The Highpointers Club is a hiking club.
+P: One of the main goals among club members is to reach the points in all fifty US states.
+P: Those who achieve this are called 50 Completers.
+P: In Suk Han became a 50 Completer on November 15, 2013. The point in Wisconsin is Timms Hill, at 1,951 ft.
+P: The point in Wyoming is Gannett Peak, at 13,809 ft.
+Q: Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?
+A) If you are looking for a new hiking challenge, consider joining the Highpointers Club, as did In Suk Han, a hiker who successfully reached the point in every US state.
+B) Not until after you have reached the points in all fifty US states—including Timms Hill in Wisconsin and Gannett Peak in Wyoming—can you include yourself among the 50 Completers of the Highpointers Club.
+C) On November 15, 2013, In Suk Han finally completed the feat of reaching the point in all fifty US states, including Timms Hill in Wisconsin and Gannett Peak in Wyoming.
+D) Hikers aiming to count themselves among the 50 Completers must reach not only Wisconsin’s Timms Hill but also the even higher peak of Gannett Peak in Wyoming.
+K: B
+#18
+P: Orbicella annularis, a Caribbean coral with rounded columns, and Acropora divaricata, a Pacific coral with cushion-shaped plates, are both stony corals— the type that builds reefs. Boosting stony coral colonies globally is a key objective for ecologists, as microplastic pollution and other pressures increasingly harm reefs. In the wild, crustose coralline algae (CCA) encourage growth of the healthy reefs they inhabit by emitting lipids and other metabolites— chemical cues that induce coral larvae settlement. Biotechnology researcher Zahra Karimi and team have created a tool to reinstate those cues in damaged reefs: a gel coating embedded with metabolites derived from Pacific CCA. In tests with Montipora capitata, a Pacific stony coral, settlement rates increased substantially.
+Q: Which finding, if true, would best support a claim that the new tool already has the capacity to support the scope of the ecologists’ objective?
+A) When CCA are present and emitting lipids and other metabolites, larvae settlement rates improve almost as much in damaged reefs with Montipora capitata as they do in healthy reefs with that coral.
+B) The lipids and other metabolites derived from Pacific CCA appear to remain stable for long periods across a range of water temperatures and environmental conditions.
+C) In Pacific reefs, higher concentrations of lipids and other metabolites emitted by local CCA are associated with larger colonies of Acropora divaricata and greater overall diversity of coral species.
+D) Exposure to lipids and other metabolites emitted by CCA from Pacific reefs improves settlement rates for larvae of Orbicella annularis and a range of other coral species in regions other than the Pacific.
+K: D
+#19
+P: “Building on the Sand” by Eliza Cook, published in The Edgefield (SC) Advertiser in 1852, exemplifies the phenomenon of “fugitive verse,” poems reprinted in newspapers and other nineteenth-century periodicals without authorial oversight or even, in many cases, knowledge. Though poems that became fugitive verse were typical of newspaper poetry of their era in their reliance on such elements as moral themes and everyday settings, the phenomenon of fugitive verse represents a significant departure from the dominant model of literary authorship in which a work is controlled by a single and publicly identified author. This practice, however, was accepted as routine, even by the poets affected; that it has come to seem anomalous is indicative of the fact that ______
+Q: Which choice most logically completes the text?
+A) the notion that authors should have control over the reprinting of their works was a contested issue in nineteenth-century literary culture.
+B) the concept of authorship and the privileges associated with the author’s role are mediated by the contexts within which works are written and published.
+C) the authors of nineteenth-century newspaper poetry placed less value on artistic control than did their contemporaries who wrote other types of literature.
+D) the literary characteristics of works disseminated through commercial venues are influenced by the circumstances of publication as well as by authorial choices.
+K: B
+#20
+P: Despite its great distance from Earth—it is 1,300 light-years away— the star Alnitak is one of the brightest stars in the sky, ranking 32nd. Although not as bright as Alnitak, the star Alphard also ranks among the 50 brightest stars (47th, to be exact). ______ Alphard’s brightness is likely due to the star’s relative proximity: Alphard is only 180 light-years away from Earth.
+Q: Which choice completes the text with the most logical transition?
+A) Indeed,
+B) Granted,
+C) Similarly,
+D) As a result,
+K: B
+#21
+P: The Pacific Ocean is home to many ______ mountains that rise from the ocean floor), including the Cobb Seamount and the Pioneer Seamount.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) seamounts. Underwater
+B) seamounts (underwater
+C) seamounts, underwater
+D) seamounts underwater
+K: B
