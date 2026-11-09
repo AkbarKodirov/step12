@@ -1,0 +1,265 @@
+!id: dsat26-10-v4-math
+!name: October 2026 · Version 4 · Math
+!type: MATH
+!year: 2026
+!month: 10
+!region: International
+!form: 4
+=M1
+#1
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Area (square feet)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Water (gallons)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">500</td><td style="border:1px solid #000;padding:4px 10px">900</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">750</td><td style="border:1px solid #000;padding:4px 10px">1,350</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1,000</td><td style="border:1px solid #000;padding:4px 10px">1,800</td></tr></table>
+Q: The roofs on the buildings of a public garden are designed to allow water to drain into the garden. The table shows the relationship between the area x, in square feet, of a roof and the amount of water f(x), in gallons, drained from the roof into the garden over a certain period of time. Which equation could define f?
+A) f(x) = 0.6x
+B) f(x) = 1.8x
+C) f(x) = 450.0x
+D) f(x) = 900.0x
+K: B
+#2
+Q: 2(x − 10) = (2)(90)
+Q: What is the value of x − 10?
+A) 180
+B) 90
+C) 18
+D) 9
+K: B
+#3
+Q: A model estimates that a glacier moves between 21 and 29 centimeters per day. Which inequality represents possible values of x, where x is the total distance, in centimeters, the glacier moves in 2 days?
+A) 0 ≤ x ≤ 2
+B) (21)(0.5) ≤ x ≤ (29)(0.5)
+C) 21 ≤ x ≤ 29
+D) (21)(2) ≤ x ≤ (29)(2)
+K: D
+#4
+Q: If (126)/(k) = 63 and (10,584)/(42xk) = 63, what is the value of x?
+A) 12
+B) 23
+C) 2
+D) 84
+K: C
+#5
+Q: a = x(x + 62)
+Q: b = x(x + 31)
+Q: c = x(x − 31)
+Q: The equations a, b, and c are given in terms of x. Which of the following expressions is equivalent to a − b + c?
+A) x^2
+B) x^2 + 62
+C) x^2 + 62x
+D) 62 − x^2
+K: A
+#6
+Q: If 2(x − 7) = (2)(28), what is the value of x − 7?
+A) 4
+B) 56
+C) 28
+D) 8
+K: C
+#7
+Q: A model estimates that a glacier moves between 24 and 32 centimeters per day. Which inequality represents possible values of x, where x is the total distance, in centimeters, the glacier moves in 2 days?
+A) 24 ≤ x ≤ 32
+B) (24)(2) ≤ x ≤ (32)(2)
+C) 0 ≤ x ≤ 2
+D) (24)(0.5) ≤ x ≤ (32)(0.5)
+K: B
+#8
+Q: The function h is defined by h(x) = 100x − 40. What is the value of h(x) when x = 4?
+K: 360
+#9
+Q: The function h is defined by h(x) = 200x − 60. What is the value of h(x) when x = 4?
+K: 740
+#10
+Q: The function f is defined by f(x) = 35x + 60. What is the value of f(x) when x = 2?
+A) 70
+B) 97
+C) 130
+D) 190
+K: C
+#11
+Q: 28, 28, 29, 30, 32, 33, 37
+Q: What is the mean of the data set shown?
+A) 28
+B) 30
+C) 31
+D) 37
+K: C
+#12
+I: /qimg/26-oct-v4-math-m1-q12.svg
+Q: Which equation represents the graph shown?
+A) y = 2^(x + 3)
+B) y = 3^x + 2
+C) y = 2^x − 3
+D) y = 2^x + 3
+K: D
+#13
+Q: For the linear function h, h(0) = 0 and h(5) = 4. Which equation defines h?
+A) h(x) = (4)/(5)x + 4
+B) h(x) = (4)/(5)x
+C) h(x) = (5)/(4)x
+D) h(x) = (5)/(4)x + 5
+K: B
+#14
+Q: A rectangle has a width of n yards and a length of (n + 5) yards. If the rectangle has an area of 204 square yards, what is the value of n?
+K: 12
+#15
+Q: 3|x + 5| − 4 = 23
+Q: What is the sum of the solutions to the given equation?
+K: -10
+#16
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">r(x)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">−41</td><td style="border:1px solid #000;padding:4px 10px">−9</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">−21</td><td style="border:1px solid #000;padding:4px 10px">0</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">−1</td><td style="border:1px solid #000;padding:4px 10px">9</td></tr></table>
+Q: For the linear function r, the table shows three values of x and their corresponding values of r(x). What is the value of r(1)?
+K: 9.9
+#17
+Q: The cost of renting a piece of equipment is $64n for the first day and $32n for each additional day, where n is a positive integer. Which of the following functions gives the cost C(x), in dollars, of renting this equipment for x days, where x is a positive integer?
+A) C(x) = 32nx + 32n
+B) C(x) = 32nx + 64n
+C) C(x) = 64nx + 32n
+D) C(x) = 64nx − 32n
+K: A
+#18
+Q: The cost of renting a piece of equipment is $30n for the first day and $15n for each additional day, where n is a positive integer. Which of the following functions gives the cost C(x), in dollars, of renting this equipment for x days, where x is a positive integer?
+A) C(x) = 15nx + 30n
+B) C(x) = 30nx + 15n
+C) C(x) = 15nx + 15n
+D) C(x) = 30nx − 15n
+K: C
+#19
+Q: A linear function g is defined by g(x) = ax + b, where a and b are constants. If g(−4) = −9 and g(3) = 12, what is the value of a?
+K: 3
+#20
+Q: An organization sells tickets to a fundraiser for $52 per person. The organization's expenses are $680 for a rental space and $18 per person for food. The organization's goal is to earn at least $2,300 after paying all expenses. What is the minimum number of tickets that must be sold to meet this goal?
+K: 88
+#21
+Q: The length of a rectangle's diagonal is √(89), and the length of one of the rectangle's sides is 5. What is the perimeter of the rectangle?
+K: 26
+#22
+Q: The function g gives the volume, in cubic units, for a right square pyramid that has a base area of 47 square units and a height of 2x units. If the height of the pyramid increases by 1 unit, by how many cubic units will the volume increase?
+K: 47/3
+=M2
+#1
+Q: Triangle ABC is similar to triangle XYZ, where A, B, and C correspond to X, Y, and Z, respectively. In triangle ABC, the length of AB is 180 and the length of BC is 900. In triangle XYZ, the length of YZ is 75. What is the length of XY?
+A) 252
+B) 195
+C) 15
+D) 75
+K: C
+#2
+Q: Triangle ABC is similar to triangle XYZ, where A, B, and C correspond to X, Y, and Z, respectively. In triangle ABC, the length of AB is 180 and the length of BC is 900. In triangle XYZ, the length of YZ is 70. What is the length of XY?
+A) 14
+B) 70
+C) 194
+D) 252
+K: A
+#3
+Q: f(x) = 12(2)^((x)/(6))
+Q: Which table gives four values of x and their corresponding values of f(x) for the given exponential function?
+A) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−6</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">12</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">24</td><td style="border:1px solid #000;padding:4px 10px">48</td></tr></table>
+B) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−6</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">12</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">12</td><td style="border:1px solid #000;padding:4px 10px">24</td><td style="border:1px solid #000;padding:4px 10px">48</td></tr></table>
+C) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−6</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">12</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−6</td><td style="border:1px solid #000;padding:4px 10px">12</td><td style="border:1px solid #000;padding:4px 10px">24</td><td style="border:1px solid #000;padding:4px 10px">48</td></tr></table>
+D) <table style="border-collapse:collapse"><tr><td style="border:1px solid #000;padding:4px 10px">x</td><td style="border:1px solid #000;padding:4px 10px">−6</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">12</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">24</td><td style="border:1px solid #000;padding:4px 10px">12</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">3</td></tr></table>
+K: B
+#4
+Q: A right square pyramid has a height of 9 inches and a volume of 363 cubic inches. What is the perimeter, in inches, of the base of this pyramid?
+K: 44
+#5
+Q: The cost of renting a piece of equipment is $74n for the first day and $37n for each additional day, where n is a positive integer. Which of the following functions gives the cost C(x), in dollars, of renting this equipment for x days, where x is a positive integer?
+A) C(x) = 37nx + 37n
+B) C(x) = 37nx + 74n
+C) C(x) = 74nx + 37n
+D) C(x) = 74nx − 37n
+K: A
+#6
+Q: f(x) = √(9x + 1)
+Q: The function f is defined by the given equation. If f(a) = −6a, where a is a constant, what is the value of a?
+A) −(1)/(3)
+B) −(1)/(12)
+C) (1)/(12)
+D) (1)/(3)
+K: B
+#7
+Q: y = 9x^2 − 54x + 45
+Q: The given equation represents a parabola in the xy-plane. Which of the following equations that represent the same parabola displays the x-intercepts as constants or coefficients?
+A) y = 9(x − 1)(x − 5)
+B) y = 9(x − 3)^2 − 36
+C) y = 9x(x − 6) + 45
+D) y = 9(x^2 − 6x) + 45
+K: A
+#8
+Q: y ≥ x + 15
+Q: y ≤ −5x − 15
+Q: Which point (x, y) is a solution to the given system of inequalities in the xy-plane?
+A) (−4, 8)
+B) (−4, 11)
+C) (−6, 8)
+D) (−6, 11)
+K: D
+#9
+I: /qimg/26-oct-v4-math-m2-q9.svg
+Q: In the triangle shown, the value of x is 39. What is the value of sin A?
+K: 1/√2 | √2/2 | 0.7071
+#10
+Q: Which measure, in radians, is equivalent to (24 · 180)°?
+K: 24π | 24pi
+#11
+Q: An organization sells tickets to a fundraiser for $60 per person. The organization's expenses are $650 for a rental space and $20 per person for food. The organization's goal is to earn at least $1,900 after paying all expenses. What is the minimum number of tickets that must be sold to meet this goal?
+K: 64
+#12
+Q: f(x) = √(5x + 6)
+Q: The function f is defined by the given equation. If f(a) = −5a, where a is a constant, what is the value of a?
+A) (3)/(5)
+B) (2)/(5)
+C) −(2)/(5)
+D) −(3)/(5)
+K: C
+#13
+Q: At a hotel, guests used the pool for a total of t hours in March. At the same hotel, guests used the pool for 4.27t hours in April. What is the percent increase in the number of hours guests used the pool from March to April?
+K: 327
+#14
+Q: For the linear function g, g(5) = 12 and g(x + 1) − g(x) = 7. Write an equation defining g.
+K: g(x)=7x-23 | 7x-23 | g(x) = 7x − 23
+#15
+I: /qimg/26-oct-v4-math-m2-q15.svg
+Q: Which equation best represents a line of best fit for the data shown in the scatterplot?
+A) y = 75.14 + 0.86x
+B) y = 75.14 − 0.86x
+C) y = 0.86 + 75.14x
+D) y = −75.14 + 0.86x
+K: A
+#16
+Q: f(x) = x^2 − 42x + 80
+Q: The function f is defined by the given equation. Which of the following equivalent forms of the equation displays the zeros of the function as constants or coefficients?
+A) f(x) = x^2 − 5x − 37x + 80
+B) f(x) = (x − 2)(x − 40)
+C) f(x) = x(x − 42) + 80
+D) f(x) = (x − 21)^2 − 361
+K: B
+#17
+Q: The expression 7(8x + 17)(x − 4) − (6x + 13) can be written in the form ax^2 + bx + c, where a, b, and c are constants. What is the value of b?
+K: -111
+#18
+Q: In triangle RST, RS = ST and the length of RT is 76 units. If tan T = (9)/(38), what is the area, in square units, of triangle RST?
+A) 722
+B) 684
+C) 342
+D) 171
+K: C
+#19
+Q: 50x + 49y = c
+Q: 49x − 50y = c
+Q: In the given system of equations, c is a positive constant. Which of the following could be the point where the graphs of the equations in this system intersect in the xy-plane?
+A) (10, −(10)/(99))
+B) (10, 990)
+C) (c, (c)/(99))
+D) (c, 0)
+K: A
+#20
+Q: 4x + 12y = 10tx + 2
+Q: y = 14 + 2x
+Q: In the given system of equations, t is a constant. If the system has no solution, what is the value of t?
+K: 2.8 | 14/5
+#21
+Q: x^2 + y^2 = 81
+Q: y = mx + (b)/(3)
+Q: In the given system, m and b are negative constants. The graphs intersect at (−4, y), where y < 0. Express b in terms of m.
+K: 12m-3√65 | b=12m-3√65
+#22
+Q: In triangle RST, RS = ST and the length of RT is 56 units. If tan T = (5)/(28), what is the area, in square units, of triangle RST?
+K: 140
