@@ -1,0 +1,337 @@
+!id: dsat26-03-us-b-math
+!name: March 2026 US · Version B · Math
+!type: MATH
+!year: 2026
+!month: 3
+!region: US
+!form: B
+!missing: M1 #6, M2 #3
+=M1
+#1
+Q: f(x) = 231.2(1.2)^(x/4)
+Q: For the given function f, the value of f(x) increases by p% for every increase of x by 8. What is the value of p?
+A) 20
+B) 31
+C) 40
+D) 44
+K: D
+E: Increasing x by 8 multiplies f(x) by 1.2<sup>8/4</sup> = 1.2<sup>2</sup> = 1.44, an increase of 44%, so p = 44.
+#2
+Q: A model estimates that in a particular forest, the number of trees with any given diameter measured at shoulder height is 21% less for each 1-inch increase in tree diameter measured at shoulder height. The model can be written in the form f(x) = ab^x, where a and b are constants and x ≥ 5. The model estimates that 3,100 trees in this forest have a diameter of 13 inches measured at shoulder height. Which function best represents this model?
+A) f(x) = 3,100(0.21)^x
+B) f(x) = 3,100(0.79)^x
+C) f(x) = 66,000(0.21)^x
+D) f(x) = 66,000(0.79)^x
+K: D
+E: A 21% decrease gives b = 0.79. Then 3,100 = a(0.79)<sup>13</sup>, so a ≈ 66,000.
+#3
+I: /qimg/26-03-us-b-math-m1-q3.svg
+Q: The scatterplot shows the relationship between two variables, t and d.
+Q: Which of the following equations is the most appropriate linear model for the data shown?
+A) d = −60.1 + 2.02t
+B) d = 160.1 + 2.02t
+C) d = 359.8 + 2.02t
+D) d = 394.8 + 2.02t
+K: A
+E: The line passes close to (232, 408) and (268, 481). Its slope is about 2.02, and d = −60.1 + 2.02(232) ≈ 408.
+#4
+Q: The function f is defined by f(x) = a^x − b, where a and b are constants. In the xy-plane, the graph of y = f(x) passes through the points (c, 11) and (2c, 221), where c is a constant. Which of the following could be the value of b?
+A) 4
+B) 25
+C) 210
+D) 232
+K: A
+E: Let u = a<sup>c</sup>. Then u − b = 11 and u<sup>2</sup> − b = 221, so u<sup>2</sup> − u = 210 and u = 15 (u must be positive). Then b = 15 − 11 = 4.
+#5
+Q: In triangle ABC, the measure of angle A is 56° and AC = 30. In triangle PQR, the measure of angle P is 56° and PR = 90. Which additional piece of information is sufficient to prove that triangle ABC is similar to triangle PQR?
+A) AB = 20 and PQ = 20.
+B) AB = 20 and QR = 60.
+C) The measures of angle B and angle R are 48° and 76°, respectively.
+D) The measures of angle B and angle Q are 56° and 48°, respectively.
+K: C
+E: If angle B = 48°, then angle C = 180° − 56° − 48° = 76°, which equals angle R. Triangles ABC and PQR then share two angles, so they are similar.
+#7
+Q: 4x^2 − px + w = −86
+Q: In the given equation, p and w are integer constants. The equation has exactly one real solution. Which is <b>NOT</b> a possible value of w?
+A) −22
+B) 14
+C) 25
+D) 314
+K: C
+E: Write the equation as 4x<sup>2</sup> − px + (w + 86) = 0. One real solution requires p<sup>2</sup> = 16(w + 86), so w + 86 must be a perfect square. This is true for −22 (64), 14 (100), and 314 (400), but not for 25 (111).
+#8
+Q: If (x + 6)/(5) = (x + 6)/(13), the value of x + 6 is between which of the following pairs of values?
+A) −7 and −5
+B) −2 and 2
+C) 2 and 7
+D) 8 and 13
+K: B
+E: The two sides can only be equal if x + 6 = 0, which lies between −2 and 2.
+#9
+Q: The expression 6x^4 + 17x^2 + 5 can be rewritten as (3x^2 + a)(2x^2 + b), where a and b are positive integers, or as (3x^2 + c)(2x^2 + d), where c and d are positive nonintegers. What is the value of a + c?
+K: 17/2 | 8.5
+E: One factorization is (3x<sup>2</sup> + 1)(2x<sup>2</sup> + 5), so a = 1. The other satisfies 3d + 2c = 17 and cd = 5, which gives d = 2/3 and c = 15/2. Then a + c = 1 + 15/2 = 17/2.
+#10
+I: /qimg/26-03-us-b-math-m1-q10.svg
+Q: The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.
+Q: Which of the following equations best represents the line of best fit shown?
+A) y = 9.5 + 0.4x
+B) y = 9.5 − 0.4x
+C) y = −9.5 + 0.4x
+D) y = −9.5 − 0.4x
+K: B
+E: The line crosses the y-axis near 9.5 and decreases about 0.4 for each 1 unit increase in x.
+#11
+Q: The graph of the polynomial function f in the xy-plane, where y = f(x), passes through the point (9, 8). Which of the following must be true?
+A) f(0) = 8
+B) f(8) = 9
+C) f(9) = 0
+D) f(9) = 8
+K: D
+E: A point (9, 8) on the graph means that f(9) = 8.
+#12
+Q: For the exponential function g, the value of g(x) doubles for every increase of 2 in the value of x. If g(4) = 9, what is the value of g(6)?
+K: 18
+E: Increasing x from 4 to 6 doubles the value, so g(6) = 2(9) = 18.
+#13
+I: /qimg/26-03-us-b-math-m1-q13.svg
+Q: Sunspots are temporary dark spots on the surface of the Sun. The monthly mean number of sunspots for one calendar month is the average of the number of sunspots observed each day during the month. The linear function s models the monthly mean number of sunspots as a function of the number of months, x, since December 2013, where 0 ≤ x ≤ 30. The graph of y = s(x) is shown.
+Q: Which of the following is the best estimate for the monthly mean number of sunspots in December 2014?
+A) 61
+B) 71
+C) 81
+D) 91
+K: D
+E: December 2014 is 12 months after December 2013. The line falls from about 120 at x = 0 to about 48 at x = 30, a slope of about −2.4, so s(12) ≈ 120 − 2.4(12) ≈ 91.
+#14
+Q: What is the x-intercept of a line in the xy-plane that has a slope of −(4)/(7) and passes through the point (0, 12)?
+A) (−21, 0)
+B) (−4, 0)
+C) (7, 0)
+D) (21, 0)
+K: D
+E: The line is y = −(4/7)x + 12. Setting y = 0 gives x = 21.
+#15
+I: /qimg/26-03-us-b-math-m1-q15.svg
+Q: The shaded region shown represents the solutions to which inequality?
+A) y < (1)/(4)x + 1
+B) y < 4x + 1
+C) y > (1)/(4)x + 1
+D) y > 4x + 1
+K: B
+E: The dashed boundary passes through (0, 1) with slope 4, so it is y = 4x + 1, and the shaded region lies below it.
+#16
+Q: y = 5x + 18
+Q: y = 5x − 18
+Q: How many solutions does the given system of equations have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: A
+E: The lines have the same slope but different y-intercepts, so they are parallel and never meet.
+#17
+I: /qimg/26-03-us-b-math-m1-q17.svg
+Q: If cos A = 0.65, what is the value of sin C?
+A) 0.87
+B) 0.65
+C) 0.35
+D) 0.13
+K: B
+E: Triangle ABD is similar to triangle AEC, and angles A and C are the acute angles of right triangle AEC. So sin C = cos A = 0.65.
+#18
+Q: The function f is defined by f(x) = 3x − 7 and f(b) = (4)/(5). What is the value of b?
+K: 13/5 | 2.6
+E: 3b − 7 = 4/5 gives 3b = 39/5, so b = 13/5.
+#19
+Q: 9|7 − x| + 5 = 95
+Q: What is the sum of the solutions to the given equation?
+A) 14
+B) 10
+C) −3
+D) −14
+K: A
+E: |7 − x| = 10, so x = −3 or x = 17. The sum is 14.
+#20
+Q: f(x) = x^2 − 4x − 780
+Q: The function f is defined by the given equation. Which of the following equivalent forms of the equation displays the minimum value of the function as a constant or coefficient?
+A) f(x) = x^2 − 4x + 195
+B) f(x) = (x − 2)^2 + (−784)
+C) f(x) = x(x − 4) + (−780)
+D) f(x) = (x + 26)(x − 30)
+K: B
+E: Completing the square gives f(x) = (x − 2)<sup>2</sup> − 784, so the minimum value, −784, appears as a constant.
+#21
+I: /qimg/26-03-us-b-math-m1-q21.svg
+Q: The graph of y = 6x^2 + bx + c is shown, where b and c are constants. What is the value of bc?
+K: −36 | -36
+E: The graph passes through (0, −3), so c = −3. It also passes through (−2, −3), so 24 − 2b − 3 = −3 and b = 12. Then bc = 12(−3) = −36.
+#22
+Q: The value of a painting increased by 166% from the end of 2011 to the end of 2012 and then decreased by 14% from the end of 2012 to the end of 2013. What was the net percentage increase in the value of the painting from the end of 2011 to the end of 2013?
+A) 128.76%
+B) 142.76%
+C) 152.00%
+D) 203.24%
+K: A
+E: The value is multiplied by 2.66 and then by 0.86: 2.66 × 0.86 = 2.2876, a net increase of 128.76%.
+=M2
+#1
+Q: An object's speed is increasing at a rate of 12.60 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? Use 1 mile = 1,609 meters.
+K: 28.2
+E: 12.60 m/s<sup>2</sup> × 3,600 s<sup>2</sup>/min<sup>2</sup> ÷ 1,609 m/mile ≈ 28.2 miles per minute squared.
+#2
+Q: A chemist mixed x liters of a 6% saline solution with y liters of a 9% saline solution to produce a 7% saline solution. Which equation best represents this situation? (Assume the volumes of the solutions are additive.)
+A) 0.06x + 0.09y = 7(x + y)
+B) 0.06x + 0.09y = 0.07(x + y)
+C) 0.6x + 0.9y = 7(x + y)
+D) 0.6x + 0.9y = 0.7(x + y)
+K: B
+E: The salt in the mixture is 0.06x + 0.09y liters, and the total volume is x + y liters at 7%, or 0.07(x + y).
+#4
+Q: A rectangle has a length of x units and a width of x − 3 units. If the rectangle has an area of 28 square units, what is the value of x?
+A) 4
+B) 7
+C) 11
+D) 28
+K: B
+E: x(x − 3) = 28 gives x<sup>2</sup> − 3x − 28 = 0, or (x − 7)(x + 4) = 0. Since x is a length, x = 7.
+#5
+Q: A number x is at most 27 less than 3 times the value of y. If the value of y is 8, what is the greatest possible value of x?
+K: −3 | -3
+E: x ≤ 3(8) − 27 = −3, so the greatest possible value is −3.
+#6
+Q: (1)/(x − 3) = (x − 1)/(−x + 1.75)
+Q: Which of the following is a solution to the given equation?
+A) 0.75
+B) 2.5
+C) 3
+D) 4
+K: B
+E: Cross-multiplying gives −x + 1.75 = (x − 1)(x − 3), so x<sup>2</sup> − 3x + 1.25 = 0. Then x = 0.5 or x = 2.5, and only 2.5 is listed.
+#7
+Q: <table><tr><th>Number of cars</th><th>Maximum number of passengers and crew</th></tr><tr><td>2</td><td>81</td></tr><tr><td>5</td><td>189</td></tr><tr><td>10</td><td>369</td></tr></table>
+Q: The table shows the linear relationship between the number of cars, c, on a commuter train and the maximum number of passengers and crew, p, that the train can carry. Which equation represents the linear relationship between c and p?
+A) 36c − p = −9
+B) 36c − p = 9
+C) 36p − c = −9
+D) 36p − c = 9
+K: A
+E: The slope is (189 − 81)/(5 − 2) = 36, so p = 36c + 9, or 36c − p = −9.
+#8
+Q: 20x = 1,200y − 2,000
+Q: One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?
+A) (1)/(20)x = 3y
+B) (1)/(20)x = 60y − 100
+C) x = 3y
+D) x = 60y − 100
+K: A
+E: The given equation is x = 60y − 100. A line with the same slope but a different intercept, such as x = 60y, never meets it.
+#9
+Q: A circle has center G, and points M and N lie on the circle. Line segments MH and NH are tangent to the circle at points M and N, respectively. If the radius of the circle is 247 millimeters and the perimeter of quadrilateral GMHN is 5,174 millimeters, what is the distance, in millimeters, between points G and H?
+K: 2353
+E: GM = GN = 247, so 2(247) + 2(MH) = 5,174 and MH = 2,340. Triangle GMH is right-angled at M, so GH = √(247<sup>2</sup> + 2,340<sup>2</sup>) = 2,353.
+#10
+Q: In triangle JKL, the measure of angle J is 90b°, the measure of angle K is 66a°, and the measure of angle L is 24a°, where a and b are constants. Which of the following must be true?
+A) cos L > sin K
+B) cos L = sin K
+C) cos L < sin K
+D) There is not enough information to compare the values of cos L and sin K.
+K: D
+E: The angle sum gives 90b + 90a = 180, so only a + b = 2 is known. The values of a and b separately are not determined, so cos L and sin K cannot be compared.
+#11
+I: /qimg/26-03-us-b-math-m2-q11.svg
+Q: Sunspots are temporary dark spots on the surface of the Sun. The monthly mean number of sunspots for one calendar month is the average of the number of sunspots observed each day during the month. The linear function s models the monthly mean number of sunspots as a function of the number of months, x, since April 2015, where 0 ≤ x ≤ 30. The graph of y = s(x) is shown.
+Q: Which of the following is the best estimate for the monthly mean number of sunspots in April 2016?
+A) 23
+B) 33
+C) 43
+D) 53
+K: D
+E: April 2016 is 12 months after April 2015. The line falls from about 80 at x = 0 to about 11 at x = 30, a slope of about −2.3, so s(12) ≈ 80 − 2.3(12) ≈ 53.
+#12
+Q: For the linear function f, the graph of y = f(x) in the xy-plane has a slope of −4 and passes through the point (3, −5). Which equation defines f?
+A) f(x) = 3x − 5
+B) f(x) = −4x − 5
+C) f(x) = −4x − 4
+D) f(x) = −4x + 7
+K: D
+E: y + 5 = −4(x − 3) gives y = −4x + 7.
+#13
+I: /qimg/26-03-us-b-math-m2-q13.svg
+Q: The shaded region shown represents the solutions to which inequality?
+A) y < (1)/(3)x + 5
+B) y < 3x + 5
+C) y > (1)/(3)x + 5
+D) y > 3x + 5
+K: B
+E: The dashed boundary passes through (0, 5) with slope 3, so it is y = 3x + 5, and the shaded region lies below it.
+#14
+Q: A circle has a radius of 4.3 inches. The area of the circle is bπ square inches, where b is a constant. What is the value of b?
+K: 18.49
+E: The area is π(4.3)<sup>2</sup> = 18.49π, so b = 18.49.
+#15
+Q: y ≤ x + 8
+Q: y ≥ −3x − 8
+Q: Which point (x, y) is a solution to the given system of inequalities in the xy-plane?
+A) (0, −9)
+B) (0, 9)
+C) (−5, 0)
+D) (5, 0)
+K: D
+E: Only (5, 0) satisfies both: 0 ≤ 5 + 8 and 0 ≥ −3(5) − 8.
+#16
+I: /qimg/26-03-us-b-math-m2-q16.svg
+Q: The figure shown is a right rectangular pyramid, where ℓ = 16 units, w = 8 units, and h = 18 units. What is the surface area, in square units, of the pyramid?
+K: 128+32√85+16√97 | 580.6 | 580.61
+E: The base has area 16 × 8 = 128. Two triangular faces have base 16 and slant height √(18<sup>2</sup> + 4<sup>2</sup>) = 2√85, giving 2 × 16√85 = 32√85. The other two have base 8 and slant height √(18<sup>2</sup> + 8<sup>2</sup>) = 2√97, giving 2 × 8√97 = 16√97. The total is 128 + 32√85 + 16√97 ≈ 580.6.
+#17
+Q: 7|6 − x| + 3 = 73
+Q: What is the sum of the solutions to the given equation?
+A) 12
+B) 10
+C) −4
+D) −12
+K: A
+E: |6 − x| = 10, so x = −4 or x = 16. The sum is 12.
+#18
+Q: (8cx + 7)/(5) = 4x − 7
+Q: In the given equation, c is a constant. If the equation has no solution, what is the value of c?
+A) (5)/(2)
+B) (2)/(5)
+C) −(2)/(5)
+D) −(5)/(2)
+K: A
+E: The left side is (8c/5)x + 7/5. For no solution the x-coefficients must match, 8c/5 = 4, so c = 5/2, while the constants 7/5 and −7 differ.
+#19
+Q: The function f is defined by f(x) = 3x − 7. If f(a) + 1 = 2a, what is the value of a?
+A) −1
+B) 1
+C) 5
+D) 6
+K: D
+E: 3a − 7 + 1 = 2a gives a = 6.
+#20
+Q: A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Bennett opened one of these accounts with an original account balance of $700 and did not make any other deposits or withdrawals. 4 months after Bennett opened the account, the balance had increased by 0.6% of the original balance. 6 months after Bennett opened the account, the balance had increased by an additional 0.2% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.2% of the balance 2 months before. Which of the following equations could represent the account balance B(x), in dollars, x months after the account was opened, where x ≥ 4?
+A) B(x) = 704.2(1.002)^(x/2 − 4/2)
+B) B(x) = 704.2(1.002)^(x/2 − 4)
+C) B(x) = 704.2(1.002)^(2x − 8)
+D) B(x) = 704.2(1.002)^(2x − 4)
+K: A
+E: After 4 months the balance is 700(1.006) = 704.2. It then grows by a factor of 1.002 every 2 months, which is (x − 4)/2 = x/2 − 2 times by month x.
+#21
+Q: A circle in the xy-plane has its center at (−5, 5). Line t is tangent to this circle at the point (6, −1). Which of the following points also lies on line t?
+A) (0, (11)/(6))
+B) (1, 16)
+C) (12, 10)
+D) (17, 5)
+K: C
+E: The radius to (6, −1) has slope −6/11, so the tangent line has slope 11/6: y + 1 = (11/6)(x − 6). At x = 12 this gives y = 10.
+#22
+Q: 4x^2 − px + w = −85
+Q: In the given equation, p and w are integer constants. The equation has exactly one real solution. Which is <b>NOT</b> a possible value of w?
+A) −21
+B) 15
+C) 64
+D) 315
+K: C
+E: One real solution requires p<sup>2</sup> = 16(w + 85), so w + 85 must be a perfect square. This is true for −21 (64), 15 (100), and 315 (400), but not for 64 (149).

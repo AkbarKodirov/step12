@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="290" viewBox="0 0 320 290" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="320" height="290" fill="#fff"/>
+
+<polyline points="55,215 250,215 250,40 55,215" fill="none" stroke="#111" stroke-width="2"/>
+<line x1="155" y1="125" x2="250" y2="125" stroke="#111" stroke-width="2"/>
+<polyline points="236,215 236,201 250,201" fill="none" stroke="#111" stroke-width="1.6"/><polyline points="236,125 236,139 250,139" fill="none" stroke="#111" stroke-width="1.6"/>
+<text x="38" y="236" font-size="17" font-style="italic">A</text><text x="248" y="238" font-size="17" font-style="italic">E</text><text x="246" y="32" font-size="17" font-style="italic">C</text>
+<text x="138" y="124" font-size="17" font-style="italic">B</text><text x="254" y="130" font-size="17" font-style="italic">D</text>
+<text x="160" y="278" font-size="14" text-anchor="middle">Note: Figure not drawn to scale.</text>
+</svg>
