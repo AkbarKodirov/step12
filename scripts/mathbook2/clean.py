@@ -12,6 +12,7 @@ def vartoken(l):
 def isvar_any(l):
     return bool(re.search(r'[a-zA-Z\)]$',l))
 flagfrac=[]
+lbexp=[]
 def proc(lines):
     """merge lines of a chunk -> (text, ok)"""
     ls=[l.strip() for l in lines if l.strip()]
@@ -50,7 +51,7 @@ def proc(lines):
             if m and (vartoken(prev) or re.search(r'[a-z]\)$|\)$',prev)) and len(prev)<60 and not re.search(r'\b(is|of|in|at|to|by|and|or|if|has|for|the|as|are|be|than|with|from)$',prev):
                 mathy=re.search(r'[=+−()\d^]',prev) or len(prev)<=3
                 if mathy:
-                    out[-1]=prev+'^'+m.group(1)
+                    out[-1]=prev+'^'+m.group(1); lbexp.append(1)
                     rest=m.group(2)
                     if rest.strip():
                         out[-1]+=' '+rest.strip() if not rest.startswith((')',',','.')) else rest
@@ -111,11 +112,13 @@ stats={}
 for q in Q:
     sec=q['sec']
     stem,opts=build(q)
+    lbexp.clear()
     stxt,sl,bad1=proc(stem)
     otx=[];bad2=False
     for o in opts:
         t,_,b=proc(o); otx.append(t); bad2|=b
     alltxt=stxt+' '+' '.join(otx)
+    lb=bool(lbexp)
     flags=[]
     if bad1 or bad2: flags.append('frag')
     if FIG.search(alltxt): flags.append('fig')
@@ -129,7 +132,7 @@ for q in Q:
     if ans is None: flags.append('noans')
     if opts and ans and ans not in 'ABCD': flags.append('anslen')
     if not opts and ans and ans in list('ABCD') : flags.append('anslen')
-    res.append({'sec':sec,'n':q['n'],'src':q['src'],'stem':inline(stxt),'stemlines':paras(sl),'opts':[inline(x) for x in otx],'ans':ans,'flags':flags})
+    res.append({'sec':sec,'n':q['n'],'src':q['src'],'stem':inline(stxt),'stemlines':paras(sl),'opts':[inline(x) for x in otx],'ans':ans,'flags':flags,'lbexp':lb})
 json.dump(res,open('clean.json','w'),ensure_ascii=False)
 from collections import Counter
 c=Counter(tuple(r['flags']) for r in res)

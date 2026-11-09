@@ -9,7 +9,9 @@ def code(r):
     if s==15: return 'INF' if re.search(r'margin of error|survey|sample|estimate',t,re.I) else 'EVAL'
     if s==17: return 'RT' if re.search(r'\bsin|\bcos|\btan|hypotenuse|pythag|right triangle|right angle',t,re.I) else 'LAT'
 EXCL={(6,8),(10,40)}  # garbled stacked math that the rules could not recover
+VER=set(json.load(open('/home/user/step12/scripts/mathbook2/verified.json')))
 def sane(r):
+    if r.get('lbexp') and 'mb2-%d-%d'%(r['sec'],r['n']) not in VER: return False  # stacked exponent could be a fraction; keep only if the solver confirmed the key
     t=' '.join(r['stemlines'])
     if r['sec'] in (6,8): return False   # exponent-heavy: stacked exponents are not recoverable from the text
     if not r['opts'] and r['ans'].startswith('-') and re.search(r'positive (integer|number|constant|value)',t): return False

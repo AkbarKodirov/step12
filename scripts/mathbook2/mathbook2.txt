@@ -57,13 +57,6 @@ B) 16x + 80
 C) 16x + 21
 D) 16x + 11
 
-@0-25 | EQX | C
-The function f gives the product of a number, x, and a number that is 66 more than x. Which equation defines f?
-A) f(x) = x^2 + x + 66
-B) f(x) = x^2 + 66
-C) f(x) = x^2 + 66x
-D) f(x) = x^2 + 66x + 66
-
 @0-27 | EQX | 192
 If {7/8}p + 35 = 56, what is the value of 8p?
 
@@ -105,9 +98,6 @@ B) 4x^2 + 10
 C) 4x^2 + 6
 D) 4x^2 − 2
 
-@0-47 | EQX | 6
-The expression 72y^5 − 48y^4 is equivalent to ry^4(12y − 8), where r is a constant. What is the value of r?
-
 @0-49 | EQX | D
 Which expression is equivalent to (9c + 8) − (4c^3 − 6)?
 A) 4c^3 + 9c + 2
@@ -122,18 +112,12 @@ B) 2t^2 (79t − 12u)
 C) 2tu(79t^2 − 12)
 D) 2t^2u(79t − 12)
 
-@0-65 | EQX | 29
-The expression 19x^5 + 20x^5 − 10x^5 is equivalent to bx^5, where b is a constant. What is the value of b?
-
 @0-67 | EQX | A
 Which expression is equivalent to 4yz^3 + 5yz + 3yz^3?
 A) 7yz^3 + 5yz
 B) 7yz^6 + 5yz
 C) 12yz^6
 D) 12yz^7
-
-@0-71 | EQX | 8
-The expression 7x^6 + 9x^6 − 8x^6 is equivalent to bx^6, where b is a constant. What is the value of b?
 
 @0-74 | EQX | B
 Which expression is equivalent to 15(x+10)?
@@ -204,9 +188,6 @@ A) 8(3n) + 5n + 7(12) = 100
 B) 8n + 5n + 7n = 100
 C) 3n + 12 = 100
 D) 4n + 12 = 100
-
-@0-94 | EQX | 0.08
-0.24x^2 + 0.56x + 1.52 The given expression can be rewritten as a(3x^2 + 7x + 19), a is a constant. What is the value of a?
 
 @1-1 | LE1 | A
 If (x + 9) − 5 = 25, what is the value of x + 9?
@@ -331,10 +312,6 @@ D) Zero
 @1-22 | LE1 | 15
 Raheem bought 3 shirts that were each the same price. He used a coupon for $30 off the entire purchase. The cost for the entire purchase after using the coupon was $15. What was the original price, in dollars, for 1 shirt?
 
-@1-23 | LE1 | 24
-$ If 4 + 5(3−x)^2 =
-8(3−x)^3, what is the value of 3 − x?
-
 @1-24 | LE1 | 3
 $ 13x = 42 − x
 What value of x is the solution to the given equation?
@@ -387,20 +364,8 @@ B) 47.84
 C) 475.83
 D) 507.83
 
-@1-37 | LE1 | 1248
-The function g is defined by g(x) = x^2. For what value of x does g(x) = 624?
-
 @1-38 | LE1 | 18
 Raheem bought 9 shirts that were each the same price. He used a coupon for $54 off the entire purchase. The cost for the entire purchase after using the coupon was $108. What was the original price, in dollars, for 1 shirt?
-
-@1-39 | LE1 | D
-8(cx + 3)^5
-$ = 4x − 3
-In the given equation, c is a constant. If the equation has no solution, what is the value of c?
-A) −{5/2}
-B) −{2/5}
-C) {2/5}
-D) {5/2}
 
 @1-40 | LE1 | D
 If 5x = 4, what is the value of 40x?
@@ -881,15 +846,6 @@ B) 6
 C) 84
 D) 200
 
-@2-19 | SYS | D
-$ y = 6x^2 − 36x + 56
-$ y + 3 = 0
-How many solutions are there to the given system of equations?
-A) There is exactly 1 solution.
-B) There are exactly 2 solutions.
-C) There are exactly 3 solutions.
-D) There are no solutions.
-
 @2-20 | SYS | C
 $ 2(9x) + 5(8y) = 284
 $ 2(9x) − 5(8y) = −356
@@ -1221,9 +1177,6 @@ D) g(x) = {15/4}x + {33/4}
 
 @3-2 | LF | 5
 Line k passes through the points (1,1) and (2,6) in the xy-plane. If the equation for the line k is written in the form y = mx + b, where m and b are constants, what is the value of m?
-
-@3-3 | LF | 5/2
-Line k in the xy-plane has slope − 2p^5 and y-intercept (0, p), where p is a positive constant. What is the x-coordinate of the xintercept of line k?
 
 @3-4 | LF | 1/2
 The function f is defined by f(x) = {1/5}x + {9/10}. For what value of x does f(x) = 1?
@@ -1598,9 +1551,6 @@ A) y = 40x + z
 B) y = 40x + z + 72
 C) y = 112x + z
 D) y = 112x + 40z + 72
-
-@3-135 | LF | 515
-The equation h = 9(v − 273.15)^5 + 32 gives the corresponding temperature h, in degrees Fahrenheit, of any substance that has temperature of v kelvins, where v ≥ 0. If a substance has a temperature of 467.33 degrees Fahrenheit, what is the corresponding temperature, in kelvins, of this substance?
 
 @3-136 | LF | A
 As part of a science experiment on evaporation, Ella measured the height of water in a glass over a period of time. The function f(x) = 39 − 0.18x gives the estimated height, in centimeters (cm), of the water in the glass x days after the start of the experiment. Which of the following is the best interpretation of 39 in this context?
@@ -2171,25 +2121,6 @@ B) (x + 4)(x − 6)
 C) (x + 3)(x − 8)
 D) (x + 8)(x − 3)
 
-@5-5 | EQX | 23
-7x^2
-$ (4x − 13)(4x − u) = 0
-In the given equation, u is a positive constant. The sum of the the solutions to the equations is 9. What is the value of u?
-
-@5-6 | EQX | D
-Which of the following expressions has a factor of x + 2b, where b is a positive integer constant?
-A) 3x^2 + 9x + 18b
-B) 3x^2 + 24x + 18b
-C) 3x^2 + 30x + 18b
-D) 3x^2 + 39x + 18b
-
-@5-11 | EQX | A
-Which expression is a factor of 2x^2 + 30x + 8?
-A) 2
-B) 4x
-C) 30x
-D) 2x^2
-
 @5-15 | EQX | 23
 The given equation is:
 $ 0 = (x − k)(7x + t) − (x − k)
@@ -2202,19 +2133,6 @@ What is the positive solution to the given equation?
 @5-19 | EQX | 12
 $ (x + 16)(−x + 12)(x + 7)(x + 13) = 0
 What is the positive solution to the given equation?
-
-@5-22 | EQX | 9
-One of the factors of 2x^3 + 44x^2 + 234x is x + b, where b is a positive constant. What is the smallest possible value of b?
-
-@5-25 | EQX | B
-Which expression is a factor of 36x^2 (x + 12) − 36(x + 12)^3?
-A) −12x + 144
-B) 2x + 12
-C) 6x + 6
-D) 24x − 144
-
-@5-28 | EQX | 9
-One of the factors of 4x^3 + 88x^2 + 468x is x + b, where b is a positive constant. What is the smallest possible value of b?
 
 @7-2 | NLF | A
 $ f(x) = |71 − 2x|
@@ -2248,13 +2166,6 @@ D) 210
 
 @7-14 | NLF | 3500
 A proposal for a construction project was included on a city election ballot. A TV news report stated that 4 times as many people voted of the proposal as people who voted against it. An internet article reported that 10,500 more people voted in favor of the proposal than voted against it. Based on these data, how many people voted against the proposal?
-
-@7-19 | NLF | D
-The function f is defined by f(x) = 4x^2. What is the value of f(11)?
-A) 44
-B) 52
-C) 88
-D) 484
 
 @7-20 | NLF | D
 For x > 0, the function f is defined as follows: f(x) equals 111% of x Which of the following could describe this function?
@@ -2299,15 +2210,6 @@ B) −3
 C) 1
 D) 7
 
-@7-31 | NLF | 25
-The function f is defined by f(x) = x^3 + 17. What is the value of f(2)?
-
-@7-32 | NLF | 488
-The function g is defined by g(x) = x^2. For what value of x does g(x) = 244?
-
-@7-35 | NLF | 22
-The function f is defined by f(x) = x^3 + 14. What is the value of f(2)?
-
 @7-36 | NLF | D
 For x > 0, the function f is defined as follows: f(x) equals 300% of x Which of the following could describe this function?
 A) Decreasing exponential
@@ -2320,13 +2222,6 @@ The function g is defined as
 $ g(x) = 2x − 4
 (x + 11)(x − 6) If g(a + 5) = 0, where a is a constant, what is the value of a?
 
-@7-39 | NLF | D
-The function k is defined by k(x) = x^3 + 700. What is the value of k(x) when x = 2?
-A) 700
-B) 705
-C) 706
-D) 708
-
 @7-41 | NLF | 16
 $ |x − 8|= −|x − 8|+20
 What is the sum of the solutions to the given equation?
@@ -2337,9 +2232,6 @@ A) Decreasing exponential
 B) Decreasing linear
 C) Increasing exponential
 D) Increasing linear
-
-@7-51 | NLF | 35
-The function f is defined by f(x) = x^3 + 27. What is the value of f(2)?
 
 @7-54 | NLF | D
 The function h is defined by h(x) = 7|x|. What is the value of h(−2)?
@@ -2362,26 +2254,6 @@ B) The area of the rectangle, in square feet
 C) The difference between the length and the width of the rectangle, in feet
 D) The width of the rectangle, in feet
 
-@7-65 | NLF | C
-$ g(x) = x^3 + ax^2 + bx + c
-The function g is defined by the given equation, where a, b, and c are integer constants. The zeros of the function are −2, −7, and 6. What is the value of a?
-A) −84
-B) −3
-C) 3
-D) 84
-
-@9-1 | NLE | 12
-$ 4x^2 + kx + 9 = 0
-In the given equation, k is a positive constant. The equation has exactly one real solution. What is the value of k?
-
-@9-2 | NLE | C
-$ h(t) = −4.9t^2 + 10t
-The function h models the height h(t), in meters, of a football t seconds after it is kicked. What is the interpretation of h(2) = 0.40 in this context?
-A) The football has a maximum height of 0.40 meter
-B) The football has a maximum height of 2 meters
-C) The football has a height of 0.40 meter 2 seconds after it is kicked
-D) The football has a height of 2 meters 0.40 second after it is kicked
-
 @9-3 | NLE | C
 $ x^2 − x − 12 = 0
 What is the sum of the solutions to the given equation?
@@ -2393,10 +2265,6 @@ D) 7
 @9-4 | NLE | 2/3
 $ 3x^2 − 2x − 7 = 0
 What is the sum of the solutions to the given equation?
-
-@9-5 | NLE | 8
-$ 18x^2 + 24x + c = 0
-In the given equation, c is a constant. The equation has exactly one solution. What is the value of c?
 
 @9-9 | NLE | A
 If (x+3)^2 = 30, what is the value of x^2 +6x?
@@ -2413,28 +2281,6 @@ B) Exactly one
 C) Exactly two
 D) Infinitely many
 
-@9-14 | NLE | D
-In the equation 10x^2 + 50x + c = 0, c is a constant. If the equation has exactly one solution, what is the value of c?
-A) 0
-B) {5/2}
-C) 60
-D) {125/2}
-
-@9-15 | NLE | 98
-The solutions to x^2 + 10x + 23 = 0 are r and s, where r < s. The solutions to x^2 + 10x + 17 = 0 are t and u, where t < u. The solutions to x^2 + 20x + c = 0, where c is a constant are r + u and s + t. What is the value of c?
-
-@9-17 | NLE | D
-$ x^2 − 12x + c = 0
-In the given equation, c is a constant. The equation has no real solutions if c > n. What is the least possible value of n?
-A) −36
-B) −12
-C) 12
-D) 36
-
-@9-18 | NLE | 1/22
-$ 22x^2 + (22s + r)x + rs = 0
-In the given equation, r and s are positive constants. The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?
-
 @9-23 | NLE | B
 $ x^2 − 10x + 24 = 0
 How many distinct real solutions does the given equation have?
@@ -2442,23 +2288,6 @@ A) Exactly one
 B) Exactly two
 C) Infinitely many
 D) Zero
-
-@9-30 | NLE | A
-$ f(x) = 14x^2 − 35x + 7
-The given equation defines the function f. For what values of x does f(x) reach its minimum?
-A) 1.25
-B) 1.75
-C) 7
-D) 35
-
-@9-34 | NLE | D
-$ y = 6x^2 − 48x + 98
-$ y + 4 = 0
-How many solutions are there to the given system of equations have?
-A) There is exactly 1 solution.
-B) There are exactly 2 solutions.
-C) There are exactly 3 solutions.
-D) There are no solutions.
 
 @9-37 | NLE | D
 $ y = x − c
@@ -2480,26 +2309,9 @@ D) Infinitely many
 @9-42 | NLE | -384
 The expression (9x − 28)(15x + 4) is equivalent to the expression ax^2 + bx + c, where a, b, and c are constants. What is the value of b?
 
-@9-47 | NLE | A
-The function f is defined by f(x) = −5x^2 − 7. What is the value of f(−1)?
-A) −12
-B) −2
-C) 2
-D) 12
-
 @9-48 | NLE | 290
 $ x(kx − 68) = −4
 In the given equation, k is an integer constant. If the equation has no real solution, what is the least possible value of k?
-
-@9-49 | NLE | 12
-$ f(x) = x + 4
-$ g(x) = 3x^2 − rx + 48
-The functions f and g are given. In function g, r is a constant. If f(x)· g(x) = 3x^3 + 192, what is the value of r?
-
-@9-50 | NLE | 25
-$ y = −0.5
-$ y = x^2 + 10x + a
-In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?
 
 @9-52 | NLE | A
 If 4x^2 − 24x − 36 = 0, what is the value of x^2 − 6x?
@@ -2516,14 +2328,6 @@ B) 7
 C) 9
 D) 11
 
-@9-58 | NLE | B
-$ y = x^2 − 18x + 51
-The given equation relates the variables x and y. For what value of x does the value of y reach its minimum?
-A) −18
-B) 9
-C) 18
-D) 51
-
 @9-61 | NLE | D
 If 4x^2 − 12x − 24 = 0, what is the value of x^2 − 3x?
 A) 0
@@ -2539,28 +2343,6 @@ B) 7
 C) 11
 D) 15
 
-@9-64 | NLE | D
-The function f is defined by f(x) = 4x^2. What is the value of f(11)?
-A) 44
-B) 52
-C) 88
-D) 484
-
-@9-65 | NLE | 19
-$ −4x^2 + bx − 25 = 0
-In the given equation, b is a positive integer. The equation has no real solution. What is the largest possible value of b?
-
-@9-66 | NLE | D
-The function f is defined by f(x) = 5x^2. What is the value of f(6)?
-A) 30
-B) 40
-C) 60
-D) 180
-
-@9-69 | NLE | 1/33
-$ 33x^2 + (33s + r)x + rs = 0
-In the given equation, r and s are positive constants. The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?
-
 @9-71 | NLE | D
 $ (v − 12)(v − 3) = 0
 What are all possible solutions to the given equation?
@@ -2569,39 +2351,8 @@ B) −12 and 9
 C) −3 and 12
 D) 3 and 12
 
-@9-72 | NLE | C
-Which expression is a factor of 7x^2 − 9x + 14x − 18?
-A) x − 2
-B) x + 9
-C) 7x − 9
-D) 7x + 2
-
-@9-73 | NLE | B
-$ x^2 + y + 3 = 3
-$ 8x + 16 − y = 0
-The solution to the given system of equations is (x, y). What is the value of x?
-A) −16
-B) −4
-C) 2
-D) 8
-
 @9-77 | NLE | 24
 If (x+3)^2 = 33, what is the value of x^2 +6x?
-
-@9-78 | NLE | D
-In the equation 7x^2 + 49x + c = 0, c is a constant. If the equation has exactly one real solution, what is the value of c?
-A) 0
-B) {7/2}
-C) 56
-D) {343/4}
-
-@9-82 | NLE | A
-$ p(x) = 2x^2 + 20x + 15
-What is the minimum value of the given function?
-A) −35
-B) −15
-C) −5
-D) 15
 
 @9-83 | NLE | D
 $ x + 47 = y
@@ -2624,25 +2375,6 @@ D) Zero
 $ (2x − 7)^2 − 8(2x − 7) + 15 = 0
 What is a solution to the given equation?
 
-@9-87 | NLE | A
-The function f(x) is defined by f(x) = 10x^2 − 38x − 150. What is the value of f(0)?
-A) −150
-B) −38
-C) 0
-D) 10
-
-@9-89 | NLE | C
-$ f(x) = 5x^2 + 60x + 181
-The function g is defined by g(x) = f(x+8). What is the minimum value of g(x)?
-A) −14
-B) −6
-C) 1
-D) 9
-
-@9-90 | NLE | 15
-$ −2x^2 + bx − 32 = 0
-In the given equation, b is a positive integer. The equation has no real solution. What is the largest possible value of b?
-
 @9-94 | NLE | 5
 $ x^2 − 5x − 24 = 0
 What is the sum of the solutions to the given equation?
@@ -2650,13 +2382,6 @@ What is the sum of the solutions to the given equation?
 @9-95 | NLE | 6
 $ f(x) = −(x − 6)^2 + 4
 The function f is defined by the given equation. For what value of x does f(x) reach its maximum?
-
-@9-97 | NLE | C
-The function f gives the product of a number, x, and a number that is 91 more than x. Which equation defines f?
-A) f(x) = −x^2 + x + 91
-B) f(x) = x^2 + 91
-C) f(x) = x^2 + 91x
-D) f(x) = x^2 + 91x + 91
 
 @9-99 | NLE | 17
 $ x(x − 15) = 34
@@ -2674,23 +2399,8 @@ D) Infinitely many
 $ x(9x − 2a) + b(9x − 2a) − (x + b) = 0
 In the given equation, a and b are positive constants. A solution to the given equation is x = 42. What is the value of a?
 
-@9-105 | NLE | 99
-$ f(x) = −16x^2 + 99
-The function f gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of an acorn before it fell from the tree?
-
-@9-106 | NLE | B
-The variable x and y have quadratic relationship. Wheen x = 0, y = 45. When x = 6, y = 81. When x = 15, y = 0. Which equation represents this relationship?
-A) y = x^2 − 18x + 45
-B) y = −x^2 + 12x + 45
-C) y = x^2 + 45
-D) y = −3x^2 − 48x + 45
-
 @9-109 | NLE | 70875
 For a certain type of rope, the equation y = 900ax^2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 2.75 inches, it has an estimated breaking strength of 9,528.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 7.50 inches?
-
-@9-110 | NLE | -27
-$ 4x^2 + 21 = 48 + r
-In the given equation, r is a constant. The equation has exactly one real solution. What is the value of r?
 
 @9-112 | NLE | -196
 $ f(x) = (2x − 20)(2x + 8)
@@ -2730,13 +2440,6 @@ A solution to the given system of equation is (x, y). What is the value of x^2?
 $ x(kx − 40) = −8
 In the given equation, k is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of k?
 
-@9-126 | NLE | D
-Which of the following expressions has a factor of x + 2b, where b is a positive integer constant?
-A) 3x^2 + 7x + 14b
-B) 3x^2 + 16x + 14b
-C) 3x^2 + 18x + 14b
-D) 3x^2 + 25x + 14b
-
 @9-128 | NLE | A
 Which expression is equivalent to 13(x^2 − 7)?
 A) 13x^2 − 91
@@ -2752,31 +2455,6 @@ B) −17
 C) −16
 D) −15
 
-@9-130 | NLE | D
-Which quadratic equation has no real solution?
-A) −2x^2 = 0
-B) −2x^2 + 2 = 0
-C) −2x^2 + 2x = 0
-D) −2x^2 + 2x − 2 = 0
-
-@9-131 | NLE | 1/21
-$ 21x^2 + (21s + r)x + rs = 0
-In the given equation, r and s are positive constants. The product of the solutions to the given equation is krs, where k is a constant. What is the value of k?
-
-@9-134 | NLE | 9
-If 121x^2 = −110x + 56, what is the value of 11x + 5, where 11x + 5 > 0?
-
-@9-135 | NLE | D
-The function f is defined by f(x) = 4x^2. What is the value of f(11)?
-A) 44
-B) 52
-C) 88
-D) 484
-
-@9-139 | NLE | -35/4
-$ (x − k)^2 = (k − 4a)(x − k)
-In the given equation, a and k are constants, where k > 4a. The sum of the solutions to the equation is 3k + 35. What is the value of a?
-
 @9-141 | NLE | D
 $ x(x + 4) − 140 = 3x(x − 10)
 What is the sum of the solutions to the given equation?
@@ -2784,15 +2462,6 @@ A) 6
 B) 10
 C) 14
 D) 17
-
-@9-147 | NLE | D
-$ y = −0.5
-$ y = x^2 + 8x + a
-In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?
-A) 13
-B) 14
-C) 15
-D) 16
 
 @9-148 | NLE | D
 $ y = x − c
@@ -2802,10 +2471,6 @@ A) 7
 B) 11
 C) {287/24}
 D) 17
-
-@9-153 | NLE | 0.059
-$ f(x) = −0.0038400x^2 + 15.236x − 15,103
-The model shown gives the predicted average Arctic sea ice area f(x), in millions of square kilometers, for September of each year x, where x represents a year and 1979 ≤ x ≤ 2012. Based on the model, what is the positive difference, in millions of square kilometers, between the predicted average Arctic sea ice area for September of the year 1991 and the predicted average Arctic sea ice area for September of the year 1992? (Round your answer to the nearest thousandth.)
 
 @9-155 | NLE | C
 $ y = 0
@@ -2832,34 +2497,9 @@ B) 12
 C) 3
 D) 0
 
-@9-162 | NLE | -15
-$ −x^2 + bx − 64 = 0
-In the given equation, b is an integer. The equation has no real solutions. What is the least possible value of b?
-
-@9-163 | NLE | D
-$ x^2 − 2 = 23
-Which value is a solution to the given equation?
-A) −23
-B) −21
-C) −2
-D) 5
-
 @9-170 | NLE | 3135
 $ z(kz − 112) = 0
 In the given equation, k is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of k?
-
-@9-171 | NLE | A
-$ x^2 + y = 21
-$ −x + y = 1
-The solutions to the given system of equations are of the form (x, y). What is a possible value of x?
-A) −5
-B) −4
-C) −1
-D) 21
-
-@9-178 | NLE | 8
-$ 18x^2 − 24x + c = 0
-In the given equation, c is a constant. The equation has exactly one solution. What is the value of c?
 
 @9-180 | NLE | D
 $ y = x − c
@@ -3656,9 +3296,6 @@ B) (x − 3)^2 + (y − 1)^2 = 16
 C) (x − 3)^2 + (y + 3)^2 = 16
 D) (x − 1)^2 + (y + 1)^2 = 16
 
-@19-5 | CIR | 20
-A circle in the xy-plane has its center at (2, −5) and has a radius of 3. An equation of this circle is x^2 + y^2 + ax + by + c = 0, where a, b, and c are constants. What is the value of c?
-
 @19-10 | CIR | C
 What is the center of the circle in the xyplane defined by the equation (x − 9)^2 + (y + 6)^2 = 81?
 A) (−9, −6)
@@ -3687,26 +3324,12 @@ B) −{1/3}
 C) {1/3}
 D) 3
 
-@19-22 | CIR | D
-A circle in the xy-plane has a diameter with endpoints (a,11) and (a, d), where a and d are constants. An equation of this circle is (x − a)^2 + (y − 17)^2 = r^2, where r is a positive constant. What is the value of d?
-A) 5
-B) 12
-C) 17
-D) 23
-
 @19-23 | CIR | C
 Circle A has equation (x − 7)^2 + (y + 3)^2 = 1. In the xy-plane, circle B is obtained by translating circle A to the right 4 units. Which equation represents circle B?
 A) (x − 7)^2 + (y + 7)^2 = 1
 B) (x − 3)^2 + (y + 3)^2 = 1
 C) (x − 11)^2 + (y + 3)^2 = 1
 D) (x − 7)^2 + (y − 1)^2 = 1
-
-@19-25 | CIR | B
-A circle in the xy-plane has its center at (16, 17) and has a radius of 7k. Which equation represents this circle?
-A) (x − 16)^2 + (y − 17)^2 = 49k
-B) (x − 16)^2 + (y − 17)^2 = 49k^2
-C) (x − 16)^2 + (y − 17)^2 = 7k
-D) (x − 16)^2 + (y − 17)^2 = 7k^2
 
 @19-26 | CIR | D
 A circle has center O, and a points A and B lie on the circle. The measure of arc AB is 20°, and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?
@@ -3759,13 +3382,6 @@ D) 1,225π
 @19-37 | CIR | 64
 In the xy-plane, circle F is defined by the equation (x + 7)^2 + (y + 7)^2 = 36. Circle G has the same center as circle F, and the radius of circle G is 2 units greater than the radius of circle F. Circle G is defined by the equation (x + 7)^2 + (y + 7)^2 = p, where p is a constant. What is the value of p?
 
-@19-38 | CIR | B
-A circle in the xy-plane has its center at (14, 19) and has a radius of 7k. Which equation represents this circle?
-A) (x − 14)^2 + (y − 19)^2 = 49k
-B) (x − 14)^2 + (y − 19)^2 = 49k^2
-C) (x − 14)^2 + (y − 19)^2 = 7k
-D) (x − 14)^2 + (y − 19)^2 = 7k^2
-
 @19-39 | CIR | A
 A circle in the xy-plane has center (28, 5) and y-intercepts (0, −16) and (0, 26). What is the radius of this circle?
 A) 35
@@ -3789,9 +3405,6 @@ A) 17π
 B) 133π
 C) 145π
 D) 157π
-
-@19-47 | CIR | -23
-A circle in the xy-plane has its center at (−7, 3) and has a radius of 9. An equation of this circle is x^2 + y^2 + ax + by + c = 0, where a, b, and c are constants. What is the value of c?
 
 @20-1 | AREA | D
 A right circular cylinder has a height of 6 inches. The radius of the base of the cylinder is 5 inches. What is the volume, in cubic inches, of the cylinder?
@@ -3985,13 +3598,6 @@ D) 24
 
 @20-47 | AREA | 0.64
 To study fluctuations in the leaf water potential, samples of wood were taken from 26 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 2.00 centimeters. If this cube has a mass of 5.12 grams, what is the density of this cube in grams per cubic centimeter?
-
-@20-48 | AREA | C
-A right triangular prism has a base of 28p square centimeters (cm^2). The length of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm. Which expression represents the surface area, in cm^2, of the right rectangular prism?
-A) 512p^3
-B) 224p^3 + 96
-C) 56p + 192
-D) 560p + 96
 
 @20-49 | AREA | D
 Rectangle ABCD and EF GH are similar. The length of each side of EF GH is 6 times the length of the corresponding side of ABCD. The ares of ABCD is 102 square units . What is the area, in square units, of EF GH?
