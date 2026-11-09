@@ -366,5 +366,61 @@
     "modules": 2,
     "questions": 44,
     "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt2",
+    "name": "Practice Test 2",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt3",
+    "name": "Practice Test 3",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt4",
+    "name": "Practice Test 4",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt5",
+    "name": "Practice Test 5",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt6",
+    "name": "Practice Test 6",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt7",
+    "name": "Practice Test 7",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
+  },
+  {
+    "id": "math-pt8",
+    "name": "Practice Test 8",
+    "type": "MATH",
+    "modules": 2,
+    "questions": 44,
+    "minutesPerModule": 35
   }
 ]

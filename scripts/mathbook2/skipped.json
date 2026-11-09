@@ -1,0 +1,6912 @@
+[
+{
+"section": "Expressions",
+"n": 1,
+"source": "March US 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 2,
+"source": "March US 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 6,
+"source": "June 2023",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Expressions",
+"n": 8,
+"source": "August US 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 10,
+"source": "November 2023",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Expressions",
+"n": 11,
+"source": "November 2023",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 12,
+"source": "November 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 14,
+"source": "December 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 18,
+"source": "March 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 19,
+"source": "March 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 21,
+"source": "March 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 22,
+"source": "March 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 23,
+"source": "March 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 24,
+"source": "March 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 26,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 28,
+"source": "May 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 29,
+"source": "June 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 30,
+"source": "May US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 31,
+"source": "March 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 32,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Expressions",
+"n": 33,
+"source": "June 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 34,
+"source": "June 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 35,
+"source": "June 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 36,
+"source": "June 2024",
+"flags": [
+"frag",
+"exp2",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 41,
+"source": "August 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 42,
+"source": "August US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 43,
+"source": "August US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 46,
+"source": "August US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 48,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 50,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 51,
+"source": "October US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Expressions",
+"n": 52,
+"source": "October US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 53,
+"source": "October 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 54,
+"source": "October US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 55,
+"source": "October 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 56,
+"source": "October 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 57,
+"source": "October US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 58,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 59,
+"source": "November 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 60,
+"source": "November 2024",
+"flags": [
+"frag",
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Expressions",
+"n": 61,
+"source": "December 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 62,
+"source": "December 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 64,
+"source": "December 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 66,
+"source": "March 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Expressions",
+"n": 68,
+"source": "March US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 69,
+"source": "March US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 70,
+"source": "March US 2025",
+"flags": [
+"frag",
+"amb",
+"rad"
+]
+},
+{
+"section": "Expressions",
+"n": 72,
+"source": "March 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 73,
+"source": "May 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 78,
+"source": "May 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 79,
+"source": "May 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 80,
+"source": "May 2025",
+"flags": [
+"expvar",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 81,
+"source": "June 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 83,
+"source": "June 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 84,
+"source": "June 2025",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 86,
+"source": "June US 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Expressions",
+"n": 87,
+"source": "June US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 88,
+"source": "June US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Expressions",
+"n": 90,
+"source": "June US 2025",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Linear Equations",
+"n": 5,
+"source": "March US 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Linear Equations",
+"n": 25,
+"source": "May 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 28,
+"source": "May 2024",
+"flags": [
+"optfrac"
+]
+},
+{
+"section": "Linear Equations",
+"n": 29,
+"source": "May 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 30,
+"source": "May US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 35,
+"source": "June 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 41,
+"source": "June 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 42,
+"source": "August 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Linear Equations",
+"n": 46,
+"source": "August 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 62,
+"source": "October 2024",
+"flags": [
+"frag",
+"exp2"
+]
+},
+{
+"section": "Linear Equations",
+"n": 65,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 69,
+"source": "October US 2024",
+"flags": [
+"anslen"
+]
+},
+{
+"section": "Linear Equations",
+"n": 70,
+"source": "October US 2024",
+"flags": [
+"anslen"
+]
+},
+{
+"section": "Linear Equations",
+"n": 74,
+"source": "November 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Linear Equations",
+"n": 75,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Equations",
+"n": 83,
+"source": "December 2024",
+"flags": [
+"opts"
+]
+},
+{
+"section": "Linear Equations",
+"n": 84,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 86,
+"source": "December 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Linear Equations",
+"n": 89,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 90,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 93,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Equations",
+"n": 103,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Equations",
+"n": 111,
+"source": "June 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Equations",
+"n": 114,
+"source": "June US 2025",
+"flags": [
+"frag",
+"expvar"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 3,
+"source": "March US 2023",
+"flags": [
+"opts"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 4,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 5,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 16,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 17,
+"source": "March 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 18,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 25,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 26,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 29,
+"source": "June 2024",
+"flags": [
+"anslen"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 31,
+"source": "August US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 33,
+"source": "August 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 35,
+"source": "August 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 38,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 39,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 41,
+"source": "October 2024",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 42,
+"source": "October 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 48,
+"source": "November US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 51,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 53,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 54,
+"source": "December US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 55,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 61,
+"source": "March 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 71,
+"source": "June 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 74,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 77,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 79,
+"source": "May US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 80,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 82,
+"source": "June 2024",
+"flags": [
+"fig",
+"anslen"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 83,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear System of Equations",
+"n": 85,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 5,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 6,
+"source": "March US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 9,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 10,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 11,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 12,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Functions",
+"n": 13,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 15,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 16,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 18,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 19,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 20,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 22,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 25,
+"source": "November 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 26,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 30,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 31,
+"source": "December 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 33,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 34,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 35,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 37,
+"source": "March 2024",
+"flags": [
+"exp2"
+]
+},
+{
+"section": "Linear Functions",
+"n": 38,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 41,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 42,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 46,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 50,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 51,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 52,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 54,
+"source": "March 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Linear Functions",
+"n": 55,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 57,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 59,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 60,
+"source": "May 2024",
+"flags": [
+"opts"
+]
+},
+{
+"section": "Linear Functions",
+"n": 62,
+"source": "May US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 64,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 65,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 67,
+"source": "May US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 68,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 70,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 72,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 73,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 74,
+"source": "May 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Functions",
+"n": 75,
+"source": "May US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 76,
+"source": "May 2024",
+"flags": [
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 78,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 80,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 84,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 86,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 88,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 90,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 92,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 93,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 97,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 99,
+"source": "August 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Functions",
+"n": 102,
+"source": "August Int 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 106,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 107,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 108,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 114,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 115,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 120,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 122,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 126,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 130,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 131,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 132,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 133,
+"source": "October 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 134,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 137,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 138,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 139,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 141,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 143,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 145,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 146,
+"source": "October US 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 148,
+"source": "November 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Linear Functions",
+"n": 151,
+"source": "October US 2024",
+"flags": [
+"frag",
+"anslen"
+]
+},
+{
+"section": "Linear Functions",
+"n": 153,
+"source": "November 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 156,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 157,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 162,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 163,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 165,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 166,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 168,
+"source": "December US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 169,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 171,
+"source": "December US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 173,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 175,
+"source": "December 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 177,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 179,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 181,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 183,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 184,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 186,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 187,
+"source": "March 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Linear Functions",
+"n": 188,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 189,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 191,
+"source": "March US 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Functions",
+"n": 192,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"expvar"
+]
+},
+{
+"section": "Linear Functions",
+"n": 194,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 196,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 197,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 203,
+"source": "May 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Functions",
+"n": 211,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 216,
+"source": "June 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 217,
+"source": "June 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 218,
+"source": "June 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 219,
+"source": "June 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 220,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 223,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 227,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 228,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Functions",
+"n": 232,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 233,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 234,
+"source": "June US 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Functions",
+"n": 235,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 237,
+"source": "March US 2025",
+"flags": [
+"anslen"
+]
+},
+{
+"section": "Linear Functions",
+"n": 238,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Functions",
+"n": 239,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 2,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"anslen"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 3,
+"source": "June 2023",
+"flags": [
+"frag",
+"anslen"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 5,
+"source": "December 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 9,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 17,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 19,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 21,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 25,
+"source": "October 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 27,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 29,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 33,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 34,
+"source": "December US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 37,
+"source": "December 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 38,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 40,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 45,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb",
+"opts"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 47,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 50,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 51,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Linear Inequalities",
+"n": 54,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Polynomials",
+"n": 2,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 3,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 4,
+"source": "March 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Polynomials",
+"n": 7,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 8,
+"source": "May 2024",
+"flags": [
+"exp2"
+]
+},
+{
+"section": "Polynomials",
+"n": 9,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 10,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 12,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 13,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 14,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 16,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 17,
+"source": "December US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 20,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 21,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Polynomials",
+"n": 23,
+"source": "May 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Polynomials",
+"n": 24,
+"source": "May 2025",
+"flags": [
+"exp2"
+]
+},
+{
+"section": "Polynomials",
+"n": 26,
+"source": "June 2025",
+"flags": [
+"exp2"
+]
+},
+{
+"section": "Polynomials",
+"n": 27,
+"source": "June US 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 1,
+"source": "March US 2023",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 2,
+"source": "March US 2023",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 3,
+"source": "June 2023",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 4,
+"source": "August US 2023",
+"flags": [
+"frag",
+"amb",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 5,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 6,
+"source": "May US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 7,
+"source": "June 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 9,
+"source": "August 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 10,
+"source": "August US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 11,
+"source": "October US 2024",
+"flags": [
+"frag",
+"amb",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 12,
+"source": "December US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 13,
+"source": "December 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 14,
+"source": "March 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 15,
+"source": "June US 2025",
+"flags": [
+"frag",
+"exp2",
+"amb",
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 1,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 4,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 5,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 6,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 7,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 8,
+"source": "November 2023",
+"flags": [
+"frag",
+"expvar"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 9,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 11,
+"source": "December 2023",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 12,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 15,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 16,
+"source": "March 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 17,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 18,
+"source": "March 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 22,
+"source": "March 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 23,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 27,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 28,
+"source": "May US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 30,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 33,
+"source": "August 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 34,
+"source": "June 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 37,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 40,
+"source": "August 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 42,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 43,
+"source": "October 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 44,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 45,
+"source": "October US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 46,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 47,
+"source": "November 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 48,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 49,
+"source": "November 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 52,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 53,
+"source": "December US 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 55,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 56,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 58,
+"source": "March 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 60,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 61,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 62,
+"source": "March US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 63,
+"source": "March 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 64,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 66,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 67,
+"source": "June 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 68,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 69,
+"source": "June 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 70,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 71,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 72,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Functions&Function Notation",
+"n": 73,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 1,
+"source": "March US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 2,
+"source": "March US 2023",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 3,
+"source": "June 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 4,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 5,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 6,
+"source": "June 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 7,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 8,
+"source": "August US 2023",
+"flags": [
+"frag",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 9,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 10,
+"source": "August US 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 11,
+"source": "August US 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 12,
+"source": "November 2023",
+"flags": [
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 13,
+"source": "November 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 14,
+"source": "December 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 15,
+"source": "December 2023",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 16,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 17,
+"source": "December 2023",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 18,
+"source": "March 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 20,
+"source": "March 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 21,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"opts"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 22,
+"source": "May US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 23,
+"source": "March 2024",
+"flags": [
+"frag",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 24,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 25,
+"source": "March 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 26,
+"source": "March 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 27,
+"source": "March 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 28,
+"source": "May 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 29,
+"source": "May 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 31,
+"source": "May US 2024",
+"flags": [
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 32,
+"source": "May US 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 33,
+"source": "May 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 34,
+"source": "May US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 35,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 36,
+"source": "May 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 37,
+"source": "May 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 38,
+"source": "May 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 39,
+"source": "June 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 40,
+"source": "June 2024",
+"flags": [
+"expvar",
+"anslen"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 41,
+"source": "June 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 42,
+"source": "June 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 43,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 45,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 46,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 47,
+"source": "August US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 48,
+"source": "June 2024",
+"flags": [
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 49,
+"source": "August 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 50,
+"source": "August US 2024",
+"flags": [
+"fig",
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 51,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 52,
+"source": "August 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 53,
+"source": "August 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 54,
+"source": "August 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 55,
+"source": "August 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 56,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 57,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 58,
+"source": "August US 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 59,
+"source": "August US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 60,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 61,
+"source": "August US 2024",
+"flags": [
+"frag",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 62,
+"source": "October US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 63,
+"source": "October US 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 64,
+"source": "October 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 65,
+"source": "October 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 66,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 68,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 69,
+"source": "October US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 70,
+"source": "October US 2024",
+"flags": [
+"expvar",
+"anslen"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 71,
+"source": "November US 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 72,
+"source": "November US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 74,
+"source": "November US 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 75,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 76,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 78,
+"source": "December US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 79,
+"source": "December US 2024",
+"flags": [
+"fig",
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 81,
+"source": "December US 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 82,
+"source": "December US 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 84,
+"source": "December 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 85,
+"source": "December 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 86,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 87,
+"source": "December 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 88,
+"source": "December 2024",
+"flags": [
+"frag",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 89,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 90,
+"source": "December 2024",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 91,
+"source": "December 2024",
+"flags": [
+"frag",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 92,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 93,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 94,
+"source": "March 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 95,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 96,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 97,
+"source": "March US 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 98,
+"source": "March US 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 99,
+"source": "March US 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 100,
+"source": "March 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 101,
+"source": "March 2025",
+"flags": [
+"exp2",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 102,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 103,
+"source": "March 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 104,
+"source": "May 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 105,
+"source": "May 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 106,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 108,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 109,
+"source": "May 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 110,
+"source": "May 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 111,
+"source": "June 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 112,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 113,
+"source": "June US 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 114,
+"source": "June US 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 115,
+"source": "June US 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 117,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 118,
+"source": "June US 2025",
+"flags": [
+"fig",
+"expvar"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 119,
+"source": "June 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Quadratics",
+"n": 6,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 7,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 8,
+"source": "June 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 10,
+"source": "August US 2023",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 11,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 12,
+"source": "August US 2023",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 16,
+"source": "December 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 19,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 20,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 21,
+"source": "March 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 22,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 24,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 25,
+"source": "March 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 26,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 27,
+"source": "March 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 28,
+"source": "March 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 29,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 31,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 32,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 33,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 35,
+"source": "May 2024",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Quadratics",
+"n": 36,
+"source": "May US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 38,
+"source": "May US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 39,
+"source": "May US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 40,
+"source": "May 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 43,
+"source": "May US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 44,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 46,
+"source": "May 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 51,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 53,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 54,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 55,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 57,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 59,
+"source": "June 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 60,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 63,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 67,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 68,
+"source": "August 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 70,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 74,
+"source": "August 2024",
+"flags": [
+"fig",
+"expvar",
+"anslen"
+]
+},
+{
+"section": "Quadratics",
+"n": 75,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 76,
+"source": "August US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 79,
+"source": "August US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 80,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 81,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 84,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 88,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 91,
+"source": "October 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 92,
+"source": "October US 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 93,
+"source": "October 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 96,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 98,
+"source": "October 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 101,
+"source": "October US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 103,
+"source": "October US 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 104,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 107,
+"source": "October US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 108,
+"source": "October US 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 111,
+"source": "October US 2024",
+"flags": [
+"fig",
+"opts"
+]
+},
+{
+"section": "Quadratics",
+"n": 116,
+"source": "November 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 117,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 118,
+"source": "November 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 122,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 123,
+"source": "November US 2024",
+"flags": [
+"expvar",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 124,
+"source": "November US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 125,
+"source": "November US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 127,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"opts"
+]
+},
+{
+"section": "Quadratics",
+"n": 132,
+"source": "December 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 133,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 136,
+"source": "December 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 137,
+"source": "December 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 138,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 140,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 142,
+"source": "March 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 143,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 144,
+"source": "March US 2025",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 145,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 146,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 149,
+"source": "May 2025",
+"flags": [
+"expvar"
+]
+},
+{
+"section": "Quadratics",
+"n": 150,
+"source": "May 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 151,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 152,
+"source": "May 2025",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 154,
+"source": "May 2025",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 157,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 158,
+"source": "May 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 160,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 161,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 164,
+"source": "June 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 165,
+"source": "June 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 166,
+"source": "June 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 167,
+"source": "June 2025",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 168,
+"source": "June 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Quadratics",
+"n": 169,
+"source": "June 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 172,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 173,
+"source": "June US 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Quadratics",
+"n": 174,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 175,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 176,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 177,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 179,
+"source": "June US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Quadratics",
+"n": 181,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 182,
+"source": "November 2023",
+"flags": [
+"fig",
+"exp2",
+"anslen"
+]
+},
+{
+"section": "Quadratics",
+"n": 184,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Quadratics",
+"n": 187,
+"source": "June 2024",
+"flags": [
+"anslen"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 1,
+"source": "March US 2023",
+"flags": [
+"frag",
+"exp2",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 4,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 5,
+"source": "August US 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 10,
+"source": "March 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 21,
+"source": "June 2024",
+"flags": [
+"optfrac"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 22,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 23,
+"source": "August US 2024",
+"flags": [
+"frag",
+"amb",
+"rad"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 27,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 36,
+"source": "October US 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 39,
+"source": "November US 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 42,
+"source": "December US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 43,
+"source": "December 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 45,
+"source": "December 2024",
+"flags": [
+"amb",
+"opts"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 49,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 50,
+"source": "March US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 52,
+"source": "March US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 53,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 54,
+"source": "May 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 57,
+"source": "June 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 65,
+"source": "August 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Unit Conversion",
+"n": 8,
+"source": "March 2024",
+"flags": [
+"optfrac"
+]
+},
+{
+"section": "Unit Conversion",
+"n": 19,
+"source": "March US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 1,
+"source": "June 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 5,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 11,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 13,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 14,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 15,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 16,
+"source": "October 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 17,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 18,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Probability",
+"n": 19,
+"source": "November 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 1,
+"source": "March US 2023",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 2,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 3,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 6,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 7,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 8,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 9,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 10,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 12,
+"source": "August US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 13,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 15,
+"source": "May 2024",
+"flags": [
+"fig",
+"anslen"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 18,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 19,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 20,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 22,
+"source": "May US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 23,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"exp2"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 25,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 27,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 28,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 30,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 31,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 34,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 35,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 37,
+"source": "May 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 39,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 41,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 43,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 45,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 46,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 47,
+"source": "August 2024",
+"flags": [
+"fig",
+"opts"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 48,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Mean, Median, Mode, Range",
+"n": 49,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Scatterplots",
+"n": 1,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 2,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 3,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Scatterplots",
+"n": 4,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 5,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 6,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 7,
+"source": "May US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 8,
+"source": "October 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 9,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 10,
+"source": "August 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 11,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 12,
+"source": "August 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 13,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 14,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 15,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 16,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 17,
+"source": "November 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 18,
+"source": "December 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 19,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Scatterplots",
+"n": 20,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Scatterplots",
+"n": 21,
+"source": "March 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 22,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 23,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"expvar",
+"amb",
+"opts"
+]
+},
+{
+"section": "Scatterplots",
+"n": 24,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Scatterplots",
+"n": 25,
+"source": "November 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Research organizing",
+"n": 1,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Research organizing",
+"n": 2,
+"source": "March 2024",
+"flags": [
+"anslen"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 1,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 2,
+"source": "November 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 3,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 5,
+"source": "November 2023",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 8,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 9,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 10,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 11,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 12,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 13,
+"source": "May US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 14,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 15,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 16,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 17,
+"source": "August 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 18,
+"source": "August US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 19,
+"source": "August 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 20,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 21,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 23,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 24,
+"source": "October 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 26,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 27,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 28,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 29,
+"source": "November 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 30,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 31,
+"source": "March 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 32,
+"source": "March 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 33,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 34,
+"source": "May 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 36,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 37,
+"source": "June 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Lines&Angles",
+"n": 38,
+"source": "June US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 4,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 5,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 6,
+"source": "August US 2023",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Triangles",
+"n": 9,
+"source": "December 2023",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Triangles",
+"n": 11,
+"source": "March 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 13,
+"source": "March 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 15,
+"source": "May 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 17,
+"source": "May 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 19,
+"source": "May US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Triangles",
+"n": 20,
+"source": "May US 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 22,
+"source": "June 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Triangles",
+"n": 23,
+"source": "June 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 24,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 26,
+"source": "August 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Triangles",
+"n": 27,
+"source": "August 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 29,
+"source": "August 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 31,
+"source": "August 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 32,
+"source": "October 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 34,
+"source": "October US 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 35,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 36,
+"source": "November 2024",
+"flags": [
+"frag",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 37,
+"source": "November 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 38,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 39,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 40,
+"source": "November US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 42,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 43,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 44,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 45,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 46,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 47,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"exp2",
+"amb",
+"opts"
+]
+},
+{
+"section": "Triangles",
+"n": 48,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 49,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 50,
+"source": "March 2025",
+"flags": [
+"frag",
+"amb",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 51,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 52,
+"source": "March 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Triangles",
+"n": 53,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 55,
+"source": "March 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Triangles",
+"n": 56,
+"source": "March 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 57,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 58,
+"source": "June 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 61,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 62,
+"source": "June US 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Triangles",
+"n": 63,
+"source": "June US 2025",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Triangles",
+"n": 64,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 1,
+"source": "March US 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 2,
+"source": "November 2023",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 3,
+"source": "March 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 4,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Trignometry",
+"n": 5,
+"source": "May 2024",
+"flags": [
+"fig",
+"exp2"
+]
+},
+{
+"section": "Trignometry",
+"n": 7,
+"source": "May 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Trignometry",
+"n": 8,
+"source": "August 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Trignometry",
+"n": 9,
+"source": "August US 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 10,
+"source": "August US 2024",
+"flags": [
+"frag",
+"exp2",
+"rad"
+]
+},
+{
+"section": "Trignometry",
+"n": 11,
+"source": "August US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Trignometry",
+"n": 12,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig",
+"exp2",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 13,
+"source": "October 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Trignometry",
+"n": 14,
+"source": "October US 2024",
+"flags": [
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 15,
+"source": "November 2024",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 16,
+"source": "November US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 18,
+"source": "December US 2024",
+"flags": [
+"frag",
+"fig",
+"exp2"
+]
+},
+{
+"section": "Trignometry",
+"n": 19,
+"source": "December 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Trignometry",
+"n": 20,
+"source": "March 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Trignometry",
+"n": 21,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Trignometry",
+"n": 22,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Circles",
+"n": 2,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 3,
+"source": "June 2023",
+"flags": [
+"frag",
+"fig",
+"rad"
+]
+},
+{
+"section": "Circles",
+"n": 6,
+"source": "August US 2023",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Circles",
+"n": 7,
+"source": "November 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 8,
+"source": "November 2023",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Circles",
+"n": 9,
+"source": "December 2023",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Circles",
+"n": 11,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 12,
+"source": "March 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Circles",
+"n": 15,
+"source": "May 2024",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Circles",
+"n": 17,
+"source": "June 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 18,
+"source": "June 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Circles",
+"n": 19,
+"source": "June 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Circles",
+"n": 20,
+"source": "August US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 21,
+"source": "August US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Circles",
+"n": 24,
+"source": "October US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 30,
+"source": "December US 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Circles",
+"n": 33,
+"source": "December 2024",
+"flags": [
+"frag",
+"fig",
+"amb",
+"rad"
+]
+},
+{
+"section": "Circles",
+"n": 40,
+"source": "May 2025",
+"flags": [
+"frag",
+"amb"
+]
+},
+{
+"section": "Circles",
+"n": 41,
+"source": "May 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Circles",
+"n": 42,
+"source": "June 2025",
+"flags": [
+"frag",
+"rad"
+]
+},
+{
+"section": "Circles",
+"n": 44,
+"source": "June US 2025",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 2,
+"source": "March US 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 3,
+"source": "June 2023",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 9,
+"source": "December 2023",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 11,
+"source": "March 2024",
+"flags": [
+"rad",
+"optfrac"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 13,
+"source": "March 2024",
+"flags": [
+"fig"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 17,
+"source": "March 2024",
+"flags": [
+"rad"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 20,
+"source": "May 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 21,
+"source": "May 2024",
+"flags": [
+"optfrac"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 37,
+"source": "August US 2024",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 40,
+"source": "October US 2024",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 44,
+"source": "October 2024",
+"flags": [
+"frag",
+"amb",
+"rad"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 45,
+"source": "October US 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 54,
+"source": "December 2024",
+"flags": [
+"frag"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 59,
+"source": "March US 2025",
+"flags": [
+"frag",
+"fig"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 61,
+"source": "March 2025",
+"flags": [
+"optfrac"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 65,
+"source": "May 2025",
+"flags": [
+"optfrac"
+]
+},
+{
+"section": "Areas&Volumes",
+"n": 66,
+"source": "May 2025",
+"flags": [
+"frag",
+"fig",
+"amb"
+]
+},
+{
+"section": "Exponents&Radicals",
+"n": 8,
+"source": "June 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 19,
+"source": "March 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 30,
+"source": "May US 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 44,
+"source": "June 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 67,
+"source": "October US 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 73,
+"source": "November 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 77,
+"source": "December US 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 80,
+"source": "December US 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 83,
+"source": "December 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 107,
+"source": "March 2025",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 116,
+"source": "June US 2025",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Exponential Functions",
+"n": 120,
+"source": "June US 2025",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Quadratics",
+"n": 183,
+"source": "May 2024",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Quadratics",
+"n": 185,
+"source": "November 2023",
+"flags": [
+"garbled"
+]
+},
+{
+"section": "Percent; Ratio&Proportion",
+"n": 40,
+"source": "November US 2024",
+"flags": [
+"garbled"
+]
+}
+]
