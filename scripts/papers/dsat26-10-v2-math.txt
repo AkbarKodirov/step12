@@ -1,0 +1,262 @@
+!id: dsat26-10-v2-math
+!name: October 2026 · Version 2 · Math
+!type: MATH
+!year: 2026
+!month: 10
+!region: International
+!form: 2
+=M1
+#1
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">Area (square feet)</th><th style="border:1px solid #000;padding:4px 10px">Water (gallons)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">1,140</td><td style="border:1px solid #000;padding:4px 10px">2,736</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1,710</td><td style="border:1px solid #000;padding:4px 10px">4,104</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">2,280</td><td style="border:1px solid #000;padding:4px 10px">5,472</td></tr></table>
+Q: The roofs on the buildings of a public garden are designed to allow water to drain into the garden. The table shows the relationship between the area x, in square feet, of a roof and the amount of water f(x), in gallons, drained from the roof into the garden over a certain period of time. Which equation could define f?
+A) f(x) = 0.6x
+B) f(x) = 2.4x
+C) f(x) = 1,368.0x
+D) f(x) = 2,736.0x
+K: B
+#2
+Q: 66(x − 1) = 6(−11 + 11x)
+Q: How many solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: D
+#3
+Q: If 3 − 2x = 42, what is the value of (1)/(6)(3 − 2x)?
+A) 6
+B) 7
+C) 42
+D) 252
+K: B
+#4
+Q: What is the mean of the data set shown?
+Q: 26, 26, 27, 28, 31, 34, 38
+A) 26
+B) 28
+C) 30
+D) 38
+K: C
+#5
+I: /qimg/26-oct-v2-math-m1-q5.svg
+Q: Triangles ABC and A′B′C′ are shown. Triangle ABC is dilated by a scale factor of 3 to form triangle A′B′C′. If the length of AB is 21, what is the length of A′B′?
+A) 3
+B) 7
+C) 24
+D) 63
+K: D
+#6
+Q: In the ancient Roman measurement system, a leuga was a unit of length that was equal to 7,500 pedes. In this measurement system, how many pedes were equivalent to 3.8 leugas?
+K: 28500 | 28,500
+#7
+Q: x^2 = −64
+Q: How many distinct real solutions does the given equation have?
+A) Infinitely many
+B) Zero
+C) Exactly one
+D) Exactly two
+K: B
+#8
+Q: If 2(x − 6) = (2)(24), what is the value of x − 6?
+K: 24
+#9
+Q: If (j)/(k) = 85 and (48j)/(8xk) = 85, what is the value of x?
+K: 6
+#10
+Q: If 2(x − 10) = (2)(90), what is the value of x − 10?
+A) 180
+B) 90
+C) 18
+D) 9
+K: B
+#11
+Q: If 2 − 5x = 42, what is the value of (1)/(6)(2 − 5x)?
+K: 7
+#12
+Q: An organization sells tickets to a fundraiser for $50 per person. The organization's expenses are $600 for a rental space and $18 per person for food. The organization's goal is to earn at least $2,300 after paying all expenses. What is the minimum number of tickets that must be sold to meet this goal?
+A) 46
+B) 58
+C) 72
+D) 91
+K: D
+#13
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">x</th><th style="border:1px solid #000;padding:4px 10px">r(x)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">−61</td><td style="border:1px solid #000;padding:4px 10px">−9</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">−31</td><td style="border:1px solid #000;padding:4px 10px">0</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">−1</td><td style="border:1px solid #000;padding:4px 10px">9</td></tr></table>
+Q: For the linear function r, the table shows three values of x and their corresponding values of r(x). Function r is defined by r(x) = ax + b, where a and b are constants. What is the value of a + b?
+K: 9.6
+#14
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">Country</th><th style="border:1px solid #000;padding:4px 10px">Sweden</th><th style="border:1px solid #000;padding:4px 10px">South Korea</th><th style="border:1px solid #000;padding:4px 10px">United States</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Number of gamers</td><td style="border:1px solid #000;padding:4px 10px">26</td><td style="border:1px solid #000;padding:4px 10px">48</td><td style="border:1px solid #000;padding:4px 10px">53</td></tr></table>
+Q: A researcher conducted a study to examine the melatonin levels of gamers and the amount of time the gamers spent playing video games. A total of 127 gamers were selected at random from three countries. The melatonin levels of the gamers and the amount of time they spent playing video games were recorded over a 4-week period. The table gives the number of selected gamers from each country. If the results of this study suggest a relationship between melatonin levels and the amount of time spent playing video games, which of the following aspects of the study will prevent the results from being generalized to all gamers?
+A) The melatonin levels of the selected gamers were not measured over a long enough period of time.
+B) The number of selected gamers from each country is different.
+C) The total number of selected gamers was too small to study a relationship between the two variables.
+D) The gamers were not selected at random from all gamers.
+K: D
+#15
+Q: Which expression is equivalent to x^3 + 7x^2 + 2x + 14?
+A) (x + 1)(x^2 + 14)
+B) (x + 2)(x^2 + 7)
+C) (x + 14)(x^2 + 1)
+D) (x + 7)(x^2 + 2)
+K: D
+#16
+Q: The measure of angle G is (π)/(12) radians. If the measure of angle G is 5n degrees, where n is a constant, what is the value of n?
+K: 3
+#17
+Q: Line q is defined by y = −(1)/(8)x − 13. Line r is perpendicular to line q in the xy-plane. What is the slope of line r?
+K: 8
+#18
+Q: An object is launched into the air from the top of a building with a height of 72 feet. According to a quadratic model, 3 seconds after it is launched, it reaches its maximum height of 216 feet above ground level. Write an equation for its height h(t), in feet, above ground level t seconds after launch.
+K: h(t) = −16t^2 + 96t + 72 | −16t^2 + 96t + 72 | h(t) = −16(t − 3)^2 + 216 | −16(t − 3)^2 + 216
+#19
+Q: For two acute angles X and Y, the measure of angle Y is 53° and (sin X)/(cos Y) = 1. What is the measure, in degrees, of angle X?
+K: 37
+#20
+Q: If |18 − 2x| = 54, what is one possible value of 9 − x?
+K: 27 | −27
+#21
+Q: For the linear function f, f(5) = 26 and f(10) = 1. Write an equation defining f.
+K: f(x) = −5x + 51 | −5x + 51 | y = −5x + 51
+#22
+Q: Which equation has no solution?
+A) 14x + 7 = 7(2x + 1)
+B) 14x + 11 = −14x − 11
+C) 14x + 1 = 2x + 1
+D) 14x + 70 = 7(2x + 4)
+K: D
+=M2
+#1
+Q: What is 5% of 640?
+K: 32
+#2
+Q: f(x) = −14(2)^(x/6)
+Q: Which table gives four values of x and their corresponding values of f(x) for the given exponential function?
+T: <div><b>A.</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">x</th><th style="border:1px solid #000;padding:4px 10px">−6</th><th style="border:1px solid #000;padding:4px 10px">0</th><th style="border:1px solid #000;padding:4px 10px">6</th><th style="border:1px solid #000;padding:4px 10px">12</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−7</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">−28</td><td style="border:1px solid #000;padding:4px 10px">−56</td></tr></table></div><div><b>B.</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">x</th><th style="border:1px solid #000;padding:4px 10px">−6</th><th style="border:1px solid #000;padding:4px 10px">0</th><th style="border:1px solid #000;padding:4px 10px">6</th><th style="border:1px solid #000;padding:4px 10px">12</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−7</td><td style="border:1px solid #000;padding:4px 10px">−14</td><td style="border:1px solid #000;padding:4px 10px">−28</td><td style="border:1px solid #000;padding:4px 10px">−56</td></tr></table></div><div><b>C.</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">x</th><th style="border:1px solid #000;padding:4px 10px">−6</th><th style="border:1px solid #000;padding:4px 10px">0</th><th style="border:1px solid #000;padding:4px 10px">6</th><th style="border:1px solid #000;padding:4px 10px">12</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">7</td><td style="border:1px solid #000;padding:4px 10px">−14</td><td style="border:1px solid #000;padding:4px 10px">−28</td><td style="border:1px solid #000;padding:4px 10px">−56</td></tr></table></div><div><b>D.</b><table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px">x</th><th style="border:1px solid #000;padding:4px 10px">−6</th><th style="border:1px solid #000;padding:4px 10px">0</th><th style="border:1px solid #000;padding:4px 10px">6</th><th style="border:1px solid #000;padding:4px 10px">12</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">f(x)</td><td style="border:1px solid #000;padding:4px 10px">−28</td><td style="border:1px solid #000;padding:4px 10px">−14</td><td style="border:1px solid #000;padding:4px 10px">−7</td><td style="border:1px solid #000;padding:4px 10px">−3.5</td></tr></table></div>
+A) Table A
+B) Table B
+C) Table C
+D) Table D
+K: B
+#3
+Q: 7x − 16y = −11
+Q: 7x − 4y = −5
+Q: The solution to the given system of equations is (x, y). What is the value of −14x + 20y?
+A) −16
+B) −6
+C) 6
+D) 16
+K: D
+#4
+I: /qimg/26-oct-v2-math-lines.svg
+Q: Note: Figure not drawn to scale.
+Q: In the figure shown, lines ℓ and k are parallel and line t intersects both lines. If x > 120, which of the following must be true?
+A) y < 60
+B) y > 60
+C) x + y < 180
+D) x + y > 180
+K: A
+#5
+Q: Which expression is equivalent to x^3 + 8x^2 + 9x + 72?
+A) (x + 9)(x^2 + 8)
+B) (x + 8)(x^2 + 9)
+C) (x + 1)(x^2 + 72)
+D) (x + 72)(x^2 + 1)
+K: B
+#6
+I: /qimg/26-oct-v2-math-m2-q6.svg
+Q: Which equation best represents a line of best fit for the data shown in the scatterplot?
+A) y = 0.2 + 2.53x
+B) y = 0.2 − 2.53x
+C) y = 2.53 + 0.2x
+D) y = 2.53 − 0.2x
+K: A
+#7
+Q: 8x − 7y = 3
+Q: 4x + y = 9
+Q: The solution to the given system of equations is (x, y). What is the value of x + y?
+K: 3.5 | 7/2
+#8
+Q: 6|x + 3| − 9 = 21
+Q: What is the sum of the solutions to the given equation?
+K: −6
+#9
+Q: In the xy-plane, circle F is defined by the equation (x + 9)^2 + (y + 9)^2 = 16. Circle G has the same center as circle F, and the radius of circle G is 3 units greater than the radius of circle F. Circle G is defined by the equation (x + 9)^2 + (y + 9)^2 = p, where p is a constant. What is the value of p?
+K: 49
+#10
+Q: y ≥ x + 8
+Q: y ≤ −3x − 8
+Q: Which point (x, y) is a solution to the given system of inequalities in the xy-plane?
+A) (−3, 6)
+B) (−5, 2)
+C) (−3, 2)
+D) (−5, 6)
+K: D
+#11
+I: /qimg/26-oct-v2-math-lines.svg
+Q: Note: Figure not drawn to scale.
+Q: In the figure shown, lines ℓ and k are parallel and line t intersects both lines. If x > 170, which of the following must be true?
+A) y < 10
+B) y > 10
+C) x + y < 180
+D) x + y > 180
+K: A
+#12
+Q: At a hotel, guests used the pool for a total of t hours in March. At the same hotel, guests used the pool for 3.84t hours in April. What is the percent increase in the number of hours guests used the pool from March to April?
+K: 284 | 284%
+#13
+Q: An organization sells tickets to a fundraiser for $55 per person. The organization's expenses are $660 for a rental space and $19 per person for food. The organization's goal is to earn at least $1,650 after paying all expenses. What is the minimum number of tickets that must be sold to meet this goal?
+K: 65
+#14
+Q: The cost of renting a piece of equipment is $34n for the first day and $17n for each additional day, where n is a positive integer. Write a function giving the cost C(x) of renting this equipment for x days.
+K: C(x) = 17nx + 17n | 17nx + 17n | C(x) = 17n(x + 1) | 17n(x + 1)
+#15
+I: /qimg/26-oct-v2-math-m2-q15.svg
+Q: The graph shown gives the estimated value, in dollars, of a tablet as a function of the number of months since it was purchased. What is the best interpretation of the y-intercept of the graph in this context?
+A) The estimated value of the tablet was $225 when it was purchased.
+B) The estimated value of the tablet 24 months after it was purchased was $225.
+C) The estimated value of the tablet had decreased by $225 in the 24 months after it was purchased.
+D) The estimated value of the tablet decreased by approximately 2.25% each year after it was purchased.
+K: A
+#16
+Q: If x is the 2n-th root of 7x^n + 30, where n is a positive integer constant, what is the value of x^n?
+K: 10
+#17
+Q: x^2 + y^2 = 64
+Q: y = mx + (b)/(2)
+Q: In the given system of equations, m and b are negative constants. In the xy-plane, the graphs of the equations in the given system intersect at the point (−5, y), where y < 0. Which expression represents the value of b?
+A) 10m − 2√(39)
+B) −10m + 2√(39)
+C) (5m)/(2) − (√(39))/(2)
+D) −(5m)/(2) + (√(39))/(2)
+K: A
+#18
+I: /qimg/26-oct-v2-math-m2-q18.svg
+Q: Note: Figure not drawn to scale.
+Q: In the figure, 5r > 19s. Which of the following values must be the greatest?
+A) sin s° cos s°
+B) cos r° sin r°
+C) (sin r°)/(2)
+D) (cos s°)/(3)
+K: C
+#19
+Q: x^2 + y^2 = 64
+Q: y = mx + (b)/(3)
+Q: In the given system of equations, m and b are negative constants. In the xy-plane, the graphs of the equations in the given system intersect at the point (−7, y), where y < 0. Which expression represents the value of b?
+A) −(7m)/(3) + (√(15))/(3)
+B) (7m)/(3) − (√(15))/(3)
+C) −21m + 3√(15)
+D) 21m − 3√(15)
+K: D
+#20
+Q: h(x) = a(x + 68)(x + r)(x + s)
+Q: The polynomial function h is defined by the given equation, where a, r, and s are positive constants. The graph of y = h(x) intersects the x-axis at exactly three points. Can the information given determine whether r is greater than s?
+K: No | no
+#21
+Q: If x is the 2n-th root of 8x^n + 33, where n is a positive integer constant, what is the value of x^n?
+K: 11
+#22
+Q: In triangle RST, RS = ST and the length of RT is 48 units. If tan R = (7)/(24), what is the area, in square units, of triangle RST?
+A) 84
+B) 168
+C) 288
+D) 336
+K: B
