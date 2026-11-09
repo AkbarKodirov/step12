@@ -13,8 +13,8 @@ export const FREE_LIMITS = { humo: 3, desmos: 1, blitz: 1 }
 
 /** Always Pro, whatever the database says. */
 export const ALWAYS_PRO = ['jobirovich.akbarjon@gmail.com']
-/** The only account that can see and open the admin panel. */
-export const ADMINS = ['akbarjon160609@gmail.com']
+/** Accounts that can see and open the admin panel. */
+export const ADMINS = ['akbarjon160609@gmail.com', 'khusanovbekhruz@gmail.com']
 
 /**
  * The Telegram account of Humo AI's manager, for Click, Payme, Uzcard and Humo card payments.
