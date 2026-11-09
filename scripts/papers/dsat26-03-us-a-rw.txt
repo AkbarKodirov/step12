@@ -1,0 +1,482 @@
+!id: dsat26-03-us-a-rw
+!name: March 2026 US · Version A · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 3
+!region: US
+!form: A
+=M1
+#1
+P: Peter Pan is a 1911 novel by J.M. Barrie. In the fantasy novel, a dog named Nana is a nurse (nanny) for the children in the Darling family—Wendy, John, and Michael. The narrator describes Nana as planning for events like a human would: ______
+Q: Which quotation from Peter Pan best illustrates the claim?
+A) “On John’s [soccer] days [Nana] never once forgot his sweater, and she usually carried an umbrella in her mouth in case of rain.”
+B) “[Mrs. Darling] was wearing Wendy’s bracelet on her arm.”
+C) “Mrs. Darling loved to have everything just so, and Mr. Darling had a passion for being exactly like his neighbours.”
+D) “Of course [Nana’s] kennel was in the nursery.”
+K: A
+#2
+P: In a given rock formation, Rhaetian rock from 208.5 million years ago might directly abut Lochkovian rock from 419.2 million years ago, with millions of years of material missing in between. ______ time did not stand still during these intervening years; the unaccounted-for sedimentary material was likely removed from the stratigraphic record via erosion and weathering.
+Q: Which choice completes the text with the most logical transition?
+A) In particular,
+B) On the contrary,
+C) Of course,
+D) As a result,
+K: C
+#3
+P: An emulsifier is a type of compound that serves to stabilize an emulsion—a mixture of two or more liquids that otherwise would not easily blend together, like oil and water. Though modern chemists commonly use emulsifiers like poloxamer 407 in their formulations, emulsifiers that have been employed for millennia, such as beeswax and egg yolk, ______ used to this day by chemists as well.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) are
+B) would have been
+C) were being
+D) were
+K: A
+#4
+P: The swordfish is ectothermic, or cold-blooded, and the southern bluefin tuna is a regional endotherm, meaning that parts of its body are typically warmer than the surrounding water. The basking shark had been classified as a full ectotherm, a position that became ______ after researchers Haley R. Dolton and colleagues showed that the basking shark’s body temperature is consistently 1.0 to 1.5°C warmer than the water.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inconsolable
+B) unanticipated
+C) unequivocal
+D) untenable
+K: D
+#5
+P: Ferns and conifers ______ during the Triassic period (201 to 252 million years ago). These plants were well suited to the hot, dry climate of Pangaea, the sole landmass on Earth at the time.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) having thrived
+B) to thrive
+C) thriving
+D) thrived
+K: D
+#6
+P: The following text is adapted from Maria Amparo Ruiz de Burton’s 1885 novel The Squatter and the Don. Mercedes and Clarence, who develop a romantic relationship in the novel, have been traveling with a group of friends. [Mercedes] was still very pale, and her hands yet trembled, when the thundering of the east-bound train was heard in the distance. Two shrieks pierced the air simultaneously, as the two trains passed each other. Her heart gave accelerated throbs when she heard those shrieks, because she knew that one of them came from the train which bore Clarence away, and it seemed to her as if expressive of his pain at being torn from her. Yes, that magician, the locomotive, understood it all, and shrieked to say he did so, because he knew she, too, wished to shriek like that.
+Q: Which choice best states the main idea of the text?
+A) Mercedes shares a passion for locomotive travel with Clarence.
+B) The sounds at the train station irritate Mercedes.
+C) Clarence boarded his train at the last minute.
+D) (© Mercedes feels heartbroken to be separated from Clarence.
+K: D
+#7
+P: The following text is from Louise Erdrich’s 1986 novel The Beet Queen. Celestine takes her infant daughter with her to the butcher shop where she makes sausages. Sometimes Celestine turned around and met the direct gaze of her daughter, a look so penetrating that Celestine’s breath caught. She dropped the spice, the string, the knife she was using, and took the girl up in her arms, ready for her to speak as if a spell had suddenly lifted. When the baby flexed her entire body and struggled to free herself, Celestine put her down. No matter how thorough Celestine’s exhaustion, no matter how little sleep she’d had, there was a nerve of excitement running through each hour.
+Q: Which choice best states the main purpose of the text?
+A) To imply that Celestine is dissatisfied with her job
+B) To show that Celestine enjoys imagining her daughter’s future life
+C) To portray Celestine’s excitement about her daughter
+D) To analyze the interactions between Celestine’s coworkers and her daughter
+K: C
+#8
+P: <b>Text 1</b>
+P: Vernacular art, also known as folk art, refers to works by artists without extensive training who work outside the mainstream art world. In the last few decades, the Minneapolis Institute of Art and similar cultural institutions have worked to bring vernacular art out of obscurity. As a result, Nellie Mae Rowe’s drawing Rocking Chair can now be experienced by art lovers.
+P: <b>Text 2</b>
+P: Special exhibits and similar efforts by cultural institutions to promote vernacular artists often inadvertently uphold misleading distinctions between these artists and the creators of so-called “high” art. Artists regularly gain inspiration from each other: vernacular artists often reveal a familiarity with prevailing trends through their works, and more mainstream artists in turn often credit vernacular works as important influences.
+Q: Based on the texts, how would the author of Text 2 most likely respond to the author of Text 1’s characterization of vernacular artists?
+A) By questioning the argument made in Text 1 that the general public will readily embrace works by vernacular artists as those works are brought to greater attention
+B) By suggesting that the author of Text 1 may be overstating the extent to which vernacular artists have been detached from the mainstream art world
+C) By agreeing with the author of Text 1 that some of the terms used to describe vernacular artists may be misleading
+D) By challenging the idea advanced in Text 1 that mainstream cultural institutions are suitable venues for adequately honoring vernacular artists
+K: B
+#9
+P: Established in 1934 for the specific purpose of protecting US investors from market manipulation, ______ helped the nation recover from the Great Depression.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) many ways, just one of which was the Securities and Exchange Commission (SEC), were how the US government
+B) the US government’s many ways, just one of which was the Securities and Exchange Commission (SEC),
+C) the US government in many ways, just one of which was the Securities and Exchange Commission (SEC),
+D) the Securities and Exchange Commission (SEC) was just one of many ways the US government
+K: D
+#10
+P: As water in oceans, lakes, and rivers is heated by the Sun, it turns into water vapor and rises into the atmosphere, where it cools and forms clouds before falling back to Earth as rain or ______ process is called the water cycle.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) snow this
+B) snow? This
+C) snow, this
+D) snow. This
+K: D
+#11
+P: <u>People tend to assume that being happy is the ideal emotional state and should be an ongoing aspiration;</u> recently, however, research has suggested that it is at times beneficial to embrace negative emotions. To test whether anger can contribute to problem-solving abilities, researcher Heather Lench led an experiment in which participants were randomly assigned to view images designed to create an emotional condition—either neutral or one of anger, amusement, desire, or sadness. When asked to then solve a series of challenging puzzles, the participants in the anger condition had greater success than those in the other conditions.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It describes a general psychological tendency that the study discussed in the text was designed to explain.
+B) It suggests a psychological basis for the behaviors of the participants in the experiment reported in the text.
+C) It explains an assumption underlying the hypothesis investigated in the study discussed in the text.
+D) It notes a generally accepted belief that is called into question by a finding of the experiment outlined in the text.
+K: D
+#12
+P: A bias toward studying diversity at a local rather than a continental scale was one of the many shortcomings researcher Sonia Llorente-Culebras and her team ______ analyzing nearly 400 biodiversity studies from around the globe.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) discovered: while
+B) discovered, while
+C) discovered while
+D) discovered. While
+K: C
+#13
+P: With an average summer temperature of 69 degrees Fahrenheit, Odessa is one European ______ many travelers recommend, especially from June to September.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) city in which,
+B) city that
+C) city, which
+D) city, that
+K: B
+#14
+T: <table><caption>Minimum and Maximum Depths of Stony Coral Species in Caribbean and Indo-Pacific Waters</caption><tr><th>Species</th><th>Minimum depth (meters)</th><th>Maximum depth (meters)</th></tr><tr><td><i>Acropora echinata</i></td><td>8</td><td>25</td></tr><tr><td><i>Danafungia scruposa</i></td><td>1</td><td>27</td></tr><tr><td><i>Astreopora expansa</i></td><td>5</td><td>15</td></tr><tr><td><i>Scolymia lacera</i></td><td>10</td><td>80</td></tr></table>
+P: A marine biologist is researching four scleractinian coral species, which are also called stony corals because of the hard skeletons they develop. Consulting the table, she notes that the two species for which the maximum depths are most similar are ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) <i>Astreopora expansa</i> and <i>Scolymia lacera</i>.
+B) <i>Astreopora expansa</i> and <i>Acropora echinata</i>.
+C) <i>Acropora echinata</i> and <i>Danafungia scruposa</i>.
+D) <i>Danafungia scruposa</i> and <i>Scolymia lacera</i>.
+K: C
+#15
+P: On April 12, 1985, the space shuttle Discovery blasted off into space, commencing Mission ______ six days and twenty-three hours, the mission ended when the shuttle landed at Kennedy Space Center in Florida.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) STS-51-D, it lasted
+B) STS-51-D, lasting
+C) STS-51-D lasting
+D) sTs-51-D. Lasting
+K: D
+#16
+P: The following text is from Jerome K. Jerome’s 1889 novel Three Men in a Boat (To Say Nothing of the Dog). The narrator and two friends are taking a boat down the River Thames in England. In a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. Harris’s notion was, that it was he alone who had been working, and that both George and J. had been imposing upon him. George, on the other hand, ridiculed the idea of Harris’s having done anything more than eat and sleep, and had a cast-iron opinion that it was he—George himself—who had done all the labour worth speaking of.
+Q: Which choice best describes the main purpose of the text?
+A) To examine how the narrator and his friends each contributed to navigating a challenge
+B) To present the narrator’s generalization along with supporting examples from a specific situation
+C) To give an overview of a particular situation that the narrator finds startling
+D) To convey the narrator’s confidence that he understands the role expected of him in a group
+K: B
+#17
+P: The play The Great Leap, which tells the story of a basketball player named Manford Lum, was written by Chinese American playwright Lauren Yee. Yee’s script was brought to life in 2018, when the play ______ staged at the Atlantic Theater Company in New York City.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) was
+B) will be
+C) is
+D) is being
+K: A
+#18
+P: For millennia, acorns were a staple food for the Tongva people, the Indigenous inhabitants of what is now the Los Angeles basin. Raw acorns have an extremely bitter taste, though, due to their high tannin levels. ______ it was necessary to process the acorns—which involved grinding, rinsing, and shaping the nuts into a dough—before eating them.
+Q: Which choice completes the text with the most logical transition?
+A) However,
+B) Afterward,
+C) Similarly,
+D) Therefore,
+K: D
+#19
+P: Rocket Geyser, found in Yellowstone National Park, is a cone geyser, a type of geyser that forms a mound of silica around the narrow geyser vent as volcanic rock dissolved in the water is deposited during eruptions. ______ Yellowstone’s fountain geysers, such as Jewel Geyser, erupt from larger openings where water collects in a pool.
+Q: Which choice completes the text with the most logical transition?
+A) In comparison,
+B) Thus,
+C) In turn,
+D) Regardless,
+K: A
+#20
+P: The British Bronze Age began when sophisticated techniques for making tools, weapons, and other objects from metal were introduced to the British Isles around 2500 BCE, and it lasted until around 700 BCE. Collections of Bronze Age metal items (called hoards) have been found all over Britain, and while most of the objects found in these hoards are weapons or tools, some are purely decorative. For example, the Tisbury hoard included bronze tools, weapons, and jewelry, and the Urquhart hoard included gold jewelry. As ancient metalsmiths in Britain gained knowledge from working metals like bronze, they were able to apply those skills to work other metals as well, but gold was much rarer than bronze, so it’s not surprising that ______
+Q: Which choice most logically completes the text?
+A) the Urquhart hoard contained jewelry made of gold.
+B) some hoards were found as a result of artifacts being dug up by accident.
+C) some hoards contained no gold, as was the case for the Tisbury hoard.
+D) (© bronze was highly valued for its utility in making durable tools and weapons.
+K: C
+#21
+P: Louis-Ferdinand Céline’s 1932 novel Journey to the End of the Night is regularly described as autobiographical. That characterization is apt—there are many parallels between the experiences of the novel's protagonist, Ferdinand Bardamu, and those of Céline—but it should not be taken to mean that every person or event depicted in Journey to the End of the Night has a real-life analogue. Much of the novel is pure invention, and readers who neglect this fact and instead focus excessively on correspondences between the novel and Céline’s life can thus ______
+Q: Which choice most logically completes the text?
+A) misrepresent Journey to the End of the Night as being more widely read than it actually is.
+B) fail to appreciate how much creativity Céline shows in the book.
+C) refuse to acknowledge that Céline drew on real-world material when writing Journey to the End of the Night.
+D) overemphasize the extent to which Céline took inspiration from earlier writers.
+K: B
+#22
+P: The following text is from William Blake’s 1794 poem “Introduction to the Songs of Experience.” The speaker addresses Earth as if it has been asleep.
+P: O Earth, O Earth, return!<br>Arise from out the dewy grass!<br><u>Night is worn,</u><br>And the morn<br>Rises from the slumbrous mass.
+Q: Based on the text, what does the speaker most likely mean by saying that “night is worn”?
+A) The night is ending.
+B) The night is interesting.
+C) The night seems like an old piece of clothing.
+D) The night seems like it is happening for the first time.
+K: A
+#23
+P: The following text is from an 1894 translation of Alexandre Dumas’s 1844 novel The Count of Monte-Cristo. Dantès is searching for a treasure and finds a cave whose opening has been deliberately blocked by a large rock. Hercules is a hero of Greek mythology. Dantès dug away the earth carefully, and detected, or fancied he detected, the ingenious artifice. He attacked this wall, cemented by the hand of time, with his pickaxe. After ten minutes’ labor the wall gave way, and a hole large enough to insert the arm was opened. Dantès went and cut the strongest olive-tree he could find, stripped off its branches, inserted it in the hole, and used it as a lever. But the rock was too heavy, and too firmly wedged, to be moved by any one man, were he Hercules himself.
+Q: Which statement about Dantes is best supported by the text?
+A) He is determined in his efforts to move the rock away from the opening of the cave.
+B) He is worried he will lack the courage to enter the cave when the entrance is finally opened.
+C) He is unsure why the cave’s opening was purposely hidden behind a wall and a large rock.
+D) (® He is aware that his impatience is causing him to make clumsy errors as he enlarges the hole in the wall.
+K: A
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Microserfs (1995) is an epistolary novel by Canadian author Douglas Coupland.
+L: Epistolary novels are novels written primarily as a series of fictional documents.
+L: These documents can be letters, journal entries, newspaper clippings, and more.
+L: Microserfs consists primarily of journal entries.
+L: The journal entries are written by a man employed by a technology company.
+Q: The student wants to define the term “epistolary novel.” Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) An epistolary novel is a novel written primarily as a series of fictional documents, such as letters, journal entries, or newspaper clippings.
+B) Douglas Coupland’s novel Microserfs was published in 1995 and consists primarily of journal entries written by a man employed by a technology company.
+C) Consisting primarily of journal entries written by a man employed by a technology company, Douglas Coupland’s Microserfs is an epistolary novel.
+D) An epistolary novel is a type of novel that, like Microserfs, uses journal entries to tell a story.
+K: A
+#25
+P: While researching a topic, a student has taken the following notes:
+L: The capital of Ethiopia is Addis Ababa.
+L: The largest city in Ethiopia by population is Addis Ababa.
+L: The capital of Kazakhstan is Nur-Sultan.
+L: The largest city in Kazakhstan by population is Almaty.
+Q: The student wants to make a generalization about capital cities. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) A country’s capital city is not always the country’s most populous city.
+B) Nur-Sultan, not Almaty, is the capital of Kazakhstan.
+C) Almaty and Nur-Sultan are both cities in Kazakhstan.
+D) The capital of Kazakhstan is Nur-Sultan, while the capital of Ethiopia is Addis Ababa.
+K: A
+#26
+P: While researching a topic, a student has taken the following notes:
+L: The Chacoan peccary is a mammal species.
+L: It was believed to be extinct until a living Chacoan peccary was identified in Argentina in 1974.
+L: The jellyfish tree is a tree species.
+L: It was believed to be extinct until a living jellyfish tree was identified in the Seychelles in 1978.
+L: They are considered Lazarus species.
+L: “Lazarus species” is a term for living species of organisms that were once believed to be extinct.
+Q: The student wants to specify when the Chacoan peccary was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Previously believed to be extinct, a living Chacoan peccary was identified in Argentina.
+B) Identified in the Seychelles, a living jellyfish tree was found in 1978.
+C) An example of a Lazarus species was found in 1978.
+D) A living Chacoan peccary, once believed to be extinct, was identified in 1974.
+K: D
+#27
+P: While researching a topic, a student has taken the following notes:
+L: The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM).
+L: The ACM gives the award for “major contributions of lasting importance to computing.”
+L: It is named after groundbreaking British mathematician Alan Turing.
+L: Niklaus Wirth won the award in 1984.
+Q: The student wants to explain whom the award is named for and identify one recipient of it. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The A.M. Turing Award is given for “major contributions of lasting importance to computing.”
+B) In 1984, Niklaus Wirth won the A.M. Turing Award, which is given for “major contributions of lasting importance to computing.”
+C) It was in 1984 that Niklaus Wirth won the A.M. Turing Award.
+D) The A.M. Turing Award, which is named for British mathematician Alan Turing, was given to Niklaus Wirth in 1984.
+K: D
+=M2
+#1
+P: In ArtMed inSight, a series of art-based medical education classes taught by Anne Willieme, medical students learn to use techniques more often associated with the arts, such as slowing down interpretation and considering multiple perspectives. ______ Willieme’s students develop better observational skills, enhancing their ability to understand and diagnose patients effectively.
+Q: Which choice completes the text with the most logical transition?
+A) Nevertheless,
+B) In doing so,
+C) For example,
+D) By contrast,
+K: B
+#2
+P: Hawai‘i has a rich literary history that originated with the traditional stories of the Kanaka Maoli, or the Native Hawaiian people. Anwei Skinsnes Law, Imaikalani Kalahele, and other writers have built on this tradition and brought Hawaiian literature to international prominence, ______ the manifold experiences of the Hawaiian people for readers around the world.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) excising
+B) illuminating
+C) controlling
+D) presupposing
+K: B
+#3
+P: Several sociologists have observed that the word “culture,” though commonly used in academic literature, is an ultimately hazy concept—for example, Renate Mayntz has noted that “there is (still) no agreement on the meaning of this core term of sociological analysis.” Does the idea of culture encompass art, or customs, or both these things and others? For casual usage, such haziness is permissible—we know culture when we see it—but for researchers, a standardization of the term is called for if sociology is to truly progress.
+Q: Which choice best states the main idea of the text?
+A) Nonspecialists and specialists have different ideas of what the word “culture” means.
+B) There is no widely agreed-upon definition of the word “culture,” though the field of sociology would benefit if there were.
+C) In her research, Mayntz presented reasons why sociologists disagree on how to analyze “culture.”
+D) Art and customs are key components of what nonspecialists refer to as “culture.”
+K: B
+#4
+P: Hawai‘i has a rich literary history that originated with the traditional stories of the Kanaka Maoli, or the Native Hawaiian people. Mary Kawena Pukui, Gary Pak, and other writers have built on this tradition and brought Hawaiian literature to international prominence, ______ the manifold experiences of the Hawaiian people for readers around the world.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) controlling
+B) excising
+C) presupposing
+D) illuminating
+K: D
+#5
+P: The House on Mango Street is an English-language novella by Sandra Cisneros. It occasionally includes Spanish words and phrases. The English text surrounding these words and phrases ______ their meaning, so readers who aren’t familiar with Spanish can easily read the novella. Ana Castillo takes the same approach in her novel Sapogonia.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) loses
+B) purchases
+C) suspects
+D) suggests
+K: D
+#6
+P: The following text is from Ralph Waldo Emerson’s 1841 essay “The Method of Nature.” The scholars are the priests of that thought which establishes the foundations of the earth. No matter what is their special work or profession, they stand for the spiritual interest of the world, and it is a common calamity if they neglect their post in a country where the material interest is so predominant as it is in America.
+Q: Which choice best states the main idea of the text?
+A) In a country whose citizens are largely preoccupied with tangible gains, it is crucial that some people work to foster and preserve ideas.
+B) Military experience encourages Americans to contemplate aspects of human life that they would not choose to otherwise.
+C) Many descriptions of the role of scholars in society unfairly diminish their importance.
+D) It is unfortunate that so many intellectuals are concerned with material things rather than ideas.
+K: A
+#7
+T: <table><caption>Percentage of City’s Commuters Regularly Biking to Work in 2016</caption><tr><th>City</th><th>% of commuters</th></tr><tr><td>Albuquerque, New Mexico</td><td>1.6</td></tr><tr><td>Berkeley, California</td><td>9.0</td></tr><tr><td>Washington, DC</td><td>4.6</td></tr><tr><td>Phoenix, Arizona</td><td>0.6</td></tr></table>
+P: The table shows that in 2016, the percentage of commuters who regularly biked to work in Albuquerque, New Mexico, was ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) 1.6.
+B) 9.0.
+C) 0.6.
+D) 4.6.
+K: A
+#8
+P: Native to the Yangtze River in China, the Chinese river dolphin is one of many species to have recently gone extinct in what some are calling “the sixth great mass extinction” in Earth’s history. Far from being caused by humans, though, the five prior such events—the Ordovician-Silurian (440 million years ago, or mya), the Devonian (365 mya), the Permian-Triassic (250 mya), the Triassic-Jurassic (201 mya), and the Cretaceous-Tertiary all predate us.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) (65 mya)—
+B) (65 mya);
+C) (65mya)
+D) (65 mya),
+K: A
+#9
+P: An imposing spire of igneous rock rising high above the Belle Fourche River in eastern Wyoming, Devils Tower (also known as Bear Lodge) is one of the most prominent examples of columnar jointing, a pattern of fracturing in rocks that ______ in parallel arrays of long polygonal prisms.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) resulting
+B) to result
+C) results
+D) were resulting
+K: C
+#10
+P: How a folktale begins depends largely on the language in which ______ folktales told in the Korean language open with a phrase that roughly means “on an old day, in the old times.” English-language folktales, on the other hand, often begin with “once upon a time.”
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) originates. Many
+B) originates, many
+C) originates many
+D) originates many,
+K: A
+#11
+P: Insects like ground beetles, crustaceans like calico crabs, and many other animals without spines are known as arthropods. Their nervous systems are made up of a brain and different nerves. Javier Ortega-Hernández, James Weaver, and team studied two fossils of the extinct arthropod Mollisonia symmetrica and identified parts of the species’ nervous system. The researchers spotted evidence of <u>nerves extending into the animal’s body parts</u> and may have also found rare signs of a synganglion, a brain-like mass of nerves in the head.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It describes a feature that was missing from both fossils.
+B) It gives the name of an arthropod species.
+C) It explains how the team discovered the fossils.
+D) It describes part of the nervous system the team identified.
+K: D
+#12
+P: During the relatively warm Cretaceous period (66 to 145 million years ago), there ______ forests near the North Pole and South Pole.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) having been
+B) were
+C) to be
+D) being
+K: B
+#13
+P: In 2014 Marta S. Pimentel and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of Coryphaena hippurus, a species of fish. However, Pimentel and colleagues’ study relied on a mean sample size of only 10 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.
+Q: What is the main topic of the scientific research discussed in the text?
+A) Feeding patterns of top marine predators
+B) Loss of marine diversity due to overfishing
+C) Changes in technologies used to capture fish
+D) Effects of ocean acidification on fish behavior
+K: D
+#14
+T: <table><caption>Average Paperback Prices, 2016–19</caption><tr><th>Genre</th><th>2016</th><th>2017</th><th>2018</th><th>2019</th></tr><tr><td>Young adult</td><td>$25.49</td><td>$18.40</td><td>$18.02</td><td>$18.40</td></tr><tr><td>Mathematics</td><td>$97.31</td><td>$78.54</td><td>$106.69</td><td>$76.99</td></tr><tr><td>Comics and graphic novels</td><td>$18.60</td><td>$18.49</td><td>$19.12</td><td>$20.60</td></tr><tr><td>Reference</td><td>$156.03</td><td>$189.53</td><td>$186.25</td><td>$148.88</td></tr></table>
+P: An intern at a publishing house who is writing a report is asked to determine which of several genres of books published in 2019 had paperbacks with the lowest average price. Consulting the table, she determines that, on average, the least expensive paperbacks in that year belonged to the genre of ______
+Q: Which choice most effectively uses data from the table to complete the assertion?
+A) comics and graphic novels.
+B) young adult.
+C) mathematics.
+D) reference.
+K: B
+#15
+T: <table><caption>Hermit Crab Reactions to a Shell on a Beach</caption><tr><th>Level of shell vibration</th><th>Percentage of crabs that tried to flip the shell over</th></tr><tr><td>None</td><td>70%</td></tr><tr><td>Gentle vibration</td><td>19%</td></tr><tr><td>Strong vibration</td><td>0%</td></tr></table>
+P: Pacific hermit crabs live in shells that they either find empty or take from another hermit crab. Biologists Louise Roberts and Mark Laidre noticed that hermit crabs sometimes vibrate their shells and wondered if they do this to scare away other crabs. The researchers put a shell on a beach and set it up to remain still, gently vibrate, or strongly vibrate when another hermit crab approached it. They recorded how many of those crabs tried to flip the shell over, which is the first step in trying to take a shell from another crab.
+Q: According to the table, what percentage of hermit crabs tried to flip the shell over when it was gently vibrating?
+A) 35%
+B) 0%
+C) 19%
+D) 70%
+K: C
+#16
+P: Scott Parazynski, a former US astronaut, has gone on seven spacewalks. During spacewalks, Parazynski performed important tasks outside the spacecraft, such as installing new equipment.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) this
+B) that
+C) these
+D) one
+K: C
+#17
+P: There are over 150 species of the cactus genus Mammillaria throughout the Americas, but their survival can be threatened by high precipitation and dense vegetation that blocks sunlight. Researchers have located species from the genus in almost every state in Mexico, with several of them, like M. schumannii, restricted to only one state. The fact that this genus has not been observed in parts of the Sierra Madre Occidental mountain range has been attributed to a lack of appropriate habitat, but much of the landscape in this area is notoriously inaccessible, which suggests that ______
+Q: Which choice most logically completes the text?
+A) the current methods of collecting and tracking Mammillaria species throughout Mexico may cause an overestimation of the number of species in this genus.
+B) M. schumannii may have been overlooked in parts of the Sierra Madre Occidental mountain range because of its similarity to another species.
+C) the dense vegetation and high annual precipitation levels in parts of the Sierra Madre Occidental mountain range impede the ability of Mammillaria species to survive.
+D) the perceived absence of Mammillaria in parts of the Sierra Madre Occidental mountain range may be due to insufficient exploration of the region.
+K: D
+#18
+P: Why do children resemble their biological parents in some ways but not in ______ answer requires an understanding of genetics.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) others, the
+B) others. The
+C) others? The
+D) others the
+K: C
+#19
+P: The World Cup of men’s soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Russia, in 2018. ______ only 16 teams, all from Europe and the Americas, competed in the 1962 World Cup in Chile.
+Q: Which choice completes the text with the most logical transition?
+A) As a result,
+B) For example,
+C) In other words,
+D) In comparison,
+K: D
+#20
+P: Developed by Les Paul in 1945, multitrack recording allows music producers to record songs by layering separate musical tracks on top of one another. For example, producers can first record the drums. ______ they can record the guitars on top of the drums. Last, they can record the singer’s vocals on top of the drum and guitar tracks to complete a rough mix of the song.
+Q: Which choice completes the text with the most logical transition?
+A) Next,
+B) Instead,
+C) In other words,
+D) First,
+K: A
+#21
+P: Readers sometimes divide the works of twentieth-century English author Evelyn Waugh into two periods: one consisting of his early satirical novels and the other consisting of his later, more serious—even ponderous—books. Critic Seamus Perry, however, challenges that strict division. Perry argues that Waugh’s writing didn’t change over time as much as some readers have suggested. For instance, Perry contends that some of Waugh’s earliest works, notably his biography of artist Dante Gabriel Rossetti, exhibit the earnest romanticism that would characterize Waugh’s later fiction.
+Q: Based on the text, which statement about Waugh’s works would Perry most likely agree with?
+A) Regardless of when they were written, Waugh’s works have important similarities that transcend their differences.
+B) Over time, Waugh’s works became less humorous and more focused on weightier topics.
+C) Waugh’s works can appropriately be separated into two periods by their subject matter and tone.
+D) The earliest of Waugh’s works exhibit a satirical tone, even if that tone is more apparent in Waugh’s later works.
+K: A
+#22
+P: Nineteenth-century Modernista architects championed nature in their designs. Granted, the wavy stone facade and ornate floral tilework of Casa Batlló, a Modernista private home designed by Antoni Gaudí, couldn’t exactly grow in a forest. ______ one sees natural influences in Gaudí’s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.
+Q: Which choice completes the text with the most logical transition?
+A) Furthermore,
+B) Still,
+C) Similarly,
+D) In other words,
+K: B
+#23
+P: Throughout history, tall structures such as Ruwanwelisaya in Sri Lanka or the Minarets of Selimiye Mosque in Turkey have posed a challenge to their architects, since these structures are more susceptible to physical forces than smaller structures. For example, the lower floors of a building must be able to support the enormous weight of the upper floors. To test a hypothesis that steel is more suitable than concrete for construction of a tall building’s lower floors, researchers created a computer model of two buildings that were identical except that one had concrete lower floors while one had steel lower floors, and simulated the effects of the forces of wind and gravity on those structures over the course of a century.
+Q: Which finding, if true, would most directly support the researchers’ hypothesis?
+A) At the end of the simulation, the structure with steel lower floors had slightly larger dimensions at its base than it did at the beginning of the simulation.
+B) During the simulation, the structure with steel lower floors bent in high wind to a greater degree than did the structure with concrete lower floors.
+C) During the simulation, when sudden forces caused vibrations in the structures, those vibrations took longer to disappear in the structure with steel lower floors than in the structure with concrete lower floors.
+D) At the end of the simulation, the structure with concrete lower floors was several inches shorter than the structure with steel lower floors.
+K: D
+#24
+P: In a study of perceptions of listening ability, participants explained their position on a sociopolitical issue and then received a listener’s written summary that expressed agreement or disagreement. Within selected summaries, researchers embedded markers of attentive listening (e.g., references to specific details), hypothesizing that such indications would positively influence perceptions of listening skill even in the context of disagreement. Instead, participants consistently rated listeners who expressed disagreement as less skilled, regardless of the other traits of the listeners’ summaries.
+Q: What does the text most strongly imply about how participants responded to expressions of disagreement?
+A) Although participants were critical of expressions of disagreement, they gave higher ratings to listeners whose summaries included markers of attentiveness than to listeners whose summaries did not include these markers.
+B) Although participants maintained their positions regardless of a summary’s level of detail, they tended to regard listeners who expressed disagreement as more attentive when these listeners provided more detailed summaries.
+C) When participants felt personally invested in the topics they discussed, they were less likely to perceive listeners who expressed disagreement as attentive, regardless of evidence to the contrary in these listeners’ summaries.
+D) When participants encountered summaries from listeners who expressed disagreement with their views, participants tended to disregard evidence that the listeners had in fact been attentive.
+K: D
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Receptors in the human tongue can detect sweetness, saltiness, sourness, bitterness, and umami.
+L: Umami is a rich, savory flavor.
+L: Umami is triggered by the compounds in a variety of foods, including beef and caramelized onions.
+L: Participants in a research study tasted samples of winged kelp (a type of brown seaweed) collected from Stykkishólmur, Iceland.
+L: On average, they rated its umami intensity as moderate.
+Q: The student wants to emphasize the umami intensity of winged kelp. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Participants in a research study found the umami intensity of winged kelp, a brown seaweed, to be moderate.
+B) Umami is triggered by compounds in winged kelp, beef, and caramelized onions.
+C) Samples of winged kelp, a brown seaweed, have been collected in Stykkishdélmur, Iceland.
+D) Umami is a rich, savory flavor triggered by compounds in foods such as beef and caramelized onions.
+K: A
+#26
+P: While researching a topic, a student has taken the following notes:
+L: The Great Salt Lake is located in Utah.
+L: It is one of the saltiest bodies of water in the world.
+L: More than 330 species of migratory birds stop at the lake each year.
+L: One of these species is the tundra swan.
+Q: The student wants to emphasize the number of migratory bird species that stop at the Great Salt Lake. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Great Salt Lake in Utah is one of the saltiest bodies of water in the world.
+B) The tundra swan is a type of migratory bird.
+C) Migratory birds stop at the Great Salt Lake in Utah.
+D) Each year, more than 330 species of migratory birds stop at the Great Salt Lake in Utah.
+K: D
+#27
+P: While researching a topic, a student has taken the following notes:
+L: The Colorado River is the eighth longest river in North America.
+L: It passes through the country of Mexico.
+L: It passes through the country of the United States.
+L: It ranks No. 46 among the longest rivers in the world.
+L: It is 2,333 kilometers long.
+Q: The student wants to specify which countries the Colorado River passes through. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The eighth longest river in North America, the Colorado River passes through both Mexico and the United States.
+B) The Colorado River is not the longest river in the world.
+C) Among the longest rivers in the world, the Colorado River ranks No. 46.
+D) At 2,333 kilometers long, the Colorado River is the eighth longest river in North America.
+K: A
