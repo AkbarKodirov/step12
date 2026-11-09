@@ -372,6 +372,18 @@
   "minutesPerModule": 35
  },
  {
+  "id": "dsat24-12-us-a-rw",
+  "name": "December 2024 US · Form A · Reading & Writing",
+  "type": "EBRW",
+  "year": 2024,
+  "month": 12,
+  "region": "US",
+  "form": "A",
+  "modules": 2,
+  "questions": 48,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat24-12-us-b-rw",
   "name": "December 2024 US · Form B · Reading & Writing",
   "type": "EBRW",
