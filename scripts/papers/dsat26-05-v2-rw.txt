@@ -1,0 +1,391 @@
+!id: dsat26-05-v2-rw
+!name: May 2026 · Version 2 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 5
+!region: International
+!form: 2
+!missing: M1 M1 M1 M1 M1 M1 M1 M1
+=M1
+#1
+P: Edmund Morris, noted for his three-volume chronicle of the life of Theodore Roosevelt, completed Edison, his biography of Thomas Edison, in 2019. The book covers important parts of its subject’s life, including Edison’s childhood in Michigan, his creation of a carbon-filament electric light bulb, and his development of a rechargeable battery. However, it relates Edison’s life in reverse chronological order, an unusual approach about which reviewer Derek Thompson said, “Nothing is gained by [it], and much comprehension is lost.”
+Q: Which choice best describes the overall structure of the text?
+A) It describes a surprising feature of a biography, offers a justification for that feature, then suggests that a critic was unfair to the biography in his assessment.
+B) It identifies a biography, notes some events recounted in the biography, then presents a critical response to one particular quality of the biography.
+C) It refers to two biographies, contrasts certain aspects of those biographies, then explains why critics generally preferred one biography to the other.
+D) It presents the subject of a biography, describes some major developments in that subject’s life, then suggests that the biography’s account of that life made some careless omissions.
+K: B
+#2
+I: /qimg/26-05-rw-q32.png
+Q: Which choice most effectively uses data from the graph to complete the assertion?
+A) the lowest rate of damage occurred in the area of the orchard where the repeller was not attached to a neural network.
+B) the rate of damage to the pears was approximately 7% in the area with the repeller attached to a neural network and approximately 13% in the area where no repeller was used.
+C) the rate of damage to the pears was approximately 6% in the area with the repeller attached to a neural network and approximately 7% in the area with the repeller not attached to a neural network.
+D) the greatest rate of damage to the pears occurred in the area of the orchard where no repeller was used.
+K: C
+#3
+P: A 2025 study performed by Simon Townsend and colleagues presents evidence that bonobos, close relatives of chimpanzees, are capable of a rudimentary compositionality in communication—that is, they can organize sounds they make such that the order carries meaning in addition to the sounds themselves. After reviewing bonobo calls recorded in forests of the Democratic Republic of the Congo, Townsend’s team claimed that bonobos sometimes paired calls in specific orders and that the contexts of such pairs indicate they were deliberate communications rather than products of chance. The team based their claim on mathematical analysis of hundreds of hours of bonobo calls along with notes of the contexts in which they occurred.
+Q: Which finding, if true, would best support the researchers’ claim?
+A) Bonobos used a single yelp or a single peep as an imperative, but a yelp appeared to be closer to a command, while a peep tended to function as a suggestion.
+B) When bonobos paired grunts with other calls, they did not use rules of syntax as humans do to combine groups of sounds into even larger units of meaning.
+C) A bonobo grunt seems to function as a request for other bonobos to join in whatever activity is ongoing, since bonobos emitting a grunt did so during potentially collaborative contexts such as feeding, nesting, and grooming.
+D) While a single whistle from a bonobo was often an attempt to organize groups, a whistle preceded by a peep sound usually occurred in the presence of a charged social situation.
+K: D
+#4
+P: As the publisher of the Virginia Gazette, Clementina Rind helped spread ideas that would become important in the American Revolution. In August 1774, she published Thomas Jefferson’s A Summary View of the Rights of British America, a pamphlet many ______ of the principles that later appeared in the Declaration of Independence.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) will present
+B) presented
+C) presenting
+D) presents
+K: C
+#5
+P: Fluid impedes sound considerably more than air ______ the process by which the human ear reconciles the discrepancy between the outer ear and the fluid-filled inner ear, recruits the tympanic membrane and the lever action of the ear bones to increase pressure such that sound can pass through the inner ear unimpeded.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) does. Impedance matching,
+B) does. Impedance matching—which is
+C) does, impedance matching,
+D) does. Impedance matching is
+K: A
+#6
+P: Stargazers who looked up at the right time (and with the right protective equipment) on July 10, 1907, were able to enjoy the beautiful totality of an annular solar eclipse. Spectators ______ had just seven minutes, twenty-three seconds to watch the dramatic moment when the moon almost entirely blocks the sun.
+Q: Which choice completes the text with the most logical transition?
+A) Eventually, the event concluded as expected.
+B) The phenomenon was brief, though.
+C) However, this wasn’t all they saw.
+D) In fact, such phenomena are fairly common.
+K: B
+#7
+P: While researching a topic, a student has taken the following notes:
+L: Manatees eat a diet of only plants. Manatees eat about 100 pounds of food daily.
+Q: The student wants to describe manatees’ daily diet. Which choice best uses information from the notes to do this?
+A) Manatees eat about 100 pounds of plants daily.
+B) The daily diet of manatees is about 100 different types of plants.
+C) Manatees weigh about 100 pounds.
+D) Manatees eat more than 100 times per day.
+K: A
+#8
+P: While researching a topic, a student has taken the following notes:
+L: Ezshwan Winding is a Hungarian American artist who specializes in encaustic painting, which follows a multistep process. Step 1: select and prepare the painting surface (often wood). + Step 2: mix melted wax and resin together and add pigment for color to create the encaustic medium. Step 3: spread the medium on the surface in layers, applying heat to allow each layer to soften and fuse with the previous layers. Step 4: use various tools to carve patterns into the painting.
+Q: The student wants to describe the process of making and applying the encaustic medium. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Using various tools, the artist mixes the wax and resin, which fuse together in layers.
+B) The artist spreads wax, resin, and pigment onto the encaustic medium (often wood), then applies heat so that they soften and fuse to the previous layers.
+C) After adding pigment for color, the artist applies a mix of wax and resin to a painting surface, at which point patterns are carved into it.
+D) The artist creates the medium from waz, resin, and pigment and then spreads it onto a painting surface in layers, heating the layers so that they soften and fuse together.
+K: D
+#9
+P: While researching a topic, a student has taken the following notes:
+L: For centuries in Japan, terraced rice fields (tanada in Japanese) were built by shaping steep hillsides into flat steps. This traditional farming method allowed farmers to increase arable land. + The Ohara-shinden tanada in Shimane Prefecture, Japan, was developed during the Heian period. The Heian period (794 CE-1185 CE) was characterized by economic stability and peace. The Nichiko tanada in Kumamoto Prefecture, Japan, was developed during the Edo period. The Edo period (1603 CE-1867 CE) was characterized by economic stability and peace.
+Q: The student wants to emphasize a historical similarity between the two rice terraces. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Developed during the Heian and Edo periods, respectively, the Ohara- shinden and Nichiko tanada were shaped out of steep hillsides.
+B) The Ohara-shinden tanada was developed during the Heian period; meanwhile, the Nichiko tanada was developed during the Edo period.
+C) The Ohara-shinden and Nichiko tanada are both exemplars of a traditional farming method wherein flat steps are shaped out of steep hillsides.
+D) As was true for the Ohara-shinden tanada, the Nichiko tanada was developed during a period of economic stability and peace.
+K: D
+#10
+P: Research has shown that regardless of musical training, most hearing adults recognize that the notes of the simple melody of “Baa Baa Black Sheep” are harmonious. Similarly, a study showed that even participants with no musical training could easily follow the underlying beat in the Brazilian samba song “Aguas de Marco” despite its often complex rhythms, raising the possibility that this capability was somehow ______ the participants.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) undertaken by
+B) instinctive for
+C) imposed on
+D) unique to
+K: B
+#11
+P: The following text is from Edith Wharton’s 1917 novel Summer. Eagle County is located in a region where summer weather can be quite cool.
+P: There had never been such a June in Eagle County. Usually it was a month of moods, with abrupt alternations of belated frost and mid-summer heat; this year, day followed day in a sequence of temperate beauty. Every morning a breeze blew steadily from the hills. Toward noon it built up great canopies of white cloud that threw a cool shadow over fields and woods; then before sunset the clouds dissolved again, and the western light rained its unobstructed brightness on the valley.
+Q: Which choice best states the main purpose of the text?
+A) To depict a problem
+B) To illustrate a conflict
+C) To describe a character
+D) To portray a setting
+K: D
+#12
+I: /qimg/26-05-rw-q46.png
+Q: Which choice describes data from the graph that could most reasonably explain the situation described in the text?
+A) In 2012, 2018, and 2024, Azerbaijan imported substantially more tea than it grew locally or exported, suggesting that locally consumed tea is primarily imported tea rather than Azerbaijani tea.
+B) The volume of locally grown tea and the volume of imported tea were both substantially greater in 2024 than in 2012, suggesting a rapid rise in the popularity of tea among Azerbaijanis.
+C) In 2012, the volume of exported tea exceeded the volume of locally grown tea, indicating that Azerbaijani tea sold outside of Azerbaijan must contain tea sourced from other countries.
+D) In 2012 and 2018, all or most tea grown in Azerbaijan was exported, suggesting that Azerbaijani consumers had to consume imported tea instead.
+K: A
+#13
+I: /qimg/26-05-rw-q47.png
+Q: Which choice best describes data from the graph that support Pétzelsberger and colleagues’ conclusion?
+A) Some of the species that Finland reported are not among the 23 tree species that Potzelsberger and colleagues were evaluating.
+B) There are species other than those reported by Belgium that are important to its timber industry, but they’re native to the country.
+C) Denmark, Finland, and Belgium each reported at least 4 of the 23 species.
+D) Denmark, which reported more of the 23 species than either Finland or Belgium did, reported fewer than 15 of the species.
+K: D
+#14
+P: In 2022 Octavio Tuwits Wajai, who studies mammals, joined a research team for a 38-day expedition to the remote yet populous region of Alto Mayo, Peru. It had long been assumed that regions with large human ______ were unlikely to yield discoveries of new species, but team members found 27 such species, including a new species of dwarf squirrel.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) populations,
+B) populations which
+C) populations, which
+D) populations
+K: D
+#15
+P: The Nimatron was an early digital computer designed to play a mathematical game against visitors to the 1939-1940 New York World’s Fair. Though capable of making game moves in milliseconds, this one-ton machine—built by Westinghouse Electric Corporation engineers to demonstrate how electrical relays could respond to players’ choices according to predetermined mathematical patterns—__ ______ programmed with time delays to give the impression of deliberative thinking.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) were
+B) was
+C) being
+D) are
+K: B
+#16
+P: Cornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled red pavilion is built at a pavilion for birdwatching in Taiwan. ______ appearing as a set of red bamboo columns supporting the pavilion, it is cleverly placed into its environment, serving as an example of Konrads’s approach.
+Q: Which choice completes the text with the most logical transition?
+A) There,
+B) For instance,
+C) However,
+D) Later,
+K: A
+#17
+P: In the past, the White House has played host to a diverse menagerie of pets, including the turkey owned by Abraham Lincoln, the nation’s sixteenth president.
+P: ______ for the last few decades, nearly every White House pet has been a cat or dog.
+Q: Which choice completes the text with the most logical transition?
+A) In fact, all but a few US presidents have kept pets during their tenure in office;
+B) Ultimately, Lincoln’s uncommon pet choice had little bearing on his political legacy;
+C) That said, recent US presidents have stuck to more conventional choices;
+D) Indeed, it’s been suggested that pet ownership can bolster a president’s public image;
+K: C
+#18
+P: A student has taken these notes:
+P: Checkered white butterflies are white with brown spots. They are most active during the day. They eat nectar from flowers.
+Q: The student wants to say when checkered white butterflies are most active. Which choice best uses information from the notes to do this?
+A) The checkered white butterfly is a kind of insect.
+B) Some butterflies are white with brown spots.
+C) Checkered white butterflies are most active during the day.
+D) Checkered white butterflies eat nectar from flowers.
+K: C
+#19
+P: The following text is adapted from John Matheus’s 1925 short story “Fog.”
+P: The fog extended its tentacles over city and river, gradually obliterating <u>traces</u> of familiar landscapes. At five-thirty the old Panhandle bridge, supported by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.
+Q: As used in the text, what does the word “traces” most nearly mean?
+A) Indications
+B) Recollections
+C) Copies
+D) Debris
+K: A
+=M2
+#1
+I: /qimg/26-05-rw-q88.png
+Q: According to the table, which dog tilted its head in 42% of trials when tested at 1 month after exposure to the toys?
+A) Kesu
+B) Rico
+C) Popi
+D) Enzo
+K: B
+#2
+I: /qimg/26-05-rw-q89.png
+Q: Which choice most effectively uses data from the graph to complete the statement?
+A) copper and cast iron.
+B) carbon and steel.
+C) cadmium and chromium.
+D) carbon and chromium.
+K: A
+#3
+P: The National Civil Rights Museum is located in Memphis, Tennessee. There, you will
+P: ______ exhibits about the history of the civil rights movement.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) find,
+B) find—
+C) find:
+D) find
+K: D
+#4
+P: Portuguese researcher Isabel C.ER. Ferreira found that termite mushrooms contain tannic acid, an antioxidant that combats free radicals, which are molecules that can damage healthy cells in organisms. Ferreira hopes to harness mushroom antioxidants ______ an array of conditions in animals and plants alike.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) preventing and to treat
+B) preventing and treated
+C) to prevent and treat
+D) to prevent and treating
+K: C
+#5
+P: Diné textile artist D.Y. Begay merges geometric abstraction with realistic landscape imagery in her tapestries Palette of Cochineal (2013) and Winter in the North (2019).
+P: ______ featured alongside forty-six other tapestries of Begay’s in Sublime Light, a 2025 exhibition at the National Museum of the American Indian.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Both are
+B) Itis
+C) This is
+D) All are
+K: A
+#6
+P: The perception that a project has no precedent or comparable examples ______ called uniqueness bias. This flawed thinking has the potential to affect project performance significantly, with research showing that uniqueness bias correlates with budget overruns.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) <img src="/qimg/26-05-rw-q93-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) are
+C) being
+D) were
+K: A
+#7
+P: Some famous novels originally had titles very different from those they're known
+P: today. ______ while William Golding was writing his classic novel about a group of boys stranded on an island, he called it Strangers from Within—a title he had abandoned in favor of Lord of the Flies by the time of the book’s publication in 1954.
+Q: Which choice completes the text with the most logical transition?
+A) To note an exception,
+B) To cite one example,
+C) Given these differences,
+D) In addition to these novels,
+K: B
+#8
+P: The Highpointers Club is a hiking club. One of the main goals among club members is to reach the points in all fifty US states. Those who achieve this are called 50 Completers. In Suk Han became a 50 Completer on November 15, 2013. The point in Wisconsin is Timms Hill, at 1,951 ft. The point in Wyoming is Gannett Peak, at 13,809 ft.
+Q: Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?
+A) If you are looking for a new hiking challenge, consider joining the Highpointers Club, as did In Suk Han, a hiker who successfully reached the point in every US state.
+B) Not until after you have reached the points in all fifty US states— including Timms Hill in Wisconsin and Gannett Peak in Wyoming—can you include yourself among the 50 Completers of the Highpointers Club.
+C) On November 15, 2013, In Suk Han finally completed the feat of reaching the point in all fifty US states, including Timms Hill in Wisconsin and Gannett Peak in Wyoming.
+D) Hikers aiming to count themselves among the 50 Completers must reach not only Wisconsin’s Timms Hill but also the even higher peak of Gannett Peak in Wyoming.
+K: B
+#9
+P: Antonio Stradivari (1644-1737) was an Italian instrument maker. He made about 1,000 violins in his lifetime. Musicians prize his Stradivarius violins for their famed sound quality. The Ole Bull Stradivarius is named for former owner Ole Bull, a Norwegian violinist.
+Q: Which choice most effectively uses information from the given sentences to introduce Ole Bull to a new audience?
+A) The Ole Bull Stradivarius is named after Ole Bull.
+B) Of the 1,000 or so violins Antonio Stradivari made, only about 500 exist today.
+C) Ole Bull was a Norwegian violinist who once owned a Stradivarius violin.
+D) Born in 1644, Antonio Stradivari was an Italian instrument maker whose violins are famous for their quality.
+K: C
+#10
+P: In areas with mineral-rich water, mineral deposits may build up inside water heaters. If not treated or removed, these deposits can grow large enough to ______ heat transfer, thereby undermining the main function of the devices.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) impede
+B) convert
+C) require
+D) isolate
+K: A
+#11
+P: Vertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes—single-celled organisms, such as the bacteria Enterococcus cecorum and Moraxella caviae—it has rarely been <u>observed among eukaryotes (multicellular organisms). However, new studies</u> suggest that horizontal gene transfer is more common in eukaryotes than originally thought.
+Q: Which choice best states the function of the underlined sentence in the text as a whole?
+A) It contrasts the frequency with which a biological phenomenon has been detected in two categories of organisms.
+B) It indicates a distinction between the mechanics of two kinds of biological processes.
+C) It argues that two biological phenomena are more similar than they may initially appear to be.
+D) It explains why a common perception of a biological process is flawed.
+K: A
+#12
+P: Positive expressive writing is a writing technique intended to create positive mindsets through a focus on exploring and expressing thoughts and emotions such as happiness. Lauren Hoult and colleagues systematically reviewed multiple studies about different styles of positive expressive writing that included methods known as gratitude letter, satisfaction processes, and best possible self. They concluded that gratitude letter and best possible self showed the most consistent benefits for increasing happiness and fostering a positive mindset.
+Q: According to the text, which methods of positive expressive writing did Hoult and colleagues conclude were most consistently effective?
+A) Best possible self and fostering a positive mindset
+B) Gratitude letter and best possible self
+C) Best possible self and satisfaction processes
+D) Gratitude letter and satisfaction processes
+K: B
+#13
+P: Biologist Grace Herzel and colleagues conducted a study of how butterfly color and weather conditions relate to butterfly behavior, which wouldn’t have been possible without data gathered by students and other amateur science enthusiasts in the community. Considering over three years’ worth of data, the researchers found that white butterflies were observed on green flowers more often than any other butterflies were, and that butterflies were observed to feed more often on cloudy days than on other days.
+Q: According to the text, which factors seemed to be linked to the behavior of butterflies in Grace Herzel and colleagues’ study?
+A) Neither butterfly color nor weather conditions
+B) Both butterfly color and weather conditions
+C) Weather conditions but not butterfly color
+D) Butterfly color but not weather conditions
+K: B
+#14
+I: /qimg/26-05-rw-q102.png
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) from 14 to 17 years old.
+B) from 6 to 8 years old.
+C) from 5 to 6 years old.
+D) from 11 to 14 years old.
+K: B
+#15
+I: /qimg/26-05-rw-q103.png
+Q: Which choice most effectively uses data from the graph to complete the statement?
+A) graphite and mild steel.
+B) copper and cast iron.
+C) aluminum and mild steel.
+D) graphite and steel.
+K: B
+#16
+P: To make her textiles, artist An-Phuong Ly uses a natural dyeing method, a process that includes multiple steps. ______ the pomegranate rind or another dye-making material is soaked in water to release its color. Second, the textile is added to the heated dyebath and simmered until the pomegranate rind’s yellow color has transferred into the cloth.
+Q: Which choice completes the text with the most logical transition?
+A) First,
+B) However,
+C) Indeed,
+D) Next,
+K: A
+#17
+P: While researching a topic, a student has taken the following notes:
+L: Manatees eat a diet of only plants. Manatees eat about 100 pounds of food daily.
+Q: The student wants to describe manatees’ daily diet. Which choice best uses information from the notes to do this?
+A) Manatees eat more than 100 times per day.
+B) Manatees weigh about 100 pounds.
+C) Manatees eat about 100 pounds of plants daily.
+D) The daily diet of manatees is about 100 different types of plants.
+K: C
+#18
+P: The Underdogs is a 1915 novel by Mariano Azuela, originally written in Spanish. In the novel, Azuela makes a comparison using natural imagery to convey the mental state of the protagonist, Demetrio: ______
+Q: Which quotation from a translation of The Underdogs most effectively illustrates the claim?
+A) “At this hour, as usual, the calcinated rocks, the sun-burnt branches, and the dry weeds faded into the semi-obscurity of the shadows.”
+B) “Demetrio suppressed a sigh. Memories crowded and buzzed through his brain like bees about a hive.”
+C) “Demetrio laid a hand on his hair which covered his ears, and stretching himself out for a long time, seemed to be lost in thought.”
+D) “Yet he was previous; an hour or more elapsed with no sound or stir save the song of the locust in the brush or the frog stirring in his mudhole.”
+K: B
+#19
+I: /qimg/26-05-rw-q107.png
+Q: Which choice most effectively uses data from the table to complete the assertion?
+A) South Carolina.
+B) Idaho.
+C) Virginia.
+D) South Dakota.
+K: C
+#20
+P: An ancient statue from the Huasteca region of Mexico represents a subject not seen before in artifacts from the area: a woman in an assertive stance wearing items used in a ceremonial ballgame. Archaeologist Maria Eugenia Maldonado notes that this image of a powerful athlete ______ the idea that women in pre-Columbian societies held only passive roles.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) reveals
+B) challenges
+C) forgets
+D) predicts
+K: B
+#21
+P: In an analysis of over 50,000 records of pollinators visiting flowers, botanists determined that flowers with bilateral symmetry (zygomorphs) are visited by a smaller subset of pollinators than the subset that visits flowers with radial symmetry (actinomorphs), thus ______ anecdotal observations that zygomorphic flowers exclude many potential pollinators.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) allocating
+B) substantiating
+C) transposing
+D) supplanting
+K: B
+#22
+P: The preponderance of studies on aqueous uranium (U)—including a 1997 study by Moran et al.—were in oceanic contexts. In a 2020 investigation of factors influencing the abundance of the isotope U-238 in Kaluka Lake and three other lakes in northwest China, Zhao et al. therefore aimed to address the relative ______ of scientific knowledge on uranium isotopes in inland bodies of water.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) dearth
+B) aggregation
+C) diminution
+D) obsolescence
+K: A
+#23
+P: Rare tree species growing in the Tyson Research Center are much likelier than common species to be found in conspecific (same-species) aggregations, but in the Barro Colorado Island plot, conspecific aggregation and abundance are nearly
+P: ______ whichis to be expected given that rare species in Barro Colorado are heavily reliant on seed dispersion via animals, while those in the Tyson Center tend to drop seeds directly to the ground.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inverted
+B) indistinguishable
+C) independent
+D) intermittent
+K: C
+#24
+P: In many parts of the world, merchants rarely label goods with exact prices like 17.3107203.62. Studies have shown that consumers view exact prices as reflecting merchant expertise and careful calculation, so why aren’t they more common? One reason is that exact prices may create greater cognitive friction during purchase decisions than do whole-number prices or prices easily rounded to whole numbers
+P: 5.99, whichislittledi f ferent from®6). Particularly if multiple goods are being considered for purchase, tracking and comparing exact prices may feel onerous to consumers.
+Q: Which choice best states the main purpose of the text?
+A) To argue that exact prices are relatively uncommon because calculating them is burdensome for merchants
+B) To address the question of why the use of exact prices is less common in some parts of the world than in others
+C) To explain why exact prices present greater cognitive friction for some consumers than whole-number prices or easily rounded prices do
+D) To account for the fact that exact prices remain uncommon in many places despite some positive consumer perceptions of them
+K: D
+#25
+I: /qimg/26-05-rw-q114.png
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It attributes the inconclusive findings reported in the text regarding the influence of a particular floral trait on interactions between hummingbirds and plants to differences in study sites.
+B) It suggests that a hypothesis discussed later in the text regarding a potential visual cue that hummingbirds rely on to increase their foraging efficiency has little support from the broader scientific community.
+C) It acknowledges research findings, which weren’t replicated by the study discussed later in the text, positing a relationship between floral traits that potentially underlies hummingbird foraging decisions.
+D) It summarizes contradictory study findings concerning a floral trait that influences hummingbird foraging patterns, which the study mentioned later in the text aimed to resolve.
+K: C
+#26
+P: The following text is from Yung Wing’s 1909 memoir My Life in China and America. Yung Wing was the first person from China to graduate from a US university. Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on “An Imaginary Voyage to New York and up the Hudson,” that I <u>was to see New York in reality. This incident leads me to the reflection that</u> sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It illustrates the sense of adventure that Yung developed as a child.
+B) It reinforces Yung’s skill as a creative writer.
+C) It indicates Yung’s unwillingness to distinguish between reality and fantasy as a child.
+D) It describes an event in Yung’s life that exemplifies a phenomenon.
+K: D
+#27
+I: /qimg/26-05-rw-q116.png
+Q: Based on the texts, Malone et al. (Text 2) would most likely agree with which statement about the “approach” described in Text 1?
+A) It could compromise the accuracy of the biogenic CH, emissions data that EC towers collect in areas with elevated emissions.
+B) It would only be viable if the EC towers monitoring biogenic CH, emissions could detect smaller fluxes than they can at present.
+C) It may suggest that biogenic CH, emissions in unmonitored areas are higher than they actually are.
+D) It is likely to be useful for determining biogenic CH, emissions in unmonitored areas of some regions but not of most regions.
+K: C

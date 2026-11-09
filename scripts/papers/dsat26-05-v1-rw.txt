@@ -1,0 +1,459 @@
+!id: dsat26-05-v1-rw
+!name: May 2026 · Version 1 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 5
+!region: International
+!form: 1
+=M1
+#1
+P: The following text is from Northrop Frye’s 1957 book Anatomy of Criticism.
+P: Even in lyrics and essays the writer is to some extent a fictional hero with a fictional audience, for if the element of fictional <u>projection</u> disappeared completely, the writing would become direct address, or straight discursive writing, and cease to be literature.
+P: ©1957 by Princeton University Press
+Q: As used in the text, what does the word “projection” most nearly mean?
+A) Elimination
+B) Estimation
+C) Presentation
+D) Prediction
+K: C
+#2
+P: The following text is adapted from Jhumpa Lahiri’s 2003 novel The Namesake. Gogol has recently begun working at an architecture firm in New York.
+P: His contributions are incidental, and never fully his own: a stairwell, a skylight, a corridor, an air-conditioning duct. Still, he knows that each component of a building, however small, is nevertheless essential, and he finds it gratifying that after all his years of schooling, all his crits [reviews] and unbuilt projects, his efforts are to have some practical <u>end.</u>
+P: ©2003 by Jhumpa Lahiri
+Q: As used in the text, what does the word “end” most nearly mean?
+A) Purpose
+B) Decision
+C) Boundary
+D) Postponement
+K: A
+#3
+P: The following text is adapted from Virginia Woolf’s 1919 novel Night and Day. Katharine is the granddaughter of a celebrated poet.
+P: [Katharine’s] descent from [a celebrated poet] was no surprise to her, but matter for satisfaction, until, as the years wore on, certain drawbacks made themselves very <u>manifest.</u> Perhaps it is a little depressing to inherit not lands but an example of intellectual virtue; perhaps the conclusiveness of a great ancestor is a little discouraging to those who run the risk of comparison with him.
+Q: As used in the text, what does the word “manifest” most nearly mean?
+A) Particular
+B) Intricate
+C) Evident
+D) Possible
+K: C
+#4
+P: A construction foreperson reading blueprints and directing workers in accordance with them is engaging in an actof ______ Blueprints are replete with symbols, notations, and figures that are often incomprehensible to the uninitiated; the foreperson must convert all of that arcana into practical building instructions that are easily understood by anyone on the job site.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) verification
+B) documentation
+C) translation
+D) observation
+K: C
+#5
+P: Along with traditional Japanese forms of ironwork and weaving, sashiko embroidery was revived during the mingei (folk art) movement of the twentieth century. Sashiko’s functional origins as a mending technique and its use of motifs inspired by everyday life, such as yabane (arrow feather), reflect the principle that folk art should ______ its form and themes from the lives of its creators.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) promote
+B) distinguish
+C) withdraw
+D) derive
+K: D
+#6
+P: The 2024 movie Mean Girls, a remake of the 2004 cult classic, earned over $28 million during its first weekend in US theaters. One reason for its popularity is that the movie’s marketing team used the internet to introduce new viewers to the original story before the remake was released. The marketers uploaded the original film divided into 23 short segments to a social media site popular with teenagers. The entire film received at least 750,000 views in one day, and 100,000 people started following the “Mean Girls” social media account.
+Q: Which choice best states the main purpose of the text?
+A) To praise the actors who starred in the original version of Mean Girls
+B) To explain the success of advertising for the Mean Girls remake
+C) To compare movie theaters in the United States to movie theaters in other countries
+D) To criticize the cost of making movies in the United States
+K: B
+#7
+P: Imani Jacqueline Brown is an artist who blends scientific research, political activism, and various media in her work. In her exhibition Strike Gulf, she interrogated the impact of the oil and gas industry on southern Louisiana (where she grew up), incorporating core samples from deep seabeds off the Louisiana
+P: <u>New Orleans.</u> Strike Gulf thus stands as an example of Brown’s multidisciplinary approach and use of diverse sources.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It notes some challenges Brown faced in creating the specific exhibition that is discussed in the text.
+B) It describes a project of Brown’s that deviates from the typical approach that is described earlier in the text.
+C) It signals a shift from a focus on Brown’s artistic work in the first sentence to a focus on her work as an activist in the last sentence.
+D) It offers details about one of Brown’s works that support the claims made in the first and last sentences.
+K: D
+#8
+P: The following text is from Mary Crow Dog’s 1990 autobiography Lakota Woman, written in collaboration with Richard Erdoes.
+P: At the center of the old Sioux society was the tiyospaye, the extended family group, the basic hunting band, which included grandparents, uncles, aunts, inlaws, and cousins. The tiyospaye was like a warm womb cradling all within it. Kids were never alone, always fussed over by not one but several mothers, watched and taught by several fathers.
+P: ©1990 by Mary Crow Dog and Richard Erdoes
+Q: What does the text most strongly suggest about the function of the tiyospaye?
+A) It served as the central authority for governing society.
+B) It functioned primarily as a way to organize hunting activities.
+C) It operated as a formal network for maintaining cultural practices.
+D) It offered care and protection to all the members it included.
+K: D
+#9
+P: The following text is adapted from William Shakespeare’s 1598 play Henry IV, Part 1. King Henry is addressing several noblemen who are rumored to have been disloyal to him.
+P: KING HENRY: My blood hath been too cold and temperate, Unapt to stir at these indignities, And you have found me, for accordingly You tread upon my patience; but be sure I will from henceforth rather be myself, Mighty and to be fear’d, than my [disposition], Which hath been smooth as oil, soft as young down, And therefore lost that title of respect Which the proud soul ne’er pays but to the proud.
+Q: Which statement best describes how King Henry presents himself in the text?
+A) He defends his calm disposition, which he sees as fundamental to his personality, and vows to maintain his tranquil demeanor even if it causes him to lose the respect of overly proud noblemen.
+B) He declares that he has judged the noblemen’s conduct in an impartial manner, and that despite their attempts to regain his trust through professions of submissiveness, they have irrevocably lost his respect.
+C) He acknowledges to the noblemen that his tolerance of their conduct has undermined their respect for him, and he resolves to display his genuine nature, which is more forceful and compels deference.
+D) He concedes that he has treated the noblemen with indifference, which in part explains why they have defied him, but he asserts that their disrespectful behavior is primarily driven by their excessive pride.
+K: C
+#10
+P: Flatland is an 1884 novel by Edwin A. Abbott. The narrator describes the novel's setting as a world consisting entirely of two-dimensional geometric figures, whose existence is confined to the surface of a plane: ______
+Q: Which quotation from Flatland most effectively illustrates the claim?
+A) “Every human being in Flatland is a Regular Figure, that is to say of regular construction. By this I mean that a Woman must not only be a line, but a straight line; that an Artisan or Soldier must have two of his sides equal.”
+B) “The sizes of the [figures’] sides would of course depend upon the age of the individual... A tall adult Woman might extend to a foot. As to the Males of every class, it may be roughly said that the length of an adult’s size, when added together; is two feet or a little more. But the size of our sides is not under consideration.”
+C) “As early as the eleventh century of our era, triangular houses were universally forbidden by Law, the only exceptions being fortifications, [gun]powder magazines, barracks, and other state buildings, which is not desirable that the general public should approach.”
+D) “Imagine a vast sheet of paper on which straight Lines, Triangles, Squares, Pentagons, Hexagons, and other figures, instead of remaining fixed in their places, move freely about, on or in the surface, but without the power of rising above or sinking below it...and you will then have a pretty correct notion of my country.”
+K: D
+#11
+P: Some food packaging contains silver nanoparticles (Ag-NPs), which can leach into waterways and soils via wastewater. In a 2015 study, Tina Ramskov and colleagues found that Ag-NPs can accumulate in the bodies of marine annelid worms (Capitella teleta). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that Ag-NP bioaccumulation in invertebrates like C. teleta could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species— such as Atlantic salmon (Salmo salar), commonly used in regulatory compliance testing—for nanoparticle bioaccumulation, as environmental protection laws currently require.
+Q: Which finding, if true, would most directly weaken the hypothesis presented in the text?
+A) Compared with S. salar, C. teleta can accumulate detectable Ag-NP concentrations with significantly fewer negative effects.
+B) C. teleta has been shown to accumulate several other types of manufactured nanoparticles in addition to Ag-NPs, whereas S. salar has been shown to accumulate only Ag-NPs.
+C) Ag-NP concentrations in C. teleta show no reliable correlation with Ag-NP concentrations in S. salar when the two species are exposed to similar levels of Ag-NPs.
+D) Given comparable levels of exposure to Ag-NPs, C. teleta accumulates Ag- NPs at a higher rate than S. salar does but in a fixed ratio to the rate at which S. salar does.
+K: C
+#12
+P: At Underwater Trail (US Virgin Islands), coral colonies experiencing degradation—a problem facing reefs globally—have been enhanced with transplanted fragments of staghorn (a stony coral). This is a useful restoration approach but is challenging at scale since it involves cultivating and individually moving young stony coral pieces. In 2025, Samapti Kundu and her team announced a new approach: coating reef substrates with a simple-to-apply substance, made with inexpensive and abundant core components (e.g., silica), that can mimic a signal that draws coral larvae to settle in healthy reefs. When tested in conditions simulating real ocean environments, the substance enhanced settlement by up to twentyfold. These attributes suggest that the substance ______
+Q: Which choice most logically completes the text?
+A) should be able to simulate healthy reef signals even more closely when it is applied in natural ocean conditions.
+B) is likely to require more costly components to ensure its stability when used for coral colonies as degraded as those at Underwater Trail
+C) offers a means of reef restoration that likely allows much broader implementation than the approach used at Underwater Trail does.
+D) should be most beneficial for restoring reefs that predominantly consist of staghorn coral colonies.
+K: C
+#13
+P: Carl Woese’s 1970s study of methanogens (microbes with no nuclei, such as Methanosarcina barkerti, that metabolize hydrogen and carbon dioxide in oxygenpoor environments and produce methane as a by-product) suggested that they did not fit scientists’ then-conventional division of life into two domains, the eukaryotes (having cells with nuclei) and the prokaryotes (missing nuclei). Molecular clock evidence indicated that what Woese argued was a third domain of life emerged as early as 3.5 billion years ago. Methanogens would have been well-adapted to conditions then given that ______
+Q: Which choice most logically completes the text?
+A) atmospheric hydrogen levels were much lower around 3.5 billion years ago than they were both earlier and later in Earth’s history.
+B) Earth’s oxygen levels were very low until the Great Oxidation Event approximately 2.4 billion years ago.
+C) the earliest undisputed evidence of eukaryotes is much more recent than 3.5 billion years ago.
+D) methane, while primarily biological in origin on Earth, can be produced in the absence of biological activity.
+K: B
+#14
+P: Portuguese researcher Isabel C.ER. Ferreira found that almond mushrooms contain gentisic acid, an antioxidant that combats free radicals, which are molecules that can damage healthy cells in organisms. Ferreira hopes to harness mushroom antioxidants ______ an array of conditions in animals and plants alike.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) preventing and treated
+B) preventing and to treat
+C) to prevent and treat
+D) to prevent and treating
+K: C
+#15
+P: In an interview for the book Latina Authors and Their ______ women’s fiction author Julia Amante revealed that author Dorothea Brande’s Becoming a Writer is her favorite book about the craft of writing.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Muses, and the
+B) Muses: the
+C) Muses, the
+D) Muses. The
+K: C
+#16
+P: The editors of Home Ground: A Guide to the American Landscape turned to Arturo Longoria, a nonfiction writer, to craft the entry for “arroyo,” a term referring to the bed of an intermittently dry stream or creek. For “lek,” however, the editors chose the author ______ of The Very Rich Hours.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) poet, Emily Hiestand
+B) poet, Emily Hiestand,
+C) poet Emily Hiestand,
+D) poet Emily Hiestand
+K: C
+#17
+P: Delaware is one of several US states with legislative provisions for the incorporation of worker cooperatives, businesses in which each worker receives an equal vote in company governance. Skeptics have questioned the co-op model for decades and declared ______ means of governance economically unsustainable, ignoring many examples of successful worker-owned businesses.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) <img src="/qimg/26-05-rw-q20-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) one’s
+C) its
+D) their
+K: C
+#18
+P: In British gothic fiction of the eighteenth century, gone are the rational narratives that dominated earlier literary movements of the Enlightenment period. In ______ place are stories rife with the supernatural and psychological intensity that appealed to readers seeking escape from the Age of Reason.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) its
+B) <img src="/qimg/26-05-rw-q21-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) it’s
+D) their
+K: D
+#19
+P: Some famous novels originally had titles very different from those they're known
+P: today. ______ while James Joyce was writing his classic novel about a young Irish man growing up in the late 1800s, he called it Chapters in the Life of a Young Man—a title he had abandoned in favor of A Portrait of the Artist as a Young Man by the time of the book’s publication in 1916.
+Q: Which choice completes the text with the most logical transition?
+A) To cite one example,
+B) To note an exception,
+C) In addition to these novels,
+D) Given these differences,
+K: A
+#20
+P: In a 2022 analysis of small sovereign countries, Archie Simpson categorized fortyone as microstates based, in part, on the criterion of having a population under one million—for instance, Barbados, with its population of approximately 282,000.
+P: ______ political scholar Sarina Theys suggests an intersubjective approach to classification by which a small country’s status is self-defined rather than relying on externally imposed or quantitative standards.
+Q: Which choice completes the text with the most logical transition?
+A) Challenging the accuracy of Barbados’s population data,
+B) Reinforcing the importance of Simpson’s population criterion,
+C) Countering this method of categorization,
+D) In addition to this example,
+K: C
+#21
+P: While researching a topic, a student has taken the following notes:
+L: Fireflies produce flashing lights. These lights help them attract mates. These lights help some fireflies warn off predators.
+Q: The student wants to explain how some fireflies use their flashing lights for protection. Which choice best uses information from the notes to do this?
+A) Fireflies produce flashing lights to attract mates.
+B) Each firefly species has its own unique flashing pattern.
+C) Some fireflies produce flashing lights to warn off predators.
+D) Some fireflies produce flashing lights to lure prey.
+K: C
+#22
+P: While researching a topic, a student has taken the following notes:
+L: Pineapple juice has a pH value of approximately 3.5. Avocados have a pH value of approximately 6.4. Substances with pH values below 7 are acidic.
+Q: The student wants to say what pineapple juice and avocados have in common. Which choice best uses information from the notes to do this?
+A) Pineapple juice and avocados are both acidic substances.
+B) Pineapple juice has a pH value that makes it acidic.
+C) Some acidic substances have pH values of approximately 6.4.
+D) Pineapple juice and avocados have pH values of approximately 3.5.
+K: A
+#23
+P: While researching a topic, a student has taken the following notes:
+L: + In a 2021 study, researchers showed participants sets of images. Each set contained an unaltered image of a different character or logo alongside two slightly altered versions. Participants were asked to identify the correct version in each set. In the set containing C-3PO, 18.5% of participants selected the correct version, and 81.5% selected an altered version. In the set containing the Mercedes-Benz logo, 94% of participants selected the correct version, and 6% selected an altered version.
+Q: The student wants to explain how participants performed on the set with the Mercedes-Benz logo. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) In a 2021 study, researchers showed participants sets of images containing unaltered versions of popular characters or logos, such as the Mercedes- Benz logo, alongside two altered versions.
+B) While 94% of participants selected the correct version of the Mercedes- Benz logo, just 18.5% selected the correct version of C-3PO.
+C) C-3PO and the Mercedes-Benz logo were both included in a 2021 study.
+D) When shown an image set of the Mercedes-Benz logo, 94% of participants identified the correct version, and 6% selected an altered version.
+K: D
+#24
+P: A student has taken the following notes:
+L: A team of researchers led by Guanning Pang discovered that inactive volcanoes in the Cascade Range have large underground magma chambers 3 to 9 miles below their surface. Some of these volcanoes have been dormant for thousands of years. Researchers detected magma by tracking earthquake waves that slowed down when passing through chambers of magma consisting of 3% to 32% melted rock. Magma chambers need over 35% liquid rock to potentially erupt. These findings challenge the scientific theory that magma chambers only exist right before eruptions. + The discovery could improve volcano monitoring and eruption prediction methods.
+Q: A student wants to undermine a scientific assumption about magma chambers. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) By tracking earthquake waves, Pang found that magma reservoirs sit 3 to 9 miles below the Cascade Range volcanoes’ surface and need over 35% liquid magma to potentially erupt.
+B) Researchers detected magma chambers by tracking earthquake waves through partially melted rock, improving volcano monitoring and eruption prediction methods for dormant volcanoes.
+C) Magma chambers need over 35% liquid rock to potentially erupt, refuting the assumption that volcanoes dormant for thousands of years have melted rock below.
+D) Scientists found inactive Cascade Range volcanoes with large magma chambers below their surface, challenging the theory that magma chambers only exist right before eruptions.
+K: D
+#25
+P: While some people believe they can reduce monthly air-conditioning costs simply by closing air registers in vacant rooms, this practice can actually reduce the ______ climate-control systems by creating internal pressure imbalances that restrict airflow across critical components and force motors to work harder.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) efficiency of
+B) limitation on
+C) need for
+D) expense of
+K: A
+#26
+P: An ancient statue from the Huasteca region of Mexico represents a subject not seen before in artifacts from the area: a woman in an assertive stance wearing items used in a ceremonial ballgame. Archaeologist Maria Eugenia Maldonado notes that this image of a powerful athlete ______ the idea that women in pre-Columbian societies held only passive roles.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) challenges
+B) reveals
+C) forgets
+D) predicts
+K: A
+#27
+I: /qimg/26-05-rw-q30.png
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) contentious
+B) exorbitant
+C) warranted
+D) equivocal
+K: B
+=M2
+#1
+P: The very few people who have watched all of the movie Logistics have found it to be ______ experience. The movie’s extreme length (over 35 days) requires both mental and physical endurance.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) an ordinary
+B) a casual
+C) an exhausting
+D) a quick
+K: C
+#2
+P: The geographic distribution of animal characters in traditional stories typically
+P: ______ current distributions of corresponding species, likely because such stories often serve to transmit information cautioning about local wildlife. Folktales from the British Isles featuring bears are an apparent exception, persisting as culturally significant long after wild bears had gone extinct there.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) acquiesces to
+B) aligns with
+C) digresses from
+D) compensates for
+K: B
+#3
+P: Earth’s atmosphere performs several important functions. It traps heat from the Sun, so Earth stays warm enough to support life. It blocks harmful radiation and burns up most space rocks before they hit the ground. It also contains the oxygen, carbon dioxide, and nitrogen that plants and animals need to live. Without our atmosphere, Earth would be a lifeless place like the Moon.
+Q: Which choice best describes the overall structure of the text?
+A) It identifies threats to Earth’s atmosphere and suggests ways to protect it.
+B) It narrates step by step how Earth’s atmosphere has changed over time.
+C) It lists several key functions of Earth’s atmosphere and their benefits.
+D) It compares Earth’s atmosphere to the atmospheres found on other planets.
+K: C
+#4
+P: The following text is from Yung Wing’s 1909 memoir My Life in China and America. Yung Wing was the first person from China to graduate from a US university. Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on “An Imaginary Voyage to New York and up the Hudson,” that I <u>was to see New York in reality. This incident leads me to the reflection that</u> sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It describes an event in Yung’s life that exemplifies a phenomenon.
+B) It illustrates the sense of adventure that Yung developed as a child.
+C) It reinforces Yung’s skill as a creative writer.
+D) It indicates Yung’s unwillingness to distinguish between reality and fantasy as a child.
+K: A
+#5
+P: From the green turtle to the pygmy blue whale, a wide range of semiaquatic species have been found to share a common approach for saving energy when traveling long distances. To minimize both wave drag at the surface and the vertical distance to reach the surface to breathe, these air-breathing marine animals swim at depths around three times their body diameter. This finding has important implications for animal conservation efforts. For example, considering typical swim depths could help inform the use of vertically zoned protections in protected marine habitats.
+Q: Which choice best states the main purpose of the text?
+A) To identify a shared trait across several species that makes the conservation of those species particularly challenging
+B) To present a finding about the behavior of certain species that may help conservationists protect those species
+C) To describe a general trend in the swim depths of certain species that explains why those species are more efficient swimmers than are other semiaquatic species
+D) To summarize a theory that accounts for why most air-breathing marine animals swim at the same depth regardless of their size
+K: B
+#6
+I: /qimg/26-05-rw-q65.png
+Q: Based on the texts, what would the author of Text 2 most likely say in response to the underlined portion of Text 1?
+A) are better examples of the millennial whoop than the one found in
+B) “The millennial whoop is worth talking about, but other musical patterns are more interesting.”
+C) “It’s true that the millennial whoop could be annoying, but it could also be wonderful.”
+D) “The millennial whoop wasn’t used as often as some people think.”
+K: C
+#7
+P: The League of American Bicyclists reported in 2016 that in most large cities in the United States, a small percentage of commuters were regularly using a bike to get to their jobs. For example, only 0.8% of commuters in San Jose, California, and 0.6% of commuters in Phoenix, Arizona, were biking to work. But the populations of those cities are very large, so the number of commuters using bikes was still in the hundreds or thousands.
+Q: Which choice best states the main topic of the text?
+A) How bicycles are made
+B) The weather in San Jose, California
+C) Biking to work in large US cities
+D) Types of jobs available in the US
+K: C
+#8
+P: Stratus clouds form low in the atmosphere. These clouds often cover a large part of the sky in a smooth gray layer. Their name comes from the Latin word stratus, which means “spread out.” Stratus clouds form when a large mass of air cools and the water vapor in the cloud condenses into tiny water droplets. This is why these clouds often bring light rain. On overcast days when the sun can’t be seen, stratus clouds are likely overhead.
+Q: What is the main topic of the text?
+A) Characteristics of stratus clouds
+B) How weather forecasters predict rainfall
+C) The Latin origins of weather terms
+D) Different types of clouds in the atmosphere
+K: A
+#9
+P: Alvin Pang’s prose poem “Other Things” challenges the notion that prose poetry—a hybrid form that blends prose formatting with figures of speech and other traditional poetic devices—ought to be contained within a single page. Jane Monson is among the many poets and scholars who claim that prose poems shouldn’t exceed one page, while others argue for greater expansiveness, embracing multipage works. This divide is reflected in anthologies: a large majority of prose poems in such collections are under half a page, though The Penguin Book of the Prose Poem (2018) includes a high proportion of longer works.
+Q: Which choice best states the main idea of the text?
+A) The ideal length for prose poems remains a contested subject among scholars and practitioners of the form.
+B) As seen in a work by Pang and in the greatly differing approaches taken in anthologies, prose poems vary widely in length.
+C) The editorial choices of a 2018 anthology are a reflection of the widening acceptance of longer prose poetry.
+D) Some scholars and poets have criticized Pang’s poem “Other Things” for exceeding the generally accepted length for prose poems.
+K: A
+#10
+I: /qimg/26-05-rw-q69.png
+Q: According to the table, which dog tilted its head in 92% of trials when tested at 1 month after exposure to the toys?
+A) Gaia
+B) Benhur
+C) Athena
+D) Scotch
+K: A
+#11
+I: /qimg/26-05-rw-q70.png
+Q: Which choice most effectively uses data from the table to complete the assertion?
+A) Oregon.
+B) North Carolina.
+C) Illinois.
+D) Wyoming.
+K: B
+#12
+I: /qimg/26-05-rw-q71.png
+Q: Which choice most effectively uses data from the graph to complete the example?
+A) the floats recorded data from about 500 different locations worldwide.
+B) more than 500 floats were released into the oceans to record data about the weather.
+C) more than 600 research papers were published that cited Argo data.
+D) about 500 research papers were published that cited Argo data.
+K: D
+#13
+P: “The Lesson” is a 1913 poem by Paul Laurence Dunbar. In the poem, the speaker comes to realize that comforting another person helps to lessen the speaker’s own sadness: ______
+Q: Which quotation from “The Lesson” most effectively illustrates the claim?
+A) “Of my mind so weary and sick and wild, / Of my heart too sad to sing.”
+B) “In trying to soothe another’s woes / Mine own had passed away.”
+C) “And I thought of myself so sad and lone, / And my life’s cold winter that knew no spring.”
+D) “And heard well up from the deep dark wood / A mocking-bird’s passionate song.”
+K: B
+#14
+P: Rafael Nufiez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as kalip bishap, a past-oriented expression that translates to “past times,” and coded each speaker’s manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, Spanish speakers often refer to the left/right axis to describe events in time. Some researchers believe this tendency is universal, but Nufiez and colleagues claim this is not the case.
+Q: Which finding, if true, would most directly support Nufiez and colleagues’ claim?
+A) Some Yupno grammatical structures used when talking about time are also used in Spanish.
+B) Future-oriented gestures used by Yupno speakers do not, on average, point in the opposite linear direction of past-oriented gestures.
+C) Yupno speakers typically use their left hand to make temporal gestures regardless of whether the gestures are past oriented or future oriented.
+D) Yupno speakers were observed making temporal gestures both indoors and outdoors, though with greater frequency when indoors.
+K: B
+#15
+P: The 363-mile-long Erie Canal was completed in 1825. This waterway, the longest in the US at the time, made it much easier to transport passengers and goods between New York and the Great Lakes. For this reason, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) is it often called “the nation’s first superhighway.”
+B) is it often called “the nation’s first superhighway”?
+C) itis often called “the nation’s first superhighway.”
+D) it is often called “the nation’s first superhighway”?
+K: C
+#16
+P: What are some of the substances in seawater? Interestingly, ______ A majority of the elements on the periodic table, including gallium, can also be found in seawater.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) salt is not the only one.
+B) salt is not the only one?
+C) is salt not the only one.
+D) is salt not the only one!
+K: A
+#17
+P: Though they are in different countries, the towns of Sofifi, Indonesia, and Mevang, Gabon, do have something in common. They are among the rare ______ sit almost directly on the equator.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) places: that
+B) places. That
+C) places that
+D) places in that
+K: C
+#18
+P: Sometimes, when a coyote sniffs the ground, it will open its mouth, curl back its top lip, and expose its teeth. The coyote ______ this behavior, called the flehmen response, to transmit scents to powerful receptors just above the roof of the coyote’s mouth.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) using
+B) to use
+C) having used
+D) uses
+K: D
+#19
+P: In 2022 Kevin Del Aguila, who studies environmental DNA, joined a research team for a 38-day expedition to the remote yet populous region of Alto Mayo, Peru. It had long been assumed that regions with large human ______ were unlikely to yield discoveries of new species, but team members found 27 such species, including a new species of tropical climbing salamander.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) populations
+B) populations which
+C) populations,
+D) populations, which
+K: A
+#20
+P: The city of Hangzhou, China, expanded its rapid transit system, the Hangzhou Metro, as recently as 2020. ______ the system will likely need to undergo further expansions as the size and needs of the city’s population shift.
+Q: Which choice completes the text with the most logical transition?
+A) By contrast,
+B) Instead,
+C) For example,
+D) Nevertheless,
+K: D
+#21
+P: Visitors to Venice’s Ponte dei Pugni, which translates as “Bridge of Fists,” will notice white marble footprints embedded in the stone surface of this historic bridge. ______ organized fighting competitions took place throughout the seventeenth century, with the embedded footprints marking the exact spots where combatants stood before a contest.
+Q: Which choice completes the text with the most logical transition?
+A) Here,
+B) Meanwhile,
+C) For this reason,
+D) However,
+K: A
+#22
+P: Ancient Athens had a unique form of governing called direct democracy that allowed all citizens to gather, speak, and vote personally on government decisions.
+P: ______ citizens of modern countries usually elect representatives to make laws on their behalf because modern countries’ populations are too large for direct democracy to be practical.
+Q: Which choice completes the text with the most logical transition?
+A) By contrast,
+B) Additionally,
+C) Similarly,
+D) For instance,
+K: A
+#23
+P: While researching a topic, a student has taken the following notes:
+L: The Seul Choix Lighthouse is in Michigan, on the shore of Lake Michigan. It was built in 1892 and is still in use today. The North Manitou Island Lighthouse is in Michigan, on the shore of Lake Michigan. It was built in 1899 and deactivated in 1935.
+Q: The student wants to identify a lighthouse that is still in use today. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Seul Choix Lighthouse, built in 1892, is still in use today.
+B) Both the Seul Choix and North Manitou Island lighthouses were built on the shores of Lake Michigan.
+C) The North Manitou Island Lighthouse in Michigan was deactivated in 1935.
+D) The Seul Choix Lighthouse is in Michigan, while the North Manitou Island Lighthouse is still in use today.
+K: A
+#24
+P: The Botswana Federation of Trade Unions (BFTU) is a national union federation for the African nation of Botswana. It helps improve conditions for workers in that nation. ITUC-Africa is a regional union federation that represents national union federations across Africa. It represents the BFTU.
+Q: Which choice most effectively uses information from the given sentences to emphasize the role of the BFTU?
+A) As an African country, Botswana has national union federations that are represented by ITUC-Africa.
+B) ITUC-Africa is a regional union federation.
+C) ITUC-Africa represents many national union federations, including the BFTU.
+D) The BFTU helps its members across Botswana improve their working conditions.
+K: D
+#25
+P: Truly sustainable agricultural systems must balance ecological, financial, and human considerations. Despite many consumers’ exclusive focus on environmental impacts, sustainable agriculture also ______ the economic viability of farm operations and the social well-being of agricultural communities.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) categorizes
+B) isolates
+C) supersedes
+D) encompasses
+K: D
+#26
+I: /qimg/26-05-rw-q86.png
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It describes the warm patch.
+B) It establishes that Nariman feels optimistic.
+C) It states what time it is.
+D) It explains why Nariman enjoys studying his surroundings.
+K: A
+#27
+P: Although superhero teams of the 1960s, like the Fantastic Four, included women, female characters often possessed powers that seemed less threatening than those of their male counterparts. While the Thing had super strength and invulnerability, the Invisible Girl’s ability was to turn invisible. These superheroines were marginalized in action-oriented plots, serving instead as objects of romance or rescue. Yet depictions of immensely powerful heroines haven’t necessarily been more empowering: consider the Scarlet Witch, who lost control of her realityaltering abilities and robbed countless fellow mutants of their unique abilities.
+Q: Which choice best states the main purpose of the text?
+A) To show how avoidance of a particular type of characterization has resulted in a set of contradictory assumptions about female superheroes
+B) To illustrate tendencies in how female superheroes have been depicted
+C) To describe two ways in which comic book narratives centered on women have demonstrated that great power must be handled with great care
+D) To explain how representations of female superheroes changed during a certain period
+K: B
