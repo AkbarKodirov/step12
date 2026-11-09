@@ -1,0 +1,289 @@
+!id: dsat26-11-v2-math
+!name: November 2026 · Version 2 · Math
+!type: MATH
+!year: 2026
+!month: 11
+!region: International
+!form: 2
+=M1
+#1
+Q: The lengths of two sides of a triangle are 6 centimeters and 8 centimeters. If the perimeter of the triangle is 18 centimeters, what is the length, in centimeters, of the third side of this triangle?
+A) 2
+B) 4
+C) 14
+D) 48
+K: B
+#2
+Q: x = 6
+Q: y = x^2 + 2
+Q: The graphs of the given equations in the xy-plane intersect at the point (x, y). What is the value of y?
+A) −4
+B) 4
+C) 12
+D) 38
+K: D
+#3
+Q: x + 7 = 8
+Q: 2(x + 6) + y = 70
+Q: The solution to the given system of equations is (x, y). What is the value of y?
+K: 56
+#4
+Q: In a right triangle, the measure of one of the acute angles is 36°. What is the measure, in degrees, of the other acute angle?
+A) 36
+B) 54
+C) 72
+D) 144
+K: B
+#5
+Q: The function f defined by f(t) = 11t + 9 gives the estimated length, in inches, of a pothos plant t months after Shruti purchased it. Which of the following is the best interpretation of 9 in this context?
+A) The estimated length of the pothos plant was 9 inches when Shruti purchased it.
+B) The pothos plant is expected to grow to a maximum length of 9 inches.
+C) The pothos plant is expected to grow 9 inches each month.
+D) Shruti will keep the pothos plant for 9 months.
+K: A
+#6
+Q: y = 35^x
+Q: Which table gives three values of x and their corresponding values of y for the given exponential equation?
+A) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>35</td></tr><tr><td>2</td><td>70</td></tr></table>
+B) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>35</td></tr><tr><td>1</td><td>35</td></tr><tr><td>2</td><td>70</td></tr></table>
+C) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>35</td></tr><tr><td>2</td><td>42,875</td></tr></table>
+D) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>35</td></tr><tr><td>2</td><td>1,225</td></tr></table>
+K: D
+#7
+Q: The function f is defined by f(x) = x^3 − 6x^2. What is the value of f(−2)?
+A) −32
+B) −16
+C) −8
+D) 2
+K: A
+#8
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">f(x)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">2,000</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">2</td><td style="border:1px solid #000;padding:4px 10px">1,400</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">3</td><td style="border:1px solid #000;padding:4px 10px">980</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">686</td></tr></table>
+Q: For the function f, the table shows four values of x and their corresponding values of f(x). Which of the following could describe this function?
+A) Decreasing exponential
+B) Increasing exponential
+C) Decreasing linear
+D) Increasing linear
+K: A
+#9
+Q: If ((x − 8))/(2) = 9, what is the value of x − 8?
+K: 18
+#10
+Q: 6, 10, 19, 6, 6, 8, 9, 8
+Q: What is the median of the data set shown?
+K: 8
+#11
+Q: −19x^2 − 18x + 1 = 0
+Q: What is the negative solution to the given equation?
+K: −1 | -1
+#12
+I: /qimg/26-nov-v2-math-m1-q12.svg
+Q: Mohammed drove his car on a straight road to a certain location. The graph models Mohammed’s distance, in miles, from his home as a function of time, in hours. Which of the following could the model describe?
+A) Mohammed drove away from his home at a constant speed for 1 hour, spent 4 hours at the location, then continued to drive away from his home at a constant speed for 1 hour.
+B) Mohammed drove away from his home at a constant speed for 1 hour, spent 4 hours at the location, then drove back to his home at a constant speed for 1 hour.
+C) Mohammed drove away from his home at an increasing speed for 1 hour, spent 4 hours at the location, then drove back to his home at a decreasing speed for 1 hour.
+D) Mohammed drove away from his home at an increasing speed for 1 hour, drove at a constant speed for 4 hours, then drove back to his home at a decreasing speed for 1 hour.
+K: B
+#13
+Q: The cost to rent a bus from Company X is $950 for the first 3 hours and an additional $50 per hour for each hour after the first 3 hours. If the total cost to rent the bus from Company X for t hours, where t > 3, is $1,200, which equation represents this situation?
+A) 950(t − 3) + 50t = 1,200
+B) 950(3t) + 50t = 1,200
+C) 950 + 50(t − 3) = 1,200
+D) 950 + 50(3t) = 1,200
+K: C
+#14
+Q: For the linear function f, f(1) = 633 and f(2) = 626. Which of the following defines f?
+A) f(x) = −7x + 640
+B) f(x) = 7x + 626
+C) f(x) = −(1)/(7)x + (4,432)/(7)
+D) f(x) = (1)/(7)x + (4,430)/(7)
+K: A
+#15
+Q: A sample of ferrous sulfate has a mass of 9.65 grams and a volume of 10.0 cubic centimeters. What is the density of this sample, in grams per cubic centimeter?
+A) 96.5
+B) 19.65
+C) 10.65
+D) 0.965
+K: D
+#16
+Q: If x > 0 and (5x + 4)^2 − 14(5x + 4) + 49 = 0, what is the value of x?
+K: 0.6 | 3/5 | .6
+#17
+Q: 9x + y = 16
+Q: 36x + 4y = 64
+Q: How many solutions does the given system of equations have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#18
+Q: For a polynomial function f, the graph of y = f(x) in the xy-plane contains the points (−5, 0), (8, 0), (0, 0), and (4, 0). Which of the following must be a factor of f(x)?
+A) x^2 − x − 20
+B) x^2 − 3x + 40
+C) x^2 − 12x − 32
+D) x^2 − 8x
+K: D
+#19
+Q: A right square pyramid has a height of 12 inches and a volume of 196 cubic inches. What is the perimeter, in inches, of the base of this pyramid?
+K: 28
+#20
+Q: The wood bison is the largest land animal in North America. An exponential model estimates that the population of wood bison in a certain area doubled from the end of 1994 to the end of 1998. The model also estimates that the population of wood bison in this area at the end of 1997 was approximately 264. Which equation best represents this model, where P is the estimated population of wood bison in this area t years after the end of 1994 and 0 ≤ t ≤ 4?
+A) P = 157(2)^(t/4)
+B) P = 157(2)^(4t)
+C) P = 264(2)^(t/4)
+D) P = 264(2)^(4t)
+K: A
+#21
+Q: Which of the following equations, where a is a constant less than 0, represents a circle in the xy-plane that intersects the line x = 8 at exactly one point?
+A) (x − a)^2 + (y − 8)^2 = 25
+B) (x − 8)^2 + (y − a)^2 = 25
+C) (x − 3)^2 + (y − 12a)^2 = 25
+D) (x − 12a)^2 + (y − 3)^2 = 25
+K: C
+#22
+Q: 693 is 1,350% of the sum of the positive numbers b and c, and b is 54% of c. What is the value of b?
+K: 18
+=M2
+#1
+Q: Rebecca is collecting 50-milliliter samples of river water and 10-milliliter samples of lake water. She needs to collect a total of at least 910 milliliters of river water and lake water, where the number of samples of lake water is twice the number of samples of river water. Which inequality represents this situation, where x is the number of samples of river water that Rebecca needs to collect?
+A) 50(2x) + 10x ≤ 910
+B) 50(2x) + 10x ≥ 910
+C) 50x + 10(2x) ≤ 910
+D) 50x + 10(2x) ≥ 910
+K: D
+#2
+Q: If f(x) = x + 3 and g(x) = 3x, what is the value of 5f(2) − g(2)?
+A) −1
+B) 7
+C) 15
+D) 19
+K: D
+#3
+Q: x + 4y > 3
+Q: Which shaded region represents the solutions to the given inequality?
+A) <img src="/qimg/26-nov-v2-math-m2-q3a.svg" alt="graph A">
+B) <img src="/qimg/26-nov-v2-math-m2-q3b.svg" alt="graph B">
+C) <img src="/qimg/26-nov-v2-math-m2-q3c.svg" alt="graph C">
+D) <img src="/qimg/26-nov-v2-math-m2-q3d.svg" alt="graph D">
+K: A
+#4
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Amount of salt (grams)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Amount of water (liters)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">252</td><td style="border:1px solid #000;padding:4px 10px">7</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">288</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">324</td><td style="border:1px solid #000;padding:4px 10px">9</td></tr></table>
+Q: There is a linear relationship between the amount of salt x, in grams, and the amount of water y, in liters, in a certain body of seawater. The table shows this relationship for three samples of this seawater. Which equation represents this relationship?
+A) y = (1)/(72)x
+B) y = (1)/(36)x
+C) y = 36x
+D) y = 72x
+K: B
+#5
+Q: (2x − 4)(x − 9)(x − 6) = 0
+Q: What is the sum of the solutions to the given equation?
+A) −19
+B) −17
+C) 17
+D) 19
+K: C
+#6
+Q: Function f is defined as f(x) = (3x − 5)^2, and function g is defined as g(x) = 3(3x + 8). Which of the following is equivalent to f(x) + g(x)?
+A) 9x^2 − 21x + 1
+B) 9x^2 − 21x + 49
+C) 9x^2 + 39x + 1
+D) 27x^2 − 6x + 49
+K: B
+#7
+Q: What value of t is the solution to the equation 0.7t − 0.41 = 7(t − 0.001) + 1.3?
+K: -0.27 | -.27 | -0.270 | -.270 | -.2703 | -1703/6300
+#8
+Q: In the xy-plane, line ℓ passes through the point (0, 0) and is parallel to the line represented by the equation y = 6x + 3. If line ℓ also passes through the point (5, d), what is the value of d?
+K: 30
+#9
+Q: If √(x − 2) = 3, what is the value of (x − 2)?
+A) 3
+B) 7
+C) 9
+D) 18
+K: C
+#10
+Q: The measure of an angle, in radians, is (75)(2)π. What is the measure of the angle, in <u>degrees</u>?
+A) (180)(75)(360)
+B) (75)(2)(360)
+C) (75)(360)
+D) ((75)/(2))(360)
+K: C
+#11
+Q: The exponential function f is defined by f(x) = ab^x, where a and b are positive constants. If f(n) = p and the value of f(n + 1) is 20% less than the value of p, where n and p are constants, what is the value of b?
+A) 0.20
+B) 0.80
+C) 1.20
+D) 1.80
+K: B
+#12
+Q: g(x) = (a − 16)/(x^2) + 7
+Q: In the given function g, a is a constant. The graph of function g in the xy-plane, where y = g(x), is translated 5 units up and 6 units to the left to produce the graph of y = h(x). Which equation defines function h?
+A) h(x) = (a − 16)/(x^2 + 6) + 12
+B) h(x) = (a − 16)/(x^2 − 6) + 12
+C) h(x) = (a − 16)/((x + 6)^2) + 12
+D) h(x) = (a − 16)/((x − 6)^2) + 12
+K: C
+#13
+Q: In triangle PQR, PQ = 110 and QR = 112. Which of the following could NOT be the length of PR?
+A) 2
+B) 3
+C) 110
+D) 111
+K: A
+#14
+Q: Trapezoid ABCD is similar to trapezoid PQRS. The length of each side of trapezoid PQRS is 5 times the length of its corresponding side of trapezoid ABCD. The area of trapezoid ABCD is 54 square centimeters. What is the area, in square centimeters, of trapezoid PQRS?
+K: 1350
+#15
+Q: 3x + 9y = 10
+Q: rx + 18y = 20
+Q: In the given system of equations, r is a constant. The system has infinitely many solutions. What is the value of r?
+A) 2
+B) 3
+C) 6
+D) 9
+K: C
+#16
+Q: Line j in the xy-plane passes through the points (0, (9)/(49)) and ((98)/(k), −(6)/(k) + (9)/(49)), where k is a constant. What is the x-coordinate of the x-intercept of line j?
+A) (3k)/(98)
+B) 6k
+C) (9)/(49)
+D) 3
+K: D
+#17
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd"></th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Less than 20 meters per second</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">20 to 30 meters per second</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Greater than 30 meters per second</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Total</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Direction A</td><td style="border:1px solid #000;padding:4px 10px">6</td><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">5</td><td style="border:1px solid #000;padding:4px 10px">15</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Direction B</td><td style="border:1px solid #000;padding:4px 10px">11</td><td style="border:1px solid #000;padding:4px 10px">8</td><td style="border:1px solid #000;padding:4px 10px">13</td><td style="border:1px solid #000;padding:4px 10px">32</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Direction C</td><td style="border:1px solid #000;padding:4px 10px">9</td><td style="border:1px solid #000;padding:4px 10px">2</td><td style="border:1px solid #000;padding:4px 10px">7</td><td style="border:1px solid #000;padding:4px 10px">18</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Total</td><td style="border:1px solid #000;padding:4px 10px">26</td><td style="border:1px solid #000;padding:4px 10px">14</td><td style="border:1px solid #000;padding:4px 10px">25</td><td style="border:1px solid #000;padding:4px 10px">65</td></tr></table>
+Q: The table summarizes the distribution by direction and by speed of 65 objects moving in three different directions.
+Q: One of these objects will be selected at random. What is the probability of selecting an object moving in direction B, given that the object has a speed of at most 30 meters per second?
+A) (13)/(65)
+B) (13)/(25)
+C) (19)/(65)
+D) (19)/(40)
+K: D
+#18
+Q: The cost of renting a piece of construction equipment for up to 10 days is $450 for the first day and $225 for each additional day. Which of the following equations gives the cost y, in dollars, of renting the equipment for x days, where x is a positive integer and x ≤ 10?
+A) y = 450x + 225
+B) y = 225x + 225
+C) y = 450x − 225
+D) y = 225x + 450
+K: B
+#19
+Q: (49)/(p) = (49)/(q) − (49)/(r) − (49)/(s)
+Q: The given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?
+A) p + r + s
+B) 49(p + r + s)
+C) (prs)/(pr + ps + rs)
+D) (prs)/(49p + 49r + 49s)
+K: C
+#20
+Q: The expression √(446 + 42√(5)) is equivalent to the expression r + p^(1/2), where r and p are positive integers. What is the value of r + p?
+K: 26
+#21
+Q: In 2022, the population of American spadefoot toads in a monitored area was estimated to be 20% more than in 2021, and in 2023, the population was estimated to be 18% more than in 2022. If the population of American spadefoot toads in this area was estimated to be t times as much in 2021 as in 2023, which of the following is closest to the value of t?
+A) 0.706
+B) 0.725
+C) 1.380
+D) 1.416
+K: A
+#22
+Q: In right triangle XYZ, angles X and Z are acute angles. Point R lies on XZ such that YR is perpendicular to XZ. The measure of ∠XZY is a°, the measure of ∠XYR is b°, and the length of XY is 13. If sin a° = (12)/(13), what is the value of tan b°?
+K: 12/5 | 2.4

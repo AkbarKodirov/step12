@@ -1,0 +1,299 @@
+!id: dsat26-11-v1-math
+!name: November 2026 · Version 1 · Math
+!type: MATH
+!year: 2026
+!month: 11
+!region: International
+!form: 1
+=M1
+#1
+Q: The perimeter of an isosceles triangle is 73 inches. Each of the two congruent sides of the triangle has a length of 24 inches. What is the length, in inches, of the third side?
+K: 25
+#2
+Q: x = 7
+Q: y = x^2 + 5
+Q: The graphs of the given equations in the xy-plane intersect at the point (x, y). What is the value of y?
+A) −2
+B) 14
+C) 25
+D) 54
+K: D
+#3
+Q: In a right triangle, the measure of one of the acute angles is 31°. What is the measure, in degrees, of the other acute angle?
+A) 31
+B) 59
+C) 62
+D) 149
+K: B
+#4
+Q: If 16x = 13x + 15, what is the value of 5x?
+K: 25
+#5
+Q: The function f defined by f(t) = 11t + 6 gives the estimated length, in inches, of a pothos plant t months after Malcolm purchased it. Which of the following is the best interpretation of 6 in this context?
+A) The estimated length of the pothos plant was 6 inches when Malcolm purchased it.
+B) The pothos plant is expected to grow to a maximum length of 6 inches.
+C) The pothos plant is expected to grow 6 inches each month.
+D) Malcolm will keep the pothos plant for 6 months.
+K: A
+#6
+Q: y = 22^x
+Q: Which table gives three values of x and their corresponding values of y for the given exponential equation?
+A) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>22</td></tr><tr><td>2</td><td>10,648</td></tr></table>
+B) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>22</td></tr><tr><td>1</td><td>22</td></tr><tr><td>2</td><td>44</td></tr></table>
+C) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>22</td></tr><tr><td>2</td><td>484</td></tr></table>
+D) <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>22</td></tr><tr><td>2</td><td>44</td></tr></table>
+K: C
+#7
+I: /qimg/26-nov-v1-math-m1-q7.svg
+Q: The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.
+Q: Which of the following is closest to the slope of the line of best fit shown?
+A) −2.4
+B) −0.8
+C) 0.8
+D) 2.4
+K: B
+#8
+Q: The graph of the exponential function f in the xy-plane, where y = f(x), has a y-intercept of (0, 25). Which of the following must be true?
+A) f(0) = 0
+B) f(25) = 0
+C) f(25) = 25
+D) f(0) = 25
+K: D
+#9
+I: /qimg/26-nov-v1-math-m1-q9.svg
+Q: The shaded region shown represents the solutions to which inequality?
+A) 2y > 16x + 22
+B) 2y > −16x + 22
+C) 2y < 16x + 22
+D) 2y < −16x + 22
+K: C
+#10
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">f(x)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">2,000</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">2</td><td style="border:1px solid #000;padding:4px 10px">400</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">3</td><td style="border:1px solid #000;padding:4px 10px">80</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">4</td><td style="border:1px solid #000;padding:4px 10px">16</td></tr></table>
+Q: For the function f, the table shows four values of x and their corresponding values of f(x). Which of the following could describe this function?
+A) Decreasing exponential
+B) Increasing exponential
+C) Decreasing linear
+D) Increasing linear
+K: A
+#11
+Q: A company that produces only one type of item wants to estimate the percent of the items produced in a typical week that are defective. A random sample of 360 of the items produced in a certain week were tested. Based on the sample, it is estimated that 8.5% of all items produced by the company in this week are defective, with an associated margin of error of 2.88%. Based on the estimate and associated margin of error, which of the following is the most appropriate conclusion about all items produced by the company during this week?
+A) 2.88% of the items are defective.
+B) It is plausible that between 5.62% and 11.38% of the items are defective.
+C) 8.5% of the items are defective.
+D) It is plausible that more than 11.38% of the items are defective.
+K: B
+#12
+Q: If f(x) = x + 4 and g(x) = 4x, what is the value of 5f(2) − g(2)?
+A) −2
+B) 6
+C) 20
+D) 22
+K: D
+#13
+Q: (1)/(4)x − 24 = 6y
+Q: (3)/(4)x − 13 = −6y
+Q: The solution to the given system of equations is (x, y). What is the value of x?
+K: 37
+#14
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Amount of salt (grams)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Amount of water (liters)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">259</td><td style="border:1px solid #000;padding:4px 10px">7</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">296</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">333</td><td style="border:1px solid #000;padding:4px 10px">9</td></tr></table>
+Q: There is a linear relationship between the amount of salt x, in grams, and the amount of water y, in liters, in a certain body of seawater. The table shows this relationship for three samples of this seawater. Which equation represents this relationship?
+A) y = (1)/(74)x
+B) y = (1)/(37)x
+C) y = 37x
+D) y = 74x
+K: B
+#15
+Q: (2x − 4)(x − 3)(x − 7) = 0
+Q: What is the sum of the solutions to the given equation?
+A) −14
+B) −12
+C) 12
+D) 14
+K: C
+#16
+Q: Circle A: x^2 + (y − 2)^2 = 7
+Q: Circle B: (x − 2)^2 + y^2 = 7
+Q: In the xy-plane, which translation of the graph of circle A would result in the graph of circle B?
+A) 2 units left
+B) 2 units right
+C) 2 units left and 2 units up
+D) 2 units right and 2 units down
+K: D
+#17
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">y</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">16</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">20</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">2</td><td style="border:1px solid #000;padding:4px 10px">24</td></tr></table>
+Q: The table shows values of x and their corresponding values of y for three points on line j in the xy-plane. Line k also lies in the xy-plane and is defined by the equation y = 8x. At what point (x, y) do lines j and k intersect?
+A) (4, 32)
+B) (4, 68)
+C) (5, 40)
+D) (5, 36)
+K: A
+#18
+Q: A right rectangular prism has a square base with an area of 484 square centimeters. The volume of this prism is 3,388 cubic centimeters. What is the area, in square centimeters, of one of the four lateral faces of this prism?
+A) 616
+B) 605
+C) 154
+D) 7
+K: C
+#19
+Q: The wood bison is the largest land animal in North America. An exponential model estimates that the population of wood bison in a certain area doubled from the end of 1994 to the end of 1998. The model also estimates that the population of wood bison in this area at the end of 1995 was approximately 175. Which equation best represents this model, where P is the estimated population of wood bison in this area t years after the end of 1994 and 0 ≤ t ≤ 4?
+A) P = 147(2)^(t/4)
+B) P = 147(2)^(4t)
+C) P = 175(2)^(t/4)
+D) P = 175(2)^(4t)
+K: A
+#20
+Q: x^2 − 14x = p
+Q: In the given equation, p is an integer constant. A solution to the equation is 7 + √(86). What is the value of p?
+K: 37
+#21
+Q: (x + 2)^2 + 4(x + 2) + 4 = 0
+Q: How many distinct real solutions does the given equation have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: A
+#22
+Q: 474 is 1,450% of the sum of the positive numbers b and c, and b is 58% of c. What is the value of b?
+K: 12
+=M2
+#1
+Q: Rebecca is collecting 60-milliliter samples of river water and 10-milliliter samples of lake water. She needs to collect a total of at least 960 milliliters of river water and lake water, where the number of samples of lake water is twice the number of samples of river water. Which inequality represents this situation, where x is the number of samples of river water that Rebecca needs to collect?
+A) 60(2x) + 10x ≤ 960
+B) 60(2x) + 10x ≥ 960
+C) 60x + 10(2x) ≤ 960
+D) 60x + 10(2x) ≥ 960
+K: D
+#2
+Q: y = 7,300(0.86)^x
+Q: The given equation estimates the value, in dollars, of a certain car x years after it was purchased. According to the given equation, what was the estimated value, in dollars, of the car at the time it was purchased?
+A) 730
+B) 6,278
+C) 7,300
+D) 8,600
+K: C
+#3
+Q: A sample of ferrous sulfate has a mass of 9.05 grams and a volume of 10.0 cubic centimeters. What is the density of this sample, in grams per cubic centimeter?
+A) 90.5
+B) 19.05
+C) 10.05
+D) 0.905
+K: D
+#4
+Q: Function f is defined as f(x) = (3x − 5)^2, and function g is defined as g(x) = 3(3x + 6). Which of the following is equivalent to f(x) + g(x)?
+A) 9x^2 − 21x + 7
+B) 9x^2 − 21x + 43
+C) 9x^2 + 39x + 7
+D) 27x^2 − 6x + 43
+K: B
+#5
+Q: If x > 0 and (4x + 7)^2 − 16(4x + 7) + 64 = 0, what is the value of x?
+K: 1/4 | 0.25 | .25
+#6
+Q: A circle in the xy-plane has its center at (7, 1) and has a radius with a length of 9. Which of the following is an equation of this circle?
+A) (x + 7)^2 + (y + 1)^2 = 81
+B) (x + 7)^2 + (y + 1)^2 = 9
+C) (x − 7)^2 + (y − 1)^2 = 81
+D) (x − 7)^2 + (y − 1)^2 = 9
+K: C
+#7
+I: /qimg/26-nov-v1-math-m2-q7.svg
+Q: In the figure shown, line r is parallel to line s. What is the value of x?
+K: 44
+#8
+Q: 6x + y = 19
+Q: 42x + 7y = 133
+Q: How many solutions does the given system of equations have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#9
+Q: If (9)/(5)(x − 4) − 27 = (6)/(5)(x − 4) + 21, what is the value of x − 4?
+K: 80
+#10
+I: /qimg/26-nov-v1-math-m2-q10.svg
+Q: A certain open star cluster contains M-type stars and K-type stars. The estimated total mass of M-type and K-type stars in this open star cluster is 111,143 quettagrams. The graph shown models the possible combinations of the number of M-type stars, x, and K-type stars, y, that could be in this open star cluster if all the M-type stars have the same estimated mass and all the K-type stars have the same estimated mass. Based on the graph, which of the following is closest to the estimated mass, in quettagrams, of each M-type star in this cluster?
+A) 65,144
+B) 45,999
+C) 958
+D) 807
+K: D
+#11
+Q: g(x) = (a − 19)/(x^2) + 3
+Q: In the given function g, a is a constant. The graph of function g in the xy-plane, where y = g(x), is translated 4 units up and 2 units to the left to produce the graph of y = h(x). Which equation defines function h?
+A) h(x) = (a − 19)/(x^2 + 2) + 7
+B) h(x) = (a − 19)/(x^2 − 2) + 7
+C) h(x) = (a − 19)/((x + 2)^2) + 7
+D) h(x) = (a − 19)/((x − 2)^2) + 7
+K: C
+#12
+Q: In the xy-plane, line k and line ℓ are perpendicular and intersect at the point (2, 5). If line k is defined by the equation y = mx + b, where m and b are constants and m > 1, which of the following points lies on line ℓ?
+A) (3, 5 − (1)/(m))
+B) (3, 5 + (1)/(m))
+C) (3, 5 − m)
+D) (3, 5 + m)
+K: A
+#13
+Q: In triangle PQR, PQ = 124 and QR = 126. Which of the following could NOT be the length of PR?
+A) 2
+B) 3
+C) 124
+D) 125
+K: A
+#14
+Q: Rectangles S and R are similar. The ratio of each side length of rectangle S to the corresponding side length of rectangle R is 23 to 47. The ratio of the area of rectangle S to the area of rectangle R is 529 to r. What is the value of r?
+K: 2209
+#15
+Q: Line j in the xy-plane passes through the points (0, (9)/(38)) and ((76)/(k), −(6)/(k) + (9)/(38)), where k is a constant. What is the x-coordinate of the x-intercept of line j?
+A) (3k)/(76)
+B) 6k
+C) (9)/(38)
+D) 3
+K: D
+#16
+Q: What is the y-intercept of the graph of y = ((8)/(13))^(x + 1) in the xy-plane?
+A) (8, 13)
+B) (0, 13)
+C) (0, 8)
+D) (0, (8)/(13))
+K: D
+#17
+I: /qimg/26-nov-v1-math-m2-q17.svg
+Q: The histogram summarizes a data set of the weights, in pounds, of 14 salmon. If an additional weight of 35 pounds is added to the original data set to create a new data set of 15 weights, which of the following measures must be less for the new data set than for the original data set?
+Q: I. The median
+Q: II. The mean
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: B
+#18
+Q: The cost of renting a piece of construction equipment for up to 10 days is $390 for the first day and $195 for each additional day. Which of the following equations gives the cost y, in dollars, of renting the equipment for x days, where x is a positive integer and x ≤ 10?
+A) y = 390x + 195
+B) y = 195x + 195
+C) y = 390x − 195
+D) y = 195x + 390
+K: B
+#19
+Q: (42)/(p) = (42)/(q) − (42)/(r) − (42)/(s)
+Q: The given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?
+A) (prs)/(pr + ps + rs)
+B) (prs)/(42p + 42r + 42s)
+C) p + r + s
+D) 42(p + r + s)
+K: A
+#20
+Q: The expression √(486 + 44√(2)) is equivalent to the expression r + p^(1/2), where r and p are positive integers. What is the value of r + p?
+K: 24
+#21
+Q: In 2022, the population of American spadefoot toads in a monitored area was estimated to be 20% more than in 2021, and in 2023, the population was estimated to be 17% more than in 2022. If the population of American spadefoot toads in this area was estimated to be t times as much in 2021 as in 2023, which of the following is closest to the value of t?
+A) 0.712
+B) 0.730
+C) 1.370
+D) 1.404
+K: A
+#22
+Q: In right triangle XYZ, angles X and Z are acute angles. Point R lies on XZ such that YR is perpendicular to XZ. The measure of ∠XZY is a°, the measure of ∠XYR is b°, and the length of XY is 16. If sin a° = (12)/(13), what is the value of tan b°?
+K: 12/5 | 2.4

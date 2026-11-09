@@ -1,0 +1,489 @@
+!id: dsat26-11-v1-rw
+!name: November 2026 · Version 1 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 11
+!region: International
+!form: 1
+=M1
+#1
+P: The following text is adapted from the 1895 poem “The Song My Paddle Sings” by Emily Pauline Johnson (Tekahionwake).
+P: West wind blow from your prairie nest,<br>Blow from the mountains, blow from the west.<br>The sail is <u>idle</u>, the sailor too;<br>O! wind of the west, we wait for you.
+Q: As used in the text, what does the word “idle” most nearly mean?
+A) Untrustworthy
+B) Inactive
+C) Unsupported
+D) Nonsensical
+K: B
+#2
+P: When researchers used a robot shaped like Caudipteryx—a flightless, omnivorous dinosaur with minuscule wings—to imitate flush-pursue foraging (a hunting strategy in which a predator flashes its wings), most nearby grasshoppers emerged from hiding. The researchers therefore hypothesized that very small wings without obvious utility may have ______ some early dinosaurs’ ability to capture prey.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) deferred
+B) revitalized
+C) enhanced
+D) encompassed
+K: C
+#3
+P: Technical documentation for installing complex heating and cooling systems is sometimes frustratingly ______ , offering such complicated and excessively detailed guidance that even seasoned professionals can make little sense of it. That such systems get successfully set up is a testament to the installers’ expertise.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) vague
+B) condensed
+C) simplistic
+D) convoluted
+K: D
+#4
+P: It has plausibly been suggested that the widespread replacement of plants utilizing C3 carbon fixation by plants utilizing C4 carbon fixation 2.6 million years ago was due to increasing global aridity. It is also ______ , however, that the shift occurred because C4 carbon fixation was better suited to the decline in atmospheric carbon dioxide levels that occurred at the time.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) dubious
+B) advantageous
+C) incontrovertible
+D) credible
+K: D
+#5
+P: Published in 1973, The Sign of the Chrysanthemum was Katherine Paterson's debut novel. <u>A debut novel is the first book that an author publishes.</u> Authors who are successful with their debut novel will often publish more novels. For example, Paterson published additional novels, including the 1977 novel Bridge to Terabithia.
+Q: Which choice best describes the function of the underlined sentence?
+A) It suggests that Paterson should write more novels.
+B) It describes how authors write novels.
+C) It gives the title of Paterson's debut novel.
+D) It explains what a debut novel is.
+K: D
+#6
+P: Archaeologist Yijie Zhuang and colleagues uncovered a network of ceramic pipes and drainage ditches in China that date back to the Longshan period (about 4,000 years ago). The system's complexity would have required a highly advanced level of community-wide planning, but there is no evidence of a centralized authority that could have overseen such planning. The intricacy of the network refutes the common view that only a centralized governing power would be able to gather the resources to build such a complex water-management system.
+Q: Which choice best describes the overall structure of the text?
+A) It describes a discovery made by Zhuang and colleagues, notes important contextual information about that discovery, and then explains a potential implication of that discovery and contextual information.
+B) It introduces an unusual aspect of an ancient water system in China, offers a hypothesis about how that aspect came to be, and then signals future research that might bolster that hypothesis.
+C) It summarizes a conclusion reached by Zhuang and colleagues, acknowledges a counterargument to that conclusion, and then refutes that counterargument with additional evidence.
+D) It highlights an ancient water-management system discovered in China, points out a significant feature of that system, and then provides additional information clarifying the function of that feature.
+K: A
+#7
+P: Information from the Great Sunflower Project helps scientists address pollinator population-size declines caused by habitat loss. Participants monitor which pollinators visit specific plants and the frequency of those visits. Scientists then use this information to determine which plant species best support pollinators and identify where those plant species have declined. Without bees, butterflies, and other pollinators performing their vital role in plant reproduction and food production, ecosystems would suffer—making the conservation efforts informed by this citizen science project all the more important!
+Q: According to the text, why is the information collected by the Great Sunflower Project valuable?
+A) It helps scientists determine which flowers produce the most honey when visited by bees.
+B) It helps project participants demonstrate that butterfly population sizes are growing faster than bee population sizes.
+C) It helps gardeners learn how to grow larger sunflowers through better pollination.
+D) It helps scientists develop strategies for addressing pollinator habitat loss.
+K: D
+#8
+T: <table style="border-collapse:collapse"><caption>Minimum and Maximum Depths of Stony Coral Species in Caribbean and Indo-Pacific Waters</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Species</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Minimum depth (meters)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Maximum depth (meters)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Astreopora gracilis</td><td style="border:1px solid #000;padding:4px 10px">5</td><td style="border:1px solid #000;padding:4px 10px">15</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Acropora lokani</td><td style="border:1px solid #000;padding:4px 10px">8</td><td style="border:1px solid #000;padding:4px 10px">25</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Heliofungia fralinae</td><td style="border:1px solid #000;padding:4px 10px">3</td><td style="border:1px solid #000;padding:4px 10px">27</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Agaricia grahamae</td><td style="border:1px solid #000;padding:4px 10px">20</td><td style="border:1px solid #000;padding:4px 10px">115</td></tr></table>
+P: Some scientists have suggested that as ocean temperatures rise, many fish and corals found in the shallow zone (less than 30 meters below the surface) could take refuge in the cooler, darker mesophotic zone (30 to 150 meters below the surface). However, it isn't clear that all such species will be able to tolerate mesophotic conditions. In 2018, Luiz Rocha and colleagues studied stony corals in the two zones in Caribbean and Indo-Pacific waters. Based on the depths at which those corals are now found, the species that seems best suited to a full migration to the mesophotic zone is ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) Acropora lokani, because its maximum depth is closest to the point where the shallow zone and mesophotic zone meet.
+B) Agaricia grahamae, because it's already found in the shallow zone and relatively deep in the mesophotic zone.
+C) Astreopora gracilis, because its minimum depth isn't the shallowest of those listed.
+D) Heliofungia fralinae, because it's found at a wide range of depths in the shallow zone.
+K: B
+#9
+P: “The Monster” is an 1898 story by Stephen Crane. In the story, whenever Jimmie, a young boy, has been scolded by his father for misbehavior, he seeks comfort from Henry Johnson, the man responsible for the care of Jimmie's father’s horses. However, Henry does not always provide such comfort; Crane suggests this by writing, ______
+Q: Which quotation from “The Monster” most effectively illustrates the claim?
+A) “Henry would sometimes choose to absolutely repudiate [Jimmie’s behavior], and when Jimmie appeared in his shame would bully him most virtuously, preaching with assurance the precepts of [Jimmie's father’s] creed, and pointing out to Jimmie all of his abominations.”
+B) “In regard to almost everything in life [Jimmie and Henry] seemed to have minds precisely alike.”
+C) “For a minute Jimmie refused to take an interest in anything. He was very downcast.”
+D) “Henry... could usually provide a sin to place himself on a footing with the disgraced one. Perhaps he would remember that he had forgotten to put the hitching-strap in the back of the buggy on some recent occasion, and had been reprimanded by [Jimmie's father].”
+K: A
+#10
+P: As of 2023, South Korea has 660 kilometers of high-speed rail lines in operation and 1,630 kilometers under construction; in Spain, 4,327 kilometers are in operation with 1,378 kilometers under construction. In contrast, the United States has a relatively low amount of high-speed rail for its size: only 735 kilometers of high-speed rail in operation and 1,789 kilometers under construction. Many US transportation experts argue that this should change, claiming that high-speed rail is more cost-effective than highway systems are.
+Q: Which finding, if true, would most directly support the US transportation experts’ claim?
+A) Building successful high-speed rail infrastructure would require that the US government establish a fund to maintain the rail lines long-term.
+B) In much of the US, the existing rail infrastructure is so old that it would have to be replaced entirely in order to accommodate high-speed trains.
+C) In most locations in the US, increasing highway capacity is more expensive relative to the volume of traffic that can be accommodated than increasing high-speed rail capacity is.
+D) Unlike people in the United States, people in South Korea and Spain are less interested in traveling by highway than they are in traveling by high-speed rail.
+K: C
+#11
+P: A student is writing an essay on the subject of cultured meat, which is grown in a laboratory and is intended to help reduce the number of livestock harvested for food. The student wants to make the case that cultured meat production may be useful in responding to an expected widespread change in the public's behavior.
+Q: Which quotation from a publication by a researcher would most effectively support the student's claim?
+A) “Researchers who advocate for the development of lab-grown meat claim that it's better for the environment than conventional meat because it requires less water consumption.”
+B) “A difficulty in developing lab-grown meat that successfully imitates meat from livestock is in mimicking the way oxygen spreads through tissue in living animals.”
+C) “Consumers tend to believe that using less packaging when selling meat products in stores would have a significant effect on the environment.”
+D) “A growing population that is including significantly more meat in its diet will contribute to an increasing demand for meat products in the 21st century.”
+K: D
+#12
+P: The roseate spoonbill and the glossy ibis are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of these birds’ habitats, such as how quickly water drains from the area and the amount of tree-canopy cover there is in the area. They found that roseate spoonbills prefer areas with extensive canopy cover, but this was not true for glossy ibises. The researchers therefore concluded that wetland-management strategies that increase the amount of tree canopy in potential wetland bird habitats are less likely to ______
+Q: Which choice most logically completes the text?
+A) attract glossy ibises to the area than they are to attract roseate spoonbills to the area.
+B) attract birds that don't typically live in wetlands to the area than they are to attract roseate spoonbills or glossy ibises to the area.
+C) decrease the area's appeal to both roseate spoonbills and glossy ibises than they are to increase the appeal to other species.
+D) extend the average lifespan of roseate spoonbills already in the area than they are to attract a greater number of those birds to the area.
+K: A
+#13
+P: The state of Michigan has classified the balsam woolly adelgid as an invasive species that could outcompete some of the state's native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that Earth's climate is changing in ways that challenge such classifications. Climate changes may cause animals to leave their current ranges and establish new ones. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ______
+Q: Which choice most logically completes the text?
+A) Michigan may come to find that categorizing the balsam woolly adelgid as invasive no longer reflects environmental reality.
+B) even if Earth's climate doesn't change in the way scientists predict, the balsam woolly adelgid will likely establish itself in Michigan.
+C) Michigan was previously home to some balsam woolly adelgids but they were outcompeted by invading species.
+D) it's useful at present for Michigan to distinguish between invasive and native species in some instances but not in the case of the balsam woolly adelgid.
+K: A
+#14
+P: To investigate the root of people's resistance to AI-created art, researchers conducted a study in which participants rated a series of AI-generated images that were randomly labeled as either “human-created” or “AI-created.” Unsurprisingly, participants consistently gave higher scores to those labeled as human-created. One explanation for this is the effort heuristic effect, whereby awareness of the effort invested in a work of art enhances people's appreciation of it. Interestingly, this tendency might also be exploited to mitigate the bias against AI-created art: in another study, participants who had watched videos of robots creating paintings rated the AI-created paintings more favorably than did participants who hadn't watched them, presumably because the videos ______
+Q: Which choice most logically completes the text?
+A) challenged the assumption that the AI’s artistic process involved little to no labor.
+B) allayed anxieties about AI replacing human artists.
+C) acknowledged the influence of human-created art on the AI-created paintings.
+D) attributed a degree of intentionality to the AI.
+K: A
+#15
+P: The Indus Valley civilization, which flourished in South Asia from around 2500 to 1900 BCE, was known for its advanced textile arts. Its people ______ tussah silk using a distinctive method that allowed the silk-producing moths to complete their life cycle and emerge from cocoons before the silk fibers were harvested.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) are producing
+B) produced
+C) will produce
+D) produce
+K: B
+#16
+P: In his experimental approach to reconciling quantum mechanics and general relativity, Craig Hogan, a theoretical ______ the director of the Fermi National Accelerator Laboratory, constructed a holometer to detect whether space itself has a quantum structure.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) astrophysicist,
+B) astrophysicist
+C) astrophysicist and
+D) astrophysicist and,
+K: C
+#17
+P: Al-Muwatta of Imam Malik is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present ______ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Ahmad Boularaf Library.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) day; by
+B) day by,
+C) day by
+D) day. By
+K: C
+#18
+P: Inspired by the region's sandstone cliffs and variegated mesas, ______ from which she sources many of her dyes.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) D.Y. Begay uses rich, saturated colors in her tapestries to depict the landscape of her Navajo Tsélani homeland,
+B) the landscape of D.Y. Begay's Navajo Tsélani homeland is depicted in rich, saturated colors in her tapestries,
+C) DY. Begay uses rich, saturated colors to depict the landscape of her Navajo Tsélani homeland in her tapestries,
+D) D.Y. Begay’s tapestries depict the landscape of her Navajo Tsélani homeland using rich, saturated colors,
+K: A
+#19
+P: Canada’s 1867 constitution contains one of the six constitutional features that enhance judicial independence, as identified by legal scholars James Melton and Tom Ginsburg. Since 1985, such de jure judicial independence has become more prevalent among ______ Fiji's constitution contains four such features.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) constitutions; enacted in 2013,
+B) constitutions, enacted in 2013,
+C) constitutions enacted in 2013;
+D) constitutions, enacted in 2013;
+K: A
+#20
+P: While the greater adjutant (Leptoptilos dubius) can be found in places like the Central Tanintharyi Coast in Myanmar and Tram Chim in Vietnam, more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife ______ is on the front lines of conservation efforts to bring adjutants back from near extinction.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) biologist, Dr. Purnima Devi Barman
+B) biologist: Dr. Purnima Devi Barman
+C) biologist, Dr. Purnima Devi Barman,
+D) biologist Dr. Purnima Devi Barman
+K: D
+#21
+P: Indonesia ratified the Outer Space Treaty, an international agreement with over 100 signing nations that acts as the foundation for the laws of space, on January 27, 1967. Haiti signed the treaty; ______ it has yet to officially ratify it.
+Q: Which choice completes the text with the most logical transition?
+A) specifically,
+B) however,
+C) similarly,
+D) for example,
+K: B
+#22
+P: The Beatrice, an offshore wind farm located off the coast of Scotland, produces about 588 megawatts (MW) of electricity per year. ______ England's Hornsea Project One offshore wind farm, which generates the most power of any single offshore farm, produces 1,218 MW of electricity.
+Q: Which choice completes the text with the most logical transition?
+A) As a result,
+B) That is,
+C) By comparison,
+D) For instance,
+K: C
+#23
+P: The eruption of Bead Geyser in Yellowstone National Park is caused by a sequence of events. First, water seeps down through narrow channels in the bedrock. ______ magma heats the water and turns it into steam. Finally, that steam builds up enough pressure in the narrow channels to force the water above it to burst out of the ground.
+Q: Which choice completes the text with the most logical transition?
+A) On the contrary,
+B) First of all,
+C) Next,
+D) Similarly,
+K: C
+#24
+P: As part of a study, participants were asked to list animals they thought of as “charismatic,” which was defined as “attractive, fascinating, or appealing.” Researchers compiled the responses into a single list and found that the elephant and the crocodile both landed in the top twenty. ______ no animal outranked the tiger.
+Q: Which choice completes the text with the most logical transition?
+A) Nevertheless,
+B) Therefore,
+C) For example,
+D) In other words,
+K: A
+#25
+P: While researching a topic, a student has taken the following notes:
+L: From the 1930s to the 1960s, movie theaters in Black communities often created new versions of posters for films to promote Black actors and themes relevant to Black audiences.
+L: The original studio poster for Imitation of Life (1934) did not credit any of the film's Black actors.
+L: A poster at a Black-owned theater in Harlem, New York, gave top billing to the film's Black star, Louise Beavers, and highlighted the film's theme of Black American identity.
+L: According to media historian Ellen Scott, such revisions “centralized African American narrative presence and subjectivity.”
+Q: The student wants to compare the studio poster for Imitation of Life to the Harlem theater poster. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The Harlem theater's poster gave equal billing to all the film's stars—including Beavers—while highlighting themes of Black American identity.
+B) Compared to the Harlem theater poster, the studio poster gave far less attention to Beavers, listing her name but not identifying her as one of the film's stars.
+C) While the studio poster did not even name the film's Black actors, the Harlem poster promoted both Beavers and the film's theme of Black American identity.
+D) The Harlem theater poster promoted the film's Black star and the film's relevance to Black audiences; thus, it “centralized African American narrative presence and subjectivity.”
+K: C
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Most of the plant and bird species in Oahu, Hawaii, are non-native.
+L: In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.
+L: Researchers catalogued plant seeds found in fecal samples from non-native birds.
+L: Leptecophylla tameiameiae, a flowering shrub, was one of fifteen native species catalogued.
+L: Schinus terebinthifolia, a tree, was one of twenty-nine non-native species catalogued.
+L: Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.
+Q: The student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) A 2019 study catalogued plant seeds found in bird fecal samples in Oahu, Hawaii, to determine what role non-native birds play in seed dispersal.
+B) Though Leptecophylla tameiameiae and Schinus terebinthifolia can both be found in Oahu, Hawaii, only the former plant is native.
+C) Seeds from Leptecophylla tameiameiae and Schinus terebinthifolia plants were found in the fecal samples of non- native Hawaiian birds, according to a 12019 study.
+D) Most plant species found in Oahu, Hawaii, like Schinus terebinthifolia, are non-native.
+K: B
+#27
+P: While researching a topic, a student has taken the following notes:
+L: 1992 was the 500th anniversary (quincentennial) of Columbus's first voyage to the Americas.
+L: 1992: Native artist Jaune Quick-to-See Smith (Confederated Salish and Kootenai Tribes) curated a traveling art exhibition titled The Submuloc Show/Columbus Wohs.
+L: Smith called the exhibition “a visual commentary on the Columbus quincentennial from the perspective of America’s first people.”
+L: In a 2020 article, art historian Ariel Bonilla analyzed Smith's response to the Columbus quincentennial celebration.
+L: Bonilla: “Smith used her curatorial role to create a counter-narrative...visualizing the Native American survival of Columbian conquest.”
+L: Bonilla: Smith's show was “disinterested in financial gain as a primary or even secondary motivation.”
+Q: The student wants to use a quotation from Bonilla to explain Smith's motivation for curating the show. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) According to Bonilla, Smith curated The Submuloc Show/Columbus Wohs as “a visual commentary on the Columbus quincentennial from the perspective of America’s first people.”
+B) According to Bonilla, Smith was “disinterested in financial gain as a primary or even secondary motivation” in her curation of the exhibition, a celebration of the 500th anniversary of Columbus's first voyage to the Americas.
+C) According to Bonilla, Smith's “primary or even secondary motivation” for curating the show was to analyze Columbus from the perspective of a Native artist.
+D) According to Bonilla, Smith curated the exhibition to “create a counter-narrative” in response to the Columbus quincentennial, one focused instead on “Native American survival.”
+K: D
+=M2
+#1
+P: The use of electronic automotive diagnostic scanners has become widespread because they provide mechanics with immediate access to fault codes and system data, but these tools are not without limitations. Thus, most mechanics ______ their use of these scanners with traditional hands-on inspection methods.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) contradict
+B) supplement
+C) confuse
+D) exchange
+K: B
+#2
+P: Merging traditional Balinese dance and the retelling of the ancient epic poem Ramayana, the Balinese kecak dance (fire dance) was first performed in the 1930s. The ______ of the dance’s distinct artistic elements produces performances that have captivated audiences worldwide.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) disruption
+B) synthesis
+C) pretense
+D) resurgence
+K: B
+#3
+P: In the 2010s, the price of vintage empty soda cans rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn't previously wanted to purchase old soda cans suddenly thronged the market, believing prices would continue to rise and the cans could be resold later at a profit.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) exploiting
+B) precipitating
+C) stabilizing
+D) monetizing
+K: B
+#4
+P: Studying sales and price data for 325 brands of cooking sauces, cat food, bath additives, and other consumer packaged goods, Koushyar Rajavi and colleagues found that pricing, though hardly ______ brand success, made a much less pronounced contribution to brand success than retail distribution breadth did.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) uncharacteristic of
+B) immaterial to
+C) determinative of
+D) contingent on
+K: B
+#5
+P: Can artificial intelligence (AI) truly capture human consciousness? Louisa Hall's novel Speak pursues this inquiry by weaving together five stories across different centuries, from a Puritan woman's diary to an AI's confessions. These narratives reveal unexpected connections, suggesting that our drive to preserve human expression through technology stems from fear that without such mediation, our voices might be lost to time. Hall ultimately posits that AI represents not merely a technological achievement but the latest manifestation of an existential attempt to transcend mortality.
+Q: Which choice best describes the overall structure of the text?
+A) It presents a provocative paradox, summarizes how a novel questions the assumptions underlying the paradox, and reframes the author's message as an argument about AI and human mortality.
+B) It poses a philosophical dilemma, outlines five storylines that explore this dilemma across different time periods, and reveals how these stories converge to challenge conventional views about technology.
+C) It begins with a question about the role of AI in society, explains how an author seeks to answer that question in a novel, and proposes that preserving human expression is more important than technological advancement.
+D) It introduces a novel's central question, describes how the author employs a specific narrative structure to investigate that question, and presents the author's conclusion about a broader human concern.
+K: D
+#6
+P: Most Native languages belong to language families, or groups of languages whose structural and lexical correspondence likely derives from their descent from a single language spoken long ago. A minority—such as Kootenai, which is spoken in Idaho and Montana, and Tunica, which is spoken in Louisiana—are isolates, having no demonstrable genealogical relationship to other languages. <u>Yet Kootenai and Tunica, like all isolates, are potentially remnants of families whose other members vanished before the historical record could attest to them, perhaps through the geographical expansion of extant families.</u>
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It proposes that the distinction made between present-day nonisolate languages and isolates like Kootenai and Tunica may not have been applicable in the distant past.
+B) It asserts that the historical record tends to overrepresent nonisolate languages relative to isolates, such that the origins of Kootenai and Tunica are obscure to scholars in the present day.
+C) It suggests that the ancestral languages of both Kootenai and Tunica were likely isolates that replaced nonisolate languages through geographic expansion in the distant past.
+D) It implies that a nonisolate language may have influenced both Kootenai and Tunica to such a degree that their relationship to their former families is no longer discernible.
+K: A
+#7
+P: Text 1
+P: The island of Grande Terre split from the former supercontinent Gondwana around 80 million years ago, carrying <u>Gondwanan species</u> from a variety of clades with it. The island was periodically submerged until 37 million years ago, but some researchers suggest that its current biota includes species from clades predating the split that took refuge on islands near Grande Terre during submergence events and then returned.
+P: Text 2
+P: Thomas R. Buckley et al. found that the crown age—the age of the most recent common ancestor of all species in the clade (i.e., the clade’s founder)—of Grande Terre's clade of stick insects is 41.1 million years, which is among the oldest clade crown ages of species inhabiting the island today. Nearly all of Grande Terre's living species belong to clades that originated much more recently: for example, the crown age 1 of the island's clade of flea beetles is 12.8 million years.
+Q: Based on the texts, the author of Text 2 would most likely agree with which statement about the “Gondwanan species” discussed in Text 1?
+A) Most of them began recolonizing Grande Terre from nearby islands around 12.8 million years ago.
+B) Few if any of them were members of a clade that includes species currently inhabiting Grande Terre.
+C) Although most of them have living descendants on Grande Terre, the stick insects and flea beetles do not.
+D) Clades to which they belong originated no earlier than 41.1 million years ago.
+K: B
+#8
+P: The following text is adapted from Mark Twain's 1876 novel The Adventures of Tom Sawyer. Aunt Polly is having dinner with Tom, her mischievous young nephew.
+P: Aunt Polly asked [Tom] questions that were full of guile, and very deep—for she wanted to trap him into damaging revealments. Like many other simple-hearted souls, it was her pet vanity to believe she was endowed with a talent for dark and mysterious diplomacy, and she loved to contemplate her most transparent devices as marvels of low cunning.
+Q: Which choice best describes how Aunt Polly is presented in the text?
+A) The narrator characterizes Aunt Polly as being excessively nosy about other people's private lives.
+B) The narrator gently makes fun of Aunt Polly's mistaken confidence in her subtlety.
+C) The narrator humorously exaggerates Aunt Polly's view of herself as an intellectual.
+D) The narrator emphasizes that Aunt Polly's intentions are good even when her behavior is rude.
+K: B
+#9
+P: In her history of the US Civil Rights Movement, Tomiko Brown-Nagin notes that much of the NAACP's national agenda in the 1950s was shaped by the progressive ideas of the organization's New York-based lawyers, who litigated civil rights cases in federal courts on behalf of clients in distant locations, mostly in the South. Meanwhile, the efforts of NAACP branch leaders in the South, such as A.T. Walden in Atlanta, were made alongside community members, many of whom were business owners, educators, or health care workers. Like Walden, they tended to favor conservative social values and an approach to civil rights work suited to local circumstances.
+Q: What does the text most strongly suggest about the NAACP in the 1950s?
+A) Local organizers realized that a unified strategy for the organization as a whole would have to take into account their approaches as well as those of the lawyers based in New York.
+B) Political disagreements among prominent community organizers negatively affected the organization's ability to undertake civil rights campaigns in Atlanta.
+C) The organization's national priorities were influenced by individuals who had less direct contact with the people they represented than did AT. Walden and other local organizers.
+D) Unlike A.T. Walden and other Atlanta residents, who favored community-based efforts, the organization's staff in New York believed that federal courts offered the most effective route to securing civil rights.
+K: C
+#10
+P: The following text is from Nathaniel Hawthorne's 1830 short story “Sir William Phips.”
+P: The knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map,—minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting. These defects are partly remediable, and even without an absolute violation of literal truth, although by methods rightfully interdicted to professors of biographical exactness.
+Q: Which choice best states the main idea of the text?
+A) Historians’ fidelity to the truth often results in work that is less engaging than it could be.
+B) Maps are more practical to own than paintings.
+C) Historians do not agree among themselves about the best methods of recording history.
+D) Biographers are more-skilled writers than other kinds of historians.
+K: A
+#11
+T: <table style="border-collapse:collapse"><caption>Monthly Temperatures and Wing Centroid Sizes of Fruit Fly Specimens</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Month</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Average high (°F)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Average low (°F)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Average male wing centroid size (mm)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Average female wing centroid size (mm)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">June</td><td style="border:1px solid #000;padding:4px 10px">80</td><td style="border:1px solid #000;padding:4px 10px">56</td><td style="border:1px solid #000;padding:4px 10px">2.01</td><td style="border:1px solid #000;padding:4px 10px">2.31</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">October</td><td style="border:1px solid #000;padding:4px 10px">67</td><td style="border:1px solid #000;padding:4px 10px">44</td><td style="border:1px solid #000;padding:4px 10px">1.98</td><td style="border:1px solid #000;padding:4px 10px">2.29</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">July</td><td style="border:1px solid #000;padding:4px 10px">87</td><td style="border:1px solid #000;padding:4px 10px">62</td><td style="border:1px solid #000;padding:4px 10px">2.02</td><td style="border:1px solid #000;padding:4px 10px">2.31</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">May</td><td style="border:1px solid #000;padding:4px 10px">73</td><td style="border:1px solid #000;padding:4px 10px">50</td><td style="border:1px solid #000;padding:4px 10px">1.98</td><td style="border:1px solid #000;padding:4px 10px">2.27</td></tr></table>
+P: Drosophila (fruit flies) have generation times of 10-12 days, so seasonal changes in humidity and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as D. robusta and D. subobscura. Drosophila body size (for which wing centroid size serves as a proxy measure) correlates with reproductive fitness. Banu Sebnem Onder and Cansu Fidan Aksoy measured the wing sizes of members of a D. melanogaster&@@WM@@;population in Yesil6z, Turkey, that were collected monthly between May and October over three years. Their research suggests that Drosophila collected in relatively warmer months should tend to have greater reproductive fitness, as is illustrated by the finding that ______
+Q: Which choice most effectively uses data from the table to complete the assertion?
+A) the average female wing centroid size was consistently larger than the average male wing centroid size in all four months in the table.
+B) the average male wing centroid size was larger in July than in October.
+C) the average monthly low temperature was higher in June than in May.
+D) the average female wing centroid size was 2.02 mm in July but was 2.31 mm in June.
+K: B
+#12
+T: <table style="border-collapse:collapse"><caption>US Honey Bee Specimen Lineages and Haplotypes</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">State</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">African lineage percentage</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">North Mediterranean lineage percentage</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">West Mediterranean lineage percentage</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Known haplotypes</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Utah</td><td style="border:1px solid #000;padding:4px 10px">4.2</td><td style="border:1px solid #000;padding:4px 10px">95.8</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">C1, C2j, C2d, A1v</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">South Carolina</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">95.5</td><td style="border:1px solid #000;padding:4px 10px">4.5</td><td style="border:1px solid #000;padding:4px 10px">C1, C2j, C2d, C3</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Alabama</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">86.4</td><td style="border:1px solid #000;padding:4px 10px">13.6</td><td style="border:1px solid #000;padding:4px 10px">C1, C2j, C2c, C2d, C3, M3a</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">New Mexico</td><td style="border:1px solid #000;padding:4px 10px">0</td><td style="border:1px solid #000;padding:4px 10px">91.3</td><td style="border:1px solid #000;padding:4px 10px">8.7</td><td style="border:1px solid #000;padding:4px 10px">C1, C2j, C2c, C2d, C2i, M7b</td></tr></table>
+P: The ability of honey bee populations to tolerate disease, predation, and environmental changes, which is important given bees’ crucial role in pollination, is supported by healthy genetic diversity in those populations. Mohamed Alburaki, Jillian Lopez, and colleagues analyzed a large sample of honey bees (Apis mellifera L.) collected from most US states, assessing mitochondrial DNA markers to identify three maternal evolutionary lineages—North Mediterranean, West Mediterranean, and African—and the distinct haplotypes (inherited DNA variants) associated with each. A student asserts that if the data in the table are broadly representative, the researchers’ findings suggest that ______
+Q: Which choice most effectively uses data from the table to complete the student's conclusion?
+A) US honey bee populations may be vulnerable to stressors because they are overwhelmingly dominated by a single lineage and there is extensive recurrence of the same haplotypes across locations.
+B) the genetic diversity of US honey bee populations has recently begun to increase because there are haplotypes recorded that are not yet ubiquitous across states.
+C) even as lineages with minimal representation continue to diminish, the overall genetic diversity of 1US honey bee populations will remain stable or increase because of the distribution of haplotypes.
+D) certain haplotypes are prevalent throughout US honey bee populations because they confer resistance to a broader range of stressors than haplotypes limited to regional populations do.
+K: A
+#13
+T: <table style="border-collapse:collapse"><caption>Examples of Hoards found in Ireland and Northern Ireland</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Hoard name</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Date of contents</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Year of discovery</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Description</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Coleraine Hoard</td><td style="border:1px solid #000;padding:4px 10px">5th century CE</td><td style="border:1px solid #000;padding:4px 10px">1854</td><td style="border:1px solid #000;padding:4px 10px">silver pieces</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Derrynaflan Hoard</td><td style="border:1px solid #000;padding:4px 10px">10th century CE</td><td style="border:1px solid #000;padding:4px 10px">1980</td><td style="border:1px solid #000;padding:4px 10px">silver and bronze pieces</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Dooyork Hoard</td><td style="border:1px solid #000;padding:4px 10px">3rd century BCE–2nd century CE</td><td style="border:1px solid #000;padding:4px 10px">2001</td><td style="border:1px solid #000;padding:4px 10px">gold, bronze, and beads</td></tr></table>
+P: Deposits of valuable objects, called hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Technological advancements in the twenty-first century have made it easier to locate hoards, but plenty of hoards were found earlier. For example, ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) Derrynaflan Hoard and Dooyork Hoard were both discovered in the 1900s.
+B) the Derrynaflan Hoard was found in 1854.
+C) the Coleraine Hoard and Derrynaflan Hoard were both found before 2000.
+D) the Coleraine Hoard, Derrynaflan Hoard, and Dooyork Hoard have all been found since 1854.
+K: C
+#14
+P: Variously, researchers have closely examined obsidian artifacts to map ancient economic and cultural exchange routes, as in David V. Burley and colleagues’ 2011 study, or to glean aspects of cultural identity, as in Dennis Ogburn and colleagues’ 2009 study. Studies of the Malia archaeological site on the Mediterranean island of Crete have shown that significant changes to building styles—changes consistent with an influx of people from another culture elsewhere in the Mediterranean—occurred from the Middle Bronze Age to the Late Bronze Age. In a 2022 study, however, Tristan Carter and Vassilis Kilikoglou found that obsidian-object production methods at Malia stayed remarkably consistent during this architectural transition, which they interpret as indicative of local cultural continuity in the Middle and Late Bronze Ages.
+Q: Which finding, if true, would most directly weaken Carter and Kilikoglou's argument?
+A) Changes to buildings like those that occurred at Malia have not been linked to changes in obsidian-object production methods in other Mediterranean cultures during the Middle and Late Bronze Ages.
+B) The methods used to produce obsidian objects at Malia during the Middle and Late Bronze Ages were also used by some other Mediterranean cultures in the period.
+C) The obsidian-object production method that was most common among other Mediterranean cultures during the Middle and Late Bronze Ages was more efficient than the method used at Malia.
+D) The obsidian used to produce objects at Malia was transported to Crete from the same source elsewhere in the Mediterranean throughout the Middle and Late Bronze Ages.
+K: B
+#15
+P: The onsets of growing seasons in Alaska have been shifting earlier, potentially enabling increased carbon dioxide (CO₂) absorption through greater productivity of arctic butterbur (Petasites frigidus) plants and other vegetation, but also potentially enabling increased CO₂ output through greater heterotrophic respiration (CO₂ generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues modeled seasonal changes in net CO₂ in Alaska in a landscape grid of 1 square kilometer (km²) cells and again in a grid of 10 km² cells, which are finer resolutions than most models of net CO₂ have achieved. The researchers concluded that variations in the landscape may affect net CO₂ in ways that most models are too coarse to capture.
+Q: Which finding from the researchers’ study, if true, would most directly support the researchers’ conclusion?
+A) Lower average heterotrophic respiration rates were found for autumn months when modeled using a grid of 1 km?2 cells than when modeled using a grid of 10 km? cells.
+B) When seasonal fluxes in average CO, absorption and heterotrophic respiration were modeled using a grid of 1 km? cells, much more data were generated than when seasonal fluxes were modeled using a grid of 10 km? cells, though the two models reported identical net CO».
+C) Higher average heterotrophic respiration rates were found for summer months than for winter months when modeled using either a grid of 11 km?Z cells or a grid of 10 km? cells.
+D) No correlations between seasonal variations in average heterotrophic respiration and CO, absorption by P. frigidus and other plant species were found when modeled using either a grid of 1 1km?2 cells or a grid of 10 km? cells.
+K: A
+#16
+P: Artificial intelligence (AI) technology is increasingly prevalent in online marketing, largely in the form of autonomously operating algorithms that make use of extensive collections of data about individuals’ behavior to generate highly personalized advertisements in real time. In a recent survey of college students’ attitudes toward AI marketing, researchers found that respondents expressed little concern about AI marketing technology in general but expressed a high degree of concern about the collection and use of personal data (be it their own or other people's). Since machine learning on immense troves of such data is intrinsic to the functionality of AI marketing tools, this discrepancy suggests that ______
+Q: Which choice most logically completes the text?
+A) the college students included in the survey may not be representative of the general population with regard to attitudes toward AI marketing technology.
+B) respondents’ attitudes toward AI marketing technology in general may be a result of the respondents having a limited understanding of how that technology works.
+C) respondents have little concern about the collection and use of personal data in the abstract but are uncomfortable with their own data being collected and used.
+D) the potential drawbacks of AI marketing technology influence respondents’ attitudes more than do the potential benefits of that technology.
+K: B
+#17
+P: In the hunt for potential mineral deposits, modern gem prospectors utilize advanced satellite ______ this technology allowing prospectors to detect specific electromagnetic signatures unique to gem-bearing formations, extensive on-the-ground operations can be reduced.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) imagery. With
+B) imagery, with
+C) imagery, with which
+D) imagery with
+K: A
+#18
+P: The traveling art installation Mathemalchemy is bringing together mathematicians and artists from across North America. This interdisciplinary approach—integrating mathematical knowledge with artistic disciplines like fiber arts and ceramics— ______ invaluable, enabling the team to create an immersive installation that neither group could have developed alone.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) has proved
+B) proving
+C) are proving
+D) have proved
+K: A
+#19
+P: Arguing that the term is pejorative and historically inaccurate and that it homogenizes up to 5,000 years of diverse human cultures across the ______ explicitly reject referring to the earliest inhabitants of Puerto Rico as “Pre-Arawak”—a term that defines these peoples not by who they were but by who they were not.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Caribbean, Pestle, and colleagues
+B) Caribbean, Pestle and colleagues
+C) Caribbean, Pestle and colleagues,
+D) Caribbean Pestle and colleagues,
+K: B
+#20
+P: Set in the Ottoman Empire in the 1500s, Orhan Pamuk’s 1998 novel My Name Is Red shifts between the perspectives of no fewer than twenty-one different first person narrators. Each one—including the color red; artists nicknamed Black, Butterfly, and Stork; and drawings of animals and objects—______ to the novel's complex portrayal of the nature of art.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) contributes
+B) contributing
+C) contribute
+D) are contributing
+K: A
+#21
+P: In Pakistan, skilled craftspeople, including painters, welders, metalworkers, and horn installers, collaborate to create the elaborately decorated cargo trucks the country is famous ______ vibrant artistic practice dating back to the 1920s, truck art represents the blending of multiple folk art traditions.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) for—Pakistani truck art. A
+B) for. Pakistani truck art, a
+C) for Pakistani truck art—a
+D) for, Pakistani truck art, a
+K: A
+#22
+P: If you could travel in a spaceship to Elara, one of Jupiter's many moons, you'd find a moon with a prograde orbit. This means that Elara orbits Jupiter in the same direction that Jupiter rotates on its axis. ______ at Mneme, another Jovian moon, you'd find an example of a retrograde orbit, with the moon revolving around Jupiter in the opposite direction.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) Elsewhere,
+C) Specifically,
+D) In other words,
+K: B
+#23
+P: Photonics expert Mo Li claims that because quasiparticles called excitons are charge neutral, they would resist energy scatter if used to transport data in circuits, greatly improving circuit efficiency. ______ in the absence of any other force, neutral excitons wouldn't move at all (because they'd resist the current’s pull); knowing this, Li plans to use sound waves to move the excitons.
+Q: Which choice completes the text with the most logical transition?
+A) That is,
+B) In addition,
+C) Granted,
+D) For example,
+K: C
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Alexander D. Dolgov is a Russian particle physicist.
+L: Particle physicists study subatomic particles.
+L: Neutrinos are some of the least understood subatomic particles.
+L: Neutrinos were first discovered in the mid-twentieth century.
+L: Dolgov is known for his research on neutrino kinetics.
+Q: The student wants to provide an example of a particle physicist whose research focuses on neutrinos. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) By studying neutrino kinetics—to name just one example—particle physicists can learn more about neutrinos.
+B) Particle physicist Alexander D. Dolgov is known for his research on neutrino kinetics.
+C) Neutrinos are a type of subatomic particle that particle physicists are still trying to understand.
+D) The research done on neutrino kinetics exemplifies the work particle physicists do to advance our understanding of subatomic particles.
+K: B
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Uzbek is a language in the Turkic language family.
+L: In Uzbek, a noun takes a different form when that noun functions as a location in a sentence.
+L: The Uzbek noun xona (room) is combined with the locative suffix -da to become the locative noun xonada (in the room).
+L: Danish is a language in the Germanic language family.
+L: In Danish, nouns do not change form to indicate location.
+L: In Danish, nouns used as a location must be indicated by prepositions such as i (in) or på (on).
+Q: The student wants to emphasize a difference between Uzbek and Danish nouns. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Though nouns in Uzbek change form to indicate location, this Turkic language belongs to a different language family than Danish does.
+B) To indicate location in Uzbek, a suffix is appended to a noun, but in Danish, the noun is unchanged and a preposition is used.
+C) In Uzbek, nouns take a different form when they function as a location, as the language belongs to the Turkic family; Danish, however, belongs to the Germanic family.
+D) Uzbek and Danish belong to two distinct language families; the former is in the Turkic family, while the latter is a Germanic language.
+K: B
+#26
+P: While researching a topic, a student has taken the following notes.
+L: During the Industrial Revolution (from the mid-1700s to the mid-1800s), the number of people living in urban areas of the UK grew substantially (30%).
+L: Urbanization occurred as large segments of the country’s rural population relocated to cities to support the burgeoning textile industry.
+L: The industrial city of Manchester, England, experienced the most population growth (2,000%).
+L: A comparison of a 1746 map of Manchester with maps of the city from the late 1800s reflects the city’s expansion.
+L: According to historian Donna Sherman, these maps present “a powerful visual representation of the transformation of Manchester's landscape.”
+Q: The student wants to connect the quotation from Sherman to the increase in the UK's urban population during the Industrial Revolution. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Rural populations relocating to cities like Manchester created a phenomenon that Sherman describes as “a powerful visual representation” of how the UK transformed during the Industrial Revolution.
+B) Sherman claims that period maps of the UK present “a powerful visual representation” of how the country’s rural landscape was transformed by population shifts during the Industrial Revolution.
+C) Sherman claims that maps of Industrial Revolution-era Manchester, England, present “a powerful visual representation of the transformation of Manchester's landscape” during a time period in which the UK experienced a substantial (2,000%) increase in population.
+D) The sizeable growth in the UK's urban population during the Industrial Revolution is reflected in before-and-after maps that present, in Sherman's view, “a powerful visual representation” of how the increase transformed Manchester.
+K: D
+#27
+P: While researching a topic, a student has taken the following notes:
+L: A 2022 study analyzed geotagged social media posts to assess the effect of parks on happiness in 25 US cities.
+L: A happiness benefit for each city’s parks was calculated based on the difference in frequencies of words associated with happiness for posts made in parks and posts made elsewhere.
+L: 13.1% of the 570,157 posts analyzed from Washington, DC, were made in parks.
+L: Washington's park happiness benefit was greater than 0 but less than the all-city average of 0.10.
+L: 5.8% of the 1,130,611 posts analyzed from Chicago, Illinois, were made in parks.
+L: Chicago's park happiness benefit was greater than the all-city average.
+Q: The student wants to indicate a difference in the geotagging data from Chicago and Washington. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Compared to Chicago, Washington had a greater percentage of posts made in parks.
+B) Based on 570,157 posts, the park happiness benefit of Washington was between 0 and 0.10.
+C) While Chicago's parks had a positive happiness benefit, this was not true of Washington's parks, the site of 13.1% of the city’s posts.
+D) A relatively small percentage of the geotagged social media posts analyzed from Washington were made in parks; by comparison, Chicago's in-park posts showed an above-average happiness benefit.
+K: A
