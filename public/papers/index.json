@@ -120,6 +120,18 @@
   "minutesPerModule": 35
  },
  {
+  "id": "dsat26-09-v2-rw",
+  "name": "September 2026 · International · Version 2 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2026,
+  "month": 9,
+  "region": "International",
+  "form": "2",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat26-09-v3-rw",
   "name": "September 2026 · International · Version 3 · Reading & Writing",
   "type": "EBRW",
