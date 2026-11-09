@@ -88,7 +88,7 @@ D) Careers in the publishing industry
 K: C
 E: The correct answer is C) Debut novels
 #10
-I: /qimg/26-03-int-a-rw-m1-q10.png
+T: <table><tr><th>Bear identification number</th><th>Sex</th><th>Age (years)</th><th>Approximate weight (pounds)</th></tr><tr><td>173</td><td>female</td><td>10</td><td>400</td></tr><tr><td>122</td><td>male</td><td>3</td><td>200</td></tr><tr><td>117</td><td>female</td><td>6</td><td>325</td></tr><tr><td>103</td><td>male</td><td>4</td><td>275</td></tr></table>
 P: Scientists collected information about brown bears in Katmai National Park in Alaska. This information included each bear's sex, age, and approximate weight. For the bear with identification number 122, for example, the scientists recorded that the bear was
 Q: Which choice most effectively uses data from the table to complete the statement?
 A) male, 4 years old, and weighed approximately 275 pounds.
@@ -107,7 +107,7 @@ D) "Estella opened the gate as usual, and, the moment she appeared, Joe took his
 K: C
 E: The correct answer is C) "I have often thought [Joe] since, like the steam-hammer that can crush a man or pat an egg- shell, in his combination of strength with gentleness
 #12
-I: /qimg/26-03-int-a-rw-m1-q12.png
+I: /qimg/26-03-int-a-rw-m1-q12.svg
 P: Lin-Tai Ho and colleagues counted fish in a tide pool in Taiwan at several times during the year and found that some species had a significantly higher maximum population count than others. For example, the highest count for the combtooth blenny was 62 individuals in January of 2001, whereas the highest count for the striated rockskipper was
 Q: Which choice most effectively uses data from the graph to complete the example?
 A) 16 individuals in October of 2001.
@@ -352,7 +352,7 @@ D) Participants correctly interpreted ape gestures more than 50 percent of the t
 K: B
 E: The correct answer is B) When apes made mouth-touching gestures, which participants tended to correctly interpret as requests for food, the food was visible in the videos
 #12
-I: /qimg/26-03-int-a-rw-m2-q12.png
+I: /qimg/26-03-int-a-rw-m2-q12.svg
 P: Researchers used anonymized location data from the US and Cote d'lvoire to document people's daily patterns of mobility, using these results to test the efficacy of the researchers’ predictive computer model. In each country, unidirectional cycles among two, three, or four locations were empirically the most common pattern types; the graph shows each of these pattern types as a proportion of all pattern instances found for that country (e.g, the measured value for Cl 3 in the graph, 0.12, indicates that the three-location pattern constituted 12% of all pattern instances in the Cote d'lvoire data). The researchers ran their model twice under different assumptions, concluding that emphasizing the salience of local population density over personal preferences generally yielded the best results.
 Q: Which choice most effectively uses data from the graph to illustrate the researchers’ conclusion?
 A) Under the assumption that density is more salient than preferences, the US 2 and CI 2 proportions are approximately 0.65 and 0.85, respectively significantly higher than the values predicted under the other assumption and thus farther than those predictions from the measured values.

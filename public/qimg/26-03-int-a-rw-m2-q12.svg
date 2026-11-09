@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="600" height="340" fill="#fff"/>
+<text x="300.0" y="22" text-anchor="middle" font-size="15">Proportion of the Three Most Commonly Exhibited Mobility Patterns, in the US and Côte d’Ivoire</text>
+<line x1="60" y1="270.0" x2="580" y2="270.0" stroke="#bbb"/><text x="54" y="274.0" text-anchor="end" font-size="12">0</text>
+<line x1="60" y1="226.0" x2="580" y2="226.0" stroke="#bbb"/><text x="54" y="230.0" text-anchor="end" font-size="12">0.2</text>
+<line x1="60" y1="182.0" x2="580" y2="182.0" stroke="#bbb"/><text x="54" y="186.0" text-anchor="end" font-size="12">0.4</text>
+<line x1="60" y1="138.0" x2="580" y2="138.0" stroke="#bbb"/><text x="54" y="142.0" text-anchor="end" font-size="12">0.6</text>
+<line x1="60" y1="94.0" x2="580" y2="94.0" stroke="#bbb"/><text x="54" y="98.0" text-anchor="end" font-size="12">0.8</text>
+<line x1="60" y1="50.0" x2="580" y2="50.0" stroke="#bbb"/><text x="54" y="54.0" text-anchor="end" font-size="12">1</text>
+<line x1="60" y1="50" x2="60" y2="270" stroke="#111" stroke-width="1.5"/><line x1="60" y1="270" x2="580" y2="270" stroke="#111" stroke-width="1.5"/>
+<rect x="68.7" y="102.8" width="23.1" height="167.2" fill="#444"/>
+<rect x="91.8" y="120.4" width="23.1" height="149.6" fill="#aaa"/>
+<rect x="114.9" y="166.6" width="23.1" height="103.4" fill="#111"/>
+<text x="103.3" y="286" text-anchor="middle" font-size="12">US 2</text>
+<rect x="155.3" y="243.6" width="23.1" height="26.4" fill="#444"/>
+<rect x="178.4" y="228.2" width="23.1" height="41.8" fill="#aaa"/>
+<rect x="201.6" y="230.4" width="23.1" height="39.6" fill="#111"/>
+<text x="190.0" y="286" text-anchor="middle" font-size="12">US 3</text>
+<rect x="242.0" y="263.4" width="23.1" height="6.6" fill="#444"/>
+<rect x="265.1" y="259.0" width="23.1" height="11.0" fill="#aaa"/>
+<rect x="288.2" y="250.2" width="23.1" height="19.8" fill="#111"/>
+<text x="276.7" y="286" text-anchor="middle" font-size="12">US 4</text>
+<rect x="328.7" y="96.2" width="23.1" height="173.8" fill="#444"/>
+<rect x="351.8" y="83.0" width="23.1" height="187.0" fill="#aaa"/>
+<rect x="374.9" y="197.4" width="23.1" height="72.6" fill="#111"/>
+<text x="363.3" y="286" text-anchor="middle" font-size="12">CI 2</text>
+<rect x="415.3" y="243.6" width="23.1" height="26.4" fill="#444"/>
+<rect x="438.4" y="256.8" width="23.1" height="13.2" fill="#aaa"/>
+<rect x="461.6" y="223.8" width="23.1" height="46.2" fill="#111"/>
+<text x="450.0" y="286" text-anchor="middle" font-size="12">CI 3</text>
+<rect x="502.0" y="265.6" width="23.1" height="4.4" fill="#444"/>
+<rect x="525.1" y="267.8" width="23.1" height="2.2" fill="#aaa"/>
+<rect x="548.2" y="245.8" width="23.1" height="24.2" fill="#111"/>
+<text x="536.7" y="286" text-anchor="middle" font-size="12">CI 4</text>
+<text x="320.0" y="304" text-anchor="middle" font-size="13">Mobility pattern by country</text>
+<text x="14" y="160.0" text-anchor="middle" font-size="13" transform="rotate(-90 14 160.0)">Proportion</text>
+<rect x="60" y="322" width="10" height="10" fill="#444"/><text x="74" y="331" font-size="12">measured</text>
+<rect x="139.2" y="322" width="10" height="10" fill="#aaa"/><text x="153.2" y="331" font-size="12">model: emphasis density</text>
+<rect x="314.4" y="322" width="10" height="10" fill="#111"/><text x="328.4" y="331" font-size="12">model: emphasis preferences</text>
+</svg>

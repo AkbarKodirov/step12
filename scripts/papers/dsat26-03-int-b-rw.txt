@@ -88,7 +88,7 @@ D) Effects of ocean acidification on fish behavior
 K: D
 E: The correct answer is D) Effects of ocean acidification on fish behavior
 #10
-I: /qimg/26-03-int-b-rw-m1-q10.png
+T: <table><tr><th>Species</th><th>Minimum depth (meters)</th><th>Maximum depth (meters)</th></tr><tr><td><i>Acropora echinata</i></td><td>8</td><td>25</td></tr><tr><td><i>Danafungia scruposa</i></td><td>1</td><td>27</td></tr><tr><td><i>Astreopora expansa</i></td><td>5</td><td>15</td></tr><tr><td><i>Scolymia lacera</i></td><td>10</td><td>80</td></tr></table>
 P: A marine biologist is researching four scleractinian coral species, which are also called stony corals because of the hard skeletons they develop. Consulting the table, she notes that the two species for which the maximum depths are most similar are 4
 Q: Which choice most effectively uses data from the table to complete the statement?
 A) Astreopora expansa and Scolymia lacera.
@@ -342,7 +342,7 @@ D) Some of the spices recovered from Oc Eo are native to the Maluku Islands, whi
 K: B
 E: The correct answer is B) In the first through third centuries CE, there was a significant migration of people from South Asia to Southeast Asia.
 #11
-I: /qimg/26-03-int-b-rw-m2-q11.png
+T: <table><tr><th>87Sr / 86Sr</th><th>Age (Ma)</th></tr><tr><td>0.708980</td><td>6.20</td></tr><tr><td>0.709000</td><td>5.86</td></tr><tr><td>0.709020</td><td>5.40</td></tr><tr><td>0.709040</td><td>4.75</td></tr><tr><td>0.709060</td><td>3.00</td></tr></table>
 P: ON The late Hemphillian (Hh) North American Land Mammal Age includes the subdivisions Hh3, 6.8 million years ago (Ma) to 6 Ma, and Hh4, 6 Mato 4.75 Ma. While mammalian fossils have indicated that Florida's Montbrook Fossil Site (MFS) and Palmetto Fauna of the Bone Valley Region (PFBV) date to Hh4, a more precise determination of the sites’ ages has proved challenging. Stephanie R. Killingsworth et al. compared average ratios of strontium-87 to strontium-86 (875r/865r) in fossil shark teeth from MFS and PFBV --- 0.709000 and 0.709028, respectively --- to 875r/865r ratios in the global strontium seawater curve, a record that shows how 87Sr/865r ratios in seawater correspond to numerical ages and that is used to date fossils and, by extension, fossil sites. The researchers concluded that
 Q: Which choice most effectively uses data from the table to complete the statement?
 A) mammalian fossil evidence offers less dating precision than do 87Sr/86Sr ratios in fossil shark teeth and that PFBV likely was deposited closer to the Hh3-Hh4 boundary than was MFS.
@@ -361,7 +361,7 @@ D) "The innermost room of the temple was likely among the quietest spaces in the
 K: C
 E: The correct answer is C) "During special occasions, curtaigé were placed inside the temple to minimize reverberation and confine the sound to designated locations."
 #13
-I: /qimg/26-03-int-b-rw-m2-q13.png
+I: /qimg/26-03-int-b-rw-m2-q13.svg
 P: While US public charities, like Kaiser Foundation Hospitalsy must file Form 990 yearly with the IRs, private foundations, such as the Gordon and Betty Moore foundation, must file a different form, 990- PF. In addition, foundations that engage in certain prohibited activities must also file Form 4720 and pay a penalty tax on the money involved. Private foundations are prohibited from holding excess interests in a business enterprise, "self-dealing” (conducting activities that benefit foundation insiders), making taxable expenditures such as grants to non-charitable entities, and failing to cross a required threshold in making charitable distributions from income. Out of the organizations that fled Form 990-pf in the years 2003 2005,
 Q: Which choice most effectively uses data from the graph to complete the assertion?
 A) a greater percentage of those that also filed Form 4720 did so because they held excess interests in a business enterprise than the percentage of those that filed Form 4720 because they did not meet the minimum charitable distribution requirement.
