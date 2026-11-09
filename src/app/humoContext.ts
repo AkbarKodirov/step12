@@ -1,5 +1,5 @@
 import type { useStore } from './store'
-import { generatePlan } from './plan'
+import { today } from './store'
 
 type S = ReturnType<typeof useStore>
 const LANG = { en: 'English', uz: "O'zbekcha", ru: 'Русский' }
@@ -8,8 +8,19 @@ const LANG = { en: 'English', uz: "O'zbekcha", ru: 'Русский' }
 export function studentContext(s: S, page?: string) {
   const p = s.profile
   const last = s.attempts[s.attempts.length - 1]
-  const cur = s.plan ?? generatePlan(s.profile, s.weakSkills)
+  const cur = s.plan
   const plan = cur ? JSON.stringify({ days: cur.days.map((d) => d.map(({ kind, title, min, skill }) => ({ kind, title, min, ...(skill ? { skill } : {}) }))) }) : ''
+  const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+  const todayIdx = (new Date().getDay() + 6) % 7
+  const todayTasks = cur?.days[todayIdx] ?? []
+  const todayKey = today()
+  const todayLine = cur
+    ? `TODAY (${dayNames[todayIdx]}) from the student's existing plan: ${
+        todayTasks.length
+          ? todayTasks.map((t) => `[${s.planDone[`${todayKey}:${t.id}`] ? 'done' : 'to do'}] ${t.title} (${t.min} min)`).join('; ')
+          : 'rest day, no tasks'
+      }.`
+    : ''
   return [
     page ? `The student is on ${page}.` : '',
     `Goal: target ${p.target}${p.current ? `, current ${p.current}` : ''}${p.testDate ? `, SAT on ${p.testDate}` : ', no test date set'}${p.aim ? `, aim: ${p.aim}` : ''}${p.level ? `, level: ${p.level}` : ''}.`,
@@ -19,7 +30,8 @@ export function studentContext(s: S, page?: string) {
     `${s.mistakes.filter((m) => !m.cleared).length} open mistakes; ${Object.values(s.vocab).filter((v) => v.reps >= 3).length} vocab words mastered; ${Object.values(s.desmosLab).filter((d) => d.solved).length} Desmos Lab questions solved.`,
     `Preferred language: ${LANG[s.settings.language]}. Explanation style: ${s.settings.humoStyle === 'hint' ? 'hint first, full solution when asked' : 'full solution straight away'}.`,
     s.settings.desmosFirst ? 'For math questions, always solve the Desmos way with a desmos screen block.' : 'Solve math with algebra first; include a desmos block only when asked.',
-    `Current study plan JSON: ${plan}`,
+    todayLine,
+    cur ? `Current study plan JSON: ${plan}` : 'The student has NO study plan yet.',
   ]
     .filter(Boolean)
     .join('\n')
