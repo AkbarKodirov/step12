@@ -227,6 +227,18 @@
   "minutesPerModule": 32
  },
  {
+  "id": "dsat26-03-us-b-rw",
+  "name": "March 2026 US · Version B · Reading & Writing",
+  "type": "EBRW",
+  "year": 2026,
+  "month": 3,
+  "region": "US",
+  "form": "B",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat25-11-v1-rw",
   "name": "November 2025 · Version 1 · Reading & Writing",
   "type": "EBRW",
