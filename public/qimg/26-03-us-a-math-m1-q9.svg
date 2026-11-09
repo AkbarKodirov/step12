@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="190" viewBox="0 0 330 190" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="330" height="190" fill="#fff"/>
+
+<line x1="40" y1="20" x2="290" y2="170" stroke="#111" stroke-width="2"/><line x1="40" y1="170" x2="290" y2="20" stroke="#111" stroke-width="2"/>
+<text x="95" y="102" font-size="16" font-style="italic">r°</text><text x="215" y="102" font-size="16" font-style="italic">s°</text>
+<text x="165" y="186" font-size="14" text-anchor="middle">Note: Figure not drawn to scale.</text>
+</svg>

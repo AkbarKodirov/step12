@@ -1,0 +1,337 @@
+!id: dsat26-03-us-a-math
+!name: March 2026 US · Version A · Math
+!type: MATH
+!year: 2026
+!month: 3
+!region: US
+!form: A
+=M1
+#1
+I: /qimg/26-03-us-a-math-m1-q1.svg
+Q: The shaded region shown represents the solutions to which inequality?
+A) y < (1)/(3)x + 12
+B) y < 3x + 12
+C) y > (1)/(3)x + 12
+D) y > 3x + 12
+K: B
+E: The dashed boundary passes through (−4, 0) and (0, 12), so its slope is 3 and it is y = 3x + 12. The shaded region lies below the line.
+#2
+I: /qimg/26-03-us-a-math-m1-q2.svg
+Q: In the figure shown, d, e, and f are constants and the value of k is 2. If the measure of angles D, E, and F are 42°, x°, and (2x + 12)°, respectively, what is the measure, in degrees, of angle S?
+K: 96
+E: 42 + x + 2x + 12 = 180 gives x = 42, so angle F = 2(42) + 12 = 96°. The triangles are similar, so angle S = angle F = 96°.
+#3
+Q: 3x^2 − 13x + 19 = 0
+Q: How many distinct real solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: A
+E: The discriminant is (−13)<sup>2</sup> − 4(3)(19) = 169 − 228 = −59, which is negative, so there are no real solutions.
+#4
+I: /qimg/26-03-us-a-math-m1-q4.svg
+Q: The graph of a system of a linear equation and a quadratic equation is shown. What is the solution (x, y) to this system?
+A) (0, 3)
+B) (0, 5)
+C) (−5, 3)
+D) (5, −3)
+K: C
+E: The line y = 3 touches the parabola only at its vertex, (−5, 3).
+#5
+Q: The function h is defined by h(x) = (x)/(6). What is the value of h(x) when x = 48?
+A) 6
+B) 8
+C) 42
+D) 54
+K: B
+E: h(48) = 48/6 = 8.
+#6
+Q: A certain striped marlin can swim at a maximum speed of 22 meters per second. At this maximum speed, how many meters would this striped marlin swim in 3 seconds?
+K: 66
+E: 22 × 3 = 66 meters.
+#7
+Q: (13)/(x + 1) = (13)/(7)
+Q: What value of x makes the given equation true?
+K: 6
+E: The numerators are equal, so x + 1 = 7 and x = 6.
+#8
+Q: A biologist recorded the pinching force of wild coconut crabs. The lowest pinching force recorded was 86.2 newtons and the highest pinching force recorded was 121.4 newtons. Which inequality is true for all values of c, where c represents any pinching force, in newtons, recorded for these wild coconut crabs?
+A) c ≤ 86.2
+B) c ≥ 121.4
+C) 43.1 ≤ c ≤ 60.7
+D) 86.2 ≤ c ≤ 121.4
+K: D
+E: Every recorded force is at least 86.2 and at most 121.4.
+#9
+I: /qimg/26-03-us-a-math-m1-q9.svg
+Q: In the figure, two lines intersect at a point. If r = 52, what is the value of s?
+K: 52
+E: Angles r° and s° are vertical angles, so they are equal: s = 52.
+#10
+Q: Kayra spent $49 at a book sale and bought a total of 21 books. She bought h hardcover books for $3 each and p paperback books for $2 each. Which system of equations represents this situation?
+A) h + p = 21<br>2h + 3p = 49
+B) h + p = 21<br>3h + 2p = 49
+C) h + p = 49<br>2h + 3p = 21
+D) h + p = 49<br>3h + 2p = 21
+K: B
+E: The number of books gives h + p = 21, and the cost gives 3h + 2p = 49.
+#11
+Q: The number b is 15 more than half of the number a. Which equation represents the relationship between a and b?
+A) b = 30a
+B) b = 15a + 2
+C) b = (a)/(15) + 2
+D) b = (a)/(2) + 15
+K: D
+E: Half of a is a/2, and 15 more than that is a/2 + 15.
+#12
+Q: A manager is responsible for ordering supplies for a coffee shop. The shop's inventory starts with 8,900 disposable cups, and the manager estimates that 120 of these cups are used each day. Based on this estimate, in how many days will the inventory of disposable cups reach 1,700?
+K: 60
+E: 8,900 − 120d = 1,700 gives 120d = 7,200, so d = 60.
+#13
+Q: A line in the xy-plane passes through the points (9, 1), (0, 8), and (c, 0). What is the value of c?
+K: 72/7 | 10.28 | 10.286
+E: The slope is (8 − 1)/(0 − 9) = −7/9, so the line is y = −(7)/(9)x + 8. Setting y = 0 gives x = 72/7.
+#14
+Q: Which shaded region represents the solutions to the inequality y ≤ −(1)/(4)x + 7?
+A) <img src="/qimg/26-03-us-a-math-m1-q14a.svg" alt="Graph A" style="max-width:100%;height:auto">
+B) <img src="/qimg/26-03-us-a-math-m1-q14b.svg" alt="Graph B" style="max-width:100%;height:auto">
+C) <img src="/qimg/26-03-us-a-math-m1-q14c.svg" alt="Graph C" style="max-width:100%;height:auto">
+D) <img src="/qimg/26-03-us-a-math-m1-q14d.svg" alt="Graph D" style="max-width:100%;height:auto">
+K: C
+E: The boundary y = −x/4 + 7 slopes downward through (0, 7), and "≤" means the region on and below the line is shaded.
+#15
+Q: q(x) = 28(2^x)
+Q: Which table gives three values of x and their corresponding values of q(x) for function q?
+A) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>14</td><td>28</td><td>56</td></tr></table>
+B) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>(1)/(14)</td><td>28</td><td>56</td></tr></table>
+C) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>(1)/(14)</td><td>2</td><td>56</td></tr></table>
+D) <table><tr><th>x</th><td>−1</td><td>0</td><td>1</td></tr><tr><th>q(x)</th><td>−56</td><td>0</td><td>56</td></tr></table>
+K: A
+E: q(−1) = 28(1/2) = 14, q(0) = 28, and q(1) = 56.
+#16
+Q: If 3(x − 9) − 4 = 8(x − 9) + 4, what is the value of x − 9?
+A) −(8)/(5)
+B) −(5)/(8)
+C) (3)/(8)
+D) (8)/(11)
+K: A
+E: Let t = x − 9. Then 3t − 4 = 8t + 4, so −8 = 5t and t = −8/5.
+#17
+Q: An inspector checked a sample of 330 scales selected at random from a population of 8,000 scales to estimate what percentage of the 8,000 scales were inaccurate. From this sample, the inspector estimated that 7% of the 8,000 scales were inaccurate, with an associated margin of error of 2.8%. Which of the following is the most appropriate conclusion?
+A) It is plausible that between 336 and 784 of the scales in the population are inaccurate.
+B) It is plausible that fewer than 336 of the scales in the population are inaccurate.
+C) Exactly 560 of the scales in the population are inaccurate.
+D) It is plausible that more than 784 of the scales in the population are inaccurate.
+K: A
+E: The plausible range is 7% ± 2.8%, or 4.2% to 9.8%, of 8,000 scales, which is 336 to 784.
+#18
+Q: To earn a bachelor's degree at a certain university, students are required to complete at least 120 credit hours. If a student has completed 42 credit hours, what is the minimum number of additional credit hours the student is required to complete to earn a bachelor's degree at this university?
+A) 162
+B) 120
+C) 78
+D) 20
+K: C
+E: 120 − 42 = 78.
+#19
+I: /qimg/26-03-us-a-math-m1-q19.svg
+Q: The graph of a system of a linear equation and a quadratic equation is shown. What is a solution (x, y) to this system?
+A) (0, 0)
+B) (0, 7)
+C) (6, 0)
+D) (6, 7)
+K: D
+E: The line and the parabola cross at the point (6, 7).
+#20
+Q: During an experiment, a particle's speed was 48 feet per second. What is this speed in feet per <b>minute</b>?
+A) 78
+B) 108
+C) 1,440
+D) 2,880
+K: D
+E: 48 × 60 = 2,880 feet per minute.
+#21
+I: /qimg/26-03-us-a-math-m1-q21.svg
+Q: The bar graph shows the distribution of the number of students in each of four sports programs at a high school. How many more students are in the hockey program than the volleyball program?
+A) 10
+B) 30
+C) 40
+D) 70
+K: A
+E: Hockey has 40 students and volleyball has 30, a difference of 10.
+#22
+Q: y = 5x^2 − 40x + 35
+Q: The given equation represents a parabola in the xy-plane. Which of the following equivalent equations displays the x-intercepts of the parabola as constants or coefficients?
+A) y = 5x^2 − 8x + 35
+B) y = 5x(x − 8) + 35
+C) y = 5(x − 4)^2 − 45
+D) y = 5(x − 1)(x − 7)
+K: D
+E: Factoring gives y = 5(x<sup>2</sup> − 8x + 7) = 5(x − 1)(x − 7), which shows the x-intercepts 1 and 7 as constants.
+=M2
+#1
+Q: A total of 50 people attended a conference and were offered 4 types of entrees. The table shows the number of people who chose each type of entree.
+T: <table><tr><th>Type of entree</th><th>Number of people</th></tr><tr><td>Beef</td><td>20</td></tr><tr><td>Chicken</td><td>19</td></tr><tr><td>Fish</td><td>2</td></tr><tr><td>Vegetarian</td><td>9</td></tr><tr><td>Total</td><td>50</td></tr></table>
+Q: If one of these people is selected at random, what is the probability of selecting a person who chose a vegetarian entree?
+A) (9)/(100)
+B) (9)/(50)
+C) (1)/(4)
+D) (9)/(10)
+K: B
+E: 9 of the 50 people chose a vegetarian entree, so the probability is 9/50.
+#2
+Q: If 3x = 7, what is the value of 12x?
+A) 3
+B) 11
+C) 25
+D) 28
+K: D
+E: 12x = 4(3x) = 4(7) = 28.
+#3
+Q: The function f is defined by the equation f(x) = 320x. What is the value of f(10)?
+K: 3200
+E: f(10) = 320 × 10 = 3,200.
+#4
+Q: The expression 4x^6(3x) is equivalent to bx^7, where b is a constant. What is the value of b?
+K: 12
+E: 4x<sup>6</sup> · 3x = 12x<sup>7</sup>, so b = 12.
+#5
+Q: y = 10x + 48
+Q: One of the two equations in a system of linear equations is given. The system has infinitely many solutions. Which equation could be the second equation in this system?
+A) y − 10x = −48
+B) y − 10x = 48
+C) y − 12x = 24
+D) y − 12x = 0
+K: B
+E: An equation that is equivalent to y = 10x + 48 gives infinitely many solutions. y − 10x = 48 is the same equation rearranged.
+#6
+I: /qimg/26-03-us-a-math-m2-q6.svg
+Q: In the right triangle shown, what is the value of cos A?
+A) (1)/(43)
+B) (1)/(22)
+C) (22)/(43)
+D) (43)/(22)
+K: C
+E: cos A = adjacent/hypotenuse = AB/AC = 22/43.
+#7
+Q: R = (0.43l)/(A)
+Q: The given equation relates the resistance R, in ohms, of a wire to its length l, in meters, and its cross-sectional area A, in square meters. Which equation correctly expresses the length, in meters, of the wire in terms of its resistance, in ohms, and its cross-sectional area, in square meters?
+A) l = (R · A)/(0.43)
+B) l = (R + A)/(0.43)
+C) l = (0.43R)/(A)
+D) l = (AR)/(0.43)
+K: D
+E: Multiply both sides by A to get AR = 0.43l, then divide by 0.43.
+#8
+Q: There are 450 objects in a box. Of these objects, 8% are spheres. How many spheres are in the box?
+A) 8
+B) 36
+C) 180
+D) 442
+K: B
+E: 0.08 × 450 = 36.
+#9
+Q: A rectangle has a length of 10 centimeters and a width of 6,000 centimeters. What is the area, in square centimeters, of the rectangle?
+A) 10
+B) 6,010
+C) 60,000
+D) 66,000
+K: C
+E: 10 × 6,000 = 60,000.
+#10
+I: /qimg/26-03-us-a-math-m2-q10.svg
+Q: The figure shown is a right rectangular pyramid, where ℓ = 16 units, w = 8 units, and h = 18 units. What is the surface area, in square units, of the pyramid?
+K: 128+32√85+16√97 | 580.6 | 580.61
+E: The base has area 16 × 8 = 128. Two triangular faces have base 16 and slant height √(18<sup>2</sup> + 4<sup>2</sup>) = 2√85, giving 2 × 16√85 = 32√85. The other two have base 8 and slant height √(18<sup>2</sup> + 8<sup>2</sup>) = 2√97, giving 2 × 8√97 = 16√97. The total is 128 + 32√85 + 16√97 ≈ 580.6.
+#11
+Q: How many solutions does the equation 6x + 4 = 22 have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: A
+E: 6x = 18 gives x = 3, the only solution.
+#12
+Q: The function f is defined by f(x) = 3x − 7. If f(a) + 1 = 2a, what is the value of a?
+A) −1
+B) 1
+C) 5
+D) 6
+K: D
+E: 3a − 7 + 1 = 2a gives a = 6.
+#13
+Q: 7x + 12y = 180
+Q: The equation gives the possible combinations of the number of mugs, x, and the number of plates, y, in a collection that is worth a total of $180. If there are 8 plates in the collection, how many mugs are in the collection?
+K: 12
+E: 7x + 12(8) = 180 gives 7x = 84, so x = 12.
+#14
+I: /qimg/26-03-us-a-math-m2-q14.svg
+Q: The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.
+Q: Which of the following equations best represents the line of best fit shown?
+A) y = 12.4 + 0.7x
+B) y = 12.4 − 0.7x
+C) y = −12.4 + 0.7x
+D) y = −12.4 − 0.7x
+K: B
+E: The line crosses the y-axis near 12.4 and decreases about 0.7 for each 1 unit increase in x, so y = 12.4 − 0.7x.
+#15
+Q: Which expression is equivalent to 4x^3 + 20x^2?
+A) x^2(4 + 20x)
+B) 4x^2(x + 5)
+C) 4x^2(x + 16)
+D) x^3(4 + 20x)
+K: B
+E: Factor out 4x<sup>2</sup>: 4x<sup>3</sup> + 20x<sup>2</sup> = 4x<sup>2</sup>(x + 5).
+#16
+Q: In triangle RST, the length of RS is 21, and the length of ST is 9. Triangle RST is dilated by a scale factor of (1)/(3) to obtain triangle R′S′T′. What is the length of S′T′?
+A) 3
+B) 7
+C) 27
+D) 63
+K: A
+E: S′T′ = (1/3)(9) = 3.
+#17
+Q: z = √(y + 47x)
+Q: The given equation relates the distinct positive values x, y, and z. Which equation correctly expresses x in terms of y and z?
+A) x = 47z^2 − y
+B) x = 47z − y^2
+C) x = (z^2 − y)/(47)
+D) x = (z − y^2)/(47)
+K: C
+E: Squaring both sides gives z<sup>2</sup> = y + 47x, so x = (z<sup>2</sup> − y)/47.
+#18
+Q: A cable company charges new customers a onetime installation fee and a monthly service fee for cable service. The equation y = 50x + 120 gives the total amount y, in dollars, the cable company charges new customers for x months of cable service. What is the amount, in dollars, of the onetime installation fee the cable company charges new customers?
+A) 170
+B) 120
+C) 70
+D) 0
+K: B
+E: When x = 0, y = 120, so the installation fee is $120.
+#19
+Q: Which shaded region represents the solutions to the inequality 4x + 5y < 9?
+A) <img src="/qimg/26-03-us-a-math-m2-q19a.svg" alt="Graph A" style="max-width:100%;height:auto">
+B) <img src="/qimg/26-03-us-a-math-m2-q19b.svg" alt="Graph B" style="max-width:100%;height:auto">
+C) <img src="/qimg/26-03-us-a-math-m2-q19c.svg" alt="Graph C" style="max-width:100%;height:auto">
+D) <img src="/qimg/26-03-us-a-math-m2-q19d.svg" alt="Graph D" style="max-width:100%;height:auto">
+K: C
+E: The boundary 4x + 5y = 9 slopes downward through (0, 1.8) and (2.25, 0). The origin satisfies 4(0) + 5(0) < 9, so the shaded region contains the origin, below the dashed line.
+#20
+Q: In the xy-plane, line k has a slope of (6)/(13), an x-intercept of (−6, 0), and a y-intercept of (0, p). What is the value of p?
+K: 36/13 | 2.769 | 2.77
+E: The line is y = (6/13)(x + 6), so p = (6/13)(6) = 36/13.
+#21
+Q: The measure of angle S is (8π)/(11) radians. The measure of angle T is 2 times the measure of angle S. Which expression represents the measure, in <b>degrees</b>, of angle T?
+A) (8)/(11)(90)(2)
+B) (8)/(11)(180)(2)
+C) (8)/(11π)(90)(2)
+D) (8π)/(11)(180)(2)
+K: B
+E: Angle T is 2 · (8π/11) radians. Multiplying by 180/π converts to degrees: (8/11)(180)(2).
+#22
+Q: A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 350 degrees Fahrenheit (°F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 350°F. Based on the first sample, the research manager estimated that this type of oven takes an average of 14.2 minutes to preheat to 350°F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 14.4 minutes to preheat to 350°F, with an associated margin of error of 2.2 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?
+A) The first sample contained fewer ovens than the second sample.
+B) The first sample contained more ovens than the second sample.
+C) The first sample took less time on average to preheat to 350°F than the second sample.
+D) The first sample took more time on average to preheat to 350°F than the second sample.
+K: B
+E: With the same method, a larger sample gives a smaller margin of error.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="250" viewBox="0 0 470 250" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="470" height="250" fill="#fff"/>
+
+<polygon points="40,200 110,200 128,110" fill="none" stroke="#111" stroke-width="2"/>
+<text x="26" y="218" font-size="16" font-style="italic">D</text><text x="104" y="220" font-size="16" font-style="italic">F</text><text x="125" y="104" font-size="16" font-style="italic">E</text>
+<text x="66" y="150" font-size="15" font-style="italic">f</text><text x="124" y="160" font-size="15" font-style="italic">d</text><text x="68" y="216" font-size="15" font-style="italic">e</text>
+<polygon points="190,200 395,200 425,30" fill="none" stroke="#111" stroke-width="2"/>
+<text x="176" y="218" font-size="16" font-style="italic">Q</text><text x="390" y="220" font-size="16" font-style="italic">S</text><text x="422" y="22" font-size="16" font-style="italic">R</text>
+<text x="290" y="112" font-size="15" font-style="italic">kf</text><text x="412" y="120" font-size="15" font-style="italic">kd</text><text x="285" y="218" font-size="15" font-style="italic">ke</text>
+<text x="235" y="244" font-size="14">Note: Figure not drawn to scale.</text>
+</svg>
