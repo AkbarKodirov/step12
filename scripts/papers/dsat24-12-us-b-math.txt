@@ -1,0 +1,289 @@
+!id: dsat24-12-us-b-math
+!name: December 2024 US · Form B · Math
+!type: MATH
+!year: 2024
+!month: 12
+!region: US
+!form: B
+!missing: M1 #1, M1 #2, M1 #9, M2 #9, M2 #16
+=M1
+#3
+Q: If 6x + 36 = 54, what is the value of x + 6?
+A) 6
+B) 9
+C) 36
+D) 42
+K: B
+E: 6x = 18, so x = 3 and x + 6 = 9.
+#4
+Q: For a certain classification, the positive mass m, in grams, of an object must be less than 510 grams. Which inequality represents this situation?
+A) m > 510
+B) m < 0
+C) −510 < m < 0
+D) 0 < m < 510
+K: D
+E: The mass is positive and less than 510, so 0 < m < 510.
+#5
+Q: The perimeter of an obtuse triangle is 27 meters. The lengths of two sides of this triangle are 5 meters and 9 meters. What is the length, in meters, of the third side of this triangle?
+A) 13
+B) 14
+C) 18
+D) 22
+K: A
+E: The third side is 27 − 5 − 9 = 13 m, and 13^2 > 5^2 + 9^2, so the triangle is obtuse.
+#6
+T: <table><tr><th>Task</th><th>Time (minutes)</th></tr><tr><td>A</td><td>8</td></tr><tr><td>B</td><td>5</td></tr><tr><td>C</td><td>12</td></tr><tr><td>D</td><td>10</td></tr><tr><td>E</td><td>10</td></tr></table>
+Q: The table shows the amount of time it took a participant in a study to complete each of 5 tasks. What was the mean time, in minutes, for this participant to complete a task?
+A) 7
+B) 9
+C) 10
+D) 12
+K: B
+E: (8 + 5 + 12 + 10 + 10)/5 = 45/5 = 9.
+#7
+Q: A group of 40 employees selected at random from all the employees at a company were surveyed about the number of books they read last year. From the data collected, it was estimated that the mean number of books employees at the company read last year is 6.8, with an associated margin of error of 1.1. Which of the following is the most appropriate conclusion?
+A) It is plausible that the actual mean number of books employees at the company read last year is less than 5.7.
+B) It is plausible that the actual mean number of books employees at the company read last year is between 5.7 and 7.9.
+C) It is plausible that every employee at the company read between 6.8 and 10.1 books last year.
+D) It is plausible that the actual mean number of books employees at the company read last year is greater than 7.9.
+K: B
+E: 6.8 ± 1.1 gives plausible means from 5.7 to 7.9.
+#8
+Q: Which expression is equivalent to (5x^3 − 3x + 8) − (9x^6 + 5x − 3)?
+A) −4x^9 − 8x − 11
+B) −9x^6 + 5x^3 − 8x + 11
+C) −9x^6 + 5x^3 + 2x + 5
+D) −4x^9 − 2x + 5
+K: B
+E: Distribute the negative: −9x^6 + 5x^3 − 3x − 5x + 8 + 3 = −9x^6 + 5x^3 − 8x + 11.
+#10
+Q: The function f(x) = 180(x − 2) gives the sum of the interior angles, in degrees, for a polygon with x sides. What is the sum of the interior angles, in degrees, for a polygon with 35 sides?
+K: 5940
+E: f(35) = 180(35 − 2) = 180 × 33 = 5,940.
+#11
+T: <table><tr><th>x</th><th>h(x)</th></tr><tr><td>0</td><td>17</td></tr><tr><td>1</td><td>18</td></tr><tr><td>2</td><td>20</td></tr></table>
+Q: For the function h, the table gives three values of x and their corresponding values of h(x). Which equation could define h?
+A) h(x) = 2^x + 16
+B) h(x) = 2^x + 15
+C) h(x) = 2^x + 2
+D) h(x) = 2^x
+K: A
+E: h(0) = 1 + 16 = 17, h(1) = 2 + 16 = 18, and h(2) = 4 + 16 = 20, which matches the table.
+#12
+Q: f(x) = 3(x − 1)(x − 8)(x − 11). If the given function f is graphed in the xy-plane, where y = f(x), what is the x-coordinate of an x-intercept of the graph?
+K: 1 | 8 | 11
+E: An x-intercept occurs where f(x) = 0, so x = 1, 8, or 11.
+#13
+Q: x + 4y = 19 and 2x + y = 4. The solution to the given system of equations is (x, y). What is the value of 3x + 5y?
+A) 12
+B) 15
+C) 23
+D) 38
+K: C
+E: Adding the equations gives 3x + 5y = 19 + 4 = 23.
+#14
+Q: In triangle DEF, the measure of angle D is 47° and the measure of angle E is 97°. In triangle RST, the measure of angle R is 47° and the measure of angle S is 97°. Which of the following additional pieces of information is needed to determine whether triangle DEF is similar to triangle RST?
+A) The measure of angle F
+B) The measure of angle T
+C) The measure of angle F and the measure of angle T
+D) No additional information is needed.
+K: D
+E: Two pairs of corresponding angles are congruent (47° and 97°), so the triangles are similar by AA.
+#15
+Q: x^2 + y = 21 and −x + y = 1. The solutions to the given system of equations are of the form (x, y). What is a possible value of x?
+A) −5
+B) −4
+C) −1
+D) 21
+K: A
+E: Subtracting gives x^2 + x = 20, so (x + 5)(x − 4) = 0 and x = −5 or 4. Only −5 is listed.
+#16
+Q: In the xy-plane, the graph of function f, where y = f(x), has exactly 8 x-intercepts. One of these x-intercepts is (17, 0). The rational function g is defined by g(x) = (f(x))/(x − 17). In the xy-plane, how many x-intercepts does the graph of y = g(x) have?
+K: 7
+E: Dividing by (x − 17) removes the zero at x = 17, so 7 of the 8 x-intercepts remain.
+#17
+Q: ((x − 7)(x − 9))/(x − 4) = 0. What is the sum of the solutions to the given equation?
+A) 4
+B) 9
+C) 16
+D) 20
+K: C
+E: The solutions are x = 7 and x = 9 (x = 4 is excluded), so their sum is 16.
+#18
+Q: In the xy-plane, line s passes through the point (0, 0) and is parallel to the line represented by the equation y = 42x + 6. If line s also passes through the point (4, d), what is the value of d?
+K: 168
+E: Line s is y = 42x, so d = 42 × 4 = 168.
+#19
+Q: A circle has center O, and points A and B lie on the circle. The measure of arc AB is 60°, and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?
+A) 4
+B) 8
+C) 16
+D) 24
+K: D
+E: 60° is 1/6 of the circle, so the circumference is 6 × 4 = 24 inches.
+#20
+Q: While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 170.00 pounds on Earth and a weight of 186.32 pounds on Neptune. The object's weight on Jupiter is 252.8% of its weight on Earth. If the object's weight on Neptune is x% of its weight on Jupiter, which of the following is closest to the value of x?
+A) 43.35
+B) 71.73
+C) 277.07
+D) 429.76
+K: A
+E: Jupiter weight = 2.528 × 170 = 429.76 pounds. Then x = 186.32 / 429.76 × 100 ≈ 43.35.
+#21
+Q: −x − wy = −357 and 2x − wy = 51. In the given system of equations, w is a constant. In the xy-plane, the graphs of these equations intersect at the point (q, 17), where q is a constant. What is the value of w?
+K: 13
+E: Subtracting the equations gives 3x = 408, so q = 136. Then −136 − 17w = −357, so w = 13.
+#22
+I: /qimg/24-dsat24-12-us-b-math-m1-q22.svg
+Q: In the right triangle shown, what is the value of tan A?
+K: 1.732 | 1.7320 | 1.73 | 1.7321 | √3 | √(3)
+E: Angle C is 30°, so angle A is 60° and tan A = tan 60° = √3 ≈ 1.732.
+=M2
+#1
+Q: The function g is defined by g(x) = 18 − x. What is the value of g(3)?
+A) 3
+B) 15
+C) 18
+D) 21
+K: B
+E: g(3) = 18 − 3 = 15.
+#2
+I: /qimg/24-dsat24-12-us-b-math-m2-q2.svg
+Q: The graph gives the estimated revenue, in dollars, for a company when the price of the company's product is x dollars. What does the y-value of the vertex of the graph represent in this context?
+A) The price, in dollars, of the company's product
+B) The minimum estimated revenue, in dollars
+C) The maximum estimated revenue, in dollars
+D) The estimated revenue, in dollars, when the price of the company's product is 0 dollars
+K: C
+E: The vertex is the highest point of the parabola, so its y-value is the maximum estimated revenue.
+#3
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>95</td></tr><tr><td>1</td><td>105</td></tr><tr><td>2</td><td>115</td></tr></table>
+Q: For a linear relationship between x and y, the table gives three values of x and their corresponding values of y. Which equation represents this relationship?
+A) y = 10x + 95
+B) y = x + 105
+C) y = x + 10
+D) y = 10x
+K: A
+E: y increases by 10 for each increase of 1 in x and y = 95 when x = 0, so y = 10x + 95.
+#4
+Q: A circle has a radius of 19 meters. What is the area, in square meters, of the circle?
+A) (19π)/(2)
+B) 19π
+C) 38π
+D) 361π
+K: D
+E: Area = π × 19^2 = 361π.
+#5
+Q: p = √(12c) − 25. The given equation relates the variables p and c, where c is positive. Which equation correctly expresses c in terms of p?
+A) c = ((p + 25)^2)/(12)
+B) c = (p^2)/(12) + (5)/(12)
+C) c = (p)/(24) + (25)/(24)
+D) c = (√(p + 25))/(12)
+K: A
+E: p + 25 = √(12c), so (p + 25)^2 = 12c and c = (p + 25)^2/12.
+#6
+Q: The function f is defined by f(x) = 98x. What is the slope of the graph of y = f(x) in the xy-plane?
+A) −98
+B) (1)/(98)
+C) 1
+D) 98
+K: D
+E: f(x) = 98x is a line with slope 98.
+#7
+Q: A linear model estimates the population of a city from 1993 to 2017. The model estimates the population was 52 thousand in 1993, 219 thousand in 2013, and x thousand in 2017. To the nearest whole number, what is the value of x?
+K: 252
+E: The rate is (219 − 52)/20 = 8.35 thousand per year, so x = 219 + 4 × 8.35 = 252.4 ≈ 252.
+#8
+Q: w^2 + 8w − 28 = 0. Which of the following is a solution to the given equation?
+A) 4 − 2√(11)
+B) 2√(11)
+C) √(11)
+D) −4 + 2√(11)
+K: D
+E: w = (−8 ± √(64 + 112))/2 = −4 ± 2√(11).
+#10
+Q: On January 1, there were 233 views of a video posted on a social media site. Every 2 days after January 1, the number of views of the video had increased by 60% of the number of views 2 days earlier. The function f gives the predicted number of views x days after January 1. Which equation defines f?
+A) f(x) = 233(0.60)^(x/2)
+B) f(x) = 233(0.60)^(2x)
+C) f(x) = 233(1.60)^(x/2)
+D) f(x) = 233(1.60)^(2x)
+K: C
+E: The views are multiplied by 1.60 every 2 days, so f(x) = 233(1.60)^(x/2).
+#11
+I: /qimg/24-dsat24-12-us-b-math-m2-q11.svg
+Q: The shaded region shown represents the solutions to the inequality ry < 128, where r is a constant. What is the value of r?
+A) 16
+B) 8
+C) −8
+D) −16
+K: D
+E: The boundary is y = −8 and the region above it is shaded, so y > −8. Dividing ry < 128 by a negative r gives y > 128/r, so 128/r = −8 and r = −16.
+#12
+Q: How many solutions does the equation 4(16x − 20) = −16(5 − 4x) have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+E: Both sides simplify to 64x − 80, so every x is a solution.
+#13
+Q: f(x) = 3,950(0.38)^(x/12). The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?
+A) 3
+B) 8
+C) 38
+D) 62
+K: D
+E: Each year (12 months) the value is multiplied by 0.38, so it decreases by 62%.
+#14
+Q: A beekeeper's initial observation of the population of a certain bee colony was 1,100 bees. The beekeeper set a goal to increase the population to 2,600 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,100 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper's goal is reached. According to this model, at the end of week w after the initial observation, where w > 2, which of the following functions gives the predicted number of bees still needed to reach the beekeeper's goal?
+A) p(w) = 2,600 − 180w
+B) p(w) = 2,480 − 180w
+C) p(w) = 1,620 − 180w
+D) p(w) = −120 + 180w
+K: C
+E: After week 2 there are 1,340 bees, so at week w there are 1,340 + 180(w − 2) = 980 + 180w. Bees still needed: 2,600 − (980 + 180w) = 1,620 − 180w.
+#15
+I: /qimg/24-dsat24-12-us-b-math-m2-q15.svg
+Q: What is an equation of the graph shown?
+A) 5x − 3y = 15
+B) 5x − 3y = −15
+C) 3x − 5y = 15
+D) 3x − 5y = −15
+K: A
+E: The line crosses the x-axis at (3, 0) and the y-axis at (0, −5), so its equation is 5x − 3y = 15.
+#17
+Q: 30x = 1,800y − 3,600. One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?
+A) (1)/(30)x = 2y
+B) (1)/(30)x = 60y − 120
+C) x = 2y
+D) x = 60y − 120
+K: A
+E: The given line is x = 60y − 120. A system has no solution when the second line is parallel but different: (1/30)x = 2y is x = 60y.
+#18
+Q: The exponential function f is defined by f(x) = ab^x, where a and b are positive constants. If f(s) = t and f(s + 1) = t − 0.87t, where s and t are constants, what is the value of b?
+A) 0.13
+B) 0.87
+C) 1.13
+D) 1.87
+K: A
+E: f(s + 1)/f(s) = b, and f(s + 1) = 0.13t, so b = 0.13.
+#19
+Q: A container has a volume of 0.84 cubic meters. Which of the following is closest to this volume, in quarts? (Note: 100.00 centimeters = 1 meter. Use 946.35 cubic centimeters = 1.00 quart.)
+A) 0.09
+B) 7.95
+C) 794.93
+D) 887.62
+K: D
+E: 0.84 m^3 = 840,000 cm^3, and 840,000 / 946.35 ≈ 887.62 quarts.
+#20
+Q: Function f is a quadratic function. The graph of y = f(x) in the xy-plane has a vertex at (4, −6), contains the point (3, −8), and has a y-intercept at (0, a). The graph of y = 5 · f(x) has a y-intercept at (0, b). What is the positive difference between a and b?
+K: 152
+E: f(x) = −2(x − 4)^2 − 6, so a = f(0) = −38 and b = 5a = −190. The positive difference is 152.
+#21
+Q: −x^2 + bx − 64 = 0. In the given equation, b is an integer. The equation has no real solutions. What is the least possible value of b?
+K: -15
+E: No real solutions means b^2 − 256 < 0, so −16 < b < 16. The least integer is −15.
+#22
+Q: A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 2,700% of the number of prey at the start of the week, and the number of predators had increased by 180% of the number of predators at the start of the week. The number of prey at the end of the week was p% greater than the number of predators at the end of the week. What is the value of p?
+K: 900
+E: Prey grew to 28 times the start, predators to 2.8 times. 28 / 2.8 = 10, so prey is 900% greater.
