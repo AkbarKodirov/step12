@@ -8,243 +8,227 @@
 !missing: M1 M1 M1 M1 M1 M1 M1 M1 M1
 =M1
 #1
-I: /qimg/26-05-m-q203.png
-Q: Enter your answer.
+Q: n(x) = 2(x + 7) + (x − 7)
+Q: The function n is defined as shown. For what value of x is n(x) = 67?
 K: 20
 #2
-I: /qimg/26-05-m-q204.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q204-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q204-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q204-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q204-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A study established that in a certain park, there are at least 141 squirrels, consisting of red squirrels and gray squirrels. The study also established that there are at least 4 times as many gray squirrels as red squirrels in this park. Which of the following systems of inequalities best represents this situation, where g is the number of gray squirrels in this park and r is the number of red squirrels in this park?
+A) g + r ≤ 141<br>g ≥ 4r
+B) g + r ≤ 141<br>g ≤ 4r
+C) g + r ≥ 141<br>g ≥ 4r
+D) g + r ≥ 141<br>g ≤ 4r
 K: C
 #3
-I: /qimg/26-05-m-q205.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q205-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q205-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q205-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q205-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A company has a customer loyalty program. In January 2018, there were 1,100 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 4% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m ≤ 24?
+A) c = 1,100(0.04)^m
+B) c = 1,100(1.04)^m
+C) c = 1,100(1.4)^m
+D) c = 1,100(4)^m
 K: B
 #4
-I: /qimg/26-05-m-q206.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q206-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q206-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q206-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q206-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The measure of angle F is (π)/(12) radians. If the measure of angle F is 3n degrees, where n is a constant, what is the value of n?
+A) 3
+B) 5
+C) 12
+D) 15
 K: B
 #5
-I: /qimg/26-05-m-q207.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q207-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q207-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q207-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q207-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: 5x^2 + 2x − 6 = 0
+Q: What is one of the solutions to the given equation?
+A) (1 − √31)/(10)
+B) (1 − √31)/(5)
+C) (−1 − √31)/(10)
+D) (−1 − √31)/(5)
 K: D
 #6
-I: /qimg/26-05-m-q208.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q208-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q208-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q208-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q208-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+I: /qimg/26-05-m-q208.svg
+Q: Which of the following equations is the most appropriate model for the data shown in the scatterplot?
+A) y = −(1.56)^(−x) + 6
+B) y = −(1.56)^x + 6
+C) y = (1.56)^(−x) − 6
+D) y = (1.56)^(−x) + 5
 K: D
 #7
-I: /qimg/26-05-m-q210.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q210-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q210-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q210-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q210-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: y = 4x^2 − 24x + 42
+Q: y + 3 = 0
+Q: How many solutions are there to the given system of equations?
+A) There is exactly 1 solution.
+B) There are exactly 2 solutions.
+C) There are exactly 3 solutions.
+D) There are no solutions.
 K: D
 #8
-I: /qimg/26-05-m-q211.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q211-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q211-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q211-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q211-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A jar has 770 marbles, and 20% of these marbles are orange. How many marbles in the jar are orange?
+A) 154
+B) 308
+C) 385
+D) 750
 K: A
 #9
-I: /qimg/26-05-m-q212.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q212-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q212-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q212-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q212-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: y = 24
+Q: y − x = 0
+Q: Which of the following points (x, y) represents the solution to the given system of equations in the xy-plane?
+A) (0, 0)
+B) (0, 24)
+C) (24, 0)
+D) (24, 24)
 K: D
 #10
-I: /qimg/26-05-m-q213.png
-Q: Enter your answer.
+Q: The function g is defined by g(x) = |10x| + 15. What is the value of g(−6)?
 K: 75
 #11
-I: /qimg/26-05-m-q214.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q214-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q214-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q214-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q214-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: For the linear function g, g(4) = 10 and g(x + 1) − g(x) = 6. Which equation defines g?
+A) g(x) = 4x + 10
+B) g(x) = 4x + 6
+C) g(x) = 6x − 14
+D) g(x) = 6x − 24
 K: C
 #12
-I: /qimg/26-05-m-q215.png
-Q: Enter your answer.
+Q: The sides of a rectangle are such that the length is 3 centimeters more than 5 times the width, in centimeters. If the width of the rectangle is 11 centimeters, what is the area, in square centimeters, of the rectangle?
 K: 638
 #13
-I: /qimg/26-05-m-q216.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q216-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q216-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q216-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q216-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+I: /qimg/26-05-m-q216.svg
+Q: Triangle XYZ shown is a right triangle. Which of the following has the same value as sin X?
+A) tan X
+B) tan Y
+C) cos X
+D) cos Y
 K: D
 =M2
 #1
-I: /qimg/26-05-m-q265.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q265-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q265-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q265-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q265-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Which expression is equivalent to 2x^5 + 12w?
+A) 2(x^5 + 6w)
+B) 2(x^5 + 12w)
+C) 6(x^5 + 2w)
+D) 12(x^5 + w)
 K: A
 #2
-I: /qimg/26-05-m-q266.png
-Q: Enter your answer.
+Q: x^2 + 5 = (17)^2 + 5
+Q: What is a solution to the given equation?
 K: 17
 #3
-I: /qimg/26-05-m-q267.png
-Q: Enter your answer.
+Q: f(x) = 35x + 500
+Q: The function f gives the monthly fee f(x), in dollars, a storage company charges to keep x boxes in its warehouse. What is the monthly fee, in dollars, the company charges to keep 60 boxes in its warehouse?
 K: 2600
 #4
-I: /qimg/26-05-m-q268.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q268-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q268-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q268-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q268-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+I: /qimg/26-05-m-q268.svg
+Q: What is an equation of the graph shown?
+A) y = 3^x + 7
+B) y = 3^(−x) + 7
+C) y = 3^x + 8
+D) y = 3^(−x) + 8
 K: A
 #5
-I: /qimg/26-05-m-q269.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q269-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q269-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q269-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q269-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: If the equations −8x + y = 19 and 8x + y = 19 are graphed in the xy-plane, at what point (x, y) do the graphs intersect?
+A) (0, 19)
+B) (0, 8)
+C) (8, 0)
+D) (19, 0)
 K: A
 #6
-I: /qimg/26-05-m-q270.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q270-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q270-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q270-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q270-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A rectangle has a length that is 31 times its width. The function y = (31w)(w) represents this situation, where y is the area, in square feet, of the rectangle and y > 0. Which of the following is the best interpretation of 31w in this context?
+A) The length of the rectangle, in feet
+B) The area of the rectangle, in square feet
+C) The difference between the length and the width of the rectangle, in feet
+D) The width of the rectangle, in feet
 K: A
 #7
-I: /qimg/26-05-m-q271.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q271-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q271-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q271-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q271-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: x + 14 = y(z + 8)
+Q: The given equation relates the distinct positive variables x, y, and z. Which equation correctly represents z in terms of x and y?
+A) z = (x + 6)/(y)
+B) z = (x)/(y) + 6
+C) z = (x + 14)/(y) + 8
+D) z = (x + 14)/(y) − 8
 K: D
 #8
-I: /qimg/26-05-m-q272.png
-Q: Enter your answer.
+Q: y = (1)/(8)x − 22
+Q: y = −x + 32
+Q: The solution to the given system of equations is (x, y). What is the value of x?
 K: 48
 #9
-I: /qimg/26-05-m-q273.png
-Q: Enter your answer.
+Q: The graph of radical function f in the xy-plane, where y = f(x), contains the points (−5, 11), (−2.6, 0), and (0, −9.5). What is the value of f(0)?
 K: -9.5
 #10
-I: /qimg/26-05-m-q274.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q274-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q274-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q274-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q274-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A rectangle has a perimeter of 46 inches. If the sum of the lengths of three sides of the rectangle is 32 inches, what is the length, in inches, of the fourth side?
+A) 9
+B) 14
+C) 46
+D) 78
 K: B
 #11
-I: /qimg/26-05-m-q275.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q275-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q275-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q275-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q275-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The height of a right circular cylinder is 21 inches, and the circumference of its base is 210 inches. Which expression represents the total surface area, in square inches, of the cylinder?
+A) (21)(210) + 2π((105)/(π))^2
+B) (21)(210) + π((105)/(π))^2
+C) π((105)/(π))^2(21)
+D) (21)(210)
 K: A
 #12
-I: /qimg/26-05-m-q277.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q277-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q277-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q277-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q277-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A botanist studied the growth rate of a birch tree over two years. In the first year, the height of the tree increased c inches. In the second year, the height of the tree increased d inches. The height of the tree increased a total of 65 inches over these two years. Which equation represents this situation?
+A) −c − d = 65
+B) −c + d = 65
+C) c − d = 65
+D) c + d = 65
 K: D
 #13
-I: /qimg/26-05-m-q278.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q278-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q278-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q278-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q278-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+I: /qimg/26-05-m-q246.svg
+Q: In the figure, two lines intersect at a point. If a = 24, what is the value of b?
+A) −66
+B) 24
+C) 156
+D) 384
 K: B
 #14
-I: /qimg/26-05-m-q279.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q279-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q279-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q279-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q279-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: If x is a positive integer, the expression 0.15x represents what percent of x?
+A) 185
+B) 115
+C) 85
+D) 15
 K: D
 #15
-I: /qimg/26-05-m-q280.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q280-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q280-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q280-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q280-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Jonathon bought both neon tetra fish and swordtail fish for a total of $51. Each neon tetra fish costs $5 and each swordtail fish costs $7. If Jonathon bought 3 swordtail fish, how many neon tetra fish did he buy?
+A) 6
+B) 12
+C) 21
+D) 48
 K: A
 #16
-I: /qimg/26-05-m-q281.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q281-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q281-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q281-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q281-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: f(x) = x + (4)/(9)
+Q: The function f is defined by the given equation. What is the value of f(x) when x = (5)/(9)?
+A) (4)/(9)
+B) (5)/(9)
+C) 1
+D) 9
 K: C
 #17
-I: /qimg/26-05-m-q282.png
-Q: Enter your answer.
+Q: A car dealership has only sedans, SUVs, and minivans for sale. On Monday, 20% of the vehicles for sale were sedans and 50% were SUVs. If there were 36 sedans for sale at the dealership on Monday, how many minivans were for sale?
 K: 54
 #18
-I: /qimg/26-05-m-q284.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q284-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q284-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q284-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q284-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: x + 4 = 12
+Q: (x + 4)^2 = y
+Q: Which ordered pair (x, y) is a solution to the given system of equations?
+A) (8, 144)
+B) (8, 8)
+C) (8, 12)
+D) (8, 48)
 K: A
 #19
-I: /qimg/26-05-m-q285.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q285-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q285-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q285-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q285-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: At a convention center, there are a total of 225 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.72, and the probability of selecting a visitor who is located in room B is 0.24. How many visitors are located in room C?
+A) 4
+B) 9
+C) 39
+D) 108
 K: B
 #20
-I: /qimg/26-05-m-q287.png
-Q: Enter your answer.
+Q: (x + 3)(x − 13) = 0
+Q: What is the positive solution to the given equation?
 K: 13
 #21
-I: /qimg/26-05-m-q289.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q289-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q289-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q289-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q289-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Line t in the xy-plane has a slope of (1)/(8) and passes through the point (40, −9). Which equation defines line t?
+A) y = −14x + (1)/(8)
+B) y = (x)/(8) − 14
+C) y = (x)/(8) − 9
+D) y = 40x − 9
 K: B
 #22
-I: /qimg/26-05-m-q290.png
-Q: Enter your answer.
+Q: Each angle of triangle ABC is congruent to one of the angles of triangle QRS. If AB = 38, BC = 57, AC = 76, and RS = 228, what is one possible value for the perimeter of triangle QRS?
 K: 513

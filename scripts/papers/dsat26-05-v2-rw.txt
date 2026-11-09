@@ -5,7 +5,7 @@
 !month: 5
 !region: International
 !form: 2
-!missing: M1 M1 M1 M1 M1 M1 M1 M1
+!missing: M1 M1 M1 M1 M1 M1 M1 M1 M1
 =M1
 #1
 P: Edmund Morris, noted for his three-volume chronicle of the life of Theodore Roosevelt, completed Edison, his biography of Thomas Edison, in 2019. The book covers important parts of its subject’s life, including Edison’s childhood in Michigan, his creation of a carbon-filament electric light bulb, and his development of a rechargeable battery. However, it relates Edison’s life in reverse chronological order, an unusual approach about which reviewer Derek Thompson said, “Nothing is gained by [it], and much comprehension is lost.”
@@ -15,14 +15,6 @@ B) It identifies a biography, notes some events recounted in the biography, then
 C) It refers to two biographies, contrasts certain aspects of those biographies, then explains why critics generally preferred one biography to the other.
 D) It presents the subject of a biography, describes some major developments in that subject’s life, then suggests that the biography’s account of that life made some careless omissions.
 K: B
-#2
-I: /qimg/26-05-rw-q32.png
-Q: Which choice most effectively uses data from the graph to complete the assertion?
-A) the lowest rate of damage occurred in the area of the orchard where the repeller was not attached to a neural network.
-B) the rate of damage to the pears was approximately 7% in the area with the repeller attached to a neural network and approximately 13% in the area where no repeller was used.
-C) the rate of damage to the pears was approximately 6% in the area with the repeller attached to a neural network and approximately 7% in the area with the repeller not attached to a neural network.
-D) the greatest rate of damage to the pears occurred in the area of the orchard where no repeller was used.
-K: C
 #3
 P: A 2025 study performed by Simon Townsend and colleagues presents evidence that bonobos, close relatives of chimpanzees, are capable of a rudimentary compositionality in communication—that is, they can organize sounds they make such that the order carries meaning in addition to the sounds themselves. After reviewing bonobo calls recorded in forests of the Democratic Republic of the Congo, Townsend’s team claimed that bonobos sometimes paired calls in specific orders and that the contexts of such pairs indicate they were deliberate communications rather than products of chance. The team based their claim on mathematical analysis of hundreds of hours of bonobo calls along with notes of the contexts in which they occurred.
 Q: Which finding, if true, would best support the researchers’ claim?
@@ -100,7 +92,8 @@ C) To describe a character
 D) To portray a setting
 K: D
 #12
-I: /qimg/26-05-rw-q46.png
+I: /qimg/26-05-rw-q46.svg
+P: Whereas international consumers regard Azerbaijani tea as a premium product, Azerbaijanis often complain about the poor quality of the tea available there. To better understand the situation, a tea company employee collected data on Azerbaijan’s volumes of locally grown, imported, and exported tea in 2012, 2018, and 2024.
 Q: Which choice describes data from the graph that could most reasonably explain the situation described in the text?
 A) In 2012, 2018, and 2024, Azerbaijan imported substantially more tea than it grew locally or exported, suggesting that locally consumed tea is primarily imported tea rather than Azerbaijani tea.
 B) The volume of locally grown tea and the volume of imported tea were both substantially greater in 2024 than in 2012, suggesting a rapid rise in the popularity of tea among Azerbaijanis.
@@ -108,7 +101,8 @@ C) In 2012, the volume of exported tea exceeded the volume of locally grown tea,
 D) In 2012 and 2018, all or most tea grown in Azerbaijan was exported, suggesting that Azerbaijani consumers had to consume imported tea instead.
 K: A
 #13
-I: /qimg/26-05-rw-q47.png
+I: /qimg/26-05-rw-q47.svg
+P: Elisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Denmark, Finland, and Belgium about the number of these species grown by the timber industries in those countries. The researchers concluded that none of these countries’ timber industries grow all 23 species.
 Q: Which choice best describes data from the graph that support Pétzelsberger and colleagues’ conclusion?
 A) Some of the species that Finland reported are not among the 23 tree species that Potzelsberger and colleagues were evaluating.
 B) There are species other than those reported by Belgium that are important to its timber industry, but they’re native to the country.
@@ -168,7 +162,8 @@ D) Debris
 K: A
 =M2
 #1
-I: /qimg/26-05-rw-q88.png
+T: <table><caption>Percentage of Trials in which Dogs Exhibited Behavior in Three Tests</caption><thead><tr><th>Dog name</th><th>Test 1</th><th>Test 2</th><th>Test 3</th><th>Breed</th></tr></thead><tbody><tr><td>Rico</td><td>42</td><td>92</td><td>16</td><td>border collie</td></tr><tr><td>Popi</td><td>0</td><td>0</td><td>8</td><td>border collie</td></tr><tr><td>Kesu</td><td>0</td><td>8</td><td>0</td><td>border terrier</td></tr><tr><td>Enzo</td><td>0</td><td>0</td><td>8</td><td>whippet</td></tr></tbody></table>
+P: Studying a group that contained both typical dogs and dogs known to be gifted at learning words, Andrea Sommese, Ádám Miklósi, and team targeted a behavior—head tilting—as a possible sign of processing meaningful information. The researchers exposed the dogs to two novel toys by name and then recorded the dogs’ head tilts when they were later asked to fetch the toys, with sets of trials given to each dog in tests at three intervals after exposure (1 month, 2 months, and 3 months).
 Q: According to the table, which dog tilted its head in 42% of trials when tested at 1 month after exposure to the toys?
 A) Kesu
 B) Rico
@@ -176,7 +171,8 @@ C) Popi
 D) Enzo
 K: B
 #2
-I: /qimg/26-05-rw-q89.png
+I: /qimg/26-05-rw-q89.svg
+P: Friction, the force that resists the movement of two materials in contact with each other, exists even when the materials are static (not moving). Friction coefficients are values that represent the degree of resistance between materials, with smaller values indicating less resistance. A student notes that of the pairs of materials in the graph, the greatest resistance occurs between ______
 Q: Which choice most effectively uses data from the graph to complete the statement?
 A) copper and cast iron.
 B) carbon and steel.
@@ -212,7 +208,7 @@ K: A
 #6
 P: The perception that a project has no precedent or comparable examples ______ called uniqueness bias. This flawed thinking has the potential to affect project performance significantly, with research showing that uniqueness bias correlates with budget overruns.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
-A) <img src="/qimg/26-05-rw-q93-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+A) is
 B) are
 C) being
 D) were
@@ -275,7 +271,8 @@ C) Weather conditions but not butterfly color
 D) Butterfly color but not weather conditions
 K: B
 #14
-I: /qimg/26-05-rw-q102.png
+T: <table><caption>Members of the Girl Scouts of America, by Age Category, 1992–1995 (in thousands)</caption><thead><tr><th>Category</th><th>1992</th><th>1993</th><th>1994</th><th>1995</th></tr></thead><tbody><tr><td>Brownies (6–8 years)</td><td>1,319</td><td>1,225</td><td>1,181</td><td>1,142</td></tr><tr><td>Daisies (5–6 years)</td><td>207</td><td>191</td><td>190</td><td>195</td></tr><tr><td>Seniors (14–17 years)</td><td>50</td><td>43</td><td>45</td><td>52</td></tr><tr><td>Cadettes (11–14 years)</td><td>188</td><td>168</td><td>174</td><td>172</td></tr></tbody></table>
+P: The Girl Scouts of America is an organization famous for its annual sales of several varieties of cookies, including S’Mores. A student is writing an essay on the history of the organization and wishes to determine which of four age groups of Girl Scouts had the most members in 1993. According to the table, the age group with the most members in 1993 was that of scouts ______
 Q: Which choice most effectively uses data from the table to complete the statement?
 A) from 14 to 17 years old.
 B) from 6 to 8 years old.
@@ -283,7 +280,8 @@ C) from 5 to 6 years old.
 D) from 11 to 14 years old.
 K: B
 #15
-I: /qimg/26-05-rw-q103.png
+I: /qimg/26-05-rw-q103.svg
+P: Friction, the force that resists the movement of two materials in contact with each other, exists even when the materials are static (not moving). Friction coefficients are values that represent the degree of resistance between materials, with smaller values indicating less resistance. A student notes that of the pairs of materials in the graph, the greatest resistance occurs between ______
 Q: Which choice most effectively uses data from the graph to complete the statement?
 A) graphite and mild steel.
 B) copper and cast iron.
@@ -316,7 +314,8 @@ C) “Demetrio laid a hand on his hair which covered his ears, and stretching hi
 D) “Yet he was previous; an hour or more elapsed with no sound or stir save the song of the locust in the brush or the frog stirring in his mudhole.”
 K: B
 #19
-I: /qimg/26-05-rw-q107.png
+T: <table><caption>US Hydroelectric Power Plants, 2019</caption><thead><tr><th>Plant</th><th>State</th><th>Mode</th><th>Generators in plant</th><th>Average power generation (MWh/yr)</th><th>Water source</th></tr></thead><tbody><tr><td>Smith Mountain</td><td>Virginia</td><td>peaking</td><td>5</td><td>339,845</td><td>Roanoke River</td></tr><tr><td>Gaston Shoals</td><td>South Carolina</td><td>peaking</td><td>4</td><td>14,059</td><td>Broad River</td></tr><tr><td>Oneida</td><td>Idaho</td><td>run-of-river</td><td>3</td><td>38,783</td><td>Bear River</td></tr><tr><td>Spearfish</td><td>South Dakota</td><td>run-of-river</td><td>2</td><td>2,204</td><td>Spearfish Creek</td></tr></tbody></table>
+P: In 2021, Rocío Uría-Martínez, Megan M. Johnson, and Rui Shan published a report on hydroelectric power plants operating in the US as recently as 2019, and data from their report are shown in the table. Of the plants in the table, the plant with the highest average power generated per year in 2019 was located in the state of ______.
 Q: Which choice most effectively uses data from the table to complete the assertion?
 A) South Carolina.
 B) Idaho.
@@ -366,7 +365,7 @@ C) To explain why exact prices present greater cognitive friction for some consu
 D) To account for the fact that exact prices remain uncommon in many places despite some positive consumer perceptions of them
 K: D
 #25
-I: /qimg/26-05-rw-q114.png
+P: Visiting flowers that produce high volumes of nectar allows hummingbirds, including stripe-throated hermits, to maximize their foraging efficiency. But nectar can’t be seen from outside the flower, and while <u>some studies have suggested that petal length may indicate nectar volume</u>, María A. Maglianesi and team found no such association among hummingbird-visited plants at Los Cusingos Bird Sanctuary and other sites in Costa Rica. The researchers hypothesize that by driving hummingbirds to visit more plants in search of high-reward flowers, plants’ lack of reliable signaling may increase chances of pollination.
 Q: Which choice best describes the function of the underlined portion in the text as a whole?
 A) It attributes the inconclusive findings reported in the text regarding the influence of a particular floral trait on interactions between hummingbirds and plants to differences in study sites.
 B) It suggests that a hypothesis discussed later in the text regarding a potential visual cue that hummingbirds rely on to increase their foraging efficiency has little support from the broader scientific community.
@@ -382,7 +381,10 @@ C) It indicates Yung’s unwillingness to distinguish between reality and fantas
 D) It describes an event in Yung’s life that exemplifies a phenomenon.
 K: D
 #27
-I: /qimg/26-05-rw-q116.png
+P: <b>Text 1</b>
+P: Coal mining and other human activities are significant sources of atmospheric methane (CH<sub>4</sub>), but, as Sander Houweling and colleagues have shown, so too are naturally occurring emissions, such as those from wild animals. This biogenic CH<sub>4</sub> is challenging to monitor given natural sources’ variability and spatial diffusion, but one promising <u>approach</u> is to use CH<sub>4</sub> flux data from extant monitoring infrastructure as proxies for CH<sub>4</sub> fluxes in unmonitored areas.
+P: <b>Text 2</b>
+P: Sparkle Malone and colleagues examined the United States’ network of eddy covariance (EC) towers—the equipment used to track CH<sub>4</sub> fluxes—to evaluate the utility of network data for quantifying biogenic CH<sub>4</sub>. Malone et al. found that EC towers are disproportionately concentrated in areas where biogenic CH<sub>4</sub> emissions are known to be elevated, a pattern that seriously compromises the representativeness of network data.
 Q: Based on the texts, Malone et al. (Text 2) would most likely agree with which statement about the “approach” described in Text 1?
 A) It could compromise the accuracy of the biogenic CH, emissions data that EC towers collect in areas with elevated emissions.
 B) It would only be viable if the EC towers monitoring biogenic CH, emissions could detect smaller fluxes than they can at present.

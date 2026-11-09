@@ -146,7 +146,7 @@ K: C
 #17
 P: Delaware is one of several US states with legislative provisions for the incorporation of worker cooperatives, businesses in which each worker receives an equal vote in company governance. Skeptics have questioned the co-op model for decades and declared ______ means of governance economically unsustainable, ignoring many examples of successful worker-owned businesses.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
-A) <img src="/qimg/26-05-rw-q20-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+A) they’re
 B) one’s
 C) its
 D) their
@@ -155,7 +155,7 @@ K: C
 P: In British gothic fiction of the eighteenth century, gone are the rational narratives that dominated earlier literary movements of the Enlightenment period. In ______ place are stories rife with the supernatural and psychological intensity that appealed to readers seeking escape from the Age of Reason.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
 A) its
-B) <img src="/qimg/26-05-rw-q21-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+B) they’re
 C) it’s
 D) their
 K: D
@@ -230,7 +230,7 @@ C) forgets
 D) predicts
 K: A
 #27
-I: /qimg/26-05-rw-q30.png
+P: Any effort to raise the toll that drivers must pay to use the Fort Madison Toll Bridge, which spans the Mississippi River to connect Iowa and Illinois, should explain why a higher toll is necessary; no amount of justification, however, is likely to persuade some drivers who believe the current toll is ______.
 Q: Which choice completes the text with the most logical and precise word or phrase?
 A) contentious
 B) exorbitant
@@ -280,7 +280,10 @@ C) To describe a general trend in the swim depths of certain species that explai
 D) To summarize a theory that accounts for why most air-breathing marine animals swim at the same depth regardless of their size
 K: B
 #6
-I: /qimg/26-05-rw-q65.png
+P: <b>Text 1</b>
+P: Stonefox’s 2013 song “All I Want” includes a specific musical pattern. That pattern consists of two alternating notes sung over and over with “wa” and “oh” sounds, resulting in a sequence of “Wa-oh-wa-oh.” This pattern showed up in so many pop songs in the 2000s and 2010s that eventually it earned a nickname, “the millennial whoop.” The whoop showed up so frequently that some musicians and critics felt it <u>had grown irritating</u>.
+P: <b>Text 2</b>
+P: The millennial whoop could be annoying. Not every pop song needs “Wa-oh-wa-ohs!” and it seemed as though nearly every pop song released between 2000 and 2017 had them. But the whoop could also be genuinely fun or even moving. Too many songwriters used it in too many pop songs for a time, but that doesn’t mean the whoop was never used well.
 Q: Based on the texts, what would the author of Text 2 most likely say in response to the underlined portion of Text 1?
 A) are better examples of the millennial whoop than the one found in
 B) “The millennial whoop is worth talking about, but other musical patterns are more interesting.”
@@ -312,7 +315,8 @@ C) The editorial choices of a 2018 anthology are a reflection of the widening ac
 D) Some scholars and poets have criticized Pang’s poem “Other Things” for exceeding the generally accepted length for prose poems.
 K: A
 #10
-I: /qimg/26-05-rw-q69.png
+T: <table><caption>Percentage of Trials in which Dogs Exhibited Behavior in Three Tests</caption><thead><tr><th>Dog name</th><th>Test 1</th><th>Test 2</th><th>Test 3</th><th>Breed</th></tr></thead><tbody><tr><td>Athena</td><td>0</td><td>8</td><td>0</td><td>border collie</td></tr><tr><td>Benhur</td><td>0</td><td>0</td><td>16</td><td>kelpie</td></tr><tr><td>Scotch</td><td>0</td><td>8</td><td>0</td><td>Australian shepherd</td></tr><tr><td>Gaia</td><td>92</td><td>83</td><td>67</td><td>border collie</td></tr></tbody></table>
+P: Studying a group that contained both typical dogs and dogs known to be gifted at learning words, Andrea Sommese, Ákos Pogány, and team targeted a behavior—head tilting—as a possible sign of processing meaningful information. The researchers exposed the dogs to two novel toys by name and then recorded the dogs’ head tilts when they were later asked to fetch the toys, with sets of trials given to each dog in tests at three intervals after exposure (1 month, 2 months, and 3 months).
 Q: According to the table, which dog tilted its head in 92% of trials when tested at 1 month after exposure to the toys?
 A) Gaia
 B) Benhur
@@ -320,7 +324,8 @@ C) Athena
 D) Scotch
 K: A
 #11
-I: /qimg/26-05-rw-q70.png
+T: <table><caption>US Hydroelectric Power Plants, 2019</caption><thead><tr><th>Plant</th><th>State</th><th>Mode</th><th>Generators in plant</th><th>Average power generation (MWh/yr)</th><th>Water source</th></tr></thead><tbody><tr><td>Spirit Mountain</td><td>Wyoming</td><td>run-of-river</td><td>1</td><td>15,940</td><td>Shoshone River</td></tr><tr><td>Kankakee Hydro Facility</td><td>Illinois</td><td>run-of-river</td><td>3</td><td>1,832</td><td>Kankakee River</td></tr><tr><td>Hiwassee Dam</td><td>North Carolina</td><td>peaking</td><td>2</td><td>198,220</td><td>Hiwassee River</td></tr><tr><td>Wallowa Falls</td><td>Oregon</td><td>run-of-river</td><td>1</td><td>5,642</td><td>East Fork Wallowa River</td></tr></tbody></table>
+P: In 2021, Rocío Uría-Martínez, Megan M. Johnson, and Rui Shan published a report on hydroelectric power plants operating in the US as recently as 2019, and data from their report are shown in the table. Of the plants in the table, the plant with the highest average power generated per year in 2019 was located in the state of ______.
 Q: Which choice most effectively uses data from the table to complete the assertion?
 A) Oregon.
 B) North Carolina.
@@ -328,7 +333,8 @@ C) Illinois.
 D) Wyoming.
 K: B
 #12
-I: /qimg/26-05-rw-q71.png
+I: /qimg/26-05-rw-q71.svg
+P: Argo is a worldwide program that monitors Earth’s oceans using thousands of underwater robots called floats. The floats measure certain water properties, such as temperature and pH level, while moving up and down in the water. The data recorded by these floats are made available online. Scientists make a lot of use of these data; for example, in 2024, ______
 Q: Which choice most effectively uses data from the graph to complete the example?
 A) the floats recorded data from about 500 different locations worldwide.
 B) more than 500 floats were released into the oceans to record data about the weather.
@@ -442,7 +448,9 @@ C) supersedes
 D) encompasses
 K: D
 #26
-I: /qimg/26-05-rw-q86.png
+P: The following text is from Rohinton Mistry’s 2002 novel <i>Family Matters</i>.
+P: A splash of light from the late-afternoon sun lingered at the foot of Nariman’s bed as he ended his nap and looked towards the clock. <u>It was almost six.</u> He glanced down where the warm patch had lured his toes. Knurled and twisted, rendered birdlike by age, they luxuriated in the sun’s comfort. His eyes fell shut again.
+P: ©2002 by Rohinton Mistry
 Q: Which choice best describes the function of the underlined sentence in the text as a whole?
 A) It describes the warm patch.
 B) It establishes that Nariman feels optimistic.

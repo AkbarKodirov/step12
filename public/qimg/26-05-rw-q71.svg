@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 318" width="470" height="318" font-family="serif" font-size="12">
+<text x="250.0" y="18" text-anchor="middle" font-size="13">Research Papers Citing</text>
+<text x="250.0" y="34" text-anchor="middle" font-size="13">Argo Data, by Year</text>
+<line x1="70" y1="240.0" x2="430" y2="240.0" stroke="#000" stroke-width="0.8"/><text x="64" y="244.0" text-anchor="end">0</text>
+<line x1="70" y1="210.0" x2="430" y2="210.0" stroke="#000" stroke-width="0.8"/><text x="64" y="214.0" text-anchor="end">100</text>
+<line x1="70" y1="180.0" x2="430" y2="180.0" stroke="#000" stroke-width="0.8"/><text x="64" y="184.0" text-anchor="end">200</text>
+<line x1="70" y1="150.0" x2="430" y2="150.0" stroke="#000" stroke-width="0.8"/><text x="64" y="154.0" text-anchor="end">300</text>
+<line x1="70" y1="120.0" x2="430" y2="120.0" stroke="#000" stroke-width="0.8"/><text x="64" y="124.0" text-anchor="end">400</text>
+<line x1="70" y1="90.0" x2="430" y2="90.0" stroke="#000" stroke-width="0.8"/><text x="64" y="94.0" text-anchor="end">500</text>
+<line x1="70" y1="60.0" x2="430" y2="60.0" stroke="#000" stroke-width="0.8"/><text x="64" y="64.0" text-anchor="end">600</text>
+<line x1="70" y1="60" x2="70" y2="240" stroke="#000"/>
+<rect x="81.0" y="231.0" width="50" height="9.0" fill="#555" stroke="#000" stroke-width="0.8"/>
+<text x="106.0" y="256" text-anchor="middle">2004</text>
+<rect x="153.0" y="204.0" width="50" height="36.0" fill="#555" stroke="#000" stroke-width="0.8"/>
+<text x="178.0" y="256" text-anchor="middle">2009</text>
+<rect x="225.0" y="132.0" width="50" height="108.0" fill="#555" stroke="#000" stroke-width="0.8"/>
+<text x="250.0" y="256" text-anchor="middle">2014</text>
+<rect x="297.0" y="84.0" width="50" height="156.0" fill="#555" stroke="#000" stroke-width="0.8"/>
+<text x="322.0" y="256" text-anchor="middle">2019</text>
+<rect x="369.0" y="90.0" width="50" height="150.0" fill="#555" stroke="#000" stroke-width="0.8"/>
+<text x="394.0" y="256" text-anchor="middle">2024</text>
+<text x="250.0" y="276" text-anchor="middle" font-size="13">Year</text><text transform="translate(16,150.0) rotate(-90)" text-anchor="middle" font-size="13">Number of research papers</text>
+<rect x="130" y="283" width="11" height="11" fill="#555" stroke="#000"/><text x="148" y="292">papers</text>
+</svg>

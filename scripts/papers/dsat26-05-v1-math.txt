@@ -7,307 +7,288 @@
 !form: 1
 =M1
 #1
-I: /qimg/26-05-m-q156.png
-Q: Enter your answer.
+Q: x = 6
+Q: x + 4y = 14
+Q: The solution to the given system of equations is (x, y). What is the value of y?
 K: 2
 #2
-I: /qimg/26-05-m-q157.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q157-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q157-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q157-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q157-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: f(x) = 6x + 200
+Q: The function shown gives the total cost f(x), in dollars, for making x units of a certain product. What is the total cost, in dollars, for making 100 units of this product?
+A) 100
+B) 200
+C) 600
+D) 800
 K: D
 #3
-I: /qimg/26-05-m-q158.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q158-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q158-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q158-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q158-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Which expression is a factor of x^4 + 14ax^2 + 49a^2 − 64, where a is a positive constant?
+A) x^2 + 7a + 8
+B) x^2 − 7a − 8
+C) x^2 + 14a
+D) x^2 − 8a
 K: A
 #4
-I: /qimg/26-05-m-q159.png
-Q: Enter your answer.
+Q: A jar has 770 buttons, and 20% of these buttons are red. How many buttons in the jar are red?
 K: 154
 #5
-I: /qimg/26-05-m-q160.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q160-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q160-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q160-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q160-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: If the equations −11x + y = 22 and 11x + y = 22 are graphed in the xy-plane, at what point (x, y) do the graphs intersect?
+A) (0, 22)
+B) (0, 11)
+C) (11, 0)
+D) (22, 0)
 K: A
 #6
-I: /qimg/26-05-m-q161.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q161-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q161-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q161-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q161-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A square has a side length of 42 inches. What is the area, in square inches, of the square?
+A) 1,764
+B) 168
+C) 84
+D) 42
 K: A
 #7
-I: /qimg/26-05-m-q162.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q162-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q162-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q162-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q162-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A model estimates that the initial number of photons in an X-ray beam is 700 when the beam reaches the surface of a certain material. The model also estimates that when the beam passes through this material, the number of photons in the beam decreases by 50% for each 18 millimeters of the material the beam passes through. Which equation represents this model, where I is the estimated number of photons in the beam when the beam reaches a point x millimeters from the surface?
+A) I = 700(0.5)^(x/18)
+B) I = 700(0.5)^x
+C) I = 700(2)^(x/18)
+D) I = 700(18)^(x/2)
 K: A
 #8
-I: /qimg/26-05-m-q163.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q163-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q163-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q163-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q163-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The function f is defined by f(x) = (7)/(9)x + (14)/(9). What is the slope of the graph of y = f(x) in the xy-plane?
+A) (1)/(2)
+B) (7)/(9)
+C) (14)/(9)
+D) 2
 K: B
 #9
-I: /qimg/26-05-m-q164.png
-Q: Enter your answer.
+Q: 3x^2 − 23x − 36 = 0
+Q: What is the positive solution to the given equation?
 K: 9
 #10
-I: /qimg/26-05-m-q165.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q165-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q165-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q165-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q165-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: (x^2 − 10)(x^2 − 2)
+Q: The given expression can be written in the form x^4 + bx^2 + 20, where b is a constant. What is the value of b?
+A) 8
+B) 0
+C) −8
+D) −12
 K: D
 #11
-I: /qimg/26-05-m-q167.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q167-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q167-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q167-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q167-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The product of a positive number x and the number that is 6 more than x is 216. What is the value of x?
+A) 6
+B) 12
+C) 18
+D) 36
 K: B
 #12
-I: /qimg/26-05-m-q168.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q168-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q168-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q168-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q168-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: x + 12 = y(z + 9)
+Q: The given equation relates the distinct positive variables x, y, and z. Which equation correctly represents z in terms of x and y?
+A) z = (x + 3)/(y)
+B) z = (x)/(y) + 3
+C) z = (x + 12)/(y) + 9
+D) z = (x + 12)/(y) − 9
 K: D
 #13
-I: /qimg/26-05-m-q169.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q169-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q169-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q169-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q169-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: g(x) = (1)/(4)(9)^x
+Q: If the given function g is graphed in the xy-plane, where y = g(x), what is the y-intercept of the graph?
+A) (0, 0)
+B) (0, (1)/(4))
+C) (0, (9)/(4))
+D) (0, 9)
 K: B
 #14
-I: /qimg/26-05-m-q170.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q170-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q170-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q170-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q170-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Triangle ABC is similar to triangle XYZ such that A, B, and C correspond to X, Y, and Z, respectively. The length of each side of triangle ABC is n times the length of its corresponding side in triangle XYZ, where n is an integer greater than 1. The measure of angle C is 59 degrees, and YZ = 72. Which of the following must be true?
+A) The measure of angle Z is (59)/(n) degrees.
+B) The measure of angle Z is 59n degrees.
+C) BC = (72)/(n)
+D) BC = 72n
 K: D
 #15
-I: /qimg/26-05-m-q171.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q171-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q171-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q171-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q171-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: 5|x − 5| = 30
+Q: What is the sum of the solutions to the given equation?
+A) −6
+B) 0
+C) 10
+D) 35
 K: C
 #16
-I: /qimg/26-05-m-q172.png
-Q: Enter your answer.
+Q: A right square pyramid has a height of 15 inches and a volume of 405 cubic inches. What is the perimeter, in inches, of the base of this pyramid?
 K: 36
 #17
-I: /qimg/26-05-m-q173.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q173-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q173-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q173-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q173-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: In the xy-plane, circle M is the graph of the equation (x − 7)^2 + (y − 5)^2 = 9. Circle P has the same center as circle M but has a radius that is twice the radius of circle M. Which equation represents circle P?
+A) (x − 7)^2 + (y − 5)^2 = 18
+B) (x − 7)^2 + (y − 5)^2 = 36
+C) (x − 14)^2 + (y − 10)^2 = 9
+D) (x − 14)^2 + (y − 10)^2 = 18
 K: B
 #18
-I: /qimg/26-05-m-q174.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q174-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q174-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q174-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q174-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A chef made 36 cups of sauce. The chef then filled x small jars and y large jars with all the sauce he made. The equation 2x + 5y = 36 represents this situation. Which is the best interpretation of 5y in this context?
+A) The number of large jars the chef filled
+B) The number of small jars the chef filled
+C) The total number of cups of sauce in the large jars
+D) The total number of cups of sauce in the small jars
 K: C
 #19
-I: /qimg/26-05-m-q175.png
-Q: Enter your answer.
+Q: Line j is defined by 4x + 5y = 65. Line k is parallel to line j in the xy-plane. An equation of line k is 32x + ry = 15, where r is a constant. If line k passes through the point (0, b), what is the value of b?
 K: 0.375
 #20
-I: /qimg/26-05-m-q176.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q176-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q176-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q176-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q176-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+I: /qimg/26-05-m-q176.svg
+Q: In triangles RST and XYZ shown, XY is parallel to TS and tan R = (396)/(403). What is the value of sin X in triangle XYZ?
+A) (396)/(799)
+B) (396)/(565)
+C) (403)/(565)
+D) (403)/(396)
 K: C
 #21
-I: /qimg/26-05-m-q178.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q178-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q178-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q178-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q178-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: s = 30 + 4t
+Q: The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?
+A) 30
+B) 34
+C) 35
+D) 50
 K: D
 #22
-I: /qimg/26-05-m-q179.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q179-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q179-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q179-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q179-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: What is 20% of 380?
+A) 76
+B) 152
+C) 340
+D) 360
 K: A
 =M2
 #1
-I: /qimg/26-05-m-q218.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q218-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q218-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q218-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q218-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: A rectangle has a perimeter of 42 inches. If the sum of the lengths of three sides of the rectangle is 30 inches, what is the length, in inches, of the fourth side?
+A) 9
+B) 12
+C) 42
+D) 72
 K: B
 #2
-I: /qimg/26-05-m-q219.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q219-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q219-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q219-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q219-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Casey is raising h horses and g goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The h horses and g goats require a total of 79 acres of land. Which equation represents this situation?
+A) 2g + h = 79
+B) g + 2h = 79
+C) g + (h)/(2) = 79
+D) (g)/(2) + h = 79
 K: B
 #3
-I: /qimg/26-05-m-q220.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q220-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q220-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q220-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q220-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: x + 80 = 90
+Q: What value of x is the solution to the given equation?
+A) −170
+B) −10
+C) 10
+D) 170
 K: C
 #4
-I: /qimg/26-05-m-q221.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q221-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q221-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q221-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q221-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: What length, in meters, is equivalent to a length of 210 decimeters?
+Q: (1 meter = 10 decimeters)
+A) 2.1
+B) 21
+C) 210
+D) 2,100
 K: B
 #5
-I: /qimg/26-05-m-q222.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q222-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q222-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q222-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q222-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: 171, 182, 255, 275, 290
+Q: What is the minimum value of the data set shown?
+A) 119
+B) 171
+C) 255
+D) 290
 K: B
 #6
-I: /qimg/26-05-m-q223.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q223-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q223-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q223-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q223-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The function j is defined by j(x) = (x)/(8). What is the value of j(40)?
+A) 40
+B) 32
+C) 8
+D) 5
 K: D
 #7
-I: /qimg/26-05-m-q225.png
-Q: Enter your answer.
+I: /qimg/26-05-m-q225.svg
+Q: During a physics demonstration, an object was thrown upward and then fell to the ground. The graph shows the height above the ground y, in feet, of the object x seconds after it was thrown. To the nearest whole number, what was the total distance, in feet, that the object fell after reaching its highest point above the ground?
 K: 20
 #8
-I: /qimg/26-05-m-q226.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q226-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q226-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q226-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q226-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+I: /qimg/26-05-m-q226.svg
+Q: The scatterplot shows the relationship between two variables, x and y.
+Q: Which of the following equations is the most appropriate linear model for the data shown?
+A) y = 70.20 + 0.89x
+B) y = 0.89 + 70.20x
+C) y = 70.20x
+D) y = −0.89x
 K: A
 #9
-I: /qimg/26-05-m-q227.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q227-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q227-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q227-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q227-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: If x is a positive integer, the expression 0.42x represents what percent of x?
+A) 42
+B) 58
+C) 142
+D) 158
 K: A
 #10
-I: /qimg/26-05-m-q228.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q228-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q228-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q228-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q228-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Natalie bought both neon tetra fish and swordtail fish for a total of $34. Each neon tetra fish costs $5 and each swordtail fish costs $7. If Natalie bought 2 swordtail fish, how many neon tetra fish did she buy?
+A) 4
+B) 12
+C) 14
+D) 32
 K: A
 #11
-I: /qimg/26-05-m-q229.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q229-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q229-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q229-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q229-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Each rock in a collection of 50 rocks was classified as either igneous, metamorphic, or sedimentary, as shown in the frequency table.
+T: <table><thead><tr><th>Classification</th><th>Frequency</th></tr></thead><tbody><tr><td>igneous</td><td>10</td></tr><tr><td>metamorphic</td><td>28</td></tr><tr><td>sedimentary</td><td>12</td></tr></tbody></table>
+Q: If one of these rocks is selected at random, what is the probability of selecting a rock that is igneous?
+A) (10)/(12)
+B) (10)/(28)
+C) (10)/(40)
+D) (10)/(50)
 K: D
 #12
-I: /qimg/26-05-m-q230.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q230-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q230-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q230-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q230-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: Which expression is equivalent to 4x^3 + 32w?
+A) 4(x^3 + 8w)
+B) 4(x^3 + 32w)
+C) 8(x^3 + 4w)
+D) 32(x^3 + w)
 K: A
 #13
-I: /qimg/26-05-m-q231.png
-Q: Enter your answer.
+Q: An event planner is planning an ice-skating event. It costs the event planner a onetime fee of $35 to rent the skating rink and $12.75 per attendee. The event planner has a budget of $200. What is the greatest number of attendees possible without exceeding the budget?
 K: 12
 #14
-I: /qimg/26-05-m-q232.png
-Q: Enter your answer.
+Q: Points F and G lie on a circle with center H. Segment FG is a diameter of the circle. If the length of segment FG is 46 centimeters, what is the length, in centimeters, of segment FH?
 K: 23
 #15
-I: /qimg/26-05-m-q233.png
-Q: Enter your answer.
+Q: f(x) = x^3 + 7x + 18
+Q: For the given function f, the graph of y = f(x) in the xy-plane passes through the point (0, b), where b is a constant. What is the value of b?
 K: 18
 #16
-I: /qimg/26-05-m-q234.png
-Q: Enter your answer.
+Q: 2x = 7 + 8y
+Q: −2x = 4 + 8y
+Q: The solution to the given system of equations is (x, y). What is the value of 4x?
 K: 3
 #17
-I: /qimg/26-05-m-q235.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q235-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q235-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q235-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q235-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: f(x) = 3x + b
+Q: For the linear function f, b is a constant and f(4) = 12. What is the value of b?
+A) 0
+B) 1
+C) 3
+D) 4
 K: A
 #18
-I: /qimg/26-05-m-q236.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q236-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q236-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q236-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q236-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The graph of y = ((1)/(7))^x + 1 in the xy-plane is shifted up 5 units. What is an equation of the resulting graph?
+A) y = ((1)/(7))^(x + 5) + 1
+B) y = ((1)/(7))^(x − 5) + 1
+C) y = 5((1)/(7))^x + 1
+D) y = ((1)/(7))^x + 6
 K: D
 #19
-I: /qimg/26-05-m-q237.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q237-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q237-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q237-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q237-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: The function P(x) = 517(1.011)^x models the population of a certain town each year from 1956 through 1971, where x is the number of years after 1956. Which of the following is the best interpretation of “P(5) is approximately equal to 546” in this context?
+A) The population of the town is estimated to be approximately 546 in 1961.
+B) The population of the town is estimated to be approximately 5 greater in 1961 than in 1956.
+C) The population of the town is estimated to be approximately 5 times greater in 1961 than in 1956.
+D) The population of the town is estimated to increase by approximately 546 every 5 years between 1956 and 1971.
 K: A
 #20
-I: /qimg/26-05-m-q238.png
-Q: Choose the best answer.
-A) <img src="/qimg/26-05-m-q238-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
-B) <img src="/qimg/26-05-m-q238-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
-C) <img src="/qimg/26-05-m-q238-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
-D) <img src="/qimg/26-05-m-q238-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+Q: x^2 − 225 = 0
+Q: How many distinct real solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
 K: C
 #21
-I: /qimg/26-05-m-q239.png
-Q: Enter your answer.
+I: /qimg/26-05-m-q239.svg
+Q: In the figure, lines a and b are parallel and line c intersects both lines. If r = 8k − 20 and s = 6k − 38, what is the value of t?
 K: 116
 #22
-I: /qimg/26-05-m-q240.png
-Q: Enter your answer.
+Q: What length, in meters, is equivalent to a length of 170 decimeters?
+Q: (1 meter = 10 decimeters)
 K: 17
