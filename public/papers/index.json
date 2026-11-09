@@ -360,6 +360,18 @@
   "minutesPerModule": 32
  },
  {
+  "id": "dsat24-12-b-rw",
+  "name": "December 2024 International · Form B · Reading & Writing",
+  "type": "EBRW",
+  "year": 2024,
+  "month": 12,
+  "region": "International",
+  "form": "B",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat24-12-c-math",
   "name": "December 2024 International · Form C · Math",
   "type": "MATH",

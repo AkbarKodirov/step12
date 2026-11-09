@@ -1,0 +1,542 @@
+!id: dsat24-12-b-rw
+!name: December 2024 International · Form B · Reading & Writing
+!type: EBRW
+!year: 2024
+!month: 12
+!region: International
+!form: B
+=M1
+#1
+P: The following text is adapted from Yone Noguchi’s 1914 memoir <i>The Story of Yone Noguchi</i>. Noguchi is returning home after eleven years abroad.
+P: I reached Tsushima, my native town, at evening.
+P: I frightened my old father at the station, who was actually trying to <u>find</u> me among some other people. There is no wonder that he could not recognise me; I must have changed a great deal.
+Q: As used in the text, what does the word “find” most nearly mean?
+A) Locate
+B) Reveal
+C) Persuade
+D) Embarrass
+K: A
+E: The father is looking for his son among the crowd, so “find” means locate.
+#2
+P: The ______ Keshni Kashyap’s book <i>Tina’s Mouth</i> has been very positive. Many reviewers have praised the book, and it won the Asian/Pacific American Award for Literature.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inspiration for
+B) reception of
+C) neglect of
+D) confusion about
+K: B
+E: Reviewers praised the book and it won an award, so the reception of it has been positive.
+#3
+P: Some social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public’s understanding of history is also central to its subsequent comprehension of a state’s politics, and if an electorate is to function, historical issues cannot remain the dominion only of academics. History is too ______ to leave to historians alone.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) respectable
+B) complex
+C) accessible
+D) critical
+K: D
+E: The argument is that history is central to a functioning electorate, so it is too critical to leave to historians alone.
+#4
+P: A speaker at a recent children’s book publishing conference noted that, while many illustrators do excellent work, in her mind, no one has ever ______ Jerry Pinkney’s work as the illustrator of <i>The Talking Eggs: A Folktale from the American South</i>: there is no better example of the form, according to the speaker.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) cited
+B) eclipsed
+C) augmented
+D) convened
+K: B
+E: “No better example” means no one has surpassed, or eclipsed, Pinkney’s work.
+#5
+P: <i>The Village Politicians</i>, painted in the realist style by Wilhelm Leibl, depicts a group of peasants clustered together in conversation and emphasizes accuracy in its portrayal of the experiences of ordinary working people. This style largely ______ the conventions of the romantic style evident in many paintings by Thomas Couture, which instead accentuated their subjects’ positive traits by, for example, placing them in staged settings with expensive-looking decorations and presenting them with smooth, unblemished skin.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) rejected
+B) imitated
+C) epitomized
+D) extended
+K: A
+E: Realism is contrasted with romantic conventions (“which instead…”), so it rejected them.
+#6
+P: In the early days of television in the 1940s, many people thought that US television programs would rely on the financial support of ad agencies and commercial sponsors, much like radio did. But advertisers hesitated to jump into a new space, <u>particularly at a time when the manufacturing of new television sets was stalled due to the US’s involvement in World War II.</u> Broadcasters, like the National Broadcasting Company (NBC), needed to persuade advertisers to support their programming despite not knowing whether there would be a robust television audience to begin with.
+Q: Which choice best describes the function of the underlined phrase in the text as a whole?
+A) It describes how broadcasters attempted to convince advertisers to support television.
+B) It explains why a type of television programming was popular at the time.
+C) It identifies a specific reason behind some advertisers’ hesitation to support television.
+D) It compares the beginnings of radio programming with the beginnings of television programming in the United States.
+K: C
+E: The phrase gives a reason (stalled TV set manufacturing) for advertisers’ hesitation.
+#7
+P: The following text is from Armando Palacio Valdés’s short story “The Love of Clotilde,” originally published in Spanish in 1884. In the story, Don Jerónimo is a financial supporter of artists in the theater.
+P: Any youth from the provinces who arrived in Madrid with a drama in his pocket could take <u>no surer road</u> to seeing it produced than that which led to the home of Don Jerónimo. One and all, he received them with open arms, the good and the bad alike. There is no denying that, since he was rather brusque in his ways, he never spared the young authors who asked his advice and read him their productions, but criticized vigorously, even to the verge of insult.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It suggests that Don Jerónimo does not enjoy financially supporting playwrights.
+B) It creates a contrast between the reputation of a young playwright and that of Don Jerónimo.
+C) It emphasizes the degree to which Don Jerónimo’s support is consequential for inexperienced playwrights.
+D) It explains Don Jerónimo’s view of the quality of theatrical works of the time.
+K: C
+E: “No surer road” to getting a play produced shows how much his support matters to new playwrights.
+#8
+P: <i>Dubautia raillardioides</i> is a species in a family of plants <u>known collectively as the silversword alliance</u>, all of which grow only on the Hawaiian Islands. Members of this alliance exhibit an extraordinary range of phenotypes, with some species maturing into vines and others into shrubs and trees. All species in the alliance descended from a single ancestral tarweed plant that arrived on the islands around 5 million years ago. The tarweed’s descendants diversified into distinct species as they adapted to live in the wide variety of habitats found on the Hawaiian Islands.
+Q: Which choice best describes the function of the underlined phrase in the text as a whole?
+A) It lists species from a family of plants found only on the Hawaiian Islands.
+B) It explains why <i>Dubautia raillardioides</i> is unique among members of the silversword alliance.
+C) It supplies the name used to refer to a group of related plant species.
+D) It provides the common name for the <i>Dubautia raillardioides</i> plant.
+K: C
+E: The phrase names the group, the silversword alliance.
+#9
+P: Mexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of artist Frida Kahlo. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a woman holding a baby. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.
+Q: Which choice best states the main idea of the text?
+A) Villasana’s works focus on recognizing both famous and everyday examples of human strength and connection.
+B) Villasana began her artistic career by painting portraits of famous people and then transitioned to depicting everyday people instead.
+C) Villasana’s portrayal of a woman holding a baby focuses more on human connection than it does on human resilience.
+D) Villasana’s depiction of Frida Kahlo receives more attention from scholars than her depiction of a woman holding a baby does.
+K: A
+E: The text covers her depictions of both famous icons and ordinary people as showing human power and connection.
+#10
+P: Community science involves professional scientists collaborating with members of the public to study a topic. This approach to research can promote community engagement by offering insight into the daily life of a scientist. It’s also very effective because it greatly increases the amount of data that can be collected, such as when biologist Abbigail Merrill and colleagues studied butterfly size and its relation to behavior and used findings reported by hundreds of students and community members in northwestern Arkansas.
+Q: Which choice best states the main idea of the text?
+A) Abbigail Merrill and colleagues used a community science approach in their butterfly research and were surprised at the effect this had on public understanding of the nature of scientists’ work.
+B) A community science approach can increase public understanding of the nature of scientists’ work and generate large amounts of data, benefiting both communities and researchers.
+C) A community science approach can benefit communities by increasing public understanding of the nature of scientists’ work, but it’s less likely to help researchers obtain accurate data.
+D) A community science approach allows researchers to collect significantly more data even though it’s unlikely to have much of an effect on public understanding of the nature of scientists’ work.
+K: B
+E: The text says the approach promotes engagement and greatly increases the data collected.
+#11
+T: <table><caption>Names and Movements of Snakes during Trials</caption><tr><th>Name of snake</th><th>Species name</th><th>Common name</th><th>Direction of movement</th></tr><tr><td>Glory</td><td><i>Acanthophis antarcticus</i></td><td>common death adder</td><td>away from sound</td></tr><tr><td>Bitey Boy</td><td><i>Aspidites ramsayi</i></td><td>woma python</td><td>toward sound</td></tr><tr><td>Boss</td><td><i>Oxyuranus scutellatus</i></td><td>coastal taipan</td><td>away from sound</td></tr></table>
+P: Biologists Christina Zdenek, Damian Candusso, and their team exposed various snakes to airborne sound and recorded whether they moved toward or away from the sound. The table shows the results for three of the snakes observed in the study. Based on the table, a student concludes that Glory and Boss behaved similarly in the sound trials.
+Q: Which choice best describes data from the table that support the student’s conclusion?
+A) Boss moved toward the sound, while Bitey Boy moved away from it.
+B) Bitey Boy and Glory both moved toward the sound.
+C) Glory and Boss both moved away from the sound.
+D) Boss moved toward the sound, while Glory moved away from it.
+K: C
+E: The table shows both Glory and Boss moving away from the sound.
+#12
+P: Among the most visited art museums in the world, the Museo Reina Sofía in Madrid had approximately 4.4 million visitors in 2019. The Museo Reina Sofía also offers virtual tours that art lovers can view online for free. Although there were initial concerns that people who viewed the virtual tours would then consider an in-person visit unnecessary, museum administrators claim that their surveys of in-person visitors show that those concerns were unjustified.
+Q: Which statement, if true, would most directly support the administrators’ claim?
+A) Most surveyed visitors to the Museo Reina Sofía indicated that they lived somewhere other than Madrid.
+B) Many surveyed visitors to the Museo Reina Sofía indicated that the virtual tours convinced them to plan an in-person visit.
+C) Many surveyed visitors to the Museo Reina Sofía indicated that they would likely view the virtual tours in order to reminisce about their in-person visit.
+D) Most surveyed visitors to the Museo Reina Sofía indicated that they were unaware of the virtual tours before their first in-person visit.
+K: B
+E: If the tours convinced visitors to come in person, then the tours did not make visits seem unnecessary.
+#13
+P: <i>The Clouds</i> is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as teaching people to speak dishonestly, as seen when the character ______
+Q: Which choice most effectively uses a quotation from a translation of <i>The Clouds</i> to illustrate the claim?
+A) Strepsiades encourages his son to learn to be a sophist, saying, “If you have any concern for your father’s patrimony, become one of them.”
+B) Pheidippides says, after taking lessons from a sophist, “How pleasant it is to be acquainted with new and clever things, and to be able to despise the established laws!”
+C) Strepsiades, taking lessons from a sophist, says he wants to become “a fabricator of falsehoods, inventive of words, a practiced knave in lawsuits,… a fox, a sharper, a slippery knave, a dissembler, a slippery fellow, an impostor.”
+D) Socrates, a sophist, says to a potential customer, “I wish to briefly learn from you if you are possessed of a good memory.”
+K: C
+E: Only C shows a character wanting to learn to speak dishonestly (“a fabricator of falsehoods”).
+#14
+P: The musical <i>Hadestown</i> was produced off-Broadway in New York City in 2016. A revised version of the musical premiered in 2019, in a larger production. In a review of the Broadway production, theater critic Jesse Green enthusiastically praised the musical’s storytelling. However, Green also explained that he had seen the earlier version of <i>Hadestown</i> in 2016 and had found the storytelling to be very confusing. This suggests that in Green’s view, ______
+Q: Which choice most logically completes the text?
+A) <i>Hadestown</i> improved greatly between 2016 and its premiere on Broadway.
+B) the 2016 version of <i>Hadestown</i> had fewer storytelling problems than the 2019 version did.
+C) <i>Hadestown</i> should have had a larger production in 2019 than it actually did.
+D) the 2019 version of <i>Hadestown</i> was less enjoyable than the 2016 version.
+K: A
+E: Green found the 2016 storytelling confusing and the 2019 storytelling excellent, so the show improved.
+#15
+P: Biochemists I. Sam Saguy and Eli J. Pinthus studied the mass and heat transfer processes that occur within foods, such as the Indian snacks makka poha and shankarpali, are fried in oil. During frying, water in the crust evaporates, leaving voids that oil can fill, thereby increasing the food’s fat content. As the process continues, water from the food’s center moves to the crust as long as the crust remains permeable. Therefore, the less moisture a food loses during frying, ______
+Q: Which choice most logically completes the text?
+A) the less the fat content is increased through frying.
+B) the higher the temperature must be to fry the food.
+C) the slower the crust will lose its permeability.
+D) the crispier the crust will be when frying is completed.
+K: A
+E: Less moisture lost means fewer voids for oil to fill, so less fat is added.
+#16
+P: Water boils at around 212°F at sea level, but in Superior, Colorado (elevation: 5,495 feet above sea level), it boils at around 202°F. Food writer J. Kenji López-Alt, who explores the science behind cooking, ______ that lower boiling points at higher elevations “can wreak all sorts of havoc on recipes.”
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) explain
+B) explains
+C) have explained
+D) are explaining
+K: B
+E: The singular subject “Food writer J. Kenji López-Alt” takes the singular present verb “explains.”
+#17
+P: Many Farms Chapter is one of the 110 chapters of the Navajo Nation (<i>Naabeehó Bináhásdzo</i>). The chapter, known as <i>Dá’ák’eh Halání</i> in the Navajo language (<i>Diné bizaad</i>), was the subject of a profile ______ in the <i>Navajo Times</i> on August 22, 2013.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) appearing
+B) has appeared
+C) appeared
+D) appears
+K: C
+E: “Profile appeared in the Navajo Times on August 22, 2013” needs a past-tense verb in the reduced clause.
+#18
+P: With the short documentary <i>Rick Bartow: The Man Who Made Marks</i>, Osage and Cherokee director Nanette Kelley joined the growing number of Indigenous women adding their voices to North American ______ film, a selection of the Native Women in Film Festival, is about the art of painter and musician Rick Bartow.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) cinema, her
+B) cinema. Her
+C) cinema and her
+D) cinema her
+K: B
+E: Two complete sentences need a period between them.
+#19
+P: Working with equipment designed for a billionths of a meter scale, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) nanoengineers have synthesized silica nanoparticles that are used to administer medicines to specific cells in the body.
+B) nanoengineers’ synthesized silica nanoparticles are used to administer medicines to specific cells in the body.
+C) silica nanoparticles that have been synthesized by nanoengineers are used to administer medicines to specific cells in the body.
+D) synthesized silica nanoparticles used to administer medicines to specific cells in the body have been created by nanoengineers.
+K: A
+E: The opening phrase describes who works with the equipment, so “nanoengineers” must come next.
+#20
+P: Just as the Arrhenius equation in chemistry is named not after its first discoverer but after the physicist who further developed the equation, so too does the Cavendish balance in physics take its name from a ______ who was not the first to construct the device.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) natural philosopher: in this case, Henry Cavendish,
+B) natural philosopher—in this case, Henry Cavendish,
+C) natural philosopher in this case, Henry Cavendish,
+D) natural philosopher—in this case, Henry Cavendish—
+K: D
+E: The interrupting phrase needs matching punctuation on both sides, such as a pair of dashes.
+#21
+P: Jetties—long, narrow structures that extend from a landmass into the water—are often constructed to protect coastlines from erosion. Jetties can sometimes have the opposite ______ obstructing the natural flow of sand along the shore can lead to increased erosion in some areas.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) effect, though,
+B) effect, though;
+C) effect, though
+D) effect; though
+K: B
+E: “Though” is a parenthetical word, and a semicolon joins the two independent clauses.
+#22
+P: The editors of <i>Home Ground: A Guide to the American Landscape</i> turned to Arturo Longoria, a nonfiction writer, to craft the entry for “arroyo,” a term referring to the bed of an intermittently dry stream or creek. For “lek,” however, the editors chose the ______ author of <i>The Very Rich Hours</i>.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) poet, Emily Hiestand,
+B) poet, Emily Hiestand
+C) poet Emily Hiestand
+D) poet Emily Hiestand,
+K: D
+E: “Poet Emily Hiestand” is a name with a title (no comma before), and the comma after introduces the appositive “author of <i>The Very Rich Hours</i>.”
+#23
+P: Guard cells are specialized cells that are part of a plant’s pores. These cells help regulate the amount of carbon dioxide a plant takes in. ______ they help regulate a plant’s water loss.
+Q: Which choice completes the text with the most logical transition?
+A) In conclusion,
+B) Additionally,
+C) Instead,
+D) Previously,
+K: B
+E: The second sentence adds another function of the guard cells.
+#24
+P: Elara, one of the eighty known moons of Jupiter, is designated as Jupiter VII (“VII” means “7”). Roman numerals typically indicate the order in which the moons were named rather than their proximity to Jupiter. It is incorrect to assume, ______ that Elara is the seventh moon from Jupiter in terms of proximity.
+Q: Which choice completes the text with the most logical transition?
+A) however,
+B) then,
+C) moreover,
+D) finally,
+K: B
+E: Since the numerals show naming order, it follows (“then”) that it is wrong to assume proximity.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: Dinosaur fossil specimens can be found at science museums all over the world.
+L: A dinosaur fossil specimen nicknamed Stan is housed at the Black Hills Institute in Hill City, South Dakota.
+L: Stan, a <i>Tyrannosaurus</i>, lived in the Late Cretaceous period.
+L: A dinosaur fossil specimen nicknamed Horridus is housed at the Melbourne Museum in Melbourne, Australia.
+L: Horridus, a <i>Triceratops</i>, lived in the Late Cretaceous period.
+Q: The student wants to emphasize a similarity between the two dinosaur fossil specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Both the <i>Tyrannosaurus</i> fossil specimen Stan and the <i>Triceratops</i> fossil specimen Horridus lived in the Late Cretaceous period.
+B) While the <i>Tyrannosaurus</i> fossil specimen Stan is in Hill City, South Dakota, the <i>Triceratops</i> fossil specimen Horridus is in Melbourne, Australia.
+C) Dinosaur fossil specimens can be found at science museums all over the world, including in Hill City, South Dakota, and Melbourne, Australia.
+D) The Black Hills Institute is home to Stan, a <i>Tyrannosaurus</i> fossil specimen from the Late Cretaceous period.
+K: A
+E: Only A states what the two specimens have in common.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Grimanesa Amoros is a Peruvian American artist well known for her LED light sculptures.
+L: Her sculpture <i>Uros House</i> is made of smooth multicolored LED domes.
+L: It occupies 250 cubic feet of space.
+L: Her sculpture <i>Ocupante</i> is made of entangled blue and white LED tubes.
+L: It occupies 80,000 cubic feet of space.
+Q: The student wants to emphasize a similarity between <i>Uros House</i> and <i>Ocupante</i>. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) At 80,000 cubic feet in size, Grimanesa Amoros’s <i>Ocupante</i> cuts a larger figure than the 250-cubic-foot <i>Uros House</i>.
+B) <i>Uros House</i> is an LED light sculpture made by Grimanesa Amoros, as is <i>Ocupante</i>.
+C) The smooth LED domes of Grimanesa Amoros’s <i>Uros House</i> stand in contrast to the tangled LED tubes of <i>Ocupante</i>.
+D) Grimanesa Amoros is the artist behind <i>Uros House</i>—a sculpture made of smooth multicolored LED domes.
+K: B
+E: B says what the two sculptures share: both are LED light sculptures by the same artist.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Researchers in a 2021 study wanted to determine the rate at which 17 languages conveyed both information and syllables.
+L: They calculated the bits of information conveyed per second (the IR, or information rate).
+L: The IR was found to be approximately consistent across the 17 languages (an average of 39 bits per second).
+L: They calculated the number of syllables spoken per second (the SR, or syllable rate).
+L: Spanish had the second-fastest SR (7.7 syllables per second).
+L: Vietnamese had the sixteenth-fastest SR (5.3 syllables per second).
+Q: The student wants to present an overview of the study’s findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Though some of the languages differed in number of syllables spoken per second, all 17 conveyed information at roughly the same rate.
+B) The 2021 study determined the information rate (IR) of 17 languages in bits of information conveyed per second.
+C) Vietnamese had the sixteenth-fastest syllable rate, lower than that of Spanish, which had the second-fastest; however, Spanish had the lower information rate of the two.
+D) Researchers found that information was conveyed more quickly in Spanish, at 7.7 syllables per second, than in Vietnamese, at 5.3 syllables per second.
+K: A
+E: A summarizes the main result: syllable rates varied but information rates were about the same.
+=M2
+#1
+P: When it comes to crafting policy recommendations to protect species at risk, lessons from previous declines in biodiversity can be especially ______. The factors that contributed to the extinction of the Caribbean ground sloth around 3000 BCE, for example, may be applicable to endangered species today.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) idiosyncratic
+B) simplified
+C) relevant
+D) debatable
+K: C
+E: The example says the sloth’s extinction factors may apply today, so such lessons are relevant.
+#2
+P: The Pacific halibut is an ectothermic (cold-blooded) fish, whereas the yellowfin tuna is a regional endotherm; unlike that of ectotherms, its body temperature remains above the ambient water temperature. The basking shark had been classified as a full ectotherm, but researchers Haley R. Dolton et al. found that its body temperature remains 1.0 to 1.5°C above ambient, which is ______ that classification.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) incongruous with
+B) subordinate to
+C) opportune for
+D) indicative of
+K: A
+E: A body temperature above ambient does not fit a full ectotherm, so it is incongruous with that classification.
+#3
+P: In the late 2010s, the price of vintage cards from the game <i>Magic: The Gathering</i> rose dramatically, which had the counterintuitive effect of ______ demand: buyers who hadn’t previously wanted to purchase <i>Magic: The Gathering</i> cards thronged the market, believing prices would continue to rise and the cards could be resold later at a profit.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) capitalizing
+B) exploiting
+C) eliciting
+D) satisfying
+K: C
+E: The higher prices drew new buyers, so they elicited demand.
+#4
+P: Spanning the 1920s to the 1980s, Mexican architect Luis Barragán’s prolific career evolved through distinct phases. As epitomized by the house in Calle Pedro Loza in Guadalajara, many of Barragán’s first projects integrated traditional Mexican building techniques into Mediterranean designs. Extensive travels abroad later sparked an engagement with modernist and functionalist aesthetics—styles whose emphasis on utility and whose repudiation of traditional architecture’s more ornamental elements are readily apparent in Barragán’s Pizarro Suárez House.
+Q: Which choice best describes the overall structure of the text?
+A) It presents a general claim about a particular architect’s career, describes a design approach that typified the early stages of that career, and then explains a later shift in that career.
+B) It names a famous architect, outlines the primary aesthetic model evident in his work, and then offers examples illustrating his commitment to that model.
+C) It provides famous examples of an architect’s projects, describes the original inspiration for those projects, and then suggests that lesser-known projects by that architect arose from other sources of inspiration.
+D) It summarizes the career of a particular architect, states how that architect’s heritage influenced his career choice, and then emphasizes the impact of that architect’s career.
+K: A
+E: The text claims the career had phases, describes the early approach, and then a later shift.
+#5
+P: <u>Individual elephants and Arctic herbivores such as caribou tend to have fixed geographic ranges throughout their lifetimes</u>, which had prompted some researchers to speculate that the Arctic woolly mammoth, an extinct elephantid, might have exhibited similar behavior. Mammoth tusks grew in sequential layers, incorporating ingested minerals and organics, and so each ivory stratum reflects the ratio of strontium isotopes (<sup>87</sup>Sr/<sup>86</sup>Sr) in the local environment; thus, the sequence of strata shows where the animal roamed during life. Recent analysis of the strontium ratios in the strata of one Arctic woolly mammoth tusk in relation to the geographic distribution of strontium ratios in the environment shows the animal’s range begin to expand as it reached sexual maturity, only to contract again in its final 1.5 years.
+Q: Which choice best describes the function of the underlined statement in the text as a whole?
+A) It discusses a characteristic shared by certain animals in order to explain why researchers raised a possibility that turned out not to be supported by data described later in the text.
+B) It illustrates a pattern of behavior among certain animals in order to present a theory about exceptions to that pattern that is weakened by a finding described later in the text.
+C) It describes a similarity in the behavior of certain animals in order to show why a method described later in the text did not reveal whether another animal also showed that behavior.
+D) It introduces a trait shared by certain animals in order to contextualize a hypothesis about the origin of that trait that is advanced later in the text.
+K: A
+E: Researchers speculated mammoths had fixed ranges too, but the tusk analysis showed the range expanded and then contracted.
+#6
+P: <b>Text 1</b>
+P: French Impressionist artist Edgar Degas insisted that his paintings be kept in their original frames after they were sold. Like many Impressionist painters, Degas used painted frames that stood in contrast to the gold frames frequently seen at the Paris Salon, a prestigious art exhibition that was sponsored by the French government and promoted traditional painting styles. Impressionist painters likely chose these colorful frames to distinguish themselves from what was considered conventional at the time.
+P: <b>Text 2</b>
+P: Impressionist painters often focused on the interplay of color and light in their works. As such, those Impressionists who placed their works in painted frames instead of the more traditional gold ones did so for aesthetic reasons: a frame’s color was likely chosen because it would harmonize with the colors or subjects in a painting. Gold, conversely, could distract from the subtleties in a painted scene.
+Q: Based on the texts, both authors would most likely agree with which statement?
+A) Many Impressionist painters were intentional about the frames they selected for their works.
+B) Degas’s preferred framing style was different from that of most Impressionist painters.
+C) The colors in an Impressionist painting were often chosen to complement the colors of the frame it would be placed in.
+D) Gold frames were considered especially desirable by those who purchased works from Impressionist painters.
+K: A
+E: Both texts say Impressionists chose painted frames for deliberate reasons (to stand apart, or for aesthetics).
+#7
+P: The following text is from Thomas Mann’s 1924 novel <i>The Magic Mountain</i>, translated by John E. Woods in 1995.
+P: The story of Hans Castorp that we intend to tell here—not for his sake (for the reader will come to know him as a perfectly ordinary, if engaging young man), but for the sake of the story itself, which seems to us very much worth telling (although in Hans Castorp’s favor it should be noted that it is <i>his</i> story, and that not every story happens to everybody)—this story took place long ago, and is, so to speak, covered with the patina of history and must necessarily be told with verbs whose tense is that of the deepest past.
+Q: What does the text most strongly suggest about the story of Hans Castorp?
+A) Though it is true that stories of even the most uninteresting people are themselves interesting because all people are unique, the reason this story is interesting is nonetheless difficult to understand because of the passage of time.
+B) Even though it is a story of a person of no particular importance, its age and the manner in which it therefore must be told are both indicators that the story itself is important.
+C) It is a remarkable story that happened to an unremarkable person, though one could plausibly argue that because the story is valuable, some of its value accrues to the person at its center.
+D) Like all stories about the lives of inconsequential people, this story must necessarily be related in a particular way if the reason the story is consequential is to be made evident to the audience.
+K: C
+E: Castorp is called ordinary, the story is called well worth telling, and the narrator notes it is “his story.”
+#8
+T: <table><caption>Monthly Temperatures and Wing Centroid Sizes of Fruit Fly Specimens</caption><tr><th>Month</th><th>Average high (°F)</th><th>Average low (°F)</th><th>Average male wing centroid size (mm)</th><th>Average female wing centroid size (mm)</th></tr><tr><td>May</td><td>73</td><td>50</td><td>1.98</td><td>2.27</td></tr><tr><td>July</td><td>87</td><td>62</td><td>2.02</td><td>2.31</td></tr><tr><td>September</td><td>80</td><td>54</td><td>1.98</td><td>2.27</td></tr><tr><td>October</td><td>67</td><td>44</td><td>1.98</td><td>2.29</td></tr></table>
+P: <i>Drosophila</i> (fruit flies) have generation times of 10–12 days, so seasonal changes in rainfall and other environmental conditions can drive seasonal fluctuations in chromosome rearrangements in species such as <i>D. persimilis</i> and <i>D. mediopunctata</i>. <i>Drosophila</i> body size (for which wing centroid size serves as a proxy measure) correlates with life span. Banu Şebnem Önder and Cansu Fidan Aksoy measured the wing sizes of members of a <i>D. melanogaster</i> population in Yeşilöz, Turkey, that were collected monthly between May and October over three years. Their research suggests that <i>Drosophila</i> collected in relatively warmer months should tend to have a longer life span, as is illustrated by the finding that ______
+Q: Which choice most effectively uses data from the table to complete the assertion?
+A) the average male wing centroid size was larger in July than in May.
+B) the average female wing centroid size was consistently larger than the average male wing centroid size in all four months in the table.
+C) the average monthly low temperature was higher in September than in May.
+D) the average female wing size was 2.02 mm in July but was 2.29 mm in October.
+K: A
+E: July is the warmest month, and the average male wing size is largest then (2.02 mm versus 1.98 mm in May).
+#9
+I: /qimg/24-12-b-m2-q9.svg
+P: <i>Hemerocallis</i> sp. plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. Given that negatively and positively charged objects attract, a research team hypothesized that the difference in charges could attract <i>Hemerocallis</i> sp. stamens to the plants’ pollinators. Based on the team’s experiments, the hypothesis was well supported for positive charges above a certain threshold. The team found that foraging honeybees exceeded that threshold, which suggests that ______
+Q: Which choice most effectively uses data from the graph to complete the text?
+A) red mason bees can also attract the stamens.
+B) red mason bees and European peacock caterpillars, with greater maximum charges than foraging honeybees have, cannot attract the stamens.
+C) European peacock caterpillars tend to repel the stamens.
+D) the threshold positive charge for a pollinator to attract the stamens must be greater than 100 pC.
+K: A
+E: Red mason bees carry a much larger charge than foraging honeybees, so they exceed the threshold as well.
+#10
+P: Growing seasons in Alaska have been extending further into the year in response to climate warming, potentially enabling increased carbon dioxide (CO<sub>2</sub>) absorption through greater productivity of marsh cinquefoil (<i>Comarum palustre</i>) plants and other vegetation, but also potentially enabling increased CO<sub>2</sub> output through greater heterotrophic respiration (CO<sub>2</sub> generated by the activity of soil microorganisms). Hydrologist Yonghong Yi and her colleagues developed a model incorporating numerous inputs—years of solar radiation and snow cover data among them—to evaluate the effects of warming on the CO<sub>2</sub> balance in Alaska, concluding that net CO<sub>2</sub> is likely to increase if warming hastens spring snow melt.
+Q: Which finding, if true, would most directly support the researchers’ conclusion?
+A) Early snow melt extends the period in which plant species such as <i>C. palustre</i> can absorb CO<sub>2</sub> but has no effect on the rate of heterotrophic respiration.
+B) Early snow melt slows the growth of plant species such as <i>C. palustre</i> by reducing soil insulation, and it suppresses heterotrophic respiration.
+C) Early snow melt reduces the amount of soil moisture available for the growth of plant species such as <i>C. palustre</i>, and it raises the rate of heterotrophic respiration.
+D) Early snow melt amplifies the effect of solar radiation on the growth of plant species such as <i>C. palustre</i> and on the rate of heterotrophic respiration.
+K: C
+E: Less plant growth (less CO<sub>2</sub> absorbed) plus more respiration (more CO<sub>2</sub> released) would raise net CO<sub>2</sub>.
+#11
+P: A team of public transportation experts in Detroit is creating a new streetcar stop for the Woodward Avenue Streetcar system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a streetcar stop. The team also looked at studies showing that people’s willingness to walk to public transit is influenced by factors like weather and the presence of paved sidewalks and crosswalks. A researcher has argued that the survey does not accurately reflect the feelings of today’s residents of this neighborhood.
+Q: Which finding, if true, would most directly support the researcher’s claim?
+A) The number of sidewalks and crosswalks in the neighborhood that the streetcar stop will service has increased substantially in the last ten years.
+B) Residents of Detroit are much less likely to use public transit on rainy days than on clear days.
+C) There has been a sharp increase in the last ten years in cyclists who use the roads in the neighborhood that the streetcar stop will service.
+D) Current users of the Woodward Avenue Streetcar are satisfied with the number of stops along the line.
+K: A
+E: More sidewalks and crosswalks would make residents more willing to walk now than ten years ago, so the old survey would be outdated.
+#12
+P: Some food packaging contains silver nanoparticles (Ag-NPs), which can leach into waterways and soils via wastewater. In a 2015 study, Tina Ramskov and colleagues found that Ag-NPs can accumulate in the bodies of marine annelid worms (<i>Capitella teleta</i>). While bioaccumulation of manufactured nanoparticles may be inherently worrisome, it has been hypothesized that Ag-NP bioaccumulation in invertebrates like <i>C. teleta</i> could serve a valuable proxy role, obviating the need for manufacturers to conduct costly and intrusive sampling of vertebrate species—such as Atlantic salmon (<i>Salmo salar</i>), commonly used in regulatory compliance testing—for nanoparticle bioaccumulation, as environmental protection laws currently require.
+Q: Which finding, if true, would most directly support the hypothesis presented in the text?
+A) When <i>C. teleta</i> and <i>S. salar</i> are exposed to similar levels of Ag-NPs, individuals of the two species tend to accumulate similar amounts of Ag-NPs, adjusted for body size.
+B) Ag-NP concentrations in <i>C. teleta</i> correlate strongly with Ag-NP levels in the environment, whereas Ag-NP concentrations in <i>S. salar</i> are fairly stable regardless of environment.
+C) Compared with <i>S. salar</i>, <i>C. teleta</i> can tolerate significantly higher Ag-NP concentrations without displaying any negative effects.
+D) It is easier to detect low and harmless concentrations of Ag-NPs in <i>C. teleta</i> than it is to detect high and harmful concentrations of Ag-NPs in <i>S. salar</i>.
+K: A
+E: If both species accumulate similar amounts under the same exposure, <i>C. teleta</i> can stand in for <i>S. salar</i>.
+#13
+P: To address the susceptibility of materials used in components of high-performance machinery, such as aircraft engines, to creep (deformation that is induced by persistent mechanical stress and that often occurs at elevated temperatures), materials researchers have developed silicon carbide (SiC) fibers for producing aerospace composites. Testing the thermomechanical properties of several commercially available SiC fibers, Ramakrishna T. Bhatt et al. found that in comparison with two polymer-derived SiC fibers, a nitrogen-treated SiC fiber exhibited a lower minimum creep rate, a measure of the rate at which a stress-exposed material deforms at a constant temperature and uniaxial load. The finding suggests that ______
+Q: Which choice most logically completes the text?
+A) unlike the two polymer-derived SiC fibers, the nitrogen-treated SiC fiber can substantially inhibit creep, provided that temperatures and loads are consistent.
+B) aerospace composites containing the nitrogen-treated SiC fiber may have the ability to withstand mechanical stress for a longer period of time than can aerospace composites containing either of the two polymer-derived SiC fibers.
+C) composites based on the two polymer-derived SiC fibers have chemical properties that may improve the mechanical and thermal stability of aerospace equipment to a greater extent than do composites based on the nitrogen-treated SiC fiber.
+D) the two polymer-derived SiC fibers likely hold similar potential for reducing the creep resistance of materials exposed to stress and elevated temperatures, thus prolonging the life span of aerospace equipment.
+K: B
+E: A lower creep rate means the nitrogen-treated fiber deforms more slowly under stress, so composites using it may last longer.
+#14
+P: Chelsea Wood et al. tracked temperature-driven changes in the abundance of <i>Gonocerca</i> sp. (a complex life cycle parasite, or CLP, that requires three host species throughout its life cycle), <i>Gyrodactylus</i> sp. (a directly transmitted parasite, which requires only one host species), and 83 other parasite taxa found on eight fish species. CLPs are transmitted when an infected host is ingested by an individual of another species, typically shielding CLPs from the external environment, whereas directly transmitted parasites are exposed to external conditions during transmission. However, Wood et al. found that three-host CLP abundance decreased as sea temperatures rose, whereas directly transmitted parasite abundance was largely stable, suggesting that ______
+Q: Which choice most logically completes the text?
+A) as the number of host species involved in a parasite’s transmission increases, the parasite is better protected against rising temperatures.
+B) directly transmitted parasites identified in the study were more likely to use transmission strategies that shield them from warming temperatures than were three-host CLPs.
+C) CLPs primarily transmitted by ingestion were less dependent on host species adversely affected by warming temperatures than were CLPs that use other transmission strategies.
+D) any advantages that the transmission strategy used by three-host CLPs may have conferred did not completely offset the negative effects of other temperature-driven factors on CLP abundance.
+K: D
+E: Shielding should have helped the three-host CLPs, yet they declined, so other temperature-driven factors outweighed that advantage.
+#15
+P: Scientists recently created a model to predict how shorter winters will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Tuskegee National Forest in Alabama is a small forest, covering less than 100,000 acres. If used to evaluate the effect of shorter winters on this forest in ten years, the model would likely therefore ______
+Q: Which choice most logically completes the text?
+A) exaggerate the effect of shorter winters on large mammals.
+B) reflect factors affecting small mammals other than shorter winters.
+C) overestimate the actual population sizes of small mammals.
+D) ignore the predator-prey relationships between large and small mammals.
+K: C
+E: For small forests the model’s small-mammal predictions are too high, so it would overestimate small-mammal populations.
+#16
+P: The hypothesized protolanguage from which all Kartvelian languages have descended, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) the linguistic properties of the language’s descendants were used by experts to infer the properties of and reconstruct Proto-Kartvelian.
+B) Proto-Kartvelian has been reconstructed by experts, who inferred the language’s linguistic properties from those of its descendants.
+C) Proto-Kartvelian’s descendants’ linguistic properties were used by experts to infer the language’s properties and reconstruct it.
+D) the experts who reconstructed Proto-Kartvelian inferred the language’s linguistic properties from its descendants.
+K: B
+E: The opening phrase must describe “Proto-Kartvelian,” so that name has to come right after the comma.
+#17
+P: In a chemical reaction, the value known as molar mass helps convert between the mass of the reactants and the mass of the product. The gaseous ______ have molar masses of 42.08 and 44.10 g/mol, respectively.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) compounds, propylene and propane,
+B) compounds propylene and propane
+C) compounds, propylene and propane
+D) compounds, propylene and propane,
+K: B
+E: “Propylene and propane” is needed to identify which compounds are meant, so it takes no commas.
+#18
+P: The Roman historian Suetonius’s <i>De vita caesarum</i>, a biography of the Roman Empire’s first leaders, is an extant work: it can still be read. By contrast, Suetonius’s book on miscellaneous topics, <i>Pratum</i>, no copies of which ______ is a lost work: it can be accessed only indirectly, through references to it in extant works.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) having survived,
+B) to survive,
+C) survive,
+D) surviving,
+K: C
+E: “No copies of which survive” is a complete relative clause, closed by a comma.
+#19
+P: Within Earth’s biomes, there are four main types of desert: arid, semiarid, coastal, and cold. The Australian Desert in Australasia is an arid ______ with a total area of about 2,700,000 km², it is one of the largest deserts of any type.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) desert.
+B) desert, and
+C) desert and
+D) desert
+K: A
+E: A period is needed before the new sentence beginning “With a total area…”
+#20
+P: On most of the world’s beaches, sand is a predictable cream or beige color. The sand at Talofofo Beach in Guam is an ______ sand gets its shade from deposits of gray- and tan-hued quartz and feldspar, deposits of crushed olivine crystal and other organic matter lend the sand at Talofofo Beach a colorful green tint.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) exception, though most
+B) exception: though most
+C) exception, though, most
+D) exception, though. Most
+K: D
+E: “The sand at Talofofo Beach is an exception, though.” is a complete sentence, and “Most sand gets its shade…” begins the next one.
+#21
+P: The parks of Austin, Texas, seem to be making people happier. In 2022, a team of researchers ______ to find connections between the physical location in which a social media post was created and the content of that post analyzed geotagged social media posts from various sites in Austin. The team found that posts from the city’s parks contained more words associated with happiness than did the other posts.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) were hoping
+B) hoped
+C) was hoping
+D) hoping
+K: B
+E: “A team of researchers hoped to find…” uses the singular past tense that matches the 2022 time frame.
+#22
+P: The near-Earth asteroid Atira is orbited by the moonlet S/2017 (163693). In 2022 scientists studying asteroid deflection intentionally crashed a probe into a similar moonlet, Dimorphos, shortening its orbital period by 32 minutes. ______ it used to take Dimorphos 11 hours, 55 minutes to orbit the near-Earth asteroid Didymos; now it takes 11 hours, 23 minutes.
+Q: Which choice completes the text with the most logical transition?
+A) That is,
+B) Furthermore,
+C) Meanwhile,
+D) For example,
+K: A
+E: The second sentence restates the 32-minute shortening in concrete terms, so “That is” fits.
+#23
+P: In his 2020 poem “This Town,” Saad Ali contemplates Ivan Aivazovsky’s 1859 painting <i>Lunar Night on the Black Sea</i>. Translating the painting’s depiction of a seascape into vivid figurative phrases—such as “a dozen sea shells converse”—Ali suggests the fluid interplay of poetry and painting. ______ Ali’s poem highlights fundamental tensions between these modes of representation.
+Q: Which choice completes the text with the most logical transition?
+A) At the same time,
+B) Therefore,
+C) Specifically,
+D) In other words,
+K: A
+E: The second sentence adds a contrasting side to the first (tensions as well as interplay), so “At the same time” fits.
+#24
+P: While researching a topic, a student has taken the following notes:
+L: Georeferencing is the process of assigning geographic coordinates to an image.
+L: This process enables mapping software to place the image in its real-world location.
+L: A 2017 project by Tania López Marrero and colleagues georeferenced a set of aerial photographs of Puerto Rico’s coastline taken in 1930.
+L: These photographs are the earliest known aerial photographs of Puerto Rico.
+L: López Marrero’s project provided data that can help researchers analyze changes in Puerto Rico’s coastline.
+Q: The student wants to define the term “georeferencing.” Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Tania López Marrero and colleagues used georeferencing in their analysis of the earliest known aerial photographs of Puerto Rico.
+B) Georeferencing is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location.
+C) A 2017 project by Tania López Marrero and colleagues assigned geographic coordinates to photographs of Puerto Rico’s coastline and also used georeferencing.
+D) Georeferenced aerial photographs from 1930 can help researchers analyze changes in Puerto Rico’s coastline.
+K: B
+E: Only B defines the term.
+#25
+P: While researching a topic, a student has taken the following notes:
+L: A copyright prevents a book’s contents from being reproduced (published) without permission from the copyright holder.
+L: When a book’s copyright expires, the book enters the public domain and can be legally reproduced by anyone.
+L: <i>Cane</i> is a novel by Jean Toomer.
+L: It entered the public domain in 2019.
+L: <i>Billy Budd, Sailor</i> is a novella by Herman Melville.
+L: It entered the public domain in 2020.
+Q: The student wants to emphasize a similarity between Jean Toomer and Herman Melville. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) <i>Cane</i>, a novel by Jean Toomer, entered the public domain in 2019, unlike Herman Melville’s novella <i>Billy Budd, Sailor</i>.
+B) Both <i>Cane</i> and <i>Billy Budd, Sailor</i> are in the public domain; however, one is a novel and the other a novella.
+C) The year was 2020, and the copyright to Herman Melville’s <i>Billy Budd, Sailor</i> had finally expired.
+D) Jean Toomer and Herman Melville are two authors whose works recently entered the public domain.
+K: D
+E: D is the only choice that says what the two authors have in common.
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Maya Lin is an American artist known for her memorials and works of installation art.
+L: She completed the Women’s Table in 1993.
+L: It is a memorial sculpture consisting of a thirty-two-ton granite fountain, and it is designed to commemorate female students at Yale University.
+L: She completed <i>Silver Upper White River</i> in 2015.
+L: It is an installation composed of recycled silver that fills an entire gallery wall.
+Q: The student wants to describe <i>Silver Upper White River</i> to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Completed in 2015, Maya Lin’s <i>Silver Upper White River</i> is a large-scale installation artwork composed of recycled silver that fills an entire gallery wall.
+B) Artist Maya Lin is well known for her installation art, such as <i>Silver Upper White River</i> (2015), and for her memorials.
+C) Maya Lin’s Women’s Table is a granite memorial that commemorates female students at Yale University, while <i>Silver Upper White River</i> is an installation artwork.
+D) Though Maya Lin’s <i>Silver Upper White River</i> (2015) is not a memorial, its gallery-filling scale may call to mind the imposing Women’s Table, which consists of a thirty-two-ton granite fountain.
+K: A
+E: A describes the work itself: its date, medium, and size.
+#27
+P: While researching a topic, a student has taken the following notes:
+L: A multiyear study called GREEN SURGE examined forty-four different types of UNAs (urban natural areas) in cities throughout Europe.
+L: A primary aim of the study was to determine the benefits of UNAs in these cities.
+L: Large urban parks are among the types of UNAs included in the study.
+L: Large urban parks are defined as green city areas reserved for recreational use.
+L: They can benefit urban environments by contributing to biodiversity.
+Q: The student wants to emphasize an objective of the GREEN SURGE study. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) For multiple years, the GREEN SURGE study was conducted in cities throughout Europe.
+B) To achieve its main objective, the GREEN SURGE study examined forty-four different types of UNAs, including large urban parks.
+C) Determining the benefits of UNAs in European cities was a primary aim of the GREEN SURGE study.
+D) Large urban parks, which were included in the GREEN SURGE study, can benefit urban environments by contributing to biodiversity.
+K: C
+E: C states the study’s aim directly.
