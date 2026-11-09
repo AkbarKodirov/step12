@@ -1,0 +1,476 @@
+!id: dsat26-10-v6-rw
+!name: October 2026 · Version 6 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 10
+!region: International
+!form: 6
+=M1
+#1
+P: The success of the 606 Trail in Chicago, Illinois—an elevated park and trail showcasing various community public art projects—exemplifies how collaborative art initiatives can ______ their communities in multiple ways, including enhancing public spaces and encouraging local shopping.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) avoid
+B) deny
+C) predict
+D) enrich
+K: D
+#2
+P: Commercial truck drivers sometimes transport temperature-sensitive goods like fresh produce through a variety of external conditions that can affect temperatures inside cargo areas, ______ the use of specialized equipment to continuously and automatically monitor and adjust refrigeration settings to prevent the goods from spoiling.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) necessitating
+B) obviating
+C) rescinding
+D) extolling
+K: A
+#3
+P: The following text is from William Shakespeare’s circa 1601 play Twelfth Night. Viola is speaking to a ship captain who has come to her aid.
+P: There is a fair behaviour in thee, Captain; / And though that nature with a beauteous wall / Doth oft close in pollution, yet of thee / I will believe thou hast a mind that suits / With this thy fair and outward character.
+Q: As used in the text, what do the first and second instances, respectively, of “fair” most nearly mean?
+A) Honorable, pleasing
+B) Light, lawful
+C) Impartial, ample
+D) Satisfactory, evenhanded
+K: A
+#4
+P: Environmental regulations now require HVAC (heating, ventilation, and air conditioning) technicians to ______ R-22 refrigerant from existing cooling systems rather than venting it during repairs; this careful collection process prevents the ozone-depleting substance from causing atmospheric damage and allows for proper disposal or reclamation later.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) shield
+B) measure
+C) release
+D) recover
+K: A
+#5
+P: The following text is adapted from John Matheus’s 1925 short story “Fog.”
+P: The fog extended its tentacles over city and river, gradually obliterating traces of familiar landscapes. At five-thirty the old Panhandle bridge, supported by massive sandstone pillars, stalwart, as when erected fifty years before to serve a generation now passed behind the portals of life, had become a spectral outline against the sky.
+Q: As used in the text, what does the word “traces” most nearly mean?
+A) Copies
+B) Indications
+C) Debris
+D) Reminiscences
+K: B
+#6
+P: The Reckoning and Resilience (2022) exhibition at Duke University’s Nasher Museum of Art in Durham, North Carolina, was curated to feature the work of thirty North Carolina artists. The included artists represent a wide variety of artistic disciplines, from painters such as Jessica Clark to the videographer Jibade-Khalil Huffman. In its inclusion of many borrowed works, the exhibition is atypical for the Nasher Museum, which tends to curate its exhibitions around the permanent collection of contemporary art that it owns.
+Q: Which choice best describes the overall structure of the text?
+A) It presents the unusual goals curators had for an art exhibition, then evaluates whether the curators achieved those goals.
+B) It discusses the wide range of disciplines represented in an art exhibition, then explains why curators included works in those disciplines.
+C) It provides an overview of an art exhibition, then explains what makes the exhibition unusual for the institution that organized it.
+D) It explains how an art exhibition differs from many other exhibitions, then analyzes the significance of that difference.
+K: C
+#7
+P: Text 1 is adapted from Charles Baudelaire’s circa 1860 prose poem “Crowds,” translated by Arthur Symons in 1919. Text 2 is a work of literary criticism about Baudelaire.
+P: Text 1
+P: It is not given to every man to take a bath of multitude: to play upon crowds is an art.... Multitude, solitude: equal terms mutually convertible by the active and begetting poet. He who does not know how to people his solitude, does not know either how to be alone in a busy crowd. The poet enjoys this incomparable privilege, to be at once himself and others.... He enters at will the personality of every man. For him alone, every place is vacant; and if certain places seem to be closed against him, that is because in his eyes they are not worth the trouble of visiting.
+P: Text 2
+P: As ubiquitous as he is indolent, the quintessentially Parisian (and always male) figure of the flâneur pervades Baudelaire’s early prose poems. The flâneur is defined by his privilege and leisure but above all by his detached but all-consuming gaze, through which he partakes of—without fully taking part in—the dense urban milieu.
+Q: Based on the texts, which choice best explains why the poet depicted in Text 1 exemplifies the figure of the flâneur described in Text 2?
+A) The poet can be present among crowds even as he maintains the stance of a somewhat removed observer.
+B) The poet ultimately prefers solitude but finds himself imagining the presence of crowds when he is alone.
+C) The poet chooses to spend most of his leisure time among crowds rather than with individual acquaintances.
+D) The poet draws artistic inspiration from the emotions he experiences while among crowds.
+K: A
+#8
+P: Through the Urban Wildlife Information Network, citizen scientists systematically document animals they observe in metropolitan areas. Participants record not just which species they see but also the species’ behaviors and nearby urban features, such as artificial lighting, buildings, and green spaces. The resulting database helps researchers understand how animals adapt to human-dominated landscapes and informs city planning and conservation efforts that benefit both people and wildlife.
+Q: What does the text indicate is a benefit of the information collected by participants in the Urban Wildlife Information Network?
+A) It ranks the popularity of green spaces with city residents.
+B) It identifies which animal species are becoming extinct.
+C) It informs city planning and conservation efforts.
+D) It inspires tourists to visit metropolitan areas.
+K: C
+#9
+P: Life Among the Paiutes is an 1882 autobiographical narrative by Sarah Winnemucca Hopkins. In the work, Winnemucca creates suspense by emphasizing her physical response to an event, writing ______
+Q: Which quotation from Life Among the Paiutes most effectively illustrates the claim?
+A) “That same fall, after my grandfather came home, he told my father to take charge of his people and hold the tribe, as he was going back to California with as many of his people as he could get to go with him.”
+B) “So ended our feast, and every family went to its own home in the pine-nut mountains, and remained there till the pine-nuts were ripe. They ripen about the last of June.”
+C) “Oh, how my heart jumped when I heard a noise close by. It was a horse running towards us. We had to lie down close to the ground. It came close to us and stopped. Oh, how my heart beat! I thought whoever it was would hear my heart beat.”
+D) “Late in that fall, there came news that my grandfather was on his way home. Then my father took a great many of his men and went to meet his father, and there came back a runner, saying, that all our people must come together.”
+K: C
+#10
+T: <table style="border-collapse:collapse"><caption>Latino Population Share and Share of LOBs in Four US Metropolitan Areas</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Metropolitan area</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Latino population</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Latino population share</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Number of LOBs</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Share of LOBs</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Los Angeles–Long Beach–Anaheim</td><td style="border:1px solid #000;padding:4px 10px">5,979,000</td><td style="border:1px solid #000;padding:4px 10px">45.1%</td><td style="border:1px solid #000;padding:4px 10px">393,051</td><td style="border:1px solid #000;padding:4px 10px">26.5%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Miami–Fort Lauderdale–West Palm Beach</td><td style="border:1px solid #000;padding:4px 10px">2,554,000</td><td style="border:1px solid #000;padding:4px 10px">43.3%</td><td style="border:1px solid #000;padding:4px 10px">423,163</td><td style="border:1px solid #000;padding:4px 10px">47.0%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Houston–The Woodlands–Sugar Land</td><td style="border:1px solid #000;padding:4px 10px">2,335,000</td><td style="border:1px solid #000;padding:4px 10px">36.4%</td><td style="border:1px solid #000;padding:4px 10px">164,923</td><td style="border:1px solid #000;padding:4px 10px">27.2%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Phoenix–Mesa–Scottsdale</td><td style="border:1px solid #000;padding:4px 10px">1,347,000</td><td style="border:1px solid #000;padding:4px 10px">30.1%</td><td style="border:1px solid #000;padding:4px 10px">54,393</td><td style="border:1px solid #000;padding:4px 10px">16.0%</td></tr></table>
+P: In their chapter of Advancing U.S. Latino Entrepreneurship (2020), Iliana Perez and her coauthor analyze data on the Latino population share and the share of Latino-owned businesses (LOBs) in US metropolitan areas with Latino populations that are among the largest in the country. The authors note that for nearly all the metropolitan areas included in their analysis, the Latino population share is larger than the share of LOBs. The exception is ______
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) Houston–The Woodlands–Sugar Land.
+B) Miami–Fort Lauderdale–West Palm Beach.
+C) Los Angeles–Long Beach–Anaheim.
+D) Phoenix–Mesa–Scottsdale.
+K: B
+#11
+I: /qimg/26-oct-v6-rw-m1-q11.svg
+P: To measure whether countries in free trade agreements (FTAs)—agreements among nations to reduce tariffs, duties, and other trade barriers—experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country’s total agricultural exports.
+Q: Which choice best describes data from the graph that weaken the student’s claim?
+A) Over the five years after Honduras joined CAFTA-DR, agricultural exports from Honduras grew at a rate of about 28.8 percent, which is higher than the rate over the five years before Honduras joined the agreement.
+B) All the countries shown had positive growth in agricultural exports over the five years after joining their respective FTAs, but their rates of export growth varied.
+C) Although agricultural exports from Chile grew over the five years after Chile joined CLFTA, their growth rate was even higher in the five years before CLFTA.
+D) Although agricultural exports from Jordan decreased over the five years before JOFTA, a reversal in this trend was observed over the five years after Jordan joined JOFTA.
+K: C
+#12
+P: The writer and illustrator of Moominsummer Madness (1970) and many other Moomin stories for children didn’t initially set out to be known as a children’s author. While Tove Jansson accomplished a great deal as a painter and cartoonist, she became widely popular as the creator of the Moomin characters she is still best remembered for today—Moomintroll, Little My, and other eccentric figures. A student who is researching children’s literature asserts that even though this outcome wasn’t what Jansson had intended, <u>she committed to the role she found herself in.</u>
+Q: Which statement, if true, would best illustrate the student’s claim in the underlined text?
+A) Jansson created her own magazine when she was thirteen years old and sold copies of it at her school.
+B) Jansson resigned from creating a daily Moomin comic strip in 1959 after working on it for seven years, and her brother Lars took her place.
+C) Jansson wrote Moominsummer Madness and other Moomin stories but also published many memorable political cartoons.
+D) Jansson was an intensely private person but still responded personally to thousands of letters from fans writing about the Moomins.
+K: D
+#13
+P: Blue holes, such as the Great Blue Hole near Belize, are large seawater sinkholes that tend to have varying water density and irregularities in their steep walls. In 2021, researchers studied the previously unexplored Taam Ja’ Blue Hole (TJBH) in Chetumal Bay, Mexico; using echo sounder mapping, they determined its maximum depth to be about 274 meters. In the complex environments of blue holes, however, echo sounder mapping has limitations. So, in 2023, Laura Carrillo and colleagues employed a conductivity, temperature, and depth (CTD) profiler to remeasure the depth of the TJBH. The profiler recorded depths around 420 meters but was unable to confirm detection of the bottom of the hole, suggesting that ______
+Q: Which choice most logically completes the text?
+A) although the maximum depth of the TJBH has yet to be conclusively detected, the bottom of the hole is most likely between 274 and 420 meters below sea level.
+B) although both echo sounder mapping and the CTD profiler have known limitations, they produce reliable estimations of the depth of blue holes when used together.
+C) while the CTD profiler can discern the properties of underwater terrains more comprehensively than echo sounder mapping can, echo sounder mapping produces more accurate measurements at greater underwater depths.
+D) while the CTD profiler may be better suited than echo sounder mapping for measuring the depth of blue holes, another measurement approach is likely needed to ascertain the maximum depth of the TJBH.
+K: D
+#14
+P: Given a growing market in organic foods, grocery stores want to understand what factors make organic food options more appealing to customers than nonorganic foods, including placement in a store, pricing, and advertising. According to some studies, social media posts and dedicated organic product sections are among the most effective ways to increase sales of organic foods. However, most interventions have had varied success: for instance, price reductions and in-store promotional messaging have been found to be effective only for certain categories of customers buying organic foods of only certain types, and only in some stores. This finding suggests that grocery stores hoping to improve their performance in the growing market would most benefit from ______
+Q: Which choice most logically completes the text?
+A) instituting rotating price reductions on organic foods to draw customers’ attention to different products at different times.
+B) combining in-store promotional messaging with social media messaging to ensure customers are aware of certain features of organic products.
+C) ensuring that organic products are clearly distinguished from nonorganic products in terms of messaging, placement, and price.
+D) gathering information about localized customer preferences to deploy sales tactics for organic foods more strategically at each store.
+K: D
+#15
+P: Trade with other societies was vital to the Aksumite Empire, which reigned in northeast Africa from around 100 CE to 940 CE. Its people profited by selling wheat, gold, and salt, items that ______ greatly in demand.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) were
+B) is
+C) has been
+D) was
+K: A
+#16
+P: Self-Portrait at a Spinet is one of dozens of remaining works by the Italian Renaissance artist Sofonisba Anguissola. ______ in 1554, her painting can now be found at the Museo Nazionale di Capodimonte in Naples.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Was completed
+B) Completed
+C) Will complete
+D) Completes
+K: B
+#17
+P: Charya Burt is a US-based Cambodian classical dance performer. In 2018, she created Silenced, a tribute to Cambodian pop icon Ros ______ performance pairs large video projections with 1960s Cambodian pop music to create an immersive visual and musical backdrop.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Sereysothea the
+B) Sereysothea. The
+C) Sereysothea, the
+D) Sereysothea but the
+K: C
+#18
+P: Japanese bonsai artist Masashi Hirao has crafted an approach that transforms the acts of pruning, wiring, and planting into dynamic public performances. Audiences are entertained as they watch his creative process unfold, with Hirao rhythmically ______ trees to music.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) shape
+B) shaped
+C) shaping
+D) shapes
+K: C
+#19
+P: Emory Sekaquaptewa, a Hopi anthropologist and lexicographer, helped compile a bilingual Hopi-English dictionary published in 1998. Containing almost 30,000 entries, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) knowledge of the Hopi language was preserved by the dictionary, which was considered a model for future lexicographers.
+B) the dictionary’s preservation of knowledge of the Hopi language was considered a model for future lexicographers.
+C) the dictionary preserved knowledge of the Hopi language and was considered a model for future lexicographers.
+D) future lexicographers considered the dictionary, which preserved knowledge of the Hopi language, as a model.
+K: C
+#20
+P: In their 2019 study of butterfly diversity at Rupa Lake in Nepal, researcher Hari Adhikari and his colleagues counted eight Paris peacock ______ to the Papilionidae family, the Paris peacock (Papilio paris) is known to be rare.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) butterflies and belonging
+B) butterflies belonging
+C) butterflies, belonging
+D) butterflies. Belonging
+K: B
+#21
+P: The frogfish’s sophisticated hunting strategy relies on a modified dorsal spine called the illicium that features a specialized terminal appendage at its ______ potential food items, like worms, shrimp, or small fish, the appendage evolved to function as a fishing rod to lure prey.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) tip and mimicking
+B) tip, mimicking
+C) tip mimicking
+D) tip. Mimicking
+K: C
+#22
+P: Plant species known as metal hyperaccumulators can help remove heavy metal pollutants from soil. Phalaris arundinacea, or reed canary grass, for instance, can absorb a large quantity of cadmium and store it safely in its roots and shoots. ______ its roots may not reach far enough into the soil and could leave trace amounts of cadmium.
+Q: Which choice completes the text with the most logical transition?
+A) On the contrary, a pollutant such as cadmium can be removed from the soil;
+B) Moreover, the plant is potentially useful in removing accumulated metals;
+C) For this reason, the plant has useful applications in soil quality restoration;
+D) That said, the plant may not always be able to remove all of the pollutant;
+K: D
+#23
+P: In 2022 the EQUULEUS satellite, which observes near-Earth asteroids and lunar meteoroid impacts, maintained an orbit at the Earth-Moon L2 Lagrange point—a position on the opposite side of the Moon from Earth. ______ the gravitational forces of Earth and the Moon reach an equilibrium found in very few other locations, allowing spacecraft such as EQUULEUS to remain in the same position relative to the Moon as they orbit Earth.
+Q: Which choice completes the text with the most logical transition?
+A) Admittedly,
+B) Regardless,
+C) There,
+D) For example,
+K: C
+#24
+P: It’s tempting to think that the chaotic scene depicted in Joseph Heintz the Younger’s painting Competition on the Ponte dei Pugni in Venice (1673) could only have existed in the artist’s imagination: a bridge is covered with dozens of brawling men, some tumbling into the canal below, and throngs of excited spectators crowd the sidewalks, gondolas, and windows of surrounding buildings. ______ such dramatic competitions between rival neighborhood factions were regular occurrences in seventeenth-century Venice.
+Q: Which choice completes the text with the most logical transition?
+A) In other words,
+B) In reality,
+C) As a result,
+D) Similarly,
+K: B
+#25
+P: As a sculptor, Robert Browning didn’t possess skills beyond those of a hobbyist, though the time he spent sculpting likely inspired his tactile portrayal of abstract concepts in his poetry. ______ in his 1855 poem “Bishop Blougram’s Apology,” Browning presents thought and consciousness as having a texture that can be altered by hand: “the great bishop rolled him out a mind / Long crumpled, till creased consciousness lay smooth.”
+Q: Which choice completes the text with the most logical transition?
+A) Even so,
+B) Likewise,
+C) Indeed,
+D) Additionally,
+K: D
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Lobsters, sea urchins, and horseshoe crabs are sea creatures.
+L: Lobsters have ten legs, two large claws, and a hard outer covering.
+L: Sea urchins have no arms and a hard outer covering.
+L: Horseshoe crabs have a horseshoe-shaped body and a hard outer covering.
+Q: The student wants to say what physical feature is the same for all three sea creatures. Which choice best uses information from the notes to do this?
+A) All three sea creatures have no arms.
+B) All three sea creatures have horseshoe-shaped bodies.
+C) All three sea creatures have a hard outer covering.
+D) All three sea creatures have two large claws.
+K: C
+#27
+P: While researching a topic, a student has taken the following notes:
+L: In a 2021 study, researchers showed participants an unaltered image of a popular character or logo alongside two slightly altered versions.
+L: Kirby is a cartoon creature with ovals on its cheeks.
+L: In the first alteration, the creature had nothing on its cheeks.
+L: In the second alteration, the creature had pink rings on its cheeks.
+L: Participants were asked to identify the correct version.
+L: 68.7% of participants selected the unaltered image.
+Q: The student wants to present a finding from the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) When participants were asked to identify the correct version of Kirby, 68.7% selected the unaltered image.
+B) Participants were asked to identify the correct version of Kirby, who is a cartoon creature with ovals on its cheeks.
+C) In a 2021 study, researchers asked participants to identify the correct version of Kirby.
+D) Kirby is a cartoon creature with ovals on its cheeks, but in one of the altered versions, the creature had nothing on its cheeks.
+K: A
+=M2
+#1
+P: Weather patterns, market trends, input costs, labor availability, equipment maintenance, and biological cycles are all variables that farmers must consider separately and in terms of how they may affect each other, and it is this ______ of factors in particular that makes successful farm management so challenging.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) neglect
+B) interplay
+C) misinterpretation
+D) resolution
+K: B
+#2
+P: To maximize ______, package distribution centers employ advanced scheduling systems and strategic staging areas that allow for goods received from warehouses to be immediately transferred to trucks for delivery to their final destinations. Some centers are so efficient that even the largest delivery trucks can be filled in a matter of minutes.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) staffing
+B) throughput
+C) liability
+D) overhead
+K: B
+#3
+P: While modern composers may often get inspiration from past greats like Ludwig van Beethoven, the extent of their influences is broad. The music of Gabriela Montero, for example, can be said to ______ elements of both the classical European tradition and the social, political, and cultural landscape of her native Venezuela.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) foretell
+B) exhibit
+C) defy
+D) neglect
+K: B
+#4
+P: Researchers have developed algorithms that take into account how various ______ influence production schedules, allowing rapid solution generation for manufacturing planning problems. The algorithms help identify efficient production schedules by processing those quantifiable inputs (e.g., demand patterns and capacity constraints) without exhaustively testing all possible scenarios.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) anomalies
+B) parameters
+C) predictions
+D) optimizations
+K: B
+#5
+P: Triplicate Girl’s ability to split into three identical versions of herself is illustrative of the lamentably lackluster powers bestowed on many female superheroes, but even those with more formidable powers have been subject to unflattering portrayals that often serve as ______: as the Scarlet Witch, Wanda Maximoff loses control of her reality-altering powers and robs countless fellow mutants of their unique abilities, showing the dangers of possessing great power.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) exonerations
+B) admonitions
+C) obfuscations
+D) venerations
+K: B
+#6
+P: Research on minor solar eruptions in magnetically quiet regions revealed an interesting pattern. <u>Material expelled during these events follows a narrow arc trajectory back to the Sun’s surface.</u> High-resolution images show these eruptions produce thin streams of hot gas moving at speeds between 55 and 200 kilometers per second. Although these are impressive velocities, they are not sufficient to overcome the confining forces of the Sun’s gravity and magnetic field, so the material is pulled back down.
+Q: Which choice best describes the function of the underlined sentence in the text as a whole?
+A) It acknowledges an exception to the pattern described in the first sentence of the text.
+B) It presents a research finding that challenges the view mentioned in the first sentence of the text.
+C) It describes a natural phenomenon that is explained later in the text.
+D) It discusses a natural occurrence that leads to the consequences explained later in the text.
+K: C
+#7
+P: Using data from a global consumer-to-consumer retail website, Alfio Ventura, Eve Sarah Troll, and colleagues evaluated whether pricing approaches vary across countries. Although the website will convert prices to the buyers’ home currency, most sellers target local markets, so <u>the researchers used virtual private networks to collect prices in each country’s predominant currency.</u> They found some striking inter-country differences in pricing strategy, such as the fact that 84.0% of sellers in Puerto Rico price their goods in whole numbers (e.g., $17) but only 0.3% of sellers in Indonesia do.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It explains a step that the researchers took to ensure that their data accurately reflected sellers’ intended prices.
+B) It presents a component of the researchers’ methodology that enabled them to convert all prices to the same currency for comparison.
+C) It discusses how the researchers controlled for the possibility that pricing strategies could change depending on the goods being sold.
+D) It describes an aspect of the study design that allowed the researchers to see how buyers in a given country reacted to pricing strategies rarely used in that country.
+K: C
+#8
+P: Text 1 is from George Eliot’s 1860 novel The Mill on the Floss. Text 2 is from Rabindranath Tagore’s 1921 nonfiction book Glimpses of Bengal.
+P: Text 1
+P: The wood I walk in on this mild May day, with the young yellow-brown foliage of the oaks between me and the blue sky, the white star-flowers and the blue-eyed speedwell and the ground ivy at my feet, what grove of tropic <u>palms</u>, what strange ferns or splendid broad-petalled blossoms, could ever thrill such deep and delicate fibres within me as this home scene?
+P: Text 2
+P: My feelings seem to be those of our ancient earth in the daily ecstasy of its sun-kissed life: my own consciousness seems to stream through each blade of grass, each sucking root, to rise with the sap through the trees, to break out with joyous thrills in the waving fields of corn, in the rustling <u>palm</u> leaves.
+Q: Which choice best describes a notable difference in how the references to palm trees function in Text 1 and Text 2?
+A) While the narrator of Text 1 and the author of Text 2 both discuss palm trees to suggest the value of experiencing the natural world, only the narrator of Text 1 alludes to the labor that goes into cultivating real palm trees.
+B) While the narrator of Text 1 and the author of Text 2 both refer to metaphorical palm trees, only the narrator of Text 1 suggests that the palm trees are representations of home.
+C) While palm trees serve to evoke natural beauty in both texts, only the author of Text 2 expresses a close sense of identification with palm trees.
+D) While palm trees form part of a series conveying the variety of the natural world in both texts, only the author of Text 2 recognizes how closely interconnected palm trees are with other living things.
+K: B
+#9
+P: Many linguists support the steppe hypothesis, which holds that the Indo-European language family originated approximately 6,000 years before present (YBP) on the Pontic-Caspian Steppe. Using the novel linguistics approach of computational phylogenetics, a research team proposed an age of approximately 8,120 YBP. As part of their findings, the team also presented a hypothesis as to how Indo-European spread, proposing that a major branch of Indo-European traveled northward from the language family’s source to the Pontic-Caspian Steppe, expanding from there across much of Europe.
+Q: What does the text most strongly suggest about the steppe hypothesis?
+A) It is weakened by the team’s findings, though the team’s hypothesis nevertheless accounts for the slight possibility that a minor branch of Indo-European originated on the Pontic-Caspian Steppe.
+B) It is incompatible with the team’s findings, though the team’s hypothesis nevertheless accords a position of importance to the Pontic-Caspian Steppe in the spread of Indo-European.
+C) It is more popular among linguists than other, competing hypotheses, which are better supported by the team’s findings than the steppe hypothesis is.
+D) It is based on older and less reliable research approaches than those used by the team, which included the innovative method of computational phylogenetics.
+K: D
+#10
+T: <table style="border-collapse:collapse"><caption>Highest Major Summits in India</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Summit</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Elevation (meters)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Mountain range</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Prominence (meters)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Mount Lakshmi</td><td style="border:1px solid #000;padding:4px 10px">6,983</td><td style="border:1px solid #000;padding:4px 10px">Rimo Karakoram</td><td style="border:1px solid #000;padding:4px 10px">800</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Rishi Pahar</td><td style="border:1px solid #000;padding:4px 10px">6,992</td><td style="border:1px solid #000;padding:4px 10px">Garhwal Himalaya</td><td style="border:1px solid #000;padding:4px 10px">622</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Jongsong Peak</td><td style="border:1px solid #000;padding:4px 10px">7,462</td><td style="border:1px solid #000;padding:4px 10px">Kangchenjunga Himalaya</td><td style="border:1px solid #000;padding:4px 10px">1,298</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Nun-Kun</td><td style="border:1px solid #000;padding:4px 10px">7,135</td><td style="border:1px solid #000;padding:4px 10px">Zanskar Himalaya</td><td style="border:1px solid #000;padding:4px 10px">2,404</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Teram Kangri III</td><td style="border:1px solid #000;padding:4px 10px">7,382</td><td style="border:1px solid #000;padding:4px 10px">Siachen Karakoram</td><td style="border:1px solid #000;padding:4px 10px">520</td></tr></table>
+P: Mountain summits are often described in terms of their elevation, or height above sea level. But a summit’s elevation may not be as good an indication of how high the mountain appears to observers as the summit’s prominence, or its height above its surroundings, and these values can differ significantly. For example, the Indian mountain of ______
+Q: Which choice most effectively uses data from the table to complete the example?
+A) Jongsong Peak has an elevation of 7,462 meters and is considered the highest mountain from the Kangchenjunga Himalaya range.
+B) Nun-Kun has a much higher prominence than does Teram Kangri III.
+C) Nun-Kun has a high prominence but is from a different mountain range than Rishi Pahar, which has a lower prominence.
+D) Jongsong Peak has an elevation of 7,462 meters but a considerably lower prominence of 1,298 meters.
+K: D
+#11
+P: Editor Jared Shurin’s enormous 2023 anthology The Big Book of Cyberpunk comprises 108 stories. Shurin’s volume is chronologically expansive, featuring such stories as James Tiptree Jr.’s “The Girl Who Was Plugged In” (1973) and Yudhanjaya Wijeratne’s “The State Machine” (2020). In his introduction, Shurin defines cyberpunk as a subgenre of speculative fiction concerning “the influence of technology on the scale, the pace, or the pattern of human affairs”; however, some critics assert that <u>cyberpunk is a literary movement that is in large part aesthetic rather than idea driven.</u>
+Q: Which quotation from a literary critic would be the most effective evidence in support of the underlined claim?
+A) “The stories in The Big Book of Cyberpunk share a number of common themes indicative of cyberpunk as a whole: body modification; resistance to authority; the ways in which technological advancements alter human behavior.”
+B) “Not all the stories anthologized in The Big Book of Cyberpunk were first published as stand-alone short stories in magazines or journals: for example, qntm’s 2021 story ‘Lena’ was originally self-published on the author’s site qntm.org.”
+C) “Shurin’s characterization of cyberpunk is remarkably generous: it is a categorization that might well serve for the entire field of science fiction in general, rather than cyberpunk in particular.”
+D) “A key component of cyberpunk that differentiates it from other subgenres of science fiction is an affection for the totems of 1980s pop culture, such as the mirrored sunglasses that were then popular.”
+K: A
+#12
+P: Cover crops, such as barley, are planted by many farmers between main growing seasons. While these crops are known for increasing biodiversity, Axel Don and his coauthor argued in a 2015 study that cover crops’ role in supporting soil carbon sequestration deserves more attention. Cover crops remove carbon dioxide (CO<sub>2</sub>) from the air and convert it to organic compounds; some of these are stored in the soil as soil organic carbon (SOC), which contributes to the buildup of SOC stocks over time. Based on data from numerous farm fields, Don and his coauthor concluded that cover crops contribute meaningfully to soil carbon sequestration and, if widely adopted, could help offset agricultural emissions of atmospheric CO<sub>2</sub> and other greenhouse gases.
+Q: Which finding, if true, would be most consistent with Don and his coauthor’s conclusion?
+A) SOC stocks tend to be significantly lower in fields without cover crops compared with fields where cover crops have been grown for several years.
+B) Barley captures considerably more CO<sub>2</sub> in fields where it is the sole cover crop compared with fields where it is grown alongside other species of cover crops.
+C) SOC stocks vary more in fields where cover crops have been grown for decades compared with fields where cover crops have only recently been introduced.
+D) Cover crops generally exhibit reduced carbon sequestration rates in fields exposed to high levels of greenhouse gas emissions compared with fields exposed to low levels of those emissions.
+K: B
+#13
+T: <table style="border-collapse:collapse"><caption>Employment in Tribal Economies in December 2017 and December 2023 by Sector</caption><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Economic sector</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Number of employees, 2017</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">% of workforce, 2017</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Number of employees, 2023</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">% of workforce, 2023</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">Business sector (all tribal businesses)</td><td style="border:1px solid #000;padding:4px 10px">220,700</td><td style="border:1px solid #000;padding:4px 10px">66.0%</td><td style="border:1px solid #000;padding:4px 10px">232,300</td><td style="border:1px solid #000;padding:4px 10px">65.4%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Leisure and hospitality businesses</td><td style="border:1px solid #000;padding:4px 10px">185,100</td><td style="border:1px solid #000;padding:4px 10px">55.3%</td><td style="border:1px solid #000;padding:4px 10px">192,300</td><td style="border:1px solid #000;padding:4px 10px">54.2%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Education and healthcare businesses</td><td style="border:1px solid #000;padding:4px 10px">19,100</td><td style="border:1px solid #000;padding:4px 10px">5.7%</td><td style="border:1px solid #000;padding:4px 10px">21,600</td><td style="border:1px solid #000;padding:4px 10px">6.1%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Other businesses</td><td style="border:1px solid #000;padding:4px 10px">16,500</td><td style="border:1px solid #000;padding:4px 10px">5.0%</td><td style="border:1px solid #000;padding:4px 10px">18,400</td><td style="border:1px solid #000;padding:4px 10px">5.1%</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">Public sector (tribal government and public administration)</td><td style="border:1px solid #000;padding:4px 10px">113,800</td><td style="border:1px solid #000;padding:4px 10px">34.0%</td><td style="border:1px solid #000;padding:4px 10px">122,700</td><td style="border:1px solid #000;padding:4px 10px">34.6%</td></tr></table>
+P: Tribal nations employ a large percentage of their populations in tribally owned businesses as well as in government and public administration. This is especially true in Oklahoma and other states with robust tribal economies and large Native populations. Between end-of-year 2017 and end-of-year 2023, the percentage of tribal employees working in the public sector increased, from 34.0% to 34.6%, while the percentage working in the business sector declined from 66.0% to 65.4%.
+Q: Which statement about the decline in the percentage of tribal employees working in the business sector is best supported by information in the table?
+A) It was offset by changes in leisure and hospitality businesses, since the percentage of employees working in those businesses increased during this period.
+B) It didn’t result from an overall contraction of that sector, since the total number of employees in that sector increased by several thousand during this period.
+C) It resulted from widespread workforce redistributions, since several thousand employees left that sector to take new jobs in the public sector during this period.
+D) It was driven primarily by changes in businesses classified as “other,” since those businesses had the lowest number of employees by the end of 2023.
+K: B
+#14
+P: In a 2018 study, Wee-Lee Tan and Yen-Nee Goh found that Malaysian consumers who reported more positive attitudes toward environmentally sustainable residences also reported greater intentions to purchase such properties. Subsequently, another team of researchers surveyed the attitudes of members of various demographic groups in Turkey about a new skin-care product that is environmentally sustainable. Finding that parents of small children had the most positive attitude toward the skin-care product, the researchers, citing the results of Tan and Goh’s study, concluded that parents of small children are more likely than other groups to purchase the skin-care product, suggesting that the researchers may have assumed that ______
+Q: Which choice most logically completes the text?
+A) the perception that goods are environmentally sustainable and the resulting increase in purchase intention are independent of those goods’ actual environmental sustainability.
+B) regardless of consumers’ demographic characteristics, consumers’ attitudes toward goods are strongly influenced by their perceptions of the environmental sustainability of those goods.
+C) the relationship between attitude and purchase intention for environmentally sustainable goods is not substantially affected by the type of good being purchased.
+D) parents of small children in Turkey and parents of small children in Malaysia are similar in their attitudes toward environmentally sustainable goods.
+K: C
+#15
+P: Rare species advantage (RSA) describes the situation in which there are few conspecifics (other members of the same species) in an organism’s immediate surroundings, enabling the organism to avoid competition with conspecifics for the same resources; RSA is widely believed to play a crucial role in maintaining ecological stability. Among tree species in the Barro Colorado Island plot (latitude 9.15° N) and other tropical forest sites, there is little correlation between conspecific aggregation and the abundance of a given species in the wider local area, so RSA is expected, but in the Tyson Research Center (latitude 38.52° N) and other temperate forest sites, the aggregation-abundance correlation for tree species is strongly negative. Mathematical modeling suggests, however, that ecological niche distinction may mitigate the apparent risk to temperate ecological stability engendered by this pattern: ______
+Q: Which choice most logically completes the text?
+A) even though rare tree species in temperate forests tend to cluster with conspecifics more than rare tree species in tropical forests do, they are sufficiently rare locally that they benefit from RSA more than rare tropical species do.
+B) although rare tree species in temperate forests encounter relatively high local competition from conspecifics, they can thrive by exploiting resources that are underexploited by other local species.
+C) while an increase in abundance in one tree species often leads to a reduction in abundance of nearby species, temperate tree species tend to play different roles in the same ecosystem, reducing the expected effect of abundance on aggregation.
+D) as a tree species in temperate forests becomes more abundant, individuals of that species are more likely to be found near conspecifics, enabling abundant species to exploit localized resources to a greater extent than rare species can.
+K: B
+#16
+P: Sean Carroll, a cosmology expert at the California Institute of Technology, provides a balanced assessment of the theory of quantum mechanics, emphasizing the ______ while also noting that our current understanding of it is severely limited when applied to cosmology as a whole.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) theory’s revolutionary insight’s
+B) theories’ revolutionary insights
+C) theories revolutionary insights’
+D) theory’s revolutionary insights
+K: D
+#17
+P: To more easily balance the weight of her body on her toes while performing the demanding pointe work that became increasingly common in early 20th-century ballet, internationally known ballerina Anna Pavlova redesigned her pointe shoes. The modifications she made—adding a stiffened leather sole and hardened toe ______ began the modernization of ballet’s iconic footwear.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) box
+B) box:
+C) box—
+D) box.
+K: C
+#18
+P: Machinists must account for multiple parameters—including material properties, cutting tool geometry, and machine capabilities—when setting up a machining project. Experienced ______ that tool speed and workpiece feed rate recommendations from manufacturer charts are only the first considerations, learn to balance these competing factors by adjusting their parameters based on specific variables, such as the cutting depth, desired surface finish, and workpiece rigidity.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) operators, recognizing
+B) operators, have recognized
+C) operators recognize
+D) operators can recognize
+K: A
+#19
+P: During a recent investigation, archaeologists ______ an explanation for the consistent and seemingly deliberate placement of petroglyphs (rock carvings) near water analyzed several sites on Caribbean islands. They discovered that many of the pools near petroglyphs had consistent water levels year-round, creating perfect reflecting surfaces for the carved symbols on the rocks.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) sought
+B) seeking
+C) had sought
+D) were seeking
+K: B
+#20
+P: For his mash-up “Smells Like Rockin’ Robin,” DJ Mark Vidler layered Kurt Cobain’s minor-key vocals from “Smells Like Teen Spirit” over the Jackson 5’s major-key blues progression from “Rockin’ ______ by inserting the grunge singer’s vocal melody as pitch-shifted “blue notes” within the pop-soul group’s harmonic framework, creates an intensified “bluesy” feeling and subverts the expectations of listeners familiar with either musical source.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Robin”; a technique that,
+B) Robin.” A technique that
+C) Robin”—a technique that,
+D) Robin,” a technique that
+K: C
+#21
+P: Named for the year in which it was detected by American astronomers, SN 2005gl was a supernova (the explosion of a massive ______ in the constellation Pisces, 200 million light-years from Earth, the transient yet powerful blast propelled particles and debris into space at extremely high speeds.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) star). Occurring
+B) star) occurring
+C) star). occurring
+D) star) and occurring
+K: A
+#22
+P: The Hornbostel-Sachs system classifies musical instruments by how they produce sound. For example, an instrument that is popular in Russia called the balalaika produces sound primarily through the vibration of its strings. ______ under the Hornbostel-Sachs system, the balalaika is a chordophone.
+Q: Which choice completes the text with the most logical transition?
+A) Instead,
+B) Furthermore,
+C) Thus,
+D) Similarly,
+K: C
+#23
+P: The Republic of Genoa, a sea power based in the Mediterranean port city of Genoa that reached its height around 1600 CE, is considered a thalassocracy—a geopolitical entity whose hegemony resulted from control of the sea rather than land. Historians classify thalassocracies as distinct from tellurocracies, or land-based powers. ______ the British Empire (1600s–1900s CE) is known for both land and sea supremacy.
+Q: Which choice completes the text with the most logical transition?
+A) For example, tellurocracies have long overpowered their rivals;
+B) Likewise, thalassocracies are sea-based powers;
+C) Of course, the distinction is not always so neat;
+D) In other words, empires are classified according to their source of power;
+K: C
+#24
+P: On July 10, 2015, the US women’s national soccer team received a ticker-tape parade in New York City in recognition of their winning the 2015 World Cup. Of the 206 ticker-tape parades held between 1886 and 2022, a number were for achievements in sports. ______ the 2015 soccer team’s parade was just one of 26 honoring sports champions.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) Nevertheless,
+C) Therefore,
+D) Indeed,
+K: D
+#25
+P: Between September 1854 and January 1855, Elizabeth Gaskell’s novel North and South was serialized in twenty parts in the magazine Household Words. Scholars typically regard the serial version of Gaskell’s novel as less authoritative than the version later published in book form. ______ as scholar Philip Allingham notes, serialized texts were the versions in which the nineteenth-century readership first “saw itself and its world reflected, and to which it responded, often with great emotion.”
+Q: Which choice completes the text with the most logical transition?
+A) Accordingly, they emphasize the appeal of the serial version for Victorian audiences;
+B) However, others regard the serial version as a more faithful representation of Gaskell’s intentions;
+C) Consequently, the book version of the novel is often favored over the serial version;
+D) Still, the serial version is important to an understanding of the novel’s historical context;
+K: D
+#26
+P: While researching a topic, a student has taken the following notes:
+L: Refrigerants are chemical compounds used in cooling technologies, such as air conditioners.
+L: Air conditioners can use refrigerants to absorb heat and release cold air.
+L: The refrigerant dichloromethane is a hydrochlorocarbon (HCC).
+L: HCCs are composed of the elements hydrogen, chlorine, and carbon.
+L: The refrigerant tetradecafluorohexane is a perfluorocarbon (PFC).
+L: PFCs are composed of fluorine and carbon.
+Q: The student wants to contrast dichloromethane and tetradecafluorohexane. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Dichloromethane and tetradecafluorohexane are chemical compounds used in cooling technologies; the compounds are known as refrigerants.
+B) Dichloromethane, a hydrochlorocarbon, is composed of hydrogen, chlorine, and carbon; tetradecafluorohexane, a perfluorocarbon, is composed of fluorine and carbon.
+C) The hydrochlorocarbon dichloromethane and the perfluorocarbon tetradecafluorohexane are both refrigerants that can be used in cooling technologies like air conditioners.
+D) Tetradecafluorohexane, a refrigerant, can be used in cooling technologies to absorb heat and release cold air.
+K: B
+#27
+P: While researching a topic, a student has taken the following notes:
+L: Researchers William J. Pestle, Carmen Laguer-Díaz, and colleagues compared two archaeological sites in Puerto Rico.
+L: Finding: The Ortiz site (in use from 2330 BCE to 310 CE) featured a wide variety of shells, marine animal remains, and stone artifacts.
+L: The researchers hypothesize that the site was a habitation site.
+L: Finding: The CRNWR_P13 site (in use from 810 BCE to 280 CE) primarily featured a midden of shells from the local environment.
+L: The researchers hypothesize that the site was used for collecting marine resources.
+Q: The student wants to challenge the claim that the sites served identical functions. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The researchers suggest different functions for the Ortiz and CRNWR_P13 sites, but further evidence is likely to refute these hypotheses entirely.
+B) Although both sites featured shells, evidence suggests that the Ortiz site was more than just a place for collecting marine resources.
+C) Given the presence of shells at both sites, one should be careful not to dismiss the fact that they were both used as sites for collecting marine resources.
+D) As the researchers hypothesize, the Ortiz site was in use longer and featured a wider variety of artifacts than did CRNWR_P13, suggesting that the former served only one function, habitation, instead of several functions.
+K: B
