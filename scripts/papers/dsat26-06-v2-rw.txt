@@ -87,12 +87,12 @@ D) writing: which was
 K: A
 #10
 P: While researching a topic, a student has taken the following notes:
-P: The false killer whale is a mammal species.
-P: It was believed to be extinct until a living false killer whale was identified in Denmark in 1861.
-P: The Banggai crow is a bird species.
-P: It was believed to be extinct until a living Banggai crow was identified in Indonesia in 2007.
-P: They are considered Lazarus species.
-P: “Lazarus species” is a term for living species of organisms that were once believed to be extinct.
+L: The false killer whale is a mammal species.
+L: It was believed to be extinct until a living false killer whale was identified in Denmark in 1861.
+L: The Banggai crow is a bird species.
+L: It was believed to be extinct until a living Banggai crow was identified in Indonesia in 2007.
+L: They are considered Lazarus species.
+L: “Lazarus species” is a term for living species of organisms that were once believed to be extinct.
 Q: The student wants to specify when the false killer whale was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Identified in Indonesia, a living Banggai crow was found in 2007.
 B) Previously believed to be extinct, a living false killer whale was identified in Denmark.
@@ -150,10 +150,10 @@ D) writing, it was
 K: C
 #17
 P: While researching a topic, a student has taken the following notes:
-P: India.Arie is an African American singer and songwriter.
-P: The media outlet All Music has described her music as having “glistening acoustic guitar, churchy organ, and smooth, supple beats.”
-P: Her first studio album, Acoustic Soul, was released in 2001.
-P: It features the song “Always in My Head.” David Spak played percussion on the album.
+L: India.Arie is an African American singer and songwriter.
+L: The media outlet All Music has described her music as having “glistening acoustic guitar, churchy organ, and smooth, supple beats.”
+L: Her first studio album, Acoustic Soul, was released in 2001.
+L: It features the song “Always in My Head.” David Spak played percussion on the album.
 Q: Which choice most effectively uses information from the given sentences to introduce Acoustic Soul to an audience already familiar with India.Arie?
 A) “Always in My Head,” a song by singer and songwriter India.Arie, is featured on the album Acoustic Soul.
 B) Featuring the song “Always in My Head,” Acoustic Soul is India.Arie’s first studio album.
@@ -319,10 +319,10 @@ D) Neverthless,
 K: A
 #10
 P: While researching a topic, a student has taken the following notes:
-P: A 2024 study analyzed the facial expressions of wolves and domestic dogs.
-P: In the study, facial expressions were coded under 46 different facial actions. The “ears rotator” facial action is seen in wolves.
-P: Dog breeds with erect (wolf-like) ears can produce the “ears rotator” facial action.
-P: Dog breeds with flopped or semi-flopped (non-wolf-like) ears cannot produce the “ears rotator” facial action.
+L: A 2024 study analyzed the facial expressions of wolves and domestic dogs.
+L: In the study, facial expressions were coded under 46 different facial actions. The “ears rotator” facial action is seen in wolves.
+L: Dog breeds with erect (wolf-like) ears can produce the “ears rotator” facial action.
+L: Dog breeds with flopped or semi-flopped (non-wolf-like) ears cannot produce the “ears rotator” facial action.
 Q: The student wants to compare dog breeds with wolf-like ears to dog breeds with non-wolf-like ears. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Like wolves, dog breeds with erect ears can produce the “ears rotator” facial action, while those with flopped or semi-flopped ears cannot.
 B) Non-wolf-like ears are flopped or semi-flopped, but wolf-like ears are different: they are erect and can produce the “ears rotator” facial action.

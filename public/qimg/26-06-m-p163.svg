@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 190" width="420" height="190" font-family="serif" font-size="16">
+<polygon points="40,130 95,50 150,130" fill="none" stroke="#000" stroke-width="2.5"/>
+<polygon points="190,130 275,20 380,130" fill="none" stroke="#000" stroke-width="2.5"/>
+<text x="22" y="140" font-style="italic">A</text><text x="90" y="42" font-style="italic">B</text><text x="154" y="142" font-style="italic">C</text>
+<text x="172" y="140" font-style="italic">A′</text><text x="270" y="12" font-style="italic">B′</text><text x="384" y="140" font-style="italic">C′</text>
+<text x="210" y="175" text-anchor="middle" font-size="13">Note: Figures not drawn to scale.</text></svg>

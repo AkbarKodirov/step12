@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320" font-family="serif" font-size="12">
+<line x1="40.0" y1="14" x2="40.0" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="64.4" y1="14" x2="64.4" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="88.8" y1="14" x2="88.8" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="113.2" y1="14" x2="113.2" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="137.6" y1="14" x2="137.6" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="162.0" y1="14" x2="162.0" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="186.4" y1="14" x2="186.4" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="210.8" y1="14" x2="210.8" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="235.2" y1="14" x2="235.2" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="259.6" y1="14" x2="259.6" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="284.0" y1="14" x2="284.0" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="308.4" y1="14" x2="308.4" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="332.8" y1="14" x2="332.8" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="357.2" y1="14" x2="357.2" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="381.6" y1="14" x2="381.6" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="406.0" y1="14" x2="406.0" y2="292" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="292.0" x2="406" y2="292.0" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="265.5" x2="406" y2="265.5" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="239.0" x2="406" y2="239.0" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="212.6" x2="406" y2="212.6" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="186.1" x2="406" y2="186.1" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="159.6" x2="406" y2="159.6" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="133.1" x2="406" y2="133.1" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="106.7" x2="406" y2="106.7" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="80.2" x2="406" y2="80.2" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="53.7" x2="406" y2="53.7" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="27.2" x2="406" y2="27.2" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="292.0" x2="406" y2="292.0" stroke="#000" stroke-width="1.2"/><line x1="40.0" y1="14" x2="40.0" y2="292" stroke="#000" stroke-width="1.2"/>
+<text x="88.8" y="306.0" text-anchor="middle">2</text>
+<text x="137.6" y="306.0" text-anchor="middle">4</text>
+<text x="186.4" y="306.0" text-anchor="middle">6</text>
+<text x="235.2" y="306.0" text-anchor="middle">8</text>
+<text x="284.0" y="306.0" text-anchor="middle">10</text>
+<text x="332.8" y="306.0" text-anchor="middle">12</text>
+<text x="381.6" y="306.0" text-anchor="middle">14</text>
+<text x="35.0" y="243.0" text-anchor="end">2</text>
+<text x="35.0" y="190.1" text-anchor="end">4</text>
+<text x="35.0" y="137.1" text-anchor="end">6</text>
+<text x="35.0" y="84.2" text-anchor="end">8</text>
+<text x="35.0" y="31.2" text-anchor="end">10</text>
+<text x="408" y="306.0" font-style="italic">x</text><text x="46.0" y="22" font-style="italic">y</text>
+<polyline fill="none" stroke="#000" stroke-width="2.2" points="40.0,159.6 42.4,158.5 44.9,157.3 47.3,156.2 49.8,155.0 52.2,153.8 54.6,152.6 57.1,151.4 59.5,150.2 62.0,148.9 64.4,147.7 66.8,146.5 69.3,145.2 71.7,143.9 74.2,142.6 76.6,141.4 79.0,140.0 81.5,138.7 83.9,137.4 86.4,136.1 88.8,134.7 91.2,133.4 93.7,132.0 96.1,130.6 98.6,129.2 101.0,127.8 103.4,126.4 105.9,124.9 108.3,123.5 110.8,122.0 113.2,120.6 115.6,119.1 118.1,117.6 120.5,116.1 123.0,114.6 125.4,113.0 127.8,111.5 130.3,109.9 132.7,108.3 135.2,106.7 137.6,105.1 140.0,103.5 142.5,101.9 144.9,100.2 147.4,98.6 149.8,96.9 152.2,95.2 154.7,93.5 157.1,91.8 159.6,90.1 162.0,88.3 164.4,86.6 166.9,84.8 169.3,83.0 171.8,81.2 174.2,79.3 176.6,77.5 179.1,75.7 181.5,73.8 184.0,71.9 186.4,70.0 188.8,68.1 191.3,66.1 193.7,64.2 196.2,62.2 198.6,60.2 201.0,58.2 203.5,56.2 205.9,54.1 208.4,52.1 210.8,50.0 213.2,47.9 215.7,45.8 218.1,43.7 220.6,41.5 223.0,39.3 225.4,37.2 227.9,35.0 230.3,32.7 232.8,30.5 235.2,28.2 237.6,25.9"/>
+</svg>

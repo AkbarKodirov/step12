@@ -9,10 +9,10 @@
 =M1
 #1
 P: While researching a topic, a student has taken the following notes:
-P: Swimming was celebrated in ancient Rome but fell out of favor throughout Europe’s Dark Ages.
-P: English theologian Everard Digby wrote the first modern swimming manual, De Arte Natandi, in 1587.
-P: Dighy’s manual described and illustrated a variety of aquatic stunts that he had developed (e.g., “ringing the bells,” “the leap of the goat”).
-P: Historian Vicki Valosik claims, “In providing instructions for these aquatic ‘refinements,’ Digby helped to revive swimming—a once revered skill that had all but died out during Europe’s Dark Ages— and elevate it from a crude, mechanical function of the hands and feet to an artful science.”
+L: Swimming was celebrated in ancient Rome but fell out of favor throughout Europe’s Dark Ages.
+L: English theologian Everard Digby wrote the first modern swimming manual, De Arte Natandi, in 1587.
+L: Dighy’s manual described and illustrated a variety of aquatic stunts that he had developed (e.g., “ringing the bells,” “the leap of the goat”).
+L: Historian Vicki Valosik claims, “In providing instructions for these aquatic ‘refinements,’ Digby helped to revive swimming—a once revered skill that had all but died out during Europe’s Dark Ages— and elevate it from a crude, mechanical function of the hands and feet to an artful science.”
 Q: The student wants to cite a historian to explain why Digby wrote De Arte Natandi. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) As Valosik claims, with De Arte Natandi, Digby developed the first modern swimming manual in order to illustrate why “a once revered skill...had all but died out during Europe’s Dark Ages.”
 B) Valosik claims that, by writing De Arte Natandi, Digby hoped to revive swimming...and elevate it from a crude, mechanical function...to an artful science.”
@@ -87,11 +87,11 @@ D) Previously,
 K: B
 #10
 P: While researching a topic, a student has taken the following notes:
-P: e The GREEN SURGE project studied different types of urban natural areas in European cities.
-P: Urban natural areas are city spaces that feature natural elements.
-P: Urban deltas are a type of urban natural area included in the study.
-P: Urban deltas are defined as the sediment deposits at the mouth of city rivers.
-P: They can benefit cities by providing fertile soil for farming.
+L: e The GREEN SURGE project studied different types of urban natural areas in European cities.
+L: Urban natural areas are city spaces that feature natural elements.
+L: Urban deltas are a type of urban natural area included in the study.
+L: Urban deltas are defined as the sediment deposits at the mouth of city rivers.
+L: They can benefit cities by providing fertile soil for farming.
 Q: The student wants to provide a specific example of a type of urban natural area. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) GREEN SURGE studied different types of urban natural areas, which are city spaces that feature natural elements.
 B) The spaces in European cities that feature natural elements are known as urban natural areas.
@@ -165,11 +165,11 @@ D) the ranking given by geographers to Mount Hayes, a peak located in the United
 K: B
 #19
 P: While researching a topic, a student has taken the following notes:
-P: Miriam Makeba was a South African singer.
-P: The song “Emabhaceni” appears on her 1988 album Sangoma.
-P: Sangoma features traditional Xhosa songs she learned as a child.
-P: Her 1970 album Keep Me in Mind features mostly renditions of popular songs from European and American artists of the time, such as “Down on the Corner.”
-P: “Down on the Corner” was originally made popular by the American rock band Creedence Clearwater Revival.
+L: Miriam Makeba was a South African singer.
+L: The song “Emabhaceni” appears on her 1988 album Sangoma.
+L: Sangoma features traditional Xhosa songs she learned as a child.
+L: Her 1970 album Keep Me in Mind features mostly renditions of popular songs from European and American artists of the time, such as “Down on the Corner.”
+L: “Down on the Corner” was originally made popular by the American rock band Creedence Clearwater Revival.
 Q: The student wants to emphasize a similarity between “Emabhaceni” and “Down on the Corner.” Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) The songs “Emabhaceni” and “Down on the Corner” can both be found on albums recorded by the South African singer Miriam Makeba.
 B) Miriam Makeba’s 1988 album Sangoma features traditional Xhosa songs she learned as a child.
@@ -178,10 +178,10 @@ D) Miriam Makeba recorded many songs over her lifetime, including “Emabhaceni,
 K: A
 #20
 P: While researching a topic, a student has taken the following notes:
-P: A nonnative species that causes environmental or economic harm when introduced to an ecosystem is considered invasive.
-P: Diffuse knapweed is an invasive species of flowering plant that crowds out livestock forage and native plants.
-P: e It was first introduced to the US accidentally through seed contamination. Purple loosestrife is an invasive species of wetland plant that crowds out native plants and reduces aquatic nutrients.
-P: e It was first introduced to the US accidentally in ship ballast water.
+L: A nonnative species that causes environmental or economic harm when introduced to an ecosystem is considered invasive.
+L: Diffuse knapweed is an invasive species of flowering plant that crowds out livestock forage and native plants.
+L: e It was first introduced to the US accidentally through seed contamination. Purple loosestrife is an invasive species of wetland plant that crowds out native plants and reduces aquatic nutrients.
+L: e It was first introduced to the US accidentally in ship ballast water.
 Q: The student wants to emphasize a similarity between diffuse knapweed and purple loosestrife. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Diffuse knapweed is an invasive species of wetland plant, and purple loosestrife was first introduced accidentally through seed contamination.
 B) Diffuse knapweed was first introduced accidentally through seed contamination, but it now crowds out livestock forage and native plants.
@@ -214,10 +214,10 @@ D) in fact,
 K: B
 #24
 P: While researching a topic, a student has taken the following notes:
-P: A nonnative species that causes environmental or economic harm when introduced to an ecosystem is considered invasive.
-P: Kudzu is an invasive species of vine that smothers native plants and trees.
-P: e It was first introduced to the US to help control erosion. Curly pondweed is an invasive species of aquatic plant that crowds out native plants and impedes aquatic recreation.
-P: e It was first introduced to the US accidentally during fishery stocking.
+L: A nonnative species that causes environmental or economic harm when introduced to an ecosystem is considered invasive.
+L: Kudzu is an invasive species of vine that smothers native plants and trees.
+L: e It was first introduced to the US to help control erosion. Curly pondweed is an invasive species of aquatic plant that crowds out native plants and impedes aquatic recreation.
+L: e It was first introduced to the US accidentally during fishery stocking.
 Q: The student wants to emphasize a similarity between kudzu and curly pondweed. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Kudzu is an invasive species of aquatic plant, and curly pondweed was first introduced to help control erosion.
 B) The harm to ecosystems caused by curly pondweed and kudzu has led both species to be considered invasive in the US.
@@ -226,12 +226,12 @@ D) Kudzu was first introduced to help control erosion, but it now smothers nativ
 K: B
 #25
 P: While researching a topic, a student has taken the following notes:
-P: The dinosaur ant is an insect species.
-P: e It was believed to be extinct until a living dinosaur ant was identified in Australia in 1977.
-P: Mount Diablo buckwheat is a plant species.
-P: e It was believed to be extinct until a living Mount Diablo buckwheat was identified in the United States in 2005.
-P: They are considered Lazarus species.
-P: "Lazarus species" is a term for living species of organisms that were once believed to be extinct.
+L: The dinosaur ant is an insect species.
+L: e It was believed to be extinct until a living dinosaur ant was identified in Australia in 1977.
+L: Mount Diablo buckwheat is a plant species.
+L: e It was believed to be extinct until a living Mount Diablo buckwheat was identified in the United States in 2005.
+L: They are considered Lazarus species.
+L: "Lazarus species" is a term for living species of organisms that were once believed to be extinct.
 Q: The student wants to specify when the dinosaur ant was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) 'Aliving dinosaur ant, once believed to be extinct, was identified in 1977.
 B) Previously believed to be extinct, a living dinosaur ant was identified in Australia.
@@ -327,9 +327,9 @@ D) is highlighting
 K: A
 #9
 P: While researching a topic, a student has taken the following notes:
-P: Late 1800s to the early 1900s: Japanese manga (comics) often used a structured, vertical layout with four panels per page.
-P: Late 1800s to the late 1980s: Heavily influenced by manga, Taiwanese manhua (comics) also favored a structured approach to layout.
-P: Post-1945: Manga artists began experimenting with dynamic panel sizing to enhance visual tension (e.g., establishing visual lines of sight between characters in one panel and objects in the next). 1947 to late 1980s: Taiwanese manhua artists adopted other manga characteristics (e.g., features of genre and narrative complexity).
+L: Late 1800s to the early 1900s: Japanese manga (comics) often used a structured, vertical layout with four panels per page.
+L: Late 1800s to the late 1980s: Heavily influenced by manga, Taiwanese manhua (comics) also favored a structured approach to layout.
+L: Post-1945: Manga artists began experimenting with dynamic panel sizing to enhance visual tension (e.g., establishing visual lines of sight between characters in one panel and objects in the next). 1947 to late 1980s: Taiwanese manhua artists adopted other manga characteristics (e.g., features of genre and narrative complexity).
 Q: The student wants to characterize Taiwanese manhua’s relationship to manga from the late 1800s to the late 1980s. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) While Taiwanese manhua artists initially resisted manga’s evolving approach to narrative complexity and genre, they adopted this approach in the early 1900s.
 B) Taiwanese manhua gradually diverged from manga, developing increasingly innovative layouts by the late 1980s.
@@ -395,11 +395,11 @@ D) Granted,
 K: D
 #17
 P: While researching a topic, a student has taken the following notes:
-P: The Highpointers Club is a hiking club.
-P: One of the main goals among club members is to reach the points in all fifty US states.
-P: Those who achieve this are called 50 Completers.
-P: In Suk Han became a 50 Completer on November 15, 2013. The point in Wisconsin is Timms Hill, at 1,951 ft.
-P: The point in Wyoming is Gannett Peak, at 13,809 ft.
+L: The Highpointers Club is a hiking club.
+L: One of the main goals among club members is to reach the points in all fifty US states.
+L: Those who achieve this are called 50 Completers.
+L: In Suk Han became a 50 Completer on November 15, 2013. The point in Wisconsin is Timms Hill, at 1,951 ft.
+L: The point in Wyoming is Gannett Peak, at 13,809 ft.
 Q: Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?
 A) If you are looking for a new hiking challenge, consider joining the Highpointers Club, as did In Suk Han, a hiker who successfully reached the point in every US state.
 B) Not until after you have reached the points in all fifty US states—including Timms Hill in Wisconsin and Gannett Peak in Wyoming—can you include yourself among the 50 Completers of the Highpointers Club.

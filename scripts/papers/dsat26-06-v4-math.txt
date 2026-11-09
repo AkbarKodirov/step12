@@ -1,0 +1,271 @@
+!id: dsat26-06-v4-math
+!name: June 2026 · Version 4 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: 4
+!missing: M2 M2 M2
+=M1
+#1
+Q: y > 3x + k
+Q: y < 7 − x
+Q: In the given system of inequalities, k is a positive constant. Which of the following represents the x-coordinates of all the points (x, y) that satisfy this system in the xy-plane?
+A) x > (k)/(7)
+B) x < (k)/(7)
+C) x > (7 − k)/(4)
+D) x < (7 − k)/(4)
+K: D
+#2
+Q: If (x)/(y) = 3 and (5x)/(ty) = 105, what is the value of t?
+A) (1)/(7)
+B) (3)/(5)
+C) (5)/(3)
+D) 7
+K: A
+#3
+Q: How many solutions does the equation 17x = 17x have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: D
+#4
+Q: y = (x − 7)(x + 6)
+Q: y = 4x − 28
+Q: A solution to the given system of equations is (x, y) = (a, b). Which of the following could be the value of a?
+A) 7
+B) 6
+C) −6
+D) −7
+K: A
+#5
+Q: In the xy-plane, which of the following does NOT contain any points (x, y) that are solutions to 4x + 3y > 18?
+A) The region where x > 0 and y > 0
+B) The region where x < 0 and y < 0
+C) The region where x > 0 and y < 0
+D) The region where x < 0 and y > 0
+K: B
+#6
+Q: The function f is defined by f(x) = −(1)/(2)(x − 11) + 6. For what value of x does f(x) = 3a, where a is a constant?
+A) −(3a)/(2) + (1)/(2)
+B) −(3a)/(2) + (23)/(2)
+C) −6a + 23
+D) −6a − 1
+K: C
+#7
+Q: (d − 33)(d + 33) − 9 = −9
+Q: What is a solution to the given equation?
+K: 33 | -33
+#8
+Q: The function f is defined by f(x) = 65x − 40. What is the value of f(x) when x = 8?
+K: 480
+#9
+Q: y = 4x − 13
+Q: 7x + y = 42
+Q: The solution to the given system of equations is (x, y). What is the value of x + y?
+K: 12
+#10
+Q: 3(x + (b)/(3) − 28) = 3x
+Q: In the given equation, b is a constant. The equation has infinitely many solutions. What is the value of b?
+K: 84
+#11
+T: <table><thead><tr><th><i>x</i></th><th><i>y</i></th></tr></thead><tbody><tr><td>−6</td><td><i>n</i> + 142</td></tr><tr><td>−3</td><td><i>n</i> + 71</td></tr><tr><td>0</td><td><i>n</i></td></tr></tbody></table>
+Q: The table shows three values of x and their corresponding values of y, where n is a constant, for the linear relationship between x and y. What is the slope of the line that represents this relationship in the xy-plane?
+A) −(71)/(3)
+B) −(3)/(71)
+C) (n + 71)/(−3)
+D) (2n − 71)/(3)
+K: A
+#12
+Q: √(w) + 35 = 45
+Q: What is the solution to the given equation?
+A) 100
+B) 20
+C) 5
+D) 2
+K: A
+#13
+I: /qimg/26-06-m-p137.svg
+Q: What is an equation of the graph shown?
+A) y = 3^x + 7
+B) y = 3^(−x) + 7
+C) y = 3^x + 8
+D) y = 3^(−x) + 8
+K: A
+#14
+Q: 4x^2 + x − 4 = 0
+Q: What is the greatest solution to the given equation?
+A) −(1)/(8) − (√(65))/(8)
+B) −(1)/(8) + (√(65))/(8)
+C) −(1)/(4) − (√(65))/(4)
+D) −(1)/(4) + (√(65))/(4)
+K: B
+#15
+Q: Which expression is a factor of 81p^21 − 121p^19?
+A) 9p + 11
+B) 81p^2 + 121
+C) 11p − 9
+D) −40p^44
+K: A
+#16
+I: /qimg/26-06-m-p49.svg
+Q: In the given scatterplot, a line of best fit for the data is shown, passing approximately through the points (0, 7.5) and (10, 1.5). Which of the following is closest to the slope of this line of best fit?
+A) −6
+B) −0.6
+C) 0.6
+D) 6
+K: B
+#17
+Q: A cube has an edge length of 36 inches. What is the volume, in cubic inches, of the cube?
+A) 46,656
+B) 7,776
+C) 1,296
+D) 144
+K: A
+#18
+Q: The measure of angle Z is 120 degrees. What is the measure, in radians, of angle Z?
+A) (1)/(3)π
+B) (2)/(3)π
+C) (4)/(3)π
+D) 2π
+K: B
+#19
+Q: Line c is defined by y = 5x + 8. Line d is parallel to line c in the xy-plane. What is the slope of line d?
+A) 3
+B) 5
+C) 8
+D) 13
+K: B
+#20
+Q: For two acute angles X and Y, the measure of angle Y is 28 degrees and (sin X)/(cos Y) = 1. What is the measure, in degrees, of angle X?
+A) 28
+B) 45
+C) 62
+D) 73
+K: C
+#21
+Q: Triangle ABC is similar to triangle DEF, where angle A corresponds to angle D and angle C corresponds to angle F. Angles C and F are right angles. If tan(A) = (50)/(27), what is the value of tan(E)?
+K: 27/50 | 0.54
+#22
+Q: 2x^2 − x√(k) + 2y^2 + y√(t) − 12 = 0
+Q: The given equation, where k and t are positive constants, defines a circle in the xy-plane. The radius of this circle is √(57). Which expression represents the value of t?
+A) 180 − k
+B) k − 720
+C) 720 − k
+D) 816 − k
+K: D
+=M2
+#1
+Q: The Southern Oscillation Index (SOI) predicts weather patterns in the Pacific Ocean. SOI values less than −7 over a period of time predict a temporary decrease in the strength of the Pacific trade winds. Each of the following inequalities represents SOI values, s, over a certain period of time. Which inequality represents SOI values that predict a temporary decrease in the strength of the Pacific trade winds?
+A) −27 < s < −17
+B) −7 < s < 0
+C) −7 < s < 7
+D) 19 < s < 24
+K: A
+#2
+Q: When several resistors are connected in series in a circuit, the total resistance of the circuit is the sum of the resistances of these resistors. A certain circuit consists of 9 resistors connected in series, where the resistance of each resistor is positive. The total resistance of 4 resistors in this circuit is 50 ohms. Each of the other 5 resistors in this circuit has a resistance of at most 20 ohms. The total resistance of this circuit is x ohms. Which inequality best represents this situation?
+A) 0 < x ≤ 150
+B) 50 < x ≤ 100
+C) 50 < x ≤ 150
+D) x ≥ 100
+K: C
+#3
+Q: The function g is defined by g(x) = √(7x + 4). What is the value of g(3)?
+K: 5
+#4
+Q: f(x) = 11^(−4(x+1))
+Q: Which of the following equivalent forms of the given function f displays, as the base or the coefficient, the y-coordinate of the y-intercept of the graph of y = f(x) in the xy-plane?
+A) f(x) = (1)/(14,641)((1)/(11))^(4x)
+B) f(x) = ((1)/(11))^(4x+4)
+C) f(x) = 11^(−4x−4)
+D) f(x) = 14,641^(−x−1)
+K: A
+#5
+Q: (7x^3 − 3) − (−6x^3 + 5)
+Q: The given expression is equivalent to bx^3 − 8, where b is a constant. What is the value of b?
+K: 13
+#6
+Q: y = 9x^2 − 54x + 45
+Q: The given equation represents a parabola in the xy-plane. Which of the following equations that represent the same parabola displays the x-intercepts as constants or coefficients?
+A) y = 9(x − 1)(x − 5)
+B) y = 9(x − 3)^2 − 36
+C) y = 9x(x − 6) + 45
+D) y = 9(x^2 − 6x) + 45
+K: A
+#7
+Q: A length of 590 meters is equal to how many decimeters? (1 meter = 10 decimeters)
+K: 5900
+#8
+Q: The exponential function g is defined by g(x) = ab^x, where a and b are positive constants. If g(c) = m and the value of g(c + 1) is 68% more than the value of m, where c and m are constants, what is the value of b?
+A) 0.32
+B) 0.68
+C) 1.68
+D) 3.36
+K: C
+#9
+Q: The ratio of the side length of square A to the side length of square B is 4 to 20. Square A has a side length of 11 inches. What is the side length, in inches, of square B?
+K: 55
+#10
+T: <table><thead><tr><th></th><th>Live north of Center St.</th><th>Live south of Center St.</th><th>Total</th></tr></thead><tbody><tr><td>Less than 45 years old</td><td>11</td><td>18</td><td>29</td></tr><tr><td>At least 45 years old</td><td>24</td><td>82</td><td>106</td></tr><tr><td>Total</td><td>35</td><td>100</td><td>135</td></tr></tbody></table>
+Q: The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?
+A) (29)/(135)
+B) (35)/(135)
+C) (100)/(135)
+D) (106)/(135)
+K: D
+#11
+Q: An online store is offering two different discounts on its sweaters: a bulk discount for large orders and a coupon discount. For orders of n sweaters, where 10 < n < 50, a bulk discount of n% off the original price of 39 dollars is applied to the price of each sweater. If a coupon is applied to the order, a discount of an additional 3 dollars is applied to the price of each sweater, after the bulk discount is applied. For a certain order with both the bulk discount and the coupon discount applied, the total price after the discounts for the sweaters purchased was 729 dollars. How many sweaters were purchased in this order?
+A) 19
+B) 20
+C) 30
+D) 44
+K: C
+#12
+Q: p(x) = 131 − 3x
+Q: The function p shown gives the number of blank sheets of paper, p(x), remaining in a printer x days after the printer had been loaded with paper. Which statement is the best interpretation of p(5) = 116?
+A) The number of blank sheets of paper remaining in the printer decreased by a total of 5 sheets after 116 days.
+B) There were 5 blank sheets of paper remaining in the printer 116 days after the printer had been loaded with paper.
+C) There were 116 blank sheets of paper remaining in the printer 5 days after the printer had been loaded with paper.
+D) The number of blank sheets of paper remaining in the printer decreased by a total of 116 sheets after 5 days.
+K: C
+#13
+Q: A circle in the xy-plane has its center at (−9, −8) and intersects the line y = a at exactly one point, where a is a positive constant. Which equation defines this circle?
+A) (x + 9)^2 + (y + 8)^2 = (a + 8)^2
+B) (x + 9)^2 + (y + 8)^2 = (a − 8)^2
+C) (x − 9)^2 + (y − 8)^2 = (a + 8)^2
+D) (x − 9)^2 + (y − 8)^2 = (a − 8)^2
+K: A
+#14
+I: /qimg/26-06-m-p163.svg
+Q: Triangles ABC and A′B′C′ are shown. Triangle ABC is dilated by a scale factor of 6 to form triangle A′B′C′. If the length of AB is 18, what is the length of A′B′?
+A) 3
+B) 6
+C) 24
+D) 108
+K: D
+#15
+Q: Cylinder A and cylinder B are each right circular cylinders with a radius of 3 inches. The height of cylinder A is half the height of cylinder B, and the total surface area of cylinder A is 102π square inches. If the cylinders are glued together along a circular base, what is the height, in inches, of the resulting cylinder?
+A) 6
+B) 14
+C) 28
+D) 42
+K: D
+#16
+Q: In the xy-plane, the graph of the equation (x − 6)^2 + (y − 7)^2 = 36 is a circle. The point (12, c), where c is a constant, lies on this circle. What is the value of c?
+K: 7
+#17
+I: /qimg/26-06-m-p118.svg
+Q: In the figure shown, line r is parallel to line s. One of the angles formed by the transversal is 49 degrees, and another alternate interior angle is x degrees. What is the value of x?
+K: 49
+#18
+Q: As the size of a firework's shell increases, the height above the ground when the firework bursts increases. For a firework to burst 858 feet above the ground, a firework's shell in the shape of a sphere with a volume of 282.40 cubic inches could be used. To the nearest whole number, what is the volume of this firework's shell in cubic centimeters? (1 inch = 2.54 centimeters)
+K: 4628
+#19
+I: /qimg/26-06-m-p103.svg
+Q: The figure shown is a trirectangular tetrahedron, a three-dimensional figure with four triangular faces, three of which are right triangles. A chemistry professor uses trirectangular tetrahedrons to create large-scale models of various carbon-based molecules. The base of one of these tetrahedrons is an isosceles right triangle whose legs each have length 12 inches (in). The height of this tetrahedron is 24 in. Which of the following is closest to the volume of this tetrahedron, in pints? (Note: 1 pint = 0.5 quarts; use 1 quart = 57.75 in^3. The volume of a trirectangular tetrahedron is equal to (1)/(3)Sh, where S is the area of its base and h is its height.)
+A) 19.95
+B) 119.69
+C) 576.00
+D) 16,632.00
+K: A

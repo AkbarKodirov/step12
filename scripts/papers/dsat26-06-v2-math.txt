@@ -1,0 +1,278 @@
+!id: dsat26-06-v2-math
+!name: June 2026 · Version 2 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: 2
+!missing: M2 M2 M2
+=M1
+#1
+Q: If 5x − 8 = 7, what is the value of 5x + 8?
+A) −1
+B) 3
+C) 11
+D) 23
+K: D
+#2
+Q: (1)/(42)x = (1)/(84)x
+Q: How many solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: B
+#3
+Q: The point (9, 3) in the xy-plane is a solution to which of the following systems of inequalities?
+A) x > 0<br>y > 0
+B) x > 0<br>y < 0
+C) x < 0<br>y > 0
+D) x < 0<br>y < 0
+K: A
+#4
+Q: r + g < 39
+Q: For which of the following tables are all the values of r and their corresponding values of g solutions to the given inequality?
+A) <table><thead><tr><th>r</th><th>g</th></tr></thead><tbody><tr><td>0</td><td>34</td></tr><tr><td>2</td><td>36</td></tr><tr><td>4</td><td>38</td></tr></tbody></table>
+B) <table><thead><tr><th>r</th><th>g</th></tr></thead><tbody><tr><td>0</td><td>34</td></tr><tr><td>2</td><td>38</td></tr><tr><td>4</td><td>36</td></tr></tbody></table>
+C) <table><thead><tr><th>r</th><th>g</th></tr></thead><tbody><tr><td>0</td><td>36</td></tr><tr><td>2</td><td>38</td></tr><tr><td>4</td><td>34</td></tr></tbody></table>
+D) <table><thead><tr><th>r</th><th>g</th></tr></thead><tbody><tr><td>0</td><td>38</td></tr><tr><td>2</td><td>36</td></tr><tr><td>4</td><td>34</td></tr></tbody></table>
+K: D
+#5
+Q: A pet service that takes care of both cats and dogs can care for at most 41 animals. Which inequality represents this situation, where c is the number of cats and d is the number of dogs?
+A) c + d ≤ 41
+B) c + d ≥ 41
+C) c − d ≤ 41
+D) c − d ≥ 41
+K: A
+#6
+Q: In the relationship between x and y, each increase of 1 in the value of x decreases the value of y by (6)/(7). When x = −7, y = −1. Which equation represents this relationship?
+A) y = −(6)/(7)x − 7
+B) y = −(6)/(7)x + 7
+C) y = (6)/(7)x − 7
+D) y = (6)/(7)x + 7
+K: A
+#7
+Q: The function f is defined by f(x) = (15)/(14 − x). What is the value of f(x) when x = 9?
+K: 3
+#8
+Q: y = 30x + 6
+Q: Which table gives three values of x and their corresponding values of y for the given equation?
+A) <table><thead><tr><th>x</th><th>y</th></tr></thead><tbody><tr><td>0</td><td>30</td></tr><tr><td>2</td><td>60</td></tr><tr><td>4</td><td>120</td></tr></tbody></table>
+B) <table><thead><tr><th>x</th><th>y</th></tr></thead><tbody><tr><td>0</td><td>6</td></tr><tr><td>2</td><td>66</td></tr><tr><td>4</td><td>126</td></tr></tbody></table>
+C) <table><thead><tr><th>x</th><th>y</th></tr></thead><tbody><tr><td>0</td><td>6</td></tr><tr><td>2</td><td>54</td></tr><tr><td>4</td><td>114</td></tr></tbody></table>
+D) <table><thead><tr><th>x</th><th>y</th></tr></thead><tbody><tr><td>0</td><td>30</td></tr><tr><td>2</td><td>36</td></tr><tr><td>4</td><td>42</td></tr></tbody></table>
+K: B
+#9
+T: <table><thead><tr><th><i>x</i></th><th><i>t</i>(<i>x</i>)</th></tr></thead><tbody><tr><td>27</td><td>14</td></tr><tr><td>36</td><td>37/2</td></tr><tr><td>49</td><td>25</td></tr></tbody></table>
+Q: For the linear function t, the table shows three values of x and their corresponding values of t(x). Function v is defined by v(x) = t(x) − 3. What is the x-intercept of the graph of y = v(x) in the xy-plane?
+A) (6, 0)
+B) (5, 0)
+C) (2, 0)
+D) (−1, 0)
+K: B
+#10
+Q: A linear function g is defined by g(x) = ax + b, where a and b are constants. If g(−2) = −7 and g(1) = 5, what is the value of a?
+K: 4
+#11
+Q: x(kx − 48) = −8
+Q: In the given equation, k is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of k?
+K: 71
+#12
+Q: f(x) = (x − a)(x − b)
+Q: The function f is defined by the given equation, where a and b are integer constants. If f(25) > 0, f(28) < 0, and f(31) > 0, what is one possible value of a + b?
+K: 55 | 56 | 57
+#13
+Q: Which expression is equivalent to 7xy + 35x^2y + 42xy^2?
+A) 7xy(1 + 35x + 42y)
+B) 7xy(1 + 5x + 6y)
+C) 7xy(35x + 42y)
+D) 7xy(5x + 6y)
+K: B
+#14
+Q: g(x) = 11((1)/(7))^x
+Q: If the given function g is graphed in the xy-plane, where y = g(x), what is the y-intercept of the graph?
+A) (0, 11)
+B) (0, 7)
+C) (0, 77)
+D) (0, 4)
+K: A
+#15
+Q: 7x^2(5x − 17)(5x − u) = 0
+Q: In the given equation, u is a positive constant. The sum of the solutions to the equation is 8. What is the value of u?
+A) 8
+B) 17
+C) 23
+D) 39
+K: C
+#16
+Q: 44x^2 + (44b + a)x + ab = 0
+Q: In the given equation, a and b are positive constants. The product of the solutions to the given equation is kab, where k is a constant. What is the value of k?
+A) (1)/(44)
+B) (1)/(11)
+C) 1
+D) 44
+K: A
+#17
+Q: The graph of a polynomial function y = f(x) in the xy-plane passes through the point (9, 5). What is the value of f(9)?
+A) 5
+B) 9
+C) 14
+D) 45
+K: A
+#18
+Q: A cell phone plan costs 83 dollars each month. Which equation gives the total cost c, in dollars, of the cell phone plan for m months?
+A) c = (83)/(m)
+B) c = m − 83
+C) c = 83m
+D) c = m + 83
+K: C
+#19
+I: /qimg/26-06-m-p56.svg
+Q: The line models the possible combinations of the number of boxes of cups, x, and the number of boxes of mugs, y, a company can purchase for a total price of 980 dollars. What is the price, in dollars, per box of cups?
+A) 10
+B) 20
+C) 49
+D) 98
+K: C
+#20
+I: /qimg/26-06-m-p27.svg
+Q: For the right triangle shown with legs of length 2.6 and 4.7 and hypotenuse of length x, the value of x is between which two consecutive integers?
+A) 2 and 3
+B) 5 and 6
+C) 7 and 8
+D) 28 and 29
+K: B
+#21
+Q: Triangle FGH is similar to triangle JKL, where angle F corresponds to angle J and angles G and K are right angles. If sin(F) = (340)/(389), what is the value of sin(J)?
+A) (189)/(389)
+B) (340)/(389)
+C) (389)/(340)
+D) (389)/(189)
+K: B
+#22
+Q: In triangle XYZ, two of the angles have the same measure. If the measure of angle X is 158 degrees and the measure of angle Y is 11 degrees, what is the measure of angle Z?
+A) 180 degrees
+B) 158 degrees
+C) 22 degrees
+D) 11 degrees
+K: D
+=M2
+#1
+Q: Two types of fish will be added to a pond: bluegill and largemouth bass. Based on ecological guidelines, the number of bluegill added to the pond will be 10 times the number of largemouth bass added to the pond. If a total of 3,410 fish will be added to the pond, how many of these will be largemouth bass?
+K: 310
+#2
+Q: The estimated total pressure a diver experiences below the surface of the water is equal to the sum of the estimated water pressure and the estimated atmospheric pressure. At a depth of h meters below the surface, the estimated total pressure P<sub>1</sub>, in kilopascals (kPa), a diver experiences is given by P<sub>1</sub> = 10h + 101. After maintaining a depth of h meters, the diver descended d additional meters. The estimated total pressure P<sub>2</sub>, in kPa, the diver experienced after descending these d additional meters is given by P<sub>2</sub> = 10d + 341. What is the estimated total pressure, in kPa, the diver experienced at a depth of h meters below the surface?
+A) 442
+B) 341
+C) 101
+D) 10
+K: B
+#3
+I: /qimg/26-06-m-p181.svg
+Q: For the polynomial function f, the graph of y = f(x) is shown. Which of the following must be a factor of f(x)?
+A) x − 4
+B) x − 3
+C) x + 3
+D) x + 7
+K: B
+#4
+Q: Which of the following expressions has a factor of x + 2b, where b is a positive integer constant?
+A) 3x^2 + 5x + 10b
+B) 3x^2 + 26x + 10b
+C) 3x^2 + 42x + 10b
+D) 3x^2 + 47x + 10b
+K: D
+#5
+Q: The expression 13x(x^2 + 6) is equivalent to ax^b + cx, where a, b, and c are constants. What is the value of abc?
+K: 3042
+#6
+T: <table><thead><tr><th><i>x</i></th><th><i>f</i>(<i>x</i>)</th></tr></thead><tbody><tr><td>1</td><td>7,000</td></tr><tr><td>2</td><td>2,800</td></tr><tr><td>3</td><td>1,120</td></tr><tr><td>4</td><td>448</td></tr></tbody></table>
+Q: For the function f, the table shows four values of x and their corresponding values of f(x). Which of the following could describe this function?
+A) Increasing linear
+B) Decreasing linear
+C) Increasing exponential
+D) Decreasing exponential
+K: D
+#7
+Q: A parabola in the xy-plane has a vertex of (1, 20). The equation y = −ax^2 + bx + c represents this parabola, where a, b, and c are positive integer constants. What is the greatest possible value of b?
+K: 38
+#8
+Q: The price of an item increased by p% from $78 to $81. What is the value of p?
+K: 50/13 | 3.846 | 3.847
+#9
+I: /qimg/26-06-m-p113.svg
+Q: The scatterplot shows the relationship between two variables, x and y, with 9 data points. A line of best fit for the data is also shown. For how many of the 9 data points is the actual y-value greater than the y-value predicted by the line of best fit?
+A) 8
+B) 7
+C) 5
+D) 2
+K: C
+#10
+Q: To install flooring, a contractor charges 7.75 dollars per square foot plus 100 dollars for labor. If a kitchen floor is a square with the side length of 15 feet, what is the total, in dollars, that the contractor charges to install flooring in this kitchen?
+A) 216.25
+B) 332.75
+C) 1,507.75
+D) 1,843.75
+K: D
+#11
+P: For t > 0, the function s is defined as follows:
+P: s(t) equals t less than 74% of t
+Q: Which of the following could describe this function?
+A) Decreasing linear
+B) Decreasing exponential
+C) Increasing linear
+D) Increasing exponential
+K: A
+#12
+Q: f(r) = 18 + 3r
+Q: The function f represents the total cost, in dollars, of attending a carnival when r rides are ridden. How many rides can be ridden for a total cost of 87 dollars?
+K: 23
+#13
+T: <table><thead><tr><th>Litter number</th><th>Number of rattlesnakes</th></tr></thead><tbody><tr><td>1</td><td>13</td></tr><tr><td>2</td><td>11</td></tr><tr><td>3</td><td>15</td></tr></tbody></table>
+P: Rattlesnakes do not lay eggs but give birth to live young. For the last three years, a rattlesnake at a zoo gave birth to one litter per year. The table shows the number of rattlesnakes in each of these three litters.
+Q: What is the mean number of rattlesnakes per litter for these three litters?
+A) 2
+B) 11
+C) 13
+D) 15
+K: C
+#14
+Q: During a trip, a car traveled a total of 450 miles on city roads and highways and used a total of 15 gallons of gas. The car traveled an average of 29 miles per gallon of gas on city roads and 35 miles per gallon of gas on highways. Which system of equations represents this situation, where c is the number of miles the car traveled on city roads and h is the number of miles the car traveled on highways?
+A) c + h = 15<br>(c)/(29) + (h)/(35) = 450
+B) c + h = 15<br>29c + 35h = 450
+C) c + h = 450<br>(c)/(29) + (h)/(35) = 15
+D) c + h = 450<br>29c + 35h = 15
+K: C
+#15
+Q: An entomologist is studying the growth rate of various insect species in a controlled environment. For one particular species being studied in the controlled environment, an exponential model predicts that a population with an initial measurement of 10 organisms will increase by 160% every 22 days. Which equation represents this model, where y is the predicted number of organisms in the population x days since the initial measurement?
+A) y = 10(1.60)^(22x)
+B) y = 10(2.60)^(22x)
+C) y = 10(1.60)^(x/22)
+D) y = 10(2.60)^(x/22)
+K: D
+#16
+P: Two sets of blocks include both wood-finish and painted blocks. The table summarizes the types of blocks in each set.
+T: <table><thead><tr><th>Set</th><th>Wood-finish blocks</th><th>Painted blocks</th><th>Total</th></tr></thead><tbody><tr><td>A</td><td>9</td><td>8</td><td>17</td></tr><tr><td>B</td><td>11</td><td>3</td><td>14</td></tr><tr><td>Total</td><td>20</td><td>11</td><td>31</td></tr></tbody></table>
+Q: If one of these blocks is selected at random, what is the probability of selecting a wood-finish block that is in set A? (Express your answer as a decimal or fraction, not as a percent.)
+K: 9/31 | 0.2903 | .2903 | 0.2904 | .2904
+#17
+Q: In triangle XYZ, the measure of angle X is 90 degrees. Point W lies on segment YZ, and segment WX is perpendicular to segment YZ. The length of segment WY is 548, and the length of segment WX is 411. What is the value of tan Z?
+A) (4)/(3)
+B) (4)/(5)
+C) (3)/(4)
+D) (3)/(5)
+K: A
+#18
+Q: The height of a right circular cylinder is 36 inches, and the circumference of its base is 360 inches. Which expression represents the total surface area, in square inches, of the cylinder?
+A) (36)(360) + 2π((180)/(π))^2
+B) (36)(360) + π((180)/(π))^2
+C) π((180)/(π))^2(36)
+D) (36)(360)
+K: A
+#19
+Q: A total of 2 equilateral pentagons each have side length p units. A total of 6 squares each have side length s units. The sum of the perimeters of all these pentagons and squares is 112 units. Which equation represents this situation?
+A) 8p + 30s = 112
+B) 6p + 2s = 112
+C) 2p + 6s = 112
+D) 10p + 24s = 112
+K: D

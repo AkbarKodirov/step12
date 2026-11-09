@@ -203,8 +203,8 @@ D) moreover,
 K: B
 #25
 P: While researching a topic, a student has taken the following notes:
-P: Dragonflies live near ponds and lakes.
-P: They need water nearby to lay their eggs.
+L: Dragonflies live near ponds and lakes.
+L: They need water nearby to lay their eggs.
 Q: The student wants to explain why dragonflies live where they do. Which choice best uses information from the notes to do this?
 A) Dragonflies usually lay their eggs during the warmer months of the year.
 B) Dragonflies have large eyes that enable them to spot and catch prey while flying.
@@ -213,12 +213,12 @@ D) Dragonflies can hover over ponds and lakes when they are hunting for insects.
 K: C
 #26
 P: While researching a topic, a student has taken the following notes:
-P: In Göttingen, Germany, there is a true-to-scale model solar system called the Planetenweg Göttingen.
-P: The scale model Earth is 0.65 cm in diameter.
-P: The scale model Sun is 70 cm in diameter.
-P: The actual Sun is roughly 1.39 million km in diameter.
-P: The actual Earth is roughly 12,742 km in diameter.
-P: The Sun is over 100 times bigger than Earth.
+L: In Göttingen, Germany, there is a true-to-scale model solar system called the Planetenweg Göttingen.
+L: The scale model Earth is 0.65 cm in diameter.
+L: The scale model Sun is 70 cm in diameter.
+L: The actual Sun is roughly 1.39 million km in diameter.
+L: The actual Earth is roughly 12,742 km in diameter.
+L: The Sun is over 100 times bigger than Earth.
 Q: The student wants to emphasize how much bigger the Sun is than Earth. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) The actual Earth is far bigger than the model Earth, which is only 0.65 cm in diameter.
 B) The Planetenweg Göttingen in Göttingen, Germany, is true to scale.
@@ -227,9 +227,9 @@ D) At the Planetenweg Göttingen in Göttingen, Germany, the model Sun is 70 cm 
 K: C
 #27
 P: While researching a topic, a student has taken the following notes:
-P: Raja Chari is a US astronaut.
-P: Chari has completed 2 spacewalks.
-P: In a spacewalk, an astronaut leaves the spacecraft to perform tasks. Spacewalks are also known as extravehicular activities, or EVAs.
+L: Raja Chari is a US astronaut.
+L: Chari has completed 2 spacewalks.
+L: In a spacewalk, an astronaut leaves the spacecraft to perform tasks. Spacewalks are also known as extravehicular activities, or EVAs.
 Q: The student wants to specify how many spacewalks Chari has completed. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Astronauts such as Chari have completed EVAs.
 B) EVAs take place outside a spacecraft.
@@ -457,12 +457,12 @@ D) Indeed,
 K: D
 #27
 P: While researching a topic, a student has taken the following notes:
-P: Canteen Co-op is a democratically run convenience store based in Hong Kong.
-P: 1914: Webb and Webb’s degeneration thesis argued that democratic workplaces will either fail or be forced to adopt hierarchical governance to remain profitable.
-P: 2012: Diamantopoulos’s regeneration thesis argued that workplaces could regenerate (recover from degeneration by reintroducing democratic practices).
-P: 2022: Unterrainer et al. analyzed data from 73 democratic workplaces to track structural changes over time.
-P: Canteen Co-op was among the 52.7% of the studied workplaces that resisted degeneration.
-P: 10.8% of the workplaces had regenerated, 27.0% showed partial signs of degeneration, and 9.5% had fully degenerated and never recovered.
+L: Canteen Co-op is a democratically run convenience store based in Hong Kong.
+L: 1914: Webb and Webb’s degeneration thesis argued that democratic workplaces will either fail or be forced to adopt hierarchical governance to remain profitable.
+L: 2012: Diamantopoulos’s regeneration thesis argued that workplaces could regenerate (recover from degeneration by reintroducing democratic practices).
+L: 2022: Unterrainer et al. analyzed data from 73 democratic workplaces to track structural changes over time.
+L: Canteen Co-op was among the 52.7% of the studied workplaces that resisted degeneration.
+L: 10.8% of the workplaces had regenerated, 27.0% showed partial signs of degeneration, and 9.5% had fully degenerated and never recovered.
 Q: The student wants to use data to support Diamantopoulos’s thesis. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Signs of degeneration were seen in 27.0% of democratic workplaces studied, supporting Diamantopoulos's assertion that degeneration could be reversed.
 B) An impressive 52.7% of democratic workplaces studied—including Canteen Co-op —resisted degeneration, lending credence to Diamantopoulos's regeneration thesis.

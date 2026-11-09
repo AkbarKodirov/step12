@@ -1,0 +1,287 @@
+!id: dsat26-06-v1-math
+!name: June 2026 · Version 1 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: 1
+!missing: M2 M2
+=M1
+#1
+Q: The function f is defined by f(x) = (x − 5) + 1. If f(a) = 7, what is the value of a + 5?
+A) 35
+B) 16
+C) 12
+D) 6
+K: B
+#2
+Q: (x − 10)(x + 3) = 0
+Q: How many distinct real solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: C
+#3
+Q: Line k is defined by y = 7x + (1)/(4). Line j is perpendicular to line k in the xy-plane. What is the slope of line j?
+A) −4
+B) −(1)/(7)
+C) (1)/(4)
+D) 7
+K: B
+#4
+I: /qimg/26-06-m-p80.svg
+Q: The graph of the linear equation 6x + By = 24 is shown, where B is a constant. What is the value of B?
+A) (3)/(4)
+B) 3
+C) 4
+D) 8
+K: D
+#5
+Q: y = (x − 8)(x + 5)
+Q: y = 2x − 16
+Q: A solution to the given system of equations is (x, y) = (a, b). Which of the following could be the value of a?
+A) −8
+B) −5
+C) 5
+D) 8
+K: D
+#6
+I: /qimg/26-06-m-p15.svg
+Q: A line segment is shown in the xy-plane. If line ℓ (not shown) is perpendicular to the line segment shown and passes through the point (0, 6), which equation defines line ℓ?
+A) 9x + 7y = 42
+B) −9x + 7y = 42
+C) 7x + 9y = 54
+D) −7x + 9y = 54
+K: D
+#7
+Q: y = 13x + 6
+Q: The first equation in a system of two linear equations is given. The system has no solution. The second equation in the system can be written as y = mx + b, where m and b are constants. Which of the following CANNOT be the value of b?
+A) (1)/(13)
+B) (1)/(6)
+C) 6
+D) 13
+K: C
+#8
+Q: The function f is defined by f(x) = (12)/(11 − x). What is the value of f(x) when x = 9?
+K: 6
+#9
+T: <table><thead><tr><th><i>x</i></th><th><i>y</i></th></tr></thead><tbody><tr><td>0</td><td>−4</td></tr><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>8</td></tr></tbody></table>
+Q: The table shows values of x and their corresponding values of y for three points on line j in the xy-plane. Line k also lies in the xy-plane and is defined by the equation y = 5x. At what point (x, y) do lines j and k intersect?
+A) (4, 20)
+B) (4, −10)
+C) (5, 25)
+D) (5, 26)
+K: A
+#10
+Q: 3(x + (b)/(3) − 17) = 3x
+Q: In the given equation, b is a constant. The equation has infinitely many solutions. What is the value of b?
+K: 51
+#11
+Q: A machine makes 3-inch, 7-inch, and 10-inch parts. During a certain day, the number of 3-inch parts that the machine makes is 5 times the number n of 7-inch parts, and the number of 10-inch parts is 4. During this day, the machine makes 100 parts total. Which equation represents this situation?
+A) 3(5n) + 7n + 10(4) = 100
+B) 3n + 7n + 10n = 100
+C) 5n + 4 = 100
+D) 6n + 4 = 100
+K: A
+#12
+Q: f(x) = (x − a)(x − b)
+Q: The function f is defined by the given equation, where a and b are integer constants. If f(11) > 0, f(14) < 0, and f(17) > 0, what is one possible value of a + b?
+K: 27 | 28 | 29
+#13
+Q: If 2√(6x) = 4, what is the value of 30x?
+A) 10
+B) 20
+C) 40
+D) 60
+K: B
+#14
+Q: Which expression is equivalent to 5xy(2x^2 + 6y)?
+A) 7x^3y + 11xy^2
+B) 10x^2y + 6y
+C) 10x^2y + 30xy
+D) 10x^3y + 30xy^2
+K: D
+#15
+I: /qimg/26-06-m-p140.svg
+Q: What is an equation of the graph shown, where y = f(x)?
+A) f(x) = x^2 − 5
+B) f(x) = x^2 − 4x − 5
+C) f(x) = x^2 + 4x − 5
+D) f(x) = 2x^2 + 4x − 5
+K: C
+#16
+Q: 7x^2(4x − 11)(4x − u) = 0
+Q: In the given equation, u is a positive constant. The sum of the solutions to the equation is 9. What is the value of u?
+A) 9
+B) 11
+C) 25
+D) 52
+K: C
+#17
+Q: x − a = (x − a)(x − 27)
+Q: Which of the following are solutions to the given equation, where a is a constant and a > 28?
+Q: I. a<br>II. 27<br>III. 28
+A) I and II only
+B) I and III only
+C) II and III only
+D) I, II, and III
+K: B
+#18
+Q: f(x) = 7((1)/(6))^x + 4
+Q: The function f is defined by the given equation. For all values of x, the value of f(x) is greater than k, where k is a constant. What is the greatest possible value of k?
+A) 0
+B) 4
+C) 28
+D) 168
+K: B
+#19
+Q: In each of the following data sets of 5 values, p is a constant. Which of these data sets has the largest standard deviation?
+A) p − 1, p − 1, p, p + 1, p + 1
+B) p − 2, p, p, p, p + 2
+C) p, p, p, p, p
+D) p − 4, p − 2, p, p + 2, p + 4
+K: D
+#20
+Q: The measure of angle Z is 15 degrees. What is the measure, in radians, of angle Z?
+A) (1)/(24)π
+B) (1)/(12)π
+C) (1)/(6)π
+D) (1)/(4)π
+K: B
+#21
+Q: Triangle ABC is similar to triangle DEF, where angle A corresponds to angle D and angle C corresponds to angle F. Angles C and F are right angles. If tan(A) = (25)/(13), what is the value of tan(E)?
+K: 13/25 | 0.52
+#22
+Q: In triangle ABC, the measure of angle B is 90 degrees and BD is an altitude of the triangle. The length of AB is 23 and the length of AC is 11 greater than the length of AB. What is the value of (BC)/(BD)?
+A) (11)/(23)
+B) (23)/(34)
+C) (34)/(23)
+D) (23)/(11)
+K: C
+=M2
+#1
+I: /qimg/26-06-m-p9.svg
+Q: The graph models the population, in thousands, of a town x years since 2003, where 0 ≤ x ≤ 15. Which statement is the best interpretation of the point (1, 5.45)?
+A) In 2003, the estimated population of the town was 5,450.
+B) In 2004, the estimated population of the town was 5,450.
+C) In 2017, the estimated population of the town was 5,450.
+D) In 2018, the estimated population of the town was 5,450.
+K: B
+#2
+Q: Which expression is a factor of x^4 + 14ax^2 + 49a^2 − 64, where a is a positive constant?
+A) x^2 + 7a + 8
+B) x^2 − 7a − 8
+C) x^2 + 14a
+D) x^2 − 8a
+K: A
+#3
+Q: (1)/(x − 1) = (x − 4)/(−x + 0.25)
+Q: What is one of the solutions to the given equation?
+K: 1.5 | 3/2 | 2.5 | 5/2
+#4
+Q: g(x) = x^2 + 6x + 90
+Q: The function g is defined by the given equation. Which of the following equivalent forms of the equation displays the minimum value of the function as a constant or coefficient?
+A) g(x) = (x + 3)^2 + 81
+B) g(x) = x^2 + 2(3x + 45)
+C) g(x) − 90 = x(x + 6)
+D) g(x) − 90 = (1)/(2)x(2x + 12)
+K: A
+#5
+Q: y = 2x^2 − 24x + 54
+Q: The given equation represents a parabola in the xy-plane. Which of the following equations that represent the same parabola displays the x-intercepts as constants or coefficients?
+A) y = 2(x^2 − 12x) + 54
+B) y = 2x(x − 12) + 54
+C) y = 2(x − 6)^2 − 18
+D) y = 2(x − 9)(x − 3)
+K: D
+#6
+Q: The function P(x) = 685(1.128)^x models the number of gray seal pups each year from 1967 through 1997 on Sable Island, Nova Scotia, where x is the number of years after 1967. Which of the following is the best interpretation of "P(16) is approximately equal to 4,706" in this context?
+A) The number of gray seal pups is estimated to be approximately 4,706 in 1983.
+B) The number of gray seal pups is estimated to be 16 greater in 1983 than in 1967.
+C) The number of gray seal pups is estimated to be 16 times greater in 1983 than in 1967.
+D) The number of gray seal pups is estimated to increase by approximately 4,706 every 16 years between 1967 and 1983.
+K: A
+#7
+Q: To install flooring, a contractor charges 5.75 dollars per square foot plus 100 dollars for labor. If a kitchen floor is a square with the side length of 17 feet, what is the total, in dollars, that the contractor charges to install flooring in this kitchen?
+A) 197.75
+B) 394.75
+C) 1,705.75
+D) 1,761.75
+K: D
+#8
+Q: Data set A consists of 10 positive integers less than 60. The list gives 9 of the integers from data set A.
+Q: 40, 43, 42, 40, 36, 37, 39, 44, 39
+Q: The mean of these 9 integers is 40. If the mean of data set A is an integer that is greater than 40, what is the value of the largest integer from data set A?
+A) 59
+B) 50
+C) 44
+D) 41
+K: B
+#9
+Q: The ratio of the side length of square A to the side length of square B is 4 to 20. Square A has a side length of 22 inches. What is the side length, in inches, of square B?
+K: 110
+#10
+Q: During a physics experiment, the speed of an object was determined to be 145.0 inches per second. What is this speed in feet per second? (12 inches = 1 foot)
+K: 145/12 | 12.08 | 12.083
+#11
+Q: At a convention center, there are a total of 275 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is 0.44, and the probability of selecting a visitor who is located in room B is 0.16. How many visitors are located in room C?
+A) 19
+B) 40
+C) 77
+D) 110
+K: D
+#12
+Q: The mass of object A is 481% of the mass of object B, and the mass of object A is 0.740% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of p?
+K: 65000
+#13
+Q: A function p estimates that there were 2,500 whales in a population in 1998. Each year from 1998 to 2010, the function estimates that the number of whales in this population increased by 7% of the number of whales in the population the previous year. Which equation defines this function, where p(x) is the estimated number of whales in the population x years after 1998?
+A) p(x) = 2,500(7)^x
+B) p(x) = 2,500(1.93)^x
+C) p(x) = 2,500(1.07)^x
+D) p(x) = 2,500(0.93)^x
+K: C
+#14
+T: <table><thead><tr><th></th><th>Live north of Center St.</th><th>Live south of Center St.</th><th>Total</th></tr></thead><tbody><tr><td>Less than 45 years old</td><td>13</td><td>17</td><td>30</td></tr><tr><td>At least 45 years old</td><td>22</td><td>83</td><td>105</td></tr><tr><td>Total</td><td>35</td><td>100</td><td>135</td></tr></tbody></table>
+Q: The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?
+A) (30)/(135)
+B) (35)/(135)
+C) (100)/(135)
+D) (105)/(135)
+K: D
+#15
+I: /qimg/26-06-m-p62.svg
+P: The maximum temperature on April 1, in degrees Fahrenheit, was recorded each year at a certain weather station for 11 years. The histogram summarizes the recorded data set.
+Q: The temperature of 77.4 degrees Fahrenheit is removed from this data set to create a new data set of 10 temperatures. Which of the following statements must be true?
+Q: I. The mean of the new data set is less than the mean of the original data set.<br>II. The median of the new data set is less than the median of the original data set.
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: A
+#16
+P: At a nature preserve, a wildlife biologist counted bald eagles from an observation deck at the same time each day for 21 days.
+T: <table><thead><tr><th>Number of bald eagles</th><th>Number of days</th></tr></thead><tbody><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>3</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>5</td></tr><tr><td>4</td><td>4</td></tr><tr><td>5</td><td>3</td></tr><tr><td>19</td><td>1</td></tr></tbody></table>
+P: The table summarizes the resulting data set, data set A. The data value 19 was recorded in error and is removed from data set A to create data set B, which consists of the remaining 20 data values. Which statement best compares the median of data set A and the median of data set B?
+A) The median of data set B is less than the median of data set A.
+B) The median of data set B is equal to the median of data set A.
+C) The median of data set B is greater than the median of data set A.
+D) There is not enough information to compare the medians of the two data sets.
+K: B
+#17
+Q: The estimated fuel cost C(x), in dollars, to drive a vehicle 100 kilometers is given by the function C(x) = 0.0021x^2 − 0.278x + 14.14, where x is the average speed, in kilometers per hour, of the vehicle. If the function C is graphed in the xy-plane, where y = C(x), what is the best interpretation of the point (60, 5.02) on the graph?
+A) The estimated fuel cost to drive the vehicle at an average speed of 5.02 kilometers per hour increases by 60 dollars each hour.
+B) The estimated fuel cost to drive the vehicle at an average speed of 60 kilometers per hour increases by 5.02 dollars each hour.
+C) The estimated fuel cost to drive the vehicle 100 kilometers at an average speed of 5.02 kilometers per hour is 60 dollars.
+D) The estimated fuel cost to drive the vehicle 100 kilometers at an average speed of 60 kilometers per hour is 5.02 dollars.
+K: D
+#18
+Q: The equation 56 = 2x + 2y gives the perimeter of a rectangular garden that has length x, in feet, and width y, in feet. The width of the garden is 13 feet. What is the length, in feet, of the garden?
+K: 15
+#19
+I: /qimg/26-06-m-p29.svg
+Q: The figure shown is a right rectangular pyramid, where ℓ = 10 units, w = 5 units, and h = 11 units. What is the volume, in cubic units, of the pyramid?
+K: 550/3 | 183.33 | 183.34 | 183.3
+#20
+Q: A marine biologist designed an aquarium for dolphins in the form of a right cylinder with a depth of 12 feet and a volume of 145,800 cubic feet. What is the volume of this aquarium, in cubic yards? (1 yard = 3 feet)
+K: 5400

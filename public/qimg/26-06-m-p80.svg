@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 350" width="440" height="350" font-family="serif" font-size="12">
+<line x1="40.0" y1="14" x2="40.0" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="73.6" y1="14" x2="73.6" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="107.1" y1="14" x2="107.1" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="140.7" y1="14" x2="140.7" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="174.3" y1="14" x2="174.3" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="207.8" y1="14" x2="207.8" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="241.4" y1="14" x2="241.4" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="275.0" y1="14" x2="275.0" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="308.5" y1="14" x2="308.5" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="342.1" y1="14" x2="342.1" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="375.7" y1="14" x2="375.7" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="409.2" y1="14" x2="409.2" y2="322" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="322.0" x2="426" y2="322.0" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="295.2" x2="426" y2="295.2" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="268.4" x2="426" y2="268.4" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="241.7" x2="426" y2="241.7" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="214.9" x2="426" y2="214.9" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="188.1" x2="426" y2="188.1" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="161.3" x2="426" y2="161.3" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="134.5" x2="426" y2="134.5" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="107.7" x2="426" y2="107.7" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="81.0" x2="426" y2="81.0" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="54.2" x2="426" y2="54.2" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="27.4" x2="426" y2="27.4" stroke="#bbb" stroke-width="0.7"/>
+<line x1="40" y1="295.2" x2="426" y2="295.2" stroke="#000" stroke-width="1.2"/><line x1="73.6" y1="14" x2="73.6" y2="322" stroke="#000" stroke-width="1.2"/>
+<text x="40.0" y="309.2" text-anchor="middle">-1</text>
+<text x="107.1" y="309.2" text-anchor="middle">1</text>
+<text x="174.3" y="309.2" text-anchor="middle">3</text>
+<text x="241.4" y="309.2" text-anchor="middle">5</text>
+<text x="308.5" y="309.2" text-anchor="middle">7</text>
+<text x="375.7" y="309.2" text-anchor="middle">9</text>
+<text x="68.6" y="326.0" text-anchor="end">-1</text>
+<text x="68.6" y="272.4" text-anchor="end">1</text>
+<text x="68.6" y="218.9" text-anchor="end">3</text>
+<text x="68.6" y="165.3" text-anchor="end">5</text>
+<text x="68.6" y="111.7" text-anchor="end">7</text>
+<text x="68.6" y="58.2" text-anchor="end">9</text>
+<text x="428" y="309.2" font-style="italic">x</text><text x="79.6" y="22" font-style="italic">y</text>
+<line x1="40.0" y1="194.8" x2="241.4" y2="315.3" stroke="#000" stroke-width="2"/>
+<circle cx="73.6" cy="214.9" r="3.5" fill="#000"/>
+<circle cx="207.8" cy="295.2" r="3.5" fill="#000"/>
+</svg>

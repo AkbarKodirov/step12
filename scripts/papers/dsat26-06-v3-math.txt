@@ -1,0 +1,278 @@
+!id: dsat26-06-v3-math
+!name: June 2026 · Version 3 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: 3
+!missing: M2 M2 M2
+=M1
+#1
+Q: If |14 − 2x| = 42, which of the following is a value of 7 − x?
+A) 0
+B) 7
+C) 21
+D) 28
+K: C
+#2
+Q: Which of the following is equivalent to (44(k + 2))/(4(k + 2)), where k > −2?
+A) 11
+B) 13
+C) 13k
+D) 11k + 2
+K: A
+#3
+I: /qimg/26-06-m-p95.svg
+Q: The point (v, −3) lies on this line. What is the value of v?
+A) −(96)/(11)
+B) −(11)/(12)
+C) (96)/(11)
+D) (168)/(11)
+K: A
+#4
+Q: 5x − (1)/(10)y = 246
+Q: (1)/(5)x + y = 50
+Q: The solution to the given system of equations is (x, y). What is the value of x?
+A) 5
+B) 15
+C) 50
+D) 55
+K: C
+#5
+Q: y ≥ x + 6
+Q: y ≤ −3x − 6
+Q: Which point (x, y) is a solution to the given system of inequalities in the xy-plane?
+A) (−4, 5)
+B) (−4, 1)
+C) (−2, 5)
+D) (−2, 1)
+K: A
+#6
+Q: In the xy-plane, the graph of y = (1)/(2)(x − 2)(x + 5)(x − c), where c is a constant, has a y-intercept of (0, 40). What is the value of c?
+A) 4
+B) 8
+C) 10
+D) 40
+K: B
+#7
+Q: v = −(w)/(133x)
+Q: The given equation relates the distinct numbers v, w, and x. Which equation correctly expresses w in terms of v and x?
+A) w = −133vx
+B) w = −(133v)/(x)
+C) w = −(v)/(133x)
+D) w = v + 133x
+K: A
+#8
+Q: (3)/(c) − (5)/(d) = 7
+Q: The given equation relates the variables c and d, where c and d are greater than 1. Which equation correctly expresses d in terms of c?
+A) d = (c)/(5(3 − 7c))
+B) d = (5c)/(3 − 7c)
+C) d = (5(3 − 7c))/(c)
+D) d = (3 − 7c)/(5c)
+K: B
+#9
+Q: Hassan put up wire fencing along each edge of a rectangular garden with a length of x feet and a width of y feet. Hassan put up a total length of 22 feet of wire fencing. Which equation represents this situation?
+A) xy = 22
+B) 2xy = 22
+C) x + y = 22
+D) 2x + 2y = 22
+K: D
+#10
+Q: 6(x − 3) = 13 + 4(x − 3)
+Q: If x is the solution to the given equation, what is the value of x − 3?
+K: 13/2 | 6.5
+#11
+Q: What is an x-coordinate of an x-intercept of the graph of y = 3(x − 13)(x + 5)(x + 1) in the xy-plane?
+K: 13 | -5 | -1
+#12
+Q: A line in the xy-plane passes through the points (9, 1), (0, 8), and (c, 0). What is the value of c?
+K: 72/7 | 10.28 | 10.29
+#13
+Q: 20(0.6r − 0.8s) = −1,840
+Q: 70(0.8r + 0.6s) = 6,580
+Q: The solution to the given system of equations is (r, s). What is the value of r + s?
+K: 150
+#14
+T: <table><thead><tr><th><i>x</i></th><th><i>y</i></th></tr></thead><tbody><tr><td>−5</td><td>49 + 4<i>k</i></td></tr><tr><td>5</td><td>49</td></tr><tr><td>10</td><td>49 − 2<i>k</i></td></tr></tbody></table>
+Q: The table gives three values of x and their corresponding values of y, where k is a positive constant. There is a linear relationship between x and y. Which equation represents this relationship?
+A) 2kx − 5y = 49 + 2k
+B) 2kx − 5y = 245 + 10k
+C) 2kx + 5y = 49 + 2k
+D) 2kx + 5y = 245 + 10k
+K: D
+#15
+Q: The expression 9(x − 3)(x + 3)(x^2 − 4) is equivalent to 9x^4 − rx^2 + p, where r and p are constants. What is the value of p − r?
+A) 207
+B) 5
+C) −5
+D) −207
+K: A
+#16
+Q: x^2 + (√(k − 3))x + 26 = 0
+Q: In the given equation, k is a constant. The equation has exactly one real solution. What is the value of k?
+A) 29
+B) 101
+C) 104
+D) 107
+K: D
+#17
+Q: x(x + 11) − 15 = 0
+Q: What are the solutions to the given equation?
+A) x = (11 ± √(61))/(2)
+B) x = (11 ± √(181))/(2)
+C) x = (−11 ± √(61))/(2)
+D) x = (−11 ± √(181))/(2)
+K: D
+#18
+Q: The positive number a is 2,047% of the sum of the positive numbers b and c, and b is 89% of c. What percent of b is a?
+A) 4,347%
+B) 2,136%
+C) 43.47%
+D) 21.36%
+K: A
+#19
+Q: A cube has an edge length of 31 inches. What is the volume, in cubic inches, of the cube?
+A) 124
+B) 961
+C) 5,766
+D) 29,791
+K: D
+#20
+Q: In △XYZ, the measure of ∠X is 20 degrees and the measure of ∠Y is 87 degrees. What is the measure of ∠Z?
+A) 67 degrees
+B) 73 degrees
+C) 107 degrees
+D) 197 degrees
+K: B
+#21
+Q: The length of a rectangle's diagonal is √(106), and the length of one of the rectangle's sides is 9. What is the perimeter of the rectangle?
+A) 106
+B) 45
+C) 28
+D) 14
+K: C
+#22
+I: /qimg/26-06-m-p85.svg
+Q: In the figure, LQ intersects MP at point R, and LM is parallel to PQ. The lengths of MR, LR, and RP are 9, 10, and 11, respectively. What is the length of LQ?
+A) (110)/(9)
+B) (200)/(11)
+C) (191)/(9)
+D) (200)/(9)
+K: D
+=M2
+#1
+Q: A chemist combines water and isopropanol to make a mixture with a volume of 31 milliliters (mL). The volume of isopropanol in the mixture is 10 mL. What is the volume of water, in mL, in the mixture? (Assume that the volume of the mixture is the sum of the volumes of water and isopropanol before they were mixed.)
+K: 21
+#2
+Q: f(x) = 3^(−5(x+1))
+Q: Which of the following equivalent forms of the given function f displays, as the base or the coefficient, the y-coordinate of the y-intercept of the graph of y = f(x) in the xy-plane?
+A) f(x) = (1)/(243)((1)/(3))^(5x)
+B) f(x) = ((1)/(3))^(5x+5)
+C) f(x) = 3^(−5x−5)
+D) f(x) = 243^(−x−1)
+K: A
+#3
+Q: (2x^3 − 8) − (−5x^3 + 7)
+Q: The given expression is equivalent to bx^3 − 15, where b is a constant. What is the value of b?
+K: 7
+#4
+Q: The expression 7(9x + 13)(x − 3) − (5x + 19) can be written in the form ax^2 + bx + c, where a, b, and c are constants. What is the value of b?
+K: -103
+#5
+Q: 40x + 36y = 720
+Q: Tom saved 40 dollars each month for x months, and Karla saved 36 dollars each month for y months. The given equation represents this situation, where Tom and Karla saved a total of 720 dollars. If Tom saved for 9 months, for how many months did Karla save?
+A) 40
+B) 20
+C) 18
+D) 10
+K: D
+#6
+Q: The exponential function g is defined by g(x) = ab^x, where a and b are positive constants. If g(c) = m and the value of g(c + 1) is 75% more than the value of m, where c and m are constants, what is the value of b?
+A) 0.25
+B) 0.75
+C) 1.75
+D) 3.5
+K: C
+#7
+I: /qimg/26-06-m-p86.svg
+Q: The scatterplot shows the relationship between x and y for the 10 data points in data set A. Data set B is created by multiplying the y-value of each data point from data set A by 30. Which of the following equations is the most appropriate model for data set B?
+A) y = 5(2.04)^x
+B) y = 149(2.04)^x
+C) y = 5(2.04)^x + 30
+D) y = 30(2.04)^x + 30
+K: B
+#8
+Q: Marko purchased a camera in August 2017 when the camera had a value of 1,000 dollars. Each month for the next 50 months, the value of the camera decreased by 3% of the previous month's value. Which equation represents this situation, where v is the value of the camera, in dollars, m is the number of months since Marko purchased the camera, and m ≤ 50?
+A) v = 2,017(0.97)^m
+B) v = 2,017(3)^m
+C) v = 1,000(0.97)^m
+D) v = 1,000(3)^m
+K: C
+#9
+Q: In a certain colony, one of the bees is a queen bee. Of the bees in this colony that are not the queen bee, 85% are worker bees, and the remaining bees are drones. If there are 11,004 drones in this colony, what is the total number of worker bees in this colony?
+K: 62356
+#10
+T: <table><thead><tr><th></th><th>Live north of Center St.</th><th>Live south of Center St.</th><th>Total</th></tr></thead><tbody><tr><td>Less than 45 years old</td><td>11</td><td>20</td><td>31</td></tr><tr><td>At least 45 years old</td><td>24</td><td>80</td><td>104</td></tr><tr><td>Total</td><td>35</td><td>100</td><td>135</td></tr></tbody></table>
+Q: The table summarizes members of a local organization by age and whether they live north or south of Center St. If a member of the organization is selected at random, what is the probability that the selected member is at least 45 years old?
+A) (31)/(135)
+B) (35)/(135)
+C) (100)/(135)
+D) (104)/(135)
+K: D
+#11
+P: Sam opened a savings account at a bank. The table
+T: <table><thead><tr><th>Time (years)</th><th>Total amount (dollars)</th></tr></thead><tbody><tr><td>0</td><td>864.00</td></tr><tr><td>1</td><td>869.18</td></tr><tr><td>2</td><td>874.40</td></tr></tbody></table>
+P: shows the exponential relationship between the time t, in years, since Sam opened the account and the total amount a, in dollars, in the account. If Sam made no additional deposits or withdrawals, which of the following equations best represents the relationship between t and a?
+A) a = 0.006(1 + 864)^t
+B) a = 864(1 + 0.006)^t
+C) a = (1 + 0.006)^t
+D) a = (1 + 864)^t
+K: B
+#12
+Q: An exponential function h estimates the number of people in attendance at a festival x minutes after the start of the festival. The function estimates that there were 47 people in attendance at the start of the festival. The function also estimates that every 25 minutes for the first 150 minutes of the festival, the number of people in attendance increased by 133% of the number of people in attendance 25 minutes earlier. Which function defines h, where x ≤ 150?
+A) h(x) = 47(1.33)^(x/25)
+B) h(x) = 47(1.33)^(x+25)
+C) h(x) = 47(2.33)^(x/25)
+D) h(x) = 47(2.33)^(x+25)
+K: C
+#13
+Q: The length of a rectangle is 41 centimeters greater than its width. Which equation gives the area A, in square centimeters, of the rectangle in terms of the width w, in centimeters, of the rectangle?
+A) A = (w)(w + 41)
+B) A = (w)(w − 41)
+C) A = (w)(41w)
+D) A = (w)((w)/(41))
+K: A
+#14
+Q: Triangles ABC and DEF are similar, where A corresponds to D and B corresponds to E. The measure of angle F is 65° and AB = (1)/(5)DE. Which of the following must be true?
+L: I. The measure of angle C is 13°.
+L: II. 5BC = EF.
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: B
+#15
+I: /qimg/26-06-m-p144.svg
+Q: In triangle XYZ, a line segment VW is parallel to XZ, with VW = 35 and XZ = 55, as shown in the figure. If YV = a, VX = c, YW = b, and WZ = d, and we are given (a)/(c) = k and (b)/(d) = k, what is the value of k?
+A) (4)/(7)
+B) (7)/(4)
+C) (7)/(11)
+D) (11)/(7)
+K: B
+#16
+Q: The radius of circle P is 210 centimeters. What is the diameter of circle P, in centimeters?
+K: 420
+#17
+Q: Cylinder A and cylinder B are each right circular cylinders with a radius of 4 inches. The height of cylinder A is half the height of cylinder B, and the total surface area of cylinder A is 128π square inches. If the cylinders are glued together along a circular base, what is the height, in inches, of the resulting cylinder?
+A) 8
+B) 12
+C) 24
+D) 36
+K: D
+#18
+Q: A right square pyramid has a surface area of 100 + 20√(554) square inches, which includes a base area of 100 square inches. What is the height, in inches, of this pyramid?
+K: 23
+#19
+I: /qimg/26-06-m-p189.svg
+Q: Cylinder A is similar to cylinder B. The volume of cylinder A is 5.13 cubic units and the volume of cylinder B is 1.52 cubic units. The surface area of cylinder A is 16.47 square units. What is the surface area, in square units, of cylinder B?
+K: 7.32
