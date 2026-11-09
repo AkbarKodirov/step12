@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="456" height="456" viewBox="0 0 456 456" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="456" height="456" fill="#fff"/>
+
+<line x1="36.0" y1="420.0" x2="36.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="60.0" y1="420.0" x2="60.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="84.0" y1="420.0" x2="84.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="108.0" y1="420.0" x2="108.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="132.0" y1="420.0" x2="132.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="156.0" y1="420.0" x2="156.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="180.0" y1="420.0" x2="180.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="204.0" y1="420.0" x2="204.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="228.0" y1="420.0" x2="228.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="252.0" y1="420.0" x2="252.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="276.0" y1="420.0" x2="276.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="300.0" y1="420.0" x2="300.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="324.0" y1="420.0" x2="324.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="348.0" y1="420.0" x2="348.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="372.0" y1="420.0" x2="372.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="396.0" y1="420.0" x2="396.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="420.0" y1="420.0" x2="420.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="420.0" x2="420.0" y2="420.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="396.0" x2="420.0" y2="396.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="372.0" x2="420.0" y2="372.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="348.0" x2="420.0" y2="348.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="324.0" x2="420.0" y2="324.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="300.0" x2="420.0" y2="300.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="276.0" x2="420.0" y2="276.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="252.0" x2="420.0" y2="252.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="228.0" x2="420.0" y2="228.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="204.0" x2="420.0" y2="204.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="180.0" x2="420.0" y2="180.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="156.0" x2="420.0" y2="156.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="132.0" x2="420.0" y2="132.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="108.0" x2="420.0" y2="108.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="84.0" x2="420.0" y2="84.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="60.0" x2="420.0" y2="60.0" stroke="#bbb" stroke-width="1"/>
+<line x1="36.0" y1="36.0" x2="420.0" y2="36.0" stroke="#bbb" stroke-width="1"/>
+<line x1="30.0" y1="276.0" x2="426.0" y2="276.0" stroke="#111" stroke-width="1.6"/>
+<line x1="180.0" y1="426.0" x2="180.0" y2="30.0" stroke="#111" stroke-width="1.6"/>
+<text x="430.0" y="281.0" font-size="16" font-style="italic">x</text><text x="188.0" y="28.0" font-size="16" font-style="italic">y</text>
+<text x="36.0" y="294.0" text-anchor="middle" font-size="13">-6</text>
+<text x="84.0" y="294.0" text-anchor="middle" font-size="13">-4</text>
+<text x="132.0" y="294.0" text-anchor="middle" font-size="13">-2</text>
+<text x="228.0" y="294.0" text-anchor="middle" font-size="13">2</text>
+<text x="276.0" y="294.0" text-anchor="middle" font-size="13">4</text>
+<text x="324.0" y="294.0" text-anchor="middle" font-size="13">6</text>
+<text x="372.0" y="294.0" text-anchor="middle" font-size="13">8</text>
+<text x="420.0" y="294.0" text-anchor="middle" font-size="13">10</text>
+<text x="174.0" y="424.0" text-anchor="end" font-size="13">-6</text>
+<text x="174.0" y="376.0" text-anchor="end" font-size="13">-4</text>
+<text x="174.0" y="328.0" text-anchor="end" font-size="13">-2</text>
+<text x="174.0" y="232.0" text-anchor="end" font-size="13">2</text>
+<text x="174.0" y="184.0" text-anchor="end" font-size="13">4</text>
+<text x="174.0" y="136.0" text-anchor="end" font-size="13">6</text>
+<text x="174.0" y="88.0" text-anchor="end" font-size="13">8</text>
+<text x="174.0" y="40.0" text-anchor="end" font-size="13">10</text>
+<line x1="108.0" y1="36.0" x2="300.0" y2="420.0" stroke="#111" stroke-width="2.4"/>
+</svg>

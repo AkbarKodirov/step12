@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="830" viewBox="0 0 504 830" font-family="Georgia, 'Times New Roman', serif" fill="#111">
+<rect width="504" height="830" fill="#fff"/>
+
+<line x1="48.0" y1="782.4" x2="48.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="72.0" y1="782.4" x2="72.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="96.0" y1="782.4" x2="96.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="120.0" y1="782.4" x2="120.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="144.0" y1="782.4" x2="144.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="168.0" y1="782.4" x2="168.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="192.0" y1="782.4" x2="192.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="216.0" y1="782.4" x2="216.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="240.0" y1="782.4" x2="240.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="264.0" y1="782.4" x2="264.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="288.0" y1="782.4" x2="288.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="312.0" y1="782.4" x2="312.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="336.0" y1="782.4" x2="336.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="360.0" y1="782.4" x2="360.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="384.0" y1="782.4" x2="384.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="408.0" y1="782.4" x2="408.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="432.0" y1="782.4" x2="432.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="456.0" y1="782.4" x2="456.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="782.4" x2="456.0" y2="782.4" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="739.2" x2="456.0" y2="739.2" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="696.0" x2="456.0" y2="696.0" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="652.8" x2="456.0" y2="652.8" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="609.6" x2="456.0" y2="609.6" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="566.4" x2="456.0" y2="566.4" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="523.2" x2="456.0" y2="523.2" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="480.0" x2="456.0" y2="480.0" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="436.8" x2="456.0" y2="436.8" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="393.6" x2="456.0" y2="393.6" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="350.4" x2="456.0" y2="350.4" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="307.2" x2="456.0" y2="307.2" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="264.0" x2="456.0" y2="264.0" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="220.8" x2="456.0" y2="220.8" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="177.6" x2="456.0" y2="177.6" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="134.4" x2="456.0" y2="134.4" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="91.2" x2="456.0" y2="91.2" stroke="#bbb" stroke-width="1"/>
+<line x1="48.0" y1="48.0" x2="456.0" y2="48.0" stroke="#bbb" stroke-width="1"/>
+<line x1="42.0" y1="782.4" x2="462.0" y2="782.4" stroke="#111" stroke-width="1.6"/>
+<line x1="48.0" y1="788.4" x2="48.0" y2="42.0" stroke="#111" stroke-width="1.6"/>
+<text x="466.0" y="787.4" font-size="16" font-style="italic">x</text><text x="56.0" y="40.0" font-size="16" font-style="italic">y</text>
+<text x="144.0" y="800.4" text-anchor="middle" font-size="13">2</text>
+<text x="240.0" y="800.4" text-anchor="middle" font-size="13">4</text>
+<text x="336.0" y="800.4" text-anchor="middle" font-size="13">6</text>
+<text x="432.0" y="800.4" text-anchor="middle" font-size="13">8</text>
+<text x="42.0" y="700.0" text-anchor="end" font-size="13">10</text>
+<text x="42.0" y="613.6" text-anchor="end" font-size="13">20</text>
+<text x="42.0" y="527.2" text-anchor="end" font-size="13">30</text>
+<text x="42.0" y="440.8" text-anchor="end" font-size="13">40</text>
+<text x="42.0" y="354.4" text-anchor="end" font-size="13">50</text>
+<text x="42.0" y="268.0" text-anchor="end" font-size="13">60</text>
+<text x="42.0" y="181.6" text-anchor="end" font-size="13">70</text>
+<text x="42.0" y="95.2" text-anchor="end" font-size="13">80</text>
+<line x1="48.0" y1="315.8" x2="441.6" y2="740.9" stroke="#111" stroke-width="2.4"/>
+<circle cx="96.0" cy="341.8" r="4.5" fill="#111" stroke="#111" stroke-width="1.6"/>
+<circle cx="144.0" cy="445.4" r="4.5" fill="#111" stroke="#111" stroke-width="1.6"/>
+<circle cx="192.0" cy="471.4" r="4.5" fill="#111" stroke="#111" stroke-width="1.6"/>
+<circle cx="297.6" cy="549.1" r="4.5" fill="#111" stroke="#111" stroke-width="1.6"/>
+<circle cx="350.4" cy="652.8" r="4.5" fill="#111" stroke="#111" stroke-width="1.6"/>
+<circle cx="398.4" cy="678.7" r="4.5" fill="#111" stroke="#111" stroke-width="1.6"/>
+<text x="249.6" y="860.2" font-size="13" text-anchor="middle">Elevation (feet)</text>
+<text x="441.6" y="825.6" font-size="10" text-anchor="end">thousands of feet</text>
+</svg>
