@@ -18,10 +18,10 @@ export default function ResultsList() {
           <div className="mt-5 flex h-40 items-end gap-2">
             {chart.map((a, i) => (
               <Link key={a.id} to={`/app/results/${a.id}`} className="group flex h-full flex-1 flex-col items-center justify-end gap-1.5" title={`${a.testName}: ${a.scaled}`}>
-                <span className="text-[11px] tabular-nums text-moss opacity-0 group-hover:opacity-100">{a.scaled}</span>
+                <span className="text-[11px] tabular-nums text-moss">{a.scaled}</span>
                 <motion.span
                   initial={{ height: 0 }}
-                  animate={{ height: `${((a.scaled - 200) / 600) * 100}%` }}
+                  animate={{ height: `${Math.max(((a.scaled - 200) / 600) * 100, 4)}%` }}
                   transition={{ delay: 0.15 + i * 0.05, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className={`w-full max-w-10 rounded-t-lg ${a.type === 'MATH' ? 'bg-sky-400' : 'bg-jg-500'} group-hover:opacity-80`}
                 />
