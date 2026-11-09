@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 468" font-family="Georgia,serif" font-size="14">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="305.0" y="18" text-anchor="middle" font-size="15">Orientation of Leaf Pairs in Grapevines</text>
+<line x1="70" x2="540" y1="300.0" y2="300.0" stroke="#ccc"/>
+<text x="64" y="305.0" text-anchor="end">0</text>
+<line x1="70" x2="540" y1="258.3" y2="258.3" stroke="#ccc"/>
+<text x="64" y="263.3" text-anchor="end">50</text>
+<line x1="70" x2="540" y1="216.7" y2="216.7" stroke="#ccc"/>
+<text x="64" y="221.7" text-anchor="end">100</text>
+<line x1="70" x2="540" y1="175.0" y2="175.0" stroke="#ccc"/>
+<text x="64" y="180.0" text-anchor="end">150</text>
+<line x1="70" x2="540" y1="133.3" y2="133.3" stroke="#ccc"/>
+<text x="64" y="138.3" text-anchor="end">200</text>
+<line x1="70" x2="540" y1="91.7" y2="91.7" stroke="#ccc"/>
+<text x="64" y="96.7" text-anchor="end">250</text>
+<line x1="70" x2="540" y1="50.0" y2="50.0" stroke="#ccc"/>
+<text x="64" y="55.0" text-anchor="end">300</text>
+<line x1="70" x2="70" y1="50" y2="300" stroke="#000"/>
+<line x1="70" x2="540" y1="300.0" y2="300.0" stroke="#000"/>
+<rect x="105.2" y="208.3" width="54.8" height="91.7" fill="#555" stroke="#000"/>
+<rect x="160.1" y="133.3" width="54.8" height="166.7" fill="#bbb" stroke="#000"/>
+<rect x="214.9" y="79.2" width="54.8" height="220.8" fill="#111" stroke="#000"/>
+<text x="187.5" y="320" text-anchor="middle">opposite side</text>
+<rect x="340.2" y="258.3" width="54.8" height="41.7" fill="#555" stroke="#000"/>
+<rect x="395.1" y="216.7" width="54.8" height="83.3" fill="#bbb" stroke="#000"/>
+<rect x="449.9" y="225.0" width="54.8" height="75.0" fill="#111" stroke="#000"/>
+<text x="422.5" y="320" text-anchor="middle">same side</text>
+<text x="305.0" y="348" text-anchor="middle">Orientation of leaves in pair</text>
+<text transform="translate(18,175.0) rotate(-90)" text-anchor="middle">Number of pairs</text>
+<rect x="80" y="384" width="16" height="16" fill="#555" stroke="#000"/><text x="104" y="397">frost grape</text>
+<rect x="80" y="408" width="16" height="16" fill="#bbb" stroke="#000"/><text x="104" y="421">July grape</text>
+<rect x="80" y="432" width="16" height="16" fill="#111" stroke="#000"/><text x="104" y="445">graybark grape</text>
+</svg>
