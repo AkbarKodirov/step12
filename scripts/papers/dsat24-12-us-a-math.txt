@@ -1,0 +1,296 @@
+!id: dsat24-12-us-a-math
+!name: December 2024 US · Form A · Math
+!type: MATH
+!year: 2024
+!month: 12
+!region: US
+!form: A
+!missing: M1 #15, M2 #11, M2 #15
+=M1
+#1
+Q: The function g is defined by g(x) = −18 − 9x. For what value of x does g(x) = −216?
+A) −26
+B) 22
+C) 26
+D) 1,926
+K: B
+E: −18 − 9x = −216 gives −9x = −198, so x = 22.
+#2
+Q: Which expression is equivalent to 13(x^2 − 7)?
+A) 13x^2 − 91
+B) 13x^2 − 20
+C) 13x^2 − 7
+D) 13x^2 + 6
+K: A
+E: Distribute 13: 13x^2 − 91.
+#3
+Q: The function f(x) = 600(0.5)^(x/11) gives the predicted intensity of a beam f(x), in number of photons in the beam, x millimeters below the surface of a certain material. What is the best interpretation of f(11) = 300?
+A) A beam at the surface of the material has a predicted intensity of 11 photons in the beam.
+B) A beam at the surface of the material has a predicted intensity of 300 photons in the beam.
+C) A beam 11 millimeters below the surface of the material has a predicted intensity of 300 photons in the beam.
+D) A beam 300 millimeters below the surface of the material has a predicted intensity of 600 photons in the beam.
+K: C
+E: The input x = 11 is the depth in millimeters and the output 300 is the intensity in photons.
+#4
+Q: A sleep study consisted of 59 participants, of which 53 participants each had an average of more than 120 minutes of rapid eye movement (REM) sleep per night. If a participant from this sleep study is selected at random, what is the probability of selecting a participant that had an average of more than 120 minutes of REM sleep per night?
+A) (53)/(100)
+B) (59)/(100)
+C) (53)/(59)
+D) (59)/(53)
+K: C
+E: The probability is 53 out of 59 participants.
+#5
+T: <table><tr><th>Air temperature</th><th>Wind chill temperature at wind speed 15 mph</th><th>Wind chill temperature at wind speed 45 mph</th></tr><tr><td>26°F</td><td>14°F</td><td>7°F</td></tr><tr><td>30°F</td><td>19°F</td><td>12°F</td></tr><tr><td>34°F</td><td>24°F</td><td>18°F</td></tr></table>
+Q: For certain air temperatures, the table gives wind chill temperatures for two different wind speeds. According to the table, what is the wind chill temperature, in degrees Fahrenheit (°F), when the air temperature is 26°F and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)
+K: 14
+E: In the row for 26°F and the column for 15 mph, the table shows 14°F.
+#6
+Q: A soccer team's goal is to earn at least $1,320 by selling coupon books. The team earns $12 from selling each coupon book. Which of the following inequalities describes all possible values for the number of coupon books, n, the team can sell to meet the goal?
+A) n + 12 ≤ 1,320
+B) n + 12 ≥ 1,320
+C) 12n ≤ 1,320
+D) 12n ≥ 1,320
+K: D
+E: Earnings 12n must be at least 1,320, so 12n ≥ 1,320.
+#7
+Q: 2.5c + 5d = 60. The given equation describes the relationship between the number of cats, c, and the number of dogs, d, that can be cared for at a pet care business during a week. If the business cares for 12 dogs during a week, how many cats can it care for during this week?
+A) 0
+B) 5
+C) 30
+D) 60
+K: A
+E: With d = 12, 2.5c + 60 = 60, so c = 0.
+#8
+Q: −(3x − 7)^2 = p + 17. In the given equation, p is an integer constant. The equation has no real solution. What is the least possible value of p?
+A) −18
+B) −17
+C) −16
+D) −15
+K: C
+E: The left side is never positive, so there is no solution when p + 17 > 0, i.e. p > −17. The least integer is −16.
+#9
+I: /qimg/24-dsat24-12-us-a-math-m1-q9.svg
+Q: For the triangles shown, triangle ABC is dilated by a scale factor of 5 to obtain triangle XYZ, where d = 19. What is the measure, in degrees, of angle X?
+A) 12
+B) 55
+C) 60
+D) 65
+K: C
+E: A dilation preserves angle measures, so angle X equals angle A, which is 60°.
+#10
+Q: The circumference of the base of a right circular cylinder is 6π meters, and the height of the cylinder is 19 meters. What is the volume, in cubic meters, of the cylinder?
+A) 57π
+B) 114π
+C) 171π
+D) 684π
+K: C
+E: 2πr = 6π gives r = 3, so V = π(3)^2(19) = 171π.
+#11
+I: /qimg/24-dsat24-12-us-a-math-m1-q11.svg
+Q: The area of triangle ABC is 220 square centimeters. What is the height h, in centimeters, of this triangle?
+A) 10
+B) 22
+C) 44
+D) 88
+K: C
+E: (1/2)(10)(h) = 220, so h = 44.
+#12
+I: /qimg/24-dsat24-12-us-a-math-m1-q12.svg
+Q: In the right triangle shown, the value of tan x° is (c)/(39). What is the value of c?
+A) 79
+B) 40
+C) 39
+D) 1
+K: B
+E: tan x° = opposite/adjacent = 40/39, so c = 40.
+#13
+Q: The graph of the polynomial function f in the xy-plane, where y = f(x), has x-intercepts of (−5, 0) and (6, 0). Which of the following must be true?
+A) f(0) = −5
+B) f(6) = −5
+C) f(−5) = 0
+D) f(−5) = 6
+K: C
+E: An x-intercept at (−5, 0) means f(−5) = 0.
+#14
+Q: (x − 16)(x − 10)(x + 7)(x + 17) = 0. What is a positive solution to the given equation?
+K: 10 | 16
+E: The solutions are 16, 10, −7, and −17, so the positive solutions are 10 and 16.
+#16
+Q: In the xy-plane, the graph of the equation (x − 6)^2 + (y − 2)^2 = 36 is a circle. The point (12, c), where c is a constant, lies on this circle. What is the value of c?
+K: 2
+E: (12 − 6)^2 = 36, so (c − 2)^2 = 0 and c = 2.
+#17
+Q: 6(x − 4) = (x − 4) + 6. If x is the solution to the given equation, what is the value of x − 4?
+K: 6/5 | 1.2
+E: 6(x − 4) − (x − 4) = 6, so 5(x − 4) = 6 and x − 4 = 6/5.
+#18
+Q: (5)/(4)x + 2y = 17 and (3)/(4)x + 2y = 15. The solution to the given system of equations is (x, y). What is the value of (11)/(4)x + 6y?
+A) 4
+B) 6
+C) 32
+D) 47
+K: D
+E: Subtracting the equations gives (1/2)x = 2, so x = 4. Then 2y = 15 − 3 = 12, so y = 6. Then (11/4)(4) + 6(6) = 11 + 36 = 47.
+#19
+Q: The function h is defined by h(x) = 14(2)^(−x) + 7. What is the value of h(3)?
+A) (42)/(4)
+B) (35)/(4)
+C) −77
+D) −105
+K: B
+E: h(3) = 14 · (1/8) + 7 = 7/4 + 7 = 35/4.
+#20
+Q: The graph of a line in the xy-plane passes through the point (1, 8) and crosses the x-axis at the point (7, 0). The line crosses the y-axis at the point (0, b). What is the value of b?
+K: 28/3 | 9.333 | 9.3333 | 9.334
+E: The slope is (0 − 8)/(7 − 1) = −4/3, so b = 8 + 4/3 = 28/3.
+#21
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>−2</td><td>19</td></tr><tr><td>0</td><td>31</td></tr><tr><td>2</td><td>43</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y. The linear relationship between x and y can be represented by an equation written in the form Ax + By = C, where A, B, and C are constants. What is the value of (A)/(B)?
+K: -6
+E: The slope is 6 and the y-intercept is 31, so y = 6x + 31, or 6x − y = −31. Then A/B = 6/(−1) = −6.
+#22
+Q: 5x + 8y = 9 and 15x + 24y = 27. For each real number r, which of the following points lies on the graph of each equation in the xy-plane for the given system?
+A) (r, −(5r)/(8) + (9)/(8))
+B) (−(5r)/(8) + (9)/(8), r)
+C) (−(5r)/(8) + 9, (5r)/(8) + 27)
+D) ((r)/(3) + 9, −(r)/(3) + 27)
+K: A
+E: Both equations describe the same line (the second is 3 times the first). Solving 5x + 8y = 9 for y gives y = −5x/8 + 9/8, so the point (r, −5r/8 + 9/8) lies on it.
+=M2
+#1
+Q: Julia purchased 800 feet of fencing. She used 60% of this fencing to surround a vegetable garden. How many feet of fencing did Julia use to surround the vegetable garden?
+A) 12
+B) 30
+C) 480
+D) 740
+K: C
+E: 60% of 800 is 0.6 × 800 = 480.
+#2
+Q: The population of a certain city doubled every 25 years from 1660 to 1760. The population of this city was 208,000 in 1760. What was the population of this city in 1660?
+A) 13,000
+B) 26,000
+C) 104,000
+D) 416,000
+K: A
+E: From 1660 to 1760 is 100 years, or 4 doublings, so the 1660 population was 208,000 / 2^4 = 13,000.
+#3
+Q: 1, 4, 7, 10, 33. What is the mean of the data shown?
+A) 7
+B) 11
+C) 17
+D) 33
+K: B
+E: (1 + 4 + 7 + 10 + 33)/5 = 55/5 = 11.
+#4
+Q: For the linear function h, h(0) = 0 and h(11) = 5. Which equation defines h?
+A) h(x) = (5)/(11)x
+B) h(x) = (5)/(11)x + 5
+C) h(x) = (11)/(5)x
+D) h(x) = (11)/(5)x + 11
+K: A
+E: The line passes through the origin with slope 5/11, so h(x) = (5/11)x.
+#5
+Q: Hassan put up wire fencing along each edge of a rectangular garden with a length of x feet and a width of y feet. Hassan put up a total length of 44 feet of wire fencing. Which equation represents this situation?
+A) 2x + 2y = 44
+B) x + y = 44
+C) 2xy = 44
+D) xy = 44
+K: A
+E: The perimeter is 2x + 2y = 44.
+#6
+Q: How many solutions does the equation 7x − 19 = 19 − 7x have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: B
+E: 14x = 38 gives exactly one solution, x = 19/7.
+#7
+Q: y > 17 and 4x + y < 21. The point (x, 54) is a solution to the given system of inequalities in the xy-plane. Which of the following could be the value of x?
+A) 9
+B) 5
+C) −5
+D) −9
+K: D
+E: With y = 54, 4x + 54 < 21 gives x < −8.25, so only −9 works.
+#8
+Q: A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is $190 when it sells 4 items, and its profit is $670 when it sells 10 items. Which equation defines f?
+A) f(x) = 180x − 670
+B) f(x) = 67x
+C) f(x) = 80x − 10x
+D) f(x) = 80x − 130
+K: D
+E: The slope is (670 − 190)/(10 − 4) = 80, and 190 = 80(4) + b gives b = −130.
+#9
+Q: Which quadratic equation has no real solutions?
+A) −2x^2 = 0
+B) −2x^2 + 2 = 0
+C) −2x^2 + 2x = 0
+D) −2x^2 + 2x − 2 = 0
+K: D
+E: For −2x^2 + 2x − 2 = 0 the discriminant is 4 − 16 = −12 < 0, so there are no real solutions. The others each have real solutions.
+#10
+Q: What is the y-intercept of the graph of y = 16^(x + 3) in the xy-plane?
+A) (0, 4,096)
+B) (0, 0)
+C) (0, 16)
+D) (0, 3)
+K: A
+E: At x = 0, y = 16^3 = 4,096.
+#12
+Q: A carnival receives $10 for each adult admission ticket sold and $5 for each child admission ticket sold. On a particular day, the carnival received a total of $4,100 from selling adult and child admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?
+K: 380
+E: Adult tickets bring in 10 × 220 = 2,200 dollars, so child tickets brought in 1,900 dollars, and 1,900 / 5 = 380.
+#13
+Q: y − x = 32 and y = x^2 − 30x. The graphs of the equations in the given system intersect at the point (x, y) in the xy-plane. What is a possible value of y?
+A) 32
+B) 33
+C) 63
+D) 64
+K: D
+E: Substituting y = x + 32 gives x^2 − 31x − 32 = 0, so x = 32 or x = −1. Then y = 64 or 31. Only 64 is listed.
+#14
+Q: c(r) = (2)/(5)(2πr). The function c gives the partial length, in centimeters (cm), of the circumference of a circle with a radius that measures r cm. According to the function, for each increase of 18 cm in the length of the radius, this partial length of the circumference increases by kπ cm. What is the value of k?
+K: 72/5 | 14.4
+E: c(r) = (4π/5)r, so an increase of 18 in r adds (4π/5)(18) = (72/5)π. So k = 72/5 = 14.4.
+#16
+Q: The function k is defined by k(s) = √(s + 110). If k(53p) = p, where p is a constant, what is the value of p?
+K: 55
+E: √(53p + 110) = p gives p^2 − 53p − 110 = 0, so (p − 55)(p + 2) = 0. Since a square root is not negative, p = 55.
+#17
+Q: If 121x^2 = −110x + 56, what is the value of 11x + 5, where 11x + 5 > 0?
+K: 9
+E: Let u = 11x. Then u^2 + 10u − 56 = 0, so (u + 14)(u − 4) = 0 and u = −14 or 4. Then 11x + 5 = −9 or 9, and only 9 is positive.
+#18
+Q: A computer program models the population of a certain insect in an environment where the insect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is 158% greater than the estimated total mass of the population of insects at the end of the previous 5-week period. The estimated total mass of the population of insects at the end of 15 weeks is 627.7 grams. Which equation best represents this model, where M is the estimated total mass, in grams, of the population of insects at the end of t weeks?
+A) M = 538.92(1.58)^(t/5)
+B) M = 457.66(2.58)^(t/5)
+C) M = 159.14(1.58)^(t/5)
+D) M = 36.55(2.58)^(t/5)
+K: D
+E: The mass is multiplied by 1 + 1.58 = 2.58 every 5 weeks, so M = a(2.58)^(t/5). At t = 15, a(2.58)^3 = 627.7, so a ≈ 36.55.
+#19
+Q: The value of an autographed baseball increased by 178% from the end of 2012 to the end of 2013 and then decreased by 21% from the end of 2013 to the end of 2014. What was the net percentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?
+A) 119.62%
+B) 140.62%
+C) 157.00%
+D) 236.38%
+K: A
+E: The value is multiplied by 2.78 × 0.79 = 2.1962, a net increase of 119.62%.
+#20
+Q: If n and k are numbers greater than 1 and ⁴√(n^5) is equivalent to ∛(k^2), for what value of a is n^(2a + 1) equal to k?
+K: 7/16 | .4375 | 0.4375
+E: n^(5/4) = k^(2/3), so k = n^((5/4)(3/2)) = n^(15/8). Then 2a + 1 = 15/8, so a = 7/16.
+#21
+I: /qimg/24-dsat24-12-us-a-math-m2-q21.svg
+Q: For triangle ABC, the length of AB is 11 less than the length of AC. Point D (not shown) lies on AC such that BD (not shown) is perpendicular to AC. What is the value of (BC)/(BD)?
+K: 28/17 | 1.647 | 1.6470 | 1.6471
+E: AB = 28 − 11 = 17. In right triangle BCD, sin C = BD/BC, and in triangle ABC, sin C = AB/AC = 17/28. So BC/BD = 28/17.
+#22
+Q: The area of a rectangular region is increasing at a rate of 280 square feet per hour. Which of the following is closest to this rate in square meters per minute? (Use 1 meter = 3.28 feet.)
+A) 0.43
+B) 1.42
+C) 15.31
+D) 26.03
+K: A
+E: 280 / 3.28^2 ≈ 26.03 square meters per hour, and dividing by 60 gives about 0.43 square meters per minute.
