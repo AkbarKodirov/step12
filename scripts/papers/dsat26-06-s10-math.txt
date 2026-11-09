@@ -1,0 +1,325 @@
+!id: dsat26-06-s10-math
+!name: June 2026 · Mixed Set 10 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: S10
+=M1
+#1
+I: /qimg/26-06-ma-1127.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1127-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1127-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1127-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1127-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#2
+I: /qimg/26-06-ma-1129.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1129-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1129-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1129-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1129-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#3
+I: /qimg/26-06-ma-1131.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1131-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1131-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1131-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1131-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#4
+I: /qimg/26-06-ma-1259.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1259-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1259-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1259-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1259-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#5
+I: /qimg/26-06-ma-1262.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1262-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1262-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1262-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1262-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#6
+I: /qimg/26-06-ma-1263.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1263-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1263-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1263-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1263-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#7
+I: /qimg/26-06-ma-1264.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1264-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1264-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1264-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1264-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#8
+I: /qimg/26-06-ma-1269.png
+Q: Enter your answer.
+K: 405
+#9
+I: /qimg/26-06-ma-1270.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1270-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1270-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1270-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1270-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#10
+I: /qimg/26-06-ma-1273.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1273-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1273-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1273-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1273-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#11
+I: /qimg/26-06-ma-1274.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1274-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1274-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1274-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1274-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#12
+I: /qimg/26-06-ma-1277.png
+Q: Enter your answer.
+K: 239
+#13
+I: /qimg/26-06-ma-1279.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1279-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1279-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1279-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1279-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#14
+I: /qimg/26-06-ma-1407.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1407-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1407-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1407-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1407-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#15
+I: /qimg/26-06-ma-1409.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1409-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1409-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1409-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1409-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#16
+I: /qimg/26-06-ma-1422.png
+Q: Enter your answer.
+K: 13.2
+#17
+I: /qimg/26-06-ma-1426.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1426-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1426-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1426-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1426-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#18
+I: /qimg/26-06-ma-1555.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1555-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1555-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1555-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1555-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#19
+I: /qimg/26-06-ma-1556.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1556-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1556-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1556-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1556-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#20
+I: /qimg/26-06-ma-1558.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1558-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1558-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1558-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1558-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#21
+I: /qimg/26-06-ma-1559.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1559-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1559-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1559-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1559-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#22
+I: /qimg/26-06-ma-1563.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-1563-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-1563-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-1563-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-1563-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+=M2
+#1
+I: /qimg/26-06-mb-1304.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1304-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1304-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1304-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1304-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#2
+I: /qimg/26-06-mb-1305.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1305-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1305-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1305-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1305-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#3
+I: /qimg/26-06-mb-1306.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1306-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1306-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1306-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1306-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#4
+I: /qimg/26-06-mb-1307.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1307-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1307-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1307-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1307-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#5
+I: /qimg/26-06-mb-1308.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1308-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1308-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1308-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1308-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#6
+I: /qimg/26-06-mb-1310.png
+Q: Enter your answer.
+K: 71
+#7
+I: /qimg/26-06-mb-1311.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1311-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1311-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1311-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1311-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#8
+I: /qimg/26-06-mb-1313.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1313-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1313-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1313-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1313-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#9
+I: /qimg/26-06-mb-1314.png
+Q: Enter your answer.
+K: 11
+#10
+I: /qimg/26-06-mb-1315.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1315-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1315-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1315-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1315-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#11
+I: /qimg/26-06-mb-1316.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1316-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1316-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1316-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1316-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#12
+I: /qimg/26-06-mb-1321.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1321-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1321-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1321-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1321-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#13
+I: /qimg/26-06-mb-1322.png
+Q: Enter your answer.
+K: 26
+#14
+I: /qimg/26-06-mb-1449.png
+Q: Enter your answer.
+K: 60
+#15
+I: /qimg/26-06-mb-1450.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1450-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1450-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1450-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1450-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#16
+I: /qimg/26-06-mb-1454.png
+Q: Enter your answer.
+K: 126
+#17
+I: /qimg/26-06-mb-1457.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1457-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1457-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1457-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1457-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#18
+I: /qimg/26-06-mb-1458.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1458-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1458-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1458-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1458-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#19
+I: /qimg/26-06-mb-1459.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1459-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1459-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1459-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1459-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#20
+I: /qimg/26-06-mb-1460.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1460-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1460-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1460-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1460-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#21
+I: /qimg/26-06-mb-1461.png
+Q: Enter your answer.
+K: 2/5 | 0.4 | .4
+#22
+I: /qimg/26-06-mb-1462.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-1462-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-1462-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-1462-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-1462-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A

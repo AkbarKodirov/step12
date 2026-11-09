@@ -1,0 +1,313 @@
+!id: dsat26-06-s14-math
+!name: June 2026 · Mixed Set 14 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: S14
+=M1
+#1
+I: /qimg/26-06-ma-5381.png
+Q: Enter your answer.
+K: 11
+#2
+Q: If 7x + 5 = 47, what is the value of 70x + 50?
+A) 6
+B) 60
+C) 120
+D) 470
+K: D
+#3
+Q: 3x = 6 + 7y<br>−3x = 2 + 7y<br>The solution to the given system of equations is (x, y). What is the value of 6x?
+K: 4
+#4
+Q: (x − 15)(x − 4) = 0<br>Which value is a solution to the given equation?
+A) 0
+B) 15
+C) 19
+D) 60
+K: B
+#5
+I: /qimg/26-06-ma-5538.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5538-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5538-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5538-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5538-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#6
+I: /qimg/26-06-ma-5541.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5541-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5541-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5541-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5541-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#7
+Q: If 7x + 6 = 62, what is the value of 70x + 60?
+A) 620
+B) 130
+C) 80
+D) 8
+K: A
+#8
+Q: In △F GH , the measures of ∠F and ∠G are each 41°. What is the measure of ∠H ?
+A) 139°
+B) 131°
+C) 98°
+D) 82°
+K: C
+#9
+I: /qimg/26-06-ma-5674.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5674-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5674-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5674-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5674-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#10
+I: /qimg/26-06-ma-5678.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5678-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5678-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5678-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5678-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#11
+I: /qimg/26-06-ma-5683.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5683-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5683-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5683-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5683-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#12
+I: /qimg/26-06-ma-5688.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5688-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5688-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5688-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5688-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#13
+Q: The function f(x) = 44.10 − 0.22x gives a person's estimated grip strength, in kilograms, x years after the person's grip strength was first measured. Based on the function, what is this person's estimated grip strength, in kilograms, 31.50 years after the person's grip strength was first measured?
+A) 12.38
+B) 37.17
+C) 44.10
+D) 51.03
+K: B
+#14
+I: /qimg/26-06-ma-5818.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5818-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5818-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5818-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5818-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#15
+Q: If 16x = 11x + 15, what is the value of 6x?
+K: 18
+#16
+I: /qimg/26-06-ma-5821.png
+Q: Enter your answer.
+K: 46
+#17
+Q: Data set J: 14, 14, 15, 15, 16, 17, 17, 18, 18<br>Data set K: 14, 16, 16, 16, 16, 16, 16, 16, 18<br>The lists give the values in data sets J and K. Which of the following statistics is greater for data set J than it is for data set K?
+A) Mean
+B) Median
+C) Range
+D) Standard deviation
+K: D
+#18
+I: /qimg/26-06-ma-5829.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5829-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5829-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5829-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5829-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#19
+I: /qimg/26-06-ma-5831.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5831-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5831-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5831-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5831-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#20
+I: /qimg/26-06-ma-5963.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-ma-5963-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-ma-5963-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-ma-5963-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-ma-5963-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#21
+I: /qimg/26-06-ma-5964.png
+Q: Enter your answer.
+K: 0.129
+#22
+Q: A square has a side length of 54 inches. What is the area, in square inches, of the square?
+A) 2,916
+B) 216
+C) 108
+D) 54
+K: A
+=M2
+#1
+I: /qimg/26-06-mb-4699.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4699-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4699-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4699-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4699-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#2
+Q: During a trip, Bill drove his car for 19.0 miles and then began driving at a constant speed of 70.0 miles per hour. After 2 hours of driving at this speed, what is the total distance, in miles, Bill has traveled during this trip?
+K: 159
+#3
+Q: Square A has side lengths that are 38 times the side lengths of square B. The area of square A is k times the area of square B. What is the value of k?
+A) 1,444
+B) 76
+C) 38
+D) 19
+K: A
+#4
+I: /qimg/26-06-mb-4830.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4830-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4830-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4830-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4830-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#5
+I: /qimg/26-06-mb-4833.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4833-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4833-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4833-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4833-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#6
+I: /qimg/26-06-mb-4840.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4840-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4840-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4840-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4840-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#7
+I: /qimg/26-06-mb-4848.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4848-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4848-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4848-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4848-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#8
+Q: s = 50 + 5t<br>The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 4 seconds after it began to accelerate?
+A) 50
+B) 54
+C) 55
+D) 70
+K: D
+#9
+I: /qimg/26-06-mb-4980.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4980-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4980-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4980-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4980-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#10
+I: /qimg/26-06-mb-4986.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-4986-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-4986-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-4986-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-4986-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#11
+I: /qimg/26-06-mb-5127.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5127-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5127-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5127-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5127-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#12
+I: /qimg/26-06-mb-5128.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5128-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5128-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5128-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5128-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: C
+#13
+I: /qimg/26-06-mb-5132.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5132-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5132-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5132-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5132-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#14
+I: /qimg/26-06-mb-5281.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5281-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5281-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5281-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5281-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#15
+I: /qimg/26-06-mb-5282.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5282-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5282-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5282-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5282-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: B
+#16
+Q: 1.3x = 130<br>What value of x is the solution to the given equation?
+K: 100
+#17
+Q: s = 40 + 3t<br>The equation gives the speed s, in miles per hour, of a certain car t seconds after it began to accelerate. What is the speed, in miles per hour, of the car 2 seconds after it began to accelerate?
+A) 40
+B) 42
+C) 43
+D) 46
+K: D
+#18
+Q: x + 4y = 27<br>4y = 13<br>The solution to the given system of equations is (x, y). What is the value of x?
+K: 14
+#19
+Q: There is a proportional relationship between p and t. If p = 6,270 when t = 8,360, then what is the value of t when p = 5,016?
+A) 2,926
+B) 3,762
+C) 6,688
+D) 7,106
+K: C
+#20
+I: /qimg/26-06-mb-5430.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5430-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5430-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5430-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5430-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
+#21
+I: /qimg/26-06-mb-5566.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5566-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5566-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5566-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5566-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: A
+#22
+I: /qimg/26-06-mb-5569.png
+Q: Choose the best answer.
+A) <img src="/qimg/26-06-mb-5569-A.png" alt="Choice A" style="max-width:100%;height:auto;vertical-align:middle">
+B) <img src="/qimg/26-06-mb-5569-B.png" alt="Choice B" style="max-width:100%;height:auto;vertical-align:middle">
+C) <img src="/qimg/26-06-mb-5569-C.png" alt="Choice C" style="max-width:100%;height:auto;vertical-align:middle">
+D) <img src="/qimg/26-06-mb-5569-D.png" alt="Choice D" style="max-width:100%;height:auto;vertical-align:middle">
+K: D
