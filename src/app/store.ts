@@ -14,7 +14,29 @@ export type TestQuestion = {
   correct: number | null
   answer: string | null
 }
-export type Test = { id: string; name: string; type: 'EBRW' | 'MATH'; description: string; modules: { questions: TestQuestion[] }[] }
+export type Test = {
+  id: string
+  name: string
+  type: 'EBRW' | 'MATH'
+  description: string
+  modules: { questions: TestQuestion[] }[]
+  /** Full test only: the two section tests (Reading & Writing first, then Math) glued together. Modules run 0–1 then 2–3. */
+  parts?: { id: string; name: string; type: 'EBRW' | 'MATH'; modules: number }[]
+}
+
+/** A full test id is "<R&W test id>+<Math test id>", e.g. pt15+math-pt1. */
+export const isFullId = (id: string) => id.includes('+')
+export const splitFullId = (id: string) => id.split('+') as [string, string]
+/** The section (Reading & Writing or Math) a module of this test belongs to. */
+export function sectionOf(test: Pick<Test, 'type' | 'parts'>, mod: number): 'EBRW' | 'MATH' {
+  if (!test.parts) return test.type
+  let n = 0
+  for (const p of test.parts) {
+    n += p.modules
+    if (mod < n) return p.type
+  }
+  return test.parts[test.parts.length - 1].type
+}
 
 export type Mode = 'exam' | 'practice' | 'sprint'
 
@@ -31,6 +53,30 @@ export type Attempt = {
   raw: number
   total: number
   scaled: number
+  /** Set on both halves of a full test, so the results page can show the combined score. */
+  fullId?: string
+}
+
+export type RunAns = { value: string | null; flagged: boolean; seconds: number; checked: boolean; struck: number[] }
+/** A test the student saved and left (or that autosaved), so they can continue exactly where they stopped. */
+export type SavedRun = {
+  testId: string
+  name: string
+  type: 'EBRW' | 'MATH' | 'FULL'
+  mode: Mode
+  mod: number
+  idx: number
+  /** seconds left on the module timer */
+  left: number
+  phase: 'question' | 'review' | 'break'
+  /** seconds left of the 10-minute break between R&W and Math (full tests) */
+  breakLeft?: number
+  answers: RunAns[][]
+  startedAt: number
+  savedAt: number
+  totalQuestions: number
+  /** true when the student pressed "Save and exit" (autosaves leave it false) */
+  saved?: boolean
 }
 
 export type VocabProgress = { ease: number; interval: number; reps: number; due: number; seen: number; correct: number }
@@ -107,6 +153,8 @@ export type State = {
   qbank: Record<string, BankProgress>
   notes: Record<string, string>
   collections: Collection[]
+  /** Practice tests and exam papers the student started and has not finished. Keyed by test id (full tests: "<rw>+<math>"). */
+  runs: Record<string, SavedRun>
   lessonsDone: Record<string, number>
   /** Video lessons: where the student stopped (seconds) and the video length. Keyed `${course}:${lesson}`. */
   lessonVideo: Record<string, { pos: number; dur: number; at: number }>
@@ -142,6 +190,7 @@ const initial: State = {
   qbank: {},
   notes: {},
   collections: [],
+  runs: {},
   lessonsDone: {},
   lessonVideo: {},
   mastery: {},
@@ -375,7 +424,21 @@ export function useAsync<T>(fn: () => Promise<T>, deps: unknown[]) {
 }
 
 const testCache = new Map<string, Promise<Test>>()
-export function loadTest(id: string) {
+export function loadTest(id: string): Promise<Test> {
+  if (isFullId(id) && !testCache.has(id)) {
+    const [rwId, mathId] = splitFullId(id)
+    testCache.set(
+      id,
+      Promise.all([loadTest(rwId), loadTest(mathId)]).then(([rw, math]: Test[]) => ({
+        id,
+        name: rw.name,
+        type: 'EBRW' as const,
+        description: 'Full practice test: Reading & Writing, a 10-minute break, then Math.',
+        modules: [...rw.modules, ...math.modules],
+        parts: [rw, math].map((t) => ({ id: t.id, name: t.name, type: t.type, modules: t.modules.length })),
+      })),
+    )
+  }
   if (!testCache.has(id)) testCache.set(id, fetch(`/tests/${id}.json`, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : Promise.reject(new Error('Test not found')))))
   return testCache.get(id)!
 }
@@ -540,3 +603,15 @@ export function skillBreakdown(rows: { q: TestQuestion; type: 'EBRW' | 'MATH'; c
   }
   return [...m.values()].sort((a, b) => a.right / a.total - b.right / b.total)
 }
+
+/* ---------------- saved tests (Save and exit / In progress) ---------------- */
+
+export const saveRun = (run: SavedRun) => setStore((s) => ({ ...s, runs: { ...s.runs, [run.testId]: run } }))
+export const clearRun = (testId: string) =>
+  setStore((s) => {
+    if (!s.runs?.[testId]) return s
+    const { [testId]: _gone, ...rest } = s.runs
+    return { ...s, runs: rest }
+  })
+/** Exam papers have ids like dsat24-12-us-b-rw; everything else on the Practice tests page. */
+export const isPaperRun = (testId: string) => /^dsat\d\d-/.test(testId)

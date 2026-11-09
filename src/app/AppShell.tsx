@@ -66,7 +66,8 @@ function ProGate({ children, full }: { children: React.ReactNode; full?: boolean
 /** Free students can take the free practice tests; every other test shows the paywall. */
 function TestGate({ children }: { children: React.ReactNode }) {
   const { id = '' } = useParams()
-  if (isFreeTest(id)) return <>{children}</>
+  // a full test ("<R&W id>+<Math id>") is free when its Reading & Writing half is
+  if (isFreeTest(id.split('+')[0])) return <>{children}</>
   return <ProGate full>{children}</ProGate>
 }
 

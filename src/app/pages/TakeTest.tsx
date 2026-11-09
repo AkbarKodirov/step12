@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Highlighter, Bookmark, Calculator, Check, ChevronDown, ChevronLeft, ChevronRight, Eye, EyeOff, LogOut, Sigma, X } from 'lucide-react'
-import { isCorrect, loadTest, markActive, scaleSection, setStore, useAsync, type Attempt, type Mode, type Test, type TestQuestion } from '../store'
+import { Highlighter, Bookmark, Calculator, Check, ChevronDown, ChevronLeft, ChevronRight, Eye, EyeOff, LogOut, Save, Sigma, X } from 'lucide-react'
+import { clearRun, getStore, isCorrect, isPaperRun, loadTest, markActive, saveRun, scaleSection, sectionOf, setStore, useAsync, type Attempt, type Mode, type RunAns, type SavedRun, type Test, type TestQuestion } from '../store'
 import { HumoExplain } from '../components/HumoExplain'
 import { Highlightable } from '../components/Highlightable'
 import { clearHighlights } from '../highlights'
@@ -33,12 +33,17 @@ export function Passage({ html }: { html: string }) {
   return <div className="prose-q font-serif text-[17px] leading-[1.75] text-pine" dangerouslySetInnerHTML={{ __html: html }} />
 }
 
-type Ans = { value: string | null; flagged: boolean; seconds: number; checked: boolean; struck: number[] }
+type Ans = RunAns
+
+/** The 10-minute break between Reading & Writing and Math on a full test. */
+const BREAK_SECONDS = 10 * 60
 
 export default function TakeTest() {
   const { id = '' } = useParams()
   const [params] = useSearchParams()
-  const mode = (params.get('mode') as Mode) || 'exam'
+  const saved = params.get('resume') ? getStore().runs?.[id] ?? null : null
+  // a full test is always exam rules; a resumed test keeps the mode it was started in
+  const mode: Mode = saved?.mode ?? (id.includes('+') ? 'exam' : (params.get('mode') as Mode) || 'exam')
   const { data: test, error } = useAsync(() => loadTest(id), [id])
   if (error) return <p className="p-10 text-center text-red-600">{error}</p>
   if (!test)
@@ -47,7 +52,7 @@ export default function TakeTest() {
         <span className="size-7 animate-spin rounded-full border-2 border-jg-500 border-t-transparent" />
       </div>
     )
-  return <Runner test={test} mode={mode} />
+  return <Runner test={test} mode={mode} resume={saved} />
 }
 
 function HintButton({ q, value }: { q: TestQuestion; value: string | null }) {
@@ -89,7 +94,7 @@ function HintButton({ q, value }: { q: TestQuestion; value: string | null }) {
   )
 }
 
-function Runner({ test, mode }: { test: Test; mode: Mode }) {
+function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedRun | null }) {
   const nav = useNavigate()
   // highlights last for this test only (like Bluebook)
   useEffect(() => {
@@ -97,23 +102,31 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
     return clearHighlights
   }, [test.id])
   const timed = mode !== 'practice'
-  const perModule = (test.type === 'MATH' ? 35 : 32) * 60 * (mode === 'sprint' ? 0.7 : 1)
+  const full = !!test.parts
+  const perModuleOf = (m: number) => (sectionOf(test, m) === 'MATH' ? 35 : 32) * 60 * (mode === 'sprint' ? 0.7 : 1)
+  // a saved test only comes back if it still matches the test's shape
+  const saved = resume && resume.answers.length === test.modules.length && resume.answers.every((row, i) => row.length === test.modules[i].questions.length) && resume.mod < test.modules.length ? resume : null
 
-  const [mod, setMod] = useState(0)
-  const [idx, setIdx] = useState(0)
-  const [answers, setAnswers] = useState<Ans[][]>(() => test.modules.map((m) => m.questions.map(() => ({ value: null, flagged: false, seconds: 0, checked: false, struck: [] }))))
-  const [left, setLeft] = useState(Math.round(perModule))
+  const [mod, setMod] = useState(saved?.mod ?? 0)
+  const [idx, setIdx] = useState(saved ? Math.min(saved.idx, test.modules[saved.mod].questions.length - 1) : 0)
+  const [answers, setAnswers] = useState<Ans[][]>(() => saved?.answers ?? test.modules.map((m) => m.questions.map(() => ({ value: null, flagged: false, seconds: 0, checked: false, struck: [] }))))
+  const perModule = perModuleOf(mod)
+  const [left, setLeft] = useState(Math.round(saved ? saved.left : perModule))
+  const [breakLeft, setBreakLeft] = useState(saved?.breakLeft ?? BREAK_SECONDS)
   const [hideTimer, setHideTimer] = useState(false)
   const [eliminate, setEliminate] = useState(false)
   const [navOpen, setNavOpen] = useState(false)
-  const [phase, setPhase] = useState<'question' | 'review' | 'break'>('question')
+  const [phase, setPhase] = useState<'question' | 'review' | 'break'>(saved?.phase ?? 'question')
   const [confirmExit, setConfirmExit] = useState(false)
   const [calc, setCalc] = useState(false)
   const [refSheet, setRefSheet] = useState(false)
   const closeRefSheet = useCallback(() => setRefSheet(false), [])
   const [annotate, setAnnotate] = useState(true)
-  const isRW = test.type !== 'MATH'
-  const started = useRef(Date.now())
+  const section = sectionOf(test, mod)
+  const isRW = section !== 'MATH'
+  // on a full test the break comes after Reading & Writing (end of module 2), not after every module
+  const sectionBreak = full && mod === test.parts![0].modules - 1
+  const started = useRef(saved?.startedAt ?? Date.now())
   const qStart = useRef(Date.now())
 
   const questions = test.modules[mod].questions
@@ -140,40 +153,56 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
     setPhase('question')
   }
 
+  const finished = useRef(false)
   const finish = useCallback(
     (final: Ans[][]) => {
-      const flat = test.modules.flatMap((m, mi) =>
-        m.questions.map((qq, qi) => {
-          const x = final[mi][qi]
-          return { module: mi, index: qi, value: x.value, correct: isCorrect(qq, x.value), seconds: x.seconds, flagged: x.flagged }
-        }),
-      )
-      const raw = flat.filter((x) => x.correct).length
-      const attempt: Attempt = {
-        id: Math.random().toString(36).slice(2, 10),
-        testId: test.id,
-        testName: test.name,
-        type: test.type,
-        mode,
-        startedAt: started.current,
-        finishedAt: Date.now(),
-        answers: flat,
-        raw,
-        total: flat.length,
-        scaled: scaleSection(raw, flat.length),
-      }
-      setStore((s) => ({
-        ...s,
-        attempts: [...s.attempts, attempt],
-        mistakes: [
-          ...s.mistakes.filter((m) => !flat.some((f) => f.correct && m.key === `${test.id}:${f.module}:${f.index}`)),
-          ...flat
-            .filter((f) => !f.correct && !s.mistakes.some((m) => m.key === `${test.id}:${f.module}:${f.index}` && !m.cleared))
-            .map((f) => ({ key: `${test.id}:${f.module}:${f.index}`, testId: test.id, module: f.module, index: f.index, addedAt: Date.now(), cleared: false })),
-        ],
-      }))
-      markActive(Math.round((Date.now() - started.current) / 1000), 'test', test.type)
-      nav(`/app/results/${attempt.id}`, { replace: true })
+      finished.current = true
+      const parts = test.parts ?? [{ id: test.id, name: test.name, type: test.type, modules: test.modules.length }]
+      const fullId = test.parts ? Math.random().toString(36).slice(2, 10) : undefined
+      const finishedAt = Date.now()
+      let offset = 0
+      const made = parts.map((part) => {
+        const base = offset
+        offset += part.modules
+        const flat = test.modules.slice(base, base + part.modules).flatMap((m, k) =>
+          m.questions.map((qq, qi) => {
+            const x = final[base + k][qi]
+            return { module: k, index: qi, value: x.value, correct: isCorrect(qq, x.value), seconds: x.seconds, flagged: x.flagged }
+          }),
+        )
+        const raw = flat.filter((x) => x.correct).length
+        const attempt: Attempt = {
+          id: Math.random().toString(36).slice(2, 10),
+          testId: part.id,
+          testName: part.name,
+          type: part.type,
+          mode,
+          startedAt: started.current,
+          finishedAt,
+          answers: flat,
+          raw,
+          total: flat.length,
+          scaled: scaleSection(raw, flat.length),
+          ...(fullId ? { fullId } : {}),
+        }
+        return { attempt, flat }
+      })
+      setStore((s) => {
+        let mistakes = s.mistakes
+        for (const { attempt, flat } of made) {
+          const tid = attempt.testId
+          mistakes = [
+            ...mistakes.filter((m) => !flat.some((f) => f.correct && m.key === `${tid}:${f.module}:${f.index}`)),
+            ...flat
+              .filter((f) => !f.correct && !mistakes.some((m) => m.key === `${tid}:${f.module}:${f.index}` && !m.cleared))
+              .map((f) => ({ key: `${tid}:${f.module}:${f.index}`, testId: tid, module: f.module, index: f.index, addedAt: Date.now(), cleared: false })),
+          ]
+        }
+        return { ...s, attempts: [...s.attempts, ...made.map((m) => m.attempt)], mistakes }
+      })
+      clearRun(test.id)
+      markActive(final.flat().reduce((n, x) => n + x.seconds, 0), 'test', test.parts ? undefined : test.type)
+      nav(`/app/results/${made[0].attempt.id}`, { replace: true })
     },
     [mode, nav, test],
   )
@@ -181,6 +210,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
   const endModule = useCallback(() => {
     commitTime()
     if (mod < test.modules.length - 1) {
+      setBreakLeft(BREAK_SECONDS)
       setPhase('break')
     } else {
       setAnswers((final) => {
@@ -190,13 +220,14 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
     }
   }, [commitTime, finish, mod, test.modules.length])
 
-  const startNextModule = () => {
+  const startNextModule = useCallback(() => {
     setMod((m) => m + 1)
     setIdx(0)
-    setLeft(Math.round(perModule))
+    setLeft(Math.round(perModuleOf(mod + 1)))
     setPhase('question')
     qStart.current = Date.now()
-  }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mod, mode, test])
 
   // timer
   useEffect(() => {
@@ -207,6 +238,46 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
   useEffect(() => {
     if (timed && left <= 0 && phase !== 'break') endModule()
   }, [left, timed, phase, endModule])
+  // the 10-minute break between sections counts down and then starts Math by itself
+  useEffect(() => {
+    if (phase !== 'break' || !sectionBreak) return
+    const t = setInterval(() => setBreakLeft((s) => s - 1), 1000)
+    return () => clearInterval(t)
+  }, [phase, sectionBreak])
+  useEffect(() => {
+    if (phase === 'break' && sectionBreak && breakLeft <= 0) startNextModule()
+  }, [phase, sectionBreak, breakLeft, startNextModule])
+
+  // Save and exit / autosave: the whole state goes to the student's saved progress, so they continue exactly here
+  const snap = useRef<SavedRun | null>(null)
+  const dirty = useRef(false)
+  snap.current = { testId: test.id, name: test.name, type: full ? 'FULL' : test.type, mode, mod, idx, left, phase, ...(phase === 'break' ? { breakLeft } : {}), answers, startedAt: started.current, savedAt: 0, totalQuestions: test.modules.reduce((n, m) => n + m.questions.length, 0) }
+  const persist = useCallback((explicit = false) => {
+    if (finished.current || !snap.current || (!explicit && !dirty.current)) return
+    const sp = snap.current
+    // add the time spent on the question on screen right now
+    const extra = sp.phase === 'question' ? Math.round((Date.now() - qStart.current) / 1000) : 0
+    const answers = extra ? sp.answers.map((row, mi) => (mi !== sp.mod ? row : row.map((x, qi) => (qi !== sp.idx ? x : { ...x, seconds: x.seconds + extra })))) : sp.answers
+    saveRun({ ...sp, answers, savedAt: Date.now(), ...(explicit ? { saved: true } : {}) })
+  }, [])
+  useEffect(() => {
+    if (!dirty.current && !(answers.some((r) => r.some((x) => x.value != null || x.flagged)) || idx > 0 || mod > 0)) return
+    dirty.current = true
+    const t = setTimeout(() => persist(), 700)
+    return () => clearTimeout(t)
+  }, [answers, mod, idx, phase, persist])
+  useEffect(() => {
+    const t = setInterval(() => persist(), 15000)
+    const hide = () => document.visibilityState === 'hidden' && persist()
+    const leave = () => persist()
+    window.addEventListener('pagehide', leave)
+    document.addEventListener('visibilitychange', hide)
+    return () => {
+      clearInterval(t)
+      window.removeEventListener('pagehide', leave)
+      document.removeEventListener('visibilitychange', hide)
+    }
+  }, [persist])
 
   // keyboard: arrows to move, A–D to answer
   useEffect(() => {
@@ -234,19 +305,48 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
   const hasPassage = !!q.passage
 
   const locked = mode === 'practice' && a.checked
-  const sectionLabel = test.type === 'MATH' ? 'Math' : 'Reading and Writing'
+  const sectionLabel = section === 'MATH' ? 'Math' : 'Reading and Writing'
+  const modNum = full ? (mod % 2) + 1 : mod + 1
+  const pageAfterExit = isPaperRun(test.id) ? '/app/papers' : '/app/tests'
+  const saveAndExit = () => {
+    commitTime()
+    persist(true)
+    finished.current = true
+    nav(`${pageAfterExit}?view=progress`, { replace: true })
+  }
 
   const body = (() => {
+    if (phase === 'break' && sectionBreak) {
+      const bm = String(Math.max(0, Math.floor(breakLeft / 60))).padStart(2, '0')
+      const bs = String(Math.max(0, breakLeft % 60)).padStart(2, '0')
+      return (
+        <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} className="mx-auto max-w-lg px-6 py-16 text-center">
+          <motion.img src="/brand/humo-mark.svg" alt="" className="mx-auto size-16 rounded-2xl shadow-lg shadow-jg-500/20" animate={{ y: [0, -8, 0] }} transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }} />
+          <h2 className="display mt-6 text-[32px]">Reading and Writing done</h2>
+          <p className="mt-2 text-[15px] text-moss">Take your 10-minute break, just like on test day. Stand up, drink some water, and rest your eyes.</p>
+          <p className="mt-6 font-mono text-[54px] font-semibold tabular-nums" role="timer" aria-label="Break time left">
+            {bm}:{bs}
+          </p>
+          <p className="mt-1 text-[13px] text-moss">Math starts by itself when the break ends. Module 1 and Module 2 are {Math.round(perModuleOf(mod + 1) / 60)} minutes each, with the Desmos calculator and the reference sheet.</p>
+          <button onClick={startNextModule} className="btn btn-dark mt-7 h-12 px-8 text-[15px]">
+            Skip the break and start Math
+          </button>
+          <button onClick={() => setConfirmExit(true)} className="mx-auto mt-3 flex items-center gap-1.5 text-[13px] text-moss hover:text-pine">
+            <Save className="size-4" /> Save and exit
+          </button>
+        </motion.div>
+      )
+    }
     if (phase === 'break')
       return (
         <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} className="mx-auto max-w-lg px-6 py-20 text-center">
           <motion.img src="/brand/humo-mark.svg" alt="" className="mx-auto size-16 rounded-2xl shadow-lg shadow-jg-500/20" animate={{ y: [0, -8, 0] }} transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }} />
-          <h2 className="display mt-6 text-[34px]">Module {mod + 1} done</h2>
+          <h2 className="display mt-6 text-[34px]">Module {modNum} done</h2>
           <p className="mt-3 text-[15px] text-moss">
-            {mode === 'practice' ? 'Take a breath, then continue to the next module.' : `Module ${mod + 2} starts with a fresh ${Math.round(perModule / 60)}-minute timer. On test day you get a 10-minute break between sections, not between modules — so keep going while you're warm.`}
+            {mode === 'practice' ? 'Take a breath, then continue to the next module.' : `Module ${modNum + 1} starts with a fresh ${Math.round(perModuleOf(mod + 1) / 60)}-minute timer. On test day you get a 10-minute break between sections, not between modules — so keep going while you're warm.`}
           </p>
           <button onClick={startNextModule} className="btn btn-dark mt-8 h-12 px-8 text-[15px]">
-            Start module {mod + 2}
+            Start module {modNum + 1}
           </button>
         </motion.div>
       )
@@ -283,7 +383,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
               Back to questions
             </button>
             <button onClick={endModule} className="btn btn-dark h-11 px-6 text-[14px]">
-              {mod < test.modules.length - 1 ? `Submit module ${mod + 1}` : 'Submit test'}
+              {sectionBreak ? 'Submit Reading and Writing' : mod < test.modules.length - 1 ? `Submit module ${modNum}` : 'Submit test'}
             </button>
           </div>
         </div>
@@ -298,14 +398,16 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
         <div className="grid h-16 grid-cols-[1fr_auto_1fr] items-center px-4 sm:px-6">
           <div className="min-w-0">
             <p className="truncate text-[14px] font-semibold">
-              Section {test.type === 'MATH' ? 2 : 1}, Module {mod + 1}: {sectionLabel}
+              Section {section === 'MATH' ? 2 : 1}, Module {modNum}: {sectionLabel}
             </p>
             <p className="truncate text-[12px] capitalize text-moss">
-              {test.name} · {mode} mode
+              {test.name} · {full ? 'full test' : `${mode} mode`}
             </p>
           </div>
           <div className="flex flex-col items-center">
-            {timed ? (
+            {phase === 'break' ? (
+              <span className="rounded-full bg-amber-100 px-3 py-1 text-[12px] font-semibold text-amber-900">On a break</span>
+            ) : timed ? (
               <>
                 <span className={`font-mono text-[20px] font-semibold tabular-nums ${hideTimer ? 'invisible' : ''} ${left < 300 ? 'animate-pulse text-red-600' : ''}`}>
                   {mm}:{ss}
@@ -319,7 +421,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
             )}
           </div>
           <div className="flex justify-end gap-1.5">
-            {test.type === 'MATH' && (
+            {section === 'MATH' && (
               <>
                 <button onClick={() => setCalc((v) => !v)} aria-pressed={calc} title="Desmos calculator" className={`flex h-9 items-center gap-1.5 rounded-lg border px-2.5 text-[12px] font-semibold ${calc ? 'border-pine bg-pine text-cream' : 'border-line text-moss hover:bg-cream'}`}>
                   <Calculator className="size-4" /> <span className="hidden lg:inline">Calculator</span>
@@ -342,12 +444,12 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
             >
               ABC
             </button>
-            <button onClick={() => setConfirmExit(true)} className="flex h-9 items-center gap-1.5 rounded-lg border border-line px-3 text-[13px] text-moss hover:bg-cream">
+            <button onClick={() => setConfirmExit(true)} aria-label="Exit" className="flex h-9 items-center gap-1.5 rounded-lg border border-line px-3 text-[13px] text-moss hover:bg-cream">
               <LogOut className="size-4" /> <span className="hidden sm:inline">Exit</span>
             </button>
           </div>
         </div>
-        {timed && <div className={`h-0.5 transition-[width,background-color] duration-1000 ${left < 300 ? 'bg-red-500' : 'bg-jg-500'}`} style={{ width: `${Math.max(0, (left / perModule) * 100)}%` }} />}
+        {timed && phase !== 'break' && <div className={`h-0.5 transition-[width,background-color] duration-1000 ${left < 300 ? 'bg-red-500' : 'bg-jg-500'}`} style={{ width: `${Math.max(0, (left / perModule) * 100)}%` }} />}
       </header>
 
       {/* Main */}
@@ -434,7 +536,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
                       <HintButton q={q} value={a.value} />
                     </>
                   ) : (
-                    <HumoExplain testId={test.id} qKey={`${mod}:${idx}`} q={q} math={test.type === 'MATH'} />
+                    <HumoExplain testId={test.id} qKey={`${mod}:${idx}`} q={q} math={section === 'MATH'} />
                   )}
                 </div>
               )}
@@ -482,7 +584,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
                   className="absolute bottom-[4.5rem] left-1/2 w-[min(92vw,30rem)] -translate-x-1/2 rounded-2xl border border-line bg-card p-5 shadow-2xl"
                 >
                   <p className="text-center text-[14px] font-semibold">
-                    Module {mod + 1} questions
+                    Module {modNum} questions
                   </p>
                   <div className="mt-4 grid grid-cols-7 gap-2 sm:grid-cols-9">
                     {answers[mod].map((x, i) => (
@@ -527,7 +629,7 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
           <iframe title="Desmos graphing calculator" src="https://www.desmos.com/calculator" className="flex-1" />
         </div>
       )}
-      {refSheet && test.type === 'MATH' && <ReferenceSheet onClose={closeRefSheet} />}
+      {refSheet && section === 'MATH' && <ReferenceSheet onClose={closeRefSheet} />}
 
       {/* Exit confirm */}
       <AnimatePresence>
@@ -535,20 +637,31 @@ function Runner({ test, mode }: { test: Test; mode: Mode }) {
           <motion.div className="fixed inset-0 z-50 grid place-items-center bg-pine/50 p-4 backdrop-blur-sm" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <div role="alertdialog" className="w-full max-w-sm rounded-3xl bg-card p-6 text-center">
               <h3 className="font-serif text-[24px]">Leave this test?</h3>
-              <p className="mt-2 text-[14px] text-moss">You can submit now and see your score for what you answered, or quit without saving.</p>
+              <p className="mt-2 text-[14px] text-moss">Save and exit keeps your answers and your timer. Open it again from In progress and you start exactly here. Or submit now and see your score for what you answered.</p>
               <div className="mt-6 grid gap-2">
+                <button onClick={saveAndExit} className="btn btn-green h-11 text-[14px]">
+                  <Save className="size-4" /> Save and exit
+                </button>
                 <button
-                  onClick={() =>
+                  onClick={() => {
+                    commitTime()
                     setAnswers((final) => {
                       queueMicrotask(() => finish(final))
                       return final
                     })
-                  }
+                  }}
                   className="btn btn-dark h-11 text-[14px]"
                 >
                   Submit and see results
                 </button>
-                <button onClick={() => nav('/app/tests')} className="btn h-11 text-[14px] text-red-600 hover:bg-red-50">
+                <button
+                  onClick={() => {
+                    finished.current = true
+                    clearRun(test.id)
+                    nav(pageAfterExit)
+                  }}
+                  className="btn h-11 text-[14px] text-red-600 hover:bg-red-50"
+                >
                   Quit without saving
                 </button>
                 <button onClick={() => setConfirmExit(false)} className="btn btn-ghost h-11 text-[14px]">

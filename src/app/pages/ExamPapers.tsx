@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ArrowRight, BookOpen, Calculator, CalendarClock, Clock } from 'lucide-react'
-import { useStore, type TestMeta } from '../store'
+import { ArrowRight, BookOpen, Calculator, CalendarClock, Clock, PlayCircle } from 'lucide-react'
+import { isPaperRun, useStore, type SavedRun, type TestMeta } from '../store'
+import { ResumeCard } from '../components/ResumeCard'
 import { ScoreRing, Tilt } from '../../components/motion'
 import { ModeSheet } from './Tests'
 
@@ -38,7 +39,8 @@ export default function ExamPapers() {
 
   const s = useStore()
   const [params, setParams] = useSearchParams()
-  const [section, setSection] = useState<'all' | 'EBRW' | 'MATH'>('all')
+  const [section, setSection] = useState<'all' | 'EBRW' | 'MATH' | 'progress'>(params.get('view') === 'progress' ? 'progress' : 'all')
+  const runs = useMemo(() => Object.values(s.runs ?? {}).filter((r) => isPaperRun(r.testId)).sort((a, b) => b.savedAt - a.savedAt), [s.runs])
   const [open, setOpen] = useState<TestMeta | null>(null)
 
   const years = useMemo(() => [...new Set([...YEARS, ...(papers ?? []).map((p) => p.year)])].sort((a, b) => a - b), [papers])
@@ -66,7 +68,7 @@ export default function ExamPapers() {
   const list = useMemo(
     () =>
       all
-        .filter((p) => p.year === year && (section === 'all' || p.type === section))
+        .filter((p) => p.year === year && (section === 'all' || section === 'progress' || p.type === section))
         .sort((a, b) => b.month - a.month || version(a).localeCompare(version(b), undefined, { numeric: true }) || (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1)),
     [all, year, section],
   )
@@ -123,9 +125,15 @@ export default function ExamPapers() {
                 ['all', 'All sections'],
                 ['EBRW', 'Reading & Writing'],
                 ['MATH', 'Math'],
+                ['progress', `In progress${runs.length ? ` (${runs.length})` : ''}`],
               ] as const
             ).map(([k, l]) => (
-              <button key={k} onClick={() => setSection(k)} className={`rounded-full px-4 py-2 text-[13px] font-medium transition ${section === k ? 'bg-pine text-cream' : 'bg-card text-pine ring-1 ring-line hover:ring-line-strong'}`}>
+              <button
+                key={k}
+                onClick={() => {
+                  setSection(k)
+                  if (params.has('view')) setParams((p) => (p.delete('view'), p), { replace: true })
+                }} className={`rounded-full px-4 py-2 text-[13px] font-medium transition ${section === k ? 'bg-pine text-cream' : 'bg-card text-pine ring-1 ring-line hover:ring-line-strong'}`}>
                 {l}
               </button>
             ))}
@@ -140,11 +148,35 @@ export default function ExamPapers() {
             </div>
           )}
 
-          {papers && !failed && count(year) === 0 && <EmptyYear year={year} next={fallback !== year && count(fallback) ? fallback : null} onPick={pick} />}
+          {section === 'progress' && papers && (
+            <div className="mt-6">
+              {runs.length === 0 ? (
+                <div className="flex flex-col items-center rounded-[28px] border-2 border-dashed border-line px-6 py-12 text-center">
+                  <span className="grid size-14 place-items-center rounded-2xl bg-jg-50 text-jg-700">
+                    <PlayCircle className="size-6" />
+                  </span>
+                  <p className="mt-4 font-serif text-[24px]">Nothing in progress</p>
+                  <p className="mt-1.5 max-w-md text-[14px] text-moss">Start a paper and choose Save and exit from the Exit button. It waits here, with your answers and your timer, until you come back.</p>
+                  <button onClick={() => setSection('all')} className="btn btn-dark mt-5 h-11 px-5 text-[14px]">
+                    Pick a paper <ArrowRight className="size-4" />
+                  </button>
+                </div>
+              ) : (
+                <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                  {runs.map((r, i) => {
+                    const p = (papers ?? []).find((x) => x.id === r.testId)
+                    return <ResumeCard key={r.testId} run={r} delay={Math.min(i * 0.04, 0.35)} title={p ? `${MONTHS[p.month]} ${p.year}` : undefined} subtitle={p ? [version(p), p.type === 'MATH' ? 'Math' : 'Reading & Writing'].filter(Boolean).join(' · ') : undefined} />
+                  })}
+                </div>
+              )}
+            </div>
+          )}
 
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+          {papers && !failed && section !== 'progress' && count(year) === 0 && <EmptyYear year={year} next={fallback !== year && count(fallback) ? fallback : null} onPick={pick} />}
+
+          <div className={`mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3 ${section === 'progress' ? 'hidden' : ''}`}>
             {list.map((p, i) => (
-              <PaperCard key={p.id} p={p} b={best.get(p.id)} delay={Math.min(i * 0.04, 0.35)} onStart={() => setOpen(p)} />
+              <PaperCard key={p.id} p={p} b={best.get(p.id)} run={s.runs?.[p.id]} delay={Math.min(i * 0.04, 0.35)} onStart={() => setOpen(p)} />
             ))}
           </div>
         </div>
@@ -155,7 +187,7 @@ export default function ExamPapers() {
   )
 }
 
-function PaperCard({ p, b, delay, onStart }: { p: PaperTest; b?: { scaled: number; id: string; n: number }; delay: number; onStart: () => void }) {
+function PaperCard({ p, b, run, delay, onStart }: { p: PaperTest; b?: { scaled: number; id: string; n: number }; run?: SavedRun; delay: number; onStart: () => void }) {
   const math = p.type === 'MATH'
   const Icon = math ? Calculator : BookOpen
   const v = version(p)
@@ -189,9 +221,20 @@ function PaperCard({ p, b, delay, onStart }: { p: PaperTest; b?: { scaled: numbe
               <Clock className="size-3.5" /> {p.minutesPerModule * p.modules} min · {p.questions} questions{b ? ` · taken ${b.n}×` : ''}
             </p>
             <div className="mt-auto flex gap-2 pt-4">
-              <button onClick={onStart} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
-                {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
-              </button>
+              {run ? (
+                <>
+                  <Link to={`/app/tests/${p.id}/take?mode=${run.mode}&resume=1`} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
+                    Resume <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
+                  </Link>
+                  <button onClick={onStart} className="btn btn-ghost h-11 px-4 text-[13px]">
+                    Restart
+                  </button>
+                </>
+              ) : (
+                <button onClick={onStart} className="btn btn-dark group/btn h-11 flex-1 text-[14px]">
+                  {b ? 'Retake' : "Let's start"} <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" />
+                </button>
+              )}
               {b && (
                 <Link to={`/app/results/${b.id}`} className="btn btn-ghost h-11 px-4 text-[13px]">
                   Review

@@ -110,6 +110,31 @@ function ReviewItem({ test, attempt, m, i, n, onAsk }: { test: Test; attempt: At
   )
 }
 
+function FullTotal({ attempt, all }: { attempt: Attempt; all: Attempt[] }) {
+  const pair = all.filter((a) => a.fullId === attempt.fullId).sort((a, b) => (a.type === b.type ? 0 : a.type === 'EBRW' ? -1 : 1))
+  if (pair.length < 2) return null
+  const total = pair.reduce((n, a) => n + a.scaled, 0)
+  return (
+    <section className="card mt-5 flex flex-wrap items-center justify-between gap-4 p-5 sm:p-6">
+      <div>
+        <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-moss">Full practice test</p>
+        <p className="mt-1 font-serif text-[34px] leading-none tabular-nums">
+          {total} <span className="text-[14px] text-moss">of 1600</span>
+        </p>
+        <p className="mt-1.5 text-[12.5px] text-moss">Estimated total: Reading &amp; Writing + Math</p>
+      </div>
+      <div className="flex gap-2">
+        {pair.map((a) => (
+          <Link key={a.id} to={`/app/results/${a.id}`} replace className={`rounded-2xl px-4 py-3 text-center ${a.id === attempt.id ? 'bg-pine text-cream' : 'bg-cream hover:ring-1 hover:ring-line-strong'}`}>
+            <p className={`text-[11px] ${a.id === attempt.id ? 'text-cream/60' : 'text-moss'}`}>{a.type === 'MATH' ? 'Math' : 'Reading & Writing'}</p>
+            <p className="font-serif text-[22px] tabular-nums">{a.scaled}</p>
+          </Link>
+        ))}
+      </div>
+    </section>
+  )
+}
+
 export default function Results() {
   const { attemptId } = useParams()
   const s = useStore()
@@ -209,6 +234,9 @@ export default function Results() {
           </Link>
         </div>
       </section>
+
+      {/* Full test: both sections together */}
+      {attempt.fullId && <FullTotal attempt={attempt} all={s.attempts} />}
 
       {/* Skills + answer map */}
       {skills.length > 0 && (
