@@ -48,6 +48,30 @@
   "minutesPerModule": 35
  },
  {
+  "id": "dsat26-09-v1-rw",
+  "name": "September 2026 · International · Version 1 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2026,
+  "month": 9,
+  "region": "International",
+  "form": "1",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
+  "id": "dsat26-09-v1-math",
+  "name": "September 2026 · International · Version 1 · Math",
+  "type": "MATH",
+  "year": 2026,
+  "month": 9,
+  "region": "International",
+  "form": "1",
+  "modules": 2,
+  "questions": 44,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat26-08-rw",
   "name": "August 2026 · Reading & Writing",
   "type": "EBRW",

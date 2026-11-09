@@ -1,0 +1,339 @@
+!id: dsat26-09-v1-math
+!name: September 2026 · International · Version 1 · Math
+!type: MATH
+!year: 2026
+!month: 9
+!region: International
+!form: 1
+=M1
+#1
+Q: The equation x + y = 1,440 represents the number of minutes of daylight (between sunrise and sunset), x, and the number of minutes of non-daylight, y, on a particular day in Grand Rapids, Michigan. If this day has 740 minutes of daylight, how many minutes of non-daylight does it have?
+A) 700
+B) 740
+C) 1,366
+D) 1,440
+K: A
+E: Substitute x = 740: y = 1,440 − 740 = 700.
+#2
+Q: Carmen needs at least 100 signatures to submit a petition. If Carmen already has 76 signatures, what is the minimum number of additional signatures Carmen needs to submit the petition?
+A) 24
+B) 66
+C) 76
+D) 176
+K: A
+E: 100 − 76 = 24.
+#3
+I: /qimg/26-sep-v1-math-m1-q3.svg
+Q: Triangles ABC and A′B′C′ are shown. Triangle ABC is dilated by a scale factor of 6 to form triangle A′B′C′. If the length of AB is 18, what is the length of A′B′?
+A) 3
+B) 6
+C) 24
+D) 108
+K: D
+E: Lengths scale by 6, so A′B′ = 6 × 18 = 108.
+#4
+I: /qimg/26-sep-v1-math-m1-q4.svg
+Q: For the triangles shown, triangle ABC is dilated by a scale factor of 5 to obtain triangle XYZ, where d = 17. What is the measure, in degrees, of angle X?
+A) 12
+B) 55
+C) 60
+D) 65
+K: C
+E: Dilation keeps angle measures. Angle X corresponds to angle A, which is 60°.
+#5
+Q: A certain swordfish can swim at a maximum speed of 23 meters per second. At this maximum speed, how many meters would this swordfish swim in 3 seconds?
+K: 69
+E: 23 × 3 = 69.
+#6
+Q: How many solutions does the equation 9x = 45 have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: B
+E: Dividing by 9 gives x = 5, one solution.
+#7
+Q: A designer used a total of 25 yards of blue fabric and yellow fabric for a sewing project. The designer used 17 yards of blue fabric. How many yards of yellow fabric were used?
+A) 8
+B) 17
+C) 25
+D) 33
+K: A
+E: 25 − 17 = 8.
+#8
+Q: Which expression is equivalent to (9y + 14x) + (7y − 8x)?
+A) 2y + 6x
+B) 2y + 22x
+C) 16y + 6x
+D) 16y + 22x
+K: C
+E: Combine like terms: 9y + 7y = 16y and 14x − 8x = 6x.
+#9
+Q: A rectangle has a length of 29 meters and a width of 37 meters. What is the area, in square meters, of the rectangle?
+A) 8
+B) 66
+C) 528
+D) 1,073
+K: D
+E: 29 × 37 = 1,073.
+#10
+Q: There are 850 objects in a bag. Of these objects, 8% are cubes. How many cubes are in the bag?
+K: 68
+E: 0.08 × 850 = 68.
+#11
+P: f(x) = x^2 + 6x + 11
+Q: For the given function f, the graph of y = f(x) in the xy-plane passes through the point (0, b), where b is a constant. What is the value of b?
+K: 11
+E: b = f(0) = 11.
+#12
+P: <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>11</td></tr><tr><td>1</td><td>18</td></tr><tr><td>2</td><td>25</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. What is the y-coordinate of the y-intercept of the line in the xy-plane that represents this relationship?
+K: 11
+E: The point (0, 11) is in the table, so the y-intercept is 11.
+#13
+Q: Which expression is equivalent to 3x(x + 9)?
+A) 3x^2 + 9
+B) 3x^2 + 27x
+C) 4x^2 + 9
+D) 4x^2 + 12x
+K: B
+E: Distribute: 3x · x = 3x^2 and 3x · 9 = 27x.
+#14
+Q: Javier deposits $45 in a savings account at the end of each week. At the beginning of the 1st week of a year there was $600 in that savings account. How much money, in dollars, will be in the account at the end of the 8th week of the year?
+A) 240
+B) 645
+C) 653
+D) 960
+K: D
+E: 600 + 8(45) = 960.
+#15
+Q: The function f is defined by f(x) = 2(3)^x. What is the value of f(x) when x = 4?
+A) 64
+B) 68
+C) 81
+D) 162
+K: D
+E: f(4) = 2 · 81 = 162.
+#16
+P: 12, 21, 23, 33, 39, 42, 44
+Q: The given list shows the 7 values in a data set. Which of the following data sets has the same median as the given list?
+A) 21, 24, 25, 28, 33, 33, 39
+B) 12, 15, 28, 33, 35, 39, 39
+C) 21, 28, 33, 39, 41, 43, 46
+D) 22, 25, 36, 38, 49, 50, 54
+K: B
+E: The median of the list is the 4th value, 33. Only choice B has 33 as its 4th value.
+#17
+Q: On a particular assembly line, 59 out of every 100 products have a defect. A product from the assembly line will be selected at random. What is the probability of selecting a product that has a defect?
+A) (1)/(5,900)
+B) (1)/(59)
+C) (59)/(100)
+D) (59)/(10)
+K: C
+E: Probability = 59 defective out of 100 = 59/100.
+#18
+Q: In triangle PQR, the measure of ∠P is 67°, and the measure of ∠Q is 13°. What is the measure of ∠R?
+A) 26°
+B) 54°
+C) 80°
+D) 100°
+K: D
+E: Angles sum to 180°: 180 − 67 − 13 = 100.
+#19
+I: /qimg/26-sep-v1-math-m1-q19.svg
+Q: In triangle QRS, what is the value of tan y°?
+A) (8)/(9)
+B) (9)/(8)
+C) (c)/(8)
+D) (c)/(9)
+K: A
+E: Tangent is opposite over adjacent. For angle S, the opposite side QR is 8 and the adjacent side RS is 9, so tan y° = 8/9.
+#20
+Q: The function f is defined by f(x) = 9(2x + 5). For what value of x does f(x) = 99?
+A) 3
+B) 8
+C) 11
+D) 47
+K: A
+E: 9(2x + 5) = 99 gives 2x + 5 = 11, so x = 3.
+#21
+P: (w)/(x) + 5x = 8
+Q: The given equation relates the distinct positive numbers w and x. Which equation correctly expresses w in terms of x?
+A) w = 8 + 5x
+B) w = 8 − 5x
+C) w = (8)/(5x)
+D) w = (5x)/(8)
+K: B
+E: Move 5x to the other side: w = 8 − 5x.
+#22
+I: /qimg/26-sep-v1-math-m1-q22.svg
+Q: The graph of the quadratic function y = f(x) is shown. What is the vertex of the graph?
+A) (0, −2)
+B) (0, −4)
+C) (0, 2)
+D) (0, 4)
+K: D
+E: The lowest point of the parabola is at (0, 4).
+=M2
+#1
+Q: A circle in the xy-plane has its center at (−4, −8). Line k is tangent to this circle at the point (−8, −9). What is the slope of line k?
+A) −4
+B) −(1)/(4)
+C) (1)/(4)
+D) 4
+K: A
+E: The radius to (−8, −9) has slope (−9 + 8)/(−8 + 4) = 1/4. A tangent is perpendicular to the radius, so its slope is −4.
+#2
+P: f(x) = 2x^2 + 28x + 99
+Q: The function g is defined by g(x) = f(x + 6). What is the minimum value of g(x)?
+A) −13
+B) −7
+C) 1
+D) 7
+K: C
+E: Shifting the graph left by 6 does not change the minimum value. f has its vertex at x = −7, and f(−7) = 98 − 196 + 99 = 1.
+#3
+P: (x − k)^2 = (k − 5a)(x − k)
+Q: In the given equation, a and k are constants, where k > 5a. The sum of the solutions to the equation is 3k + 37. What is the value of a?
+K: -37/5 | -7.4
+E: Factor (x − k)[(x − k) − (k − 5a)] = 0, so x = k or x = 2k − 5a. Their sum is 3k − 5a = 3k + 37, so a = −37/5.
+#4
+I: /qimg/26-sep-v1-math-m2-q4.svg
+Q: If a new graph of three linear equations is created using the system of equations shown and the equation x + 4y = −32, how many solutions (x, y) will the resulting system of three equations have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: A
+E: The sloped line has equation x + 4y = 16. The new line x + 4y = −32 is parallel to it, so it never meets it, and no point lies on all three lines.
+#5
+P: <table><tr><th>Group</th><th>Percentage of students who speak a second language</th><th>Margin of error</th></tr><tr><td>1</td><td>42%</td><td>13%</td></tr><tr><td>2</td><td>45%</td><td>12%</td></tr><tr><td>3</td><td>45%</td><td>9%</td></tr><tr><td>4</td><td>47%</td><td>15%</td></tr></table>
+Q: Four different research groups each surveyed a random sample of students from a certain high school to estimate the percentage of students at the school who speak a second language. The table shows the resulting estimates and their associated margins of error. Assuming the margins of error were calculated in the same way, which group had the largest sample size?
+A) Group 4
+B) Group 3
+C) Group 2
+D) Group 1
+K: B
+E: A smaller margin of error comes from a larger sample, and Group 3 has the smallest margin (9%).
+#6
+Q: Kai used fabric measuring 4 yards in length to make each costume for a school play. The relationship between the number of costumes that Kai made, x, and the total length of fabric that he purchased, y, in yards, is represented by the equation y − 4x = 3. What is the best interpretation of 3 in this context?
+A) Kai made 3 costumes.
+B) Kai purchased a total of 3 yards of fabric.
+C) Kai used a total of 3 yards of fabric to make the costumes.
+D) Kai purchased 3 yards more fabric than he used to make the costumes.
+K: D
+E: y = 4x + 3: 4x is the fabric used, so the 3 is the extra fabric he purchased.
+#7
+Q: For a certain type of rope, the equation y = 900ax^2, where a is a constant, gives the estimated breaking strength y, in pounds, of a rope with a circumference of x inches. Based on this equation, if a rope of this type has a circumference of 2.75 inches, it has an estimated breaking strength of 9,528.75 pounds. What is the estimated breaking strength, in pounds, of a rope of this type that has a circumference of 3.50 inches?
+K: 15435 | 15,435
+E: 9,528.75 = 900a(2.75)^2 gives a = 1.4. Then y = 900(1.4)(3.5)^2 = 15,435.
+#8
+Q: The function m is defined by m(x) = 3x + 2, and the function p is defined by p(x) = 2 − x. What is the value of 4m(2) − p(2)?
+K: 32
+E: m(2) = 8 and p(2) = 0, so 4(8) − 0 = 32.
+#9
+P: y = (x − 2)(−x + 7)
+P: y = 9x − 18
+Q: Which ordered pair (x, y) is the solution to the given system of equations?
+A) (2, 0)
+B) (2, −7)
+C) (0, 2)
+D) (−7, 2)
+K: A
+E: Since 9x − 18 = 9(x − 2), the equation becomes (x − 2)(−x + 7) = 9(x − 2), so x = 2 or x = −2. Of the choices, only x = 2 appears, with y = 9(2) − 18 = 0.
+#10
+P: x^2 + 11x + 11 = 0
+Q: One solution to the given equation can be written as x = (−11 + √(k))/(2), where k is a constant. What is the value of k?
+K: 77
+E: By the quadratic formula, x = (−11 ± √(121 − 44))/2, so k = 77.
+#11
+P: f(x) = −4(x + 10)^2 + 12
+Q: The function f is defined by the given equation. For what value of x does f(x) reach its maximum?
+A) −40
+B) −12
+C) −10
+D) −4
+K: C
+E: The parabola opens downward with its vertex at x = −10, where f reaches its maximum.
+#12
+Q: During the first 8.00 seconds after a car started moving, its speed increased to 11.0 meters per second. From 8.00 seconds to 14.0 seconds after the car started moving, its speed increased from 11.0 meters per second to 25.0 meters per second. To the nearest hundredth, what is the positive difference between the average rate of change of the speed of the car, in meters per second per second, during the first 8.00 seconds after the car started moving and the average rate of change of the speed of the car, in meters per second per second, from 8.00 seconds to 14.0 seconds after the car started moving?
+K: 0.96 | .96
+E: The first rate is 11/8 = 1.375 and the second is 14/6 ≈ 2.3333. The difference is about 0.96.
+#13
+Q: A landscaping company mixes oil with gasoline to power its tools. A chainsaw requires 8 ounces of oil per gallon of gasoline. A lawnmower requires 4 ounces of oil per gallon of gasoline. The company uses a total of 24 ounces of oil in its mixes for the chainsaw and lawnmower. Which of the following equations represents this situation, where x represents the amount of gasoline, in gallons, in the mix for the chainsaw and y represents the amount of gasoline, in gallons, in the mix for the lawnmower?
+A) 2(x + 2y) = 24
+B) 2(2x + y) = 24
+C) 4(x + 2y) = 24
+D) 4(2x + y) = 24
+K: D
+E: The oil used is 8x + 4y = 24, which factors as 4(2x + y) = 24.
+#14
+Q: The binomial x + 6y is a factor of which of the following?
+A) x^2 + 7xy + 6y^2
+B) x^2 + 7xy + 7y^2
+C) x^2 + 18xy + 18y^2
+D) x^2 + 14xy + 21y^2
+K: A
+E: x^2 + 7xy + 6y^2 = (x + y)(x + 6y).
+#15
+I: /qimg/26-sep-v1-math-m2-q15.svg
+Q: For the right circular cone shown, B is a point on the circumference of the base, and the length of segment AB is 86 centimeters. If the height of the cone is 43 centimeters and the volume of the cone is kπ cubic centimeters, what is the value of k?
+K: 79507
+E: The slant height is 86 and the height is 43, so r^2 = 86^2 − 43^2 = 5,547. Then V = (1)/(3)π(5,547)(43) = 79,507π, so k = 79,507.
+#16
+P: x^2 + 52x + y^2 = 0
+Q: In the xy-plane, the graph of the given equation is a circle. What are the coordinates (x, y) of the center of the circle?
+A) (0, 26)
+B) (0, −26)
+C) (26, 0)
+D) (−26, 0)
+K: D
+E: Complete the square: (x + 26)^2 + y^2 = 676, so the center is (−26, 0).
+#17
+Q: An object is launched from a height of 129 feet above the ground. A quadratic function f models the height above the ground, in feet, of the object t seconds after it is launched. According to the model, 2 seconds after the object is launched, it reaches a maximum height of 193 feet above the ground. Which equation defines f?
+A) f(t) = −16(t + 193)^2 − 2
+B) f(t) = −16(t − 193)^2 + 2
+C) f(t) = −16(t + 2)^2 − 193
+D) f(t) = −16(t − 2)^2 + 193
+K: D
+E: The vertex form is a(t − h)^2 + k with the vertex (2, 193), and the parabola opens down.
+#18
+P: x(x − 14)(x + 6)(x − 5)^2 = 0
+Q: What is the greatest solution to the given equation?
+K: 14
+E: The solutions are 0, 14, −6, and 5, so the greatest is 14.
+#19
+Q: Which equation has no solution?
+A) 14x + 7 = 7(2x + 1)
+B) 14x + 11 = −14x − 11
+C) 14x + 1 = 2x + 1
+D) 14x + 70 = 7(2x + 4)
+K: D
+E: The right side of D is 14x + 28, so 14x + 70 = 14x + 28 is never true. A is true for every x, and B and C each have one solution.
+#20
+I: /qimg/26-sep-v1-math-m2-q20.svg
+Q: The graph in the xy-plane models the possible combinations of length x, in meters (m), and width y, in meters, for a rectangle with a perimeter of 24 m. Which statement is the best interpretation of the point (10, 2) in this context?
+A) The length is 2 m less than the perimeter, and the width is 10 m less than the perimeter.
+B) The length is 2 m, and the width is 10 m.
+C) The length is 10 m, and the width is 2 m.
+D) The length is 10 m less than the perimeter, and the width is 2 m less than the perimeter.
+K: C
+E: A point (x, y) gives length x and width y, so (10, 2) is a length of 10 m and a width of 2 m.
+#21
+I: /qimg/26-sep-v1-math-m2-q21.svg
+Q: The scatterplot shows the relationship between two variables, t and d. Which of the following equations is the most appropriate linear model for the data shown?
+A) d = −65.1 + 2.02t
+B) d = 165.1 + 2.02t
+C) d = 354.8 + 2.02t
+D) d = 389.8 + 2.02t
+K: A
+E: At t = 230 the data are near d = 400, and −65.1 + 2.02(230) ≈ 399.5, which matches the trend.
+#22
+I: /qimg/26-sep-v1-math-m2-q22.svg
+Q: In the figure, line q is parallel to line r, and both lines are intersected by line s. If y = 2x + 7, what is the value of x?
+A) 19
+B) 26
+C) 64
+D) 74
+K: C
+E: The angle y° is supplementary to the 45° angle, so y = 135. Then 2x + 7 = 135 and x = 64.
