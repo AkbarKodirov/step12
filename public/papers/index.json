@@ -1,5 +1,17 @@
 [
  {
+  "id": "dsat26-10-v1-rw",
+  "name": "October 2026 · Version 1 · Reading & Writing",
+  "type": "EBRW",
+  "year": 2026,
+  "month": 10,
+  "region": "International",
+  "form": "1",
+  "modules": 2,
+  "questions": 54,
+  "minutesPerModule": 32
+ },
+ {
   "id": "dsat25-11-v1-rw",
   "name": "November 2025 · Version 1 · Reading & Writing",
   "type": "EBRW",
