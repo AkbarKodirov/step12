@@ -37,7 +37,7 @@ L: When the claw snaps shut rapidly, it pushes water through a narrow groove at 
 L: This high-speed water jet creates a bubble that pops forcefully near the shrimp’s prey.
 L: The popping bubble generates shock waves powerful enough to stun small fish.
 Q: The student wants to introduce pistol shrimp to an audience unfamiliar with these crustaceans. Which choice most effectively uses relevant information from the notes to accomplish this goal?
-A) Pistol shrimp are preyed on by small marine crustaceans that create high- speed water jets to stun their prey.
+A) Pistol shrimp are preyed on by small marine crustaceans that create high-speed water jets to stun their prey.
 B) Some crustaceans use a specialized claw to create-high-speed water jets and a bubble that stuns the small fish they.préey on.
 C) Pushing water through a narrow groove at extreme speeds, the snapping shut of the shrimp’s claw sets the shock-wave hunting process in motion.
 D) Pistol shrimp are small marine creatures that use a specialized oversized claw to generate shock waves powerful enough to stun small fish.
@@ -83,7 +83,7 @@ C) neglect
 D) misinterpretation
 K: A
 #10
-P: During a recent investigation, archaeologists ______ an explanation for the consistent and seemingly deliberate placement of petroglyphs (rock carvings) near water analyzed several sites on Carribbean islands. They discovered that many of the pools near petroglyphs had consistent water levels year-round, creating perfect reflecting surfaces for the carved symbols on the rocks.
+P: During a recent investigation, archaeologists ______ an explanation for the consistent and seemingly deliberate placement of petroglyphs (rock carvings) near water analyzed several sites on Caribbean islands. They discovered that many of the pools near petroglyphs had consistent water levels year-round, creating perfect reflecting surfaces for the carved symbols on the rocks.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
 A) sought
 B) had sought
@@ -100,30 +100,42 @@ D) anomalies
 K: B
 #12
 P: While researching a topic, a student has taken the following notes:
-L: o Refrigerants are chemical compounds used in cooling technologies, such as air conditioners. « Air conditioners can use refrigerants to absorb heat and release cold air. e The refrigerant dichloromethane is a hydrochlorocarbon (HCC). e HCCs are composed of the elements hydrogen, chlorine, and carbon. o The refrigerant tetradecafluorohexane is a perfluorocarbon (PFC). e PFCs are composed of fluorine and carbon.
-Q: The student wants to compare the chemical compositions of dichloromethane and tetradecafluorohexane. Which choice most effectively. uses relevant information from the notes to accomplish this goal?
-A) Dichloromethane, a hydrochlorocarbon,is composed of hydrogen, chlorine, and carbon; tetradecafluorohexane, a perfluorocarbon, is composed of fluorine and carbon.
+L: Refrigerants are chemical compounds used in cooling technologies, such as air conditioners.
+L: Air conditioners can use refrigerants to absorb heat and release cold air.
+L: The refrigerant dichloromethane is a hydrochlorocarbon (HCC).
+L: HCCs are composed of the elements hydrogen, chlorine, and carbon.
+L: The refrigerant tetradecafluorohexane is a perfluorocarbon (PFC).
+L: PFCs are composed of fluorine and carbon.
+Q: The student wants to compare the chemical compositions of dichloromethane and tetradecafluorohexane. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Dichloromethane, a hydrochlorocarbon, is composed of hydrogen, chlorine, and carbon; tetradecafluorohexane, a perfluorocarbon, is composed of fluorine and carbon.
 B) Dichloromethane and tetradecafluorohexane are chemical compounds used in cooling technologies; the compounds are known as refrigerants.
 C) The hydrochlorocarbon dichloromethane and the perfluorocarbon tetradecafluorohexane are both refrigerants that can be used in cooling technologies like air conditioners.
 D) Tetradecafluorohexane, a refrigerant, can be used in cooling technologies to absorb heat and release cold air.
 K: A
 #13
 P: While researching a topic, a student has taken the following notes:
-L: o The Future of Nostalgia is a scholarly book by literary theorist Svetlana Boym. o The book explores the concept of nostalgia from various angles. « Chapter 5 explores the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana. o Chapter 7 explains how nostalgia manifests in Western urban architecture. « In chapter 7, Boym writes, “The idea of topography—in both senses of the word—is connected to the ancient Greek art of memory.” The student wants to explain what Svetlana Boym writes-about in chapter 5.
+L: The Future of Nostalgia is a scholarly book by literary theorist Svetlana Boym.
+L: The book explores the concept of nostalgia from various angles.
+L: Chapter 5 explores the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana.
+L: Chapter 7 explains how nostalgia manifests in Western urban architecture.
+L: In chapter 7, Boym writes, “The idea of topography—in both senses of the word—is connected to the ancient Greek art of memory.” The student wants to explain what Svetlana Boym writes-about in chapter 5.
 Q: Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) Svetlana Boym’s The Future of Nostalgia explores the concept of nostalgia from various angles.
-B) Literary theorist Svetlana-Boym explores the Soviet-style restaurant the Nostalgija Snack Barindjubljana in chapter 5 of her book.
-C) As Svetlana Boymwrites in the seventh chapter of her book, “The idea of topography—in both senses of the word—is connected to the ancient Greek art of memory.”
+B) Literary theorist Svetlana-Boym explores the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana in chapter 5 of her book.
+C) As Svetlana Boym writes in the seventh chapter of her book, “The idea of topography—in both senses of the word—is connected to the ancient Greek art of memory.”
 D) After exploring the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana, Svetlana Boym goes on to explain how nostalgia manifests in Western urban architecture.
 K: B
 #14
 P: While researching a topic, a student has taken the following notes:
-L: * An element’s relative abundance in a given environment can be expressed ______ as a mass fraction, mole fraction, or volume fraction. e Mass fraction is the ratio of an element’s mass to the combined mass of all ______ elements in a given environment. o The mass fraction of silicon is 161,000 parts per million (ppm) on Earth. o The mass fraction of potassium is 160 ppm on Earth.
+L: An element’s relative abundance in a given environment can be expressed ______ as a mass fraction, mole fraction, or volume fraction.
+L: Mass fraction is the ratio of an element’s mass to the combined mass of all ______ elements in a given environment.
+L: The mass fraction of silicon is 161,000 parts per million (ppm) on Earth.
+L: The mass fraction of potassium is 160 ppm on Earth.
 Q: The student wants to compare the relative abundance of silicon on Earth to that of potassium. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) On Earth, potassium is far less abundant than silicon, based on the mass fraction of the two elements.
 B) Silicon’s mass relative to the combined mass of all elements on Earth is 161,000 ppm.
 C) Unlike potassium, silicon has a mass fraction on Earth of 161,000 ppm.
-D) The relative abundance-of silicon and potassium on Earth can be expressed as a mass-fraction, mole fraction, or volume fraction.
+D) The relative abundance of silicon and potassium on Earth can be expressed as a mass-fraction, mole fraction, or volume fraction.
 K: A
 #15
 P: A team led by Portuguese researcher Isabel C.F.R. Ferreira found that many species of mushrooms contain chemicals called phenolic compounds, such as ferulic acid and p-coumaric acid. ______ Ferreira detected ferulic acid in Termitomyces heimii mushrooms and p-coumaric acid in Ganoderma lucidum mushrooms.
@@ -150,7 +162,7 @@ C) then,
 D) still,
 K: B
 #18
-P: The editors of Home Ground: A Guide te. the American Landscape turned to Luis Alberto Urrea, a poet, to craft the entry for “atarque,” a term referring to a watering hole formed by a natural-or artificial dam. For “mus keg,” however, the editors chose the ______ author of Of Landscape and Longing.
+P: The editors of Home Ground: A Guide to the American Landscape turned to Luis Alberto Urrea, a poet, to craft the entry for “atarque,” a term referring to a watering hole formed by a natural or artificial dam. For “muskeg,” however, the editors chose the ______ author of Of Landscape and Longing.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
 A) essayist, Carolyn Servid,
 B) essayist, Carolyn Servid
@@ -193,7 +205,7 @@ K: C
 #23
 P: Many linguists support the steppe hypothesis, which holds that the Indo- European language family originated approximately 6,000 years before present (YBP) on the Pontic-Caspian Steppe. Using the novel linguistics approach of computational phylogenetics, a research team proposed an age of approximately 8,120 YBP. As part of their findings, the team also presented a hypothesis as to how Indo-European spread, proposing that a major branch of Indo-European traveled northward from the language family’s source to the Pontic-Caspian Steppe, expanding from there across much of Europe.
 Q: What does the text most strongly suggest about the steppe hypothesis?
-A) It is weakened by the team’s findings, though the team’s‘hypothesis nevertheless accounts for the slight possibility that a minor branch of Indo-European originated on the Pontic-Cagpian Steppe.
+A) It is weakened by the team’s findings, though the team’s hypothesis nevertheless accounts for the slight possibility that a minor branch of Indo-European originated on the Pontic-Cagpian Steppe.
 B) It is more popular among linguists than-other, competing hypotheses, which are better supported by the team’s findings than the steppe hypothesis is.
 C) TItis based on older and less reliable research approaches than those used by the team, which included the innovative method of computational phylogenetics.
 D) It is incompatible with the team’s findings, though the team’s hypothesis nevertheless accords a position of importance to the Pontic-Caspian Steppe in the spread of Indo-European.
@@ -227,7 +239,7 @@ P: Vertical gene transfer involves the transmission of genetic material from a p
 Q: Which choice best states the function of the underlined sentence in the text as a whole?
 A) Tt explains why a common perception of a biological process is flawed.
 B) It contrasts the frequency with which a biological phenomenon has been detected in two categories of organisms:
-C) It argues that two biological phenomena‘are more similar than they may initially appear to be.
+C) It argues that two biological phenomena are more similar than they may initially appear to be.
 D) It indicates a distinction between the mechanics of two kinds of biological processes. 27 questions.
 K: B
 =M2
@@ -284,20 +296,20 @@ K: C
 P: In the Mexican dialect of Spanish, the consonant s is pronounced with greater tension in the tongue than it is in Castilian, the dominant dialect in Spain, resulting in a sharper sound. Margarita Hidalgo, a linguist at San Diego State University, argues that Mexican Spanish acquired this pronunciation from Nahuatl, the language of the Nahua people in Central Mexico: as the Spanish colonizers of Mexico incorporated Nahuatl words into their speech, and as more and more Nahuas spoke Spanish as a second language, the Nahuatl pronunciation of the s consonant replaced the Castilian pronunciation.
 Q: Information in the text best supports which statement about the consonant s?
 A) This consonant appears in a higher percentage of Nahuatl vocabulary than of Castilian vocabulary.
-B) The pronunciation of this consonant is-the principal difference between the Mexican and Castilian dialects of Spanish.
+B) The pronunciation of this consonant is the principal difference between the Mexican and Castilian dialects of Spanish.
 C) The pronunciation of this consonant requires greater tension in the tongue in Nahuatl than in Castilian.
 D) The pronunciation of this consonant in Nahuatl may have been affected by its pronunciation in Mexican Spanish.
 K: C
 #8
 P: The 2021 poetry collection Double Trio continues Nathaniel Mackey’s “long song,” a sprawling work that consists of a pair of serialized poems called Song of the Andoumboulou and Mu, whose joint publication spans multiple installments over several decades. In this long song, Mackey actualizes what he calls “discrepant engagement,” a compositional strategy that involves continuously revising and remixing diverse cultural references to illuminate the complex interconnectedness of global cultures. Mackey’s long song’s open-endedness is essential to the way it manifests discrepant engagement—that is, the work’s associative logic and resistance to linear narrative prevent readers from imposing a definitive and coherent interpretation on its presentation of world cultures.
 Q: Which quotation from a literary scholar would most-directly support the underlined claim?
-A) “Though at the outset of his project Mackey(conceived of Song of the Andoumboulou and Mu as two discrete Seri¢s, in the preface of 2006’s Splay Anthem, Mackey indicates that their seriality eventually enabled his realization that they were in fact two facets of a single work.”
+A) “Though at the outset of his project Mackey(conceived of Song of the Andoumboulou and Mu as two discrete series, in the preface of 2006’s Splay Anthem, Mackey indicates that their seriality eventually enabled his realization that they were in fact two facets of a single work.”
 B) “Though nominally an epic whose band of wandering travelers evoke the ancient Greek epic hero Odysseus, unlike traditional Western epics, which often conclude with the hero’s return home, Mackey’s long song possesses an open-endedness that renders the final homecoming elusive.”
-C) “The intellectual scope of Mackey’s work is capacious, drawing on such wide- ranging cultural influences as the traditional stories of the Dogon people of West Africa, philosophical schools of the ancient Mediterranean, the history of the African diaspora, quantum mechanics, modernist poetry, and experimental jazz music.”
+C) “The intellectual scope of Mackey’s work is capacious, drawing on such wide-ranging cultural influences as the traditional stories of the Dogon people of West Africa, philosophical schools of the ancient Mediterranean, the history of the African diaspora, quantum mechanics, modernist poetry, and experimental jazz music.”
 D) “Seriality in Mackey’s long song operates recursively, meaning that, in combination with the work’s marshaling of an eclectic array of cultural allusions, it endlessly reiterates and recontextualizes the same archetypal images and narrative incidents, uncovering in these elements new and unexpected meanings with each repetition.”
 K: D
 #9
-P: Between April 1848 and October 1849, Edward Bulwer-Lytton’s novel The Caxtons was serialized in fourteen parts in Blackwood’s Magazine. Scholars typically regard the serial version of Bulwer-Lytton’s novel as less authoritative than the version later published in book form. ______ as scholar Philip Allingham notes, serialized texts were the versions in which the nineteenth- century readership first “saw itself and its world reflected, and to which it responded, often with great emotion.”
+P: Between April 1848 and October 1849, Edward Bulwer-Lytton’s novel The Caxtons was serialized in fourteen parts in Blackwood’s Magazine. Scholars typically regard the serial version of Bulwer-Lytton’s novel as less authoritative than the version later published in book form. ______ as scholar Philip Allingham notes, serialized texts were the versions in which the nineteenth-century readership first “saw itself and its world reflected, and to which it responded, often with great emotion.”
 Q: Which choice completes the text with the most logical transition?
 A) Accordingly, they emphasize the appeal of the serial version for Victorian audiences;
 B) Consequently, the book version of the novel is often favored over the serial version;
@@ -313,20 +325,20 @@ C) Ii lists the achievements of the National ASsoeiation of Black Journalists.
 D) It summarizes the purpose of founding the National Association of Black Journalists.
 K: D
 #11
-P: Butterfly monitoring As ectothermic creatures exquisitely responsive to temperature and habitat changes, butterflies serve as nature’ s early warning system. Recognizing this, the Great Lakes Butterfly Monitoring Network deploys volunteers to walk identical routes biweekly and document each butterfly species they encounter. These volunteers have compiled a standardized data set spanning decades, allowing scientists to detect subtle population shifts and migration pattern changes that single-season studies would miss.
-Q: According to the text, what is one advantage of the Great Lakes Butterfly Monitoring Network’ s data set?
+P: Butterfly monitoring As ectothermic creatures exquisitely responsive to temperature and habitat changes, butterflies serve as nature’s early warning system. Recognizing this, the Great Lakes Butterfly Monitoring Network deploys volunteers to walk identical routes biweekly and document each butterfly species they encounter. These volunteers have compiled a standardized data set spanning decades, allowing scientists to detect subtle population shifts and migration pattern changes that single-season studies would miss.
+Q: According to the text, what is one advantage of the Great Lakes Butterfly Monitoring Network’s data set?
 A) Tt eliminates the need for laboratory analysis of specimens.
 B) It focuses exclusively on endangered butterfly species so its data are not compromised.
 C) It requires fewer trained volunteers to collect reliable data on butterflies.
-D) It reveals gradual population trends that would be undetectable in short- term studies.
+D) It reveals gradual population trends that would be undetectable in short-term studies.
 K: D
 #12
 P: Philoctetes Philoctetes is a play by Sophocles that was first performed in Athens in 409 BCE. In the play, Odysseus and Neoptolemus must retrieve Philoctetes—a master archer who is believed necessary for the Greeks to win the Trojan War—from a cave on the deserted island of Lemnos where Odysseus and others had abandoned him with a debilitating injury earlier in the war. Odysseus suggests that the plan for returning with Philoctetes rests on Neoptolemus not having been part of the group that abandoned him:
 Q: Which quotation from *Philoctetes* most effectively illustrates the claim?
-A) “No moment for this talk, / Lest he discern my coming, and | lose / The scheme, wherewith | think to catch him seen.”
+A) “No moment for this talk, / Lest he discern my coming, and I lose / The scheme, wherewith I think to catch him seen.”
 B) “Since the prize of victory is so dear, /Endure it [acting deceitfully])—We’ 11 be just another day / But now, for one brief hour, devote thyself / To serve me without shame.”
-C) “Go near now silently, and make me know / If still he persevere, and hold this spot, / Or have roamed elsewhere, that informed of this / | may proceed with what remains to say, / And we may act in concert.”
-D) “Now let me show, why thine approach to him / Is safe and trustful as mine cannot be / Thou didst sail forth, not to redeem thine oath, / Nor by constraint, nor with the foremost band. / All which reproaches | must ” bear.
+C) “Go near now silently, and make me know / If still he persevere, and hold this spot, / Or have roamed elsewhere, that informed of this / I may proceed with what remains to say, / And we may act in concert.”
+D) “Now let me show, why thine approach to him / Is safe and trustful as mine cannot be / Thou didst sail forth, not to redeem thine oath, / Nor by constraint, nor with the foremost band. / All which reproaches I must ” bear.
 K: D
 #13
 P: Diamond-bearing magma When a diamond-bearing magma (lamproite and kimberlite are two common examples) ascends from the upper mantle to Earth's surface, ______ eruption speeds between 6 and 19 miles per hour. This relatively rapid ascent limits diamonds' exposure to elements within the magma that can degrade their structure.
@@ -404,7 +416,7 @@ K: C
 P: Text 1 For thousands of years, O'odham farmers in the Sonoran desert of the southwestern US and northern Mexico have cultivated elderberries and chia seeds, sometimes planting these species together so that the elderberry bushes provide shade for chia flowers. Doing so helps protect chia flowers from the harshest heat and light and thereby helps prevent soil moisture from evaporating. Text 2 Chia flowers are well adapted to growing in the desert but grow best when shaded. Inspired by O'odham farmers, who often strategically plant chia flowers in the shade of sun-hardy species like elderberry bushes for protection from the sun and heat, Gary Nabhan and colleagues planted chia flowers in the shade of solar panels in the Sonoran desert and found that the plants grew well, suggesting to Nabhan and colleagues that the panels provide a benefit similar to that provided by elderberry bushes.
 Q: Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree on which point?
 A) Elderberry bushes grow best when planted in shaded areas, while chia flowers do not require shade to thrive.
-B) Elderberry bushes can provide shade that protects chia flowers from high- intensity heat and light.
+B) Elderberry bushes can provide shade that protects chia flowers from high-intensity heat and light.
 C) Nabhan’s team’s method could be refined to more actively prevent soil moisture from evaporating.
 D) Compared with Nabhan’s approach, the O'odham approach has the advantage of producing chia seeds.
 K: B
@@ -418,8 +430,8 @@ C) 3,935,000 units sold compared to the approximately 4,000,000 units sold of th
 D) 3,935,000 units sold compared to the approximately 4,000,000 units sold of the MSX.
 K: A
 #24
-P: Rafael Nufiez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as jare, a past-oriented expression that translates to “day before yesterday,” and coded each speaker’s manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, Hebrew speakers often refer to the right /left axis to describe events in time. Some researchers believe this tendency is universal, but Ntifiez and colleagues claim this is not the case.
-Q: Which finding, if true, would most directly support Niifiez and colleagues’ claim?
+P: Rafael Núñez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as jare, a past-oriented expression that translates to “day before yesterday,” and coded each speaker’s manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, Hebrew speakers often refer to the right /left axis to describe events in time. Some researchers believe this tendency is universal, but Núñez and colleagues claim this is not the case.
+Q: Which finding, if true, would most directly support Núñez and colleagues’ claim?
 A) Some Yupno grammatical structures used when talking about time are also used in Hebrew.
 B) Yupno speakers typically use their left hand to make temporal gestures regardless of whether the gestures are past oriented or future oriented.
 C) Yupno speakers were observed making temporal gestures both indoors and outdoors, though with greater frequency when indoors.
@@ -428,7 +440,7 @@ K: D
 #25
 P: In a 2018 study, Wee-Lee Tan and Yen-Nee Goh found that Malaysian consumers who reported more positive attitudes toward environmentally sustainable residences also reported greater intentions to purchase such properties. Subsequently, another team of researchers surveyed the attitudes of members of various demographic groups in Chile about a new television that is environmentally sustainable. Finding that middle-aged adults had the most positive attitude toward the TV, the researchers, citing the results of Tan and Goh’s study, concluded that middle-aged adults are more likely than other groups to purchase the TV, suggesting that the researchers may have assumed that
 Q: Which choice most logically completes the text?
-A) regardless of consumers’ demographic characteristics, consumers’ attitudes toward goods are strongly influenced-by their perceptions of the environmental sustainability of those goods:
+A) regardless of consumers’ demographic characteristics, consumers’ attitudes toward goods are strongly influenced by their perceptions of the environmental sustainability of those goods:
 B) middle-aged adults in Chile and middle-aged adults in Malaysia are similar in their attitudes toward environmentally sustainable goods.
 C) the perception that goods are environmentally sustainable and the resulting increase in purchase intention are independent of those goods’ actual environmental sustainability.
 D) the relationship between attitude and purchase intention for environmentally sustainable goods is not substantially affected by the type of good being purchased.
@@ -444,7 +456,7 @@ K: D
 #27
 P: The glossy ibis and the roseate spoonbill are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds’ habitats, such as the extent of tree-canopy coverage in the area and how deep the water is during breeding season. They found that although only glossy ibises prefer areas with deep water during breeding season, both glossy ibises and roseate spoonbills prefer areas that have standing water for more than 60 days per year. The researchers therefore concluded that neither species is very drawn to areas where
 Q: Which choice most logically completes the text?
-A) species with breeding seasons longer than 60 days,ar¢ likely to be present.
+A) species with breeding seasons longer than 60 days, are likely to be present.
 B) there is relatively deep water during the breeding season.
 C) there is standing water for far fewer than 60 days per year.
 D) there are any features that attract the other species.

@@ -80,7 +80,7 @@ C) According to a team of biologists, black garden ants build larger nests when 
 D) A study noted that black garden ants exposed to a harmful fungus tend to dig longer tunnels in their nests instead of reducing the centrality of the nest's chambers.
 K: B
 #10
-P: Good-Byeto All That is a 1929 autobiography by writer Robert Graves. In the book, Graves explains that his father, though a poet and songwriter himself, did not attempt to influence Graves’s writing style: ______
+P: Good-Bye to All That is a 1929 autobiography by writer Robert Graves. In the book, Graves explains that his father, though a poet and songwriter himself, did not attempt to influence Graves’s writing style: ______
 Q: Which quotation from Good-Bye to All That most effectively illustrates the claim?
 A) “[My father] has more than once impressed on me almost religiously never to sell for a sum down the complete rights of any work of mine whatsoever.”
 B) “[My father] never once tried to teach me how to write; he was always more ready to ask advice about his own work than to offer it for mine.”
@@ -125,9 +125,9 @@ K: D
 #15
 P: Last-mile delivery, the final stage in the delivery of products to customers, is subject to increasing pressure as consumers place greater emphasis on convenience and immediacy, often expecting next-day delivery. In response to this challenge and others, such as the increasing congestion of roadways, delivery companies are continually looking for ways to make last-mile delivery more efficient. One advance in last-mile delivery is the use of aerial drones (autonomous flying vehicles that can deliver small packages). This approach, while promising, also introduces new obstacles (e.g., the limited flight range of drones means that parcel depots must be in close proximity to delivery sites). It is therefore likely that ______
 Q: Which choice most logically completes the text?
-A) delivery companies will continue promising next-day delivery out of a desire to meet consumer’' expectations.
+A) delivery companies will continue promising next-day delivery out of a desire to meet consumers’ expectations.
 B) innovations in the use of drones for last-mile delivery will stall unless delivery companies shift their focus to methods with fewer complications.
-C) delivery companies will need to keep experimenting with new ideas for last-mile delivery if they hope to keep pace with consumer’ expectations.
+C) delivery companies will need to keep experimenting with new ideas for last-mile delivery if they hope to keep pace with consumers’ expectations.
 D) advances in last-mile technologies will slow as delivery companies focus more on meeting customer expectations for increased convenience.
 K: C
 #16
@@ -231,7 +231,8 @@ K: D
 P: While researching a topic, a student has taken the following notes:
 L: Tlahuiltepa is a municipality in the state of Hidalgo, Mexico.
 L: Municipalities are governmental regions responsible for providing many public services to their residents.
-L: One service they provide is traffic control. ·Tlahuiltepa’s population was 9,086 in 2020.
+L: One service they provide is traffic control.
+L: Tlahuiltepa’s population was 9,086 in 2020.
 L: Its population was 9,753 in 2010.
 L: Hidalgo is divided into 84 municipalities.
 Q: The student wants to emphasize the 2020 population of Tlahuiltepa. Which choice most effectively uses relevant information from the notes to accomplish this goal?
@@ -391,7 +392,7 @@ C) target, maintaining
 D) target; maintaining
 K: D
 #19
-P: During a recent investigation, archaeologists ______ an explanation for the consistent and seemingly deliberate placement of petrogylphs (rock carvings) near water analyzed several sites on Carribbean islands. They discovered that many of the pools near petroglyphs had consistent water levels year-round, creating perfect reflecting surfaces for the carved symbols on the rocks.
+P: During a recent investigation, archaeologists ______ an explanation for the consistent and seemingly deliberate placement of petroglyphs (rock carvings) near water analyzed several sites on Caribbean islands. They discovered that many of the pools near petroglyphs had consistent water levels year-round, creating perfect reflecting surfaces for the carved symbols on the rocks.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
 A) sought
 B) had sought

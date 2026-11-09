@@ -48,7 +48,7 @@ K: D
 #5
 P: While researching a topic, a student has taken the following notes:
 L: In Greek mythology, Chronos was the god of time.
-L: The theory that myths are exaggerated tales of actual people and events from-the past is known as euhemerism.
+L: The theory that myths are exaggerated tales of actual people and events from the past is known as euhemerism.
 L: Euhemerism is associated with the Greek writer Euhemerus (fourth century BCE).
 L: Euhemerus argued that the Greek gods and goddesses were based on real people.
 Q: The student wants to connect Chronos and Euhemerus. Which choice most effectively uses relevant information from the notes to accomplish this goal?
@@ -66,7 +66,7 @@ C) Nevertheless,
 D) For this reason,
 K: B
 #7
-P: Named for the year in which it was detected by: Japanese astronomers, SN 2004dj was a supernova (the explosion of a massive ______ in the constellation Camelopardalis, 11 million light-years-from Earth, the transient yet powerful blast propelled particles and debris into space at extremely high speeds.
+P: Named for the year in which it was detected by: Japanese astronomers, SN 2004dj was a supernova (the explosion of a massive ______ in the constellation Camelopardalis, 11 million light-years from Earth, the transient yet powerful blast propelled particles and debris into space at extremely high speeds.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
 A) star). Occurring
 B) star) and occurring
@@ -98,7 +98,7 @@ C) star) occurring
 D) star). Occurring
 K: D
 #11
-P: The Yapese Empire, a sea power in the Caroline Islands of Micronesia that reached its height around 1000 CE, is considered a.thalassocracy—a geopolitical entity whose hegemony resulted from control of the,sea rather than of land. Historians classify thalassocracies as distinct from tellurocracies, or land-based powers. ______ the British Empire (1600s—1900s, CE),is known for both land and sea supremacy.
+P: The Yapese Empire, a sea power in the Caroline Islands of Micronesia that reached its height around 1000 CE, is considered a thalassocracy—a geopolitical entity whose hegemony resulted from control of the, sea rather than of land. Historians classify thalassocracies as distinct from tellurocracies, or land-based powers. ______ the British Empire (1600s—1900s, CE),is known for both land and sea supremacy.
 Q: Which choice completes the text with the most logical transition?
 A) In other words, empires are classified according to their source of power:
 B) Likewise, thalassocracies are sea-based powers:
@@ -115,10 +115,15 @@ D) By contrast,
 K: D
 #13
 P: While researching a topic, a student has taken the following notes:
-L: e NASA mission STS-134 took place from May 16, 2011, to June 1, 2011. e Astronauts Andrew Feustel and Michael Fincke were crew members of STS- 134. e On May 22, 2011, Feustel and Fincke performed an extravehicular activity (EVA) to refill space station radiators with ammonia. « An EVA (also known as a spacewalk) is an activity done by astronauts outside the spacecraft. e The duration of their EVA was 8 hours and 7 minutes. o Theirs is counted among the longest completed spacewalks to date.
-Q: The student wants to emphasize the duration of Feusteland Fincke’s EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+L: NASA mission STS-134 took place from May 16, 2011, to June 1, 2011.
+L: Astronauts Andrew Feustel and Michael Fincke were crew members of STS-134.
+L: On May 22, 2011, Feustel and Fincke performed an extravehicular activity (EVA) to refill space station radiators with ammonia.
+L: An EVA (also known as a spacewalk) is an activity done by astronauts outside the spacecraft.
+L: The duration of their EVA was 8 hours and 7 minutes.
+L: Theirs is counted among the longest completed spacewalks to date.
+Q: The student wants to emphasize the duration of Feustel and Fincke’s EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) During their time as crew members of STS4134, Feustel and Fincke completed an EVA.
-B) Lasting 8 hours and 7 minutes,(Feustel and Fincke’s EVA is one of the longest spacewalks completed to-date;
+B) Lasting 8 hours and 7 minutes, Feustel and Fincke’s EVA is one of the longest spacewalks completed to-date;
 C) Feustel and Fincke completed an EVA, also known as a spacewalk, in which they left the spacecraft to refill space station radiators with ammonia.
 D) The EVA completed by STS-134 crew members Feustel and Fincke took place from May 16, 2011, to June 1, 2011.
 K: B
@@ -147,7 +152,7 @@ C) rejection
 D) hallmark
 K: D
 #17
-P: Some social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public's understanding of history is also central to its subsequent comprehension of a state’s politics, and if an electorate is to function, historical issues cannot remain(the dominion only of academics. History is too ______ to leave to historians‘alone.
+P: Some social scientists argue that while a belief in the importance of reason and progress is key to democracy, the public's understanding of history is also central to its subsequent comprehension of a state’s politics, and if an electorate is to function, historical issues cannot remain(the dominion only of academics. History is too ______ to leave to historians alone.
 Q: Which choice completes the text with the most logical and precise word or phrase?
 A) accessible
 B) complex
@@ -184,7 +189,7 @@ Q: Which quotation from Good-Bye to All That most effectively illustrates the cl
 A) “[My father] has more than once impressed on me almost religiously never to sell for a sum down the complete rights of any work of mine whatsoever.”
 B) “[My father] never once tried to teach me how to write; he was always more ready to ask advice about his own work than to offer it for mine.”
 C) “Some of [my father’s] songs I sing without prejudice; when washing up after meals or shelling peas or on similar occasions.”
-D) “Iam glad in a way that my father was a poet. This at least saved me from any false reverence of poets.”
+D) “I am glad in a way that my father was a poet. This at least saved me from any false reverence of poets.”
 K: B
 #22
 P: The Vortex is a 1924 satirical play by Noel Coward. During the first act of the play Pawnie, Clara, and Helen are at the home of Florence, whose arrival they are awaiting. In this act, Coward conveys the idea that other characters consider Pawnie to be a thoughtless person.
@@ -220,7 +225,7 @@ C) In other words,
 D) Eventually,
 K: B
 #26
-P: J. G. Ballard’s 1984 novel Empire of the Sun is ‘regularly described as autobiographical. The characterization is‘apt—there are many parallels between the experiences of the novel’s protagonist Jim Graham, and those of Ballard—but it should not be taken to mean that ‘every person or event depicted in Empire of the Sun has a real-life analogue, Much of the novel is pure invention, and readers who neglect this fact and instead focus excessively on correspondences between the novel and Ballard’s life can thus
+P: J. G. Ballard’s 1984 novel Empire of the Sun is ‘regularly described as autobiographical. The characterization is apt—there are many parallels between the experiences of the novel’s protagonist Jim Graham, and those of Ballard—but it should not be taken to mean that ‘every person or event depicted in Empire of the Sun has a real-life analogue, Much of the novel is pure invention, and readers who neglect this fact and instead focus excessively on correspondences between the novel and Ballard’s life can thus
 Q: Which choice most logically completes the text?
 A) misrepresent Empire of the Sun as being more widely read than it actually is.
 B) overemphasize the extent to which Ballard took inspiration from earlier writers.
@@ -243,14 +248,15 @@ L: The range is one of the dozens of “sky islands” in the southwestern US an
 L: A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands.
 L: The US Forest Service (USFS) said, “The mountains are ‘islands’ surrounded by deserts that are ‘seas.”” The USFS said, “Each Sky Island is a unique ecosystem.”
 Q: The student wants to provide an example of a sky island. Which choice most effectively uses relevant information from the notes to accomplish this goal?
-A) In the southwestern US and northwestern Mexico, there‘are dozens of sky islands: isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands.
+A) In the southwestern US and northwestern Mexico, there are dozens of sky islands: isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands.
 B) The USFS considers each of the sky islands; whose environments differ drastically from that of the surrounding lowlands, to be a “unique ecosystem.”
 C) Sky islands are isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands; as the USFS puts it, “the 3% mountains are ‘islands’ surrounded by deserts that are ‘seas.
-D) There are dozens,of sky islands in the southwestern US and northwestern Mexico, such as the Atascosa-Cibuta Mountains.
+D) There are dozens, of sky islands in the southwestern US and northwestern Mexico, such as the Atascosa-Cibuta Mountains.
 K: D
 #2
 P: While researching a topic, a student has taken the following notes:
-L: * Body positions are an important part of dance. + In Royal Academy of Dance ballet, there is a position called demi-seconde position. o [tis one of several positions for the dancer’s arms.
+L: Body positions are an important part of dance.
+L: In Royal Academy of Dance ballet, there is a position called demi-seconde position. It is one of several positions for the dancer’s arms.
 Q: The student wants to provide an example of a position in Royal Academy of Dance ballet. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) In dance, some positions are for the dancer’s arms.
 B) Body positions are an important part of dance, including Royal Academy of Dance ballet.
@@ -258,7 +264,11 @@ C) Demi-seconde position is an example of a position in Royal Academy of Dance b
 D) Royal Academy of Dance ballet includes several dance positions for the dancer’s arms.
 K: C
 #3
-P: Throughout the nineteenth and twentieth centuries, populations of Black Americans increased in many cities throughout the state of New York. ¢ During this time, many Black newspapers were founded. o The newspapers were largely by and for the Black communities in which they were based. e The New York Citizen-Call ran from 1960 to 1961 in New York City, New York. o The Syracuse Gazette ran from 1976 to 1980 in Syracuse, New York.
+L: Throughout the nineteenth and twentieth centuries, populations of Black Americans increased in many cities throughout the state of New York.
+L: During this time, many Black newspapers were founded.
+L: The newspapers were largely by and for the Black communities in which they were based.
+L: The New York Citizen-Call ran from 1960 to 1961 in New York City, New York.
+L: The Syracuse Gazette ran from 1976 to 1980 in Syracuse, New York.
 Q: Which choice most effectively uses information from the given sentences to emphasize the geographic similarities between the two newspapers?
 A) From 1960 to 1961, the New York Citizen-Call served the Black community of New York City, New York, as did the Syracuse Gazette.
 B) The New York Citizen-Call and the Syracuse Gazette, both based in New York, are among the many Black newspapers that sprung up in the nineteenth and twentieth centuries to provide a voice to the growing Black communities throughout the state.
@@ -274,12 +284,12 @@ C) had likely continued
 D) had likely been continuing
 K: A
 #5
-P: Although beneficial for forestalling loss of vascular function when leaf veins are blocked, reticulate (netlike) leaf-vein topologies in plants are thought to reduce efficiency in water and sugar transport and to increase vein construction costs relative to branched topologies. Charles A Price and Joshua S. Weitz assessed these trade-offs by comparing vascular function in the reticulate patterns of Acer griseum (paperbark maple) and other angiosperm leaf veins with that of analogous open- branching patterns. Though reticulation did indeed have added costs, they were offset by its benefits.
+P: Although beneficial for forestalling loss of vascular function when leaf veins are blocked, reticulate (netlike) leaf-vein topologies in plants are thought to reduce efficiency in water and sugar transport and to increase vein construction costs relative to branched topologies. Charles A Price and Joshua S. Weitz assessed these trade-offs by comparing vascular function in the reticulate patterns of Acer griseum (paperbark maple) and other angiosperm leaf veins with that of analogous open-branching patterns. Though reticulation did indeed have added costs, they were offset by its benefits.
 Q: Which choice best describes the function of the underlined sentence in the text as a whole?
 A) It indicates a research team’s skepticism about the claim stated in the previous sentence that vascular function in plants with reticulate veins is necessarily inferior to that of plants with branching veins.
-B) It introduces a novel method for evaluating the hypothesis advanced in the previous sentence regarding the causes of vascular impairment in branched- vein topologies.
-C) It explains an approach that res¢archers took in a study to determine the impacts of reticulation on vascular function in plants.
-D) It suggests why researchers were surprised by the finding of the relative costs and benefits of twe types of venation patterns.
+B) It introduces a novel method for evaluating the hypothesis advanced in the previous sentence regarding the causes of vascular impairment in branched-vein topologies.
+C) It explains an approach that researchers took in a study to determine the impacts of reticulation on vascular function in plants.
+D) It suggests why researchers were surprised by the finding of the relative costs and benefits of two types of venation patterns.
 K: C
 #6
 P: The following text is from Jacqueline Woodson’s 2018 novel Harbor Me. I've pulled the voice recorder from my closet and have it sitting on the middle of my bed now. When I press play, Esteban’s voice fills my room. ©2018 by Jacqueline Woodson
@@ -306,7 +316,7 @@ C) “To him make-believe and true were exactly the same thing.”
 D) “In his absence things are usually quiet on the island.”
 K: C
 #9
-P: A team of public transportation experts in Buffalo is creating a new light rail stop for the Buffalo Metro Rail system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a light rail stop. The team also looked at studies showing that people’s willingness to walk to public transit is influenced by factors like weather and the presence of well- enforced low speed limits for cars. A researcher has argued that the survey does not accurately reflect the feelings of today’s residents of this neighborhood.
+P: A team of public transportation experts in Buffalo is creating a new light rail stop for the Buffalo Metro Rail system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a light rail stop. The team also looked at studies showing that people’s willingness to walk to public transit is influenced by factors like weather and the presence of well-enforced low speed limits for cars. A researcher has argued that the survey does not accurately reflect the feelings of today’s residents of this neighborhood.
 Q: Which finding, if true, would most directly support the researcher’s claim?
 A) Residents of Buffalo are much less likely to us€ public transit on rainy days than on clear days.
 B) Current users of the Buffalo Metro Rail are satisfied with the number of stops along the line.
@@ -356,7 +366,7 @@ K: D
 #15
 P: While researching a topic, a student has taken the following notes:
 L: - NASA mission STS-103 took place from December 20, 1999, to December 28, 1999. - Astronauts Michael Lawson and Elena Cruz were crew members of STS-103. ~ December 22, 1999: Lawson and Cruz performed an extravehicular activity (EVA) to replace gyroscopes on the Hubble Space Telescope. - An EVA (also known as a spacewalk) is an activity done by astronauts outside the spacecraft. - The duration of their EVA was 8 hours and 15 minutes. - Theirs is counted among the longest completed spacewalks to date.
-Q: The student wants to emphasize the duration of Lawson and Cruz’ s EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+Q: The student wants to emphasize the duration of Lawson and Cruz’s EVA. Which choice most effectively uses relevant information from the notes to accomplish this goal?
 A) The EVA completed by STS-103 crew members Lawson and Cruz took place from December 20, 1999, to December 28,1999.
 B) During their time as crew members of STS-103, Lawson and Cruz completed an EVA.
 C) Lawson and Cruz completed an EVA, also known as a spacewalk, in which they left the spacecraft to replace gyroscopes on the Hubble Space Telescope.
@@ -371,7 +381,7 @@ C) Engraves
 D) Chases
 K: C
 #17
-P: Modernista architecture Nineteenth-century Modernista architects championed nature in their designs. Granted, the domed rooftop and painted floral designs of Casa Lleé Morera, a Modemista private home designed by Lluis Doménech i Montaner, couldn’t exactly grow in a forest. ______ one sees natural influences in Doménech i Montaner’ s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.
+P: Modernista architecture Nineteenth-century Modernista architects championed nature in their designs. Granted, the domed rooftop and painted floral designs of Casa Lleó Morera, a Modernista private home designed by Lluís Domènech i Montaner, couldn’t exactly grow in a forest. ______ one sees natural influences in Domènech i Montaner’s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.
 Q: Which choice completes the text with the most logical transition?
 A) still,
 B) Furthermore,
@@ -415,7 +425,7 @@ P: Last-mile delivery, the final stage in the delivery of products to customers,
 Q: Which choice most logically completes the text?
 A) delivery companies will continue promising next-day delivery out of a desire to meet consumers’ expectations.
 B) innovations in the use of drones for last-mile delivery will stall unless delivery companies shift their focus to methods with fewer complications.
-C) delivery companies will need to keep experimenting with new ideas for last- mile delivery if they hope to keep pace with consumers’ expectations.
+C) delivery companies will need to keep experimenting with new ideas for last-mile delivery if they hope to keep pace with consumers’ expectations.
 D) advances in last-mile technologies will slow as delivery companies focus more on meeting customer expectations for increased convenience.
 K: C
 #23
@@ -430,8 +440,8 @@ K: B
 #24
 P: Rare species advantage (RSA) describes the situation in which there are few conspecifics (other members of the same species) in an organism’s immediate surroundings, enabling the organism to avoid competition with conspecifics for the same resources; RSA is widely believed to play a crucial role in maintaining ecological stability. Among tree species in the Barro Colorado Island plot (latitude 9.15° N) and other tropical forest sites, there is little correlation between conspecific aggregation and the abundance of a given species in the wider local area, so RSA is expected, but in the Fenglin Nature Reserve (latitude 48.08° N) and other temperate forest sites, the aggregation-abundance correlation for tree species is strongly negative. Mathematical modeling suggests, however, that ecological niche distinction may mitigate the apparent risk to temperate ecological stability engendered by this pattern: ______
 Q: Which choice most logically completes the text?
-A) even though rare tree species in temperate forests tend to cluster with conspecifics more than rare tree species-in tropical forests do, they are sufficiently rare locally that they benefit from RSA more than rare tropical species do.
-B) although rare tree species in temperate forests encounter relatively high local competition from conspecifics, they can thrive by exploiting resources that are underexploited by-other local species.
+A) even though rare tree species in temperate forests tend to cluster with conspecifics more than rare tree species in tropical forests do, they are sufficiently rare locally that they benefit from RSA more than rare tropical species do.
+B) although rare tree species in temperate forests encounter relatively high local competition from conspecifics, they can thrive by exploiting resources that are underexploited by other local species.
 C) asa tree species in temperate forests becomes more abundant, individuals of that species are more likely to be found near conspecifics, enabling abundant species to exploit localized resources to a greater extent than rare species can.
 D) while an increase in abundance in one tree species often leads to a reduction in abundance of nearby species, temperate tree species tend to play different roles in the same ecosystem, reducing the expected effect of abundance on aggregation.
 K: B
@@ -440,7 +450,7 @@ P: Last-mile delivery, the final stage in the delivery of products to customers,
 Q: Which choice most logically completes the text?
 A) delivery companies will continue promising next-day delivery out of a desire to meet consumers’ expectations.
 B) innovations in the use of crowdshipping for last-mile delivery will stall unless delivery companies shift their focus to methods with fewer complications.
-C) delivery companies will need to keep experimenting with new ideas for last- mile delivery if they hope to keep pace with consumers’ expectations.
+C) delivery companies will need to keep experimenting with new ideas for last-mile delivery if they hope to keep pace with consumers’ expectations.
 D) advances in last-mile technologies will slow as delivery companies focus more on meeting customer expectations for increased convenience.
 K: C
 #26
