@@ -1,0 +1,262 @@
+!id: dsat26-10-v3-math
+!name: October 2026 · Version 3 · Math
+!type: MATH
+!year: 2026
+!month: 10
+!region: International
+!form: 3
+=M1
+#1
+Q: What is the y-intercept of the graph of y = ((7)/(15))^(x + 1) in the xy-plane?
+A) (0, (7)/(15))
+B) (0, 7)
+C) (0, 15)
+D) (7, 15)
+K: A
+#2
+Q: a = x(x + 92)
+Q: b = x(x + 46)
+Q: c = x(x − 46)
+Q: The equations a, b, and c are given in terms of x. Which of the following expressions is equivalent to a − b + c?
+A) 92 − x^2
+B) x^2 + 92x
+C) x^2 − 92
+D) x^2
+K: D
+#3
+I: /qimg/26-oct-v3-math-m1-q3.svg
+Q: In the triangle shown, the value of x is 25. What is the value of sin A?
+A) (1)/(√(3))
+B) (1)/(√(2))
+C) 1
+D) √(2)
+K: B
+#4
+Q: The function h is defined by h(x) = 100x − 60. What is the value of h(x) when x = 8?
+A) 168
+B) 48
+C) 740
+D) 860
+K: C
+#5
+Q: Out of 300 attempts, 60% were successful. How many of these attempts were successful?
+K: 180
+#6
+Q: A store sells two different-sized bottles of a certain shampoo. The store's sales of this shampoo totaled $984.63 last month. The equation 4.83x + 6.24y = 984.63 represents this situation, where x is the number of smaller bottles sold and y is the number of larger bottles sold. According to the equation, what is the price, in dollars, of each smaller bottle?
+K: 4.83
+#7
+Q: A length of 460 meters is equal to how many decimeters? (1 meter = 10 decimeters)
+K: 4600 | 4,600
+#8
+Q: The function h is defined by h(x) = 120x − 50. What is the value of h(x) when x = 2?
+K: 190
+#9
+Q: If (j)/(k) = 60 and (51j)/(17xk) = 60, what is the value of x?
+K: 3
+#10
+Q: During a physics experiment, the speed of an object was determined to be 159.0 inches per second. What is this speed in feet per second? (12 inches = 1 foot)
+K: 13.25
+#11
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Area (square feet)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Water (gallons)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">2,520</td><td style="border:1px solid #000;padding:4px 10px">4,536</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">3,780</td><td style="border:1px solid #000;padding:4px 10px">6,804</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">5,040</td><td style="border:1px solid #000;padding:4px 10px">9,072</td></tr></table>
+Q: The roofs on the buildings of a public garden are designed to allow water to drain into the garden. The table shows the relationship between the area x, in square feet, of a roof and the amount of water f(x), in gallons, drained from the roof into the garden over a certain period of time. Which equation could define f?
+A) f(x) = 0.6x
+B) f(x) = 1.8x
+C) f(x) = 2,268.0x
+D) f(x) = 0.5x + 3,276
+K: B
+#12
+Q: A right square prism has a height of 9 units. The volume of the prism is 2,304 cubic units. What is the length, in units, of an edge of the base?
+K: 16
+#13
+I: /qimg/26-oct-v3-math-m1-q13.svg
+Q: The scatterplot shows the relationship between two variables, x and y. Which of the following equations best represents a line of best fit for the data shown?
+A) y = 59.34 + 0.91x
+B) y = 59.34 − 0.91x
+C) y = 0.91 + 59.34x
+D) y = −59.34 + 0.91x
+K: A
+#14
+Q: A ball is launched into the air from the top of a building with a height of 50 feet. According to a quadratic model, 3 seconds after the ball is launched, it reaches its maximum height of 194 feet above ground level. Which equation represents this model, where h(t) is the ball's predicted height, in feet, above ground level t seconds after it was launched?
+A) h(t) = 16t^2 + 50
+B) h(t) = −16t^2 + 194
+C) h(t) = −16t^2 + 96t + 50
+D) h(t) = 16t^2 − 96t + 194
+K: C
+#15
+Q: Which equation has no solution?
+A) 50x + 25 = 5(10x + 5)
+B) 50x + 35 = −50x − 35
+C) 50x + 250 = 5(10x + 20)
+D) 50x + 5 = 10x + 5
+K: C
+#16
+Q: A ball is launched into the air from the top of a building with a height of 30 feet. According to a quadratic model, 2 seconds after the ball is launched, it reaches its maximum height of 94 feet above ground level. Which equation represents this model, where h(t) is the ball's predicted height, in feet, above ground level t seconds after it was launched?
+A) h(t) = 16t^2 + 30
+B) h(t) = −16t^2 + 64t + 30
+C) h(t) = −16t^2 + 94
+D) h(t) = 16t^2 − 64t + 94
+K: B
+#17
+I: /qimg/26-oct-v3-math-m1-q17.svg
+Q: The graph shown gives the estimated value, in dollars, of a mountain bike as a function of the number of months since it was purchased. What is the best interpretation of the y-intercept of the graph in this context?
+A) The estimated value of the bike was $250 when it was purchased.
+B) The estimated value of the bike 24 months after it was purchased was $250.
+C) The estimated value of the bike decreased by $250 each month after it was purchased.
+D) The estimated value of the bike increased by $250 each month after it was purchased.
+K: A
+#18
+Q: A rectangle has a width of n yards and a length of (n + 3) yards. If the rectangle has an area of 154 square yards, what is the value of n?
+K: 11
+#19
+Q: In the xy-plane, circle F is defined by the equation (x + 8)^2 + (y + 8)^2 = 25. Circle G has the same center as circle F, and the radius of circle G is 3 units greater than the radius of circle F. Circle G is defined by the equation (x + 8)^2 + (y + 8)^2 = p, where p is a constant. What is the value of p?
+K: 64
+#20
+Q: 9x − 24y = −13
+Q: 9x − 6y = −7
+Q: The solution to the given system of equations is (x, y). What is the value of −18x + 30y?
+K: 20
+#21
+Q: Line k is defined by y = 6x + 19. Line j is perpendicular to line k in the xy-plane. What is the slope of line j?
+A) −(1)/(9)
+B) −(1)/(6)
+C) (1)/(9)
+D) 6
+K: B
+#22
+I: /qimg/26-oct-v3-math-m1-q22.svg
+Q: The scatterplot shows the relationship between two variables x and y. A line of best fit for the data is also shown. For how many of the 10 data points is the actual y-value greater than the y-value predicted by the line of best fit?
+A) 3
+B) 4
+C) 6
+D) 7
+K: C
+=M2
+#1
+Q: Triangle ABC is similar to triangle XYZ, where A, B, and C correspond to X, Y, and Z, respectively. In triangle ABC, the length of AB is 150 and the length of BC is 750. In triangle XYZ, the length of YZ is 60. What is the length of XY?
+A) 180
+B) 162
+C) 60
+D) 12
+K: D
+#2
+Q: 7x − 16y = −14
+Q: 7x − 4y = −5
+Q: The solution to the given system of equations is (x, y). What is the value of −14x + 20y?
+A) 19
+B) 9
+C) −9
+D) −19
+K: A
+#3
+Q: For two acute angles X and Y, the measure of angle Y is 47° and sin X = cos Y. What is the measure, in degrees, of angle X?
+A) 92
+B) 47
+C) 45
+D) 43
+K: D
+#4
+Q: B(t) = 500(2)^((2)/(3)t)
+Q: The function B gives the estimated number of bacteria in a population t hours after an initial observation. According to the function, the estimated number of bacteria in the population doubles every n minutes. What is the value of n?
+K: 90
+#5
+Q: For the linear function f, f(3) = 19 and f(9) = 1. Which equation defines f?
+A) f(x) = −(1)/(3)x + 20
+B) f(x) = (1)/(3)x − 2
+C) f(x) = −3x + 22
+D) f(x) = −3x + 28
+K: D
+#6
+Q: For the linear function h, h(0) = 0 and h(7) = 6. Which equation defines h?
+A) h(x) = (6)/(7)x
+B) h(x) = (6)/(7)x + 6
+C) h(x) = (7)/(6)x
+D) h(x) = (7)/(6)x + 7
+K: A
+#7
+Q: The price of an item increased by p% from $64 to $68. What is the value of p?
+K: 6.25
+#8
+Q: Which expression is equivalent to 3xy + 15x^2y + 21xy^2?
+A) 3xy(1 + 15x + 21y)
+B) 3xy(1 + 5x + 7y)
+C) 3xy(5x + 7y)
+D) 3xy(15x + 21y)
+K: B
+#9
+I: /qimg/26-oct-v3-math-m2-q9.svg
+Q: Which of the following equations is the most appropriate linear model for the data shown in the scatterplot?
+A) y = 0.2 + 2.33x
+B) y = 0.2 − 2.33x
+C) y = 2.33 + 0.2x
+D) y = 2.33 − 0.2x
+K: A
+#10
+Q: y = 3x^2 − 36x + 60
+Q: The given equation represents a parabola in the xy-plane. Which of the following equations that represent the same parabola displays the x-intercepts as constants or coefficients?
+A) y = 3(x + 2)(x + 10)
+B) y = 3(x − 2)(x + 10)
+C) y = 3(x − 2)(x − 10)
+D) y = 3(x + 2)(x − 10)
+K: C
+#11
+Q: 9x − 5y = 7
+Q: 3x + y = 9
+Q: The solution to the given system of equations is (x, y). What is the value of x + y?
+K: 14/3 | 4.666 | 4.667
+#12
+Q: 4x − 40y = −18
+Q: 4x − 10y = −7
+Q: The solution to the given system of equations is (x, y). What is the value of −8x + 50y?
+K: 25
+#13
+Q: B(t) = 600(2)^((5)/(6)t)
+Q: The function B gives the estimated number of bacteria in a population t hours after an initial observation. According to the function, the estimated number of bacteria in the population doubles every n minutes. What is the value of n?
+K: 72
+#14
+Q: At a hotel, guests used the pool for a total of t hours in March. At the same hotel, guests used the pool for 3.74t hours in April. What is the percent increase in the number of hours guests used the pool from March to April?
+K: 274 | 274%
+#15
+Q: An organization sells tickets to a fundraiser for $55 per person. The organization's expenses are $660 for a rental space and $19 per person for food. The organization's goal is to earn at least $2,750 after paying all expenses. What is the minimum number of tickets that must be sold to meet this goal?
+K: 95
+#16
+Q: Which expression is a factor of 49p^19 − 121p^17?
+A) 7p + 11
+B) 49p^2 + 121
+C) 11p − 7
+D) −72p + 40
+K: A
+#17
+Q: h(x) = a(x + 31)(x + r)(x + s)
+Q: The polynomial function h is defined by the given equation, where a, r, and s are positive constants. In the xy-plane, the graph of y = h(x) intersects the x-axis at exactly three points. If h(0) = p, which of the following must be true?
+A) p < 31rs
+B) p = 31rs
+C) p > 31rs
+D) There is not enough information to compare the values of p and 31rs.
+K: D
+#18
+Q: 18(w − a)(w + 5) = 6(w + 5)
+Q: In the given equation, a is a constant. The sum of the solutions to the equation is (43)/(3). What is the value of a?
+K: 19
+#19
+Q: 10x − 3y = 11y + 6
+Q: ty = 14 + 5x
+Q: In the given system of equations, t is a constant. If the system has no solution, what is the value of t?
+K: 7
+#20
+I: /qimg/26-oct-v3-math-m2-q20.svg
+Q: The figure shown is a right rectangular pyramid, where ℓ = 18 units, w = 9 units, and h = 12 units. What is the surface area, in square units, of the pyramid, to the nearest tenth?
+K: 527.7
+#21
+I: /qimg/26-oct-v3-math-m2-q21.svg
+Q: Note: Figure not drawn to scale.
+Q: In the figure, 5r > 19s. Which of the following values must be the greatest?
+A) sin r°
+B) cos r°
+C) (sin r°)/(sin s°)
+D) (sin r°)/(cos s°)
+K: C
+#22
+I: /qimg/26-oct-v3-math-m2-q22.svg
+Q: Note: Figure not drawn to scale.
+Q: The expression k·cos x° represents the area of triangle ABC shown. What is the value of k?
+K: 57
