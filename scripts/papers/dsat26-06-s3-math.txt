@@ -1,0 +1,261 @@
+!id: dsat26-06-s3-math
+!name: June 2026 · Mixed Set 3 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: S3
+=M1
+#1
+Q: In the xy-plane, which of the following does NOT contain any points that are part of the solution set to 4x − 9y &gt; 36?
+A) The region where x &lt; 0 and y &gt; 0
+B) The region where x &lt; 0 and y &lt; 0
+C) The region where x &gt; 0 and y &gt; 0
+D) The x-axis
+K: A
+#2
+Q: Square A has side lengths that are 72 times the side lengths of square B. The area of square A is k times the area of square B. What is the value of k?
+A) 36
+B) 72
+C) 144
+D) 5,184
+K: D
+#3
+Q: The area of a triangle is 33 square inches. The length of the base of the triangle, in inches, is the sum of 14 and a positive number d, and the height, in inches, is 5 less than d. What is the value of d?
+K: 8
+#4
+Q: If 8x + 6 = 78, what is the value of 80x + 60?
+A) 9
+B) 90
+C) 140
+D) 780
+K: D
+#5
+Q: The equation d = 39w + 100 gives the total amount of money d, in dollars, that Janna plans to save w weeks after she starts to save. What is the total amount of money, in dollars, she plans to save in 10 weeks?
+A) 440
+B) 490
+C) 540
+D) 590
+K: B
+#6
+Q: The perimeter of a triangle is 25 inches. The length of one side of the triangle is 9 inches. The other two sides have equal lengths. What is the length, in inches, of one of the two sides with equal lengths?
+K: 8
+#7
+Q: A campaign organizer is setting up tables for an event. The tables come in two sizes: small and large. Each of the small tables can seat 6 people and each of the large tables can seat 8 people. The event needs to seat at least 95 people. Which inequality represents this situation, where x is the number of small tables and y is the number of large tables the organizer is setting up for the event?
+A) 6x + 8y ≥ 95
+B) 6x + 8y ≤ 95
+C) 8x + 6y ≥ 95
+D) 8x + 6y ≤ 95
+K: A
+#8
+Q: The list gives the number of individuals in each of 6 groups of ring-tailed lemurs. 14, 5, 17, 14, 15, 7<br>What is the range of the numbers of individuals for the 6 groups of ring-tailed lemurs?
+K: 12
+#9
+Q: If 2(x − 3) = (2)(90), what is the value of x − 3?
+A) 30
+B) 60
+C) 90
+D) 180
+K: C
+#10
+Q: A campaign organizer is setting up tables for an event. The tables come in two sizes: small and large. Each of the small tables can seat 4 people and each of the large tables can seat 8 people. The event needs to seat at least 85 people. Which inequality represents this situation, where x is the number of small tables and y is the number of large tables the organizer is setting up for the event?
+A) 4x + 8y ≥ 85
+B) 4x + 8y ≤ 85
+C) 8x + 4y ≥ 85
+D) 8x + 4y ≤ 85
+K: A
+#11
+Q: 10x + 35y = 11<br>The given equation is one equation in a system of two linear equations. The system has more than one solution. Which of the following equations could be the other equation in the system? I. 12x + 42y = 11<br>II. 35x + 10y = 11
+A) I only
+B) II only
+C) I and II
+D) Neither I nor II
+K: D
+#12
+Q: A carnival receives $10 for each adult admission ticket sold and $5 for each child admission ticket sold. On a particular day, the carnival received a total of $3,950 from selling adult and child admission tickets. If 230 adult admission tickets were sold on that day, how many child admission tickets were sold?
+K: 330
+#13
+Q: The function f(x) = 43.50 − 0.28x gives a person's estimated grip strength, in kilograms, x years after the person's grip strength was first measured. Based on the function, what is this person's estimated grip strength, in kilograms, 32.50 years after the person's grip strength was first measured?
+A) 10.72
+B) 34.40
+C) 43.50
+D) 52.60
+K: B
+#14
+Q: 10x = 110<br>9x − 94 = y<br>The solution to the given system of equations is (x, y). What is the value of y?
+A) 94
+B) 11
+C) 10
+D) 5
+K: D
+#15
+Q: If 15x = 13x + 10, what is the value of 7x?
+K: 35
+#16
+Q: In △DEF , the measure of ∠D is 143°. Which of the following could be the measure, in degrees, of ∠E ?
+A) 36
+B) 38
+C) 90
+D) 144
+K: A
+#17
+Q: Rebecca is collecting 40-milliliter samples of river water and 15-milliliter samples of lake water. She needs to collect a total of at least 770 milliliters of river water and lake water, where the number of samples of lake water is twice the number of samples of river water. Which inequality represents this situation, where x is the number of samples of river water that Rebecca needs to collect?
+A) 40(2x) + 15x ≤ 770
+B) 40(2x) + 15x ≥ 770
+C) 40x + 15(2x) ≤ 770
+D) 40x + 15(2x) ≥ 770
+K: D
+#18
+Q: w(w + 89)<br>The given expression represents the area, in square centimeters, of a rectangle, where w represents the width, in centimeters (cm), of the rectangle. What is the best interpretation of w + 89 in this context?
+A) The length of the rectangle is 89 cm.
+B) The width of the rectangle is 89 cm.
+C) The length of the rectangle is 89 cm greater than the width of the rectangle.
+D) The width of the rectangle is 89 cm greater than the length of the rectangle.
+K: C
+#19
+Q: Data set J: 18, 18, 19, 19, 20, 21, 21, 22, 22<br>Data set K: 18, 20, 20, 20, 20, 20, 20, 20, 22<br>The lists give the values in data sets J and K. Which of the following statistics is greater for data set J than it is for data set K?
+A) Mean
+B) Median
+C) Range
+D) Standard deviation
+K: D
+#20
+Q: (x − 18)(x − 14)(x + 7)(x + 11) = 0<br>What is a positive solution to the given equation?
+K: 14
+#21
+Q: A real estate company offers a series of three webinars. 3,750 people attended the first webinar. 72% of the people who attended the first webinar attended the second webinar, and 40% of the people who attended both the first and second webinar attended the third webinar. Of those who attended the first but did not attend the second webinar, 32% attended the third webinar. How many people attended both the first and third webinars but did not attend the second webinar?
+K: 336
+#22
+Q: An object's average acceleration, in meters per second squared, is the change in the object's speed, in meters per second, divided by the time during which the change occurred, in seconds. A certain object's speed changes by 12 meters per second in 5 seconds. What is this object's average acceleration, in meters per second squared, during this time period?
+A) 0.42
+B) 2.4
+C) 7
+D) 17
+K: B
+=M2
+#1
+Q: The result of increasing the quantity x by 700% is 392. What is the value of x?
+A) 49
+B) 56
+C) 308
+D) 2,744
+K: A
+#2
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 324 pounds when entering hibernation and lost weight at a mean rate of 0.8 pounds per day. At this rate, how many days after entering hibernation would the black bear weigh 260 pounds?
+A) 52
+B) 64
+C) 80
+D) 208
+K: C
+#3
+Q: 22(x − 1) = 2(−11 + 11x)<br>How many solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: D
+#4
+Q: A length of 380 meters is equal to how many decimeters? (1 meter = 10 decimeters)
+K: 3800
+#5
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 324 pounds when entering hibernation and lost weight at a mean rate of 0.9 pounds per day. At this rate, how many days after entering hibernation would the black bear weigh 270 pounds?
+A) 49
+B) 54
+C) 60
+D) 243
+K: C
+#6
+Q: 3x = 8 + 9y<br>−3x = 6 + 9y<br>The solution to the given system of equations is (x, y). What is the value of 6x?
+K: 2
+#7
+Q: There is a proportional relationship between p and t. If p = 3,570 when t = 4,760, then what is the value of t when p = 2,856?
+A) 4,046
+B) 3,808
+C) 2,142
+D) 1,666
+K: B
+#8
+Q: A line in the xy-plane passes through the points (9, 1), (0, 8), and (c, 0). What is the value of c?
+K: 72/7 | 10.2857
+#9
+Q: 3x + 2y = 10<br>9x + 6y = 30<br>How many solutions does the given system of equations have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#10
+Q: Zuri has a goal to run at least 17 miles per week while training for a race. This week, she has run 7 miles. If x represents the additional number of miles Zuri needs to run this week to meet her goal, which inequality represents this situation?
+A) 7 − x ≤ 17
+B) 7 + x ≤ 17
+C) 7 − x ≥ 17
+D) 7 + x ≥ 17
+K: D
+#11
+Q: The result of increasing the quantity x by 800% is 360. What is the value of x?
+A) 40
+B) 45
+C) 440
+D) 2,880
+K: A
+#12
+Q: The equation d = 20w + 100 gives the total amount of money d, in dollars, that Janna plans to save w weeks after she starts to save. What is the total amount of money, in dollars, she plans to save in 10 weeks?
+A) 250
+B) 300
+C) 350
+D) 400
+K: B
+#13
+Q: A linear function g is defined by g(x) = ax + b, where a and b are constants. If g(−2) = −7 and g(1) = 5, what is the value of a?
+K: 4
+#14
+Q: There is a proportional relationship between p and t. If p = 6,720 when t = 8,960, then what is the value of t when p = 5,376?
+A) 7,616
+B) 7,168
+C) 4,032
+D) 3,136
+K: B
+#15
+Q: In the ancient Roman measurement system, a leuga was a unit of length that was equal to 7,500 pedes. In this measurement system, how many pedes were equivalent to 3.8 leugas?
+K: 28500
+#16
+Q: There is a proportional relationship between p and t. If p = 2,880 when t = 3,840, then what is the value of t when p = 2,304?
+A) 1,344
+B) 1,728
+C) 3,072
+D) 3,264
+K: C
+#17
+Q: The equation d = 31w + 100 gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save. What is the total amount of money, in dollars, he plans to save in 10 weeks?
+A) 360
+B) 410
+C) 460
+D) 510
+K: B
+#18
+Q: (x − 12)(x − 7) = 0<br>Which value is a solution to the given equation?
+A) 0
+B) 12
+C) 19
+D) 84
+K: B
+#19
+Q: A survey of the daily commuting times, in minutes, of seven different Chicago-based employees at a certain company yielded a data set consisting of the values 31, 12, 42, 33, 53, 24, and 45. A survey of the daily commuting times, in minutes, of seven different San Francisco–based employees at the same company yielded a data set consisting of the values 47, 31, 19, 33, 46, x, and 36. If the means of the two data sets are equal, what is the value of x?
+K: 28
+#20
+Q: Triangle QRS is similar to triangle F GH such that Q, R, and S correspond to F , G and H , respectively. Each side of triangle F GH has 41 the length of its corresponding side in triangle QRS . In triangle F GH , the measure of angle F is 10°, the measure of angle G is 8°, and F G = a. In triangle QRS , the measure of angle Q is b° and QR = 40. What is the value of a + b?
+K: 20
+#21
+Q: The result of increasing the quantity x by 400% is 140. What is the value of x?
+A) 28
+B) 35
+C) 260
+D) 560
+K: A
+#22
+Q: The function f is defined by f(x) = 4x − 6. If f(a) + 1 = 3a, what is the value of a?
+A) 7
+B) 5
+C) 1
+D) −1
+K: B

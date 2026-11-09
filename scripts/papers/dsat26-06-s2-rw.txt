@@ -1,0 +1,448 @@
+!id: dsat26-06-s2-rw
+!name: June 2026 · Mixed Set 2 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 6
+!region: US & International
+!form: S2
+=M1
+#1
+P: Charles Demuth’s 1931 painting Chimney and Water Tower is a classic Precisionist work. The Precisionists strove for cold, machine-like perfection, with crisp lines, geometric shapes, and smooth, brushstroke-free surfaces. ______ Precisionist works often feature skyscrapers, bridges, and factories, highlighting these angular structures’ engineered symmetry.
+Q: Which choice completes the text with the most logical transition?
+A) In the end,
+B) Accordingly,
+C) However,
+D) That said,
+K: B
+#2
+P: A team led by Portuguese researcher Isabel C.F.R. Ferreira found that many species of mushrooms contain chemicals called phenolic compounds, such as cinnamic acid and catechin. ______ Ferreira detected cinnamic acid in Agaricus blazei mushrooms and catechin in Lentinus edodes mushrooms.
+Q: Which choice completes the text with the most logical transition?
+A) For this reason,
+B) However,
+C) Nevertheless,
+D) For example,
+K: D
+#3
+P: accomplish this goal? While researching a topic, a student has taken the following notes: The Galápagos petrel is a species of bird found in the Galápagos Islands. It has an average weight of 425 grams. The small tree finch is a species of bird found in the Galápagos Islands. It has an average weight of 13 grams.
+Q: The student wants to emphasize a difference between the two bird species. Which choice most effectively uses relevant information from the notes to
+A) The small tree finch and the Galápagos petrel can be found in the Galápagos Islands.
+B) The small tree finch and the Galápagos petrel are both bird species.
+C) On average, the Galápagos petrel weighs 425 grams, while the small tree finch weighs only 13 grams.
+D) The Galápagos petrel is a bird with an average weight of 425 grams.
+K: C
+#4
+P: While researching a topic, a student has taken the following notes:
+L: Suzanne K. Birner led a study analyzing rocks on the seafloor to better understand the history of Earth’s mantle.
+L: Rock samples were collected from two seafloor ridges.
+L: The researchers determined the samples’ period of formation (the Archean eon) and oxidation level (extremely low).
+L: High temperatures in the Archean likely caused the rocks’ low oxidation.
+L: Birner’s team suggests the oxidation of Earth’s mantle has remained stable over time, contrary to previous theories.
+L: The findings help explain the unique conditions that allowed life to develop on Earth.
+Q: The student wants to present the study’s research methods. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) By studying these ancient rocks, the team aimed to challenge previous theories about changes in Earth’s mantle over time.
+B) To further analyze the origins of Earth’s unique conditions, researchers focused on rocks from the Archean eon, when Earth’s temperatures were extremely high.
+C) Birner’s team analyzed the age and oxidation levels of rock samples collected from two seafloor ridges.
+D) Birner led a study to better understand the history of Earth’s mantle and explain the conditions that allowed life to develop.
+K: C
+#5
+P: Some social scientists argue that while a belief in the importance of individual autonomy is key to democracy, the public’s understanding of economics is also central to its subsequent comprehension of a state’s politics, and if an electorate is to function, economic issues cannot remain the domain only of experts. Economics is too ______ to leave to economists alone.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) accessible
+B) respectable
+C) complex
+D) critical
+K: D
+#6
+P: Giant dust plumes from the Sahara Desert that blow across the Atlantic Ocean can have complex and opposing effects on tropical cyclones. On one hand, the dust can enhance the formation of ice clouds in the cyclone’s core, increasing precipitation. ______ the dust can lower sea surface temperatures around the cyclone’s core, weakening the storm.
+Q: Which choice completes the text with the most logical transition?
+A) Previously,
+B) On the other hand,
+C) In other words,
+D) For example,
+K: B
+#7
+P: Ruth Asawa was an accomplished artist who worked in many art forms, including her unique tied-wire sculptures, but she was dedicated to more than the creation of art. Asawa also wanted to bring art to children in her hometown of San Francisco, California. To that end, in 1968 she cofounded the Alvarado School Arts Workshop, which brought works of art and artists into public schools, and in 1982 she helped found a San Francisco public arts high school, which was later named after her.
+Q: Which choice best states the main idea of the text?
+A) Asawa’s unique sculptures were appreciated more by local art communities than they were nationwide.
+B) Asawa inspired many other artists to share their work with students in public schools.
+C) Asawa’s interest in art education prompted her to create art programs for students in San Francisco.
+D) Asawa left a promising career as a sculptor to work as an art teacher in San Francisco schools.
+K: C
+#8
+P: Writing in hieroglyphs, ancient Egyptians recorded measurements using units such as the remen, a unit of ______ and the heqat, a unit of volume. The remen, for instance, is written as a hieroglyph that looks like a bird’s leg with a long, clawed foot.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) area, the djeba; a unit of length,
+B) area the djeba, a unit of length
+C) area; the djeba; a unit of length;
+D) area; the djeba, a unit of length;
+K: D
+#9
+P: Jane Austen’s classic 1813 novel about a young woman named Elizabeth Bennet has a title that is instantly recognizable to many readers: Pride and Prejudice. Austen’s novel originally had a different ______ while writing and editing, Austen had planned to call the novel First Impressions.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) title, though;
+B) title, though,
+C) title; though
+D) title, though
+K: A
+#10
+P: Though the musical groups Intocable and Banda el Recodo are often categorized under the catchall “regional Mexican music” label, they each adhere to distinct musical traditions. The former works within the norteño tradition, which originated in late nineteenth-century northern Mexico. The latter, ______ follows the banda tradition, with roots in mid-nineteenth-century southern and central Mexico.
+Q: Which choice completes the text with the most logical transition?
+A) in other words,
+B) as a result,
+C) to this end,
+D) on the other hand,
+K: D
+#11
+P: Many poetry anthologies include only a single poem from each poet, but Heid E. Erdrich’s New Poets of Native Nations includes generous selections from each poet. ______ Erdrich includes multiple poems from dg nanouk okpik and Jennifer Elise Foerster. This allows readers to engage with a wide range of each poet’s work.
+Q: Which choice completes the text with the most logical transition?
+A) However,
+B) Next,
+C) In addition,
+D) For example,
+K: D
+#12
+P: The exhibit Go Hawai‘i: Airline Posters debuted at San Francisco International Airport in January 2004 and featured a curated collection of ______ a bit more visual interest to the hustle and bustle of the terminals.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) aviation-related art: adding
+B) aviation-related art, it added
+C) aviation-related art. Thus adding
+D) aviation-related art, adding
+K: D
+#13
+P: In popular song culture since at least the Middle Ages, contrafacta—compositions featuring original lyrics set to existing song structures—have been frequent tools for promoting religious and political causes. ______ parodic songs like “Spam” by “Weird Al” Yankovic (a contrafactum of R.E.M.’s 1989 hit “Stand”) demonstrate the parallel yet equally potent role that humor and satire have played in the contrafactum tradition.
+Q: Which choice completes the text with the most logical transition?
+A) By contrast,
+B) For example,
+C) Specifically,
+D) Fittingly,
+K: A
+#14
+P: Hawaii’s literature is often said to have ______ the traditional stories of the Native Hawaiian people. From its origin in those stories, Hawaii’s unique literary identity has been further developed and shaped by writers such as Anwei Skinsnes Law and Gary Pak.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) asked for
+B) paid for
+C) warned against
+D) begun with
+K: D
+#15
+P: Fossil records have allowed us to identify species like the western bison, an animal found throughout the area from Alaska to Minnesota before it became extinct around 3000 BCE. Current figures for the number of extinct species from this period, however, are likely to be underestimates, as most extinct animals are thought to be ______: many scientists believe there are hundreds of species from this time that we have not discovered.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) applicable
+B) controversial
+C) unknown
+D) interconnected
+K: C
+#16
+P: The tendency to group authors together into distinct literary movements often encourages literary scholars to overlook subtleties in an author’s style. Those studying the works of Henry David Thoreau, for instance, may inadvertently ______ nuances in his work by focusing only on the most discernible ways in which his style corresponds to transcendentalism.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) admire
+B) underscore
+C) disregard
+D) replicate
+K: C
+#17
+P: Mexican textile artist Victoria Villasana weaves stories of triumph, using her unique method of applying colorful yarn to photographs of people. In some works, Villasana focuses on celebrating cultural icons who are people of color, as she does in her depiction of artist Frida Kahlo. However, in other works, Villasana honors ordinary people, as she does in her captivating portrayal of a street musician with a guitar. Villasana sees both of these approaches as ways of depicting the power and interconnectedness of all people.
+Q: Which choice best describes the overall structure of the text?
+A) It provides details about Villasana’s artworks, discusses specific examples of her work, and relates them to one of her artistic goals.
+B) It introduces Villasana’s cultural background, describes how this background influences her art, and then outlines some of her ideas for future projects.
+C) It explains how yarn has historically been used in art, details how Villasana uses yarn in her artworks, and then comments on the popularity of her work.
+D) It compares Villasana to other contemporary artists, indicates how two of her works are similar, and then emphasizes Villasana’s enthusiasm for artistic collaboration.
+K: A
+#18
+P: Ethicist Ingrid Robeyns views the use of tax havens (territories such as Switzerland with low tax rates for investors who reside outside those territories) as a means of tax avoidance that, though legally permissible, may not be morally legitimate if it is used by investors to sidestep payment toward government upkeep. Economist Gabriel Zucman finds that 8% of worldwide household wealth is held in tax havens. Zucman also finds that use of tax havens differs between countries—they are rarely used by investors living in South Korea, while many investors who utilize them reside in Argentina or Venezuela.
+Q: Which choice best describes the overall structure of the text?
+A) It describes an argument made by one scholar regarding economic policy, then uses the research of a second scholar to point out flaws in that argument.
+B) It makes a claim about what constitutes profitable investment based on the research of one scholar, then uses a second scholar’s findings to support that claim.
+C) It recounts how a scholar came to hold that a particular economic behavior is morally indefensible, then details the results of a study by a second scholar that lend credence to that position.
+D) It offers one scholar’s opinion of an economic mechanism, then presents a second scholar’s findings concerning the prevalence of that mechanism’s use.
+K: D
+#19
+P: Agricultural development in the Colorado River Delta has led to habitat degradation that has been detrimental to native birds. Monitoring by Eduardo González-Sargas et al. of bird population responses to recent efforts by the Mexican and US governments to revitalize the Delta showed gains overall, though trends varied at the species level. For instance, many populations of native forest specialists, including Gila woodpeckers, showed signs of rebounding, while those of habitat generalists not native to the region, such as Eurasian collared doves, declined—trends that, though divergent, are indicative of habitat recovery.
+Q: Which statement about bird population responses to restoration activities in the Colorado River Delta is best supported by the text?
+A) The fact that populations of some species have been adversely affected by restoration activities doesn’t necessarily suggest that those activities have been unsuccessful.
+B) The causes of the observed divergent species-specific responses to restoration activities likely require further study to account for.
+C) Though the conservationists managing habitat restoration activities in the Colorado River Delta didn’t intend to target populations of Gila woodpeckers and Eurasian collared doves, the outcomes for those species are nevertheless encouraging.
+D) Though trends in the overall bird population in response to restoration activities were initially promising, some declines observed at the species level illustrate that further adjustments to restoration plans may be required.
+K: A
+#20
+P: Biologist Rosanna Alegado believes that we might learn how multicellular organisms developed from single-celled ones if we understand why the single-celled organism Salpingoeca rosetta, the oldest living relative of animals, sometimes forms colonies of cells. Alegado and colleagues reviewed data from many studies of how S. rosetta responds when exposed to another single-celled organism, bacteria, including Jongsik Chun’s work with Algoriphagus mannitolivorans bacteria and Ingrid Brettar’s work with Aquiflexum balticum bacteria. Alegado and colleagues concluded that A. mannitolivorans is more likely than A. balticum to have played a role in the development of multicellular organisms.
+Q: Which finding, if true, would most directly support Alegado and colleagues’ conclusion?
+A) Both Chun’s and Brettar’s experiments resulted in the formation of colonies of S. rosetta.
+B) Neither Chun’s nor Brettar’s experiments resulted in the formation of colonies of S. rosetta.
+C) Chun’s experiment resulted in the formation of colonies of S. rosetta, whereas Brettar’s experiment did not.
+D) Brettar’s experiment resulted in the formation of colonies of S. rosetta, whereas Chun’s experiment did not.
+K: C
+#21
+P: Episodes in which technologies fall into disuse after a period of adoption, as occurred with the rapid decline of bronze tools and weapons beginning circa 1300 BCE, are informative for understanding the factors shaping technological development in ancient societies. However, it can be unclear whether an absence of artifacts signifies a cultural shift or is merely an effect of gaps in the archaeological record. A dataset of gold objects, including earrings and beads, recovered from Bronze and Iron Age sites at Simagre, Karmir Blur, and other places in the Caucasus reveals a steep drop in the total number of gold artifacts beginning around 1500 BCE in some locations. That this drop represents a genuine instance of cultural change is likely, given that ______
+Q: Which choice most logically completes the text?
+A) there is a positive relationship between the number of gold objects found at Caucasus sites and the sites’ respective distances from nearby sources of gold, such as gold ore deposits.
+B) the proportion of gold objects to other types of objects recovered is significantly higher at Simagre than at Karmir Blur despite the two sites’ close proximity.
+C) far fewer gold objects dating to earlier than 1500 BCE have been recovered from sites in the Caucasus than have been recovered from comparably old sites outside the region.
+D) a much larger number of Caucasus sites dating from after 1500 BCE are represented in the dataset than sites dating from before 1500 BCE are.
+K: D
+#22
+P: Encaustic is a technique that has been used by artists since at least the fifth century BCE. ______ using heated wax mixed with pigments. For an example of this technique, see Betsy Eby’s 2019 work Wishing Well.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) She involves
+B) These involve
+C) It involves
+D) They involve
+K: C
+#23
+P: The city of Seoul, South Korea, is home to an office of the International Criminal Police Organization (Interpol). However, you won’t see Interpol agents chasing international criminals in Seoul. Interpol can help with investigations, but only South Korean authorities ______ permitted to make arrests there.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) were being
+B) had been
+C) were
+D) are
+K: D
+#24
+P: An attack by herbivorous mustard aphids, which are among the cuckoopint plant’s most common insect predators, ______ to produce proteins that disrupt the aphids’ ability to digest food.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) triggering the plant
+B) will trigger the plant
+C) the plant triggered
+D) the plant will be triggered
+K: B
+#25
+P: In a 2001 article, law professors Akhil and Vikram Amar suggested that the system that awards Florida’s 30 electoral votes to the US presidential candidate with the most votes from Florida voters, rather than from all voters, ______ amenable to change—if states were to agree to allocate their electoral votes to the winner of the national popular vote.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) being
+B) are
+C) were
+D) was
+K: D
+#26
+P: The La Venta archaeological site is located in our home state of Tabasco, Mexico. ______ a 19.8-ton stone statue of a human head was left behind by the ancient Olmec civilization. In the nearby state of Veracruz was another stone statue that weighs 25.3 tons.
+Q: Which choice completes the text with the most logical transition?
+A) Therefore,
+B) Similarly,
+C) Here,
+D) In other words,
+K: C
+#27
+P: One might assume that Germany’s Nordsee One offshore wind farm produces the same amount of energy as land-based wind farms of a similar size. ______ because wind speeds over open water are generally higher than those over land, Nordsee One’s turbines turn faster and produce more energy than do most land farms’ turbines.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) Actually,
+C) Finally,
+D) Therefore,
+K: B
+=M2
+#1
+P: Scientists recently created a model to predict how increasing pest activity will affect future mammal population sizes in US national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Salmon-Challis National Forest in Idaho is a large forest, covering more than 4 million acres. If used to evaluate the effect of increasing pest activity on this forest in ten years, the model would likely therefore ______
+Q: Which choice most logically completes the text?
+A) reflect factors affecting large mammals other than increasing pest activity.
+B) overestimate the actual population sizes of large mammals.
+C) ignore the predator-prey relationships between large and small mammals.
+D) exaggerate the effect of increasing pest activity on small mammals.
+K: B
+#2
+P: By 3500 BCE, the Botai, a Eurasian steppe people, were engaged in the earliest known horse husbandry practices, such as corralling. Over the next several centuries, however, there is no evidence of Botai horses outside the relatively small Botai homeland—e.g., the CPONT horse strand, dominant in what is now Russia no later than 3089 BCE, shows no Botai interaction—and modern domestic horses (strand DOM2) emerged from a non-Botai lineage by around 2200 BCE. The introduction of selective breeding for long-distance transport capabilities enabled DOM2 to spread quickly, becoming dominant in what is now Turkey by 2125 BCE and throughout Eurasia by the late 2nd millennium BCE. Together, these findings suggest that ______
+Q: Which choice most logically completes the text?
+A) the Botai may have maintained horses for purposes other than long-distance travel, and their husbandry likely did not result in Botai horses having clear advantages over other horse strains.
+B) the lack of interaction between Botai horses and CPONT horses is likely attributable to Botai horses being outcompeted by DOM2 horses due to the latter’s superior long-distance travel capabilities.
+C) while the Botai’s husbandry likely did not extend to the selective breeding of horses to spread particular traits, the Botai do appear to have used horses as a means of long-distance transportation.
+D) although Botai horses may not have spread to other regions, the horse husbandry practices of the Botai people likely did, though not until some point between 3089 BCE and 2200 BCE.
+K: A
+#3
+P: Physical barriers, chemical defenses, and protein defenses are the three main categories of plant defense mechanisms. The alfalfa plant uses a ______ the plants produce proteins that are toxic to certain herbivorous insects.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) protein defense
+B) protein defense,
+C) protein defense:
+D) protein defense and
+K: C
+#4
+P: accomplish this goal? While researching a topic, a student has taken the following notes: The human tongue contains taste receptors for a rich, savory flavor called umami. Umami is triggered by the compounds in a variety of foods, including beef and black olives. Participants in a study tasted a sample of winged kelp, a type of brown seaweed. They rated its umami intensity as moderate. The participants tasted a sample of rausu-konbu, another type of brown seaweed. They rated its umami intensity as high.
+Q: The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to
+A) Some types of brown seaweed, like winged kelp and rausu-konbu, trigger umami flavor in human taste buds.
+B) Winged kelp is a type of brown seaweed, but so is rausu-konbu.
+C) After tasting two types of brown seaweed, winged kelp and rausu-konbu, participants in a study found rausu-konbu’s umami flavor to be the more intense of the two.
+D) While winged kelp and rausu-konbu contain umami flavor, umami can also be found in beef and black olives.
+K: C
+#5
+P: Throughout the nineteenth and twentieth centuries, populations of Black Americans increased in many cities throughout the state of New York. During this time, many Black newspapers were founded. The newspapers were largely by and for the Black communities in which they were based. The New York Recorder ran from 1953 to 1987 in New York City, New York. The Syracuse Gazette News Weekly ran from 1973 to 1976 in Syracuse, New York.
+Q: Which choice most effectively uses information from the given sentences to emphasize the geographic similarities between the two newspapers?
+A) The New York Recorder was one of many Black newspapers to spring up in the nineteenth and twentieth centuries, debuting in 1953 and later followed by the Syracuse Gazette News Weekly in 1973.
+B) Many Black newspapers, such as the New York Recorder, which was founded in 1953, sprung up in cities throughout New York to provide a voice for their growing Black communities.
+C) From 1953 to 1987, the New York Recorder served the Black community of New York City, New York, as did the Syracuse Gazette News Weekly.
+D) The New York Recorder and the Syracuse Gazette News Weekly, both based in New York, are among the many Black newspapers that sprung up in the nineteenth and twentieth centuries to provide a voice to the growing Black communities throughout the state.
+K: D
+#6
+P: Scleractinian corals—stony ones like lettuce leaf corals and rice corals—are habitat builders that form the foundations of coral reef ecosystems, typically with multiple species creating a single reef. The ______ of a reef depends in large part on this redundancy, which reduces the risk of a vital function ceasing if one of the species should succumb to a vulnerability.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) conformity
+B) distribution
+C) versatility
+D) resiliency
+K: D
+#7
+P: To appreciate what scholars believe to be the allegorical intent of Hokusai’s 19th-century painting ______ to embody the influence perspective has on one’s view of the natural world—a viewer must become familiar with the painting’s symbolic elements.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) The Great Wave off Kanagawa, namely,
+B) The Great Wave off Kanagawa, namely
+C) The Great Wave off Kanagawa—namely,
+D) The Great Wave off Kanagawa, namely—
+K: C
+#8
+P: In 1862, Scottish physicist James Clerk Maxwell proposed that light requires an ether to propagate. This theory ______ to explain the nature of light, though widely accepted for a time, eventually lost favor among members of the scientific community.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) attempts
+B) was attempting
+C) attempting
+D) attempted
+K: C
+#9
+P: In his experimental film Koyaanisqatsi (1982), Godfrey Reggio manipulates shots to accord with Philip Glass’s original score, variously applying slow-motion and timelapse techniques to shots of commuters and rhythmically intercutting between the movement of water and the flow of automobile traffic, among other pairings, to create ______ images and music.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) a hierarchy among
+B) a consonance between
+C) an exaggeration of
+D) a mystery from
+K: B
+#10
+P: Claudine Mukesharugo, a tea producer in Rwanda, and Vinicio Gonzales, a coffee grower in Guatemala, are both part of a global community of small farmers who partner with the grassroots organization Thrive Farmers. Their partnership with the organization is based on a revenue-sharing model that puts the farmers at the forefront. With this model, farmers aren’t just supplying initial crops but are stakeholders through the sale of the finished products.
+Q: Which choice best states the main purpose of the text?
+A) To explain that some small farmers follow a business model that allows them to have greater involvement in the sale of products made with their crops
+B) To describe how a partnership between two farms that produce different types of crops led to the development of a new business model for small farmers
+C) To introduce the idea that around the world, small farmers have increasingly been managing their farms as if they were large businesses
+D) To suggest that the Thrive Farmers organization is generating greater global demand for crops grown by small farmers
+K: A
+#11
+P: In Nimipuutimt, an Indigenous language from the interior Northwest region of what is now the United States, pit’íin’ means “girl,” whereas pi-pít’in’ is used to refer to two or more girls. This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element “pi” in pit’íin’ gets repeated in pi-pít’in’. There are many examples of this type of reduplication in Nimipuutimt.
+Q: Which choice best describes the overall structure of the text?
+A) It describes the relationship between Nimipuutimt and several other languages, raises a question about the nature of that relationship, and then answers that question.
+B) It identifies the most frequently occurring words in Nimipuutimt, explains why it is difficult to translate those words into English, and then provides examples of languages other than English into which those words can be translated.
+C) It explains the phenomenon of reduplication, discusses why reduplication has been controversial among scholars, and then argues that an analysis of Nimipuutimt could help resolve that controversy.
+D) It presents some specific words in Nimipuutimt, describes the general linguistic phenomenon exemplified by those words, and then states that this phenomenon occurs frequently in Nimipuutimt.
+K: D
+#12
+P: The dinosaur displays at museums such as the Field Museum of Natural History in Chicago (which has a mounted Apatosaurus skeleton among its holdings) are notable for the ______ of the research behind them—the museum staff consulted numerous sources to ensure the accuracy of the displays.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) rigor
+B) obscurity
+C) shallowness
+D) novelty
+K: A
+#13
+P: A team of public transportation experts in Buffalo is creating a new light rail stop for the Buffalo Metro Rail system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a light rail stop. The team also looked at studies showing that people’s willingness to walk to public transit is influenced by factors like weather and the presence of well-enforced low speed limits for cars. A researcher has argued that the survey does not accurately reflect the feelings of today’s residents of this neighborhood.
+Q: Which finding, if true, would most directly support the researcher’s claim?
+A) Residents of Buffalo are much less likely to use public transit on rainy days than on clear days.
+B) Current users of the Buffalo Metro Rail are satisfied with the number of stops along the line.
+C) There has been a sharp increase in the last ten years in cyclists who use the roads in the neighborhood that the light rail stop will service.
+D) The enforcement of posted speed limits in the neighborhood that the light rail stop will service has increased substantially in the last ten years.
+K: D
+#14
+P: Many works of the Roman engineer Frontinus (1st century CE) are ______ his De aquaeductu, a report on the Roman aqueduct system, is an extant work: it can still be read.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) lost, and conversely
+B) lost. Conversely,
+C) lost and conversely,
+D) lost, conversely,
+K: B
+#15
+P: Establishing protected areas (PAs), such as the Mamanuca Islands in Fiji, is a common conservation strategy, but because PAs restrict some kinds of economic activity, it’s widely thought that they hinder economic development. This perception is driven in part by the fact that economic assessments often don’t capture the indirect effects of tourism linked to PAs. But Anubhab Gupta et al. found that tourism associated with the Mamanuca Islands boosts local demand for goods and services in other economic sectors, resulting in, for instance, increased income from livestock production in nearby areas.
+Q: Which choice best describes the overall structure of the text?
+A) It makes a generalization about the difficulty of using PAs to reconcile economic and conservation priorities, demonstrates why most PAs fall short of achieving that goal, and then holds up a particular PA as an example of how that goal can be achieved.
+B) It introduces a widely held belief about the effect PAs have on the economy, proposes a reason for that belief’s prevalence, and then details a study whose findings seemingly conflict with that belief.
+C) It states a hypothesis that accounts for why PAs generally negatively impact local economies, outlines how a research team’s findings support that hypothesis, and then suggests how a novel methodology led a separate team of researchers to a different conclusion.
+D) It explains how PAs typically affect economic development in the regions where they are established, summarizes the findings of several economic studies that support this explanation, and then concedes that a particular PA is an exception to the general trend.
+K: B
+#16
+P: To appreciate what scholars believe to be the allegorical intent of Botticelli’s 15th-century painting ______ to embody the virtues of love, peace, and purity—a viewer must become familiar with the painting’s symbolic elements.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) The Birth of Venus, namely
+B) The Birth of Venus, namely—
+C) The Birth of Venus, namely,
+D) The Birth of Venus—namely,
+K: D
+#17
+P: In the 4th century BCE, ancient Greek philosopher Aristotle proposed that objects move only if it is in their nature to move. This theory ______ to explain the fundamental principles of motion, though widely accepted for a time, eventually lost favor among members of the scientific community.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) attempts
+B) was attempting
+C) attempted
+D) attempting
+K: D
+#18
+P: Yuen Yuen Ang et al. argue that merely tallying the number of patents filed per year ______ the degree of innovation occurring: truly novel patents—those, like a 2011 patent for an automated navigation system for planes, that combine previously unaffiliated technological domains—are vastly outnumbered by nonnovel patents (e.g., a 2008 patent for a method of making soup).
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) belies
+B) portends
+C) thwarts
+D) maligns
+K: A
+#19
+P: The Highpointers Club is a hiking club. One of the main goals among club members is to reach the highest points in all fifty US states. Those who achieve this are called 50 Completers. In Suk Han became a 50 Completer on November 15, 2013. The highest point in West Virginia is Spruce Knob, at 4,863 ft. The highest point in Colorado is Mount Elbert, at 14,440 ft.
+Q: Which choice most effectively uses information from the given sentences to explain the 50 Completers hiking challenge to a new audience?
+A) Hikers aiming to count themselves among the 50 Completers must reach not only West Virginia’s Spruce Knob but also the even higher peak of Mount Elbert in Colorado.
+B) Not until after you have reached the highest points in all fifty US states—including Spruce Knob in West Virginia and Mount Elbert in Colorado—can you include yourself among the 50 Completers of the Highpointers Club.
+C) If you are looking for a new hiking challenge, consider joining the Highpointers Club, as did In Suk Han, a hiker who successfully reached the highest point in every US state.
+D) On November 15, 2013, In Suk Han finally completed the feat of reaching the highest point in all fifty US states, including Spruce Knob in West Virginia and Mount Elbert in Colorado.
+K: B
+#20
+P: Antonio Stradivari (1644–1737) was an Italian instrument maker. He made about 1,000 violins in his lifetime. Musicians prize his Stradivarius violins for their famed sound quality. The Marie Hall Stradivarius is named for former owner Marie Hall, a British violinist.
+Q: Which choice most effectively uses information from the given sentences to introduce Marie Hall to a new audience?
+A) Of the 1,000 or so violins Antonio Stradivari made, only about 500 exist today.
+B) Marie Hall was a British violinist who once owned a Stradivarius violin.
+C) The Marie Hall Stradivarius is named after Marie Hall.
+D) Born in 1644, Antonio Stradivari was an Italian instrument maker whose violins are famous for their quality.
+K: B
+#21
+P: Charles Dickens’s classic 1850 novel about a young man named David Copperfield has a title that is instantly recognizable to many readers: David Copperfield. Dickens’s novel originally had a different ______ while writing and editing, Dickens had planned to call the novel Mag’s Diversions.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) title, though;
+B) title, though,
+C) title; though
+D) title, though
+K: A
+#22
+P: Whatever the general attitude toward Andrew L. Stone’s 1943 film Stormy Weather and William Greaves’s 1968 film Symbiopsychotaxiplasm, Take One when they were initially released, both films now tend to be regarded quite ______. In 2018, for example, critics for the New York Times praised the former as “[an] anthology of great performances” and the latter as “a vital artifact of its time.”
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) strangely
+B) neutrally
+C) skeptically
+D) favorably
+K: D
+#23
+P: The following text is from Nathaniel Hawthorne’s 1830 short story “Sir William Phips.”
+P: The knowledge, communicated by the historian and biographer, is analogous to that which we acquire of a country by the map,—minute, perhaps, and accurate, and available for all necessary purposes, but cold and naked, and wholly destitute of the mimic charm produced by landscape painting. These defects are partly remediable, and even without an absolute violation of literal truth, although by methods rightfully interdicted to professors of biographical exactness.
+Q: Which choice best states the main idea of the text?
+A) The more famous a person is, the more likely that person is to attract the attention of a historian.
+B) Biographers are more-skilled writers than other kinds of historians.
+C) Historians’ fidelity to the truth often results in work that is less engaging than it could be.
+D) Paintings may be more beautiful than maps, but maps are more useful than paintings.
+K: C
+#24
+P: As anthropologist Cristina Grasseni explains, many artisanal cheeses in Italy, such as Provolone Valpadana from Trentino-Alto Adige and Ragusano from Sicily, are highly valued for their regional authenticity; ______ they are prized for being made using local ingredients and methods typical of their respective geographic regions.
+Q: Which choice completes the text with the most logical transition?
+A) that is,
+B) still,
+C) rather,
+D) then,
+K: A
+#25
+P: As volcanologists like Tamsin Mather are apt to make clear, not all volcanoes are the same. Ischia in Italy, for example, is a complex volcano, a mixed landform consisting of related volcanic centers and their associated lava flows and pyroclastic rock. Mount Vsevidof in Alaska, ______ is a stratovolcano, a conical volcano built up by many layers of hardened lava and tephra.
+Q: Which choice completes the text with the most logical transition?
+A) in any case,
+B) in contrast,
+C) in fact,
+D) in conclusion,
+K: B
+#26
+P: accomplish this goal? While researching a topic, a student has taken the following notes: 1914: British explorer Ernest Shackleton and a small crew embarked on an expedition to Antarctica. 1915: Shackleton’s ship Endurance became stuck in ice before eventually breaking apart and sinking. 1916: After more harrowing sea-ice adventures, the entire crew was rescued. 1959: Historian Alfred Lansing wrote a book called Endurance: Shackleton’s Incredible Voyage. 2001: Filmmaker George Butler released a documentary called The Endurance: Shackleton’s Legendary Antarctic Expedition. 2022: The wreckage of Endurance was discovered at the bottom of Antarctica’s Weddell Sea.
+Q: The student wants to provide a historical overview of the Shackleton expedition. Which choice most effectively uses relevant information from the notes to
+A) Alfred Lansing wrote about the history of Shackleton’s 1914–16 expedition in the book Endurance: Shackleton’s Incredible Voyage (1959); years later, in 2001, George Butler released a documentary about the expedition.
+B) In 1914, the Shackleton expedition sailed to Antarctica, where, in 1916, they rescued the crew of a ship that had sunk, Endurance (the wreckage of which was discovered in 2022).
+C) Leaving in 1914 for Antarctica, Shackleton and his crew underwent many harrowing sea-ice adventures, including losing their ship in 1915, before being rescued in 1916.
+D) Shackleton’s expedition has inspired a 1959 book, a 2001 film, and a 2022 discovery.
+K: C
+#27
+P: Robert Louis Stevenson’s classic 1883 novel about a young man who discovers a treasure map has a title that is instantly recognizable to many readers: Treasure Island. Stevenson’s novel originally had a different ______ while writing and editing, Stevenson had planned to call the novel The Sea Cook.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) title, though
+B) title; though
+C) title, though;
+D) title, though,
+K: C

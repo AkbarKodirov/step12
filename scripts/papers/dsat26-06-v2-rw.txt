@@ -1,0 +1,279 @@
+!id: dsat26-06-v2-rw
+!name: June 2026 · Version 2 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 6
+!region: US & International
+!form: 2
+!missing: M1 M1 M1 M1 M1 M1 M1 M1 M1 M1 M1 M2 M2 M2 M2 M2 M2 M2 M2 M2 M2
+=M1
+#1
+P: Microplastics are a common pollutant in large masses of water like oceans. High concentrations and ______ among particles—variations in size, shape, and material— make it onerous to comprehensively classify the microplastics in a water sample, so Ojeda-Benítez et al. are exploring a device to help quickly and accurately identify certain characteristics.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) incompatibilities
+B) disruptions
+C) inconsistencies
+D) restraints
+K: C
+#2
+P: The dinosaur displays at museums such as the Natural History Museum of Los Angeles County in Los Angeles (which has a mounted Allosaurus fragilis skeleton among its holdings) are notable for the ______ of the research behind them—the museum staff consulted numerous sources to ensure the accuracy of the displays.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) shallowness
+B) novelty
+C) obscurity
+D) rigor
+K: D
+#3
+P: The following text is adapted from Henry James’s 1916 short story “The Pupil.” A man is being considered for a position as a live-in tutor for a woman’s child.
+P: The poor young man hesitated and procrastinated: it cost him such an effort to broach the subject of terms, to speak of money to a person who spoke only of feelings and, as it were, of the aristocracy. Yet he was unwilling to take leave, treating his engagement as settled, without some more conventional glance in that direction than he could find an opening for in the manner of the large affable lady who sat there drawing a pair of soiled [suede gloves] through a jewelled hand and, at once pressing and gliding, repeated over and over everything but the thing he would have liked to hear.
+Q: Which choice best states the main purpose of the text?
+A) It criticizes a person for being excessively timid.
+B) It draws a sharp contrast between the personalities of two people.
+C) It describes a person’s unsuccessful attempt to change someone’s mind.
+D) It portrays the difficulty a person has with raising a topic of conversation.
+K: D
+#4
+P: Founded in 1991, the Museo de Las Americas showcases art from Latin America, including the art of Indigenous peoples. It is located in Denver and has more than 4,800 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is Casa de Rosado in Lansing, Michigan. It focuses on the arts and cultures of Latino communities in Michigan.
+Q: Which statement about the Museo de Las Americas is best supported by the text?
+A) It is visited by more people than any other Latino cultural institution in the US.
+B) It was founded after 2000.
+C) Its collection includes over 4,800 objects.
+D) It is no longer located in Denver.
+K: C
+#5
+P: Linguist John McWhorter asserts that translation apps for smartphones and computers are—despite generally failing to convey many nuances—increasingly obviating the need to learn new languages. Advances in language processing technology have greatly boosted the utility of these apps for perfunctory tasks, like inquiring about an item on a menu, and passing interactions; be that as it may, richer communication (e.g., in business dealings or meaningful personal exchanges) often hinges on conversational patterns and gradations of meaning.
+Q: What does the text most directly suggest about translation apps?
+A) They are coming to be embraced by international tourists but are viewed with skepticism by many business professionals.
+B) They have improved remarkably over time but remain insufficient to support the complexity called for in certain interactions.
+C) They are becoming simpler to use but are inconsistent in how comprehensively they cover different languages.
+D) They have gained impressive capabilities but continue to be widely viewed as inadequate for most practical purposes.
+K: B
+#6
+P: Mia Heavener’s 2019 novel Under Nushagak Bluff, which takes place in a mid-twentieth-century rural Alaskan fishing ______ the story of three Yup’ik women who grapple with the rise of commercial fisheries and other changes affecting their community.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) village. Tells
+B) village tells
+C) village: tells
+D) village, tells
+K: D
+#7
+P: Many works of the Greek dramatist Menander (4th century BCE) are ______ his Dyskolos, a comedy about a misanthrope, is an extant work: it can still be read.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) lost and conversely,
+B) lost. Conversely,
+C) lost, conversely,
+D) lost, and conversely
+K: B
+#8
+P: Sergeant First Class Modesto Cartagena was a soldier in the United States 65th Infantry Regiment, a Puerto Rico–based regiment of the US Army. In 2016, the United States Congress honored Cartagena and the other servicepeople of the 65th Infantry Regiment with one of its highest ______ Congressional Gold Medal.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) honors; the
+B) honors the
+C) honors: the
+D) honors (the
+K: C
+#9
+P: Growing as large as three meters in diameter, the leaves of the giant Amazonian waterlily feature a complex network of radiating veins that provide structural ______ in thickness from the center to the edges, these veins allow the leaves to maintain their large size and buoyancy with minimal material, optimizing light capture and photosynthesis.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) support, decreasing
+B) support. Decreasing
+C) support decreasing
+D) support, while decreasing
+K: B
+#10
+P: Recordings of electrical activity in the brain, ______ increased activity in brain areas associated with suppressing motor functions.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) hypothetical match scenario responses show that the most highly skilled soccer players captured in electrograms have
+B) the most highly skilled soccer players responding to hypothetical match scenarios have electrograms that show
+C) electrograms show that while responding to hypothetical match scenarios, the most highly skilled soccer players have
+D) responses to hypothetical match scenarios show that the most highly skilled soccer players have electrograms with
+K: C
+#11
+P: In eastern Mexico, Monument 3 and Monument 61 are the names given to two massive human head statues that were left behind by the ancient Olmec civilization. Both statues are made of stone and are extremely heavy. ______ they each weigh more than 5 tons!
+Q: Which choice completes the text with the most logical transition?
+A) In fact,
+B) Earlier,
+C) In any case,
+D) Instead,
+K: A
+#12
+P: While most animals prefer the safety of nighttime migration, many poisonous amphibians—a category that includes the Cuban toad and the eastern newt—safely engage in migratory behavior during the day. ______ with the sun in the sky, the amphibians’ striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.
+Q: Which choice completes the text with the most logical transition?
+A) In other words,
+B) For example,
+C) At that time,
+D) However,
+K: C
+#13
+P: While some researchers have identified the planet Kepler-1632b as potentially habitable, it’s unlikely that humanity will be able to take advantage of its favorable conditions anytime soon—it’s 2,337 light years away. ______ humanity must first focus on making planets within our solar system more habitable.
+Q: Which choice completes the text with the most logical transition?
+A) Next,
+B) Likewise,
+C) For example,
+D) Instead,
+K: D
+#14
+P: When ordering the branches of the Yukon River system, cartographers tend to begin with the riverway’s lowest point, the Yukon River. ______ hydrologists begin at the top of the river system, with the Kanuti River and other tributaries fed by the riverway’s source, Alaska’s Llewellyn Glacier.
+Q: Which choice completes the text with the most logical transition?
+A) For example,
+B) In other words,
+C) In a similar way,
+D) By contrast,
+K: D
+#15
+P: this goal? While researching a topic, a student has taken the following notes: Lemons are fruits that contain ascorbic acid, an essential nutrient for humans. Every 100 grams (g) of lemon contains 53 milligrams (mg) of ascorbic acid. Many animals can make ascorbic acid in their bodies, but humans cannot. Humans must get ascorbic acid from foods, including fruits and vegetables. Ascorbic acid is also known as vitamin C.
+Q: The student wants to explain why humans must get vitamin C from food. Which choice most effectively uses relevant information from the notes to accomplish
+A) Since humans cannot make vitamin C in their bodies, they must get this essential nutrient from foods like lemons.
+B) Many animals can make ascorbic acid, which is also known as vitamin C, in their bodies.
+C) Lemons contain vitamin C, which humans must get from food.
+D) There is 53 mg of vitamin C, an essential nutrient for humans, in every 100 g of lemon.
+K: A
+#16
+P: accomplish this goal? While researching a topic, a student has taken the following notes: Usually, a country’s capital is also its largest city by population. The capital of Malta is Valletta. Its largest city by population is St. Paul’s Bay. The capital of Kazakhstan is Nur-Sultan. Its largest city by population is Almaty.
+Q: The student wants to emphasize a similarity between St. Paul’s Bay and Almaty. Which choice most effectively uses relevant information from the notes to
+A) The most populous city in Malta is St. Paul’s Bay, but its capital is Valletta.
+B) Although neither is a capital city, both St. Paul’s Bay and Almaty are the most populous cities in their countries.
+C) The capital of Malta is Valletta; the capital of Kazakhstan is Nur-Sultan.
+D) While St. Paul’s Bay is in Malta, Almaty is in Kazakhstan.
+K: B
+=M2
+#1
+P: “How do different surfaces affect the height a ball bounces?” One way to answer questions like this is to use the scientific method. This approach helps us ______ about topics like the height of a bouncing ball. First, we make a prediction. Then we collect and analyze data. Eventually, we can draw a conclusion based on the data we have gathered.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) fight
+B) forget
+C) laugh
+D) learn
+K: D
+#2
+P: Jeanne Baré, who was the first woman to circumnavigate the world, and Gertrude Ederle, who was the first woman to swim across the English Channel, are ensured lasting places in our historical memory. No matter what others may do in the future, nobody can ever ______ the standing of these women as the first to accomplish these feats.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) extend
+B) undermine
+C) promote
+D) imply
+K: B
+#3
+P: The success of Career Path in Turku, Finland—an installation prompting viewers to think about what they wanted to be as a child and what they dream about today— exemplifies how collaborative art initiatives can ______ their communities in multiple ways, including enhancing public spaces and addressing local issues.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) predict
+B) avoid
+C) enrich
+D) deny
+K: C
+#4
+P: Fossil records have allowed us to identify species like the woolly mammoth, an animal found throughout Wrangel Island near the Bering Sea before it became extinct around 4500 BCE. Current figures for the number of extinct species from this period, however, are likely to be underestimates, as most extinct animals are thought to be ______: many scientists believe there are hundreds of species from this time that we have not discovered.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) applicable
+B) controversial
+C) interconnected
+D) unknown
+K: D
+#5
+P: The following text is adapted from the 1895 poem “Ojistoh” by Emily Pauline Johnson, a Kanienkahagen (Mohawk) writer also known as Tekahionwake.
+P: I am Ojistoh, I am she, the wife Of him whose name breathes bravery and life And courage to the tribe who calls him chief. I am Ojistoh, his white star, and he Is land, and lake, and sky—and soul to me.
+Q: As used in the text, what does the word “breathes” most nearly mean?
+A) Absorbs
+B) Defers
+C) Renounces
+D) Imparts
+K: D
+#6
+P: Establishing protected areas (PAs), such as South Luangwa National Park in Zambia, is a common conservation strategy, but because PAs restrict some kinds of economic activity, it’s widely thought that they hinder economic development. This perception is driven in part by the fact that economic assessments often don’t capture the indirect effects of tourism linked to PAs. But Heng Zhu et al. found that tourism associated with South Luangwa boosts local demand for goods and services in other economic sectors, resulting in, for instance, increased income from livestock production in nearby areas.
+Q: Which choice best describes the overall structure of the text?
+A) It makes a generalization about the difficulty of using PAs to reconcile economic and conservation priorities, demonstrates why most PAs fall short of achieving that goal, and then holds up a particular PA as an example of how that goal can be achieved.
+B) It explains how PAs typically affect economic development in the regions where they are established, summarizes the findings of several economic studies that support this explanation, and then concedes that a particular PA is an exception to the general trend.
+C) It states a hypothesis that accounts for why PAs generally negatively impact local economies, outlines how a research team’s findings support that hypothesis, and then suggests how a novel methodology led a separate team of researchers to a different conclusion.
+D) It introduces a widely held belief about the effect PAs have on the economy, proposes a reason for that belief’s prevalence, and then details a study whose findings seemingly conflict with that belief.
+K: D
+#7
+P: <b>Text 1</b>
+P: With a shell that measured 1.7 meters, the extinct mollusk Parapuzosia seppenradensis is the largest ammonite in the fossil record. Ever since fossilized remains of this large ammonite were first discovered in 1895, scientists have been perplexed by its size. After examining 154 ammonite fossils including P. seppenradensis fossils from England and Parapuzosia leptophylla (a smaller ammonite species) fossils from Mexico, paleontologist Christina Ifrim, Nils Schorndorf, and colleagues concluded that P. seppenradensis may have evolved from P. leptophylla and gradually increased in size as larger ammonites were better able to escape being preyed on by mosasaurs.
+P: <b>Text 2</b>
+P: Christina Ifrim and her team have expanded our understanding of the evolutionary history of ammonites in general, but their study has some gaps that will require additional research to fill. For instance, there’s evidence that mosasaurs preyed on ammonites, but there’s no direct evidence that they interacted specifically with P. seppenradensis.
+Q: Based on the texts, how would the author of Text 2 most likely characterize the study conducted by Ifrim, Schorndorf, and colleagues in Text 1?
+A) It is useful for the field as a whole, but a portion of it might be unfounded.
+B) It is likely to become outdated quickly, but it features an impressive amount of data.
+C) It is correct with regard to P. seppenradensis, but its claims about P. leptophylla are likely overstated.
+D) It is relevant to the study of ammonites, but it overlooks the evolutionary history of mosasaurs.
+K: A
+#8
+P: A typical string quartet consists of two violin players, a viola player, and a cello player. When a string quartet performs, one violinist and the cellist usually sit facing the audience. The violist and the other violinist usually sit facing each other. This seating arrangement causes the viola’s carved sound openings, or f-holes, to be angled away from the audience. Therefore, if the viola player has a musical solo and wants to make sure that the audience can hear it clearly, the violist typically ______
+Q: Which choice most logically completes the text?
+A) looks at the sheet music instead of looking at the audience.
+B) instructs the other members of the quartet to play louder.
+C) plays at the same volume as the cellist.
+D) shifts position in order to face outwards toward the audience.
+K: D
+#9
+P: It is hard for publishers and printers to create very long books that balance the requirements of readability, durability, and cost. Among some exceptionally long novels published in English, Leo Tolstoy’s War and Peace (translated from Russian) was published in a 1,440-page edition and runs to an estimated 587,000 words, while Stephen King’s The Stand (written originally in English) was published in a 1,472-page edition and runs to an estimated 470,000 words. This indicates that ______
+Q: Which choice most logically completes the text?
+A) page count is likely to be a more reliable indicator of how long it takes to read a book than word count.
+B) translating a text from Russian to English is likely to increase the word count.
+C) the edition of The Stand is printed on thinner paper than the edition of War and Peace.
+D) the edition of War and Peace has more words per page than the edition of The Stand.
+K: D
+#10
+P: In Los Angeles, the landowner Emma C. Huston was honored by having Huston Street named ______ her.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) after;
+B) after,
+C) after
+D) after:
+K: C
+#11
+P: In the twentieth century, many countries developed secret codes. These codes were used ______ plans during wartime.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) have communicated
+B) communicates
+C) communicate
+D) to communicate
+K: D
+#12
+P: When Emily Brontë published the novel Wuthering Heights in 1847, Brontë’s name didn’t actually appear on the book’s cover. That’s because Brontë chose ______ a pen name: Ellis Bell.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) used
+B) will use
+C) to use
+D) use
+K: C
+#13
+P: The city of Bern, Switzerland, is home to an office of the International Criminal Police Organization (Interpol). However, you won’t see Interpol agents chasing international criminals in Bern. Interpol can help with investigations, but only Swiss authorities ______ permitted to make arrests there.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) were
+B) had been
+C) are
+D) were being
+K: C
+#14
+P: Laura Grieneisen is a biologist at the University of ______ conducts research on primates.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Minnesota. She
+B) Minnesota she
+C) Minnesota, she
+D) Minnesota. Where she
+K: A
+#15
+P: Artists’ palettes—the surfaces on which painters arrange and mix their paints—can provide valuable insights into the painters’ creative processes. In her 2024 book The Artist’s Palette, Alexandra Loske analyzes the palettes of 50 different painters across 500 years. ______ Loske reveals clues about the techniques and practices of such artists as Kerry James Marshall, Artemisia Gentileschi, and Vincent van Gogh.
+Q: Which choice completes the text with the most logical transition?
+A) In doing so,
+B) Lastly,
+C) In comparison,
+D) However,
+K: A
+#16
+P: relevant information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: Lighthouses send out crucial light signals to help ships and other watercraft navigate at night. Before automation, lighthouses were run by lighthouse keepers. Maria Younghans was the lighthouse keeper at Biloxi Light in Mississippi. She held this position for fifty-one years (1867–1918). Catherine A. Moore was the lighthouse keeper at Black Rock Harbor Light in Connecticut. She held this position for sixty-one years (1817–1878).
+Q: The student wants to compare the length of time Maria Younghans and Catherine A. Moore worked as lighthouse keepers. Which choice most effectively uses
+A) Before automation, lighthouse keepers like Maria Younghans, who served for fifty-one years, and Catherine A. Moore were crucial to ensuring safe navigation for watercraft.
+B) Maria Younghans worked as a lighthouse keeper for fifty-one years, but Catherine A. Moore did so for even longer: sixty-one years.
+C) Maria Younghans and Catherine A. Moore were both lighthouse keepers at a time when such a person was needed to operate a lighthouse.
+D) From 1867 to 1918, the nighttime waters of Mississippi were more navigable thanks to lighthouse keepers Maria Younghans and Catherine A. Moore.
+K: B
+#17
+P: information from the notes to accomplish this goal? While researching a topic, a student has taken the following notes: A merchant ship is any ship hired to carry cargo or passengers. A ship’s carrying capacity is also known as its deadweight tonnage (DWT). In 2021, there were a total of 1,236 merchant ships registered in Greece. The combined DWT of these ships was 64.9 million tons.
+Q: The student wants to emphasize the combined deadweight tonnage of Greece’s merchant ships in 2021. Which choice most effectively uses relevant
+A) There were a total of 1,236 merchant ships—ships hired to carry cargo or passengers—registered in Greece in 2021.
+B) Combined, Greece’s merchant ships had a deadweight tonnage of 64.9 million tons in 2021.
+C) In 2021, Greece had 1,236 merchant ships hired to carry cargo or passengers.
+D) The carrying capacity of a merchant ship is also known as deadweight tonnage.
+K: B

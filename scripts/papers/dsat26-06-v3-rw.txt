@@ -1,0 +1,351 @@
+!id: dsat26-06-v3-rw
+!name: June 2026 · Version 3 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 6
+!region: US & International
+!form: 3
+!missing: M1 M1 M1 M1 M1 M1 M1 M1 M2 M2 M2 M2
+=M1
+#1
+P: The National Heritage Fellowship was created to honor exceptional folk and traditional artists in the United States. In 2004, the fellowship was given to the Irish American accordionist Joe Derrane to ______ his lifetime contributions to the arts.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) choose
+B) discover
+C) investigate
+D) celebrate
+K: D
+#2
+P: The following text is adapted from Willa Cather’s 1912 novel Alexander’s Bridge.
+P: For the next few days Alexander was very busy. He took a desk in the office of a [Scottish] engineering firm on Henrietta Street, and was at work almost constantly. He avoided the clubs and usually dined alone at his hotel.
+Q: As used in the text, what does the word “constantly” most nearly mean?
+A) Hurriedly
+B) Enough
+C) Nonstop
+D) Anxiously
+K: C
+#3
+P: The inventories of consonant sounds among the Polynesian languages of the Pacific tend toward the ______: Tongan in the South Pacific has a total of twelve consonants, and ‘Ōlelo Hawai‘i, the language of the Native Hawaiian people, has four fewer, while the global median per language is over twenty-two.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) minimal
+B) replicable
+C) melodic
+D) static
+K: A
+#4
+P: In Puerto Rico, some farmers and other business owners have invited agritourism as a means of ______ rural economies. Chocolate-loving tourists can now graft cacao varieties at Hacienda Jeanmarie Chocolat or attend a cacao festival at Hacienda Buena Vista—activity offerings that create jobs beyond traditional farming and bring in more tourism dollars to the local communities.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) fortifying
+B) surveying
+C) challenging
+D) reconciling
+K: A
+#5
+P: Biologist Bryson Voirin and colleagues have employed hat-like monitors to ______ long-standing misconceptions about the activity patterns of sloths. It was once widely believed that the pale-throated three-toed sloth and other sloths sleep all day. Data from the monitors reveal that in the wild sloths sleep about nine hours a day.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) analyze
+B) codify
+C) dispel
+D) perpetuate
+K: C
+#6
+P: The following text is from Anne Spencer’s 1922 poem “Translation.”
+P: We trekked into a far country, My friend and I. Our deeper content was never spoken, But each knew all the other said. He told me how calm his soul was laid By the lack of anvil and strife. “The wooing kestrel,” I said, “mutes his mating-note To please the harmony of this sweet silence.”
+Q: Based on the text, which statement is true of the speaker and her friend?
+A) They understand one another’s feelings without having to explicitly discuss them.
+B) They think nature is much less interesting than being in a dynamic city.
+C) They once felt more closely connected to one another than they do now.
+D) They regard the natural world as a place of both peace and conflict.
+K: A
+#7
+P: The fecal-steroidal profile of moose is clearly distinct from that of other ungulates, including bison and elk. By contrast, bison dung cannot be distinguished from elk dung based solely on their fecal-steroidal profiles, as both contain similar levels of beta-sitosterol and cholestanone, among other sterols. However, levels of other taxa-specific digestive by-products, such as cholic acid, can be used to help differentiate between bison and elk samples.
+Q: Which statement about bison and elk dung samples is best supported by the text?
+A) They are distinct from each other with respect to both cholestanone and cholic acid content, but bison and moose samples cannot be distinguished from each other based solely on levels of digestive by-products.
+B) They are distinct from each other with respect to cholic acid content but cannot otherwise be distinguished from moose samples based solely on levels of digestive by-products.
+C) They are more distinct with respect to beta-sitosterol content than they are with respect to cholic acid content.
+D) They are less distinct with respect to their steroidal profiles than they are with respect to some other digestive by-products.
+K: D
+#8
+P: Students in a biology class investigated why individual house mice (Mus musculus) can differ from one another in their blood’s mature B cell concentration. The students compared wild-type mice and knockout mice, which are mice with specific genes deactivated, when mice of each type were placed in similar naturalistic environments and taken for periodic blood sampling. Finding that knockout mice with the gene Arhgap17 deactivated tended to have lower mature B cell counts than did wild-type mice, the students concluded that differences in mature B cell concentration among house mice in nature are solely attributable to variations in the level of expression of Arhgap17.
+Q: Which finding, if true, would most directly weaken the students’ conclusion?
+A) The mice with Arhgap17 deactivated were identical to the wild-type mice except with regard to mature B cell concentration.
+B) The level of expression of Arhgap17 does not appear to affect the functioning of any other genes in house mice.
+C) Some wild-type mice were very similar to the knockout mice with regard to mature B cell concentration but showed a wide variety of levels of expression of Arhgap17.
+D) A sampling of house mice captured in natural settings shows that individual mice can differ from one another in the level of expression of Arhgap17.
+K: C
+#9
+P: The great blue heron and the small dark heron are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds’ habitats, such as the geographic location of the area and how deep the water is during breeding season. They found that although both great blue herons and small dark herons prefer areas that have standing water for more than 60 days per year, only great blue herons prefer areas with deep water during breeding season, suggesting that ______
+Q: Which choice most logically completes the text?
+A) having features that are highly attractive to one species will likely cause an area to be avoided by the other species.
+B) the effect of water depth on an area’s appeal to the two species increases with the duration of the presence of standing water, but more strongly for great blue
+C) outside of breeding season, both species show a stronger preference for areas with shallower water. herons than for small dark herons.
+D) merely having standing water for at least a certain number of days per year will not necessarily make an area equally attractive to both species.
+K: D
+#10
+P: According to a 2017 analysis by economist Jacob Lundberg, the US’s top tax rate of 48% was lower than the country’s Laffer curve peak (76%). To some economists, whether a tax cut ______ the US’s tax revenue is dependent on the country’s position on the Laffer curve, a theoretical relationship between tax rates and revenues.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) will ultimately raise or lower
+B) ultimately raising or lowering
+C) having ultimately raised or lowered
+D) to ultimately raise or lower
+K: A
+#11
+P: Under the Electoral College system, all 10 of Missouri’s electoral votes are awarded to the US presidential candidate who wins the state’s popular ______ in the US Constitution, the Electoral College is a permanent feature of US politics. However, a 2001 article by law professors Akhil and Vikram Amar argues that this system could be changed from within—if states agree to allocate their electoral votes to the winner of the national popular vote.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) vote. Inscribed
+B) vote inscribed
+C) vote inscribed,
+D) vote, inscribed
+K: A
+#12
+P: Whereas French philosopher Michel de Montaigne’s essay “Of Quick or Slow Speech” explores a relatively light ______ his essay “Of Liberty of Conscience” takes on heavier fare.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) subject, while
+B) subject. While
+C) subject;
+D) subject,
+K: D
+#13
+P: While artist and director Andy Warhol’s set design no doubt influenced the project’s reception, it was choreographer Merce Cunningham’s application of his unique movement principles—including movement autonomy and chance procedure—to the collaborative dance piece RainForest that defined ______ radically transgressive aesthetic.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) his
+B) it’s
+C) its
+D) they’re
+K: C
+#14
+P: Eye color is a trait that can be passed down from parents to children. Parents may pass down the trait of having blue eyes to their children. ______ those children could pass this trait on to their own future biological children.
+Q: Which choice completes the text with the most logical transition?
+A) Later,
+B) By contrast,
+C) For instance,
+D) Instead,
+K: A
+#15
+P: Since 1972, the Women’s Caucus for Art (WCA) has given Lifetime Achievement Awards to environmental artists like Jo Hanson and installation artists like Judy Chicago for their contributions to the arts. ______ the WCA’s efforts to promote gender equity in the arts don’t stop there; the organization also provides women with leadership and professional-development opportunities.
+Q: Which choice completes the text with the most logical transition?
+A) For instance,
+B) However,
+C) As a result,
+D) Specifically,
+K: B
+#16
+P: Plant species known as metal hyperaccumulators can help remove heavy metal pollutants from soil. Sesbania drummondii, or rattlebush, for instance, can absorb a large quantity of cadmium and store it safely in its roots and shoots. ______ its roots may not reach far enough into the soil and could leave trace amounts of cadmium.
+Q: Which choice completes the text with the most logical transition?
+A) Moreover, the plant is potentially useful in removing accumulated metals;
+B) That said, the plant may not always be able to remove all of the pollutant;
+C) On the contrary, a pollutant such as cadmium can be removed from the soil;
+D) For this reason, the plant has useful applications in soil quality restoration;
+K: B
+#17
+P: In the 1974 movie The Scarlet Blade, a character screams. ______ the sound of the scream was not made by the actor pictured on screen. It’s the Wilhelm Scream, a sound effect that has been used in over 200 movies.
+Q: Which choice completes the text with the most logical transition?
+A) Similarly,
+B) For example,
+C) However,
+D) As a result,
+K: C
+#18
+P: The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM). The ACM gives the award for “major contributions of lasting importance to computing.” Frances E. Allen won the award in 2006 for seminal contributions to optimizing compiler techniques.
+Q: Which choice most effectively uses information from the given sentences to specify why Frances E. Allen won the A.M. Turing Award?
+A) Generally, the prestigious A.M. Turing Award is given for “major contributions of lasting importance to computing.”
+B) It was in 2006 that Frances E. Allen won the A.M. Turing Award.
+C) Frances E. Allen is a winner of the ACM’s prestigious A.M. Turing Award.
+D) For seminal contributions to optimizing compiler techniques, Frances E. Allen won the A.M. Turing Award.
+K: D
+#19
+P: this goal? While researching a topic, a student has taken the following notes: Karen Leibovici is a French sailor. Benefic is a sailboat. Leibovici sailed Benefic on a nonstop, 126-day journey around the world. Lisa Clayton is a British sailor. Spirit of Birmingham is a sailboat. Clayton sailed Spirit of Birmingham on a nonstop, 285-day journey around the world.
+Q: The student wants to compare the durations of the two sailors’ journeys. Which choice most effectively uses relevant information from the notes to accomplish
+A) French sailor Karen Leibovici sailed Benefic around the world in 126 days.
+B) Clayton’s 285-day journey around the world took longer than Leibovici’s 126-day journey.
+C) Clayton’s journey took place aboard Spirit of Birmingham, while Leibovici sailed on Benefic.
+D) Both Clayton and Leibovici embarked on sailing journeys around the world.
+K: B
+=M2
+#1
+P: The Dhaka Stock Exchange in Dhaka, Bangladesh, is a dedicated exchange for investing in companies operating in Bangladesh, ensuring those companies receive certain regulatory oversight. Knowing this can ______ potential investors’ worries about bureaucratic minutiae and thereby allow them to instead focus on identifying sound business opportunities.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) assuage
+B) convey
+C) amplify
+D) designate
+K: A
+#2
+P: Studying sales and price data for 325 brands of mineral water, cooking sauces, breakfast cereals, and other consumer packaged goods, Koushyar Rajavi and colleagues found that pricing, though hardly ______ brand success, made a much less pronounced contribution to brand success than retail distribution breadth did.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) contingent on
+B) determinative of
+C) immaterial to
+D) uncharacteristic of
+K: C
+#3
+P: A meta-analysis of research on stemflow (precipitation that flows down a tree’s trunk) moved beyond capturing broad points of consensus (e.g., that the water’s chemical components are affected by tree species) to ______ narrower areas where insight is lacking, pinpointing stemflow-mediated nutrient dynamics in primarily coniferous forests as one topic warranting further investigation.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) legitimize
+B) delineate
+C) revitalize
+D) implicate
+K: B
+#4
+P: Continental Divide Electric Cooperative and other member-owned rural electric cooperatives can be ______ the other main types of US electrical utilities by their chosen governance models. Although public power utilities are, like cooperatives, not-for-profit enterprises, they are owned and run by local governments; investorowned utilities, meanwhile, are managed by private boards for the benefit of shareholders.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) protected against
+B) integrated with
+C) established by
+D) distinguished from
+K: D
+#5
+P: British colonies in North America instituted laws regulating textiles and accessories as well as the colors and design of clothing. While the laws exerted some influence on public-facing displays, compliance was often merely ______: historical evidence suggests that some restricted items were privately used and exchanged.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) theoretical
+B) clandestine
+C) superficial
+D) subversive
+K: C
+#6
+P: Falling out of favor after its ascendancy in the 1950s–1970s, Brutalist architecture—known for massiveness, awkward proportions, and display of raw industrial materials—subverts traditional standards of architectural beauty. But whereas for decades the style’s defiance of conventional taste was denigrated as alienating, many Brutalist icons have recently begun to gain defenders enthralled by the structures’ awe-inspiring sculptural features, such as the use of massive interlocking geometric forms that appear to defy gravity seen in the John P. Robarts Library in Toronto, Canada.
+Q: Which choice best describes the main purpose of the text?
+A) To explain how a recent reconsideration of characteristic traits of Brutalism has in turn encouraged a reevaluation of architecture’s traditional aesthetic standards
+B) To justify the controversial aesthetic choices of Brutalist architects by pointing out the ways that they adhere to conventional tastes more closely than is typically acknowledged
+C) To detail the historical circumstances that account for Brutalism’s loss of favor after the 1970s and its later resurgence in public opinion
+D) To describe how an emergent trend in the public reception of Brutalist architecture reflects a shift in the perception of its aesthetic qualities
+K: D
+#7
+P: <b>Text 1</b>
+P: With a shell that measured 1.7 meters, the extinct mollusk Parapuzosia seppenradensis is the largest ammonite in the fossil record. Ever since fossilized remains of this large ammonite were first discovered in 1895, scientists have been perplexed by its size. After examining 154 ammonite fossils including P. seppenradensis fossils from Montana and Parapuzosia leptophylla (a smaller ammonite species) fossils from Austria, paleontologist Christina Ifrim, Andrew S. Gale, and colleagues concluded that P. seppenradensis may have evolved from P. leptophylla and gradually increased in size as larger ammonites were better able to escape being preyed on by mosasaurs.
+P: <b>Text 2</b>
+P: Christina Ifrim and her team have expanded our understanding of the evolutionary history of ammonites in general, but their study has some gaps that will require additional research to fill. For instance, there’s evidence that mosasaurs preyed on ammonites, but there’s no direct evidence that they interacted specifically with P. seppenradensis.
+Q: Based on the texts, how would the author of Text 2 most likely characterize the study conducted by Ifrim, Gale, and colleagues in Text 1?
+A) It is useful for the field as a whole, but a portion of it might be unfounded.
+B) It is correct with regard to P. seppenradensis, but its claims about P. leptophylla are likely overstated.
+C) It is likely to become outdated quickly, but it features an impressive amount of data.
+D) It is relevant to the study of ammonites, but it overlooks the evolutionary history of mosasaurs.
+K: A
+#8
+P: By combining dense synthesizer arrangements and metallic percussion with vocals electronically shifted in pitch above the natural range of lead vocalist Laura Les, the American duo 100 gecs exemplifies the style of contemporary electronic music known as hyperpop. This style is elastic enough to include Namasenda, who incorporates hip-hop rhythms into the hyperpop sound, as well. The style’s inclusivity has been encouraged—excessively so, many fans say—by the music-streaming service Spotify, whose popular playlist of hyperpop songs balances core figures with distinct outliers, like 1980s icon Kate Bush.
+Q: What does the text most strongly suggest about Namasenda’s recordings?
+A) Her recordings’ inclusion on the Spotify playlist facilitated the inclusion of recordings by Kate Bush.
+B) Her recordings suggest that she has been unduly influenced by Spotify’s hyperpop playlist.
+C) Her recordings feature a stylistic element that is absent from the recordings of 100 gecs.
+D) While some of her recordings conform to the model perfected by 100 gecs, others reject it outright.
+K: C
+#9
+P: The Rarámuri language of northern Mexico has 20 vowel and consonant sounds. In contrast, the Hadza language of eastern Africa has 70. Why would languages differ in this way? One researcher has claimed that when modern humans arose in Africa, they spoke a single language, but as humans gradually spread throughout Africa and then around the globe, that language developed into new languages. Those developed into still more languages as small bands of humans spread even farther, with each new language retaining fewer sounds from humanity’s original language.
+Q: Which finding, if true, would most directly weaken the researcher’s claim?
+A) Languages that emerged in Europe and Western Asia tend to have more sounds than languages that emerged in Africa do.
+B) A wider range of sounds is found across the languages of Africa as a whole than across the languages of South America as a whole.
+C) Languages that emerged in Central America tend to have fewer sounds than languages that emerged in Western Europe do, and Central America is farther away from Africa than Western Europe is.
+D) The number of sounds is fairly consistent across the various languages that emerged in the last parts of Africa to be settled by humans.
+K: A
+#10
+P: When products ordered online are out of stock (OOS), retailers can mitigate consumer frustration by offering discounts for future orders or suggesting substitutions. Hypothesizing that offering to replace an OOS grocery item (e.g., potato chips) with a similar item the consumer previously purchased increases substitution acceptance rates and that this increase is more pronounced for same-flavor substitutions than for same-brand substitutions, Dong Hoang and Els Breugelmans presented two groups of consumers with different mixes of grocery products and recorded their willingness to either reject or accept proposed substitutions of both types. The researchers concluded that the first part of their hypothesis was better supported than the second part was.
+Q: Which finding, if true, would most directly support the researchers’ conclusion about their hypothesis?
+A) Although past-purchase matching reduced overall substitution rejection rates in both consumer groups, a statistically significant preference for previously purchased same-flavor substitutions over previously purchased same-brand substitutions was observed in only one of the groups.
+B) Although past-purchase matching decreased rejection rates for both same-flavor substitutions and same-brand substitutions in only one of the two consumer groups, the observed difference between the two groups was not statistically significant.
+C) Past-purchase matching resulted in notably lower substitution rejection rates in both consumer groups, and the observed positive effect of past-purchase matching was much stronger for same-flavor substitutions than for same-brand substitutions in both groups.
+D) Past-purchase matching increased rejection rates for same-brand substitutions in one of the two consumer groups but not the other, and past-purchase matching had no observable effect on rejection rates for same-flavor substitutions in either of the consumer groups.
+K: A
+#11
+P: All stainless steel contains varying amounts of iron, carbon, and corrosion-inhibiting chromium. However, ferritic stainless steel, often used for induction cookers, contains a higher percentage of chromium (at least 10.5%) than does austenitic stainless steel and a higher concentration of iron, which is responsible for its magnetic properties. Unlike ferritic stainless steel, austenitic stainless steel has a face-centered cubic crystalline structure resulting from the addition of nickel to the alloy. Austenitic stainless steel has two subtypes: the 200 series, often used for washing machines, and the 300 series, which has more nickel than the 200 series and is often used for mining and chemical equipment or compensators. Thus, stainless steel used to manufacture ______
+Q: Which choice most logically completes the text?
+A) induction cookers will have a face-centered cubic crystalline structure.
+B) compensators will have similar magnetic properties to stainless steel used to manufacture induction cookers.
+C) mining and chemical equipment will have a concentration of chromium lower than 10.5%, while stainless steel used to manufacture washing machines will not.
+D) washing machines will have a lower percentage of chromium in its composition than stainless steel used for induction cookers will.
+K: D
+#12
+P: It is hard for publishers and printers to create very long books that balance the requirements of readability, durability, and cost. Among some exceptionally long novels published in English, Victor Hugo’s Les Misérables (translated from French) was published in a 1,194-page edition and runs to an estimated 770,000 words, while John Dos Passos’s U.S.A. (written originally in English) was published in a 1,239-page edition and runs to an estimated 515,000 words. This indicates that ______
+Q: Which choice most logically completes the text?
+A) the edition of Les Misérables is printed on thinner paper than the edition of U.S.A.
+B) the edition of U.S.A. has fewer words per page than the edition of Les Misérables.
+C) translating a text from French to English is likely to increase the word count.
+D) page count is likely to be a more reliable indicator of how long it takes to read a book than word count.
+K: B
+#13
+P: In a list titled “Things That Are Unpleasant to See” from Sei Shōnagon’s Pillow Book, the author bemoans dirty carriage windows, walking too hurriedly, and pulledback collars. Such lists, observed sharply yet simply by Shōnagon, who served as a lady-in-waiting to Empress Teishi in the tenth century, ______ the daily minutiae of Japanese courtly life.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) reveals
+B) reveal
+C) to reveal
+D) was revealing
+K: B
+#14
+P: In 2022 Kevin Del Águila, who studies environmental DNA, joined a research team for a 38-day expedition to Alto Mayo, a populous area in the north of Peru. It had long been assumed that regions with large human populations would be unlikely to yield discoveries of new species. Nevertheless, Del Águila and the other team members ______ for such species in Alto Mayo found 27 of them, including 3 new amphibian species.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) searching
+B) had searched
+C) searched
+D) search
+K: A
+#15
+P: To appreciate what scholars believe to be the allegorical intent of Gentileschi’s 17th-century painting ______ to embody the power of female artists in the realm of visual arts—a viewer must become familiar with the painting’s symbolic elements.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) La Pittura, namely
+B) La Pittura—namely,
+C) La Pittura, namely—
+D) La Pittura, namely,
+K: D
+#16
+P: In 2022, Carnegie Hall’s digital Timeline of African American Music was ______ input from George Starks, Maureen Mahon, and other prominent scholars—to integrate text and music clips, thereby inviting users to experience genres such as bebop and gospel as well as read about them.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) redesigned, with
+B) redesigned with
+C) redesigned—with
+D) redesigned. With
+K: B
+#17
+P: In 1813, French paleontologist Georges Cuvier proposed that Earth’s geologic features are shaped by catastrophic events. This theory ______ to explain geological evolution, though widely accepted for a time, eventually lost favor among members of the scientific community.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) was attempting
+B) attempted
+C) attempting
+D) attempts
+K: C
+#18
+P: The Hornbostel-Sachs system classifies musical instruments by how they produce sound. For example, an instrument that is popular in Vietnam called the đàn bầu produces sound primarily through the vibration of its strings. ______ under the Hornbostel-Sachs system, the đàn bầu is a chordophone.
+Q: Which choice completes the text with the most logical transition?
+A) Thus,
+B) Instead,
+C) Similarly,
+D) Furthermore,
+K: A
+#19
+P: If you could travel in a spaceship to Carpo, one of Jupiter’s many moons, you’d find a moon with a prograde orbit. This means that Carpo orbits Jupiter in the same direction that Jupiter rotates on its axis. ______ at Herse, another Jovian moon, you’d find an example of a retrograde orbit, with the moon revolving around Jupiter in the opposite direction.
+Q: Which choice completes the text with the most logical transition?
+A) Specifically,
+B) For example,
+C) In other words,
+D) Elsewhere,
+K: D
+#20
+P: As fundamental as the question may seem, biologists have failed to reach consensus on what a species is: some cite the genetic species concept (Baker and Bradley 2006), while others adhere to the Darwinian species concept (Jolly 2014). ______ those supporting a pluralist approach—in place of a single, monistic concept— argue that a diversity of species concepts fits their equally diverse applications within the discipline.
+Q: Which choice completes the text with the most logical transition?
+A) However, some scholars posit that, outside the human desire to name things, species don’t exist;
+B) Counterintuitively, this lack of agreement may not be without its virtues;
+C) Accordingly, many biologists seek to find a universal species concept;
+D) Indeed, this definitional stalemate is widely known as the species problem;
+K: B
+#21
+P: Richard Serra is an American artist. He is known for his large metal sculptures. His large sculpture Rounds: Equal Weight, Unequal Measure is made of weathering steel. It is 17 feet wide and 7 feet tall. His large sculpture Circuit is made of hot-rolled steel. It is 24 feet wide and 1 foot tall.
+Q: Which choice most effectively uses information from the given sentences to emphasize a similarity between the two sculptures?
+A) Circuit is one of artist Richard Serra’s large metal sculptures.
+B) Rounds: Equal Weight, Unequal Measure and Circuit are both large metal sculptures by artist Richard Serra.
+C) Richard Serra’s Rounds: Equal Weight, Unequal Measure is 17 feet wide and 7 feet tall.
+D) Rounds: Equal Weight, Unequal Measure is made from a different kind of steel than Circuit.
+K: B
+#22
+P: South African singer Miriam Makeba rose to fame in the 1960s for her jazz-inflected renditions of traditional Xhosa songs. The Xhosa song “Olilili” appears on her 1960 album Miriam Makeba. She also became known for her versions of many popular European and American songs, such as “For What It’s Worth.” “For What It’s Worth” was originally made popular by the American rock band Buffalo Springfield. Makeba’s version appears on her 1970 album Keep Me in Mind.
+Q: Which choice most effectively uses information from the given sentences to emphasize when Makeba became popular?
+A) The song “Olilili” appears on Miriam Makeba’s album Miriam Makeba, which she released in 1960.
+B) Originally made popular by Buffalo Springfield, the song “For What It’s Worth” appears on Miriam Makeba’s 1970 album Keep Me in Mind.
+C) The songs “Olilili” and “For What It’s Worth” can both be found on albums recorded by the South African singer Miriam Makeba.
+D) Known for her renditions of both traditional Xhosa songs and songs made popular by European and American artists, South African singer Miriam Makeba rose to fame in the 1960s.
+K: D
+#23
+P: The Paralympic Games are a series of international sporting events involving athletes with an impairment. A gold medal indicates that an athlete finished in first place. Priya Cooper competed as a Paralympic swimmer from 1992 to 2000. She won twenty-four medals, fifteen of which were gold. Lauren Woolstencroft competed as a Paralympic alpine skier from 2002 to 2010. She won ten medals, eight of which were gold.
+Q: Which choice most effectively uses information from the given sentences to emphasize how long Lauren Woolstencroft competed in the Paralympic Games?
+A) Swimmer Priya Cooper made her Paralympic debut in 1992, while alpine skier Lauren Woolstencroft made her debut in 2002.
+B) An accomplished Paralympian with multiple gold medal wins, Lauren Woolstencroft competed as an alpine skier from 2002 to 2010.
+C) Alpine skiing, a sport in which Lauren Woolstencroft took home eight gold medals, has been an event at the Paralympic Games since 1976.
+D) During her career as a Paralympic alpine skier, Lauren Woolstencroft took home a total of ten medals, eight of which were gold.
+K: B

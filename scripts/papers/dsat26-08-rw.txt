@@ -1,9 +1,9 @@
 !id: dsat26-08-rw
-!name: August 2026 · International · Reading & Writing
+!name: August 2026 · Reading & Writing
 !type: EBRW
 !year: 2026
 !month: 8
-!region: International
+!region: US & International
 =M1
 #1
 P: Blue holes, such as the Great Blue Hole and Watling's Blue Hole, are deep sinkholes that form underwater. Because the dark blue appearance of their waters means these pits can be easily ______ shallow areas around them, where the water looks light blue, many blue holes have been discovered by people doing recreational activities like boating.

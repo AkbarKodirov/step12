@@ -1,0 +1,277 @@
+!id: dsat26-06-s2-math
+!name: June 2026 · Mixed Set 2 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: S2
+=M1
+#1
+Q: The function g is defined by g(x) = 6x + 10. What is the value of g(x) when x = 10?
+A) 0
+B) 6
+C) 10
+D) 70
+K: D
+#2
+Q: An event planner is planning an ice-skating event. It costs the event planner a onetime fee of $50 to rent the skating rink and $15.50 per attendee. The event planner has a budget of $225. What is the greatest number of attendees possible without exceeding the budget?
+K: 11
+#3
+Q: 5x + 3 = rx + 7<br>In the given equation, r is a constant. The equation has no solution. What is the value of r?
+A) 21
+B) 8
+C) 7
+D) 5
+K: D
+#4
+Q: A beekeeper’s initial observation of the population of a certain bee colony was 1,800 bees. The beekeeper set a goal to increase the population to 3,300 bees. The beekeeper uses a model that predicts the population of this bee colony begins at 1,800 and increases by 120 bees per week in the first two weeks after the initial observation, and then increases by 180 bees per week until the beekeeper’s goal is reached. According to this model, at the end of week w after the initial observation, where w &gt; 2, which of the following functions gives the predicted number of bees still needed to reach the beekeeper’s goal?
+A) p(w) = 3,300 − 180w
+B) p(w) = 3,180 + 180w
+C) p(w) = 1,620 − 180w
+D) p(w) = −120 + 180w
+K: C
+#5
+Q: The equation d = 25w + 100 gives the total amount of money d, in dollars, that Jerome plans to save w weeks after he starts to save. What is the total amount of money, in dollars, he plans to save in 10 weeks?
+A) 300
+B) 350
+C) 400
+D) 450
+K: B
+#6
+Q: If 4x + 5 = 37, what is the value of 40x + 50?
+A) 370
+B) 90
+C) 80
+D) 8
+K: A
+#7
+Q: In the ancient Roman measurement system, a leuga was a unit of length that was equal to 7,500 pedes. In this measurement system, how many pedes were equivalent to 2.5 leugas?
+K: 18750
+#8
+Q: r &gt; 0.54t<br>The given inequality describes the total rainfall r, in inches, in a certain area over a period of t hours, where t ≤ 4. Which of the following describes this rainfall?
+A) An average rainfall of exactly 0.54 inches per hour
+B) An average rainfall of more than 0.54 inches per hour
+C) A total rainfall of more than 4 inches
+D) A total rainfall of exactly 4 inches
+K: B
+#9
+Q: The measures of the interior angles of triangle ABC are 22°, 44°, and x°. What is the value of x?
+A) 22
+B) 66
+C) 114
+D) 180
+K: C
+#10
+Q: The length of a side of square X is 7 centimeters. The area of rectangle Y is 32 square centimeters. What is the total area, in square centimeters, of square X and rectangle Y?
+A) 113
+B) 81
+C) 78
+D) 49
+K: B
+#11
+Q: P (t) = 22.5(1.036)<br>The function P gives the predicted population, in millions, of a certain country for the period from 1984 to 2018, where t is the number of years after 1984. According to this function, what is the best interpretation of the statement “P (8) is approximately equal to 29.86”?
+A) In 1984, the predicted population of this country was approximately 8 million.
+B) In 1984, the predicted population of this country was approximately 29.86 million.
+C) 29.86 years after 1984, the predicted population of this country was approximately 8 million.
+D) 8 years after 1984, the predicted population of this country was approximately 29.86 million.
+K: D
+#12
+Q: There is a proportional relationship between p and t. If p = 2,520 when t = 3,360, then what is the value of t when p = 2,016?
+A) 2,856
+B) 2,688
+C) 1,512
+D) 1,176
+K: B
+#13
+Q: A circle has center P , and points A and B lie on the circle. The measure of arc AB is 15° and the length of arc AB is 6π units. What is the length, in units, of the radius of the circle?
+K: 72
+#14
+Q: The measures of the interior angles of triangle ABC are 31°, 62°, and x°. What is the value of x?
+A) 31
+B) 87
+C) 93
+D) 180
+K: B
+#15
+Q: y = 3,400(a)x<br>The given equation, where a is a positive constant, gives the predicted number of bacteria, y, in a growth medium x hours after the number of bacteria was initially measured. According to the equation, what was the predicted number of bacteria initially measured in the growth medium?
+K: 3400
+#16
+Q: If 8x − 10 = 6, what is the value of 8x + 10?
+A) −4
+B) 2
+C) 12
+D) 26
+K: D
+#17
+Q: (7x + 4)(8x − 7) = 0<br>Which of the following is a solution to the given equation?
+A) − 74
+B) − 87
+C) − 78
+D) − 47
+K: D
+#18
+Q: A machine makes 7-inch, 9-inch, and 4-inch parts. During a certain day, the number of 7-inch parts that the machine makes is 5 times the number n of 9-inch parts, and the number of 4-inch parts is 4. During this day, the machine makes 100 parts total. Which equation represents this situation?
+A) 7(5n) + 9n + 4(4) = 100
+B) 7n + 9n + 4n = 100
+C) 5n + 4 = 100
+D) 6n + 4 = 100
+K: D
+#19
+Q: The equation d = 23w + 100 gives the total amount of money d, in dollars, that Jerome plans to save w weeks after he starts to save. What is the total amount of money, in dollars, he plans to save in 10 weeks?
+A) 280
+B) 330
+C) 380
+D) 430
+K: B
+#20
+Q: A jar has 610 marbles, and 20% of these marbles are orange. How many marbles in the jar are orange?
+A) 122
+B) 244
+C) 305
+D) 590
+K: A
+#21
+Q: The function f is defined by f(x) = 41x . What is the value of f(x) when x = 9?
+K: 1/36 | 0.0278 | .0278
+#22
+Q: If 8x − 9 = 7, what is the value of 8x + 9?
+A) −2
+B) 2
+C) 11
+D) 25
+K: D
+=M2
+#1
+Q: The area of triangle ABC is 20 square centimeters. What is the height h, in centimeters, of this triangle?
+A) 2
+B) 4
+C) 8
+D) 10
+K: B
+#2
+Q: If 3 − 4x = 35, what is the value of 15 (3 − 4x)?
+A) 175
+B) 35
+C) 7
+D) 5
+K: C
+#3
+Q: How many solutions does the equation 4(x + 10) + 6x = 10(x + 4) have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#4
+Q: An area of 42.00 square nautical miles is equivalent to k square kilometers. To the nearest tenth, what is the value of k? (1 nautical mile = 1.852 kilometers)
+K: 144.1
+#5
+Q: Zuri has a goal to run at least 16 miles per week while training for a race. This week, she has run 5 miles. If x represents the additional number of miles Zuri needs to run this week to meet her goal, which inequality represents this situation?
+A) 5 − x ≤ 16
+B) 5 + x ≤ 16
+C) 5 − x ≥ 16
+D) 5 + x ≥ 16
+K: D
+#6
+Q: a, 26, 29, b, 33, 46, c<br>For the given data set, the data values are listed in ascending order, where a, b, and c are constants. For this data set, the mean is 36, the median is 29, and the range is 71. What is the value of c?
+A) 55
+B) 71
+C) 80
+D) 97
+K: C
+#7
+Q: The result of increasing the quantity x by 600% is 168. What is the value of x?
+A) 24
+B) 28
+C) 432
+D) 1,008
+K: A
+#8
+Q: How many solutions does the equation 10(x + 15) + 5x = 15(x + 10) have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#9
+Q: The ratio of the side length of square A to the side length of square B is 2 to 6. Square A has a side length of 19 inches. What is the side length, in inches, of square B?
+K: 57
+#10
+Q: Line s is defined by x − 3y = 21. Line t is perpendicular to line s in the xy-plane and passes through the points (k, 0) and (60, −k). What is the value of k?
+K: 45
+#11
+Q: The result of increasing the quantity x by 500% is 150. What is the value of x?
+A) 25
+B) 30
+C) 350
+D) 750
+K: A
+#12
+Q: Cylinder A is similar to cylinder B. The volume of cylinder A is 5.13 cubic units and the volume of cylinder B is 1.52 cubic units. The surface area of cylinder A is 22.41 square units. What is the surface area, in square units, of cylinder B?
+K: 9.96
+#13
+Q: A hotel has rooms with a balcony that cost $100 per night to rent and rooms without a balcony that cost $80 per night to rent. On a given night, the hotel received $6,800 from renting both types of rooms. If a total of 76 rooms were rented, how many rooms with a balcony were rented on that night?
+A) 34
+B) 36
+C) 38
+D) 40
+K: B
+#14
+Q: Under a certain magnifying lens, the apparent length, in millimeters, of an object is 350% of its actual length, in millimeters. Which of the following types of functions best models the apparent length, in millimeters, of an object under this magnifying lens as a function of its actual length, in millimeters?
+A) Decreasing exponential
+B) Decreasing linear
+C) Increasing exponential
+D) Increasing linear
+K: D
+#15
+Q: T (x) = 66 − 8x<br>The function T estimates the temperature, in degrees Fahrenheit (°F), in a certain city one day in January, where x is the number of hours after 10 a.m. and 1 ≤ x ≤ 7. Which statement is the best interpretation of T (6) = 18 in this context?
+A) 6 hours after 10 a.m., the function estimates that the temperature is 18°F.
+B) 6 hours before 10 a.m., the function estimates that the temperature decreased 18°F.
+C) 6 hours after 10 a.m., the function estimates that the temperature decreased 18°F.
+D) 6 hours before 10 a.m., the function estimates that the temperature is 18°F.
+K: A
+#16
+Q: There is a proportional relationship between p and t. If p = 6,240 when t = 8,320, then what is the value of t when p = 4,992?
+A) 2,912
+B) 3,744
+C) 6,656
+D) 7,072
+K: C
+#17
+Q: There is a proportional relationship between p and t. If p = 3,960 when t = 5,280, then what is the value of t when p = 3,168?
+A) 4,488
+B) 4,224
+C) 2,376
+D) 1,848
+K: B
+#18
+Q: A line in the xy-plane is defined by y = x + b, where b is a constant. This line passes through the point (2, 9). What is the value of b?
+A) 0
+B) 2
+C) 7
+D) 18
+K: C
+#19
+Q: The equation y = 66x gives the estimated distance y, in kilometers, that a car traveled x hours after exiting a parking garage. What is the estimated distance, in kilometers, the car traveled 2 hours after exiting the parking garage?
+A) 0
+B) 64
+C) 68
+D) 132
+K: D
+#20
+Q: There is a proportional relationship between p and t. If p = 7,410 when t = 9,880, then what is the value of t when p = 5,928?
+A) 3,458
+B) 4,446
+C) 7,904
+D) 8,398
+K: C
+#21
+Q: An inverter converts 86% of the direct current (DC) power generated by a solar panel into alternating current (AC) power. If the panel generates 350 watts of DC power, how many watts of AC power result from the conversion?
+K: 301
+#22
+Q: (7x + 6)(4x − 7) = 0<br>Which of the following is a solution to the given equation?
+A) − 47
+B) − 76
+C) − 67
+D) − 47
+K: C

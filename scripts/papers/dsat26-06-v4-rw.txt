@@ -1,0 +1,298 @@
+!id: dsat26-06-v4-rw
+!name: June 2026 · Version 4 · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 6
+!region: US & International
+!form: 4
+!missing: M1 M1 M1 M1 M1 M1 M1 M1 M1 M1 M1 M1 M1 M2 M2 M2 M2 M2 M2
+=M1
+#1
+P: Smart watches and other small electronic devices tend to contain batteries that can’t be easily ______ and swapped for new ones. Environmental policy researcher Jessika Richter warns that because the batteries can’t be taken out once they stop working, these devices have shortened life spans and quickly become waste.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) prevented
+B) imagined
+C) assembled
+D) removed
+K: D
+#2
+P: The following text is from Oscar Wilde’s 1893 play Lady Windermere’s Fan.
+P: MRS. ERLYNNE: I am going to live abroad again. The English climate doesn’t suit me. My—heart is affected here, and that I don’t like. I prefer living in the south. London is too full of fogs and—and serious people, Lord Windermere. Whether the fogs produce the serious people or whether the serious people produce the fogs, I don’t know, but the whole thing rather gets on my nerves.
+Q: As used in the text, what does the word “produce” most nearly mean?
+A) Bring about
+B) Bind
+C) Make available
+D) Fancy
+K: A
+#3
+P: Drivers who strongly believe that the toll they must pay to use the Teodoro Moscoso Bridge, which spans the San José Lagoon in Puerto Rico, is currently too high are unlikely to be open to a proposal to increase the toll. Advocates for a higher toll are likely to have more success if they instead direct their arguments toward a more ______ segment of the population.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) eminent
+B) persuadable
+C) knowledgeable
+D) frugal
+K: B
+#4
+P: To prevent excessive microbial growth in the closed habitat of the International Space Station, relative humidity is carefully maintained. Nonetheless, Penicillium chrysogenum and other fungi, which have the potential to damage spacecraft materials, can ______ when routine crew-member activities (e.g., showering) produce localized humidity conditions that exceed the specified maximum for the station overall.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) abate
+B) recalibrate
+C) proliferate
+D) rehabilitate
+K: C
+#5
+P: Known for the albums Someday My Prince Will Come and Kind of Blue, jazz trumpeter Miles Davis collaborated several times with pianist Gil Evans. Their 1958 adaptation of George Gershwin’s opera Porgy and Bess bears little resemblance to the 1935 original. Davis and Evans felt no desire to please listeners expecting an exact duplication of the opera. They omitted parts, such as the aria “I Got Plenty of Nuthin’,” and sometimes made only brief gestures toward Gershwin’s melodies. But Davis and Evans’s willingness to recompose Gershwin’s work led to one of the most enduring albums in Davis’s catalog.
+Q: Which choice best states the main idea of the text?
+A) Davis and Evans’s adaptation of Porgy and Bess received a better critical reception than the work on which it was based.
+B) Davis’s creative efforts became more experimental when he collaborated with Evans.
+C) Audiences for jazz music tend to prefer novelty over convention.
+D) Davis and Evans’s confidence in revising Gershwin’s opera led to the creation of one of Davis’s most notable recordings.
+K: D
+#6
+P: Humans are overwhelmingly more likely to be right-handed than left-handed. Among studies of nonhuman primates, Lesley J. Rogers and Gisela Kaplan’s 1995 study of wild orangutans did not report a tendency toward right-handedness, while S.G. Lutz-Maki and P.F. MacNeilage’s 1991 study of captive chimpanzees did. But the latter study involved only 14 individuals, and according to a meta-analysis of primate-handedness studies, from a statistical standpoint, a study needs to examine a population of at least 176 individuals to justifiably claim that the group exhibits handedness at the population level, suggesting that ______
+Q: Which choice most logically completes the text?
+A) the apparent difference between the two studies’ results may be partly attributable to the 1991 study using a different standard to determine handedness than the 1995 study did.
+B) any right-handedness exhibited by captive chimpanzees might be an effect of extended contact with humans.
+C) the population size in the study that did not report right-handedness in orangutans is too small to justify that conclusion.
+D) the population size in the study that reported right-handedness in chimpanzees is too small to justify that conclusion.
+K: D
+#7
+P: The exhibit Sacred Havens: A Quiet Space of Gardens debuted at San Francisco International Airport in February 2002 and featured a curated collection of ______ a bit more visual interest to the hustle and bustle of the terminals.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) photography, adding
+B) photography: adding
+C) photography. Thus adding
+D) photography, it added
+K: A
+#8
+P: One of the African American quiltmakers from the famed community of Gee’s Bend, ______
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) the 1960s was when Beatrice Pettway crafted a quilt called Work-Clothes Quilt that was acquired by a Kentucky art museum.
+B) Beatrice Pettway crafted a quilt in the 1960s called Work-Clothes Quilt that was acquired by a Kentucky art museum.
+C) a quilt called Work-Clothes Quilt was crafted by Beatrice Pettway in the 1960s and acquired by a Kentucky art museum.
+D) a Kentucky art museum acquired a quilt called Work-Clothes Quilt that was crafted by Beatrice Pettway in the 1960s.
+K: B
+#9
+P: The classical music piece “Teen Murti” was written by Indian American composer Reena Esmail. This composition, combining elements of Western classical music with Raag Malkauns, a melodic framework used in Hindustani classical music to evoke a dark mood, ______ Esmail’s cross-cultural approach as a composer.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) exemplifies
+B) exemplifying
+C) having exemplified
+D) which exemplifies
+K: A
+#10
+P: A region of the Soviet Union encompassing the present-day city of Elista, Russia, the Kalmyk-speaking Kalmyk Autonomous Soviet Socialist Republic was in fact only nominally autonomous. President Mikhail Gorbachev’s reforms, by helping the Kalmyk Republic and other Soviet republics established along ethnolinguistic lines assert their prerogatives, ______ to the Soviet Union’s breakup.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) which contributed
+B) contributed
+C) having contributed
+D) contributing
+K: B
+#11
+P: In a 2024 study, researchers measuring the biodiversity of trees in Amsterdam first counted how many trees there were in different areas of the city. They found that administrative unit GK13 had 5,179 trees. ______ administrative unit GM14 had only 12 trees.
+Q: Which choice completes the text with the most logical transition?
+A) Similarly,
+B) In contrast,
+C) Specifically,
+D) For this reason,
+K: B
+#12
+P: In 1997 the Advanced Composition Explorer satellite, which studies solar wind and cosmic rays, maintained an orbit at the Sun-Earth L1 Lagrange point—a position directly between Earth and the Sun. ______ the gravitational forces of the Sun and Earth reach an equilibrium found in very few other locations, allowing spacecraft such as the Advanced Composition Explorer to remain in the same position relative to Earth as they orbit the Sun.
+Q: Which choice completes the text with the most logical transition?
+A) Regardless,
+B) There,
+C) For example,
+D) Admittedly,
+K: B
+#13
+P: the notes to accomplish this goal? While researching a topic, a student has taken the following notes: The growth-survival paradigm (GSP) posits that faster-growing fish larvae will have higher rates of survival to maturity than will slower-growing larvae. Aril Slotte et al. (2019) tested the GSP’s applicability to cohorts of Atlantic herring (Clupea harengus). Finding: The survival rate of slower-growing C. harengus larvae was significantly higher than that of relatively fast-growing C. harengus larvae. Dominique Robert et al. (2023) reviewed 153 studies of the GSP conducted between 1971 and 2022, including Slotte’s team’s study. Robert et al.: “The GSP was supported in the majority of cases,” but a “non-negligible proportion of reviewed studies demonstrated the occurrence of selection [favoring] slow-growing individuals in the field, a possibility generally disregarded in the...GSP.”
+Q: The student wants to place the finding of Slotte’s team’s study in the context of the 2023 review. Which choice most effectively uses relevant information from
+A) Demonstrating that slower-growing larvae had a survival advantage over faster-growing larvae, Slotte’s team’s finding regarding C. harengus was consistent with those of the majority of studies included in the review.
+B) Presenting evidence of differing survival rates among C. harengus larvae, Slotte’s team’s study reinforces the review’s contention that the GSP’s applicability to slower-growing larvae tends to be overlooked.
+C) Reporting survival outcomes among C. harengus larvae that contradict the GSP’s predictions, Slotte’s team’s study is one of several in the review that highlight the paradigm’s limitations.
+D) Suggesting the absence of a relationship between growth rates and survival outcomes, Slotte’s team’s study of C. harengus larvae is among those in the review that undermine the GSP.
+K: C
+#14
+P: notes to accomplish this goal? While researching a topic, a student has taken the following notes: A copyright prevents a book’s contents from being reproduced (published) without permission from the copyright holder. When a book’s copyright expires, the book enters the public domain and can be legally reproduced by anyone. Observations is a poetry collection by Marianne Moore. It entered the public domain in 2020. The Mother’s Recompense is a novel by Edith Wharton. It entered the public domain in 2021.
+Q: The student wants to emphasize a similarity between Marianne Moore and Edith Wharton. Which choice most effectively uses relevant information from the
+A) Both Observations and The Mother’s Recompense are in the public domain; however, one is a poetry collection and the other a novel.
+B) Marianne Moore and Edith Wharton are two authors whose works recently entered the public domain.
+C) Observations, a poetry collection by Marianne Moore, entered the public domain in 2020, unlike Edith Wharton’s novel The Mother’s Recompense.
+D) The year was 2021, and the copyright to Edith Wharton’s The Mother’s Recompense had finally expired.
+K: B
+=M2
+#1
+P: To address Sumitava Mukherjee et al.’s contention that low financial stakes reduce loss aversion—the tendency for losses to be felt more acutely than equivalent gains are—and thus test a concept that has informed research in fields ranging from behavioral economics to transportation studies, Kellen Mrvka et al. conducted a study in which some participants were presented with scenarios involving ______ amounts of money.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) nominal
+B) indeterminate
+C) negotiable
+D) idiosyncratic
+K: A
+#2
+P: Using data from Argentina and nineteen other countries, Filazzola et al. compared sites where livestock grazing is active with sites where it has been eliminated. They found that wild-animal abundance positively correlated with duration of grazer exclusion, indicating that following the removal of livestock (e.g., cattle), one adverse effect on co-occurring animal species imposed by grazing livestock may ______ over time.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) abound
+B) emanate
+C) abate
+D) prevail
+K: C
+#3
+P: The Heege Manuscript (HM) consists of various texts copied by Richard Heege at his home in fifteenth-century England. Most contemporary collections like the HM consist of pieces for polite society like genteel romances and other readings favored by elites; in contrast, the HM reflects a strong ______ toward popular entertainments (such as parody romances) and practicalities (like advice about religion).
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) skepticism
+B) proclivity
+C) sagacity
+D) ambivalence
+K: B
+#4
+P: Before the 1858 publication of On the Origin of Species, author Charles Darwin developed principles of natural selection (e.g., that abundant offspring of a species must compete for limited resources) in five notebooks. Some notebook entries from fall 1838 read like outlines of parts of the concept, suggesting that the theory was ______ idea even twenty years before his milestone publication.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) a disputed
+B) an entrenched
+C) a conclusive
+D) an incipient
+K: D
+#5
+P: Prose poetry, a form that combines the continuous text of prose with the condensed language and imagery of poetry—as exemplified in Claudia Rankine’s “Coherence in Consequence”—is characterized by significant ______ how poets balance these elements. While some prose poems prominently feature conventional poetic devices, such as figures of speech, others embrace a more prosaic aesthetic.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) hesitance in
+B) inquiry into
+C) latitude in
+D) insight into
+K: C
+#6
+P: In Karuk, an Indigenous language from the West Coast of what is now the United States, ihmar means “to run,” whereas ihmáraramnih means “to run into.” This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element “ar” in ihmar gets repeated in ihmáraramnih. There are many examples of this type of reduplication in Karuk.
+Q: Which choice best describes the overall structure of the text?
+A) It explains the phenomenon of reduplication, discusses why reduplication has been controversial among scholars, and then argues that an analysis of Karuk could help resolve that controversy.
+B) It describes the relationship between Karuk and several other languages, raises a question about the nature of that relationship, and then answers that question.
+C) It presents some specific words in Karuk, describes the general linguistic phenomenon exemplified by those words, and then states that this phenomenon occurs frequently in Karuk.
+D) It identifies the most frequently occurring words in Karuk, explains why it is difficult to translate those words into English, and then provides examples of languages other than English into which those words can be translated.
+K: C
+#7
+P: Spanning the 1920s to the 1980s, Mexican architect Luis Barragán’s prolific career evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in an international architectural discourse, Barragán began incorporating principles derived from functionalism and modernism in his work, as seen in the Chávez Peón de Ochoa House, whose unadorned geometric forms contrast with the historically inspired architecture found in the Aguilar House, one of Barragán’s early projects in Guadalajara.
+Q: Which choice best states the main idea of the text?
+A) Barragán’s designs of the Chávez Peón de Ochoa House and the Aguilar House are considered paragons of a functionalist and modernist aesthetic.
+B) Barragán’s early work shows an initial dedication to a modernist aesthetic that he later abandoned.
+C) A notable shift in Barragán’s design aesthetic reflects the influence of his time abroad.
+D) Barragán’s design of the Aguilar House is considered more experimental than his design for the Chávez Peón de Ochoa House.
+K: C
+#8
+P: The following text is from Ralph Waldo Emerson’s 1841 essay “The Method of Nature.”
+P: The rapid wealth which hundreds of the community acquire in trade, or by the incessant expansions of our population and arts, enchants the eyes of all the rest; the luck of one is the hope of thousands, and the bribe acts like the neighborhood of a gold mine to impoverish the farm, the school, the church, the house, and the very body and feature of man.
+Q: Which choice best states the main idea of the text?
+A) Those who wish to accumulate wealth can do so more quickly by engaging in trade than in other activities such as teaching and farming.
+B) Participating in a variety of activities is important for one’s physical health.
+C) When a few people in a society become rich, the rest of the society will benefit in turn, given enough time.
+D) Observing the success of a few people can lead many to abandon important parts of their lives in the pursuit of similar success.
+K: D
+#9
+P: Participants in a musical-perception study assigned high groove ratings (defined as the degree to which one wants to move to a song) to Earth, Wind &amp; Fire’s “Boogie Wonderland.” In another study, participants assigned similarly high groove ratings to the Brazilian samba song “Desafinado.” If, as some contend, the human experience of groove depends on the ability to “find the pulse” (intuit the regular underlying rhythm) of a song, that would suggest that participants in these two studies tended to ______
+Q: Which choice most logically completes the text?
+A) find the pulses of their respective songs easily.
+B) perceive their respective songs as rhythmically complex.
+C) experience little desire to move to their respective songs.
+D) rate the pulses of their respective songs rather than the grooves.
+K: A
+#10
+P: In a 2018 study, Deepak Jaiswal and Rishi Kant found that consumers’ knowledge of environmental issues had no effect on the likelihood that the consumers would purchase environmentally friendly products. Since this study was based on fewer than 400 young adults in India, however, doubts have been raised about how reliable and representative the findings are. To better understand the issue, Wencan Zhuang and colleagues analyzed the results of 54 studies of eco-friendly consumer behavior, such as a 2014 study from China that included 909 participants and a 2015 study from India with 270 participants. Taking all 54 studies together, Zhuang and colleagues found a significant positive effect of environmental knowledge on eco-friendly purchasing decisions, suggesting that ______
+Q: Which choice most logically completes the text?
+A) the number of participants in Jaiswal and Kant’s study was far below the number of participants in most studies of purchasing decisions.
+B) the participants in Jaiswal and Kant’s study may not have been typical of consumers generally when it comes to environmentally friendly purchasing decisions.
+C) a sample size of 270 may be sufficient to make reliable conclusions about the relationship between knowledge of environmental issues and purchasing decisions.
+D) Jaiswal and Kant’s methodology was more precise than the methodology used in the 2014 study from China.
+K: B
+#11
+P: In 2013, Shirley Ann Williams et al. performed a meta-analysis (an assessment of previous research) of studies of the social media website formerly known as Twitter, such as the 2011 paper by Bollen et al. titled “Happiness Is Assortative in Online Social Networks,” in order to identify research trends. Williams’s team found that while a significant number of papers focused on profiles of users, many focused on message content. Williams’s team also found that when researchers focused on message content, they were especially likely to use knowledge discovery methods (methods derived from statistical analysis and artificial intelligence that are aimed at handling enormous amounts of information), suggesting that ______
+Q: Which choice most logically completes the text?
+A) knowledge discovery methods yield less reliable results when applied to user profiles than to the content of social media messages.
+B) researchers typically presumed that a small proportion of users account for most of the information in social media messages.
+C) researchers tended to expect the amount of information in social media messages to be particularly high.
+D) studies using knowledge discovery methods are more widely cited than studies that do not use such methods.
+K: C
+#12
+P: As a behavioral economist, Katy Milkman of the University of Pennsylvania explores how psychological factors (such as emotion and bias) influence the economic choices that individuals ______ Milkman’s research considers the broader effects these choices have on the economy.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) make; moreover,
+B) make, moreover;
+C) make, moreover,
+D) make, moreover.
+K: A
+#13
+P: Released in 1999, the Intel Pentium III microchip contained a single CPU, or core, to execute commands. Since then, the average processing power of microchips has ______ cores now number in the dozens, hundreds, or even thousands—that the once-revolutionary dual-core technology that replaced the single-core chip can be found in everyday items like toasters and toothbrushes.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) increased—so drastically,
+B) increased so drastically,
+C) increased so drastically—
+D) increased, so drastically,
+K: C
+#14
+P: At the Rankin Inlet observatory site in Canada, radars point their antennae to the sky to track gravity waves and other geospace phenomena. These radars are not the only ones scanning the ______ more than thirty other radar sites around the globe monitor these same phenomena as part of the Super Dual Auroral Radar Network.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) sky, though,
+B) sky, though;
+C) sky though
+D) sky; though,
+K: D
+#15
+P: In a chemical equation, the value known as molar mass is useful for converting between the mass of the reactants and the mass of the product. The gaseous ______ have molar masses of 48.00 and 56.11 g/mol, respectively.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) compounds ozone (O3) and isobutylene (C4H8),
+B) compounds, ozone (O3) and isobutylene (C4H8)
+C) compounds ozone (O3) and isobutylene (C4H8)
+D) compounds, ozone (O3) and isobutylene (C4H8),
+K: C
+#16
+P: Karl Popper’s argument that scientific hypotheses must be theoretically refutable, termed the criterion of falsifiability, rejects the confirmationist ______ verifiability as the essential criterion for scientific hypotheses. To Popper, a statement like “all spiders have eight legs” is scientific not because it can be verified, or proved true, but because it can theoretically be proved false.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) argument, it posits
+B) argument positing
+C) argument and posits
+D) argument, positing
+K: B
+#17
+P: The visual magnitude scale, which measures the brightness of stars, is reverse logarithmic: the brighter a star, the lower its magnitude number. ______ the star Gamma Velorum, the 30th brightest in the sky, has a higher visual magnitude number (1.72) than does the brighter star Aldebaran. The 14th-brightest star, Aldebaran has a magnitude of 0.86.
+Q: Which choice completes the text with the most logical transition?
+A) On the other hand,
+B) Nonetheless,
+C) Moreover,
+D) Hence,
+K: D
+#18
+P: The total solar eclipse of April 6, 648 BCE, was the subject of a famous poem written in the same year by the Greek lyric poet Archilochus. Another memorable solar eclipse occurred on October 22, 2137 BCE, but unlike the 648 BCE eclipse, the 2137 BCE eclipse was annular. ______ the Moon didn’t cover the Sun completely, instead creating an annulus, or “ring of fire.”
+Q: Which choice completes the text with the most logical transition?
+A) Meanwhile,
+B) For example,
+C) That is,
+D) Nonetheless, 1548. Which choice completes the text with the most logical transition?
+K: C
+#19
+P: In a 2022 study, Knut Bretzke and colleagues used optically stimulated luminescence dating to estimate the age of stone tools excavated from an archaeological site in South Arabia. This method dates artifacts by determining how much time has elapsed since mineral grains in the sediments surrounding the artifacts were last exposed to sunlight. ______ the timing of the artifacts’ burial serves as a proxy for the age of the artifacts themselves.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) For example,
+C) That is,
+D) Instead,
+K: C
+#20
+P: goal? While researching a topic, a student has taken the following notes: Run Rush Run is a 1977 sculpture by Argentinian artist Margarita Paksa. It consists of the title phrase (“run rush run”) spelled out in glowing blue, pink, and purple neon lighting. To make neon lighting, glass tubes are heated, molded into shape, and filled with gas. An electrical current is passed through the gas to make it glow.
+Q: The student wants to explain what makes the neon sculpture glow. Which choice most effectively uses relevant information from the notes to accomplish this
+A) An electrical current passes through the gas-filled tubes in Run Rush Run, making them glow blue, pink, and purple.
+B) A glow emanates from Paksa’s sculpture, which is made of glass tubes.
+C) The sculpture’s glass tubes have been heated and molded to spell out the phrase “run rush run.”
+D) Paksa’s 1977 sculpture spells out the phrase “run rush run” in glowing blue, pink, and purple neon lights.
+K: A
+#21
+P: While researching a topic, a student has taken the following notes:
+L: Saturn has 146 moons, including Hyperion and Prometheus.
+L: Hyperion completes an orbit of Saturn in 21.28 Earth days on average.
+L: Prometheus completes an orbit of Saturn in 0.61 Earth days on average.
+L: German mathematician and astronomer Johannes Kepler (1571–1630) described the orbits of planets as elliptical in shape rather than circular.
+L: Kepler published three laws of planetary motion to describe the orbits of planets around the Sun.
+L: Kepler’s laws also apply to the elliptical orbits of natural satellites (e.g., moons).
+Q: The student wants to contrast the orbits of the two moons. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Saturn’s moons, specifically Hyperion and Prometheus, orbit their planet in the same way the planets orbit the Sun.
+B) Hyperion’s orbit of Saturn is elliptical in shape and takes, on average, 21.28 Earth days, while Prometheus’s orbit of Saturn is circular in shape and takes, on average, 0.61 Earth days.
+C) Kepler’s three laws of planetary motion describe the orbits of planets and natural satellites, including those of Hyperion and Prometheus.
+D) Prometheus completes its orbit of Saturn many times faster than Hyperion does.
+K: D

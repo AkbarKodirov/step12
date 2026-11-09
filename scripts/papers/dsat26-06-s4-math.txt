@@ -1,0 +1,281 @@
+!id: dsat26-06-s4-math
+!name: June 2026 · Mixed Set 4 · Math
+!type: MATH
+!year: 2026
+!month: 6
+!region: US & International
+!form: S4
+=M1
+#1
+Q: f(x) = 25x + 600<br>The function f gives the monthly fee f(x), in dollars, a storage company charges to keep x boxes in its warehouse. What is the monthly fee, in dollars, the company charges to keep 40 boxes in its warehouse?
+K: 1600
+#2
+Q: A square has a side length of 32 inches. What is the area, in square inches, of the square?
+A) 1,024
+B) 128
+C) 64
+D) 32
+K: A
+#3
+Q: Two candidates ran for the office of mayor of a town. A total of 4,020 votes were cast, and one candidate received twice as many votes as the other. How many votes did the winning candidate receive?
+A) 3,015
+B) 2,680
+C) 2,010
+D) 1,340
+K: B
+#4
+Q: An online store is offering two different discounts on its sweaters: a bulk discount for large orders and a coupon discount. For orders of n sweaters, where 10 &lt; n &lt; 50, a bulk discount of n% off the original price of $41 is applied to the price of each sweater. If a coupon is applied to the order, a discount of an additional $4 is applied to the price of each sweater, after the bulk discount is applied. For a certain order with both the bulk discount and the coupon discount applied, the total price after the discounts for the sweaters purchased was $741. How many sweaters were purchased in this order?
+A) 18
+B) 20
+C) 30
+D) 44
+K: C
+#5
+Q: The concentration of calcium, in milligrams per liter (mg/L), is found for three samples of water: bottled, tap, and mineral. The concentration of calcium in the sample of bottled water is 48% of the concentration of calcium in the sample of tap water and 24% of the concentration of calcium in the sample of mineral water. If the concentration of calcium in the sample of tap water is 36 mg/L, what is the concentration of calcium, in mg/L, in the sample of mineral water?
+K: 72
+#6
+Q: An airplane begins its descent from a cruising altitude of 33,000 feet and descends at a constant rate of 1,800 feet per minute. Which of the following statements best describes how the plane's distance from its cruising altitude changes over time?
+A) The plane's distance from its cruising altitude is increasing linearly over time.
+B) The plane's distance from its cruising altitude is decreasing linearly over time.
+C) The plane's distance from its cruising altitude is increasing exponentially over time.
+D) The plane's distance from its cruising altitude is decreasing exponentially over time.
+K: A
+#7
+Q: A number f is 180% greater than a positive number g. A number h is 55% less than the number f . The number h is how many times the number g?
+A) 0.81
+B) 0.99
+C) 1.26
+D) 1.54
+K: C
+#8
+Q: A square has a side length of 56 inches. What is the area, in square inches, of the square?
+A) 56
+B) 112
+C) 224
+D) 3,136
+K: D
+#9
+Q: f(x) = (x − 11) + 12<br>What is the minimum value of the given function?
+A) 1
+B) 11
+C) 12
+D) 23
+K: C
+#10
+Q: If 9x + 4 = 67, what is the value of 90x + 40?
+A) 7
+B) 70
+C) 130
+D) 670
+K: D
+#11
+Q: A length of 450 meters is equal to how many decimeters? (1 meter = 10 decimeters)
+K: 4500
+#12
+Q: x + 6y = 28<br>6y = 14<br>The solution to the given system of equations is (x, y). What is the value of x?
+K: 14
+#13
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 293 pounds when entering hibernation and lost weight at a mean rate of 0.9 pounds per day. At this rate, how many days after entering hibernation would the black bear weigh 230 pounds?
+A) 57
+B) 63
+C) 70
+D) 207
+K: C
+#14
+Q: y = 9x + 19<br>One of the two equations in a system of linear equations is given. The system has infinitely many solutions. If the second equation in this system is y = mx + b, where m and b are constants, what is the value of b?
+K: 19
+#15
+Q: If 5x + 2 = 32, what is the value of 50x + 20?
+A) 6
+B) 60
+C) 70
+D) 320
+K: D
+#16
+Q: A jar has 430 marbles, and 20% of these marbles are blue. How many marbles in the jar are blue?
+A) 86
+B) 172
+C) 215
+D) 410
+K: A
+#17
+Q: The width of a rectangle is 16 inches less than 2 times its length, in inches. The area of the rectangle is 130 square inches. What is the width, in inches, of the rectangle?
+A) 5
+B) 10
+C) 13
+D) 18
+K: B
+#18
+Q: If 5x + 7 = 52, what is the value of 50x + 70?
+A) 9
+B) 90
+C) 120
+D) 520
+K: D
+#19
+Q: A sample was selected at random from a population. Based on the sample, it is estimated that the mean value of a variable for this population is 178, with an associated margin of error of 1.5. Based on the estimate and associated margin of error, which of the following best describes the range of plausible values for the population mean?
+A) Any value between 175 and 178
+B) Any value between 176.5 and 179.5
+C) Any value less than 176.5
+D) Any value greater than 179.5
+K: B
+#20
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 258 pounds when entering hibernation and lost weight at a mean rate of 0.8 pounds per day. At this rate, how many days after entering hibernation would the black bear weigh 210 pounds?
+A) 39
+B) 48
+C) 60
+D) 168
+K: C
+#21
+Q: What is 5% of 220?
+A) 11
+B) 44
+C) 110
+D) 215
+K: A
+#22
+Q: A jar has 470 marbles, and 20% of these marbles are blue. How many marbles in the jar are blue?
+A) 94
+B) 188
+C) 235
+D) 450
+K: A
+=M2
+#1
+Q: y = 8x − 16<br>5x + y = 23<br>The solution to the given system of equations is (x, y). What is the value of x + y?
+K: 11
+#2
+Q: The function f is defined by f(x) = 58(0.17) . For any positive integer n, the value of f(n) is p% less than the value of f(n − 1). What is the value of p?
+A) 17
+B) 42
+C) 58
+D) 83
+K: D
+#3
+Q: 40(x − 1) = 5(−8 + 8x)<br>How many solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: D
+#4
+Q: The function f is defined by f(x) = 52(0.15) . For any positive integer n, the value of f(n) is p% less than the value of f(n − 1). What is the value of p?
+A) 15
+B) 48
+C) 52
+D) 85
+K: D
+#5
+Q: x + 6y = 27<br>6y = 14<br>The solution to the given system of equations is (x, y). What is the value of x?
+K: 13
+#6
+Q: How many solutions does the equation 14(x + 19) + 5x = 19(x + 14) have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#7
+Q: What is 5% of 580?
+A) 575
+B) 290
+C) 116
+D) 29
+K: D
+#8
+Q: 8x − 7y = 5<br>4x + y = 8<br>The solution to the given system of equations is (x, y). What is the value of x + y?
+K: 35/12 | 2.9167
+#9
+Q: A biologist mixed a solution that is 0.3% sodium chloride by mass with a solution that is 0.15% sodium chloride by mass to obtain a new solution, which has a mass of 150 grams and contains 0.36 grams of sodium chloride. How many grams of 0.3% sodium chloride solution did the biologist use?
+A) 0.24
+B) 60
+C) 90
+D) 149.76
+K: C
+#10
+Q: During hibernation, American black bears do not eat or replenish calories. A certain black bear weighed 326 pounds when entering hibernation and lost weight at a mean rate of 0.8 pounds per day. At this rate, how many days after entering hibernation would the black bear weigh 270 pounds?
+A) 45
+B) 56
+C) 70
+D) 216
+K: C
+#11
+Q: How many solutions does the equation 13(x + 16) + 3x = 16(x + 13) have?
+A) Exactly one
+B) Exactly two
+C) Infinitely many
+D) Zero
+K: C
+#12
+Q: The equation d = 27w + 100 gives the total amount of money d, in dollars, that Janna plans to save w weeks after she starts to save. What is the total amount of money, in dollars, she plans to save in 10 weeks?
+A) 320
+B) 370
+C) 420
+D) 470
+K: B
+#13
+Q: A sample was selected at random from a population. Based on the sample, it is estimated that the mean value of a variable for this population is 217, with an associated margin of error of 1. Based on the estimate and associated margin of error, which of the following best describes the range of plausible values for the population mean?
+A) Any value between 215 and 217
+B) Any value between 216 and 218
+C) Any value less than 216
+D) Any value greater than 218
+K: B
+#14
+Q: What is 5% of 880?
+A) 44
+B) 176
+C) 440
+D) 875
+K: A
+#15
+Q: Zuri has a goal to run at least 13 miles per week while training for a race. This week, she has run 6 miles. If x represents the additional number of miles Zuri needs to run this week to meet her goal, which inequality represents this situation?
+A) 6 − x ≤ 13
+B) 6 + x ≤ 13
+C) 6 − x ≥ 13
+D) 6 + x ≥ 13
+K: D
+#16
+Q: If 8(2x + 4) = 6(2x + 4) + 52, what is the value of 2x + 4?
+A) 52
+B) 26
+C) 22
+D) 11
+K: B
+#17
+Q: 9x(x + 5) = r<br>In the given equation, r is a positive constant. Which of the following must be true?
+A) The equation has no real solutions.
+B) The equation has exactly one real solution.
+C) The equation has two distinct real solutions.
+D) There is not enough information to determine the number of real solutions to the equation.
+K: C
+#18
+Q: A museum exhibit displays 69 artifacts on day 1. On each following day, 7 artifacts are added to the exhibit. The function f(x) = 7(x − 1) + 69 represents this situation, where f(x) is the total number of artifacts exhibited at the end of day x. According to the function, what is the number of artifacts that have been added to the exhibit by the end of day x?
+A) 69
+B) 7x
+C) 7x + 69
+D) 7(x − 1)
+K: D
+#19
+Q: To win a trivia game, a player needs to earn at least 80 total points from responding correctly to questions in two rounds of play. Correct responses in the first round are worth 3 points each, and correct responses in the second round are worth 7 points each. Which inequality represents the situation where the player does not win the game, where f is the number of correct responses in the first round and s is the number of correct responses in the second round?
+A) f + s &lt; 80
+B) 3f + 7s &lt; 80
+C) 7f + s &gt; 80
+D) 7f + 3s &gt; 80
+K: B
+#20
+Q: The quantity b is the result of increasing the positive quantity a by 5%. If the result of decreasing the quantity b by 9% is 343.98, what is the value of a?
+K: 360
+#21
+Q: If 5(2x + 8) = 3(2x + 8) + 76, what is the value of 2x + 8?
+A) 76
+B) 38
+C) 30
+D) 15
+K: B
+#22
+Q: A museum exhibit displays 73 artifacts on day 1. On each following day, 3 artifacts are added to the exhibit. The function f(x) = 3(x − 1) + 73 represents this situation, where f(x) is the total number of artifacts exhibited at the end of day x. According to the function, what is the number of artifacts that have been added to the exhibit by the end of day x?
+A) 73
+B) 3x
+C) 3x + 73
+D) 3(x − 1)
+K: D
