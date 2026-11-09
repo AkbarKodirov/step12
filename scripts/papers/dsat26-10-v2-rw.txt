@@ -330,7 +330,7 @@ A) Although the share of workers in cities employed in manufacturing grew betwee
 B) The total population of areas outside cities exceeded that of cities both in 1870 and in 1930, and by 1930, more than half of all workers residing in hinterlands were employed in sectors other than agriculture.
 C) Although the share of workers in incumbent cities employed in agriculture declined between 1870 and 1930, agricultural workers from incumbent cities likely relocated to hinterlands during this period rather than shift to other economic sectors.
 D) Growth in the proportion of workers residing in cities was mainly concentrated in cities established after 1870, and the share of workers employed in manufacturing in 1930 was smaller in incumbent cities than in cities established after 1870 and in hinterlands.
-K: A
+K: D
 #11
 I: /qimg/26-oct-v2-rw-fig3.png
 P: Maya Delgado and Rachel Chen analyzed changes in house wrens' song characteristics following playback of serialized recordings mimicking environmental noise. Because recordings earlier in a series may have carryover effects that influence vocal responses to later recordings, the effects of a recording's position within a series on changes in song characteristics were also evaluated. Larger absolute t‑values indicate stronger evidence that song characteristics change systematically with recording position (negative t‑values show that characteristics decreased), while p‑values below 0.05 suggest that the effects of recording position on song characteristics are statistically significant. The researchers concluded that the possibility of carryover effects cannot be excluded, given that ______
@@ -355,7 +355,7 @@ A) "Seriality in Bell's long song operates recursively, meaning that, in combina
 B) "Though at the outset of his project Bell conceived of Song of the Andoumboulou and Mu as two discrete series, in the preface of 2005's Interwoven Anthem, Bell indicates that their seriality eventually enabled his realization that they were in fact two facets of a single work."
 C) "The intellectual scope of Bell's work is capacious, drawing on such wide‑ranging cultural influences as the traditional stories of the Dogon people of West Africa, philosophical schools of the ancient Mediterranean, the history of the African diaspora, quantum mechanics, modernist poetry, and experimental jazz music."
 D) "Though nominally an epic whose band of wandering travelers evoke the ancient Greek epic hero Odysseus, unlike traditional Western epics, which often conclude with the hero's return home, Bell's long song possesses an open‑endedness that renders the final homecoming elusive."
-K: D
+K: A
 #14
 P: In a 2019 study, Linh Nguyen and Mai Tran found that Vietnamese consumers who reported more positive attitudes toward environmentally sustainable residences also reported greater intentions to purchase such properties. Subsequently, another team of researchers surveyed the attitudes of members of various demographic groups in Canada about a new mobile phone that is environmentally sustainable. Finding that suburban residents had the most positive attitude toward the mobile phone, the researchers, citing the results of Nguyen and Tran's study, concluded that suburban residents are more likely than other groups to purchase the mobile phone, suggesting that the researchers may have assumed that ______
 Q: Which choice most logically completes the text?
@@ -395,7 +395,7 @@ A) technicians, recognizing
 B) technicians, have recognized
 C) technicians recognize
 D) technicians can recognize
-K: C
+K: A
 #19
 P: Belize is among the forty‑one small countries that meet a series of objective criteria for microstate status proposed by political economist Archie Simpson in a 2022 ______ membership in the United Nations, which Belize attained in 1981; and adherence to the 1933 Montevideo Convention on the Rights and Duties of States.
 Q: Which choice completes the text so that it conforms to the conventions of Standard English?
