@@ -1,0 +1,336 @@
+!id: dsat24-12-c-math
+!name: December 2024 International · Form C · Math
+!type: MATH
+!year: 2024
+!month: 12
+!region: International
+!form: C
+=M1
+#1
+I: /qimg/24-12-c-m1-q1.svg
+Q: The graph of a system of two linear equations is shown. The solution to the system is (x, y). What is the value of y?
+A) −4
+B) −1
+C) 2
+D) 5
+K: C
+E: The lines cross at (−3, 2), so y = 2.
+#2
+Q: The function f is defined by f(x) = 45x + 30. What is the value of f(x) when x = 2?
+A) 77
+B) 90
+C) 120
+D) 150
+K: C
+E: f(2) = 90 + 30 = 120.
+#3
+Q: In the xy-plane, the graph of y = f(x) is a line that passes through (0, 28) and has a slope of 5. Which equation defines f?
+A) f(x) = 28x
+B) f(x) = 28x + 5
+C) f(x) = 5x
+D) f(x) = 5x + 28
+K: D
+E: The slope is 5 and the y-intercept is 28.
+#4
+T: <table><tr><th>x</th><th>y</th></tr><tr><td>0</td><td>23</td></tr><tr><td>1</td><td>24</td></tr><tr><td>2</td><td>25</td></tr></table>
+Q: The table shows three values of x and their corresponding values of y. There is a linear relationship between x and y. Which of the following equations represents this relationship?
+A) y = 23x
+B) y = 25x + 2
+C) y = 25x
+D) y = x + 23
+K: D
+E: y rises by 1 for each 1 in x, and y = 23 when x = 0.
+#5
+I: /qimg/24-12-c-m1-q5.svg
+Q: An object was launched upward from a platform. The graph shown models the height above ground, y, in meters, of the object x seconds after it was launched. For which of the following intervals of time was the height of the object increasing for the entire interval?
+A) From x = 0 to x = 2
+B) From x = 0 to x = 4
+C) From x = 2 to x = 3
+D) From x = 3 to x = 4
+K: A
+E: The height rises until its peak just after x = 2 and falls afterward, so only 0 to 2 is increasing throughout.
+#6
+Q: The relationship between the variables x and y is defined by an exponential equation. When x = 0, the value of y is 40, and for every increase in the value of x by 1, the corresponding value of y increases by 20% of its previous value. Which equation represents this relationship?
+A) y = 40(1.20)^x
+B) y = 40(1.02)^x
+C) y = 20(1.40)^x
+D) y = 20(1.04)^x
+K: A
+E: The starting value is 40 and the growth factor is 1 + 0.20 = 1.20.
+#7
+T: <table><tr><th>Task</th><th>Time (minutes)</th></tr><tr><td>A</td><td>5</td></tr><tr><td>B</td><td>4</td></tr><tr><td>C</td><td>11</td></tr><tr><td>D</td><td>10</td></tr><tr><td>E</td><td>10</td></tr></table>
+Q: The table shows the amount of time it took a participant in a study to complete each of 5 tasks. What was the mean time, in minutes, for this participant to complete a task?
+A) 7
+B) 8
+C) 10
+D) 11
+K: B
+E: (5 + 4 + 11 + 10 + 10)/5 = 40/5 = 8.
+#8
+Q: The function h is defined by h(x) = 7|x|. What is the value of h(−5)?
+A) −35
+B) 2
+C) 12
+D) 35
+K: D
+E: h(−5) = 7 · 5 = 35.
+#9
+T: <table><tr><th>x</th><th>h(x)</th></tr><tr><td>0</td><td>1.46</td></tr><tr><td>2</td><td>2.32</td></tr><tr><td>4</td><td>3.68</td></tr></table>
+Q: The table shows the exponential relationship between the number of years, x, since Isela started training in pole vault, and her estimated height, h(x), in meters, of her best pole vault for that year. Which of the following functions best represents this relationship, where x ≤ 4?
+A) h(x) = 1.26(0.46)^x
+B) h(x) = 1.26(1.46)^x
+C) h(x) = 1.46(0.26)^x
+D) h(x) = 1.46(1.26)^x
+K: D
+E: h(0) = 1.46 is the starting value, and 2.32/1.46 ≈ 1.59 = 1.26², so the growth factor per year is 1.26.
+#10
+I: /qimg/24-12-c-m1-q10.svg
+P: The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.
+Q: Which of the following is closest to the slope of the line of best fit shown?
+A) 10.95
+B) 0.69
+C) −0.69
+D) −10.95
+K: C
+E: The line starts near 11.5 and falls about 5.5 over 8 units, so the slope is about −0.69.
+#11
+I: /qimg/24-12-c-m1-q11.svg
+P: In the figure, line q is parallel to line r, and both lines are intersected by line s. If y = 2x + 9, what is the value of x?
+A) 25
+B) 34
+C) 56
+D) 66
+K: C
+E: The 59° angle and y° are supplementary, so y = 121. Then 2x + 9 = 121 and x = 56.
+#12
+Q: Line t in the xy-plane has a slope of −1/2 and passes through the point (8, 3). Which equation defines line t?
+A) y = 7x − 1/2
+B) y = 8x + 3
+C) y = −(x)/(2) + 3
+D) y = −(x)/(2) + 7
+K: D
+E: y − 3 = −(1/2)(x − 8) gives y = −x/2 + 7.
+#13
+P: (x − 20)(x − 12)(x + 5)(x + 17) = 0
+Q: What is a positive solution to the given equation?
+K: 20 | 12
+E: The positive solutions are x = 20 and x = 12.
+#14
+Q: A right circular cone has a height of 12 centimeters (cm) and a base with a radius of 4 cm. What is the volume, in cm^3, of this cone?
+A) 16π
+B) 48π
+C) 64π
+D) 192π
+K: C
+E: V = (1/3)π(4)^2(12) = 64π.
+#15
+Q: A linear model estimates the population of a city from 1992 to 2016. The model estimates the population was 51 thousand in 1992, 225 thousand in 2012, and x thousand in 2016. To the nearest whole number, what is the value of x?
+K: 260
+E: The rate is (225 − 51)/20 = 8.7 thousand per year, so x = 225 + 4(8.7) = 259.8 ≈ 260.
+#16
+P: y = 500(3)^(2x)
+Q: The equation gives the estimated number of online newsletter subscribers at the end of every six-month period, x, starting from the end of January 1992, where 0 ≤ x ≤ 4. Which statement is the best interpretation of the y-intercept of the graph of this equation in the xy-plane?
+A) The estimated number of online newsletter subscribers at the end of the first six-month period was 500.
+B) The estimated number of online newsletter subscribers at the end of January 1992 was 500.
+C) The estimated number of online newsletter subscribers at the end of January 1993 was 1,500.
+D) The estimated number of online newsletter subscribers at the end of January 1992 was 1,500.
+K: B
+E: At x = 0, y = 500(3)^0 = 500, the count at the end of January 1992.
+#17
+P: (x)/(3) + 8(y − 16) = 27
+P: (x)/(5) − 8(y − 16) = 45
+Q: The solution to the given system of equations is (x, y). What is the value of 8x?
+K: 1080
+E: Adding the equations gives (8x)/(15) = 72, so x = 135 and 8x = 1080.
+#18
+Q: When several resistors are connected in series in a circuit, the total resistance of the circuit is the sum of the resistances of these resistors. A certain circuit consists of 6 resistors connected in series, where the resistance of each resistor is positive. This circuit has a total resistance of 80 ohms. The total resistance of 2 resistors in this circuit is 60 ohms. Which inequality best represents all possible values of the resistance x, in ohms, of one of the other 4 resistors in this circuit?
+A) 0 < x < 5
+B) 0 < x < 20
+C) 20 < x < 60
+D) 20 < x < 80
+K: B
+E: The other 4 resistors total 20 ohms, and each is positive, so each is between 0 and 20.
+#19
+Q: Jasmin grows bean pods in her garden. This year, she harvested 490 bean pods and saved 10% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?
+A) 39
+B) 49
+C) 57
+D) 59
+K: B
+E: 10% of 490 is 49.
+#20
+Q: A family has money in an account for renting movies online. Each time the family rents a movie, the cost of the rental is withdrawn from the account, and each rental costs the same amount of money. The function f(m) = 24 − 6m gives the amount of money, in dollars, in the account after the family has rented m movies. Which of the following represents the amount of money, in dollars, withdrawn from the account each time the family rents a movie?
+A) 6m
+B) 6
+C) 24
+D) 24 − 6m
+K: B
+E: The money decreases by 6 dollars per movie.
+#21
+Q: If 9 − 6(3 − 4x) = 6 − 7(3 − 4x), what is the value of 3 − 4x?
+K: −3
+E: Let t = 3 − 4x. Then 9 − 6t = 6 − 7t, so t = −3.
+#22
+Q: On a plot of land, 52.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 21.5% of the square footage of the farmland, and there are buildings on exactly 14.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?
+K: 17.9
+E: 0.215(0.52) + 0.14(0.48) = 0.1118 + 0.0672 = 0.179, so p = 17.9.
+=M2
+#1
+Q: Levi and Marissa each have stamp collections. The number of stamps in Levi’s collection is 200% of the number of stamps in Marissa’s collection. If there are 196 stamps in Marissa’s collection, how many stamps are in Levi’s collection?
+A) 98
+B) 196
+C) 392
+D) 588
+K: C
+E: 200% of 196 is 392.
+#2
+I: /qimg/24-12-c-m2-q2.svg
+Q: The graph of a system of a linear equation and a quadratic equation is shown. Which of the following is a solution (x, y) to the system?
+A) (−1, 5)
+B) (0, 0)
+C) (0, 9)
+D) (1, 5)
+K: A
+E: The line and the parabola meet at (−1, 5). The other points lie on only one of the graphs.
+#3
+Q: An object moves at a speed of (3)/(52) feet per second. What is this speed, in yards per second? (3 feet = 1 yard)
+A) 1/52
+B) 9/52
+C) 6
+D) 52
+K: A
+E: Divide by 3: (3/52)/3 = 1/52.
+#4
+Q: Which expression is equivalent to 158t^3 − 36t^2u?
+A) 2t(79t^2 − 18u)
+B) 2t^2(79t − 18u)
+C) 2tu(79t^2 − 18)
+D) 2t^2u(79t − 18)
+K: B
+E: Factor out the common 2t^2.
+#5
+Q: Circle K has a radius of 11 millimeters (mm). Circle L has an area of 144π mm^2. What is the total area, in mm^2, of circles K and L?
+A) 23π
+B) 46π
+C) 92π
+D) 265π
+K: D
+E: Circle K has area 121π, so the total is 121π + 144π = 265π.
+#6
+Q: Which expression is equivalent to 2(x − (7)/(2))(x + 6)?
+A) x^2 + 5x − 21
+B) 2x^2 − x − 21
+C) 2x^2 + 5x − 42
+D) 2x^2 − 42
+K: C
+E: 2(x − 7/2) = 2x − 7, and (2x − 7)(x + 6) = 2x^2 + 5x − 42.
+#7
+Q: The function f is defined by f(x) = (−6)(4)^x + 35. What is the y-intercept of the graph of y = f(x) in the xy-plane?
+A) (0, 29)
+B) (0, 4)
+C) (0, 35)
+D) (0, −6)
+K: A
+E: f(0) = −6 + 35 = 29.
+#8
+Q: If 4x + 7 = 15, what is the value of 8x − 3?
+K: 13
+E: 4x = 8 gives x = 2, so 8x − 3 = 13.
+#9
+P: y < 24 − 8x
+P: (y)/(8) > 9
+Q: Which inequality represents the x values for all solutions (x, y) that satisfy the given system of inequalities in the xy-plane?
+A) x > 3
+B) x < 3
+C) x > −6
+D) x < −6
+K: D
+E: y > 72, so 72 < 24 − 8x, which gives x < −6.
+#10
+Q: In the xy-plane, an equation of circle A is (x − 4)^2 + (y − 2)^2 = 9. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?
+A) (x − 4)^2 + (y − 2)^2 = 18
+B) (x − 4)^2 + (y − 2)^2 = 36
+C) (x − 4)^2 + (y − 2)^2 = 54
+D) (x − 4)^2 + (y − 2)^2 = 81
+K: B
+E: Circle A has radius 3, so circle B has radius 6 and r^2 = 36.
+#11
+I: /qimg/24-12-c-m2-q11.svg
+P: A park designer wants to find the length x, in feet, across a pond as represented in the figure. PR intersects ST at point Q, and angle PTQ is congruent to angle RSQ. The lengths represented by PQ, TQ, QS, and RS were determined to be 6,300 feet, 10,800 feet, 1,200 feet, and 1,800 feet, respectively. What is the value of x?
+K: 16200
+E: Triangles PTQ and RSQ are similar. TQ/SQ = 10,800/1,200 = 9, so x = 9 × 1,800 = 16,200.
+#12
+I: /qimg/24-12-c-m2-q12.svg
+Q: In the figure shown, the measure of angle X is 53°. The length of XY is 24 units and the length of XZ is 19 units. What is the area, in square units, of triangle XYZ?
+A) 456 sin 53°
+B) 228 sin 53°
+C) 456
+D) 228
+K: B
+E: Area = (1/2)(24)(19) sin 53° = 228 sin 53°.
+#13
+P: y = −1.5
+P: y = x^2 + 4x + a
+Q: In the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?
+K: 3
+E: x^2 + 4x + a + 1.5 = 0 has no real solutions when 16 − 4(a + 1.5) < 0, so a > 2.5 and the least integer is 3.
+#14
+Q: A partially filled container containing 26 milliliters of water is placed under a leaky faucet that produces one 0.08-milliliter drop of water every 8 seconds. Until the container is full, which of the following can be used to represent the volume v, in milliliters, of water in the container t seconds after it is placed under the faucet, where t is a multiple of 8?
+A) v = 0.01t + 26
+B) v = 0.08t + 26
+C) v = 0.64t + 26
+D) v = 8t
+K: A
+E: The rate is 0.08/8 = 0.01 milliliters per second, starting from 26.
+#15
+Q: A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (°F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325°F. Based on the first sample, the research manager estimated that this type of oven takes an average of 14.3 minutes to preheat to 325°F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 14.5 minutes to preheat to 325°F, with an associated margin of error of 2.1 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?
+A) The first sample contained fewer ovens than the second sample.
+B) The first sample contained more ovens than the second sample.
+C) The first sample took less time on average to preheat to 325°F than the second sample.
+D) The first sample took more time on average to preheat to 325°F than the second sample.
+K: B
+E: A larger sample gives a smaller margin of error.
+#16
+P: −(2)/(19)rx + (s)/(8) = 14 − (7)/(57)x
+Q: In the given equation, r and s are constants. The equation has no solution. What is the value of r?
+K: 7/6 | 1.1667 | 1.1666
+E: No solution requires equal x-coefficients: −2r/19 = −7/57, so r = 7/6.
+#17
+P: −3x(x + 7) = 27
+Q: One solution to the given equation can be written as x = −(s + √t)/(2), where s and t are positive integers. What is the value of s/t?
+A) 7/85
+B) 7/40
+C) 7/13
+D) 14/13
+K: C
+E: x^2 + 7x + 9 = 0 gives x = (−7 ± √13)/2, so s = 7, t = 13 and s/t = 7/13.
+#18
+Q: The equation N(m) = 61(Q)^(m/4) gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 120 seconds. What is the value of p in terms of Q?
+A) 100(Q^(1/4) + 1)
+B) 100(Q^30 + 1)
+C) 100(Q^(1/2) − 1)
+D) 100(Q^30 − 1)
+K: C
+E: 120 seconds is 2 minutes, so the population is multiplied by Q^(2/4) = Q^(1/2). The percent increase is 100(Q^(1/2) − 1).
+#19
+Q: A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. According to the model, the object was launched from a height of 0 feet and reached its maximum height of 1,936 feet 11 seconds after it was launched. Based on the model, what was the height, in feet, of the object 5 seconds after it was launched?
+K: 1360
+E: h(t) = −a(t − 11)^2 + 1936 with h(0) = 0 gives a = 16. Then h(5) = 1936 − 16(36) = 1360.
+#20
+Q: The function p is defined by p(x) = a(((x + 5)^2 − b)((x + 5)^2 − c)), where a, b, and c are constants. In the xy-plane, the graph of y = p(x) passes through the points (−6, 35) and (0, 323). What is the value of p(−10) + p(−4)?
+K: 358
+E: p(x) depends on (x + 5)^2, so p(−4) = p(−6) = 35 and p(−10) = p(0) = 323. The sum is 358.
+#21
+P: 19(x − n) = 19y + 19n
+Q: One of the equations in a system of two linear equations is given, where n is a positive constant. The system has no solution. Which equation could be the second equation in this system?
+A) 2x − 2y = 4n
+B) 2x + 2y = 2n
+C) 2x + 2y = 4n
+D) 2x − 2y = 2n
+K: D
+E: The given equation is x − y = 2n. A line with the same slope but a different intercept, such as x − y = n (2x − 2y = 2n), gives no solution.
+#22
+P: (x − k)^2 = (k − 5a)(x − k)
+Q: In the given equation, a and k are constants, where k > 5a. The sum of the solutions to the equation is 3k + 21. What is the value of a?
+K: −21/5 | −4.2
+E: The solutions are x = k and x = 2k − 5a, so 3k − 5a = 3k + 21 and a = −21/5.
