@@ -51,14 +51,14 @@ function MockPreview() {
 
 export function Features() {
   return (
-    <section id="features" className="scroll-mt-20 py-24 sm:py-32">
+    <section id="features" className="scroll-mt-20 py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="max-w-2xl">
           <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">Everything between you and test day, in one place.</h2>
           <p className="mt-5 text-[16px] leading-relaxed text-white/55">Practice, full mocks, review and planning share one record of your progress, so Humo always knows what to give you next.</p>
         </Reveal>
 
-        <div className="mt-14 grid gap-3 md:grid-cols-6">
+        <div className="mt-9 grid gap-3 md:grid-cols-6">
           <Card className="md:col-span-6 border-[#2d70b3]/30" title="Humo solves Math the Desmos way — only in Uzbekistan" body="Send any Math question. Humo turns it into Desmos lines, graphs it on a real Desmos screen and checks every number before you see it. Open it live in one click, or train on 132 hard questions in the Desmos Lab.">
             <div className="grid items-center gap-5 lg:grid-cols-[0.8fr_1.2fr]">
               <ol className="space-y-2 font-mono text-[13px] text-white/75">

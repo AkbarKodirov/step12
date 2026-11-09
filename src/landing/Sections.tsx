@@ -24,7 +24,7 @@ export const uniLogo = (domain: string) => `https://www.google.com/s2/favicons?d
 export function Proof() {
   const row = [...UNIVERSITIES, ...UNIVERSITIES]
   return (
-    <section className="border-t border-white/[0.07] py-12" aria-label="Universities our students aim for">
+    <section className="border-t border-white/[0.07] py-8" aria-label="Universities our students aim for">
       <p className="mx-auto max-w-7xl px-4 text-[13px] text-white/40 sm:px-6">Humo AI students aim for universities like these</p>
       <div className="relative mt-6 overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_10%,black_90%,transparent)]">
         <ul className="flex w-max animate-marquee gap-4 hover:[animation-play-state:paused]">
@@ -50,12 +50,12 @@ export function HowItWorks() {
     ['Sit full mocks before test day', 'Timed, adaptive mocks show whether you are on track — and what to fix in the last weeks.'],
   ]
   return (
-    <section className="border-t border-white/[0.07] py-24 sm:py-32">
+    <section className="border-t border-white/[0.07] py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal>
           <h2 className="display max-w-2xl text-[clamp(2.1rem,4.4vw,3.5rem)]">From first login to test day.</h2>
         </Reveal>
-        <ol className="mt-14 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
+        <ol className="mt-9 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
           {steps.map(([t, b], i) => (
             <motion.li key={t} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }} className="bg-ink p-6 sm:p-7">
               <span className="grid size-8 place-items-center rounded-full border border-jg-500/40 text-[13px] font-semibold tabular-nums text-jg-300">{i + 1}</span>
@@ -99,13 +99,13 @@ const PLANS = [
 
 export function Pricing() {
   return (
-    <section id="pricing" className="scroll-mt-20 border-t border-white/[0.07] py-24 sm:py-32">
+    <section id="pricing" className="scroll-mt-20 border-t border-white/[0.07] py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="max-w-xl">
           <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">Less than one private lesson a month.</h2>
           <p className="mt-5 text-[16px] leading-relaxed text-white/55">Start free. Upgrade when your test date gets close.</p>
         </div>
-        <div className="mt-14 grid gap-3 lg:grid-cols-3">
+        <div className="mt-9 grid gap-3 lg:grid-cols-3">
           {PLANS.map((p, i) => (
             <motion.div
               initial={{ opacity: 0, y: 22 }}
@@ -161,7 +161,7 @@ const FAQ = [
 export function Faq() {
   const [open, setOpen] = useState<number | null>(0)
   return (
-    <section id="faq" className="scroll-mt-20 border-t border-white/[0.07] py-24 sm:py-32">
+    <section id="faq" className="scroll-mt-20 border-t border-white/[0.07] py-14 sm:py-20">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr]">
         <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">Questions students ask us.</h2>
         <div className="divide-y divide-white/[0.08] border-y border-white/[0.08]">
@@ -187,7 +187,7 @@ export function Faq() {
 
 export function FinalCta() {
   return (
-    <section className="relative overflow-hidden border-t border-white/[0.07] py-28 sm:py-36">
+    <section className="relative overflow-hidden border-t border-white/[0.07] py-16 sm:py-24">
       <div className="pointer-events-none absolute left-1/2 top-1/2 size-[46rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-jg-500/[0.13] blur-[140px]" />
       <div className="pointer-events-none absolute left-1/2 top-1/2 size-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-jg-500/20" />
       <div className="relative mx-auto flex max-w-3xl flex-col items-center px-4 text-center">
@@ -252,12 +252,12 @@ const INSIDE = [
 
 export function Inside() {
   return (
-    <section className="border-t border-white/[0.07] py-24 sm:py-28">
+    <section className="border-t border-white/[0.07] py-14 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal>
           <h2 className="display max-w-2xl text-[clamp(2.1rem,4.4vw,3.5rem)]">Built like a tutor, not a question dump.</h2>
         </Reveal>
-        <div className="mt-12 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
           {INSIDE.map(([t, b], i) => (
             <motion.div key={t} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: '-60px' }} transition={{ delay: (i % 4) * 0.08, duration: 0.6 }} className="bg-ink">
               <Spotlight className="h-full p-6">
