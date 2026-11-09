@@ -1,0 +1,498 @@
+!id: dsat26-03-int-b-rw
+!name: March 2026 International · Version B · Reading & Writing
+!type: EBRW
+!year: 2026
+!month: 3
+!region: International
+!form: B
+=M1
+#1
+P: Lima beans were domesticated in South America. Their physical structure is no longer identical to the structure of the wild plant they are descended from. Summer squash also its wild ancestor. That ancestor plant had a hard rind and bitter flesh. Indigenous people in eastern North America carefully bred the crop until it had a soft rind and mild-tasting flesh.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) reacts to
+B) helps with
+C) varies from
+D) argues with
+K: C
+E: The correct answer is C) varies from
+#2
+P: "Eyes of Zapata" is an English-language short story by Sandra Cisneros. It occasionally includes Spanish words and phrases. The English text surrounding hese words and phrases their meaning, so readers who aren't familiar with Spanish can easily read the story. Ana Castillo takes the same approach in her novel So Far from God.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) loses Kd v
+B) purchases
+C) suspects
+D) suggests
+K: D
+E: The correct answer is D) suggests
+#3
+P: The dinosaur displays at museums such as the American Museum of Natural History in New York (which has a mounted Allosaurus fragilis skeleton among its holdings) are notable for the of the research behind them --- the museum staff consulted numerous sources to ensure the accuracy of the displays.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) novelty
+B) obscurity
+C) rigor
+D) shallowness
+K: C
+E: The correct answer is C) rigor
+#4
+P: The following text is from Lilliam Rivera's 2020 novel Never Look Back. The text describes the narrator arriving at his father's apartment. "Pops, I'm here!" drop my bag and set my guitar case against a wall. place my keys on the bowl right next to the ceramic elephant Pops got me on one of his trips to Santo Domingo when was a little kid.
+Q: As used in the text, what does the word "drop" most nearly mean?
+A) Unbolt
+B) Put down
+C) Forget about
+D) Erase
+K: B
+E: The correct answer is B) Put down
+#5
+P: The following text is adapted from Maria Amparo Ruiz de Burton's 1885novel The Squatter and the Don. Mercedes and Clarence, who develop aromantic relationship in the novel, have been traveling with a group of friends. [Mercedes] was still very pale, and her hands yet trembled, when the thundering of the east-bound train was heard in the distance. Two shrieks pierced the air simultaneously, as the two trains passed each other. Her heart gave accelerated throbs when she heard those shrieks, because she knew that one of them came from the train which bore Clarence away, and it seemed to her as if expressive of his pain at being torn from her. Yes, that magician, the locomotive, understood it all, and shrieked to say he did so, because he knew she, too, wished to shriek like that.
+Q: Which choice best states the main idea of the text?
+A) Mercedes shares a passion for locomotive travel witff Clarence.
+B) The sounds at the train station irritate Mercedes.
+C) Clarence boarded his train at the last minute.
+D) Mercedes feels heartbroken to be separated from Clarence. a A\ “id
+K: D
+E: The correct answer is D) Mercedes feels heartbroken to be separated from Clarence. a A\ “id
+#6
+P: Seventeenth-century Flemish artist Clara Peeters played a crucial role in the history of still-life painting. At a time when historical paintings were the preferred genre --- indeed, at a time when there wasn't even a term for still-life painting in Peeters's language --- Peeters painted food, flowers, fish and game. Her influence spread throughout Western Europe and she became so strongly associated with the genre that painters who took up similar subjects were sometimes described as belonging to the “circle of Peeters."
+Q: Which choice best states the main idea of the text?
+A) Clara Peeters was an important figure in the development of still-life painting
+B) Clara Peeters made significant contributions to multiple genres of painting.
+C) Clara Peeters introduced the term "still-life painting" to Western Europe.
+D) Some paintings attributed to Clara Peeters may have been painted by other artists in her circle
+K: A
+E: The correct answer is A) Clara Peeters was an important figure in the development of still-life painting
+#7
+P: The following text is from an 1894 translation of Alexandre Dumas's 1844 novel The Count of Monte- Cristo. Dantes is searching for a treasure and finds a cave whose opening has been deliberately blocked by a large rock. Hercules is a hero of Greek mythology. Dantes dug away the earth carefully, and detected, or fancied he detected, the ingenious artifice. He attacked this wall, cemented by the hand of time, with his pickaxe. After ten minutes’ labor the wall gave way, and a hole large enough to insert the arm was opened. Dantes went and cut the strongest olive-tree he could find, stripped off its branches, inserted it in the hole, and used it as a lever. But the rock was too heavy, and too firmly wedged, to be moved by any one man, were he Hercules himself.
+Q: Which statement about Dantes is best supported by the text?
+A) He is determined in his efforts to move the rock away from the opening of the cave.
+B) He is worried he will lack the courage to enter the cave when the entrance is finally opened.
+C) He is unsure why the cave's opening was purposely hidden behind a wall and a large rock.
+D) He is aware that his impatience is causing him to make clumsy errors as he enlarges the hole in the wall.
+K: A
+E: The correct answer is A) He is determined in his efforts to move the rock away from the opening of the cave.
+#8
+P: Bioluminescence is most commonly found among marine organisms: 70% of known luminescent species inhabit ocean environments. This trait is remarkably stable and has evolved independently in many marine species over time. Light-emitting marine species, like the Humboldt squid with its flashing light displays, exhibit accelerated diversification compared to nop-luminescent relatives. This increased genetic variety among related light-emitting species further yinderscores bioluminescence's crucial role in marine biodiversity and evolution.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) To provide a statistical comparison between two catggories of bioluminescent species that is elaborated on in the rest of the text
+B) To present a scientific finding that the text's discussion of the evolutionary history of bioluminescence calls into question
+C) To provide data that support an argument made in the text about a particular light-emitting ocean species
+D) To support the text's assertion that bioluminescence is associated with particular environments
+K: D
+E: The correct answer is D) To support the text's assertion that bioluminescence is associated with particular environments
+#9
+P: H In 2014 Marta S. Pimentel and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of Coryphaena hippurus, a species of fish. However, Pimentel and colleagues’ study relied on a mean sample size of only 10 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.
+Q: What is the main topic of the scientific research discussed in the text?
+A) Feeding patterns of top marine predators
+B) Loss of marine diversity due to overfishing
+C) Changes in technologies used to capture fish
+D) Effects of ocean acidification on fish behavior
+K: D
+E: The correct answer is D) Effects of ocean acidification on fish behavior
+#10
+I: /qimg/26-03-int-b-rw-m1-q10.png
+P: A marine biologist is researching four scleractinian coral species, which are also called stony corals because of the hard skeletons they develop. Consulting the table, she notes that the two species for which the maximum depths are most similar are 4
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) Astreopora expansa and Scolymia lacera.
+B) Astreopora expansa and Acropora echinata.
+C) Acropora echinata and Danafungia scruposa.
+D) Danafungia scruposa and Scolymia lacera.
+K: C
+E: The correct answer is C) Acropora echinata and Danafungia scruposa.
+#11
+P: Peter Pan is a 1911 novel by J.M. Barrie. In the fantasy novel, a dog named Nana is a nurse (nanny) for the children in the Darling family-Wendy, John, and Michael. The narrator describes Nana as planning for events like a human would:
+Q: Which quotation from Peter Pan best illustrates the claim?
+A) "On John's [soccer] days [Nana] never once forgot his sweater, and she usually carried an umbrella in her mouth in case of rain."
+B) "[Mrs. Darling] was wearing Wendy's bracelet on her arm."
+C) "Mrs. Darling loved to have everything just so, and Mr. Darling had a passion for being exactly like his neighbours."
+D) "Of course [Nana's] kennel was in the nursery."
+K: A
+E: The correct answer is A) "On John's [soccer] days [Nana] never once forgot his sweater, and she usually carried an umbrella in her mouth in case of rain."
+#12
+P: Life Among the Paiutes is an 1882 autobiographical narrative by Sarah Winnemucca Hopkins, a Northern Paiute author, educator, and activist. In the work, Winnemucca directly addresses the reader to explain certain customs, writing
+Q: Which quotation from Life Among the Paiutes most effectively illustrates the claim?
+A) "But how can describe the scene that followed? Some of you, dear readers, can imagine.”
+B) "Now, my dear reader, there is no word so endearing as the word father, and that is why [my people] call all good people father or mother."
+C) "During the time my grandfather was away in California, where he [stayed] till after the Mexican war, there was a girl-baby born in our family."
+D) “We would all go in company to see if the flowers we were flavored are right there.”
+K: B
+E: The correct answer is B) "Now, my dear reader, there is no word so endearing as the word father, and that is why [my people] call all good people father or mother."
+#13
+P: Biochemists |. Sam Saguy and Eli J. Pinthus studied the mass and heat transfer processes that occur when foods, such as the Indian snacks batata vada and sabudana vada, are fried in oil. During frying, water in the crust evaporates, leaving voids that oil can fill, thereby increasing the food's fat content. As the process continues, water from the food's center moves to the crust as long as the crust remains permeable. Therefore, the more moisture a food loses during frying,
+Q: Which choice most logically completes the text?
+A) the lower the temperature must be to fry the food.
+B) the softer the crust will be when frying is completed.
+C) the higher the fat content will be when frying is completed.
+D) the quicker the crust will lose its permeability.
+K: C
+E: The correct answer is C) the higher the fat content will be when frying is completed.
+#14
+P: Accurately measuring the sizes of marine fish populations is challenging because predation, reproduction, and fishing are constantly affecting those populations’ numbers. To avoid overfishing, many commercial fishers rely on complex computer models that estimate current and historical fish population sizes. These models incorporate various biological factors, such as fish size, age distribution, and reproductive rates. Recently, a team of researchers examined decades of modeled predictions for 230 major commercidlly fished species. They discovered that the models often overestimated fish population sizes. And contrary to their expectations, the researchers found that accuracy did not improve as the data grew overtime. The team's discovery most directly suggests that
+Q: Which choice most logically completes the text?
+A) it is important to incorporate more diverse data sources, including commercial fishers’ observations, into population size models.
+B) researchers should be cautious when considering findings about commercially fished populations that predate the development of the models.
+C) some commercial fishers have likely been unknowingly overfishing and may need to decrease their catches going forward.
+D) environmental factors, rather than commercial fishing, play a role in the population size models
+K: C
+E: The correct answer is C) some commercial fishers have likely been unknowingly overfishing and may need to decrease their catches going forward.
+#15
+P: Louis-Ferdinand Celine's 1932 novel Journey to the End of the Night is regularly described as autobiographical. That characterization is apt-there are many parallels between the experiences of the novel's protagonist, Ferdinand Bardamu, and those of Celine-but it should not be taken to mean that every person or event depicted in Journey to the End of the Night has a real-life analogue. Much of the novel is pure invention, and readers who neglect this fact and instead focus excessively on correspondences between the novel and Celine's life can thus ______
+Q: Which choice most logically completes the text?
+A) misrepresent Journey to the End of the Night as being more widely read than it actually is.
+B) fail to appreciate how much creativity Celine shows in the book.
+C) refuse to acknowledge that Celine drew on real-world material when writing Journey to the End of the Night.
+D) overemphasize the extent to which Celine took inspiration from earlier writers
+K: B
+E: The correct answer is B) fail to appreciate how much creativity Celine shows in the book.
+#16
+P: Though they are in different countries, the towns of Entebbe, Uganda, and Booue, Gabon, _____ They are among the rare places that sit almost directly on the equator.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) do have something in common?
+B) do they have something in common
+C) do they have something in common?
+D) do have something in common.
+K: D
+E: The correct answer is D) do have something in common.
+#17
+P: Among several noun cases used in Sanskrit and other Indo-Aryan languages _____ the locative case, used to indicate that an action is occurring in, at, on, or near a particular noun.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) have been a
+B) are
+C) is
+D) were
+K: C
+E: The correct answer is C) is
+#18
+P: It was long thought that maize was domesticated solely from parviglumis --- a subspecies of teosinte, a wild grass --- in Mexico's lowlands about 9,000 years ago. However, a 2024 analysis has revealed that between 15 and 25 percent of maize's genes can be traced to a second _____ highland subspecies of teosinte that was hybridized with maize around 4,000 years after the initial domestication.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) ancestor; mexicana, a
+B) ancestor: mexicana, a
+C) ancestor mexicana a
+D) ancestor, mexicana. A
+K: B
+E: The correct answer is B) ancestor: mexicana, a
+#19
+P: Hummingbird flower mites use electroreception to detect electric fields created by flapping hummingbird wings, allowing mites to travel from flower to flower in hummingbird beaks. Both host detection and transportation are electrically when mites move their legs toward the arriving hummingbird, they are pulled by electrostatic force to the bird's modulated electric fields-a process that occurs in milliseconds.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) mediated,
+B) mediated
+C) mediated:
+D) mediated and
+K: C
+E: The correct answer is C) mediated:
+#20
+P: An emulsifier is a type of compound that serves to stabilize an emulsion --- a mixture of two or more liquids that otherwise would not easily blend together, like oil and water. Though modern chemists commonly use emulsifiers like poloxamer 407 in their formulations, emulsifiers that have been employed for millennia, such as beeswax and egg yolk, used to this day by chemists as well.
+Q: Which choice completes the text so that it conforms to the conventions af Standard English? E)
+A) are
+B) would have been
+C) were being .
+D) were
+K: A
+E: The correct answer is A) are
+#21
+P: In Art Med inSight, a series of art-based medical education classes taught by Anne Willieme, medical students learn to use techniques more often associated with the arts, such as slowing down interpretation and considering multiple perspectives. Willieme's students develop better observational skills, enhancing their ability to understand and diagnose patients effectively.
+Q: Which choice completes the text with the most logical transition?
+A) Nevertheless,
+B) In doing so,
+C) For example,
+D) By contrast,
+K: B
+E: The correct answer is B) In doing so,
+#22
+P: The World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Germany, in 2006. The event, which is held every four years, used to be much smaller and more limited geographically. the 1930 World Cup in Uruguay included only 13 teams, all from Europe and the Americas.
+Q: Which choice completes the text with the most logical transition?
+A) In addition,
+B) At last,
+C) For example,
+D) However,
+K: C
+E: The correct answer is C) For example,
+#23
+P: Karel Capek's 1920 play RU.R. (Rossum's Universal Robots), in which artificial workers overthrow their masters, left an indelible mark on the science fiction genre, and the English language, by introducing the term "robot" (derived from the Czech word robota, meaning "indentured labor" or "drudgery"). _____ Capek's play also contributed to a venerable literary and mythological tradition: using artificial beings as mirrors and foils for humanity.
+Q: Which choice completes the text with the most logical transition?
+A) By achieving such a lofty goal,
+B) Beyond the simple coining of a term,
+C) Despite its creation of such an iconic trope,
+D) Ultimately limited in its lasting influence,
+K: B
+E: The correct answer is B) Beyond the simple coining of a term,
+#24
+P: While researching a topic, a student has taken the following notes: - The human tongue contains taste receptors for a rich, savory flavor callgd umami. - Umami is triggered by the compounds in a variety of foods, including sardines and mushrooms - Participants in a study tasted a sample of wakame, a type of brown seaweed. - They rated its umami intensity as moderate. . - The participants tasted a sample of ma-konbu, another type of brown seaweed - They rated its umami intensity as high.
+Q: The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) While wakame and ma-konbu eSntain umami flavor, umami can also be found in sardines and mushrooms.
+B) After tasting two types of brown seaweed, wakame and ma-konbu, participants in a study found ma-konbu's umami flavor to be the more intense of the two.
+C) Wakame is a type of brown seaweed, but so is ma-konbu.
+D) Some types of brown seaweed, like wakame and ma-konbu, trigger umami flavor in human taste buds.
+K: B
+E: The correct answer is B) After tasting two types of brown seaweed, wakame and ma-konbu, participants in a study found ma-konbu's umami flavor to be the more intense of the two.
+#25
+P: While researching a topic, a student has taken the following notes: - An isthmus is a strip of land that connects two larger pieces of land across an expanse of water. - It is also known as a land bridge. - The Isthmus of Tehuantepec is located in Mexico. - It connects the southern tip of Mexico to the northern part of Mexico.
+Q: The student wants to provide a specific example of an isthmus. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) There is a land bridge in Mexico
+B) One example of an isthmus is the Isthmus of Tehuantepec in Mexico.
+C) An isthmus, also known as a land bridge, is a strip of land that connects two larger pieces of land across an expanse of water.
+D) In Mexico, the southern tip of Mexico is connected to the northern part of Mexico.
+K: B
+E: The correct answer is B) One example of an isthmus is the Isthmus of Tehuantepec in Mexico.
+#26
+P: While researching a topic, a student has taken the following notes: - There are around 90 automated snow measurement sites in Wyoming. - One site is at Cloud Peak Reservoir. - At the start of February 2021, the site's snow depth was 46 inches - At the start of March 2021, the site's snow depth was 31 inches. The student wants to specify the snow depth at Cloud Peak Reservoir at the start of March 2021.
+Q: Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) At the Cloud Peak Reservoir site, there were 46 inches of snow on the ground at the start of February 2021.
+B) At the start of March 2021, 31 inches of snow covered the ground af the Cloud Peak Reservoir site
+C) Located in Wyoming, the Cloud Peak Reservoir site monitors snow conditions, such as snow depth.
+D) In 2021, the site at Cloud Peak Reservoir was one of Gbout 90 automated snow measurement stations in Wyoming.
+K: B
+E: The correct answer is B) At the start of March 2021, 31 inches of snow covered the ground af the Cloud Peak Reservoir site
+#27
+P: While researching a topic, a student has taken the following notes - Sheet music contains many notations hat instruct the musician on how to perform the piece. - The notation pp stands for pianissimo. - It means the piece should be performed at a very quiet volume. - The notation mf stands for mezzo forte. - It means the piece should be performed at a moderately loud volume.
+Q: The student wants to explain what pp stands for in sheet music. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) Pianissimo and mezzo forte are two examples of notations that can appear on sheet music
+B) The notation mf, which stands for mezzo forte, is used in sheet music
+C) In sheet music, the notation pp stands for pianissimo, which means the piece should be performed very quietly.
+D) A piece of sheet music can contain a range of notations, such as pp or mf.
+K: C
+E: The correct answer is C) In sheet music, the notation pp stands for pianissimo, which means the piece should be performed very quietly.
+=M2
+#1
+P: Although more documentaries are being made than ever before, too many seem , offering stories without any depth. In a refreshing contrast, Ahmir "Questlove" Thompson's 2021 documentary Summer of Soul (...or, When the Revolution Could Not Be Televised) draws from present-day interviews to supply compelling historical and social context for footage of the 1969 Harlem Cultural Festival.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) cryptic
+B) inaccessible §
+C) haughty »
+D) perfunctory aX v4
+K: D
+E: The correct answer is D) perfunctory aX v4
+#2
+P: Because it appears merely to reflect and rearrange the creative labor of human artists, art generated by artificial intelligence programs has been scorned by some as hackneyed. One can also argue, however, that all art is in some sense because it draws on what has already been created by others for inspiration, making genuine artistic originality elusive.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) obsolete .
+B) aesthetic
+C) counterproductive
+D) derivative
+K: D
+E: The correct answer is D) derivative
+#3
+P: The swordfish is ectothermic, or cold-blooded, and the southern bluefin tuna is a regional endotherm, meaning that parts of its body are typically warmer than the surrounding water. The basking shark had been classified as a full ectotherm, a position that became after researchers Haley R. Dolton and colleagues showed that the basking shark's body temperature is consistently 1.0 to 1.5°C warmer than the water.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) inconsolable
+B) unanticipated
+C) unequivocal
+D) untenable
+K: D
+E: The correct answer is D) untenable
+#4
+P: The following text is from Jerome K. Jerome's 1889 novel Three Men in a Boat (To Say Nothing of the Dog). The narrator and two friends are taking a boat down the River Thames in England. In a boat, have always noticed that it is the fixed idea of each member of the crew that he is doing everything. Harris's notion was that it was he alone who had been working, and that both George and I had been imposing upon him. George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep and had a cast-iron opinion that it was he --- George himself --- who had done all the labour worth speaking of.
+Q: Which choice best describes the main purpose of the text?
+A) To present the narrator's generalization along with supporting examples from a specific situation
+B) To convey the narrator's confidence that he understands the role expected of him in a group
+C) To examine how the narrator and his friends each contributed to navigating a challenge
+D) To give an overview of a particular situation that the narrator finds startling
+K: A
+E: The correct answer is A) To present the narrator's generalization along with supporting examples from a specific situation
+#5
+P: In her book Limitarianism, researcher Ingrid Robeyns criticizes economic policies that allow businesses to profit from their successes while displacing the burden of failure onto taxpayers. As an example she cites the US financial crisis of 2008 in which dozens of institutions including JPMorgan Chase and SunTrust received a collective $700 billion of government s@pport. Had the US government previously exercised stricter regulation of risky financial instruments, Robeyns argues, this enormous expenditure of taxpayer dollars would not have been necessary.
+Q: Which choice best states the main topic of the text? 2
+A) Consequences of the 2008 financial crisis for JPMorgan Chase and SunTrust
+B) How the US government used money received from taxation to help institutions recover from a period of financial instability
+C) Techniques of assessing the risks of particular methods of financial investment
+D) Why a scholar believes it would"be beneficial for certain governmental economic practices to be reconsidered
+K: D
+E: The correct answer is D) Why a scholar believes it would"be beneficial for certain governmental economic practices to be reconsidered
+#6
+P: Paul Linebarger is often recognized as an influential science fiction writer (under the pen name Cordwainer Smith), but his most significant work was a 1940s classified US Army guide exploring the role of propaganda in times of war. Citing the uniquely absorbing nature of motion pictures, he contended that US propaganda should equal popular films in its appeal, entertaining audiences while engendering views of the nation as an ally. Linebarger's work shaped the distinctive US approach to promoting national interests, one that continues to draw inspiration from elements of pop culture.
+Q: Which choice best describes the overall structure of the text?
+A) It distinguishes a work from others in its genre, outlines the central objective of that work, and then addresses a recent resurgence of interest in that work.
+B) It sketches the development of a prominent work, familiarizes readers with an argument in that work, and then suggests that the work has had repercussions in other fields
+C) It characterizes a work as having been underappreciated, describes a core concept in that work, and then argues that the influence of that concept is recognizable in other works.
+D) Itintroduces a significant work, summarizes a noteworthy idea in that work, and then places that idea into a context that demonstrates its broader implications
+K: D
+E: The correct answer is D) Itintroduces a significant work, summarizes a noteworthy idea in that work, and then places that idea into a context that demonstrates its broader implications
+#7
+P: The fifteenth-century English Heege Manuscript is unusual among collections of its kind and time given its focus on fantasy tales over more acclaimed works by celebrated medieval authors like Hoccleve. But according to professor James Wade, even more unusually, the three texts in the manuscript's first booklet were likely copied by Richard Heege from a traveling minstrel's repertoire book. The evidence includes performative elements such as the narrator politely addressing the audience, joking about peasants and royalty, and making jokes that could be modified to refer to the town of Radford when in nearby Brackonwet to avoid giving offense. As presented in the text, Wade would most likely agree with which statement about the first booklet of the Heege Manuscript
+Q: 
+A) It was likely a copy Heege intended to give to a traveling minstrel working in the area around Radford and Brackonwet.
+B) The texts it includes were based on stories about the area around Radford and Brackonwet, but these names were later removed
+C) It was copied from a text that originated from a traveling minstrel who worked in the area around Radford and Brackonwet.
+D) It was written down by Heege from memory based on a performande by a traveling minstrel who worked in the area around Radford and Brackonwet.
+K: C
+E: The correct answer is C) It was copied from a text that originated from a traveling minstrel who worked in the area around Radford and Brackonwet.
+#8
+P: Several sociologists have observed that the word "culture," though commonly used in academic literature, is an ultimately hazy concept --- for example, Rénate Mayntz has noted that "there is (still) no agreement on the meaning of this core term of sociological analysis." Does the idea of culture encompass art, or customs, or both these things and others? For casual usage, such haziness is permissible --- we know culture when we see it --- but for researchers, a standardization of the term is called for if sociology is to truly progress.
+Q: Which choice best states the main idga of the text?
+A) Nonspecialists and specialists have different ideas of what the word "culture" means
+B) There is no widely agreed-upon definition of the word "culture," though the field of sociology would benefit if there were.
+C) In her research, Mayntz presented reasons why sociologists disagree on how to analyze “culture.”
+D) Art and customs are key components of what nonspecialists refer to as "culture.
+K: B
+E: The correct answer is B) There is no widely agreed-upon definition of the word "culture," though the field of sociology would benefit if there were.
+#9
+P: Alternative-history fiction is a subgenre of science fiction in which plots center on "what if?" questions. What if India had started the Industrial Revolution? What if Soviet cosmonauts had been first to land on the moon? Speculative counterfactuals like these can be great fodder for stories, but they're also commonly deployed by academic historians to better understand factors influencing historical events. Well-realized and coherent alternative-history stories can thus complement historians’ speculations about the past.
+Q: Which choice best describes the function of the underlined portion in the text as a whole?
+A) It provides examples of the types of scenarios addressed in alternative-history fiction.
+B) Itillustrates how academic historians have influenced writers of alternative-history fiction.
+C) It indicates specific ideas that were first raised by writers of alternative-history fiction and that subsequently inspired scholarship by academic historians.
+D) It acknowledges counterfactual questions that academic historians have largely overlooked.
+K: A
+E: The correct answer is A) It provides examples of the types of scenarios addressed in alternative-history fiction.
+#10
+P: Archaeologist Weiwei Wang and her colleagues analyzed footed grinding slabs and other food- preparation tools excavated from Oc Eo, a Southeast Asian port city that flourished between the first and sixth centuries CE. Wang and colleagues recovered microscopic remnants of turmeric and other spices from the surfaces of the tools. Turmeric is native to South Asia, more than a thousand miles west of Oc Eo, and the researchers showed that the footed grinding slabs at Oc Eo are very similar to footed grinding slabs common throughout South Asia from around 500 BCE to 300CE. Wang and colleagues’ findings therefore indicate that there must have been a trade link, whether direct or indirect, between the two regions.
+Q: Which finding, if true, would directly weaken the conclusion about Wang and her colleagues’ findings that is presented in the text?
+A) Other types of artifacts originating in South Asia and dating to the first through sixth centuries CE have been found throughout Southeast Asia.
+B) In the first through third centuries CE, there was a significant migration of people from South Asia to Southeast Asia.
+C) The people of Oc Eo and several communities in South Asia regularly traded with people in the region that is now the Southeast Asian country of Malaysia no later than the first century CE.
+D) Some of the spices recovered from Oc Eo are native to the Maluku Islands, which are located approximately 2,000 miles southeast of Oc Eo.
+K: B
+E: The correct answer is B) In the first through third centuries CE, there was a significant migration of people from South Asia to Southeast Asia.
+#11
+I: /qimg/26-03-int-b-rw-m2-q11.png
+P: ON The late Hemphillian (Hh) North American Land Mammal Age includes the subdivisions Hh3, 6.8 million years ago (Ma) to 6 Ma, and Hh4, 6 Mato 4.75 Ma. While mammalian fossils have indicated that Florida's Montbrook Fossil Site (MFS) and Palmetto Fauna of the Bone Valley Region (PFBV) date to Hh4, a more precise determination of the sites’ ages has proved challenging. Stephanie R. Killingsworth et al. compared average ratios of strontium-87 to strontium-86 (875r/865r) in fossil shark teeth from MFS and PFBV --- 0.709000 and 0.709028, respectively --- to 875r/865r ratios in the global strontium seawater curve, a record that shows how 87Sr/865r ratios in seawater correspond to numerical ages and that is used to date fossils and, by extension, fossil sites. The researchers concluded that
+Q: Which choice most effectively uses data from the table to complete the statement?
+A) mammalian fossil evidence offers less dating precision than do 87Sr/86Sr ratios in fossil shark teeth and that PFBV likely was deposited closer to the Hh3-Hh4 boundary than was MFS.
+B) the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBYV resolve previous uncertainty about the sites’ relative ages by indicating that both sites were deposited contemporaneously during the late Hh.
+C) the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBV only partially support the site age estimates previously established through mammalian fossil evidence.
+D) the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBV corroborate that both
+K: D
+E: The correct answer is D) the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBV corroborate that both
+#12
+P: MFS and PFBV fall within Hh4 but suggest that PFBV was likely deposited more recently than MFS The interiors of many temples in the ancient Middle East needed to satisfy a precise set of acoustic demands: the sounds of chants and hymns should travel with clarity, while profound silences should be fully felt and appreciated. In a research paper, a student claims thatthe users of one such temple were aware of how the materials that were used within the structure could affect sound quality and that they deliberately applied this knowledge to influence how sound was experienced in the space.
+Q: Which quotation from a work by a historian would most directly support the student's claim? 4
+A) "The acoustic environment of the temple was best suited for music that eschewed ornamentation in favor of simple melodies, harmonies, and rhythms."
+B) "Many researchers believe that the central chamber of the temple had a high ceiling, a feature that has since become essential to the acoustic design of modern concert halls.
+C) "During special occasions, curtaigé were placed inside the temple to minimize reverberation and confine the sound to designated locations."
+D) "The innermost room of the temple was likely among the quietest spaces in the interior of the temple."
+K: C
+E: The correct answer is C) "During special occasions, curtaigé were placed inside the temple to minimize reverberation and confine the sound to designated locations."
+#13
+I: /qimg/26-03-int-b-rw-m2-q13.png
+P: While US public charities, like Kaiser Foundation Hospitalsy must file Form 990 yearly with the IRs, private foundations, such as the Gordon and Betty Moore foundation, must file a different form, 990- PF. In addition, foundations that engage in certain prohibited activities must also file Form 4720 and pay a penalty tax on the money involved. Private foundations are prohibited from holding excess interests in a business enterprise, "self-dealing” (conducting activities that benefit foundation insiders), making taxable expenditures such as grants to non-charitable entities, and failing to cross a required threshold in making charitable distributions from income. Out of the organizations that fled Form 990-pf in the years 2003 2005,
+Q: Which choice most effectively uses data from the graph to complete the assertion?
+A) a greater percentage of those that also filed Form 4720 did so because they held excess interests in a business enterprise than the percentage of those that filed Form 4720 because they did not meet the minimum charitable distribution requirement.
+B) more of those that also filed Form 4720 failed to meet a minimum charitable distribution requirement than did those organizations that filed Form 990 but also filed Form 4720 for the same reason.
+C) those that were also required to file Form 4720 because they had excess holdings in a business enterprise paid, on average, a significantly smaller penalty than those organizations that filed Form 4720 because they engaged in self-dealing.
+D) those that were also required to file Form 4720 were more likely to do so because they did not meet the minimum charitable distribution requirement than for other reasons.
+K: D
+E: The correct answer is D) those that were also required to file Form 4720 were more likely to do so because they did not meet the minimum charitable distribution requirement than for other reasons.
+#14
+P: There are over 150 species of the cactus genus Mammillaria throughout the Americas, but their survival can be threatened by high precipitation and lense vegetation that blocks sunlight. Researchers have located species from the genus in almost every state in Mexico, with several of them, like M. schumannii, restricted to only one state. The fact that this genus has not been observed in parts of the Sierra Madre Occidental mountain range has been attributed to a lack of appropriate habitat, but much of the landscape in this area is notoriously inaccessible, which suggests that
+Q: Which choice most logically completes the text?
+A) the dense vegetation and high annual precipitation levels in parts of the Sierra Madre Occidental mountain range impede the ability of Mammillaria species to survive.
+B) the perceived absence of Mammillaria in parts of the Sierra Madre Occidental mountain range may be due to insufficient exploration of the region
+C) M. schumannii may have been overlooked in parts of the Sierra Madre Occidental mountain range because of its similarity to another species.
+D) the current methods of collecting and tracking Mammillaria species throughout Mexico may cause an overestimation of the number of species in this genus.
+K: B
+E: The correct answer is B) the perceived absence of Mammillaria in parts of the Sierra Madre Occidental mountain range may be due to insufficient exploration of the region
+#15
+P: There is a growing belief that teaching medical students about art alongside standard science and clinical coursework helps them become more observant, develop greater patient empathy, and strengthen their communication skills. But some medical program educators are skeptical, questioning if arts and humanities experiences can be clearly shown tahave any worthwhile advantages for their students. Research into the effectiveness of arts programs for medical students by Neha Mukunda and her colleagues found that evidence is largely anecdotal and based on studies that were short in duration, limited to single institutions, or restricted to small numbers of students. To strengthen the evidence base in support of incorporating humanities into the coursework for medical students, then,
+Q: Which choice most logically completes the text?
+A) researchers must prove that scientific training alone is insufficient for developing clinical skills.
+B) larger-scale, multi-institutional resedirch studies tracking outcomes for medical students over longer periods are needed.
+C) medical schools should highlight more student testimonials about how arts education benefits their clinical abilities.
+D) institutions may need to provide medical students with exposure to larger numbers of artworks than have been used in previous studies.
+K: B
+E: The correct answer is B) larger-scale, multi-institutional resedirch studies tracking outcomes for medical students over longer periods are needed.
+#16
+P: The Kaiparowits Formation is a fossil-rich layer of sedimentary rock in the Grand Staircase, a colossal sequence of rock layers stretching from Utah's Bryce Canyon to Arizona's Grand Canyon. The sandstones and mudstones of the Kaiparowits Formation were deposited the Late Cretaceous, preserving many species from that time.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) during;
+B) during:
+C) during
+D) during,
+K: C
+E: The correct answer is C) during
+#17
+P: The parks of Los Angeles, California, seem to be making people happier. Ina 2022 study, researchers studying connections between the physical location in which a social media post was created and contents analyzed geotagged social media posts from Los Angeles. They found that posts from the city's parks contained more words associated with happiness than other posts did.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) they're
+B) it's
+C) their
+D) its
+K: D
+E: The correct answer is D) its
+#18
+P: Roger Angell's reputation as one of the greatest baseball writers of all bolstered by dozens of New Yorker essays in which he demonstrated a deep affection for and knowledge of the game, has perhaps overshadowed his remarkable career as a fiction editor: during his decades-long tenure at the New Yorker, Angell helped shape the work of John Updike, Ann Beattie, and other contributors of note.
+Q: Which choice completes the text so that it conforms to the conventions af Standard English? E)
+A) time was
+B) time,
+C) time had been .
+D) time, was
+K: B
+E: The correct answer is B) time,
+#19
+P: That Chaucer's Canterbury Tales inspired imitators is evident from the existence of three near- contemporary “continuations” of the collection: The Siege of Thebes, which purports to be a new tale told during the pilgrims’ The Talgtof Beryn, which depicts the pilgrims as tourists; and The Ploughman's Tale, which features a minor character from the original work.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) return
+B) return;
+C) return.
+D) return,
+K: B
+E: The correct answer is B) return;
+#20
+P: Traveling to India between 1935 and 1952, African American intellectuals Sue Bailey Thurman, Blanche Wright Nelson, and Sadie T.M. Alexander met with Mahatma Gandhi, an influential proponent of nonviolent resistance, and forged meaningful connections with local Indian women as part of an effort to promote women's but also around the world.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) empowerment --- not only in India ---
+B) empowerment not only in India,
+C) empowerment, not only in India,
+D) empowerment --- not only in India
+K: D
+E: The correct answer is D) empowerment --- not only in India
+#21
+P: Native to the Yangtze River in China, the Chinese river dolphin is one of many species to have recently gone extinct in what some are calling "the sixth great mass extinction" in Earth's history. Far from being caused by humans, though, the five prior such events --- the Ordovician-Silurian (440miillion years ago, or mya), the Devonian (365 mya), the Permian-Triassic (250 mya), the Triassic- Jurassic (201 mya), and the Cretaceous-Tertiary all predate us.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) (65 mya) ---
+B) (65 mya);
+C) (65 mya)
+D) (65 mya),
+K: A
+E: The correct answer is A) (65 mya) ---
+#22
+P: On April 12, 1985, the space shuttle Discovery blasted off into space, commencing Mission Six days and twenty-three hours, the mission ended when the shuttle landed at Kennedy Space Center in Florida.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) STS-51-D, it lasted
+B) STS-51-D, lasting 4
+C) STS-51-D lasting
+D) STS-51-D. Lasting
+K: D
+E: The correct answer is D) STS-51-D. Lasting
+#23
+P: AN Nineteenth-century Modernista architgcts championed nature in their designs. Granted, the wavy AS stone fagade and ornate floral tilework of Casa Batllo, a Modernista private home designed by Antoni Gaudi, couldn't exactly grow in a forest. one sees natural influences in Gaud's penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.
+Q: Which choice completes the text with the most logical transition?
+A) Furthermore,
+B) Similarly,
+C) still,
+D) In other words,
+K: C
+E: The correct answer is C) still,
+#24
+P: In a 1993 study by Vales and Peek, the researchers used microhistological fecal analysis to determine the ratio of three plant subtypes (graminoids, forbs, and browse) within the diets of North American ungulates. The researchers did not perform this analysis on all such ungulates, they focused exclusively on elk in Wyoming.
+Q: Which choice completes the text with the most logical transition?
+A) for instance;
+B) regardless;
+C) however;
+D) in other words;
+K: A
+E: The correct answer is A) for instance;
+#25
+P: The moon Lysithea orbits Jupiter in the same direction that the planet rotates. Lysithea's orbit is described as prograde. Mneme, another of Jupiter's moons, orbits in the opposite direction, so its orbit is described with the opposite term: retrograde.
+Q: Which choice completes the text with the most logical transition?
+A) Likewise,
+B) Next,
+C) Thus,
+D) However,
+K: C
+E: The correct answer is C) Thus,
+#26
+P: While researching a topic, a student has taken the following notes: - When the electrons of a chemical element change energy states, certain wavelengths of light are released. » - This unique collection of wavelengths is known as the emission spectrum of the element. - Titanium's emission spectrum includes the 430.5 nanometer (nm)wavelength. - Krypton's emission spectrum includes the 583.2 nm wavelength. - The violet portion of the visible spectrum is made up of light with wavelengths of 380-450 nm.
+Q: Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) The 583.2 nm wavelength, which is in the violet portion of the visible spectrum, is one wavelength in the emission spectrum-of krypton.
+B) Since the 430.5 nm wavelength of light is within the 380-450nm range, it is part of the violet portion of the visible spectrum
+C) Containing the 430.5 nm and 583.2 nm wavelengths, respectively, both titanium's and krypton's emission spectra include wavelengths in the violet portion of the visible spectrum
+D) Titanium's emission spectrum includes the 430.5 nm wavelength, which is in the violet portion of the visible spectrum.
+K: D
+E: The correct answer is D) Titanium's emission spectrum includes the 430.5 nm wavelength, which is in the violet portion of the visible spectrum.
+#27
+P: While researching a topic, a student has taken the following notes: - There are around 90 automated snow measurement sites in Wyoming. - One site is at Cottonwood Creek. - At the start of February 2021, the site's snow depth was 75 inches - At the start of March 2021, the site's snow depth was 50 inches.
+Q: The student wants to specify the snow depth at Cottonwood Creek at the start of March 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) In 2021, the site at Cottonwood Creek was one of about 90 automated snow measurement stations in Wyoming
+B) At the Cottonwood Creek site, there were 75 inches of snow on the ground at the start of February 2021.
+C) Located in Wyoming, the Cottonwood Creek site monitors snow conditions, such as snow depth
+D) At the start of March 2021, 50 inches of snow covered the ground at the Cottonwood Creek site.
+K: C
+E: The correct answer is C) Located in Wyoming, the Cottonwood Creek site monitors snow conditions, such as snow depth
