@@ -1,0 +1,228 @@
+!id: dsat24-12-us-b-rw
+!name: December 2024 US · Form B · Reading & Writing
+!type: EBRW
+!year: 2024
+!month: 12
+!region: US
+!form: B
+!missing: M1 #24, M1 #25, M1 #26, M1 #27, M2 #1, M2 #2, M2 #3, M2 #4, M2 #5, M2 #6, M2 #7, M2 #8, M2 #9, M2 #10, M2 #11, M2 #12, M2 #13, M2 #14, M2 #15, M2 #16, M2 #17, M2 #18, M2 #19, M2 #20, M2 #21, M2 #22, M2 #23, M2 #24, M2 #25, M2 #26, M2 #27
+=M1
+#1
+P: The following text is adapted from Jhumpa Lahiri’s 2003 novel <i>The Namesake</i>. Gogol is an elementary school student in Massachusetts.
+P: In art class, his favorite hour of the week, he <u>carves</u> his name with paper clips into the bottoms of clay cups and bowls. He pastes uncooked pasta to cardboard, and <u>leaves</u> his signature in fat brush strokes below paintings.
+Q: As used in the text, what do the words “carves” and “leaves” both most nearly mean?
+A) Marks
+B) Passes
+C) Turns
+D) Follows
+K: A
+E: Gogol puts his name on the objects he makes, so both verbs mean marks.
+#2
+P: The sloping tile roofs and picturesque façade of Mission San Carlos Borromeo de Carmelo in Carmel, California, are enduring symbols of the Spanish contribution to Californian architecture. Elements of this style have been reproduced throughout the state—the design of Santa Clara University in Santa Clara, for example, is considered to ______ the style of the Spanish missions.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) renovate
+B) imitate
+C) neglect
+D) reject
+K: B
+E: Elements of the style are reproduced elsewhere, so the university’s design imitates the missions’ style.
+#3
+P: In a garden, ______ the spread of unwelcome weeds such as nutgrass can be difficult because weeds usually spread easily and quickly become unmanageable, making it hard to remove them completely.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) retrieving
+B) saving
+C) halting
+D) pretending
+K: C
+E: Weeds spread easily, so stopping, or halting, their spread is difficult.
+#4
+P: Certain features are almost always included in the designs of mosques, like the minaret (or tower), which is considered to be a ______ of mosque architecture. Even mosques that exhibit elements of multiple architectural styles, such as the Shah Jahan Mosque, which incorporates elements from the Mughal, Safavid, and Timurid styles, will also include several of these standard features.
+Q: Which choice completes the text with the most logical and precise word or phrase?
+A) hallmark
+B) rejection
+C) motivation
+D) duplicate
+K: A
+E: A feature almost always included is a characteristic, or hallmark, of the architecture.
+#5
+P: Benjamin Prud’homme and colleagues have explored how convergent evolution—<u>a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages</u>—can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.
+Q: Which choice best states the function of the underlined portion in the text as a whole?
+A) It provides examples of how a phenomenon was studied by scientists in the field before Green and Extavour’s study.
+B) It gives a basic description of a phenomenon that is central to the discussion that follows.
+C) It clarifies a concept that the author implies was unclear in the studies mentioned in the text.
+D) It introduces a method of scientific analysis that is discussed in greater detail later in the text.
+K: B
+E: The underlined portion defines convergent evolution, which the rest of the text discusses.
+#6
+P: In Ojibwe, an Indigenous language from the Great Lakes region of what are now the United States and Canada, <i>wāsa</i> means “far,” whereas <i>wa-wāsa</i> means “far apart.” This phenomenon, in which an element of a root word is repeated, sometimes with modification, within another word that is related to the root word, is called reduplication. In this case, the element “wā” in <i>wāsa</i> gets repeated in <i>wa-wāsa</i>. There are many examples of this type of reduplication in Ojibwe.
+Q: Which choice best describes the overall structure of the text?
+A) It describes the relationship between Ojibwe and several other languages, raises a question about the nature of that relationship, and then answers that question.
+B) It identifies the most frequently occurring words in Ojibwe, explains why it is difficult to translate those words into English, and then provides examples of languages other than English into which those words can be translated.
+C) It presents some specific words in Ojibwe, describes the general linguistic phenomenon exemplified by those words, and then states that this phenomenon occurs frequently in Ojibwe.
+D) It explains the phenomenon of reduplication, discusses why reduplication has been controversial among scholars, and then argues that an analysis of Ojibwe could help resolve that controversy.
+K: C
+E: The text gives wāsa and wa-wāsa, names the phenomenon (reduplication), and says there are many such examples in Ojibwe.
+#7
+P: <b>Text 1</b>
+P: Uisdean Nicholson and his team have discovered evidence in seismic data of a 40-kilometer-wide subsurface crater beneath nearly a kilometer of water off the coast of West Africa that is consistent with a 400-meter-wide asteroid striking the seafloor. This structure, which the team named Nadir, exhibits all the telltale signs of a high-velocity impact crater: an elevated rim, a circular shape, a terraced floor, and a pronounced area of uplift at its center.
+P: <b>Text 2</b>
+P: Both carbonate dissolution and subsurface salt withdrawal can cause craterlike depressions without the need for a high-velocity impact. However, carbonate dissolution is very unlikely to have occurred in the vicinity of Nadir, and although subsurface salt withdrawal could have plausibly occurred in this area and would result in a depression with a terraced floor or a circular shape, it would not exhibit the area of central uplift seen at Nadir.
+Q: Which choice best describes a difference between the approach of Text 1 and the approach of Text 2?
+A) Text 1 dispassionately describes Nicholson and colleagues’ findings and conclusions, whereas Text 2 attempts to convey the researchers’ excitement on discovering Nadir.
+B) Text 1 focuses on features Nadir lacks, whereas Text 2 indicates features it shares with other geological depressions.
+C) Text 1 discusses a single plausible cause of Nadir, whereas Text 2 evaluates two possible causes.
+D) Text 1 emphasizes the evidence supporting an asteroid impact as the cause of Nadir, whereas Text 2 argues against that explanation.
+K: C
+E: Text 1 discusses only the asteroid-impact explanation; Text 2 weighs carbonate dissolution and salt withdrawal as alternative causes.
+#8
+P: The following text is from Julia Alvarez’s 2000 novel <i>In the Name of Salomé</i>. The narrator and her sister, daughters of a famous poet, are being tutored by Alejandro Román.
+P: Our tutor, Alejandro Román, brought his younger brother, Miguel, to class one day. By now I was eighteen and had learned everything Alejandro had to teach me, so I was glad for a new face. Miguel was an aspiring poet, and he had heard from his brother that the Ureña girls were none other than the daughters of Nicolás Ureña, and they were smart as clockwork. Miguel was hoping not only to meet us but to make the acquaintance of the poet himself at Mama’s house.
+Q: Based on the text, why does Miguel accompany his brother to the sisters’ house one day?
+A) Miguel has learned all his brother can teach him and now desires to be taught by the sisters.
+B) Miguel has not received formal instruction in poetry and wants to ask the sisters’ famous father to be his mentor.
+C) Miguel wants to recite his poems to the sisters and inquire about their perspectives on his work.
+D) Miguel anticipates having the opportunity to be introduced to both the sisters and their father.
+K: D
+E: Miguel hoped “not only to meet us but to make the acquaintance of the poet himself,” that is, to meet the sisters and their father.
+#9
+P: Motivated to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered “fast painting,” which in part involved working across multiple canvases at once. That many of Hair’s acolytes, including Isaac Knight, imitated the technique accounts in part for the impressionistic qualities that are now synonymous with the group’s shared aesthetic. But not all Highwaymen fully embraced this approach; for instance, though Willie Reagan was also prolific, his paintings were executed with greater attention to detail.
+Q: What does the text most strongly suggest about paintings by Knight?
+A) Because of the manner in which they were created, they likely have visual qualities that are regarded as more typical of Florida Highwaymen paintings than the qualities in works by Reagan are.
+B) Although it is evident that Knight adopted some of Hair’s preferred techniques, Knight’s works are less derivative of works by Hair than is typically acknowledged.
+C) The lack of precision with which they were executed suggests that they are inferior to works by either Hair or Reagan.
+D) Knight’s reliance on the technique of fast painting likely accounts for his works being more aesthetically interesting than works by Reagan are.
+K: A
+E: Knight used fast painting, which produced the impressionistic qualities typical of the group, whereas Reagan painted with more detail.
+#10
+P: Vancouver has high pedestrian traffic, but other cities cannot increase their pedestrian traffic simply by replicating a single feature of Vancouver—e.g., its <u>high number of pedestrian amenities</u>—that is associated with walkability. As urbanist Mariela Alfonzo argues, many factors influence people’s decision-making about whether to walk: some studies have shown the importance of demographic characteristics, others have shown the importance of average commuting distance, and so on, and it is clear that none of these factors in isolation fully explains pedestrian habits in a given city.
+Q: Based on the text, the author would most likely agree with which statement about Vancouver’s “high number of pedestrian amenities”?
+A) It may increase walkability in Vancouver but is known to reduce walkability in other cities.
+B) It is better understood as an effect of the high level of pedestrian traffic in Vancouver than as a cause of that pedestrian traffic.
+C) It affects walking decisions in Vancouver less than demographic characteristics and average commuting distance do.
+D) It should be understood as just one of several factors that influence pedestrian activity in Vancouver.
+K: D
+E: No single factor fully explains walking habits, so the amenities are only one of several influences.
+#11
+T: <table><caption>Numbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them</caption><tr><th>Country</th><th>Trees</th><th>Fungi</th><th>Insects</th></tr><tr><td>Great Britain</td><td>18</td><td>290</td><td>120</td></tr><tr><td>Hungary</td><td>1</td><td>18</td><td>13</td></tr><tr><td>Switzerland</td><td>11</td><td>43</td><td>78</td></tr></table>
+P: Elisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Great Britain, Switzerland, and Hungary about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that Great Britain had a greater number of damaging fungus species than either of the other countries did.
+Q: Which choice best describes data from the table that support Pötzelsberger and colleagues’ conclusion?
+A) Hungary reported 18 damaging fungus species but only 13 damaging insect species.
+B) Great Britain reported 290 damaging fungus species, whereas Switzerland reported 78 damaging insect species.
+C) Great Britain reported 290 damaging fungus species, which is more than either Switzerland or Hungary reported.
+D) Switzerland and Hungary reported 11 and 1 damaging fungus species, respectively, which is far fewer than Great Britain reported.
+K: C
+E: Great Britain’s 290 fungus species exceeds both Switzerland’s 43 and Hungary’s 18.
+#12
+P: <i>Poems</i> is an 1895 collection of poetry by Frances E.W. Harper. In one of Harper’s poems, the speaker criticizes activists who champion humanitarian causes in other countries while overlooking local concerns, saying, ______
+Q: Which quotation from <i>Poems</i> most effectively illustrates the claim?
+A) “Men may tread down the poor and lowly, / May crush them in anger and hate, / But surely the mills of God’s justice / Will grind out the grist of their fate.” (from “An Appeal to My Countrywomen”)
+B) “When ye plead for the wrecked and fallen, / The exile from far-distant shores, / Remember that men are still wasting / Life’s crimson around your own doors.” (from “An Appeal to My Countrywomen”)
+C) “God bless our native land, / Land of the newly free, / Oh may she ever stand / For truth and liberty.” (from “God Bless Our Native Land”)
+D) “Let me make the songs for the people, / Songs for the old and young; / Songs to stir like a battle cry / Wherever they are sung.” (from “Songs for the People”)
+K: B
+E: Choice B tells those who plead for distant exiles to remember that people are suffering close to home.
+#13
+I: /qimg/24-dsat24-12-us-b-rw-m1-q13.svg
+P: Many plants have leaves that are larger on one side of their long central axis than the other, a phenomenon known as asymmetrical orientation. University of California, Berkeley biologist Ciera Martinez and colleagues examined several species of grapevines and closely related plants, which have leaves that grow in pairs, to see if both leaves in a pair tend to be oriented toward the same side (that is, have more tissue on the same side) or not. They found that opposite-side orientation was much more common than same-side orientation; in the Amur grape, for example, approximately ______
+Q: Which choice most effectively uses data from the graph to complete the example?
+A) 150 leaf pairs show opposite-side orientation, whereas approximately 60 pairs show same-side orientation.
+B) 110 leaf pairs show opposite-side orientation, whereas approximately 45 pairs show same-side orientation.
+C) 650 leaf pairs show opposite-side orientation, whereas no pairs show same-side orientation.
+D) 110 leaf pairs show opposite-side orientation, whereas no pairs show same-side orientation.
+K: A
+E: The Amur grape bars show about 150 opposite-side pairs and about 60 same-side pairs.
+#14
+P: Moseberry (<i>Viburnum edule</i>) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, common knotgrass (<i>Polygonum aviculare</i>) plants have established themselves in Alaska. It has been suggested that warming-induced delays in the onset of subfreezing temperatures in autumn can benefit invasives more than native species; to evaluate this possibility, biologists Christa Mulder and Katie Spellman tracked <i>V. edule</i> and <i>P. aviculare</i>, along with other native and invasive species, over several years, concluding that invasives are advantaged by delays in subfreezing temperature onset in Alaska.
+Q: Which finding, if true, would most directly support Mulder and Spellman’s conclusion?
+A) Although <i>V. edule</i> and <i>P. aviculare</i> both tended to produce leaves later into autumn in years with late subfreezing temperature onset, the extension was much greater for <i>P. aviculare</i> than for <i>V. edule</i>.
+B) Although significant interannual variations in subfreezing temperature onset were observed during the study, neither <i>P. aviculare</i> nor <i>V. edule</i> showed any significant interannual variation in the cessation of leaf production.
+C) Although <i>V. edule</i> and <i>P. aviculare</i> tended to stop producing leaves at about the same time in years with historically typical temperature patterns, <i>P. aviculare</i> stopped producing leaves sooner than <i>V. edule</i> did in years with late subfreezing temperature onset.
+D) Although <i>V. edule</i> and <i>P. aviculare</i> both tended to produce more leaves overall in years with late subfreezing temperature onset than they did in years with historically typical temperature patterns, the years with late subfreezing temperature onset also had early growing season onset in spring.
+K: A
+E: If the invasive plant extends leaf production much more than the native plant when freezing is delayed, that shows invasives gain more from the delay.
+#15
+P: Northeastern Kansas’s Jefferson County is among the most rural counties in the United States; the US Census Bureau classified it as 98.8% rural in 2010. Researchers studying populations of counties like Jefferson often struggle to recruit and retain participants. Melissa Valerio and colleagues tested whether a method called snowball sampling could improve recruitment and retention. Working in two rural counties, the researchers identified a small number of people who had the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Valerio and colleagues found that participants recruited via snowball sampling showed a much higher retention rate than did people recruited by strangers, suggesting that ______
+Q: Which choice most logically completes the text?
+A) being recruited to participate in a study by someone with whom one is socially connected may impart a feeling of obligation to persist with participation in the study.
+B) people with relatively small social networks are inherently less likely to be recruited to participate in a study via snowball sampling than are people with relatively large social networks.
+C) snowball sampling is more likely to improve retention rates among rural participants than among nonrural participants.
+D) social networks can become large enough that two people can share a network but nevertheless regard each other as strangers.
+K: A
+E: Participants recruited by people they know stayed in the study more often than those recruited by strangers, suggesting a social obligation to continue.
+#16
+P: <i>Miniature Self-Portrait</i> (1556) is one of dozens of remaining works by Sofonisba Anguissola. Currently, her painting ______ at the Museum of Fine Arts in Boston, where visitors can view the Italian Renaissance artist’s work on display.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) will have hung
+B) hangs
+C) hung
+D) was hanging
+K: B
+E: “Currently” calls for the simple present: hangs.
+#17
+P: The human foot contains a variety of skeletal muscles, each playing an important role in the foot’s healthy movement. The extensor digitorum brevis, which is attached to the calcaneus, ______ responsibility for extending the middle toes.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) bearing
+B) to bear
+C) bears
+D) having borne
+K: C
+E: The sentence’s subject, “the extensor digitorum brevis,” needs a finite verb: bears.
+#18
+P: Louisiana resident Oscar James Dunn, one of the nearly two thousand African Americans elected to public office during the decade that followed the Civil War, ______ his term as lieutenant governor in 1868.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) to begin
+B) having begun
+C) beginning
+D) began
+K: D
+E: The sentence needs a finite past-tense verb for the subject: began.
+#19
+P: The giant sequoia (<i>Sequoiadendron giganteum</i>) known as D-23, located in the United States, was one of the oldest known trees in the world, at 3,075 years old. With over three millennia of climate data in its tree ______ single tree like this, claims dendrochronologist Valerie Trouet, can tell the history of the world.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) rings, A
+B) rings; a
+C) rings and a
+D) rings, a
+K: D
+E: The introductory phrase ends with a comma, and “claims dendrochronologist Valerie Trouet” is set off by commas inside the main clause.
+#20
+P: After finding information about Blanche Kelso Bruce, who represented Mississippi in the United States Senate, the student discovered biographical sketches of two other Black Americans who served in ______ Ralph Harold Metcalfe of Illinois and Alton R. Waldon Jr. of New York.
+Q: Which choice completes the text so that it conforms to the conventions of Standard English?
+A) Congress:
+B) Congress;
+C) Congress,
+D) Congress
+K: A
+E: A colon follows a complete clause and introduces the two names that identify the two Black Americans.
+#21
+P: John Thomson employed the pseudonym “Gracchus”—the name of an ancient Roman politician—in political essays he wrote in 1795, a choice that accomplished far more than simply concealing his authorship. ______ it wasn’t an arbitrary pen name but rather a complex rhetorical strategy through which Thomson aligned his political views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.
+Q: Which choice completes the text with the most logical transition?
+A) Indeed,
+B) Conversely,
+C) In addition,
+D) However,
+K: A
+E: The second sentence strengthens and explains the first, so “Indeed” fits.
+#22
+P: In Annie Dillard’s <i>Pilgrim at Tinker Creek</i>—where, early on, the author marvels at a single goldfish’s delicate fins but later winces when imagining a horde of goldfish laying and eating their own eggs—Dillard struggles to reconcile the complicated juxtapositions of the natural world. ______ nature’s mesmerizing intricacy and pitiless harshness prove inextricably linked for Dillard, like “two branches of the same creek.”
+Q: Which choice completes the text with the most logical transition?
+A) Ultimately,
+B) To that end,
+C) Hence,
+D) Moreover,
+K: A
+E: The sentence gives Dillard’s final conclusion after her struggle, so “Ultimately” fits.
+#23
+P: While researching a topic, a student has taken the following notes:
+L: The Galápagos penguin is a species of bird that can be found on the Galápagos Island of Floreana.
+L: It has an average weight of 2.5 kilograms.
+L: The grey warbler finch is a species of bird that can be found on the Galápagos Island of Floreana.
+L: It has an average weight of 9 grams.
+Q: The student wants to emphasize a similarity between the Galápagos penguin and the grey warbler finch. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+A) On average, the Galápagos penguin weighs 2.5 kilograms, while the grey warbler finch weighs 9 grams.
+B) The grey warbler finch, which weighs 9 grams on average, can be found on the Galápagos Island of Floreana.
+C) The grey warbler finch and the Galápagos penguin can both be found on the Galápagos Island of Floreana.
+D) The Galápagos Island of Floreana is home to several bird species, one of which is the Galápagos penguin.
+K: C
+E: Choice C states what the two birds share: both live on Floreana.
+=M2
