@@ -1,0 +1,346 @@
+!id: dsat26-09-v2-math
+!name: September 2026 · International · Version 2 · Math
+!type: MATH
+!year: 2026
+!month: 9
+!region: International
+!form: 2
+=M1
+#1
+Q: (p)/(2) − 9 = 11
+Q: What value of p is the solution to the given equation?
+A) 20
+B) 22
+C) 40
+D) 80
+K: C
+E: Add 9: p/2 = 20, so p = 40.
+#2
+Q: The function f is defined by f(x) = 2x + 5. What is the value of f(x) when x = 100?
+K: 205
+E: 2(100) + 5 = 205.
+#3
+Q: Each face of a fair 16-sided die is labeled with a number from 1 through 16, with a different number appearing on each face. If the die is rolled one time, what is the probability of rolling a 2?
+A) (15)/(16)
+B) (14)/(16)
+C) (2)/(16)
+D) (1)/(16)
+K: D
+E: Exactly one face of the 16 shows a 2, so the probability is 1/16.
+#4
+Q: For the function f, the table shows four values of x and their corresponding values of f(x).
+T: <table><tr><th>x</th><th>f(x)</th></tr><tr><td>1</td><td>2,000</td></tr><tr><td>2</td><td>400</td></tr><tr><td>3</td><td>80</td></tr><tr><td>4</td><td>16</td></tr></table>
+Q: Which of the following could describe this function?
+A) Decreasing exponential
+B) Increasing exponential
+C) Decreasing linear
+D) Increasing linear
+K: A
+E: Each value is 1/5 of the one before it (2,000 → 400 → 80 → 16), so it is a decreasing exponential.
+#5
+Q: A rectangle has a length of 3 centimeters and a width of 2 centimeters. What is the perimeter, in centimeters, of this rectangle?
+K: 10
+E: 2(3 + 2) = 10.
+#6
+Q: The function f is defined by f(x) = −(4)/(13)x + 13. What is the slope of the graph of y = f(x) in the xy-plane?
+A) −13
+B) −(4)/(13)
+C) (1)/(13)
+D) 4
+K: B
+E: In f(x) = mx + b the slope is m = −4/13.
+#7
+Q: Line k is defined by y = 3x + 13. Line j is perpendicular to line k in the xy-plane. What is the slope of line j?
+A) −(1)/(3)
+B) −(1)/(10)
+C) −(1)/(16)
+D) −(1)/(39)
+K: A
+E: Perpendicular slopes are negative reciprocals: −1/3.
+#8
+Q: The function f(x) = 1,200(0.5)^(x/15) gives the predicted intensity of a beam f(x), in number of photons in the beam, x millimeters below the surface of a certain material. What is the best interpretation of f(15) = 600?
+A) A beam at the surface of the material has a predicted intensity of 15 photons in the beam.
+B) A beam at the surface of the material has a predicted intensity of 600 photons in the beam.
+C) A beam 15 millimeters below the surface of the material has a predicted intensity of 600 photons in the beam.
+D) A beam 600 millimeters below the surface of the material has a predicted intensity of 1,200 photons in the beam.
+K: C
+E: The input 15 is the depth in millimeters and the output 600 is the intensity in photons.
+#9
+Q: In triangle ABC, the measure of angle A is 36°, the measure of angle B is 90°, and the measure of angle C is ((k)/(2))°. What is the value of k?
+A) 45
+B) 54
+C) 72
+D) 108
+K: D
+E: 36 + 90 + k/2 = 180, so k/2 = 54 and k = 108.
+#10
+T: <table><tr><th>x</th><th>g(x)</th></tr><tr><td>−1</td><td>42</td></tr><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>(1)/(42)</td></tr><tr><td>2</td><td>(1)/(1,764)</td></tr></table>
+Q: For the exponential function g, the table shows four values of x and their corresponding values of g(x). Which equation defines g?
+A) g(x) = −42^x
+B) g(x) = −((1)/(42))^x
+C) g(x) = 42^x
+D) g(x) = ((1)/(42))^x
+K: D
+E: g(0) = 1 and each step multiplies by 1/42, so g(x) = (1/42)^x.
+#11
+Q: The expression (3x + 4)(x + 6) can be written in the form ax^2 + bx + c, where a, b, and c are constants. What is the value of a + b + c?
+K: 49
+E: The expression is 3x^2 + 22x + 24, so a + b + c = 3 + 22 + 24 = 49. (Or evaluate at x = 1: 7 · 7 = 49.)
+#12
+Q: A space probe uses a square-shaped solar sail to move through space. The side length of the solar sail is 8.89w meters, where w is the width, in meters, of the space probe. Which equation gives the area A, in square meters, of the solar sail?
+A) A = (w + 8.89)(w + 8.89)
+B) A = (4)(8.89w)
+C) A = (8.89w)(8.89w)
+D) A = ((8.89)/(w))((8.89)/(w))
+K: C
+E: Area of a square is side × side = (8.89w)(8.89w).
+#13
+I: /qimg/26-sep-v2-math-m1-q94.svg
+Q: In the figure shown, line r is parallel to line s. What is the value of x?
+K: 49
+E: The marked angles are corresponding angles for parallel lines r and s, so x = 49.
+#14
+Q: A farmer gave two groups of chickens different types of chicken feed for a month to measure the effect on egg production. The lists give the number of eggs collected from each chicken in each of the two groups.
+Q: Group G: 8, 16, 18, 18, 23
+Q: Group H: 16, 18, 18, 23
+Q: Which statement correctly compares the median number of eggs collected for group G and the median number of eggs collected for group H?
+A) The median number of eggs collected for group G is equal to the median number of eggs collected for group H.
+B) The median number of eggs collected for group G is greater than the median number of eggs collected for group H.
+C) The median number of eggs collected for group G is less than the median number of eggs collected for group H.
+D) There is not enough information to compare the median number of eggs collected for group G and the median number of eggs collected for group H.
+K: A
+E: Both medians are 18 (the middle value of G, and the mean of 18 and 18 for H).
+#15
+Q: √(28) = √((1)/(x))
+Q: What is the solution to the given equation?
+A) 784
+B) 28
+C) (1)/(28)
+D) (1)/(784)
+K: C
+E: Squaring both sides gives 28 = 1/x, so x = 1/28.
+#16
+Q: x^2 − 2x = 10
+Q: What is one of the solutions to the given equation?
+A) √(10)
+B) 1 + √(11)
+C) 11
+D) 10 + √(2)
+K: B
+E: Complete the square: (x − 1)^2 = 11, so x = 1 ± √(11).
+#17
+Q: The graph of the polynomial function f in the xy-plane, where y = f(x), passes through the point (7, 9). What is the value of f(7)?
+A) 7
+B) 9
+C) 16
+D) 63
+K: B
+E: The point (7, 9) lies on the graph, so f(7) = 9.
+#18
+Q: When several resistors are connected in series in a circuit, the total resistance of the circuit is the sum of the resistances of these resistors. A certain circuit consists of 7 resistors connected in series, where the resistance of each resistor is positive. This circuit has a total resistance of 80 ohms. The total resistance of 3 resistors in this circuit is 60 ohms. Which inequality best represents all possible values of the resistance x, in ohms, of one of the other 4 resistors in this circuit?
+A) 20 < x < 80
+B) 20 < x < 60
+C) 0 < x < 20
+D) 0 < x < 5
+K: C
+E: The other 4 resistors total 80 − 60 = 20 ohms and each is positive, so one of them is between 0 and 20.
+#19
+Q: The measure of angle A is (π)/(282) radians. The measure of angle B is 47 times the measure of angle A. What is the value of cos B?
+A) 0
+B) (1)/(2)
+C) (√(2))/(2)
+D) (√(3))/(2)
+K: D
+E: B = 47π/282 = π/6, and cos(π/6) = √3/2.
+#20
+Q: On a plot of land, 52.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 23.5% of the square footage of the farmland, and there are buildings on exactly 11.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?
+K: 17.5
+E: p = 0.52(23.5) + 0.48(11.0) = 12.22 + 5.28 = 17.5.
+#21
+I: /qimg/26-sep-v2-math-m1-q102.svg
+Q: In triangle QRS shown, QR < RS. Which expression represents the length of segment QS?
+A) 49 cos Q
+B) 49 sin Q
+C) (49)/(cos Q)
+D) (49)/(sin Q)
+K: D
+E: RS = 49 is opposite angle Q and QS is the hypotenuse, so sin Q = 49/QS and QS = 49/sin Q.
+#22
+Q: A moving truck rental company charges its customers $165 for the first hour of renting a truck and $95 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?
+A) y = 95(x − 1) + w
+B) y = 165 + 95 + w
+C) y = 165 + 95x + w
+D) y = 165 + 95(x − 1) + w
+K: D
+E: The first hour costs $165, the other (x − 1) hours cost $95 each, and gas adds w.
+=M2
+#1
+Q: The population density of Town A is 120 people per square mile, and the population density of Town B is 90 people per square mile. Town A has a population of 20,640 people, and Town B has a population of 3,870 people. The area, in square miles, of Town A is k times the area, in square miles, of Town B. What is the value of k?
+A) 4
+B) 8
+C) 16,770
+D) 24,510
+K: A
+E: Area A = 20,640 ÷ 120 = 172 and area B = 3,870 ÷ 90 = 43, so k = 172 ÷ 43 = 4.
+#2
+Q: x + 3y = 18
+Q: 5x + y = 3
+Q: The solution to the given system of equations is (x, y). What is the value of 6x + 4y?
+A) 9
+B) 15
+C) 21
+D) 36
+K: C
+E: Adding the equations gives 6x + 4y = 21.
+#3
+Q: The graph of 9x + y = 11 in the xy-plane is a line. What is the slope of the line?
+K: -9
+E: y = −9x + 11, so the slope is −9.
+#4
+I: /qimg/26-sep-v2-math-m2-q129.svg
+Q: y ≤ 10 − x
+Q: y ≥ (3)/(2)x
+Q: Which shaded region represents the solutions to the given system of inequalities?
+A) Graph A
+B) Graph B
+C) Graph C
+D) Graph D
+K: D
+E: Points with y ≥ 1.5x lie above the line through (0, 0) and (4, 6), and points with y ≤ 10 − x lie below the line through (0, 10) and (10, 0); the region on both sides is Graph D.
+#5
+Q: The function f is defined by f(x) = 3x − 7. If f(a) + 1 = 2a, what is the value of a?
+A) −1
+B) 1
+C) 5
+D) 6
+K: D
+E: 3a − 7 + 1 = 2a, so a = 6.
+#6
+Q: For a function f, f(−12) = (17)/(3) and f(6) = −(1)/(3). Which equation could define f?
+A) f(x) = −3x − (91)/(3)
+B) f(x) = −3x + (53)/(3)
+C) f(x) = −(1)/(3)x + (29)/(3)
+D) f(x) = −(1)/(3)x + (5)/(3)
+K: D
+E: The slope is (−1/3 − 17/3) ÷ 18 = −1/3, and f(6) = −1/3 gives the intercept 5/3.
+#7
+Q: If −2(x − 23) + 18 = ((x − 23)/(4)), what is the value of x − 23?
+K: 8
+E: Let u = x − 23: −2u + 18 = u/4, so 18 = 9u/4 and u = 8.
+#8
+Q: a = b − 33c
+Q: The given equation relates the variables a, b, and c. Which equation correctly expresses c in terms of a and b, where b > 33?
+A) c = (−a − b)/(33)
+B) c = (−a + b)/(33)
+C) c = (a)/(b − 33)
+D) c = (a)/(b) + 33
+K: B
+E: Solve for c: 33c = b − a, so c = (−a + b)/33.
+#9
+I: /qimg/26-sep-v2-math-m2-q134.svg
+Q: The scatterplot shows the relationship between two variables, x and y. Which of the following equations is the most appropriate model for the data shown?
+A) y = 0.7x^2
+B) y = 0.7x^2 + 100
+C) y = 7x^2
+D) y = 7x^2 + 100
+K: A
+E: At x = 11.8 the point is near y = 110, and 0.7(11.8)^2 ≈ 97. At x = 38.2 the point is near 1,002 and 0.7(38.2)^2 ≈ 1,021. The other models are far off.
+#10
+Q: In a box of drawing supplies, 30% are colored pencils, and the rest are markers. There are 280 markers in the box. How many colored pencils are in the box?
+A) 84
+B) 120
+C) 280
+D) 400
+K: B
+E: Markers are 70% of the box, so the box holds 280 ÷ 0.7 = 400 items, and 30% of 400 is 120.
+#11
+Q: F(x) = (9)/(5)(x − 273.15) + 32
+Q: The function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 6.80 kelvins, by how much did the temperature increase, in degrees Fahrenheit?
+A) 12.24
+B) 44.24
+C) 479.43
+D) 511.43
+K: A
+E: The slope is 9/5, so the increase is (9/5)(6.80) = 12.24.
+#12
+Q: What is the x-intercept of the graph of y = (33 − x)/(ax + b) in the xy-plane, where a and b are positive constants?
+A) (−(b)/(a), 0)
+B) (0, (33)/(b))
+C) (0, −33)
+D) (33, 0)
+K: D
+E: Set y = 0: 33 − x = 0, so x = 33.
+#13
+Q: The height of an equilateral triangle is 52√(3) feet. What is the perimeter, in feet, of the equilateral triangle?
+K: 312
+E: Height = (√3/2)s = 52√3, so s = 104 and the perimeter is 3(104) = 312.
+#14
+Q: Which system of linear equations has no solution?
+A) −3x + 5y = −7 and 3x − 5y = 7
+B) 3x − 5y = 7 and 4x + 6y = 8
+C) 3x − 5y = 7 and −9x + 15y = −21
+D) −3x + 5y = 7 and 6x − 10y = 14
+K: D
+E: Doubling the first equation gives −6x + 10y = 14, which means 6x − 10y = −14, contradicting 6x − 10y = 14. The lines are parallel, so no solution.
+#15
+Q: y = −(1)/(9)(x + 18)(x^2 − 25)
+Q: In the xy-plane, the graph of the given equation contains the point (s, t). If −5 ≤ s ≤ 5, which of the following is NOT a possible value of t?
+A) 18
+B) 5
+C) 0
+D) −5
+K: D
+E: For −5 ≤ x ≤ 5, x^2 − 25 ≤ 0 and x + 18 > 0, so y ≥ 0. A negative value like −5 is impossible.
+#16
+Q: x^2 − 14x + y^2 + 22y = 26
+Q: In the xy-plane, the graph of the given equation is a circle. What is the length of the circle's diameter?
+A) 13
+B) 28
+C) 52
+D) 196
+K: B
+E: Completing the square gives (x − 7)^2 + (y + 11)^2 = 196, so the radius is 14 and the diameter is 28.
+#17
+Q: −4x(6x + p) = 54
+Q: In the given equation, p is an integer constant. The equation has no real solution. What is the least possible value of p?
+K: -17
+E: Rewrite as 24x^2 + 4px + 54 = 0. No real solution means 16p^2 − 4(24)(54) < 0, so p^2 < 324 and −18 < p < 18. The least integer is −17.
+#18
+Q: y = 24x^2 + 17
+Q: y = rx
+Q: The given system of equations, where r is a constant, has two real solutions. If r is a negative integer, what is the greatest possible value of r?
+K: -41
+E: 24x^2 − rx + 17 = 0 needs r^2 − 4(24)(17) > 0, so r^2 > 1,632. Since 40^2 = 1,600 and 41^2 = 1,681, the greatest negative integer is −41.
+#19
+Q: f(x) = 5x^2 + 90x + 406
+Q: The function g is defined by g(x) = f(x + 8). What is the minimum value of g(x)?
+A) −17
+B) −9
+C) 1
+D) 9
+K: C
+E: Shifting the graph horizontally does not change the minimum. The vertex of f is at x = −9, where f(−9) = 405 − 810 + 406 = 1.
+#20
+Q: The function f(n) = 7(20.52)^(n/4) gives each term of a sequence as a function of the term's position, n, in the sequence, where n is a whole number. The value of the term in position 14 is p% more than the value of the term in position 10. What is the value of p?
+A) 2,052
+B) 1,952
+C) 52
+D) 20.52
+K: B
+E: Going from position 10 to 14 multiplies the term by 20.52^(4/4) = 20.52, an increase of 19.52 times the original, which is 1,952%.
+#21
+Q: In isosceles triangle ABC, sides AB and AC are congruent. Point D divides side BC such that the length of segment BD is (3)/(4) of the length of segment BC. Point E lies on side AB and point F lies on side AC such that when segments DE and DF are drawn, angle BED is congruent to angle CFD. If the length of segment BE is 12, what is the length of segment CF?
+A) 4
+B) 16
+C) 72
+D) 96
+K: A
+E: Triangles BED and CFD are similar (angle B = angle C and angle BED = angle CFD). BD:CD = 3:1, so BE:CF = 3:1 and CF = 12 ÷ 3 = 4.
+#22
+Q: Which expression is a factor of y^2(x − 8) − 9(x − 8)^3?
+A) y(x − 8)
+B) (x − 8)(x − 3)
+C) y + x − 8
+D) y + 3x − 24
+K: D
+E: Factor out (x − 8): (x − 8)[y^2 − 9(x − 8)^2] = (x − 8)(y − 3(x − 8))(y + 3(x − 8)), and y + 3(x − 8) = y + 3x − 24.
