@@ -1,0 +1,335 @@
+!id: dsat24-06-us-a-math
+!name: June 2024 US · Form A · Math
+!type: MATH
+!year: 2024
+!month: 6
+!region: US
+!form: A
+=M1
+#1
+Q: If 5x − 7 = 18, what is the value of 2x?
+A) 5
+B) 10
+C) 25
+D) 18
+K: B
+E: 5x = 25, so x = 5 and 2x = 10. (This question was missing from the scanned paper, so Humo wrote a similar one.)
+#2
+Q: Which expression is equivalent to 7x^6 − 2x^5 + 9x^4?
+A) x^5(7x − 2)
+B) x^4(7x^2 − 2x + 9)
+C) 9x^4(7x^2 − 2x + 1)
+D) 2x^6(−2x^5 + 9x^4 + 1)
+K: B
+E: Factor out x^4 from every term.
+#3
+Q: The height of a certain vehicle is 61 inches. The vehicle’s length is 3 times its height. Which of the following systems of equations represents this situation, where x is the length of the vehicle, in inches, and y is the height of the vehicle, in inches?
+A) y = 3x and x = 61
+B) y = 3x and y = 61
+C) x = 3y and x = 61
+D) x = 3y and y = 61
+K: D
+E: Length is 3 times height: x = 3y, and the height is y = 61.
+#4
+Q: For the linear function f, the graph of y = f(x) in the xy-plane has a slope of −54 and passes through the point (0, 0). Which equation defines f?
+A) f(x) = −54x
+B) f(x) = −36x
+C) f(x) = −18x
+D) f(x) = x
+K: A
+E: The y-intercept is 0 and the slope is −54.
+#5
+Q: The function g is defined by g(x) = (5)/(9)x − (7)/(9). What is the value of g(18)?
+A) 38/9
+B) 52/9
+C) 83/9
+D) 97/9
+K: C
+E: g(18) = 10 − 7/9 = 83/9.
+#6
+Q: The function f is defined by f(x) = x^2 + x + 61. What is the value of f(2)?
+K: 67
+E: f(2) = 4 + 2 + 61 = 67.
+#7
+P: f(x) = 5x + 7
+Q: The function f gives the estimated height, in feet, of a poplar tree x years after its height was first measured. Which statement is the best interpretation of 7 in this context?
+A) The tree will be measured each year for 7 years.
+B) The tree is estimated to grow to a maximum height of 7 feet.
+C) The estimated height of the tree increased by 7 feet each year.
+D) The estimated height of the tree was 7 feet when it was first measured.
+K: D
+E: f(0) = 7 is the height when x = 0, the first measurement.
+#8
+Q: In the xy-plane, line k has a slope of 5 and a y-intercept of (0, −35). What is the x-coordinate of the x-intercept of line k?
+K: 7
+E: y = 5x − 35 = 0 gives x = 7.
+#9
+P: (27(k + 6))/(3(k + 6))
+Q: The given expression is equivalent to c, where c is a constant and k > −6. What is the value of c?
+K: 9
+E: The (k + 6) factors cancel, leaving 27/3 = 9.
+#10
+P: The table gives the perimeters of similar triangles TUV and XYZ, where side TU corresponds to side XY. The length of TU is 6.
+T: <table><tr><th></th><th>Perimeter</th></tr><tr><td>Triangle TUV</td><td>50</td></tr><tr><td>Triangle XYZ</td><td>150</td></tr></table>
+Q: What is the length of XY?
+A) 2
+B) 6
+C) 18
+D) 56
+K: C
+E: The scale factor is 150/50 = 3, so XY = 3 × 6 = 18.
+#11
+Q: If 9(7 − 8x) + 2 = 8(7 − 8x) + 17, what is the value of 7 − 8x?
+A) −15
+B) −1
+C) 1
+D) 15
+K: D
+E: Let t = 7 − 8x. Then 9t + 2 = 8t + 17, so t = 15.
+#12
+P: x + 33 = y
+P: (x + 33)^2 = y
+Q: A solution to the given system of equations is (x, y). What is a possible value of x?
+A) −32
+B) 0
+C) 1
+D) 33
+K: A
+E: Substituting gives y^2 = y, so y = 0 or 1. Then x = −33 or −32, and −32 is the choice offered.
+#13
+Q: A circle in the xy-plane has the equation (x − 14)^2 + (y − k)^2 = 36. Which of the following gives the center of the circle and its radius?
+A) The center is at (14, k) and the radius is 6.
+B) The center is at (k, 14) and the radius is 6.
+C) The center is at (k, 14) and the radius is 36.
+D) The center is at (14, k) and the radius is 36.
+K: A
+E: The center is (14, k) and the radius is √36 = 6.
+#14
+Q: The town of Fillmore is planning its annual fireworks show. The equation y = −16(x − 6.8)^2 + 740 gives the estimated height y, in feet, of a type of firework x seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the xy-plane?
+A) This type of firework reaches an estimated maximum height of 740 feet 16 seconds after it is launched into the air.
+B) This type of firework reaches an estimated maximum height of 740 feet 6.8 seconds after it is launched into the air.
+C) This type of firework reaches an estimated maximum height of 16 feet 740 seconds after it is launched into the air.
+D) This type of firework reaches an estimated maximum height of 6.8 feet 740 seconds after it is launched into the air.
+K: B
+E: The vertex is (6.8, 740), and the parabola opens downward, so it is a maximum.
+#15
+I: /qimg/24-06-us-a-m1-q15.svg
+Q: The graph of y = f(x) is shown, where f(x) = ax^3 + bx^2 + cx + d and a, b, c, and d are constants. For how many distinct values of x does f(x) = 0?
+A) One
+B) Two
+C) Three
+D) Four
+K: B
+E: The graph crosses the x-axis once on the left and only touches it once on the right, so there are two distinct zeros.
+#16
+Q: In the xy-plane, circle M is the graph of the equation (x − 3)^2 + (y − 6)^2 = 4. Circle P has the same center as circle M but has a radius that is twice the radius of circle M. Which equation represents circle P?
+A) (x − 3)^2 + (y − 6)^2 = 8
+B) (x − 3)^2 + (y − 6)^2 = 16
+C) (x − 6)^2 + (y − 12)^2 = 4
+D) (x − 6)^2 + (y − 12)^2 = 8
+K: B
+E: Circle M has radius 2, so circle P has radius 4 and r^2 = 16, with the same center (3, 6).
+#17
+I: /qimg/24-06-us-a-m1-q17.svg
+Q: Which expression represents the length of line segment AB?
+A) 14 sin 58°
+B) 14/sin 58°
+C) 14 cos 58°
+D) 14/cos 58°
+K: A
+E: AB is opposite the 58° angle and 14 is the hypotenuse, so AB = 14 sin 58°.
+#18
+Q: The product of a positive number x and the number that is 15 less than x is equal to 286. What is the value of x?
+K: 26
+E: x(x − 15) = 286 gives x^2 − 15x − 286 = 0, so (x − 26)(x + 11) = 0 and x = 26.
+#19
+I: /qimg/24-06-us-a-m1-q19.svg
+P: In the figure, AC = CD. The measure of angle EBC is 29°, and the measure of angle ACD is 108°. What is the value of x?
+K: 65
+E: In triangle ACD, the base angles are (180 − 108)/2 = 36°. In triangle BDE, the angle at D is 36° and the angle at B is 29°, so the exterior angle x = 36 + 29 = 65.
+#20
+Q: The positive number a is 2,800% of the number c, and c is 25% of the number b. If a − b = wc, where w is a constant, what is the value of w?
+K: 24
+E: a = 28c and b = 4c, so a − b = 24c and w = 24.
+#21
+Q: Line j is defined by 4x + 5y = 55. Line k is parallel to line j in the xy-plane. An equation of line k is 24x + ry = 15, where r is a constant. If line k passes through the point (0, b), what is the value of b?
+K: 0.5 | 1/2
+E: Parallel lines have equal slopes: −4/5 = −24/r, so r = 30. Then 30b = 15 and b = 1/2.
+#22
+P: The distribution of capacity, in microfarads (μF), for set A of capacitors is shown in the table. Set B has the same number of capacitors as set A, but the capacity of each capacitor in set B is 17 μF greater than the capacity of each respective capacitor in set A.
+T: <table><tr><th>Capacity (μF)</th><th>2</th><th>5</th><th>8</th><th>11</th><th>14</th></tr><tr><td>Number of capacitors in set A</td><td>6</td><td>4</td><td>3</td><td>4</td><td>6</td></tr></table>
+Q: Which of the following is true about the capacities of the capacitors in set B?
+A) The mean capacity is 8 μF, and the range of capacities is 12 μF.
+B) The mean capacity is 8 μF, and the range of capacities is 29 μF.
+C) The mean capacity is 25 μF, and the range of capacities is 12 μF.
+D) The mean capacity is 25 μF, and the range of capacities is 29 μF.
+K: C
+E: Adding 17 to every value raises the mean by 17 (8 → 25) and leaves the range unchanged (12). (The scan’s dot plot is shown here as a table.)
+=M2
+#1
+I: /qimg/24-06-us-a-m2-q1.svg
+P: The bar graph shows the distribution of flower type for the 700 flowers that a florist has in stock.
+Q: For which two types of flowers is the total number of flowers of the two types exactly 2/5 of the florist’s stock?
+A) Orchid and lily
+B) Daisy and tulip
+C) Tulip and lily
+D) Orchid and sunflower
+K: A
+E: 2/5 of 700 is 280, and orchid (100) + lily (180) = 280. (The answer choices were cut off in the scan, so Humo wrote the other three.)
+#2
+Q: The line of best fit for data set A is y = −0.9x + 56. Data set B is created by subtracting 11 units from the value of y for each data point from data set A. Which of the following is closest to the y-coordinate of the y-intercept of the line of best fit for data set B?
+A) 45
+B) 56
+C) 67
+D) 62.75
+K: A
+E: Subtracting 11 from every y-value moves the line down 11 units, so the y-intercept is 56 − 11 = 45. (The graph was cut off in the scan, so Humo wrote a similar one.)
+#3
+Q: If 4(2x + 11) − 2(2x − 5) = −9 + 13x, what is the value of 12x?
+A) 7/12
+B) 7
+C) 12
+D) 84
+K: D
+E: 4x + 54 = 13x − 9 gives 9x = 63, so x = 7 and 12x = 84.
+#4
+Q: An object has a mass of 308 grams and a volume of 28 cubic centimeters. What is the density, in grams per cubic centimeter, of the object?
+A) 11
+B) 280
+C) 336
+D) 8,624
+K: A
+E: 308 ÷ 28 = 11.
+#5
+Q: In the xy-plane, which of the following does NOT contain any points that are part of the solution set to 3x − 7y > 21?
+A) The region where x < 0 and y > 0
+B) The region where x < 0 and y < 0
+C) The region where x > 0 and y > 0
+D) The x-axis
+K: A
+E: If x < 0 and y > 0, then 3x − 7y is negative, so it can never exceed 21.
+#6
+Q: The graph of the linear function f passes through the points (0, −1) and (1, −7). Which equation defines f?
+A) f(x) = −6x − 1
+B) f(x) = −6x + 1
+C) f(x) = −x − 6
+D) f(x) = −7x − 1
+K: A
+E: The slope is (−7 − (−1))/1 = −6 and the y-intercept is −1. (The graph was unclear in the scan, so Humo wrote a similar one.)
+#7
+Q: In triangle FGH and triangle KLM, the measures of angles G and L are each 30°. The lengths of GH and LM are each 34 centimeters, and GH/GF = LM/LK. Which additional piece of information would be necessary to prove that triangle FGH is congruent to triangle KLM?
+A) The lengths of FG and KM are each 17 centimeters.
+B) The measures of angles H and M are each 60°.
+C) The measures of angles F and K are each 90°.
+D) No additional information is necessary.
+K: D
+E: Since GH = LM, the ratio gives GF = LK. Two sides and the included angle are equal (SAS), so the triangles are congruent.
+#8
+P: y = 3x + 9
+P: 3y = 8x − 6
+Q: The solution to the given system of equations is (x, y). What is the value of x − y?
+A) −123
+B) −33
+C) 3
+D) 57
+K: D
+E: 3(3x + 9) = 8x − 6 gives x = −33 and y = −90, so x − y = 57.
+#9
+Q: An exponential function f is defined by f(x) = c^x, where c is a constant greater than 1. If f(6) = 9 · f(4), what is the value of c?
+K: 3
+E: c^6 = 9c^4 gives c^2 = 9, so c = 3.
+#10
+I: /qimg/24-06-us-a-m2-q10.svg
+Q: In the right triangle shown, what is the value of sin x°?
+A) 1/73
+B) 10/73
+C) 63/73
+D) 136/73
+K: C
+E: The side opposite x° is 63 and the hypotenuse is 73.
+#11
+P: −x − wy = −337
+P: 2x − wy = 47
+Q: In the given system of equations, w is a constant. In the xy-plane, the graphs of these equations intersect at the point (q, 19), where q is a constant. What is the value of w?
+K: 11
+E: Subtracting the equations gives 3x = 384, so x = 128. Then −128 − 19w = −337, so w = 11.
+#12
+T: <table><tr><th></th><th>Site A</th><th>Site B</th><th>Total</th></tr><tr><td>Red maple</td><td>35</td><td>15</td><td>50</td></tr><tr><td>Chestnut oak</td><td>31</td><td>20</td><td>51</td></tr><tr><td>Total</td><td>66</td><td>35</td><td>101</td></tr></table>
+Q: The table shows the distribution of two types of trees at two different sites. If a tree represented in the table is selected at random, what is the probability of selecting a tree from site A, given that the tree is a red maple? (Express your answer as a decimal or fraction, not as a percent.)
+K: 35/66 | .5303 | 0.5303
+E: 35 of the 66 trees at site A are red maples, so the probability is 35/66 ≈ 0.5303. (The scanned question wording was cut off; this follows the table’s Site A column.)
+#13
+Q: A beaker containing a liquid is placed on a table. The function g(t) = 295 + (361 − 295)(2.72)^(−0.104t) gives the approximate temperature, in kelvins, of the liquid t minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?
+K: 361
+E: At t = 0, g(0) = 295 + 66 = 361.
+#14
+Q: For the exponential function f, the value of f(1) is k, where k is a constant. Which of the following equivalent forms of the function f shows the value of k as the coefficient or the base?
+A) f(x) = 49(1.7)^(x + 1)
+B) f(x) = 85(1.7)^x
+C) f(x) = 144.5(1.7)^(x − 1)
+D) f(x) = 245.65(1.7)^(x − 2)
+K: C
+E: In choice C, f(1) = 144.5(1.7)^0 = 144.5, and 144.5 appears as the coefficient.
+#15
+Q: How many times does the graph of the given equation y = 9(a/6)^(x + c) − b cross the x-axis, where a, b, and c are positive constants such that a > 6 and b > c?
+A) Zero
+B) One
+C) Two
+D) Three
+K: B
+E: Since a > 6, the base a/6 is greater than 1, so the graph rises from the asymptote y = −b (below the axis) to infinity, crossing the x-axis exactly once.
+#16
+Q: For a polynomial function f, the graph of y = f(x) in the xy-plane contains the points (−6, 0), (7, 0), (0, 0), and (4, 0). Which of the following must be a factor of f(x)?
+A) x^2 − 2x − 24
+B) x^2 − x + 42
+C) x^2 − 11x − 28
+D) x^2 − 7x
+K: D
+E: The zeros 0 and 7 give factors x and (x − 7), whose product is x^2 − 7x.
+#17
+I: /qimg/24-06-us-a-m2-q17.svg
+P: In the given figure, NP is the diameter of semicircle O. Angles Q, R, and S are right angles, and point P is the midpoint of NQ. If PQ = 52 feet and NS = 18 feet, the area of the figure can be expressed as aπ + b square feet, where a and b are integers. What is the value of a − b?
+K: −1534
+E: NP = 52, so the semicircle has radius 26 and area (1/2)π(26)^2 = 338π. The rectangle is 104 × 18 = 1872. So a = 338, b = 1872, and a − b = −1534.
+#18
+Q: 1/(5xy) + xyz = 1/(4yz)
+Q: In the given equation, x, y, and z are positive numbers. Which expression is equivalent to y?
+A) (5x − 4z)/(20x^2z^2)
+B) √((5x − 4z)/(20x^2z^2))
+C) 1/(4xz^2 − 5x^2z)
+D) √(1/(4xz^2 − 5x^2z))
+K: B
+E: Multiply by 20xyz: 4z + 20x^2y^2z^2 = 5x, so y^2 = (5x − 4z)/(20x^2z^2) and y is the positive square root.
+#19
+Q: The equation 2|x − 5| = k, where k is a constant, has exactly one solution. Which of the following could be the value of k/2?
+A) −5 only
+B) −5 or 5
+C) 0 only
+D) 5 only
+K: C
+E: An absolute value equation has exactly one solution only when it equals 0, so k = 0 and k/2 = 0.
+#20
+Q: The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676%. If this red kangaroo’s mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?
+A) 7.76k
+B) 6.76k
+C) 1.08k
+D) 0.08k
+K: A
+E: A 676% increase multiplies the mass by 1 + 6.76 = 7.76.
+#21
+T: <table><tr><th>x</th><th>g(x)</th></tr><tr><td>−21</td><td>2</td></tr><tr><td>−9</td><td>0</td></tr><tr><td>15</td><td>4</td></tr></table>
+Q: The table shows three values of x and their corresponding values of g(x), where g(x) = (f(x))/(x + 3) and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?
+A) (0, −9)
+B) (0, 3)
+C) (0, 9)
+D) (0, 27)
+K: D
+E: f(−21) = 2(−18) = −36, f(−9) = 0, f(15) = 72. The slope is 3, so f(x) = 3(x + 9) = 3x + 27.
+#22
+Q: For groups of 25 or more people, a museum charges $28 per person for the first 25 people and $17 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where n ≥ 25?
+A) f(n) = 17n + 275
+B) f(n) = 17n + 28
+C) f(n) = 17n + 700
+D) f(n) = 45n − 425
+K: A
+E: f(n) = 28(25) + 17(n − 25) = 700 + 17n − 425 = 17n + 275.
