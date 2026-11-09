@@ -1,0 +1,291 @@
+!id: dsat26-10-v6-math
+!name: October 2026 · Version 6 · Math
+!type: MATH
+!year: 2026
+!month: 10
+!region: International
+!form: 6
+=M1
+#1
+Q: The function f is defined by f(x) = 8x + 3. What is the value of f(x) when x = 100?
+K: 803
+#2
+Q: Each face of a fair 18-sided die is labeled with a number from 1 through 18, with a different number appearing on each face. If the die is rolled one time, what is the probability of rolling a 2?
+A) (1)/(18)
+B) (2)/(18)
+C) (16)/(18)
+D) (17)/(18)
+K: A
+#3
+Q: Which expression is equivalent to 8x(x + 7)?
+A) 8x^2 + 7
+B) 8x^2 + 56x
+C) 9x^2 + 7
+D) 9x^2 + 15x
+K: B
+#4
+Q: In triangle ABC, the measure of angle B is 24° and the measure of angle C is 16°. What is the measure of angle A?
+A) 8°
+B) 40°
+C) 50°
+D) 140°
+K: D
+#5
+Q: A rectangle has a length of 7 centimeters and a width of 3 centimeters. What is the perimeter, in centimeters, of this rectangle?
+K: 20
+#6
+Q: If 5x = 4, what is the value of 35x?
+A) (28)/(5)
+B) 7
+C) 28
+D) 140
+K: C
+#7
+Q: Line p is defined by y = 3x − 9. Line s is parallel to line p in the xy-plane. What is the slope of line s?
+K: 3
+#8
+I: /qimg/26-oct-v6-math-m1-q8.svg
+Q: The scatterplot shows the relationship between two variables, x and y. A line of best fit is also shown.
+Q: Which of the following is closest to the slope of this line of best fit?
+A) −3.5
+B) −1.1
+C) 1.1
+D) 3.5
+K: B
+#9
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">x</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">f(x)</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">1</td><td style="border:1px solid #000;padding:4px 10px">−10</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">5</td><td style="border:1px solid #000;padding:4px 10px">−18</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">10</td><td style="border:1px solid #000;padding:4px 10px">−28</td></tr></table>
+Q: For the linear function f, the table shows three values of x and their corresponding values of f(x). Which equation defines f?
+A) f(x) = −2(x − 5)
+B) f(x) = −2(x + 4)
+C) f(x) = −2(2x − 5)
+D) f(x) = −2(2x − 4)
+K: B
+#10
+Q: In 2010, a skating team had a total of 44 skaters, each classified as either advanced or intermediate. From 2010 to 2020, the number of advanced skaters on the team increased by approximately 61%, and the number of intermediate skaters on the team increased by approximately 27%. The total number of skaters on the team increased by approximately 41%. Which equation best represents this situation, where a represents the number of advanced skaters on the team in 2010 and b represents the number of intermediate skaters on the team in 2010?
+A) 1.27a + 1.61b = 44(1.41)
+B) 1.61a + 1.27b = 44(1.41)
+C) 1.41a + 0.61b = 44(1.27)
+D) 1.61a + 1.41b = 44(1.27)
+K: B
+#11
+Q: y = 9x^2 − 54x + 45
+Q: The given equation represents a parabola in the xy-plane. Which of the following equations that represent the same parabola displays the x-intercepts as constants or coefficients?
+A) y = 9(x − 1)(x − 5)
+B) y = 9(x − 3)^2 − 36
+C) y = 9x(x − 6) + 45
+D) y = 9(x^2 − 6x) + 45
+K: A
+#12
+Q: Which of the following lists represents a data set with the smallest standard deviation?
+A) 70, 71, 73, 75, 76
+B) 71, 71, 73, 75, 75
+C) 71, 72, 73, 74, 75
+D) 72, 73, 73, 73, 74
+K: D
+#13
+Q: What is the y-intercept of the graph of y = 28^x in the xy-plane?
+A) (0, 1)
+B) (0, 27)
+C) (0, 28)
+D) (0, 0)
+K: A
+#14
+Q: √(40) = √((1)/(x))
+Q: What is the solution to the given equation?
+A) (1)/(1,600)
+B) (1)/(40)
+C) 40
+D) 1,600
+K: B
+#15
+Q: An environmental scientist studies the decomposition of paper bags when the bags are placed in an environment with a certain type of bacteria. The exponential function f(x) = 525(0.91)^x gives the estimated remaining mass, in grams, of the paper bags x days after they are placed in an environment with this bacteria, where 0 ≤ x ≤ 30. If this function is graphed in the xy-plane, where y = f(x), which statement is the best interpretation of the point (1, 477.75) on the graph?
+A) The estimated remaining mass of the paper bags 1 day after they are placed in an environment with this bacteria is 477.75 grams less than it was the day before.
+B) The estimated remaining mass of the paper bags after they are placed in an environment with this bacteria is decreasing by 477.75 grams per day.
+C) The estimated remaining mass of the paper bags 1 day after they are placed in an environment with this bacteria is 477.75 grams.
+D) The estimated remaining mass of the paper bags 477.75 days after they are placed in an environment with this bacteria is 1 gram.
+K: C
+#16
+Q: The graph of the polynomial function f in the xy-plane, where y = f(x), passes through the point (5, 7). What is the value of f(5)?
+A) 5
+B) 7
+C) 12
+D) 35
+K: B
+#17
+Q: For two acute angles X and Y, the measure of angle Y is 28° and (sin X)/(cos Y) = 1. What is the measure, in degrees, of angle X?
+A) 28
+B) 45
+C) 62
+D) 73
+K: C
+#18
+Q: The product of a positive number x and the number that is 5 more than x is 204. What is the value of x?
+K: 12
+#19
+Q: F(x) = (9)/(5)(x − 273.15) + 32
+Q: The function F gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of x kelvins. If a temperature increased by 8.20 kelvins, by how much did the temperature increase, in degrees Fahrenheit?
+A) 14.76
+B) 46.76
+C) 476.91
+D) 508.91
+K: A
+#20
+Q: On a plot of land, 44.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 28.5% of the square footage of the farmland, and there are buildings on exactly 11.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?
+K: 18.7
+#21
+I: /qimg/26-oct-v6-math-m1-q21.svg
+Q: In triangle QRS shown, QR < RS. Which expression represents the length of QS?
+A) 26 cos Q
+B) 26 sin Q
+C) (26)/(cos Q)
+D) (26)/(sin Q)
+K: D
+#22
+I: /qimg/26-oct-v6-math-m1-q22.svg
+Q: The shaded region shown represents the solutions to which inequality?
+A) y > 3x − 35
+B) y < 3x − 35
+C) y > 15x − 35
+D) y < 15x − 35
+K: C
+=M2
+#1
+Q: A restaurant can seat up to 60 people for an event using tables of two different sizes. The inequality 4S + 8L ≤ 60 represents this situation, where S is the number of small tables and L is the number of large tables used for an event. What is the best interpretation of 4 in this context?
+A) Each large table can seat 4 people.
+B) Each small table can seat 4 people.
+C) The restaurant can hold at most 4 large tables.
+D) The restaurant can hold at most 4 small tables.
+K: B
+#2
+I: /qimg/26-oct-v6-math-m2-q2.svg
+Q: During a chemistry experiment, the temperature of a mixture is measured every minute. The scatterplot shows the temperature y, in °C, of the mixture at various times x, in minutes, since the start of the experiment. During which of the following time periods was the average rate of change of the temperature of the mixture over time, in °C per minute, negative?
+A) From x = 3 to x = 7
+B) From x = 3 to x = 5
+C) From x = 2 to x = 4
+D) From x = 1 to x = 3
+K: B
+#3
+Q: If 4(2t − 5) + t = 60 + 7t, what is the value of 2t?
+K: 80
+#4
+Q: x + 6y = −2
+Q: 6x − y = 25
+Q: The solution to the given system of equations is (x, y). What is the value of 5x − 7y?
+K: 27
+#5
+Q: For a function f, f(−8) = (15)/(4) and f(20) = −(13)/(4). Which equation could define f?
+A) f(x) = −4x − (113)/(4)
+B) f(x) = −4x + (307)/(4)
+C) f(x) = −(1)/(4)x + (23)/(4)
+D) f(x) = −(1)/(4)x + (7)/(4)
+K: D
+#6
+Q: 2x^2 = k
+Q: In the given equation, k is a constant. The equation has no real solution. Which of the following could be the value of k?
+A) −92
+B) 0
+C) 46
+D) 55
+K: A
+#7
+Q: A linear function g is defined by g(x) = ax + b, where a and b are constants. If g(−1) = −7 and g(4) = 8, what is the value of a?
+K: 3
+#8
+T: <table style="border-collapse:collapse"><tr><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Average temperature (degrees Fahrenheit)</th><th style="border:1px solid #000;padding:4px 10px;background:#ddd">Frequency</th></tr><tr><td style="border:1px solid #000;padding:4px 10px">below 0.0</td><td style="border:1px solid #000;padding:4px 10px">1</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">0.0 to 9.9</td><td style="border:1px solid #000;padding:4px 10px">0</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">10.0 to 19.9</td><td style="border:1px solid #000;padding:4px 10px">4</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">20.0 to 29.9</td><td style="border:1px solid #000;padding:4px 10px">8</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">30.0 to 39.9</td><td style="border:1px solid #000;padding:4px 10px">10</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">40.0 to 49.9</td><td style="border:1px solid #000;padding:4px 10px">6</td></tr><tr><td style="border:1px solid #000;padding:4px 10px">50.0 to 59.9</td><td style="border:1px solid #000;padding:4px 10px">2</td></tr></table>
+Q: A researcher created a data set by recording the daily average temperature, to the nearest tenth of a degree Fahrenheit, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes these data.
+Q: Based on the frequency table, the greatest possible number of days that the daily average temperature in this town could have been more than 35.0 degrees Fahrenheit is p% of the number of days in December 2022. Which of the following is closest to the value of p?
+A) 8
+B) 18
+C) 26
+D) 58
+K: D
+#9
+Q: What is the x-intercept of the graph of px + 18y = 1 in the xy-plane, where p is a positive constant?
+A) (p, 0)
+B) ((p)/(18), 0)
+C) ((1)/(p), 0)
+D) ((1)/(18), 0)
+K: C
+#10
+Q: A moving truck rental company charges its customers $165 for the first hour of renting a truck and $95 for each additional hour, plus the cost of gas used. Which equation represents this situation, where y is the total cost, in dollars, of renting a truck from this company for x hours, w is the cost, in dollars, of gas used, and x ≥ 1?
+A) y = 95(x − 1) + w
+B) y = 165 + 95 + w
+C) y = 165 + 95x + w
+D) y = 165 + 95(x − 1) + w
+K: D
+#11
+Q: If (5a)/(b) = 3.2 and (a)/(bn) = 12.8, what is the value of n?
+K: 0.05 | .05 | 1/20
+#12
+Q: Which system of linear equations has no solution?
+A) −8x + 2y = −7<br>8x − 2y = 7
+B) 8x − 2y = 7<br>9x + 3y = 8
+C) 8x − 2y = 7<br>−24x + 6y = −21
+D) −8x + 2y = 7<br>16x − 4y = 14
+K: D
+#13
+Q: y = −(1)/(9)(x + 15)(x^2 − 49)
+Q: In the xy-plane, the graph of the given equation contains the point (s, t). If −7 ≤ s ≤ 7, which of the following is NOT a possible value of t?
+A) 15
+B) 7
+C) 0
+D) −7
+K: D
+#14
+I: /qimg/26-oct-v6-math-m2-q14.svg
+Q: For triangle ABC, segment CD (not shown) is drawn such that point D lies on segment AB and segment CD is perpendicular to segment AB at point D. If the ratio of AD to DB is 59 to 28, what is the length of segment CD?
+A) √(4,265)
+B) √(1,652)
+C) √(87)
+D) 28√(59)
+K: B
+#15
+Q: x^2 − 12x + y^2 + 16y = 44
+Q: In the xy-plane, the graph of the given equation is a circle. What is the length of the circle's diameter?
+A) 22
+B) 24
+C) 88
+D) 144
+K: B
+#16
+Q: The solutions to x^2 + px + 75 = 0, where p is a constant, are r and s. The solutions to x^2 + 8x + 10 = 0 are r + 5 and s + 5. What is the value of p?
+K: 18
+#17
+Q: What is 5% of 880?
+A) 44
+B) 176
+C) 440
+D) 875
+K: A
+#18
+Q: The edge length, in millimeters (mm), of cube Y is 178 times the edge length, in mm, of cube X. The surface area, in mm^2, of cube Y is n times the surface area, in mm^2, of cube X. What is the value of n?
+A) 178
+B) 1,068
+C) 31,684
+D) 190,104
+K: C
+#19
+Q: Layla is planning to build a raised garden bed in the shape of a right triangle. The garden bed will have two perpendicular sides, where one of these sides is 58 feet longer than twice the length of the other side. The function a represents the area, in square feet, of the garden bed in terms of the length x, in feet, of the longer perpendicular side. Which equation defines a?
+A) a(x) = (1)/(4)x^2 − (29)/(2)x
+B) a(x) = (1)/(2)x^2 + x + 29
+C) a(x) = x^2 + 29x
+D) a(x) = (5)/(4)x^2 − 29x + 841
+K: A
+#20
+Q: The function f(n) = 7(20.42)^((n)/(5)) gives each term of a sequence as a function of the term's position, n, in the sequence, where n is a whole number. The value of the term in position 15 is p% more than the value of the term in position 10. What is the value of p?
+A) 2,042
+B) 1,942
+C) 42
+D) 20.42
+K: B
+#21
+Q: The function f is defined by f(x) = (|x|)/(a) − 18, where a < 0. What is the product of f(19a) and f(5a)?
+K: 851
+#22
+I: /qimg/26-oct-v6-math-m2-q22.svg
+Q: In the figure, the length of RT is 63 units, the length of LK is 21 units, and the area of triangle RST is 252 square units. What is the length, in units, of KT?
+A) (8)/(3)
+B) (16)/(3)
+C) 8
+D) 16
+K: B
