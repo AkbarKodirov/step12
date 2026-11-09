@@ -7,10 +7,10 @@ export const VIDEO_BASE = 'https://pub-74c3fe78d2fd419fbb39853077b9141c.r2.dev/l
 
 export type Chapter = { id: string; t: number; title: string; part: string }
 export type MasteryQ = { text?: string; notes?: string[]; goal?: string; question: string; choices: string[]; answer: number; why: string; chapter: string }
-export type VideoLesson = { slug: string; duration: number; chapters: Chapter[]; mastery: MasteryQ[] }
+export type VideoLesson = { slug: string; duration: number; chapters: Chapter[]; mastery: MasteryQ[]; /** Folder holding the files when they are served from this site instead of R2. */ base?: string }
 
-export const videoSrc = (v: VideoLesson, q: '720p' | '1080p') => `${VIDEO_BASE}/${v.slug}/${v.slug}-${q}.mp4`
-export const posterSrc = (v: VideoLesson) => `${VIDEO_BASE}/${v.slug}/${v.slug}-poster.jpg`
+export const videoSrc = (v: VideoLesson, q: '720p' | '1080p') => `${v.base ?? `${VIDEO_BASE}/${v.slug}`}/${v.slug}-${q}.mp4`
+export const posterSrc = (v: VideoLesson) => `${v.base ?? `${VIDEO_BASE}/${v.slug}`}/${v.slug}-poster.jpg`
 
 export const VIDEOS: Record<string, VideoLesson> = {
   transitions: {
@@ -781,6 +781,181 @@ export const VIDEOS: Record<string, VideoLesson> = {
       },
     ],
   },
+  'desmos-walkthrough': {
+  slug: 'desmos-walkthrough',
+  base: '/lessons/desmos-walkthrough',
+  duration: 846,
+  chapters: [
+    {
+      id: 'intro',
+      t: 0,
+      title: 'Welcome',
+      part: 'Intro'
+    },
+    {
+      id: 'habits',
+      t: 31,
+      title: 'Four habits before we start',
+      part: 'Warm-up'
+    },
+    {
+      id: 'q1',
+      t: 79,
+      title: 'Q1: Systems with infinitely many solutions',
+      part: 'Algebra'
+    },
+    {
+      id: 'q2',
+      t: 162,
+      title: 'Q2: Radical equation, extraneous root',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'q3',
+      t: 215,
+      title: 'Q3: Exactly one solution: the discriminant graph',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'q4',
+      t: 276,
+      title: 'Q4: Parabola through three points',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'q5',
+      t: 321,
+      title: 'Q5: Mean with a missing value',
+      part: 'Problem-Solving & Data'
+    },
+    {
+      id: 'q6',
+      t: 352,
+      title: 'Q6: Exponential regression from a table',
+      part: 'Problem-Solving & Data'
+    },
+    {
+      id: 'q7',
+      t: 400,
+      title: 'Q7: Percent chain in one list',
+      part: 'Problem-Solving & Data'
+    },
+    {
+      id: 'q8',
+      t: 454,
+      title: 'Q8: Circle radius, measured not calculated',
+      part: 'Geometry & Trig'
+    },
+    {
+      id: 'q9',
+      t: 497,
+      title: 'Q9: Special right triangle from a perimeter',
+      part: 'Geometry & Trig'
+    },
+    {
+      id: 'q10',
+      t: 546,
+      title: 'Q10: When an exponential overtakes a line',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'q11',
+      t: 606,
+      title: 'Q11: Identity for all x',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'q12',
+      t: 667,
+      title: 'Q12: Cosine of a large angle',
+      part: 'Geometry & Trig'
+    },
+    {
+      id: 'q13',
+      t: 714,
+      title: 'Q13: Equivalent exponential forms',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'q14',
+      t: 771,
+      title: 'Q14: Counting solutions of a system',
+      part: 'Advanced Math'
+    },
+    {
+      id: 'outro',
+      t: 801,
+      title: 'Your Desmos toolbox',
+      part: 'Recap'
+    }
+  ],
+  mastery: [
+    {
+      question: 'Which letters should you never use as unknowns in Desmos?',
+      choices: [
+        'k, a and b',
+        'r, e and θ',
+        'm and s',
+        'x_1 and y_1'
+      ],
+      answer: 1,
+      why: 'Desmos treats r, e and θ as special symbols. Use letters like k, a, b, m or s for your unknowns.',
+      chapter: 'habits'
+    },
+    {
+      text: 'You square both sides of √(x + 6) = x and get x = 3 or x = −2. You then graph y = √(x + 6) and y = x.',
+      question: 'How many times do the two graphs cross?',
+      choices: [
+        'Twice, at x = 3 and x = −2',
+        'Once, at x = 3',
+        'Never',
+        'Three times'
+      ],
+      answer: 1,
+      why: 'At x = −2 the right side is −2, but a square root cannot be negative. That solution is extraneous, and Desmos never draws it.',
+      chapter: 'q2'
+    },
+    {
+      text: 'A parabola y = ax² + bx + c passes through (0, 3), (1, 4) and (2, 7). You put the x-values and the y-values in two lists and type y₁ ~ ax₁² + bx₁ + c.',
+      question: 'What value of c does the regression panel show?',
+      choices: [
+        '1',
+        '3',
+        '4',
+        '7'
+      ],
+      answer: 1,
+      why: 'The curve is y = x² + 3, so a = 1, b = 0 and c = 3. The point (0, 3) is the y-intercept.',
+      chapter: 'q4'
+    },
+    {
+      text: 'f(x) = 100(1.08)^x and g(x) = 100 + 12x cross at about x = 10.8.',
+      question: 'What is the smallest positive integer x for which f(x) > g(x)?',
+      choices: [
+        '10',
+        '10.8',
+        '11',
+        '12'
+      ],
+      answer: 2,
+      why: 'x must be a whole number past the crossing. At 10 the line is still ahead (220 against 215.9), and at 11 the exponential wins (233.2 against 232).',
+      chapter: 'q10'
+    },
+    {
+      text: 'You type cos(14π/3) and Desmos shows about 0.97.',
+      question: 'What most likely went wrong?',
+      choices: [
+        'Desmos was in degree mode',
+        'Desmos was in radian mode',
+        'The tilde was missing',
+        'The window was too small'
+      ],
+      answer: 0,
+      why: 'In radian mode the answer is −0.5. A value near 0.97 means Desmos read 14π/3 as degrees. Check the angle mode before any trig.',
+      chapter: 'q12'
+    }
+  ]
+},
 }
 
 /** Lessons whose videos are being made now. They show a "video coming soon" card. */

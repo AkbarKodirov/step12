@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Stage</title>
+<style>
+:root{--navy:#03244A;--navy2:#0a3566;--crimson:#C8103F;--ink:#10223d}
+*{box-sizing:border-box}
+body{margin:0;width:1536px;height:864px;overflow:hidden;font-family:Onest,system-ui,sans-serif;background:radial-gradient(1200px 700px at 15% -10%,#0f3f78 0,#03244A 55%,#021a36 100%);color:#fff}
+header{height:68px;display:flex;align-items:center;padding:0 30px;gap:14px}
+header img{height:38px}
+header .brand{font-weight:800;font-size:20px;letter-spacing:.2px}
+header .brand span{color:#ff9db3}
+header .t{margin-left:auto;font-size:16px;color:#cfe0f5;font-weight:500}
+header .prog{margin-left:14px;background:rgba(255,255,255,.12);padding:6px 14px;border-radius:99px;font-weight:700;font-size:15px}
+main{display:flex;gap:22px;padding:0 30px;height:690px}
+.left{width:526px;background:#fffdf8;color:var(--ink);border-radius:22px;padding:26px 30px;display:flex;flex-direction:column;box-shadow:0 20px 50px -20px rgba(0,0,0,.6);position:relative;overflow:hidden}
+.left .tag{font-size:13px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--crimson)}
+.left .qn{font-size:15px;font-weight:700;color:#6b7a90;margin:4px 0 14px}
+.left .body{font-family:Literata,Georgia,serif;font-size:28px;line-height:1.5}
+.left .body .eq{margin:12px 0;padding:12px 18px;background:#f1ece0;border-radius:12px;font-size:28px;line-height:1.55}
+.left .body .eq.big{font-size:32px;text-align:center}
+.left .body ol{margin:10px 0 0;padding-left:30px}.left .body ol li{margin:6px 0}
+.left .body ol.ch{list-style:upper-alpha}
+mark.hl{background:#ffd9e2;color:#8f0b2e;border-radius:6px;padding:0 3px;box-shadow:0 0 0 2px #ffb8c9 inset;font-weight:600}
+.badge{position:absolute;left:26px;right:26px;bottom:22px;background:linear-gradient(135deg,#0a3566,#03244A);color:#fff;border-radius:16px;padding:14px 20px;font-weight:800;font-size:30px;display:none;align-items:center;gap:12px;box-shadow:0 12px 24px -10px rgba(0,0,0,.5)}
+.badge small{font-size:14px;font-weight:700;color:#ff9db3;letter-spacing:.1em;text-transform:uppercase;display:block}
+.badge.on{display:flex}
+.right{flex:1;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 20px 50px -20px rgba(0,0,0,.6);position:relative}
+#calc{position:absolute;inset:0}
+.cap{height:106px;padding:14px 60px 0;text-align:center;font-size:25px;line-height:1.38;color:#fff;font-weight:500;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+/* title / recap */
+.title,.recap{position:absolute;left:0;top:0;width:1536px;height:864px;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:radial-gradient(1000px 600px at 50% 30%,#124a8a 0,#03244A 60%,#021a36 100%)}
+.title.on,.recap.on{display:flex}
+.title img.m{width:230px;margin-bottom:10px}
+.title h1{font-size:84px;line-height:1.02;margin:0;font-weight:800;letter-spacing:-1px}
+.title h1 span{color:#ff9db3}
+.title p{font-size:30px;margin:24px 0 0;color:#cfe0f5;font-weight:600}
+.title .who{margin-top:34px;padding:12px 26px;border-radius:99px;background:rgba(255,255,255,.12);font-size:22px;font-weight:700}
+.recap h2{font-size:54px;margin:0 0 26px;font-weight:800}
+.recap ol{list-style:none;padding:0;margin:0;counter-reset:n;text-align:left}
+.recap li{counter-increment:n;font-size:29px;font-weight:600;margin:11px 0;padding:10px 26px 10px 72px;background:rgba(255,255,255,.09);border-radius:14px;position:relative;width:900px}
+.recap li:before{content:counter(n);position:absolute;left:18px;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;background:var(--crimson);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px}
+.recap .who{margin-top:20px;font-size:21px;color:#cfe0f5;font-weight:600}
+.cap.hide{visibility:hidden}
+</style></head><body>
+<header><img id="logo"><div class="brand">Humo <span>AI</span> · Academy</div><div class="t" id="ht"></div><div class="prog" id="prog"></div></header>
+<main><div class="left"><div class="tag" id="tag"></div><div class="qn" id="qn"></div><div class="body" id="body"></div><img id="mas" style="position:absolute;right:18px;bottom:14px;width:150px;opacity:.95"><div class="badge" id="badge"></div></div><div class="right"><div id="calc"></div></div></main>
+<div class="cap" id="cap"></div>
+<div class="title" id="title"><img class="m" id="mark"><h1 id="h1"></h1><p id="sub"></p><div class="who">Digital SAT · Math · Desmos</div></div>
+<div class="recap" id="recap"><h2>Your Desmos toolbox</h2><ol id="rl"></ol><div class="who">Made by the Humo Academy mentors</div></div>
+<script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+<script>
+const $=id=>document.getElementById(id);
+const q=new URLSearchParams(location.search);const A=q.get('assets')||'';
+const fonts=[['Onest',400,'Onest-400.ttf'],['Onest',500,'Onest-500.ttf'],['Onest',600,'Onest-600.ttf'],['Onest',700,'Onest-700.ttf'],['Onest',800,'Onest-800.ttf'],['Literata',400,'Literata-400.ttf'],['Literata',600,'Literata-600.ttf']];
+const st0=document.createElement('style');st0.textContent=`@font-face{font-family:Literata;font-style:italic;font-weight:400;src:url(${A}/fonts/Literata-400i.ttf)}`;document.head.appendChild(st0);
+const st=document.createElement('style');st.textContent=fonts.map(([f,w,u])=>`@font-face{font-family:${f};font-weight:${w};src:url(${A}/fonts/${u})}`).join('');document.head.appendChild(st);
+$('logo').src=A+'/brand/humo-mark.svg';$('mark').src=A+'/brand/humo-mark.svg';$('mas').src=A+'/mascot/humo-thinking-512.png';
+const calc=Desmos.GraphingCalculator($('calc'),{keypad:false,expressions:true,fontSize:19,settingsMenu:false,zoomButtons:false,expressionsCollapsed:false,pointsOfInterest:true,trace:true});
+window.calc=calc;
+const COL={};
+function applyExpr(e){const o={id:e.id,latex:e.latex};if(e.color)o.color=e.color;if(e.dashed)o.lineStyle=Desmos.Styles.DASHED;if(e.secret)o.secret=true;if(e.showLabel)o.showLabel=true;if(e.slider)o.sliderBounds={min:e.slider[0],max:e.slider[1],step:e.slider[2]};if(e.points){o.pointStyle=Desmos.Styles.POINT}calc.setExpression(o)}
+let gw=1,gh=1;
+window.reset=()=>{calc.setBlank();window.helpers=[]};
+window.stage=(cfg)=>{
+  $('title').classList.toggle('on',cfg.kind==='title');$('recap').classList.toggle('on',cfg.kind==='recap');
+  $('cap').classList.toggle('hide',false);
+  $('tag').textContent=cfg.tag||'';$('qn').textContent=cfg.qn||'';$('prog').textContent=cfg.prog||'';$('ht').textContent=cfg.ht||'';
+  if(cfg.kind==='title'){$('h1').innerHTML=cfg.title[0]+'<br><span>'+cfg.title[1]+'</span>';$('sub').textContent=cfg.sub}
+  if(cfg.kind==='recap'){$('rl').innerHTML=cfg.recap.map(x=>'<li>'+x+'</li>').join('')}
+  if(cfg.text!==undefined){let n=-1;$('body').innerHTML=cfg.text.replace(/\{\{(.+?)\}\}/g,(m,t)=>{n++;return '<mark class="hl" data-i="'+n+'">'+t+'</mark>'})}
+};
+window.hl=(list)=>{document.querySelectorAll('mark.hl').forEach(m=>{const on=list.includes(+m.dataset.i);m.style.background=on?'#ffd9e2':'transparent';m.style.boxShadow=on?'0 0 0 2px #ffb8c9 inset':'none';m.style.color=on?'#8f0b2e':'inherit';m.style.fontWeight=on?'600':'inherit'})};
+window.badge=(t)=>{const b=$('badge');$('mas').style.display=t?'none':'block';if(t){b.innerHTML='<div><small>Answer</small>'+t+'</div>';b.classList.add('on')}else b.classList.remove('on')};
+window.cap=(t)=>{$('cap').textContent=t};
+window.addExprs=(l)=>l.forEach(applyExpr);
+window.setExprs=(o)=>Object.entries(o).forEach(([id,latex])=>{const ex=calc.getExpressions().find(e=>e.id===id);calc.setExpression({id,latex})});
+window.view=(v,free)=>{if(!v)return;const r=document.querySelector('#calc').getBoundingClientRect();const m=calc.graphpaperBounds.mathCoordinates;
+  // graph area = right of the expression list; ask Desmos for its pixel size
+  const px=calc.graphpaperBounds.pixelCoordinates;const w=px.width,h=px.height;
+  let [x0,x1,y0,y1]=v;
+  if(v.length===3||!free){const yc=v.length===3?v[2]:(y0+y1)/2;const sc=(x1-x0)/w;y0=yc-sc*h/2;y1=yc+sc*h/2}
+  calc.setMathBounds({left:x0,right:x1,bottom:y0,top:y1})};
+window.numVar=(name)=>new Promise(r=>{const h=calc.HelperExpression({latex:name});setTimeout(()=>r(h.numericValue),500)});
+window.numId=(id)=>{const a=calc.expressionAnalysis[id];return a&&a.evaluation?a.evaluation.value:null};
+window.ready=true;
+</script></body></html>

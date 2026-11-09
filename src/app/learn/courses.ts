@@ -219,6 +219,15 @@ export const MATH: Course = {
       blurb: 'Watch a teacher solve SAT math step by step, then take the Mastery Check.',
       lessons: [
         {
+          id: 'desmos-walkthrough',
+          title: 'The Complete Desmos Walkthrough: 14 hard questions, one video',
+          min: 14,
+          summary: 'One full video instead of many small ones. Made by the Humo Academy mentors: the question on the left, the real Desmos on the right, and 14 hard questions from our math collection solved line by line with every Desmos move you need on test day.',
+          steps: ['Graph both sides for any equation; extraneous roots disappear on their own.', 'Put a slider on a constant, and use the tilde ~ for any unknown, with lists for identities and percent chains.', 'Rename the constant as x to graph a discriminant, and use lists with mean() for statistics.', 'Check radians vs degrees before trig, and confirm every answer a second way.'],
+          traps: ['Using r, e or θ as an unknown.', 'Stopping at the first answer you find, or forgetting to zoom out before you count.'],
+          rule: 'Type the question into Desmos, let it do the work, then check the answer a second way.',
+        },
+        {
           id: 'math-intro',
           title: 'Intro to SAT Math: expressions and linear equations',
           min: 14,
