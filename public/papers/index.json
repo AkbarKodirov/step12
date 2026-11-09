@@ -552,6 +552,18 @@
   "minutesPerModule": 32
  },
  {
+  "id": "dsat24-10-us-c-math",
+  "name": "October 2024 US · Form C · Math",
+  "type": "MATH",
+  "year": 2024,
+  "month": 10,
+  "region": "US",
+  "form": "C",
+  "modules": 2,
+  "questions": 35,
+  "minutesPerModule": 35
+ },
+ {
   "id": "dsat24-08-a-rw",
   "name": "August 2024 International · Form A · Reading & Writing",
   "type": "EBRW",

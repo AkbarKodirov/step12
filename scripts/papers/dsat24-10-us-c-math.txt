@@ -1,0 +1,247 @@
+!id: dsat24-10-us-c-math
+!name: October 2024 US · Form C · Math
+!type: MATH
+!year: 2024
+!month: 10
+!region: US
+!form: C
+!missing: M1 #8, M1 #19, M1 #21, M2 #5, M2 #6, M2 #10, M2 #13, M2 #15, M2 #20
+=M1
+#1
+Q: The equation d = 33w + 100 gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save. What is the total amount of money, in dollars, he plans to save in 10 weeks?
+A) 380
+B) 430
+C) 480
+D) 530
+K: B
+E: d = 33(10) + 100 = 430.
+#2
+Q: For the linear function f, the graph of y = f(x) in the xy-plane has a slope of −2 and passes through the point (0, −19). Which equation defines f?
+A) f(x) = −19x
+B) f(x) = −2x
+C) f(x) = −2x − 19
+D) f(x) = 2x + 19
+K: C
+E: The slope is −2 and the y-intercept is −19, so f(x) = −2x − 19.
+#3
+Q: Which expression is equivalent to 63x^2?
+A) 63(1 + x^2)
+B) (7x)(9x)
+C) (7x^2)(9x^2)
+D) (63x^2)(x)
+K: B
+E: (7x)(9x) = 63x^2.
+#4
+Q: Sophia bought confetti and balloons for $56. Each package of confetti cost $3, and each balloon cost $1. If Sophia bought 10 packages of confetti, how many balloons did she buy?
+K: 26
+E: Confetti cost 10 × 3 = 30 dollars, so the balloons cost 56 − 30 = 26 dollars, which is 26 balloons.
+#5
+Q: In △FGH, the measures of ∠F and ∠G are each 39°. What is the measure of ∠H?
+A) 78°
+B) 102°
+C) 129°
+D) 141°
+K: B
+E: The angles of a triangle sum to 180°, so ∠H = 180° − 39° − 39° = 102°.
+#6
+Q: If (1)/(6)x + 5 = 8, what is the value of 6x?
+A) 108
+B) 258
+C) 318
+D) 468
+K: A
+E: x/6 = 3, so x = 18 and 6x = 108.
+#7
+Q: Line p is defined by y = 6x − 8. Line s is parallel to line p in the xy-plane. What is the slope of line s?
+K: 6
+E: Parallel lines have equal slopes, so the slope of line s is 6.
+#9
+Q: The table shows the distribution of height, in centimeters, of 25 objects. Which of the following could be the median height of these objects?
+T: <table><tr><th>Height</th><th>Frequency</th></tr><tr><td>0 to 100</td><td>8</td></tr><tr><td>101 to 200</td><td>6</td></tr><tr><td>201 to 300</td><td>5</td></tr><tr><td>301 to 400</td><td>4</td></tr><tr><td>401 to 500</td><td>2</td></tr></table>
+A) 355
+B) 255
+C) 155
+D) 55
+K: C
+E: With 25 objects, the median is the 13th value. The first group has 8 and the first two groups have 14, so the 13th value is in 101 to 200. Only 155 fits.
+#10
+Q: f(x) = −16x^2 + 99. The function f gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree. Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?
+K: 99
+E: Before it fell, x = 0, so f(0) = 99.
+#11
+Q: The y-intercept of the graph of 5x + 2y = −18 in the xy-plane is (0, y). What is the value of y?
+K: -9
+E: Setting x = 0 gives 2y = −18, so y = −9.
+#12
+Q: The length of one side of square M is 9 times the length of one side of square N. The area of square N is 25 square centimeters. What is the area, in square centimeters, of square M?
+A) 2,025
+B) 810
+C) 405
+D) 225
+K: A
+E: Side N = 5, so side M = 45 and the area is 45^2 = 2,025.
+#13
+Q: x(x − 15) = 34. What is the positive solution to the given equation?
+K: 17
+E: x^2 − 15x − 34 = 0 factors as (x − 17)(x + 2) = 0, so the positive solution is 17.
+#14
+Q: If (j)/(k) = 62 and (96j)/(12xk) = 62, what is the value of x?
+A) (1)/(8)
+B) (6)/(31)
+C) 8
+D) 96
+K: C
+E: (96j)/(12xk) = (8/x)(j/k) = (8/x)(62) = 62, so x = 8.
+#15
+P: A researcher is designing a study to investigate the average number of hours students at a high school spend reading per day. The researcher will report an estimated average number of hours students at the high school spend reading per day with an associated margin of error. The researcher is considering using a random sample of either 105 or 210 students from the high school.
+Q: Which of the following would be the most likely effect of using the larger random sample compared to the smaller random sample?
+A) The reported margin of error would be lower.
+B) The reported margin of error would be higher.
+C) The reported average number of hours would be lower.
+D) The reported average number of hours would be higher.
+K: A
+E: A larger random sample reduces the margin of error. It does not systematically raise or lower the estimated average.
+#16
+Q: g(x) = (2)/(7)x + (8)/(5) and h(x) = 5x − 7. The functions g and h are defined by the equations shown. Which expression is equivalent to g(x) · h(x)?
+A) (10x^2)/(7) − (56)/(5)
+B) (10x^2)/(7) + (13x)/(6) − (56)/(5)
+C) (10x^2)/(7) − 6x − (56)/(5)
+D) (10x^2)/(7) + 6x − (56)/(5)
+K: D
+E: ((2)/(7)x + (8)/(5))(5x − 7) = (10x^2)/(7) − 2x + 8x − (56)/(5) = (10x^2)/(7) + 6x − (56)/(5).
+#17
+Q: The height of a right circular cylinder is 6 inches longer than its radius, and the surface area of the cylinder is 1,080π square inches. What is the cylinder's radius, in inches?
+A) 15
+B) 18
+C) 21
+D) 24
+K: A
+E: With radius r and height r + 6, 2πr(r + 6) + 2πr^2 = 1,080π, so r(2r + 6) = 540, giving r^2 + 3r − 270 = 0 and r = 15.
+#18
+Q: In triangle JKL, cos(K) = (36)/(60) and angle J is a right angle. What is the value of cos(L)?
+K: 4/5 | 0.8 | .8
+E: cos(K) = 3/5, so the sides are 3-4-5 and the side opposite K is 4/5 of the hypotenuse. Since J is the right angle, cos(L) = sin(K) = 4/5.
+#20
+Q: In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5% of the number of pheasants per mile of road the previous year. Based on this average, if there were 6.32 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?
+A) 0.965(6.32)^10
+B) 1.035(6.32)^10
+C) 6.32(0.035)^10
+D) 6.32(0.965)^10
+K: D
+E: A 3.5% yearly decrease multiplies by 0.965 each year, so after 10 years the amount is 6.32(0.965)^10.
+#22
+P: 2x = 20y − 8
+Q: One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?
+A) x = 5y
+B) (1)/(2)x = 5y
+C) x = 10y − 4
+D) (1)/(2)x = 10y − 4
+K: B
+E: The given equation is x = 10y − 4. A system has no solution when the lines are parallel but different. (1)/(2)x = 5y is x = 10y, which is parallel to the given line and different. x = 10y − 4 is the same line, and the others are not parallel.
+=M2
+#1
+I: /qimg/24-dsat24-10-us-c-math-m2-q1.svg
+Q: In the right triangle shown, what is the value of x?
+A) √2
+B) √37
+C) √74
+D) 37√2
+K: D
+E: Both legs are 37, so x = √(37^2 + 37^2) = 37√2.
+#2
+Q: x^2 − 100 = 0. How many distinct real solutions does the given equation have?
+A) Zero
+B) Exactly one
+C) Exactly two
+D) Infinitely many
+K: C
+E: x^2 = 100 gives x = 10 or x = −10, which is exactly two solutions.
+#3
+Q: A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights h, in centimeters, for a specific perennial flower species when fully grown. Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?
+A) 107 < h < 158
+B) 76 < h < 100
+C) 41 < h < 95
+D) 16 < h < 91
+K: A
+E: A tall species has every possible height above 100 centimeters, and only 107 < h < 158 meets that.
+#4
+Q: 3y = 8x + 18 and −3y = 7x − 26. The solution to the given system of equations is (x, y). What is the value of 30x?
+A) −16
+B) −8
+C) 8
+D) 16
+K: D
+E: Adding the equations gives 0 = 15x − 8, so x = 8/15 and 30x = 16.
+#7
+Q: Which of the following equations has exactly one solution?
+A) (1)/(44) + x = x
+B) (1)/(44) + x = −x − (1)/(44)
+C) (1)/(44) − x = (1)/(44) − x
+D) (1)/(44) − x = −x
+K: B
+E: A and D simplify to false statements, so they have no solution. C is always true, so it has infinitely many. B gives 2x = −(1)/(22), which has exactly one solution.
+#8
+P: 0.10x + 0.20y = 0.19(x + y)
+Q: The equation gives a volume x, in gallons, of a 10% saltwater solution that could be mixed with a volume y, in gallons, of a 20% saltwater solution to produce a 19% saltwater solution. According to this equation, what volume, in gallons, of the 20% saltwater solution could be mixed with 50.0 gallons of the 10% saltwater solution to produce a 19% saltwater solution? (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)
+K: 450 | 450.0
+E: With x = 50, 5 + 0.20y = 9.5 + 0.19y, so 0.01y = 4.5 and y = 450.
+#9
+P: f(x) = −(x − 6)^2 + 4
+Q: The function f is defined by the given equation. For what value of x does f(x) reach its maximum?
+K: 6
+E: The leading coefficient is negative, so the vertex (6, 4) is the maximum, which occurs at x = 6.
+#11
+Q: The variables x and y have a quadratic relationship. When x = 0, y = 45. When x = 6, y = 81. When x = 15, y = 0. Which equation represents this relationship?
+A) y = x^2 − 18x + 45
+B) y = −x^2 + 12x + 45
+C) y = x^2 + 45
+D) y = −3x^2 + 48x − 45
+K: B
+E: Only B gives 45 at x = 0, 81 at x = 6 (−36 + 72 + 45) and 0 at x = 15 (−225 + 180 + 45).
+#12
+Q: To study fluctuations in leaf water potential, samples of wood were taken from 26 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 2.00 centimeters. If this cube has a mass of 5.12 grams, what is the density of this cube, in grams per cubic centimeter?
+K: 0.64 | .64
+E: The volume is 2.00^3 = 8 cubic centimeters, so the density is 5.12 / 8 = 0.64.
+#14
+P: x(9x − 2a) + b(9x − 2a) − (x + b) = 0
+Q: In the given equation, a and b are positive constants. A solution to the equation is x = 42. What is the value of a?
+K: 377/2 | 188.5
+E: The left side factors as (x + b)(9x − 2a − 1) = 0. Since b is positive, x = −b is negative, so the solution 42 comes from 9x − 2a − 1 = 0. Then 378 − 2a − 1 = 0, so a = 377/2.
+#16
+P: 3w^2 + 11w − c = 0
+Q: In the given equation, c is a constant. A solution to the equation is (−11 + √(433))/(6). What is the value of c?
+K: 26
+E: By the quadratic formula, w = (−11 ± √(121 + 12c))/6. Setting 121 + 12c = 433 gives c = 26.
+#17
+Q: The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 139.2 kilograms of muscle, which made up approximately 67.7% of its composition. Of the remaining composition of this buffalo, approximately 51.4% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?
+K: 34.1
+E: The total is 139.2 / 0.677 ≈ 205.6 kg, so the remaining 32.3% is about 66.4 kg. Bone is 51.4% of that, which is about 34.1 kg.
+#18
+Q: A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (7x − 610)°. The sum of the measures of one of the acute angles and three of the obtuse angles is (−14x + w)°. What is the value of w?
+K: 1760
+E: An obtuse angle is 180 − (7x − 610) = 790 − 7x. The sum is (7x − 610) + 3(790 − 7x) = 1760 − 14x, so w = 1760.
+#19
+P: (49)/(p) = (49)/(q) − (49)/(r) − (49)/(s)
+Q: The given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?
+A) p + r + s
+B) 49(p + r + s)
+C) (prs)/(pr + ps + rs)
+D) (prs)/(49p + 49r + 49s)
+K: C
+E: Dividing by 49 and rearranging gives 1/q = 1/p + 1/r + 1/s = (rs + ps + pr)/(prs), so q = (prs)/(pr + ps + rs).
+#21
+Q: For groups of 25 or more people, a museum charges $22 per person for the first 25 people and $14 for each additional person. Which function f gives the total charge, in dollars, for a tour group with n people, where n ≥ 25?
+A) f(n) = 14n + 200
+B) f(n) = 14n + 22
+C) f(n) = 14n + 550
+D) f(n) = 36n − 350
+K: A
+E: f(n) = 22(25) + 14(n − 25) = 550 + 14n − 350 = 14n + 200.
+#22
+Q: A right rectangular prism has a base area of 28p square centimeters (cm^2). The length of the base of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm. Which expression represents the surface area, in cm^2, of the right rectangular prism?
+A) (512p)/(3)
+B) (224p)/(3) + 96
+C) 56p + 192
+D) 560p + 96
+K: B
+E: The base width is 28p/12 = 7p/3. The surface area is 2(28p) + 4(2(12 + 7p/3)) = 56p + 96 + 56p/3 = (224p)/(3) + 96.
