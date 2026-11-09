@@ -1,0 +1,332 @@
+!id: dsat24-12-b-math
+!name: December 2024 International · Form B · Math
+!type: MATH
+!year: 2024
+!month: 12
+!region: International
+!form: B
+=M1
+#1
+I: /qimg/24-12-b-m1-q1.svg
+Q: In the figure, two lines intersect at a point. If w = 128, what is the value of z?
+A) 28
+B) 52
+C) 64
+D) 128
+K: B
+E: The angles w° and z° are supplementary, so z = 180 − 128 = 52.
+#2
+Q: Sabrina has a goal to save at least $240. She has already saved $180. If x represents the additional amount of money, in dollars, Sabrina needs to save to meet her goal, which inequality represents this situation?
+A) x/180 ≥ 240
+B) 180x ≥ 240
+C) 180 + x ≥ 240
+D) 180 − x ≥ 240
+K: C
+E: Her total, 180 + x, must be at least 240.
+#3
+Q: The function f is defined by f(x) = 12x + 18. What is the y-coordinate of the y-intercept of the graph of y = f(x) in the xy-plane?
+K: 18
+E: f(0) = 18.
+#4
+Q: A certain pigeon species can fly at an average speed of 16 meters per second when in continuous flight. At this rate, how many meters would this pigeon species fly in 4 seconds?
+A) 64
+B) 20
+C) 16
+D) 12
+K: A
+E: 16 × 4 = 64.
+#5
+I: /qimg/24-12-b-m1-q5.svg
+P: In the given scatterplot, a line of best fit for the data is shown.
+Q: Which of the following equations best represents this line of best fit?
+A) y = 1.1x
+B) y = −1.1x
+C) y = 5.2
+D) y = 5.2x
+K: A
+E: The line passes through the origin and rises about 1.1 for each 1 in x.
+#6
+Q: The function d is defined by d(x) = 200 − 6^x. What is the value of d(0)?
+A) 140
+B) 194
+C) 199
+D) 200
+K: C
+E: d(0) = 200 − 1 = 199.
+#7
+Q: A rectangular region of land is divided into 40 square lots of equal area R, in square units. The length of the region is 1.6 times the width of the region. If the width of the region is x√R units, what is the value of x?
+K: 5
+E: The area is 40R = 1.6(x√R)^2 = 1.6x^2 R, so x^2 = 25 and x = 5.
+#8
+Q: Line k is defined by y = 7x + 2. Line j is parallel to line k in the xy-plane and passes through the point (0, 3). Which equation defines line j?
+A) y = 7x + 3
+B) y = −3x + 3
+C) y = −7x + 3
+D) y = 3x + 3
+K: A
+E: Parallel lines have the same slope, 7, and the y-intercept is 3.
+#9
+Q: If x + 4y = 41 and 7x − 20y = −97, what is the value of y?
+K: 8
+E: Multiply the first equation by 5 and add: 12x = 108, so x = 9. Then 4y = 32 and y = 8.
+#10
+Q: For the linear function f, the graph of y = f(x) in the xy-plane has a slope of 28 and passes through the point (0, 0). The function f is defined by f(x) = ax, where a is a constant. What is the value of a?
+K: 28
+E: The slope is a, so a = 28.
+#11
+I: /qimg/24-12-b-m1-q11.svg
+Q: The graph models the number of active projects a company was working on x months after the end of November 2011, where 0 ≤ x ≤ 6. According to the model, what is the predicted number of active projects the company was working on at the end of November 2011?
+A) 0
+B) 8
+C) 11
+D) 12
+K: B
+E: The end of November 2011 is x = 0, where the graph is at 8.
+#12
+P: The list gives the number of individuals in each of 6 groups of ring-tailed lemurs.
+P: 17, 4, 20, 17, 18, 6
+Q: What is the range of the numbers of individuals for the 6 groups of ring-tailed lemurs?
+K: 16
+E: 20 − 4 = 16.
+#13
+P: d = 15t
+Q: The given equation relates the distance d, in inches, of an object from its starting position to the time t, in seconds, since the object started moving. What is the rate of change of the object’s distance from its starting position over time?
+A) 15t inches per second
+B) 15 inches per second
+C) 1/15 inches per second
+D) 1/(15t) inches per second
+K: B
+E: In d = 15t the rate of change is 15 inches per second.
+#14
+Q: What is the slope of the graph of y = (1/2)(15x + 12) + 3x in the xy-plane?
+K: 10.5 | 21/2
+E: y = 7.5x + 6 + 3x = 10.5x + 6, so the slope is 10.5.
+#15
+T: <table><tr><th>x</th><th>f(x)</th></tr><tr><td>−37</td><td>4</td></tr><tr><td>−9</td><td>0</td></tr><tr><td>33</td><td>6</td></tr></table>
+Q: The table shows three values of x and their corresponding values of f(x), where f(x) = (kx + 45)/(x + 2) and k is a constant. What is the value of k?
+K: 5
+E: f(−9) = 0 gives −9k + 45 = 0, so k = 5.
+#16
+Q: The function f is defined by f(x) = (x + 11)/3, and f(a) = 16, where a is a constant. What is the value of a?
+A) 9
+B) 16
+C) 37
+D) 59
+K: C
+E: (a + 11)/3 = 16 gives a = 37.
+#17
+Q: Jasmin grows bean pods in her garden. This year, she harvested 330 bean pods and saved 10% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?
+A) 23
+B) 33
+C) 41
+D) 43
+K: B
+E: 10% of 330 is 33.
+#18
+Q: A sphere has a radius of 8/3 feet. What is the volume, in cubic feet, of the sphere?
+A) 3π/8
+B) 32π/9
+C) 17π/3
+D) 2,048π/81
+K: D
+E: V = (4/3)π(8/3)^3 = (4/3)π(512/27) = 2,048π/81.
+#19
+Q: A company that manufactures staplers calculates its monthly profit, in dollars, by subtracting its fixed monthly costs, in dollars, from its monthly sales revenue, in dollars. The equation 11,000 = 2.00x − 6,500 represents this situation for a month where x staplers are manufactured and sold. Which statement is the best interpretation of 2.00x in this context?
+A) The monthly sales revenue, in dollars, from selling x staplers
+B) The monthly sales revenue, in dollars, from each stapler sold
+C) The monthly cost, in dollars, of manufacturing each stapler
+D) The monthly cost, in dollars, of manufacturing x staplers
+K: A
+E: Profit equals revenue minus fixed costs, so 2.00x is the revenue from selling x staplers.
+#20
+Q: If (x − 16)/27 = (x − 16)/9, what is the value of x + 16?
+A) 0
+B) 3
+C) 16
+D) 32
+K: D
+E: The only way the two fractions are equal is x − 16 = 0, so x = 16 and x + 16 = 32.
+#21
+Q: 8|7 − x| + 1 = 81. What is the sum of the solutions to the given equation?
+A) −14
+B) −3
+C) 10
+D) 14
+K: D
+E: |7 − x| = 10, so x = −3 or x = 17. The sum is 14.
+#22
+I: /qimg/24-12-b-m1-q22.svg
+Q: The graph of line h is shown in the xy-plane. Line k (not shown) is defined by sx + 40y = t, where s and t are constants. If line k is graphed in this xy-plane, the result is a graph of two linear equations. This system of two linear equations has no solution. Which of the following is NOT a possible value of t?
+A) 200
+B) 64
+C) −8
+D) −320
+K: D
+E: Line h is 2x + y = −8, or 80x + 40y = −320. No solution means line k is parallel to h but not the same line, so t cannot be −320. (This question’s last choice was cut off in the scan; Humo filled it in.)
+=M2
+#1
+Q: Levi and Marissa each have stamp collections. The number of stamps in Levi’s collection is 200% of the number of stamps in Marissa’s collection. If there are 460 stamps in Marissa’s collection, how many stamps are in Levi’s collection?
+A) 230
+B) 460
+C) 920
+D) 1,380
+K: C
+E: 200% of 460 is 920.
+#2
+I: /qimg/24-12-b-m2-q2.svg
+Q: The graph of a system of a linear equation and a quadratic equation is shown. Which of the following is a solution (x, y) to the system?
+A) (−1, 4)
+B) (0, 0)
+C) (0, 8)
+D) (1, 4)
+K: A
+E: The line and the parabola cross at (−1, 4).
+#3
+Q: An object moves at a speed of (3)/(50) feet per second. What is this speed, in yards per second? (3 feet = 1 yard)
+A) 50
+B) 6
+C) 9/50
+D) 1/50
+K: D
+E: Divide by 3: (3/50)/3 = 1/50.
+#4
+Q: Which expression is equivalent to 158t^3 − 24t^2u?
+A) 2t(79t^2 − 12u)
+B) 2t^2(79t − 12u)
+C) 2tu(79t^2 − 12)
+D) 2t^2u(79t − 12)
+K: B
+E: Factor out 2t^2.
+#5
+Q: Circle K has a radius of 2 millimeters (mm). Circle L has an area of 144π mm^2. What is the total area, in mm^2, of circles K and L?
+A) 14π
+B) 28π
+C) 56π
+D) 148π
+K: D
+E: Circle K has area 4π, so the total is 4π + 144π = 148π.
+#6
+Q: Which expression is equivalent to 2(x − (3)/(2))(x + 14)?
+A) x^2 + 25x − 21
+B) 2x^2 + 11x − 21
+C) 2x^2 + 25x − 42
+D) 2x^2 − 42
+K: C
+E: (2x − 3)(x + 14) = 2x^2 + 25x − 42.
+#7
+Q: The function f is defined by f(x) = (−7)(4)^x + 31. What is the y-intercept of the graph of y = f(x) in the xy-plane?
+A) (0, 24)
+B) (0, 4)
+C) (0, 31)
+D) (0, −7)
+K: A
+E: f(0) = −7 + 31 = 24.
+#8
+Q: In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is (2√10)/(7). What is the value of cos(S)?
+A) (3√10)/20
+B) (2√10)/7
+C) (7√10)/20
+D) (2√10)/3
+K: B
+E: The sine of one acute angle equals the cosine of the other, so cos(S) = 2√10/7.
+#9
+P: y < 42 − 7x
+P: (y)/(7) > 10
+Q: Which inequality represents the x values for all solutions (x, y) that satisfy the given system of inequalities in the xy-plane?
+A) x > 6
+B) x < 6
+C) x > −4
+D) x < −4
+K: D
+E: y > 70, so 70 < 42 − 7x, which gives x < −4.
+#10
+Q: In the xy-plane, an equation of circle A is (x − 2)^2 + (y − 3)^2 = 9. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?
+A) (x − 2)^2 + (y − 3)^2 = 18
+B) (x − 2)^2 + (y − 3)^2 = 36
+C) (x − 2)^2 + (y − 3)^2 = 54
+D) (x − 2)^2 + (y − 3)^2 = 81
+K: B
+E: The radius goes from 3 to 6, so r^2 = 36.
+#11
+I: /qimg/24-12-b-m2-q11.svg
+P: A property owner wants to find the length x, in feet, across a pond as represented in the figure. PR intersects ST at point Q, and angle PTQ is congruent to angle RSQ. The lengths represented by PQ, TQ, QS, and RS were determined to be 4,200 feet, 8,400 feet, 1,400 feet, and 1,600 feet, respectively. What is the value of x?
+K: 9600
+E: Triangles PTQ and RSQ are similar, with TQ/SQ = 8,400/1,400 = 6. So x = 6 × 1,600 = 9,600.
+#12
+P: PC = N(44 − C)
+Q: The given equation relates the variables P, N, and C. Which expression represents the value of C for distinct positive values of P and N?
+A) (C(N + P))/(N)
+B) (PC)/(44 − C)
+C) (44N)/(N + P)
+D) (44N)/(P + 1)
+K: C
+E: PC = 44N − NC gives C(P + N) = 44N, so C = 44N/(N + P).
+#13
+I: /qimg/24-12-b-m2-q13.svg
+Q: In the figure shown, the measure of angle X is 52°. The length of XY is 24 units and the length of XZ is 17 units. What is the area, in square units, of triangle XYZ?
+A) 204
+B) 408
+C) 204 sin 52°
+D) 408 sin 52°
+K: C
+E: Area = (1/2)(24)(17) sin 52° = 204 sin 52°.
+#14
+Q: A partially filled container containing 24 milliliters of water is placed under a leaky faucet that produces one 0.03-milliliter drop of water every 3 seconds. Until the container is full, which of the following can be used to represent the volume v, in milliliters, of water in the container t seconds after it is placed under the faucet, where t is a multiple of 3?
+A) v = 0.01t + 24
+B) v = 0.03t + 24
+C) v = 0.09t + 24
+D) v = 3t
+K: A
+E: The rate is 0.03/3 = 0.01 milliliters per second.
+#15
+Q: A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (°F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325°F. Based on the first sample, the research manager estimated that this type of oven takes an average of 15.2 minutes to preheat to 325°F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 15.4 minutes to preheat to 325°F, with an associated margin of error of 2.2 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?
+A) The first sample contained more ovens than the second sample.
+B) The first sample contained fewer ovens than the second sample.
+C) The first sample took more time on average to preheat to 325°F than the second sample.
+D) The first sample took less time on average to preheat to 325°F than the second sample.
+K: A
+E: A larger sample gives a smaller margin of error.
+#16
+P: −(3)/(19)rx + (s)/(8) = 10 − (5)/(57)x
+Q: In the given equation, r and s are constants. The equation has no solution. What is the value of r?
+K: 5/9 | .5555 | .5556 | 0.5555 | 0.5556
+E: No solution requires equal x-coefficients: 3r/19 = 5/57, so r = 5/9.
+#17
+P: −8x(x + 9) = 40
+Q: One solution to the given equation can be written as x = (−s + √t)/(2), where s and t are positive integers. What is the value of s/t?
+A) 9/101
+B) 9/76
+C) 9/61
+D) 18/61
+K: C
+E: x^2 + 9x + 5 = 0 gives x = (−9 ± √61)/2, so s = 9, t = 61 and s/t = 9/61.
+#18
+Q: The equation N(m) = 65(Q)^(m/4) gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 120 seconds. What is the value of p in terms of Q?
+A) 100(Q^(1/4) + 1)
+B) 100(Q^30 + 1)
+C) 100(Q^(1/2) − 1)
+D) 100(Q^30 − 1)
+K: C
+E: 120 seconds is 2 minutes, so the population is multiplied by Q^(2/4) = Q^(1/2), a percent increase of 100(Q^(1/2) − 1).
+#19
+Q: A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. According to the model, the object was launched from a height of 0 feet and reached its maximum height of 1,600 feet 10 seconds after it was launched. Based on the model, what was the height, in feet, of the object 7 seconds after it was launched?
+K: 1456
+E: h(t) = −a(t − 10)^2 + 1600 with h(0) = 0 gives a = 16. So h(7) = 1600 − 16(9) = 1456.
+#20
+Q: The function p is defined by p(x) = a(((x + 5)^2 − b)((x + 5)^2 − c)), where a, b, and c are constants. In the xy-plane, the graph of y = p(x) passes through the points (−6, 30) and (0, 342). What is the value of p(−10) + p(−4)?
+K: 372
+E: p depends on (x + 5)^2, so p(−4) = p(−6) = 30 and p(−10) = p(0) = 342. The sum is 372.
+#21
+P: 13(x − n) = 13y + 13n
+Q: One of the equations in a system of two linear equations is given, where n is a positive constant. The system has no solution. Which equation could be the second equation in this system?
+A) 2x − 2y = 4n
+B) 2x + 2y = 2n
+C) 2x + 2y = 4n
+D) 2x − 2y = 2n
+K: D
+E: The given equation is x − y = 2n. A parallel line with a different intercept, such as x − y = n (2x − 2y = 2n), gives no solution.
+#22
+P: (x − k)^2 = (k − 4a)(x − k)
+Q: In the given equation, a and k are constants, where k > 4a. The sum of the solutions to the equation is 3k + 35. What is the value of a?
+K: −35/4 | −8.75
+E: The solutions are x = k and x = 2k − 4a, so 3k − 4a = 3k + 35 and a = −35/4.
