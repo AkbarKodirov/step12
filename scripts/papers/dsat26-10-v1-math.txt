@@ -1,0 +1,308 @@
+!id: dsat26-10-v1-math
+!name: October 2026 · Version 1 · Math
+!type: MATH
+!year: 2026
+!month: 10
+!region: International
+!form: 1
+=M1
+#1
+Q: The function f is defined by the equation f(x) = 100x + 2. What is the value of f(x) when x = 6?
+A) 108
+B) 112
+C) 600
+D) 602
+K: D
+#2
+I: /qimg/26-oct-v1-math-m1-q2.png
+Q: For a project, Kayla recorded the heights of 21 people in her neighborhood. The histogram summarizes the heights, in inches (in), of these 21 people. The first bar represents people with a height of at least 51 in but less than 53 in. The second bar represents people with a height of at least 53 in but less than 55 in, and so on. How many of these 21 people had a height of at least 51 in but less than 55 in?
+K: 8
+#3
+Q: What is the slope of the graph of y = (1)/(8)x + 15 in the xy-plane?
+A) −15
+B) −8
+C) (1)/(8)
+D) 15
+K: C
+#4
+Q: If 2(x − 10) = (2)(60), what is the value of x − 10?
+A) 120
+B) 60
+C) 12
+D) 6
+K: B
+#5
+Q: y = 2,100(a)^x
+Q: The given equation, where a is a positive constant, gives the predicted number of bacteria, y, in a growth medium x hours after the number of bacteria was initially measured. According to the equation, what was the predicted number of bacteria initially measured in the growth medium?
+K: 2100 | 2,100
+#6
+Q: What is an x-intercept of the graph of y = x^2 − 169 in the xy-plane?
+A) (1, 0)
+B) (13, 0)
+C) (26, 0)
+D) (169, 0)
+K: B
+#7
+Q: (3)/(2)x − (1)/(7)y = 29
+Q: x + 2y = −10
+Q: The solution to the given system of equations is (x, y). What is the value of x + y?
+A) −10
+B) −4
+C) 4
+D) 10
+K: C
+#8
+Q: Triangle ABC is similar to triangle XYZ, where A, B, and C correspond to X, Y, and Z, respectively. In triangle ABC, the length of AB is 120 and the length of BC is 600. In triangle XYZ, the length of YZ is 70. What is the length of XY?
+A) 14
+B) 70
+C) 134
+D) 168
+K: A
+#9
+Q: If (x)/(y) = 52 and (cx)/(4y) = 52, what is the value of c?
+A) 4
+B) 13
+C) 52
+D) 208
+K: A
+#10
+I: /qimg/26-oct-v1-math-m1-q10.png
+Q: In the given scatterplot, a line of best fit for the data is shown. Which of the following is closest to the slope of the line of best fit shown?
+A) 0.2
+B) 0.7
+C) 1.8
+D) 2.6
+K: C
+#11
+Q: g(x) = (36 − 2x)(18 + 2x)
+Q: The function g is defined by the given equation. For what value of x does g(x) reach its maximum?
+A) 4.5
+B) 9
+C) 13.5
+D) 27
+K: A
+#12
+Q: 67 = (2K)/(v^2)
+Q: For an object with a mass of 67 kilograms, the given equation relates the kinetic energy K, in joules, of the object to the object's speed v, in meters per second, where K and v are positive. Which equation correctly expresses this object's speed, in meters per second, in terms of the object's kinetic energy, in joules?
+A) v = (2K)/(67^2)
+B) v = (67^2)/(2K)
+C) v = √((67)/(2K))
+D) v = √((2K)/(67))
+K: D
+#13
+Q: In the xy-plane, line k passes through the points (7, 0) and (0, 5). Which of the following is an equation of line k?
+A) 5x + 7y = 35
+B) 7x + 5y = 35
+C) 5x − 7y = 35
+D) 7x − 5y = 35
+K: A
+#14
+I: /qimg/26-oct-v1-math-m1-q14.png
+Q: y < 0.5x + 3.2
+Q: For which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?
+A) Table A
+B) Table B
+C) Table C
+D) Table D
+K: D
+#15
+Q: A plumbing company charges its customers $125 for the first hour of a plumbing service call and $60 for each additional hour, plus the cost of plumbing parts. Which equation represents the total cost y, in dollars, for an x-hour plumbing service call where the cost of parts was $z and x ≥ 1?
+A) y = 60x + z
+B) y = 60x + z + 65
+C) y = 125x + z
+D) y = 125x + 60z + 65
+K: B
+#16
+Q: a = x(x + 66)
+Q: b = x(x + 33)
+Q: c = x(x − 33)
+Q: In the equations, a, b, and c are given in terms of x. Which of the following expressions is equivalent to a − b + c?
+A) 66 − x^2
+B) x^2 + 66x
+C) x^2 − 66
+D) x^2
+K: D
+#17
+Q: The measure of angle G is (π)/(10) radians. If the measure of angle G is 9n degrees, where n is a constant, what is the value of n?
+A) 2
+B) 9
+C) 10
+D) 18
+K: A
+#18
+I: /qimg/26-oct-v1-math-m1-q18.png
+Q: In the triangle shown, the value of x is 21. What is the value of sin A?
+A) (1)/(√(3))
+B) (1)/(√(2))
+C) 1
+D) √(2)
+K: B
+#19
+Q: A right square prism has a height of 20 units. The volume of the prism is 2,880 cubic units. What is the length, in units, of an edge of the base?
+K: 12
+#20
+Q: y = x − 1
+Q: y = 14(x − 1)^2 − 15
+Q: A solution to the given system of equations is (x, y). What is one possible value of x − 1?
+A) −2
+B) −(15)/(14)
+C) −1
+D) −(1)/(14)
+K: C
+#21
+Q: 16x + 2y = 12y + 8
+Q: ty = (1)/(2) + 8x
+Q: In the given system of equations, t is a constant. If the system has no solution, what is the value of t?
+K: 5
+#22
+Q: 3|3x − 3| = 4
+Q: What is the sum of the solutions to the given equation?
+K: 2
+=M2
+#1
+I: /qimg/26-oct-v1-math-m2-q1.png
+Q: Note: Figure not drawn to scale.
+Q: In the figure shown, lines l and k are parallel and line t intersects both lines. If x > 166, which of the following must be true?
+A) y < 14
+B) y > 14
+C) x + y < 180
+D) x + y > 180
+K: A
+#2
+I: /qimg/26-oct-v1-math-m2-q2.png
+Q: The roofs on the buildings of a public garden are designed to allow water to drain into the garden. The table shows the relationship between the area x, in square feet, of a roof and the amount of water f(x), in gallons, drained from the roof into the garden over a certain period of time. Which equation could define f?
+A) f(x) = 0.6x
+B) f(x) = 1.8x
+C) f(x) = 2,448.0x
+D) f(x) = 4,896.0x
+K: B
+#3
+I: /qimg/26-oct-v1-math-m2-q3.png
+Q: The histograms summarize the distribution of values in data sets A and B. Which of the following statements correctly compares the means of data sets A and B?
+A) The mean of data set A is less than the mean of data set B.
+B) The mean of data set A is greater than the mean of data set B.
+C) The mean of data set A is equal to the mean of data set B.
+D) There is not enough information to compare the means.
+K: A
+#4
+Q: A rectangle has a width of n yards and a length of (n + 3) yards. If the rectangle has an area of 340 square yards, what is the value of n?
+K: 17
+#5
+Q: y = −(1)/(9)x
+Q: y = (1)/(3)x
+Q: The solution to the given system of equations is (x, y). What is the value of x?
+A) −9
+B) −6
+C) 0
+D) 3
+K: C
+#6
+Q: The current value of a house is $172,000, and this value increases by 3.5% each year from the value of the previous year. Which function f gives the value, in dollars, of the house x years from now?
+A) f(x) = 172,000(0.035)^x
+B) f(x) = 172,000(0.35)^x
+C) f(x) = 172,000(1.035)^x
+D) f(x) = 172,000(1.35)^x
+K: C
+#7
+Q: The expression x^2 + kx + 77, where k is a constant, can be rewritten as (x + n)(x + 11), where n is a constant. What is the value of k?
+A) 4
+B) 7
+C) 11
+D) 18
+K: D
+#8
+Q: Hannah and Wyatt are saving money to purchase a car. Hannah saves (1)/(5) of her salary each month, and Wyatt saves (2)/(7) of his salary each month. Together, they save a total of $3,230 from their monthly salaries each month. If h and w represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between h and w?
+A) h + w = 3,230
+B) h + 2w = 3,230
+C) 10h + 7w = 113,050
+D) 7h + 10w = 113,050
+K: D
+#9
+Q: (4(cx + 4))/(2) = 6x − 4
+Q: In the given equation, c is a constant. If the equation has no solution, what is the value of c?
+K: 3
+#10
+Q: Which expression is equivalent to 5xy + 30x^2y + 35xy^2?
+A) 5xy(1 + 30x + 35y)
+B) 5xy(1 + 6x + 7y)
+C) 5xy(30x + 35y)
+D) 5xy(6x + 7y)
+K: B
+#11
+Q: g(x) = (1)/(3)(2x)(71)
+Q: The function g gives the volume, in cubic units, for a right square pyramid that has a base area of 71 square units and a height of 2x units. If the height of the pyramid increases by 1 unit, by how many cubic units will the volume increase?
+K: 71/3 | 23.67 | 23.66
+#12
+Q: f(x) = √(6x + 7)
+Q: The function f is defined by the given equation. If f(a) = −4a, where a is a constant, what is the value of a?
+A) −(7)/(8)
+B) −(1)/(2)
+C) (1)/(2)
+D) (7)/(8)
+K: B
+#13
+Q: The area of a certain cell tower's coverage is 379,146,240 square feet. What is the area, in square miles, of this cell tower's coverage? (1 mile = 5,280 feet)
+A) 3.7
+B) 13.6
+C) 19,472
+D) 71,808
+K: B
+#14
+Q: The value of a particular collectible was $54.00 in 1995. Each year from 1995 to 2000, the value, in dollars, of this collectible increased by 14% of its value the previous year. Which equation gives the value, y, in dollars, of this collectible x years after 1995, where 0 ≤ x ≤ 5?
+A) y = 14(1 + (54)/(100))^x
+B) y = 54(1 + (14)/(100))^x
+C) y = 14(1 + 54)^x
+D) y = 54(1 + 14)^x
+K: B
+#15
+I: /qimg/26-oct-v1-math-m2-q15.png
+Q: Note: Figure not drawn to scale.
+Q: In the figure, 2r > 11s. Which of the following values must be the greatest?
+A) sin r°
+B) cos r°
+C) (sin r°)/(sin s°)
+D) (sin r°)/(cos s°)
+K: C
+#16
+I: /qimg/26-oct-v1-math-m2-q16.png
+Q: The rational function f is defined by an equation in the form f(x) = (a)/(x + b), where a and b are constants. The partial graph of y = f(x) is shown. If g(x) = f(x + 6), which equation could define function g?
+A) g(x) = (9)/(x)
+B) g(x) = (9)/(x + 6)
+C) g(x) = (9)/(x + 12)
+D) g(x) = (9(x + 6))/(x + 6)
+K: C
+#17
+Q: To investigate the effect of magnesium supplementation on the sleep quality of adults, a researcher selected 160 adults at random from a community center to participate in a study. The researcher first measured the sleep efficiency of each participant. Each participant was then randomly assigned to take a magnesium supplement or a placebo each day for 8 weeks. At the end of the 8 weeks, the researcher measured the sleep efficiency of all participants again and found that the magnesium supplement caused statistically significant improved sleep quality for the adults at the community center. What feature of this study allowed the researcher to conclude that the magnesium supplement caused the improved sleep quality?
+A) There were more than 100 participants in the study.
+B) The participants were selected at random from the community center.
+C) The sleep efficiency of each participant was measured again at the end of 8 weeks.
+D) Each participant was randomly assigned to take a magnesium supplement or a placebo.
+K: D
+#18
+Q: The sum of three consecutive even integers is less than 135. The least of the three integers is x. What is the greatest possible value of x?
+A) 45
+B) 44
+C) 43
+D) 42
+K: D
+#19
+Q: A circle has center G, and points M and N lie on the circle. Line segments MH and NH are tangent to the circle at points M and N, respectively. If the radius of the circle is 304 millimeters and the perimeter of quadrilateral GMHN is 6,368 millimeters, what is the distance, in millimeters, between points G and H?
+A) 304
+B) 2,864
+C) 2,880
+D) 2,896
+K: D
+#20
+Q: Right rectangular prism X is similar to right rectangular prism Y. The surface area of right rectangular prism X is 64 square centimeters (cm^2), and the surface area of right rectangular prism Y is 4,096 cm^2. The volume of right rectangular prism X is 17.5 cubic centimeters (cm^3). What is the volume, in cm^3, of right rectangular prism Y?
+K: 8960
+#21
+Q: h(x) = a(x + 34)(x + r)(x + s)
+Q: The polynomial function h is defined by the given equation, where a, r, and s are positive constants. In the xy-plane, the graph of y = h(x) intersects the x-axis at exactly three points. If h(0) = p, which of the following must be true?
+A) p < 34rs
+B) p = 34rs
+C) p > 34rs
+D) There is not enough information to compare the values of p and 34rs.
+K: D
+#22
+Q: The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is p% of the mass of object B, what is the value of (p)/(1,000)?
+K: 600
