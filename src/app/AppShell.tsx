@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom'
-import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown } from 'lucide-react'
+import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown, MessageSquareWarning } from 'lucide-react'
 import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
@@ -31,6 +31,7 @@ const Analytics = lazy(() => import('./pages/Analytics'))
 const ScoreCalculator = lazy(() => import('./pages/ScoreCalculator'))
 const SettingsPage = lazy(() => import('./pages/Settings'))
 const Onboarding = lazy(() => import('./Onboarding'))
+const Feedback = lazy(() => import('./pages/Feedback'))
 const Admin = lazy(() => import('./pages/Admin'))
 
 /** What a Free student sees on each Pro page. */
@@ -110,7 +111,10 @@ const GROUPS: { label: string | null; items: Item[] }[] = [
   },
   {
     label: 'Account',
-    items: [{ to: '/app/settings', label: 'Settings', icon: SettingsIcon }],
+    items: [
+      { to: '/app/feedback', label: 'Report a bug / Feedback', icon: MessageSquareWarning },
+      { to: '/app/settings', label: 'Settings', icon: SettingsIcon },
+    ],
   },
 ]
 const MOBILE = [
@@ -394,6 +398,7 @@ export default function AppShell() {
             <Route path="analytics" element={<Analytics />} />
             <Route path="calculator" element={<ScoreCalculator />} />
             <Route path="desmos" element={<HumoChat key="desmos" space="desmos" />} />
+            <Route path="feedback" element={<Feedback />} />
             <Route path="settings" element={<SettingsPage />} />
             <Route path="*" element={<Navigate to="/app" replace />} />
           </Routes>

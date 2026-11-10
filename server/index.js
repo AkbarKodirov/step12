@@ -350,6 +350,34 @@ app.post('/api/admin/plan', auth, admin, async (req, res) => {
   res.json({ ok: true, plan: planOf(u) })
 })
 
+/* ---------- feedback: bug reports, questions and requests ---------- */
+const FB_TYPES = ['bug', 'question', 'request']
+app.post('/api/feedback', auth, async (req, res) => {
+  const type = FB_TYPES.includes(req.body?.type) ? req.body.type : null
+  const message = String(req.body?.message || '').trim().slice(0, 2000)
+  if (!type) return res.status(400).json({ error: 'Choose what this is about.' })
+  if (message.length < 5) return res.status(400).json({ error: 'Please write a little more.' })
+  const email = String(req.user?.email || '').toLowerCase()
+  const all = await kvAll('feedback')
+  const dayAgo = Date.now() - 86400000
+  if (all.filter((f) => f.email === email && f.at > dayAgo).length >= 10) return res.status(429).json({ error: 'You sent a lot today. Please try again tomorrow.' })
+  const id = 'f_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
+  const u = await getUser(email)
+  await kvSet('feedback', id, { id, type, message, email, name: u?.name || req.user?.name || email.split('@')[0], page: String(req.body?.page || '').slice(0, 120), language: String(req.body?.language || '').slice(0, 5), at: Date.now(), done: false })
+  res.json({ ok: true })
+})
+
+app.get('/api/admin/feedback', auth, admin, async (_req, res) => {
+  res.json({ items: (await kvAll('feedback')).sort((a, b) => b.at - a.at) })
+})
+app.post('/api/admin/feedback/:id', auth, admin, async (req, res) => {
+  const f = await kvGet('feedback', req.params.id)
+  if (!f) return res.status(404).json({ error: 'Not found.' })
+  if (req.body?.delete) await kvDel('feedback', f.id)
+  else await kvSet('feedback', f.id, { ...f, done: !!req.body?.done })
+  res.json({ ok: true })
+})
+
 /* ---------- student progress sync (chats, plan, onboarding, results…) ---------- */
 app.get('/api/progress', auth, async (req, res) => {
   const p = await kvGet('progress', idFor(req.user.email || ''))

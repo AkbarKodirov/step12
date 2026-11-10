@@ -1,7 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Activity, Check, Clock, Copy, CreditCard, Crown, Download, ExternalLink, LayoutDashboard, Loader2, LogOut, Percent, RefreshCw, Search, Settings2, ShieldCheck, Sigma, TrendingDown, TrendingUp, UserPlus, Users, Wallet, XCircle } from 'lucide-react'
+import { Activity, Check, Clock, Copy, CreditCard, Crown, Download, ExternalLink, LayoutDashboard, Loader2, LogOut, MessageSquareWarning, Percent, RefreshCw, Search, Settings2, ShieldCheck, Sigma, TrendingDown, TrendingUp, UserPlus, Users, Wallet, XCircle } from 'lucide-react'
 import { useAuth } from '../../lib/auth'
 import { HumoLogo } from '../../brand/HumoLogo'
 
@@ -668,11 +668,79 @@ function PlansSettings() {
   )
 }
 
+
+type FB = { id: string; type: 'bug' | 'question' | 'request'; message: string; email: string; name: string; page: string; language: string; at: number; done: boolean }
+const FB_LABEL = { bug: 'Bug', question: 'Question', request: 'Request' } as const
+
+function FeedbackInbox() {
+  const { token } = useAuth()
+  const [items, setItems] = useState<FB[] | null>(null)
+  const [filter, setFilter] = useState<'open' | 'done' | 'all'>('open')
+  const [err, setErr] = useState('')
+  const load = useCallback(async () => {
+    try {
+      const r = await fetch('/api/admin/feedback', { headers: { Authorization: `Bearer ${token}` } })
+      const j = await r.json()
+      if (!r.ok) throw new Error(j.error)
+      setItems(j.items)
+    } catch (e) {
+      setErr((e as Error).message || 'Could not load feedback.')
+    }
+  }, [token])
+  useEffect(() => {
+    load()
+  }, [load])
+  async function act(id: string, body: object) {
+    await fetch('/api/admin/feedback/' + id, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` }, body: JSON.stringify(body) })
+    load()
+  }
+  const shown = (items ?? []).filter((f) => filter === 'all' || (filter === 'done') === f.done)
+  return (
+    <>
+      <PageHead title="Feedback" sub="Bug reports, questions and requests from students." />
+      <div className="mt-5 flex gap-2">
+        {(['open', 'done', 'all'] as const).map((k) => (
+          <button key={k} onClick={() => setFilter(k)} className={`btn h-9 px-4 text-[13px] capitalize ${filter === k ? 'btn-dark' : 'btn-ghost'}`}>
+            {k === 'done' ? 'Resolved' : k}
+          </button>
+        ))}
+      </div>
+      {err && <p className="mt-4 text-[13px] text-red-600">{err}</p>}
+      {!items && !err && <Loader2 className="mt-6 size-5 animate-spin text-jg-500" />}
+      {items && shown.length === 0 && <p className="card mt-5 p-5 text-[13.5px] text-moss">Nothing here yet.</p>}
+      <div className="mt-4 space-y-3">
+        {shown.map((f) => (
+          <div key={f.id} className="card p-4 sm:p-5">
+            <div className="flex flex-wrap items-center gap-2 text-[12px]">
+              <span className={`rounded-full px-2.5 py-0.5 font-semibold ${f.type === 'bug' ? 'bg-red-100 text-red-700' : f.type === 'question' ? 'bg-sky-100 text-sky-700' : 'bg-amber-100 text-amber-800'}`}>{FB_LABEL[f.type]}</span>
+              <span className="font-medium">{f.name}</span>
+              <span className="min-w-0 truncate text-moss">{f.email}</span>
+              <span className="text-moss">· {new Date(f.at).toLocaleString()}</span>
+              {f.language && <span className="uppercase text-moss">· {f.language}</span>}
+            </div>
+            <p className="mt-3 whitespace-pre-wrap break-words text-[14px]">{f.message}</p>
+            {f.page && <p className="mt-2 text-[11.5px] text-moss">Page: {f.page}</p>}
+            <div className="mt-3 flex gap-2">
+              <button onClick={() => act(f.id, { done: !f.done })} className="btn btn-ghost h-9 px-3 text-[12.5px]">
+                <Check className="size-4" /> {f.done ? 'Reopen' : 'Mark resolved'}
+              </button>
+              <button onClick={() => confirm('Delete this message?') && act(f.id, { delete: true })} className="btn btn-ghost h-9 px-3 text-[12.5px] text-red-600">
+                Delete
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  )
+}
+
 /* ---------- the admin app ---------- */
 const NAV = [
   { to: '/app', label: 'Overview', short: 'Overview', icon: LayoutDashboard, end: true },
   { to: '/app/students', label: 'Students', short: 'Students', icon: Users },
   { to: '/app/payments', label: 'Payments', short: 'Payments', icon: CreditCard },
+  { to: '/app/feedback', label: 'Feedback', short: 'Feedback', icon: MessageSquareWarning },
   { to: '/app/plans', label: 'Plans & settings', short: 'Settings', icon: Settings2 },
 ]
 
@@ -749,6 +817,7 @@ export default function AdminApp() {
                 <Route index element={<Overview />} />
                 <Route path="students" element={<Students />} />
                 <Route path="payments" element={<Payments />} />
+                <Route path="feedback" element={<FeedbackInbox />} />
                 <Route path="plans" element={<PlansSettings />} />
                 <Route path="*" element={<Navigate to="/app" replace />} />
               </Routes>
@@ -756,7 +825,7 @@ export default function AdminApp() {
           )}
         </main>
 
-        <nav className="theme-light fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-white/10 bg-[#03244a] pb-[env(safe-area-inset-bottom)] md:hidden">
+        <nav className="theme-light fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-white/10 bg-[#03244a] pb-[env(safe-area-inset-bottom)] md:hidden">
           {NAV.map(({ to, short, icon: Icon, end }) => (
             <NavLink key={to} to={to} end={end} className={({ isActive }) => `flex flex-col items-center gap-1 py-2.5 text-[11px] ${isActive ? 'text-amber-300' : 'text-white/55'}`}>
               <Icon className="size-5" />
