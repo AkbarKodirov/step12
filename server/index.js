@@ -13,6 +13,7 @@ import { findQuestion, memoryNote, memorySize, practiceSummary } from './retriev
 import { kvAll, kvBackend, kvDel, kvGet, kvSet } from './kv.js'
 import { adminOverview, billingInfo, confirmCheckout, isAdmin, nextReset, planOf, refundUse, startCheckout, stripeWebhook, takeUse, usageOf } from './billing.js'
 import { FREE_LIMITS } from '../shared/plans.js'
+import { mountDuels } from './duels.js'
 import { createHash } from 'node:crypto'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -971,6 +972,8 @@ app.get('/api/blitz/leaderboard', async (_, res) => {
     res.status(500).json({ error: 'Leaderboard is unavailable right now.' })
   }
 })
+
+mountDuels(app, { auth, getUser, account, takeUse, refundUse })
 
 app.get('/api/health', (_, res) => res.json({ status: 'ok', platform: 'Humo AI', tutor: 'Humo', gemini: !!gemini, groq: groqReady, backups: backupNames, memory: memorySize(), storage: kvBackend }))
 

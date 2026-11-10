@@ -1,7 +1,7 @@
 import { useEffect, useSyncExternalStore } from 'react'
 import { FREE_LIMITS, PRICE_UZS, PRICE_USD, PRO_DAYS, PRO_PAGES, TELEGRAM_MANAGER } from '../../shared/plans.js'
 
-export type Feature = 'humo' | 'desmos' | 'blitz'
+export type Feature = 'humo' | 'desmos' | 'blitz' | 'duel'
 export type Account = {
   plan: { tier: 'pro' | 'free'; until: number | null; source: string | null; expired?: number }
   admin: boolean
@@ -14,7 +14,7 @@ export type Account = {
 const FALLBACK: Account = {
   plan: { tier: 'free', until: null, source: null },
   admin: false,
-  usage: { humo: 0, desmos: 0, blitz: 0 },
+  usage: { humo: 0, desmos: 0, blitz: 0, duel: 0 },
   limits: FREE_LIMITS,
   resetAt: 0,
   billing: { priceUzs: PRICE_UZS, priceUsd: PRICE_USD, days: PRO_DAYS, card: null, telegram: TELEGRAM_MANAGER },

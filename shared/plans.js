@@ -9,7 +9,7 @@ export const PRICE_USD = 12
 export const PRO_DAYS = 30
 
 /** Daily limits on the Free plan. Days start at 00:00 Tashkent time. */
-export const FREE_LIMITS = { humo: 3, desmos: 1, blitz: 1 }
+export const FREE_LIMITS = { humo: 3, desmos: 1, blitz: 1, duel: 5 }
 
 /** Always Pro, whatever the database says. */
 export const ALWAYS_PRO = ['jobirovich.akbarjon@gmail.com']

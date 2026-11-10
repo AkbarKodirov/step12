@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom'
-import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown, MessageSquareWarning } from 'lucide-react'
+import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown, MessageSquareWarning, Swords } from 'lucide-react'
 import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
@@ -24,6 +24,7 @@ const CoursePage = lazy(() => import('./learn/Learn').then((m) => ({ default: m.
 const LessonPage = lazy(() => import('./learn/Learn').then((m) => ({ default: m.LessonPage })))
 const Vocabulary = lazy(() => import('./pages/Vocabulary'))
 const Blitz = lazy(() => import('./pages/Blitz'))
+const Duels = lazy(() => import('./pages/Duels'))
 const Mistakes = lazy(() => import('./pages/Mistakes'))
 const StudyPlan = lazy(() => import('./pages/StudyPlan'))
 const ExamPapers = lazy(() => import('./pages/ExamPapers'))
@@ -91,6 +92,7 @@ const GROUPS: { label: string | null; items: Item[] }[] = [
       { to: '/app/desmos', label: 'Desmos Lab', icon: Sigma, badge: 'New' },
       { to: '/app/vocab', label: 'Vocabulary', icon: BookMarked },
       { to: '/app/blitz', label: 'Blitz', icon: Zap },
+      { to: '/app/duels', label: 'Duels', icon: Swords, badge: 'New' },
     ],
   },
   {
@@ -388,6 +390,7 @@ export default function AppShell() {
             <Route path="practice/:section" element={<QBankSection />} />
             <Route path="vocab" element={<Vocabulary />} />
             <Route path="blitz" element={<Blitz />} />
+            <Route path="duels" element={<Duels />} />
             <Route path="mistakes" element={<Mistakes />} />
             <Route path="plan" element={<StudyPlan />} />
             <Route path="drills" element={<Navigate to="/app/practice" replace />} />
