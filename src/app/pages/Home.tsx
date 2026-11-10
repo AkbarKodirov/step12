@@ -221,7 +221,7 @@ export default function Home() {
             {[...UNIVERSITIES, ...UNIVERSITIES].map(([u, d], i) => (
               <li key={i} aria-hidden={i >= UNIVERSITIES.length} className="flex shrink-0 items-center gap-2.5 rounded-xl bg-soft py-2 pl-2 pr-4">
                 <span className="grid size-8 place-items-center rounded-lg bg-white">
-                  <img src={uniLogo(d)} alt="" loading="lazy" referrerPolicy="no-referrer" className="size-6 object-contain" />
+                  <img src={uniLogo(d)} alt="" loading="lazy" referrerPolicy="no-referrer" className="size-7 object-contain" />
                 </span>
                 <span className="whitespace-nowrap text-[13px] font-medium">{u}</span>
               </li>

@@ -21,8 +21,18 @@ export const UNIVERSITIES: [string, string][] = [
   ['National University of Singapore', 'nus.edu.sg'],
   ['Turin Polytechnic University in Tashkent', 'polito.uz'],
 ]
-/** University crest via Google's public favicon service (loaded by the visitor's browser). */
-export const uniLogo = (domain: string) => `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
+/** Sharp local logos (public/unis); domains without one fall back to the favicon service. */
+const LOCAL_LOGOS: Record<string, string> = {
+  'inha.uz': 'inha.jpg',
+  'nyuad.nyu.edu': 'nyuad.png',
+  'kaist.ac.kr': 'kaist.png',
+  'utoronto.ca': 'toronto.png',
+  'kcl.ac.uk': 'kcl.png',
+  'tum.de': 'tum.png',
+  'nus.edu.sg': 'nus.png',
+}
+export const uniLogo = (domain: string) =>
+  LOCAL_LOGOS[domain] ? `/unis/${LOCAL_LOGOS[domain]}` : `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
 
 const PROOF: L3 = { en: 'Humo AI students aim for universities like these', ru: 'Ученики Humo AI поступают в такие университеты', uz: 'Humo AI o‘quvchilari shunday universitetlarni nishonga oladi' }
 
@@ -37,7 +47,7 @@ export function Proof() {
           {row.map(([u, d], i) => (
             <li key={i} aria-hidden={i >= UNIVERSITIES.length} className="flex shrink-0 items-center gap-3 rounded-2xl border border-white/[0.08] bg-white/[0.03] py-2 pl-2 pr-4 transition hover:border-white/20 hover:bg-white/[0.06]">
               <span className="grid size-9 place-items-center overflow-hidden rounded-xl bg-white">
-                <img src={uniLogo(d)} alt="" loading="lazy" className="size-6 object-contain" referrerPolicy="no-referrer" />
+                <img src={uniLogo(d)} alt="" loading="lazy" className="size-7 object-contain" referrerPolicy="no-referrer" />
               </span>
               <span className="whitespace-nowrap text-[14px] font-medium tracking-tight text-white/70">{u}</span>
             </li>
