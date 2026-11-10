@@ -139,9 +139,9 @@ const FOOT = {
   product: { en: 'Product', ru: 'Продукт', uz: 'Mahsulot' } as L3,
   legal: { en: 'Legal', ru: 'Право', uz: 'Huquqiy' } as L3,
   links: {
-    en: ['Try Humo', 'Features', 'Results', 'Pricing', 'Privacy Policy', 'Terms of Service'],
-    ru: ['Попробовать Humo', 'Возможности', 'Результаты', 'Цены', 'Политика конфиденциальности', 'Условия использования'],
-    uz: ['Humoni sinash', 'Imkoniyatlar', 'Natijalar', 'Narxlar', 'Maxfiylik siyosati', 'Foydalanish shartlari'],
+    en: ['Try Humo', 'Features', 'Results', 'Pricing', 'For schools', 'Privacy Policy', 'Terms of Service'],
+    ru: ['Попробовать Humo', 'Возможности', 'Результаты', 'Цены', 'Для школ', 'Политика конфиденциальности', 'Условия использования'],
+    uz: ['Humoni sinash', 'Imkoniyatlar', 'Natijalar', 'Narxlar', 'Maktablar uchun', 'Maxfiylik siyosati', 'Foydalanish shartlari'],
   } as Record<Lang, string[]>,
   tm: {
     en: 'SAT® is a trademark of the College Board, which is not affiliated with and does not endorse this product.',
@@ -154,8 +154,8 @@ export function Footer() {
   const l = useLang()
   const k = FOOT.links[l]
   const cols: [string, string[][]][] = [
-    [FOOT.product[l], [[k[0], '#try'], [k[1], '#features'], [k[2], '#results'], [k[3], '#pricing']]],
-    [FOOT.legal[l], [[k[4], '/privacy'], [k[5], '/terms']]],
+    [FOOT.product[l], [[k[0], '#try'], [k[1], '#features'], [k[2], '#results'], [k[3], '#pricing'], [k[4], '#schools']]],
+    [FOOT.legal[l], [[k[5], '/privacy'], [k[6], '/terms']]],
   ]
   return (
     <footer className="border-t border-white/[0.07]">

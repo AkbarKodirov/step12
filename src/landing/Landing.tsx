@@ -16,9 +16,9 @@ import { HumoLogo } from '../brand/HumoLogo'
 const T = {
   digital: { en: ['Digital', 'SAT'], ru: ['Digital', 'SAT'], uz: ['Digital', 'SAT'] },
   nav: {
-    en: ['Try Humo', 'Features', 'Results', 'Pricing', 'FAQ'],
-    ru: ['Попробовать', 'Возможности', 'Результаты', 'Цены', 'FAQ'],
-    uz: ['Sinab ko‘rish', 'Imkoniyatlar', 'Natijalar', 'Narxlar', 'FAQ'],
+    en: ['Try Humo', 'Features', 'Results', 'Pricing', 'For schools', 'FAQ'],
+    ru: ['Попробовать', 'Возможности', 'Результаты', 'Цены', 'Для школ', 'FAQ'],
+    uz: ['Sinab ko‘rish', 'Imkoniyatlar', 'Natijalar', 'Narxlar', 'Maktablar uchun', 'FAQ'],
   },
   open: { en: 'Open app', ru: 'Открыть', uz: 'Ochish' },
   login: { en: 'Log in', ru: 'Войти', uz: 'Kirish' },
@@ -83,7 +83,7 @@ function Nav() {
     window.addEventListener('scroll', on, { passive: true })
     return () => window.removeEventListener('scroll', on)
   }, [])
-  const hrefs = ['#try', '#features', '#results', '#pricing', '#faq']
+  const hrefs = ['#try', '#features', '#results', '#pricing', '#schools', '#faq']
   const links = T.nav[l].map((label, i) => [label, hrefs[i]])
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${scrolled ? 'border-b border-white/[0.07] bg-ink/75 backdrop-blur-xl' : ''}`}>
@@ -92,9 +92,9 @@ function Nav() {
         <Link to="/" aria-label="Humo AI home">
           <Logo />
         </Link>
-        <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 rounded-full border border-white/10 bg-white/[0.03] p-1 backdrop-blur md:flex">
+        <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-0.5 rounded-full border border-white/10 bg-white/[0.03] p-1 backdrop-blur lg:flex">
           {links.map(([label, href]) => (
-            <a key={href} href={href} className="rounded-full px-4 py-1.5 text-[13px] text-white/65 transition hover:bg-white/[0.06] hover:text-white">
+            <a key={href} href={href} className="rounded-full px-2.5 py-1.5 text-[13px] text-white/65 xl:px-3.5 transition hover:bg-white/[0.06] hover:text-white">
               {label}
             </a>
           ))}
@@ -107,7 +107,7 @@ function Nav() {
             </Link>
           ) : (
             <>
-              <Link to="/login" className="hidden h-9 px-3 text-[13px] leading-9 text-white/70 hover:text-white sm:block">
+              <Link to="/login" className="hidden h-9 px-3 text-[13px] leading-9 text-white/70 hover:text-white xl:block">
                 {T.login[l]}
               </Link>
               <Link to="/signup" className="h-9 rounded-full bg-white px-4 text-[13px] font-medium leading-9 text-ink hover:bg-white">
