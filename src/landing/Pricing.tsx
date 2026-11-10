@@ -110,6 +110,7 @@ export function Pricing() {
               <Link to="/signup" className={`mt-6 h-11 rounded-full text-center text-[14px] font-medium leading-[44px] transition ${p.featured ? 'bg-jg-500 text-white hover:bg-jg-400' : 'border border-white/15 hover:border-white/30 hover:bg-white/[0.04]'}`}>
                 {p.cta}
               </Link>
+              )}
             </motion.div>
           ))}
         </div>
