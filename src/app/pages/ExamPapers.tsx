@@ -194,7 +194,7 @@ export default function ExamPapers() {
   const acc = useAccount()
   const locked = !acc.pro
   const [params, setParams] = useSearchParams()
-  type Kind = 'all' | 'full' | 'EBRW' | 'MATH'
+  type Kind = 'all' | 'EBRW' | 'MATH'
   type Status = 'all' | 'todo' | 'progress' | 'done'
   const [kind, setKind] = useState<Kind>('all')
   const [status, setStatus] = useState<Status>(params.get('view') === 'progress' ? 'progress' : 'all')
@@ -222,15 +222,11 @@ export default function ExamPapers() {
   const done = all.filter((p) => best.has(p.id)).length
   const bestOf = (type: 'EBRW' | 'MATH') => Math.max(0, ...all.filter((p) => p.type === type && best.has(p.id)).map((p) => best.get(p.id)!.scaled)) || null
 
-  // single papers, plus a full test for every Reading & Writing + Math pair of the same exam date and version
+  // single section papers only (no full tests)
   const items = useMemo<Item[]>(() => {
-    const key = (p: PaperTest) => `${p.year}-${p.month}-${p.region}-${p.form ?? ''}`
-    const maths = new Map(all.filter((p) => p.type === 'MATH').map((p) => [key(p), p]))
     const out: Item[] = []
     for (const p of all) {
       out.push({ key: p.id, full: false, type: p.type, year: p.year, month: p.month, ver: version(p, t), rw: p })
-      const m = p.type === 'EBRW' ? maths.get(key(p)) : undefined
-      if (m) out.push({ key: `${p.id}+${m.id}`, full: true, type: 'FULL', year: p.year, month: p.month, ver: version(p, t), rw: p, math: m })
     }
     return out
   }, [all, t])
@@ -245,7 +241,7 @@ export default function ExamPapers() {
   // newest test date first; Reading & Writing, then Math, then the full test for the same version
   const rank = (it: Item) => (it.type === 'EBRW' ? 0 : it.type === 'MATH' ? 1 : 2)
   const list = inYear
-    .filter((it) => (kind === 'all' || it.type === (kind === 'full' ? 'FULL' : kind)) && (status === 'all' || stateOf(it) === status))
+    .filter((it) => (kind === 'all' || it.type === (kind)) && (status === 'all' || stateOf(it) === status))
     .sort((a, b) => b.month - a.month || a.ver.localeCompare(b.ver, undefined, { numeric: true }) || rank(a) - rank(b))
   const yearEmpty = !!papers && count(year) === 0
 
@@ -318,7 +314,6 @@ export default function ExamPapers() {
               {(
                 [
                   ['all', t.all],
-                  ['full', t.full],
                   ['EBRW', t.rw],
                   ['MATH', t.math],
                 ] as const
