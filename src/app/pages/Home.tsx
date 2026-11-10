@@ -4,7 +4,7 @@ import { UNIVERSITIES, uniLogo } from '../../landing/Sections'
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { BookMarked, CalendarDays, CheckCircle2, Clock, NotebookPen, Pencil, Target, Trophy } from 'lucide-react'
-import { BlitzIcon } from '../icons'
+import { BlitzIcon, DesmosIcon } from '../icons'
 import { useAuth } from '../../lib/auth'
 import { setStore, today, useStore } from '../store'
 import { WORDS } from '../../data/vocab'
@@ -106,7 +106,7 @@ export default function Home() {
       ? { icon: NotebookPen, title: `Review ${openMistakes} mistake${openMistakes > 1 ? 's' : ''}`, sub: 'Fix them before they repeat on test day.', to: '/app/mistakes', done: false }
       : { icon: BlitzIcon, title: 'One Blitz run', sub: '60 seconds a question, three lives.', to: '/app/blitz', done: false },
   ]
-  const KIND_ICON = { 'drill-rw': Target, 'drill-math': Target, skill: Target, vocab: BookMarked, mistakes: NotebookPen, lesson: BookMarked, blitz: BlitzIcon, test: Trophy, review: Trophy, desmos: Target, custom: CheckCircle2 } as const
+  const KIND_ICON = { 'drill-rw': Target, 'drill-math': Target, skill: Target, vocab: BookMarked, mistakes: NotebookPen, lesson: BookMarked, blitz: BlitzIcon, test: Trophy, review: Trophy, desmos: DesmosIcon, custom: CheckCircle2 } as const
   const plan = s.plan
     ? (fromPlan ?? []).map((t) => ({ icon: KIND_ICON[t.kind], title: t.title, sub: `${t.min} min · ${KINDS[t.kind].label}`, to: KINDS[t.kind].to(t), done: !!s.planDone[`${today()}:${t.id}`] }))
     : fallback

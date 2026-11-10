@@ -47,3 +47,18 @@ export function GoldSwords({ className }: P) {
     </span>
   )
 }
+
+/** Desmos Lab icon: a graph with a curve, in the same gold. */
+export function DesmosIcon({ className }: P) {
+  const id = 'gold' + useId().replace(/:/g, '')
+  return (
+    <span className="inline-flex">
+      <GoldDefs id={id} />
+      <svg viewBox="0 0 24 24" fill="none" stroke={`url(#${id})`} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden>
+        <path d="M3 3v18h18" />
+        <path d="M6.5 17.5C9 17.5 9.5 7 12.5 7s3.5 7 6.5 7" />
+        <circle cx="12.5" cy="7" r="1.2" fill={`url(#${id})`} />
+      </svg>
+    </span>
+  )
+}

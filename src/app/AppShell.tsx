@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Download, Lock, Crown, MessageSquareWarning } from 'lucide-react'
-import { BlitzIcon, GoldSwords } from './icons'
+import { BlitzIcon, DesmosIcon, GoldSwords } from './icons'
 import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
@@ -90,7 +90,7 @@ const GROUPS: { label: string | null; items: Item[] }[] = [
       { to: '/app/tests', label: 'Practice tests', icon: ClipboardList },
       { to: '/app/papers', label: 'Exam papers', icon: FileText },
       { to: '/app/practice', label: 'Question bank', icon: BookOpen },
-      { to: '/app/desmos', label: 'Desmos Lab', icon: Sigma, badge: 'New' },
+      { to: '/app/desmos', label: 'Desmos Lab', icon: DesmosIcon, badge: 'New' },
       { to: '/app/vocab', label: 'Vocabulary', icon: BookMarked },
       { to: '/app/blitz', label: 'Blitz', icon: BlitzIcon },
       { to: '/app/duels', label: 'Duels', icon: GoldSwords, badge: 'New' },
