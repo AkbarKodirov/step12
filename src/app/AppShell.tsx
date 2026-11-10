@@ -436,9 +436,10 @@ export default function AppShell() {
               <div key={i} className="mb-4">
                 {g.label && <p className="mb-1.5 px-1 text-[11px] font-semibold text-cream/40">{g.label}</p>}
                 <div className="grid grid-cols-2 gap-1.5">
-                  {g.items.map(({ to, label, icon: Icon, end }) => (
+                  {g.items.map(({ to, label, icon: Icon, end, badge }) => (
                     <NavLink key={to} to={to} end={end} onClick={() => setMore(false)} className={({ isActive }) => `flex items-center gap-2.5 rounded-xl px-3 py-2.5 text-[13.5px] ${isActive ? 'bg-white/[0.12]' : 'bg-white/[0.04]'}`}>
                       <Icon className="size-4 shrink-0" /> <span className="min-w-0 flex-1 truncate">{label}</span>
+                      {badge && <span className="rounded-md bg-gradient-to-br from-[#f7da85] to-[#d79a22] px-1.5 py-0.5 text-[10px] font-bold tracking-wide text-[#4a3207]">{badge}</span>}
                       {!acc.pro && proOnly(to) && <Lock className="size-3 shrink-0 text-cream/35" />}
                     </NavLink>
                   ))}

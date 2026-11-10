@@ -10,6 +10,7 @@ import { hello } from '../greetings'
 import { pickSuggestionIndexes, suggestionsFor } from '../suggestions'
 import { useAuth } from '../../lib/auth'
 import { UsageLine } from '../components/Upgrade'
+import { DesmosIcon } from '../icons'
 
 type Space = 'humo' | 'desmos'
 const COPY: Record<Space, { greeting: string; title: string; sub: string; placeholder: string }> = {
@@ -375,9 +376,9 @@ export default function HumoChat({ space = 'humo' }: { space?: Space }) {
       </aside>
       <div className="flex min-w-0 flex-1 flex-col">
         <div className="flex items-center gap-3 pb-4">
-          {space === 'desmos' ? <span className="grid size-11 place-items-center rounded-2xl bg-[#2d70b3] font-serif text-[22px] font-bold text-white">D</span> : <img src="/brand/humo-mark.svg" alt="" className="size-11 rounded-2xl" />}
+          {space === 'desmos' ? <span className="grid size-11 place-items-center rounded-2xl bg-pine"><DesmosIcon className="size-6" /></span> : <img src="/brand/humo-mark.svg" alt="" className="size-11 rounded-2xl" />}
           <div className="min-w-0 flex-1">
-            <h1 className="display truncate text-[26px] leading-none">{chat?.title ?? c.title}</h1>
+            <h1 className="display truncate text-[26px] leading-none">{chat?.title ?? c.title}{space === 'desmos' && <span className="ml-2 rounded-md bg-gradient-to-br from-[#f7da85] to-[#d79a22] px-1.5 py-0.5 align-middle font-sans text-[10px] font-bold tracking-wide text-[#4a3207]">New</span>}</h1>
             <p className="mt-1 hidden text-[12.5px] text-moss sm:block">{c.sub}</p>
           </div>
           <button onClick={() => setDrawer(true)} className="btn btn-ghost h-10 px-3 text-[13px] lg:hidden">
