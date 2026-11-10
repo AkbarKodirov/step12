@@ -92,7 +92,7 @@ const GROUPS: { label: string | null; items: Item[] }[] = [
       { to: '/app/practice', label: 'Question bank', icon: BookOpen },
       { to: '/app/desmos', label: 'Desmos Lab', icon: DesmosIcon, badge: 'New' },
       { to: '/app/vocab', label: 'Vocabulary', icon: BookMarked },
-      { to: '/app/blitz', label: 'Blitz', icon: BlitzIcon },
+      { to: '/app/blitz', label: 'Blitz', icon: BlitzIcon, badge: 'New' },
       { to: '/app/duels', label: 'Duels', icon: GoldSwords, badge: 'New' },
     ],
   },

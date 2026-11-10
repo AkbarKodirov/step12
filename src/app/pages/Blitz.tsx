@@ -167,7 +167,7 @@ export default function Blitz() {
           <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <Confetti fire={phase === 'over' && score > 0 && score >= s.blitzBest} />
           <BlitzIcon className="relative mx-auto size-10" />
-          <h1 className="display relative mt-4 text-[44px]">{phase === 'over' ? `${score} points` : 'Blitz'}</h1>
+          <h1 className="display relative mt-4 text-[44px]">{phase === 'over' ? `${score} points` : <>Blitz <span className="ml-1 rounded-md bg-gradient-to-br from-[#f7da85] to-[#d79a22] px-1.5 py-0.5 align-middle font-sans text-[10px] font-bold tracking-wide text-[#4a3207]">New</span></>}</h1>
           <p className="relative mt-2 text-[15px] text-cream/65">{phase === 'over' ? `${answered} questions answered. Best: ${Math.max(s.blitzBest, score)}` : 'Answer fast. Keep the streak. Three lives.'}</p>
           <div className="relative mt-8 grid grid-cols-3 gap-3 text-[12.5px]">
             {[
