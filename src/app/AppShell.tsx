@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link, NavLink, Navigate, Route, Routes, useLocation, useNavigate, useParams } from 'react-router-dom'
-import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Zap, Download, Lock, Crown, MessageSquareWarning, Swords } from 'lucide-react'
+import { Settings as SettingsIcon, Sigma, Calculator, Menu, X as XIcon, BarChart3, BookMarked, BookOpen, CalendarCheck, ClipboardList, FileText, Flame, GraduationCap, Home, LogOut, MessageCircle, NotebookPen, Target, Trophy, Download, Lock, Crown, MessageSquareWarning } from 'lucide-react'
+import { BlitzIcon, GoldSwords } from './icons'
 import { HumoFab } from './components/HumoFab'
 import { motion } from 'framer-motion'
 import { useAuth } from '../lib/auth'
@@ -73,7 +74,7 @@ function TestGate({ children }: { children: React.ReactNode }) {
   return <ProGate full>{children}</ProGate>
 }
 
-type Item = { to: string; label: string; icon: typeof Home; end?: boolean; badge?: string }
+type Item = { to: string; label: string; icon: React.ComponentType<{ className?: string }>; end?: boolean; badge?: string }
 const GROUPS: { label: string | null; items: Item[] }[] = [
   {
     label: null,
@@ -91,8 +92,8 @@ const GROUPS: { label: string | null; items: Item[] }[] = [
       { to: '/app/practice', label: 'Question bank', icon: BookOpen },
       { to: '/app/desmos', label: 'Desmos Lab', icon: Sigma, badge: 'New' },
       { to: '/app/vocab', label: 'Vocabulary', icon: BookMarked },
-      { to: '/app/blitz', label: 'Blitz', icon: Zap },
-      { to: '/app/duels', label: 'Duels', icon: Swords, badge: 'New' },
+      { to: '/app/blitz', label: 'Blitz', icon: BlitzIcon },
+      { to: '/app/duels', label: 'Duels', icon: GoldSwords, badge: 'New' },
     ],
   },
   {

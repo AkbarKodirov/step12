@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Check, Copy, Crown, Link2, Loader2, Share2, Swords, Trophy, Users, X } from 'lucide-react'
+import { Check, Copy, Crown, Link2, Loader2, Share2, Trophy, Users, X } from 'lucide-react'
+import { GoldSwords } from '../icons'
 import { Confetti } from '../../components/motion'
 import { useAuth } from '../../lib/auth'
 import { useStore } from '../store'
@@ -309,7 +310,7 @@ export default function Duels() {
           <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <img src="/brand/humo-mark.svg" alt="" className="relative mx-auto size-14 rounded-2xl" />
           <h1 className="display relative mt-4 flex items-center justify-center gap-3 text-[40px] sm:text-[44px]">
-            <Swords className="size-9 text-orange-400" /> {t.title}
+            <GoldSwords className="size-9" /> {t.title}
           </h1>
           <p className="relative mx-auto mt-2 max-w-md text-[14.5px] text-cream/65">{t.sub}</p>
           <div className="relative mt-7 grid gap-3 sm:grid-cols-2">
@@ -495,7 +496,7 @@ export default function Duels() {
               <Face p={me} size="size-16" />
               <p className="mt-2 max-w-[110px] truncate text-[13px]">{me?.name}</p>
             </div>
-            <Swords className="size-8 text-orange-400" />
+            <GoldSwords className="size-8" />
             <div className="text-center">
               <Face p={opp} size="size-16" />
               <p className="mt-2 max-w-[110px] truncate text-[13px]">{opp?.name}</p>
@@ -598,7 +599,7 @@ export default function Duels() {
       <div className="relative overflow-hidden rounded-[28px] bg-pine p-6 text-center text-cream sm:p-9">
         <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
         <Confetti fire={outcome === 'win'} />
-        {outcome === 'win' ? <Crown className="relative mx-auto size-10 text-amber-300" /> : <Swords className="relative mx-auto size-10 text-orange-400" />}
+        {outcome === 'win' ? <Crown className="relative mx-auto size-10 text-amber-300" /> : <GoldSwords className="relative mx-auto size-10" />}
         <h1 className="display relative mt-3 text-[38px]">{outcome === 'win' ? t.win : outcome === 'loss' ? t.loss : t.draw}</h1>
         {res?.reason === 'left' && <p className="relative mt-1 text-[13.5px] text-cream/65">{outcome === 'win' ? t.leftWin : t.leftLoss}</p>}
         <div className="relative mt-6 grid grid-cols-2 gap-3">

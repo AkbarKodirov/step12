@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Confetti } from '../../components/motion'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Check, Flame, Heart, Trophy, X, Zap } from 'lucide-react'
+import { Check, Flame, Heart, Trophy, X } from 'lucide-react'
+import { BlitzIcon } from '../icons'
 import { isCorrect, loadIndex, loadTest, markActive, setStore, useStore, type TestQuestion } from '../store'
 import { Passage } from './TakeTest'
 import { useAuth } from '../../lib/auth'
@@ -165,7 +166,7 @@ export default function Blitz() {
         <div className="relative overflow-hidden rounded-[28px] bg-pine p-8 text-center text-cream sm:p-10">
           <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <Confetti fire={phase === 'over' && score > 0 && score >= s.blitzBest} />
-          <Zap className="relative mx-auto size-10 text-orange-400" />
+          <BlitzIcon className="relative mx-auto size-10" />
           <h1 className="display relative mt-4 text-[44px]">{phase === 'over' ? `${score} points` : 'Blitz'}</h1>
           <p className="relative mt-2 text-[15px] text-cream/65">{phase === 'over' ? `${answered} questions answered. Best: ${Math.max(s.blitzBest, score)}` : 'Answer fast. Keep the streak. Three lives.'}</p>
           <div className="relative mt-8 grid grid-cols-3 gap-3 text-[12.5px]">
