@@ -157,7 +157,7 @@ export function FullSheet({ full, onClose }: { full: FullMeta; onClose: () => vo
             <X className="size-5" />
           </button>
         </div>
-        <p className="mt-3 text-[14px] text-moss">The whole test in one sitting, in the same order as test day. Set aside about {full.rw.minutesPerModule * full.rw.modules + full.math.minutesPerModule * full.math.modules + BREAK_MIN} minutes, or save and exit any time and continue later.</p>
+        <p className="mt-3 text-[14px] text-moss">The whole test in one sitting, in the same order as test day. Set aside about {full.rw.minutesPerModule * full.rw.modules + full.math.minutesPerModule * full.math.modules + BREAK_MIN} minutes, or quit and resume later any time.</p>
         <ol className="mt-5 space-y-2.5">
           {steps.map((st, i) => (
             <li key={st.title} className="flex items-start gap-3 rounded-2xl bg-cream px-4 py-3">
@@ -400,7 +400,7 @@ export default function Tests() {
                 <PlayCircle className="size-6" />
               </span>
               <p className="mt-4 font-serif text-[24px]">Nothing in progress</p>
-              <p className="mt-1.5 max-w-md text-[14px] text-moss">Start a test and choose Save and exit from the Exit button. It waits here, with your answers and your timer, until you come back.</p>
+              <p className="mt-1.5 max-w-md text-[14px] text-moss">Start a test and choose Quit and resume later from the Exit button. It waits here, with your answers and your timer, until you come back.</p>
               <button onClick={() => setFilter('full')} className="btn btn-dark mt-5 h-11 px-5 text-[14px]">
                 Start a full test <ArrowRight className="size-4" />
               </button>

@@ -94,8 +94,44 @@ function HintButton({ q, value }: { q: TestQuestion; value: string | null }) {
   )
 }
 
+type XL = 'en' | 'ru' | 'uz'
+/** The Quit and resume later texts, in the student's language. */
+const EXIT_T: Record<XL, { btn: string; btnShort: string; title: string; body: string; save: string; submit: string; quit: string; keep: string }> = {
+  en: {
+    btn: 'Quit & resume later',
+    btnShort: 'Quit',
+    title: 'Quit this test?',
+    body: 'Quit and resume later keeps your answers and your timer. Open it again from In progress and you start exactly here. Or submit now and see your score for what you answered.',
+    save: 'Quit and resume later',
+    submit: 'Submit and see results',
+    quit: 'Quit without saving',
+    keep: 'Keep going',
+  },
+  ru: {
+    btn: 'Выйти и продолжить позже',
+    btnShort: 'Выйти',
+    title: 'Выйти из теста?',
+    body: 'Если выйти и продолжить позже, ваши ответы и таймер сохранятся. Откройте тест из раздела «В процессе» и продолжите с этого места. Или завершите сейчас и посмотрите результат по тем вопросам, на которые вы ответили.',
+    save: 'Выйти и продолжить позже',
+    submit: 'Завершить и посмотреть результат',
+    quit: 'Выйти без сохранения',
+    keep: 'Продолжить тест',
+  },
+  uz: {
+    btn: 'Chiqish va keyin davom etish',
+    btnShort: 'Chiqish',
+    title: 'Testdan chiqasizmi?',
+    body: "Chiqib, keyin davom etsangiz, javoblaringiz va taymeringiz saqlanadi. «Jarayonda» bo'limidan oching va aynan shu joydan davom eting. Yoki hozir topshirib, javob bergan savollaringiz bo'yicha natijani ko'ring.",
+    save: 'Chiqish va keyin davom etish',
+    submit: "Topshirish va natijani ko'rish",
+    quit: 'Saqlamasdan chiqish',
+    keep: 'Davom etish',
+  },
+}
+
 function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedRun | null }) {
   const nav = useNavigate()
+  const xt = EXIT_T[getStore().settings?.language ?? 'en'] ?? EXIT_T.en
   // highlights last for this test only (like Bluebook)
   useEffect(() => {
     clearHighlights()
@@ -332,7 +368,7 @@ function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedR
             Skip the break and start Math
           </button>
           <button onClick={() => setConfirmExit(true)} className="mx-auto mt-3 flex items-center gap-1.5 text-[13px] text-moss hover:text-pine">
-            <Save className="size-4" /> Save and exit
+            <Save className="size-4" /> {xt.save}
           </button>
         </motion.div>
       )
@@ -444,8 +480,9 @@ function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedR
             >
               ABC
             </button>
-            <button onClick={() => setConfirmExit(true)} aria-label="Exit" className="flex h-9 items-center gap-1.5 rounded-lg border border-line px-3 text-[13px] text-moss hover:bg-cream">
-              <LogOut className="size-4" /> <span className="hidden sm:inline">Exit</span>
+            <button onClick={() => setConfirmExit(true)} aria-label={xt.btn} className="flex h-9 items-center gap-1.5 rounded-lg border border-line px-3 text-[13px] font-medium text-pine hover:bg-cream">
+              <LogOut className="size-4" /> <span className="hidden sm:inline">{xt.btn}</span>
+              <span className="sm:hidden">{xt.btnShort}</span>
             </button>
           </div>
         </div>
@@ -636,11 +673,11 @@ function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedR
         {confirmExit && (
           <motion.div className="fixed inset-0 z-50 grid place-items-center bg-pine/50 p-4 backdrop-blur-sm" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <div role="alertdialog" className="w-full max-w-sm rounded-3xl bg-card p-6 text-center">
-              <h3 className="font-serif text-[24px]">Leave this test?</h3>
-              <p className="mt-2 text-[14px] text-moss">Save and exit keeps your answers and your timer. Open it again from In progress and you start exactly here. Or submit now and see your score for what you answered.</p>
+              <h3 className="font-serif text-[24px]">{xt.title}</h3>
+              <p className="mt-2 text-[14px] text-moss">{xt.body}</p>
               <div className="mt-6 grid gap-2">
                 <button onClick={saveAndExit} className="btn btn-green h-11 text-[14px]">
-                  <Save className="size-4" /> Save and exit
+                  <Save className="size-4" /> {xt.save}
                 </button>
                 <button
                   onClick={() => {
@@ -652,7 +689,7 @@ function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedR
                   }}
                   className="btn btn-dark h-11 text-[14px]"
                 >
-                  Submit and see results
+                  {xt.submit}
                 </button>
                 <button
                   onClick={() => {
@@ -662,10 +699,10 @@ function Runner({ test, mode, resume }: { test: Test; mode: Mode; resume: SavedR
                   }}
                   className="btn h-11 text-[14px] text-red-600 hover:bg-red-50"
                 >
-                  Quit without saving
+                  {xt.quit}
                 </button>
                 <button onClick={() => setConfirmExit(false)} className="btn btn-ghost h-11 text-[14px]">
-                  Keep going
+                  {xt.keep}
                 </button>
               </div>
             </div>

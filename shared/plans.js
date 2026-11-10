@@ -25,8 +25,8 @@ export const TELEGRAM_MANAGER = 'https://t.me/HUMO_SAT_SUPPORT'
 /** Practice tests Free students can take (test ids). Every other practice test needs Pro. */
 export const FREE_TESTS = ['pt15', 'pt16', 'pt14']
 
-/** Can a Free student take this test? Every exam paper (ids start with dsat<yy>-) is free; practice tests only from FREE_TESTS. */
-export const isFreeTest = (id) => FREE_TESTS.includes(id) || /^dsat\d\d-/.test(String(id))
+/** Can a Free student take this test? Practice tests only from FREE_TESTS; exam papers (ids start with dsat<yy>-) are Pro only. */
+export const isFreeTest = (id) => FREE_TESTS.includes(id)
 
 /** App pages only Pro students can open (paths under /app). */
 export const PRO_PAGES = []
@@ -36,6 +36,7 @@ export const FREE_FEATURES = ['Full question bank: 4,000+ questions, every topic
 export const PRO_FEATURES = [
   'Unlimited Ask Humo and Desmos Lab',
   'Every full-length practice test with a real score',
+  'Every real exam paper, Math, Reading & Writing and full tests',
   'Video lessons and Learn courses',
   'Personal study plan Humo builds for you',
 ]
