@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Download, ExternalLink, X } from 'lucide-react'
@@ -86,7 +86,7 @@ export function LiveDesmos({ screen, className = 'h-[60vh]' }: { screen: Screen;
 }
 
 /** Humo's checked Desmos screen picture, with "open live" and "save" actions. */
-export function DesmosScreen({ screen, compact = false }: { screen: Screen; compact?: boolean }) {
+export function DesmosScreen({ screen, compact = false, overlay }: { screen: Screen; compact?: boolean; overlay?: ReactNode }) {
   const [live, setLive] = useState(false)
   const svg = useMemo(() => renderDesmosSvg(screen), [screen])
   const src = useMemo(() => `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`, [svg])
@@ -122,7 +122,10 @@ export function DesmosScreen({ screen, compact = false }: { screen: Screen; comp
           <Download className="size-3.5" />
         </button>
       </figcaption>
-      <img src={src} alt={`Desmos screen: ${screen.lines.map((l) => l.text).join('; ')}`} className="block w-full" draggable={false} />
+      <div className="relative">
+        <img src={src} alt={`Desmos screen: ${screen.lines.map((l) => l.text).join('; ')}`} className="block w-full" draggable={false} />
+        {overlay}
+      </div>
       {fitted.length > 0 && (
         <div className="space-y-1 border-t border-line bg-[#2d70b3]/[0.05] px-3 py-2 text-[12.5px] text-pine">
           {fitted.map((l, i) => (

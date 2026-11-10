@@ -82,10 +82,16 @@ function Typed({ lines }: { lines: string[] }) {
 /** After Humo's words: the same question solved on a Desmos screen (computed and checked, not drawn by hand). */
 function DesmosReveal() {
   const [show, setShow] = useState(false)
+  const [found, setFound] = useState(false)
   useEffect(() => {
     const t = setTimeout(() => setShow(true), 2300)
     return () => clearTimeout(t)
   }, [])
+  // the picture is 920 x 460; the intersection sits at (11, 27) inside the graph pane (x from 421, 499 wide)
+  const [left, right, bottom, top] = SAMPLE.window
+  const px = ((421 + ((11 - left) / (right - left)) * 499) / 920) * 100
+  const py = ((top - 27) / (top - bottom)) * 100
+  const screen = found ? SAMPLE : { ...SAMPLE, points: [] }
   return (
     <AnimatePresence>
       {show && (
@@ -94,9 +100,31 @@ function DesmosReveal() {
             <span className="font-semibold text-sky-200">Solved with Desmos</span>
             <span className="font-mono text-white/70">1 │ y = 3(x − 2)</span>
             <span className="font-mono text-white/70">2 │ y = 2x + 5</span>
-            <span>→ click the intersection: <b className="text-white">x = 11</b></span>
+            <span>
+              → click the intersection:{' '}
+              <button type="button" onClick={() => setFound(true)} className={`rounded-md px-1.5 py-0.5 font-bold transition ${found ? 'bg-emerald-400/15 text-emerald-300' : 'bg-white/10 text-white hover:bg-white/20'}`}>
+                {found ? 'x = 11' : 'x = ?'}
+              </button>
+            </span>
           </div>
-          <DesmosScreen screen={SAMPLE} compact />
+          <DesmosScreen
+            screen={screen}
+            compact
+            overlay={
+              !found && (
+                <button
+                  type="button"
+                  aria-label="Click the intersection to see its coordinates"
+                  onClick={() => setFound(true)}
+                  className="absolute grid size-11 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full"
+                  style={{ left: `${px}%`, top: `${py}%` }}
+                >
+                  <span className="absolute size-6 animate-ping rounded-full bg-[#2d70b3]/50" />
+                  <span className="relative size-3.5 rounded-full bg-[#666] ring-2 ring-white" />
+                </button>
+              )
+            }
+          />
         </motion.div>
       )}
     </AnimatePresence>
