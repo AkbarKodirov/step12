@@ -61,9 +61,10 @@ function SchoolForm({ t }: { t: (typeof T)[Lang]['schools']['form'] }) {
 export function Pricing() {
   const lang = useLang()
   const t = T[lang]
-  const plans: { name: string; price: string; unit: string; note: string; cta: string; features: readonly string[]; featured: boolean; school?: boolean }[] = [
+  const plans: { name: string; price: string; unit: string; note: string; cta: string; features: readonly string[]; featured: boolean; school?: boolean; pose: 'hello' | 'scholar' | 'reading' }[] = [
     { name: 'Free', price: t.free.price, unit: t.free.unit, note: t.free.note, cta: t.free.cta, features: t.free.f, featured: false, pose: 'hello' },
     { name: 'Pro', price: '149 000', unit: t.pro.unit, note: t.pro.note, cta: t.pro.cta, features: t.pro.f, featured: true, pose: 'scholar' },
+    { name: t.schools.name, price: t.schools.price, unit: t.schools.unit, note: t.schools.note, cta: t.schools.cta, features: t.schools.card, featured: false, school: true, pose: 'reading' },
   ]
   const [open, setOpen] = useState(false)
   return (
@@ -103,6 +104,9 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
+              {p.school ? (
+                <button onClick={() => { setOpen(true); document.getElementById('schools')?.scrollIntoView({ behavior: 'smooth', block: 'center' }) }} className="mt-6 h-11 rounded-full border border-white/15 text-[14px] font-medium transition hover:border-white/30 hover:bg-white/[0.04]">{p.cta}</button>
+              ) : (
               <Link to="/signup" className={`mt-6 h-11 rounded-full text-center text-[14px] font-medium leading-[44px] transition ${p.featured ? 'bg-jg-500 text-white hover:bg-jg-400' : 'border border-white/15 hover:border-white/30 hover:bg-white/[0.04]'}`}>
                 {p.cta}
               </Link>
