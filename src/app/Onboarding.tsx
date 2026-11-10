@@ -71,7 +71,7 @@ export default function Onboarding() {
   const [p, setP] = useState<Profile>({ ...s.profile, studyDays: s.profile.studyDays ?? [0, 1, 2, 3, 4, 5], minutesPerDay: s.profile.minutesPerDay ?? 60, studyTime: s.profile.studyTime ?? '18:00', focus: s.profile.focus ?? [] })
   const [built, setBuilt] = useState(0)
   const first = user?.name?.split(' ')[0] ?? 'there'
-  const [hi] = useState(() => hello(first))
+  const [hi] = useState(() => hello(first, s.settings.language))
   const up = (x: Partial<Profile>) => setP((o) => ({ ...o, ...x }))
   const go = (d: number) => {
     setDir(d)

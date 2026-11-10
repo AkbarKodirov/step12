@@ -27,7 +27,7 @@ export function HumoFab() {
   const s = useStore()
   const page = PAGES[pathname] ?? { name: 'the Humo AI app', tips: ['What should I study today?', 'Explain a hard SAT topic'] }
   const screen = useScreen()
-  const hi = useMemo(() => hello(), [open])
+  const hi = useMemo(() => hello(null, s.settings.language), [open, s.settings.language])
   const [auto, setAuto] = useState<string | null>(null)
   const context = `${studentContext(s, page.name)}${screen ? `\n\nWHAT THE STUDENT SEES ON SCREEN RIGHT NOW (${screen.title}):\n${screen.text}\nUse this when the student says "this question", "why is it wrong", etc.` : ''}`
 

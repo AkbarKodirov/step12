@@ -190,7 +190,7 @@ function ChatPane({ id, initial, space }: { id: string; initial?: ChatMsg[]; spa
   const { user } = useAuth()
   const c = COPY[space]
   const context = studentContext(s, space === 'desmos' ? 'the Desmos Lab (photo questions)' : 'the Ask Humo page')
-  const [hi] = useState(() => `${hello(user?.name?.split(' ')[0])} ${c.greeting}`)
+  const [hi] = useState(() => `${hello(user?.name?.split(' ')[0], s.settings.language)} ${c.greeting}`)
   const { msgs, busy, send, retry, stop } = useHumoChat(hi, context, { initial, onChange: (m) => saveChat(id, m, space), space })
   const [input, setInput] = useState('')
   const [pics, setPics] = useState<string[]>([])

@@ -1,5 +1,5 @@
 import { KINDS } from '../plan'
-import { hello } from '../greetings'
+import { hello, timeGreeting } from '../greetings'
 import { UNIVERSITIES, uniLogo } from '../../landing/Sections'
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -70,9 +70,9 @@ export default function Home() {
   const { user } = useAuth()
   const s = useStore()
   const first = user?.name?.split(' ')[0] ?? 'there'
-  const [greeting] = useState(() => hello(first))
+  const [greeting] = useState(() => hello(first, s.settings.language))
   const hour = new Date().getHours()
-  const greet = hour < 5 ? 'Xayrli tun' : hour < 12 ? 'Xayrli tong' : hour < 18 ? 'Xayrli kun' : 'Xayrli kech'
+  const greet = timeGreeting(hour, s.settings.language)
 
   const answered = s.attempts.reduce((a, t) => a + t.answers.filter((x) => x.value != null).length, 0) + s.practice.solved
   const correct = s.attempts.reduce((a, t) => a + t.answers.filter((x) => x.correct).length, 0) + s.practice.correct
