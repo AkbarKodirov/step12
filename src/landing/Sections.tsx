@@ -154,7 +154,7 @@ export function Footer() {
   const l = useLang()
   const k = FOOT.links[l]
   const cols: [string, string[][]][] = [
-    [FOOT.product[l], [[k[0], '#try'], [k[1], '#features'], [k[2], '#results'], [k[3], '#pricing'], [k[4], '#schools']]],
+    [FOOT.product[l], [[k[0], '#try'], [k[1], '#features'], [k[2], '#results'], [k[3], '#pricing'], [k[4], '#pricing']]],
     [FOOT.legal[l], [[k[5], '/privacy'], [k[6], '/terms']]],
   ]
   return (

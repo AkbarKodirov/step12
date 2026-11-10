@@ -83,7 +83,7 @@ function Nav() {
     window.addEventListener('scroll', on, { passive: true })
     return () => window.removeEventListener('scroll', on)
   }, [])
-  const hrefs = ['#try', '#features', '#results', '#pricing', '#schools', '#faq']
+  const hrefs = ['#try', '#features', '#results', '#pricing', '#pricing', '#faq']
   const links = T.nav[l].map((label, i) => [label, hrefs[i]])
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${scrolled ? 'border-b border-white/[0.07] bg-ink/75 backdrop-blur-xl' : ''}`}>
