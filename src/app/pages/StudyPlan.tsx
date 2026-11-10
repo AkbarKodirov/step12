@@ -7,6 +7,7 @@ import { editPlan, HumoOffline } from '../humo'
 import { setStore, today, useStore, type PlanKind, type PlanTask, type WeekPlan } from '../store'
 import { applyPlan, DAY_NAMES, downloadIcs, generatePlan, googleCalendarLink, KINDS, planDiff, planMinutes, task } from '../plan'
 import { RichText } from '../components/RichText'
+import { AdaptivePlan } from '../components/AdaptivePlan'
 
 const iso = (d: Date) => d.toISOString().slice(0, 10)
 function mondayOf(d: Date) {
@@ -311,6 +312,21 @@ export default function StudyPlan() {
           </div>
         </div>
         <AskHumoPlan plan={plan} />
+      </div>
+
+      <div className="mt-4">
+        <AdaptivePlan
+          plan={plan}
+          weekDates={Array.from({ length: 7 }, (_, i) => {
+            const d = mondayOf(new Date())
+            d.setDate(d.getDate() + i)
+            return iso(d)
+          })}
+          onApplied={(before) => {
+            setUndo(before)
+            setTimeout(() => setUndo((u) => (u === before ? null : u)), 5000)
+          }}
+        />
       </div>
 
       <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
