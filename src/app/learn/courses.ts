@@ -214,9 +214,9 @@ export const MATH: Course = {
   color: 'from-[#1f4f86] to-[#2d70b3]',
   modules: [
     {
-      id: 'video',
-      title: 'SAT math',
-      blurb: 'Watch a teacher solve SAT math step by step, then take the Mastery Check.',
+      id: 'algebra',
+      title: 'Algebra',
+      blurb: 'Linear equations, linear functions, systems and inequalities.',
       lessons: [
         {
           id: 'math-intro',
@@ -254,6 +254,13 @@ export const MATH: Course = {
           traps: ['Forgetting to flip the sign after dividing by a negative.', 'Using a solid line for a strict inequality.'],
           rule: 'Negative divide: flip. Strict: dashed.',
         },
+      ],
+    },
+    {
+      id: 'advanced',
+      title: 'Advanced Math',
+      blurb: 'Functions, exponentials, quadratics, polynomials and radicals.',
+      lessons: [
         {
           id: 'functions-video',
           title: 'Functions, exponentials and quadratics',
@@ -272,6 +279,13 @@ export const MATH: Course = {
           traps: ['Writing x + 3 as the factor when f(3) = 0.', 'Multiplying exponents when you should add them.'],
           rule: 'f(c) = 0 means x − c is a factor.',
         },
+      ],
+    },
+    {
+      id: 'data',
+      title: 'Problem-Solving and Data Analysis',
+      blurb: 'Percent, ratio, units, statistics and probability.',
+      lessons: [
         {
           id: 'percent-video',
           title: 'Percent, ratio and units',
@@ -290,6 +304,13 @@ export const MATH: Course = {
           traps: ['Using the whole table as the total in a "given that" question.', 'Forgetting to sort the data before finding the median.'],
           rule: 'Total = mean × count.',
         },
+      ],
+    },
+    {
+      id: 'geometry',
+      title: 'Geometry and Trigonometry',
+      blurb: 'Lines, angles, triangles, circles, trig and volume.',
+      lessons: [
         {
           id: 'lines-triangles',
           title: 'Lines, angles and triangles',
@@ -337,6 +358,17 @@ export const MATH: Course = {
     },
   ],
 }
+
+/** Category names in the student's language (Learn page chips and lesson labels). */
+export const MODULE_NAMES: Record<string, { uz: string; ru: string }> = {
+  algebra: { uz: 'Algebra', ru: 'Алгебра' },
+  advanced: { uz: 'Ilg‘or matematika', ru: 'Продвинутая математика' },
+  data: { uz: 'Masalalar va ma’lumotlar tahlili', ru: 'Задачи и анализ данных' },
+  geometry: { uz: 'Geometriya va trigonometriya', ru: 'Геометрия и тригонометрия' },
+  walkthrough: { uz: 'Desmos qo‘llanmasi', ru: 'Разбор Desmos' },
+}
+export const ALL_NAME = { en: 'All', uz: 'Hammasi', ru: 'Все' }
+export const moduleName = (m: { id: string; title: string }, lang: 'en' | 'uz' | 'ru') => (lang === 'en' ? m.title : MODULE_NAMES[m.id]?.[lang] ?? m.title)
 
 export const COURSES = { rw: RW, math: MATH }
 export const allLessons = (c: Course) => c.modules.flatMap((m) => m.lessons.map((l) => ({ ...l, module: m })))

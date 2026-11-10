@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowLeft, ArrowRight, Award, BookOpen, Check, Clock, Lightbulb, Lock, Play, PlayCircle, Sparkles, Target } from 'lucide-react'
 import { openUpgrade, useAccount } from '../account'
 import { setStore, useStore, type State } from '../store'
-import { allLessons, COURSES, type Course } from './courses'
+import { allLessons, ALL_NAME, COURSES, moduleName, type Course } from './courses'
 import { LiveDesmos } from '../../desmos/DesmosScreen'
 import { HumoDrawer } from '../components/HumoDrawer'
 import { studentContext } from '../humoContext'
@@ -36,6 +36,7 @@ function useLessonLock() {
 }
 
 function LessonCard({ c, l, s }: { c: Course; l: FullLesson; s: State }) {
+  const lang = s.settings.language
   const key = `${c.id}:${l.id}`
   const v = VIDEOS[l.id]
   const soon = !v && c.id === 'rw' ? VIDEO_SOON[l.id] : undefined
@@ -79,7 +80,7 @@ function LessonCard({ c, l, s }: { c: Course; l: FullLesson; s: State }) {
         )}
       </div>
       <div className="grid gap-1.5 px-3.5 pb-4 pt-3">
-        <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-jg-500">{l.module.title}</span>
+        <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-jg-500">{moduleName(l.module, lang)}</span>
         <h3 className="text-[15px] font-bold leading-snug">{l.title}</h3>
         <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[12.5px] text-moss">
           {v ? <span>{left != null ? `▶ ${left} min left` : `▶ Video · ${Math.round(v.duration / 60)} min`}</span> : <span>{l.min} min read</span>}
@@ -108,6 +109,7 @@ export function CoursePage() {
   const c = COURSES[course as 'rw' | 'math']
   const s = useStore()
   const [filter, setFilter] = useState('all')
+  const lang = s.settings.language
   const { guard } = useLessonLock()
   if (!c) return <Navigate to="/app" replace />
   const p = progress(c, s)
@@ -201,9 +203,9 @@ export function CoursePage() {
           </p>
         </div>
         <div className="-mx-1 flex max-w-full gap-1.5 overflow-x-auto px-1 pb-1">
-          {[{ id: 'all', title: 'All' }, ...c.modules].map((m) => (
+          {[{ id: 'all', title: ALL_NAME[lang] }, ...c.modules].map((m) => (
             <button key={m.id} onClick={() => setFilter(m.id)} className={`shrink-0 rounded-full border px-3.5 py-1.5 text-[13px] font-semibold transition-colors ${filter === m.id ? 'border-pine bg-pine text-cream' : 'border-line bg-card text-moss hover:text-pine'}`}>
-              {m.title === 'Standard English Conventions' ? 'Conventions' : m.title}
+              {m.title === 'Standard English Conventions' ? 'Conventions' : moduleName(m, lang)}
             </button>
           ))}
         </div>
@@ -316,6 +318,7 @@ export function LessonPage() {
   const { course = '', lesson = '' } = useParams()
   const c = COURSES[course as 'rw' | 'math']
   const s = useStore()
+  const lang = s.settings.language
   const [humo, setHumo] = useState(false)
   const [tab, setTab] = useState<'mastery' | 'notes' | 'chapters'>('mastery')
   const [t, setT] = useState(0)
@@ -405,7 +408,7 @@ export function LessonPage() {
         <Link to={`/app/learn/${c.id}`} className="hover:text-pine">
           {c.title}
         </Link>{' '}
-        › {l.module.title}
+        › {moduleName(l.module, lang)}
       </p>
       <h1 className="mt-1 text-[clamp(1.8rem,3.8vw,2.5rem)] font-extrabold leading-tight tracking-[-0.02em]">{l.title}</h1>
       <p className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-moss">
