@@ -312,7 +312,7 @@ export default function AppShell() {
                         <span className="relative">{label}</span>
                         {to === '/app/humo' && <img src="/brand/humo-mark.svg" alt="" className="relative ml-auto size-5 rounded-md" />}
                         {!acc.pro && proOnly(to) && <Lock className="relative ml-auto size-3.5 text-cream/35" />}
-                        {badge && <span className="relative ml-auto rounded-md bg-[#2d70b3] px-1.5 py-0.5 text-[10px] font-bold tracking-wide text-white">{badge}</span>}
+                        {badge && <span className="relative ml-auto rounded-md bg-gradient-to-br from-[#f7da85] to-[#d79a22] px-1.5 py-0.5 text-[10px] font-bold tracking-wide text-[#4a3207]">{badge}</span>}
                       </>
                     )}
                   </NavLink>

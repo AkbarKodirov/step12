@@ -25,7 +25,7 @@ function Leaderboard({ rows, me }: { rows: Row[] | null; me?: string }) {
     <div className="card mx-auto mt-4 max-w-2xl p-5">
       <p className="flex items-center justify-between text-[14px] font-semibold">
         <span className="flex items-center gap-2">
-          <Trophy className="size-4 text-jg-500" /> This week's leaderboard
+          <Trophy className="size-4 text-orange-500" /> This week's leaderboard
         </span>
         <span className="text-[12px] font-normal text-moss">Humo AI students</span>
       </p>
@@ -37,7 +37,7 @@ function Leaderboard({ rows, me }: { rows: Row[] | null; me?: string }) {
         <ol className="mt-3 divide-y divide-line">
           {rows.map((r, i) => (
             <li key={r.id} className={`flex items-center gap-3 py-2.5 text-[14px] ${r.name === me ? 'font-semibold' : ''}`}>
-              <span className={`w-6 text-center tabular-nums ${i < 3 ? 'text-jg-500' : 'text-moss'}`}>{i + 1}</span>
+              <span className={`w-6 text-center tabular-nums ${i < 3 ? 'text-orange-500' : 'text-moss'}`}>{i + 1}</span>
               {r.picture ? <img src={r.picture} alt="" referrerPolicy="no-referrer" className="size-7 rounded-full" /> : <span className="grid size-7 place-items-center rounded-full bg-cream text-[12px] font-semibold">{r.name[0]}</span>}
               <span className="flex-1 truncate">{r.name}</span>
               <span className="font-serif text-[18px] tabular-nums">{r.score}</span>
@@ -164,7 +164,7 @@ export default function Blitz() {
     return (
       <div className="mx-auto max-w-2xl">
         <div className="relative overflow-hidden rounded-[28px] bg-pine p-8 text-center text-cream sm:p-10">
-          <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-jg-500/25 blur-3xl" />
+          <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <Confetti fire={phase === 'over' && score > 0 && score >= s.blitzBest} />
           <BlitzIcon className="relative mx-auto size-10" />
           <h1 className="display relative mt-4 text-[44px]">{phase === 'over' ? `${score} points` : 'Blitz'}</h1>
@@ -178,14 +178,14 @@ export default function Blitz() {
               const I = Icon as typeof Heart
               return (
                 <div key={t as string} className="rounded-2xl bg-white/[0.06] p-3.5">
-                  <I className="mx-auto size-5 text-jg-300" />
+                  <I className="mx-auto size-5 text-orange-300" />
                   <p className="mt-2 font-semibold">{t as string}</p>
                   <p className="mt-0.5 text-cream/50">{d as string}</p>
                 </div>
               )
             })}
           </div>
-          <button disabled={!pool || starting} onClick={tryStart} className="btn relative mt-8 h-12 bg-jg-500 px-8 text-[15px] text-white hover:bg-jg-400 disabled:opacity-50">
+          <button disabled={!pool || starting} onClick={tryStart} className="btn relative mt-8 h-12 bg-orange-500 px-8 text-[15px] text-white hover:bg-orange-400 disabled:opacity-50">
             {!pool ? 'Loading questions…' : !acc.pro && acc.loaded && runsLeft <= 0 ? 'Unlimited runs with Pro' : phase === 'over' ? 'Play again' : 'Start run'}
           </button>
           <p className="relative mt-3 text-[12.5px] text-cream/60">Free plan: one Blitz run a day. Pro: unlimited runs.</p>
@@ -203,23 +203,23 @@ export default function Blitz() {
       <div className="flex items-center justify-between gap-3">
         <span className="flex gap-1">
           {[0, 1, 2].map((k) => (
-            <Heart key={k} className={`size-6 ${k < lives ? 'fill-red-500 text-red-500' : 'text-line-strong'}`} />
+            <Heart key={k} className={`size-6 ${k < lives ? 'fill-red-500 text-red-500' : 'text-[#dde3ec]'}`} />
           ))}
         </span>
         <span className="flex items-center gap-2">
           {mult(streak) > 1 && (
-            <motion.span key={mult(streak)} initial={{ scale: 0.5 }} animate={{ scale: 1 }} className="rounded-full bg-jg-500 px-3 py-1 text-[13px] font-bold text-white">
+            <motion.span key={mult(streak)} initial={{ scale: 0.5 }} animate={{ scale: 1 }} className="rounded-full bg-orange-500 px-3 py-1 text-[13px] font-bold text-white">
               {mult(streak)}×
             </motion.span>
           )}
           <span className="inline-flex items-center gap-1 text-[14px] font-semibold">
-            <Flame className="size-4 text-jg-500" /> {streak}
+            <Flame className="size-4 text-orange-500" /> {streak}
           </span>
         </span>
         <span className="font-serif text-[26px] tabular-nums">{score}</span>
       </div>
       <div className="mt-3 h-2 overflow-hidden rounded-full bg-soft">
-        <div className={`h-full rounded-full transition-[width] duration-1000 ease-linear ${left <= 10 ? 'bg-red-500' : 'bg-jg-500'}`} style={{ width: `${(left / SECONDS) * 100}%` }} />
+        <div className={`h-full rounded-full transition-[width] duration-1000 ease-linear ${left <= 10 ? 'bg-red-500' : 'bg-orange-500'}`} style={{ width: `${(left / SECONDS) * 100}%` }} />
       </div>
 
       <AnimatePresence mode="wait">

@@ -307,14 +307,14 @@ export default function Duels() {
     return (
       <div className="mx-auto max-w-2xl">
         <div className="relative overflow-hidden rounded-[28px] bg-pine p-6 text-center text-cream sm:p-10">
-          <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-jg-500/25 blur-3xl" />
+          <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <img src="/brand/humo-mark.svg" alt="" className="relative mx-auto size-14 rounded-2xl" />
           <h1 className="display relative mt-4 flex items-center justify-center gap-3 text-[40px] sm:text-[44px]">
             <GoldSwords className="size-9" /> {t.title}
           </h1>
           <p className="relative mx-auto mt-2 max-w-md text-[14.5px] text-cream/65">{t.sub}</p>
           <div className="relative mt-7 grid gap-3 sm:grid-cols-2">
-            <button disabled={busy} onClick={findOpponent} className="btn h-auto flex-col gap-0.5 bg-jg-500 px-5 py-4 text-white hover:bg-jg-400 disabled:opacity-50">
+            <button disabled={busy} onClick={findOpponent} className="btn h-auto flex-col gap-0.5 bg-orange-500 px-5 py-4 text-white hover:bg-orange-400 disabled:opacity-50">
               <span className="flex items-center gap-2 text-[15px] font-semibold">
                 <Users className="size-5" /> {limited ? t.pro : t.find}
               </span>
@@ -334,13 +334,13 @@ export default function Duels() {
               joinCode(code)
             }}
           >
-            <input value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} maxLength={12} placeholder={`${t.haveCode} ${t.codePh}`} aria-label={t.codePh} className="h-11 min-w-0 flex-1 rounded-full bg-white/10 px-4 text-center text-[14px] uppercase tracking-widest text-cream placeholder:normal-case placeholder:tracking-normal placeholder:text-cream/45 focus:outline-none focus:ring-2 focus:ring-jg-400" />
+            <input value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} maxLength={12} placeholder={`${t.haveCode} ${t.codePh}`} aria-label={t.codePh} className="h-11 min-w-0 flex-1 rounded-full bg-white/10 px-4 text-center text-[14px] uppercase tracking-widest text-cream placeholder:normal-case placeholder:tracking-normal placeholder:text-cream/45 focus:outline-none focus:ring-2 focus:ring-orange-400" />
             <button disabled={busy || !code.trim()} className="btn h-11 bg-cream px-5 text-[14px] text-pine disabled:opacity-40">
               {t.join}
             </button>
           </form>
           {acc.loaded && !acc.pro && <p className="relative mt-4 text-[12.5px] text-cream/60">{left > 0 ? `${left} ${t.left}` : t.none}</p>}
-          {msg && <p className="relative mt-3 text-[13px] text-jg-300">{msg}</p>}
+          {msg && <p className="relative mt-3 text-[13px] text-orange-300">{msg}</p>}
           <div className="relative mt-6 grid gap-2 text-left text-[12.5px] text-cream/70 sm:grid-cols-3">
             {[t.how1, t.how2, t.how3].map((x) => (
               <p key={x} className="rounded-2xl bg-white/[0.06] p-3">
@@ -386,7 +386,7 @@ export default function Duels() {
 
         <div className="card mt-4 p-5">
           <p className="flex items-center gap-2 text-[14px] font-semibold">
-            <Trophy className="size-4 text-jg-500" /> {t.board}
+            <Trophy className="size-4 text-orange-500" /> {t.board}
           </p>
           {!board || board.length === 0 ? (
             <p className="mt-3 text-[13px] text-moss">{t.noBoard}</p>
@@ -394,7 +394,7 @@ export default function Duels() {
             <ol className="mt-3 divide-y divide-line">
               {board.map((r, i) => (
                 <li key={r.id} className="flex items-center gap-3 py-2.5 text-[14px]">
-                  <span className={`w-6 text-center tabular-nums ${i < 3 ? 'text-jg-500' : 'text-moss'}`}>{i + 1}</span>
+                  <span className={`w-6 text-center tabular-nums ${i < 3 ? 'text-orange-500' : 'text-moss'}`}>{i + 1}</span>
                   {r.picture ? <img src={r.picture} alt="" referrerPolicy="no-referrer" className="size-7 rounded-full" /> : <span className="grid size-7 place-items-center rounded-full bg-cream text-[12px] font-semibold">{r.name[0]}</span>}
                   <span className="flex-1 truncate">{r.name}</span>
                   <span className="font-serif text-[18px] tabular-nums">{r.wins}</span>
@@ -412,14 +412,14 @@ export default function Duels() {
     return (
       <div className="mx-auto max-w-md">
         <div className="relative overflow-hidden rounded-[28px] bg-pine p-8 text-center text-cream">
-          <div className="pointer-events-none absolute left-1/2 top-0 size-64 -translate-x-1/2 rounded-full bg-jg-500/25 blur-3xl" />
+          <div className="pointer-events-none absolute left-1/2 top-0 size-64 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <img src="/brand/humo-mark.svg" alt="" className={`relative mx-auto size-16 rounded-2xl ${mode === 'searching' ? 'animate-pulse' : ''}`} />
           <h1 className="display relative mt-5 text-[28px]">{mode === 'searching' ? t.searching : t.timeout}</h1>
           <p className="relative mt-2 text-[14px] text-cream/65">{mode === 'searching' ? t.searchingSub : t.timeoutSub}</p>
           {mode === 'searching' ? (
             <>
               <div className="relative mx-auto mt-6 h-2 max-w-[240px] overflow-hidden rounded-full bg-white/10">
-                <div className="h-full rounded-full bg-jg-500 transition-[width] duration-1000 ease-linear" style={{ width: `${Math.min(100, (searchInfo.waited / 45000) * 100)}%` }} />
+                <div className="h-full rounded-full bg-orange-500 transition-[width] duration-1000 ease-linear" style={{ width: `${Math.min(100, (searchInfo.waited / 45000) * 100)}%` }} />
               </div>
               <p className="relative mt-3 text-[12.5px] text-cream/55">
                 {searchInfo.searching} {t.online}
@@ -430,7 +430,7 @@ export default function Duels() {
             </>
           ) : (
             <div className="relative mt-6 flex flex-col gap-2">
-              <button onClick={findOpponent} disabled={busy} className="btn h-11 bg-jg-500 px-6 text-white hover:bg-jg-400">
+              <button onClick={findOpponent} disabled={busy} className="btn h-11 bg-orange-500 px-6 text-white hover:bg-orange-400">
                 {t.again}
               </button>
               <button onClick={createInvite} disabled={busy} className="btn h-11 bg-white/10 px-6 text-cream hover:bg-white/15">
@@ -461,7 +461,7 @@ export default function Duels() {
     return (
       <div className="mx-auto max-w-md">
         <div className="relative overflow-hidden rounded-[28px] bg-pine p-7 text-center text-cream">
-          <div className="pointer-events-none absolute left-1/2 top-0 size-64 -translate-x-1/2 rounded-full bg-jg-500/25 blur-3xl" />
+          <div className="pointer-events-none absolute left-1/2 top-0 size-64 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
           <img src="/brand/humo-mark.svg" alt="" className="relative mx-auto size-14 animate-pulse rounded-2xl" />
           <h1 className="display relative mt-4 text-[26px]">{t.waiting}</h1>
           <p className="relative mt-1 text-[13.5px] text-cream/65">{t.share}</p>
@@ -473,7 +473,7 @@ export default function Duels() {
             <button onClick={copy} className="btn h-11 bg-white/10 text-cream hover:bg-white/15">
               {copied ? <Check className="size-4" /> : <Copy className="size-4" />} {copied ? t.copied : t.copy}
             </button>
-            <button onClick={shareLink} className="btn h-11 bg-jg-500 text-white hover:bg-jg-400">
+            <button onClick={shareLink} className="btn h-11 bg-orange-500 text-white hover:bg-orange-400">
               <Share2 className="size-4" /> {t.shareBtn}
             </button>
           </div>
@@ -503,7 +503,7 @@ export default function Duels() {
             </div>
           </div>
           <p className="mt-6 text-[13px] text-cream/60">{t.ready}</p>
-          <motion.p key={Math.ceil((duel.roundStart - clock) / 1000)} initial={{ scale: 1.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="display mt-1 text-[72px] leading-none text-jg-400">
+          <motion.p key={Math.ceil((duel.roundStart - clock) / 1000)} initial={{ scale: 1.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="display mt-1 text-[72px] leading-none text-orange-400">
             {Math.max(1, Math.ceil((duel.roundStart - clock) / 1000))}
           </motion.p>
         </div>
@@ -518,7 +518,7 @@ export default function Duels() {
     const answeredByMe = r.mine != null || pending != null
     return (
       <div className="mx-auto max-w-3xl">
-        {offline && <p className="mb-2 rounded-xl bg-amber-50 px-3 py-2 text-center text-[12.5px] text-amber-700">{t.conn}</p>}
+        {offline && <p className="mb-2 rounded-xl bg-amber-100 px-3 py-2 text-center text-[12.5px] text-amber-900">{t.conn}</p>}
         <div className="flex items-center justify-between gap-3 rounded-2xl bg-pine p-3 text-cream">
           <div className="flex min-w-0 items-center gap-2">
             <Face p={me} size="size-9" />
@@ -542,7 +542,7 @@ export default function Duels() {
           </div>
         </div>
         <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-soft">
-          <div className={`h-full rounded-full transition-[width] duration-300 ease-linear ${secs <= 10 ? 'bg-red-500' : 'bg-jg-500'}`} style={{ width: `${revealed ? 0 : (secs / total) * 100}%` }} />
+          <div className={`h-full rounded-full transition-[width] duration-300 ease-linear ${secs <= 10 ? 'bg-red-500' : 'bg-orange-500'}`} style={{ width: `${revealed ? 0 : (secs / total) * 100}%` }} />
         </div>
 
         <AnimatePresence mode="wait">
@@ -559,7 +559,7 @@ export default function Duels() {
                 const wrong = revealed && mineChoice === k && r.correct !== k
                 const mineSel = mineChoice === k
                 return (
-                  <button key={k} disabled={answeredByMe || revealed} onClick={() => answer(k)} className={`flex items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-[14.5px] ${right ? 'border-emerald-500 bg-emerald-50' : wrong ? 'border-red-400 bg-red-50' : mineSel ? 'border-jg-500 bg-jg-50' : 'border-line hover:border-line-strong'}`}>
+                  <button key={k} disabled={answeredByMe || revealed} onClick={() => answer(k)} className={`flex items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-[14.5px] ${right ? 'border-emerald-500 bg-emerald-50' : wrong ? 'border-red-400 bg-red-50' : mineSel ? 'border-orange-500 bg-orange-50' : 'border-line hover:border-line-strong'}`}>
                     <span className="grid size-6 shrink-0 place-items-center rounded-full border border-pine/30 text-[11px] font-bold">{'ABCD'[k]}</span>
                     <span className="prose-q flex-1" dangerouslySetInnerHTML={{ __html: o }} />
                     {right && <Check className="size-5 text-emerald-600" />}
@@ -597,9 +597,9 @@ export default function Duels() {
   return (
     <div className="mx-auto max-w-2xl">
       <div className="relative overflow-hidden rounded-[28px] bg-pine p-6 text-center text-cream sm:p-9">
-        <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-jg-500/25 blur-3xl" />
+        <div className="pointer-events-none absolute left-1/2 top-0 size-72 -translate-x-1/2 rounded-full bg-orange-500/25 blur-3xl" />
         <Confetti fire={outcome === 'win'} />
-        {outcome === 'win' ? <Crown className="relative mx-auto size-10 text-[#f7da85]" /> : <GoldSwords className="relative mx-auto size-10" />}
+        {outcome === 'win' ? <Crown className="relative mx-auto size-10 text-amber-300" /> : <GoldSwords className="relative mx-auto size-10" />}
         <h1 className="display relative mt-3 text-[38px]">{outcome === 'win' ? t.win : outcome === 'loss' ? t.loss : t.draw}</h1>
         {res?.reason === 'left' && <p className="relative mt-1 text-[13.5px] text-cream/65">{outcome === 'win' ? t.leftWin : t.leftLoss}</p>}
         <div className="relative mt-6 grid grid-cols-2 gap-3">
@@ -607,7 +607,7 @@ export default function Duels() {
             [duel.me, mine],
             [duel.opp, theirId],
           ].map(([p, id], i) => (
-            <div key={i} className={`rounded-2xl p-4 ${res?.winner === id ? 'bg-jg-500/25 ring-2 ring-jg-400' : 'bg-white/[0.07]'}`}>
+            <div key={i} className={`rounded-2xl p-4 ${res?.winner === id ? 'bg-orange-500/25 ring-2 ring-orange-400' : 'bg-white/[0.07]'}`}>
               <div className="flex justify-center">
                 <Face p={p as Person | null} size="size-12" />
               </div>
@@ -619,7 +619,7 @@ export default function Duels() {
             </div>
           ))}
         </div>
-        <button onClick={() => toLobby()} className="btn relative mt-7 h-12 bg-jg-500 px-8 text-[15px] text-white hover:bg-jg-400">
+        <button onClick={() => toLobby()} className="btn relative mt-7 h-12 bg-orange-500 px-8 text-[15px] text-white hover:bg-orange-400">
           {t.rematch}
         </button>
       </div>
