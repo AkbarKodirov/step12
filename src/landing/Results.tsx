@@ -19,9 +19,9 @@ const STUDENTS: Student[] = [
     date: [2026, 3, 14],
     tags: { en: ['Desmos AI', 'Desmos lessons'], ru: ['Desmos AI', 'Уроки Desmos'], uz: ['Desmos AI', 'Desmos darslari'] },
     quote: {
-      en: 'I was struggling with math until Desmos AI helped me master Desmos. The Desmos lessons were what finally raised my math score.',
-      ru: 'Математика давалась мне тяжело, пока Desmos AI не помог освоить Desmos. Именно уроки Desmos подняли мой балл по математике.',
-      uz: "Matematikada qiynalardim, Desmos AI Desmosni o'rganishga yordam berdi. Matematika balimni oshirgan narsa Desmos darslari bo'ldi.",
+      en: "honestly math was killing me. then I started asking Desmos AI and it showed me how to actually use Desmos, and the Desmos lessons did the rest. 760 still feels fake lol",
+      ru: "честно, математика меня убивала. потом начал спрашивать Desmos AI, он показал, как вообще пользоваться Desmos, а уроки Desmos сделали остальное. 760 до сих пор как будто не моё",
+      uz: "rostini aytsam, matematika meni o'ldirayotgan edi. keyin Desmos AIdan so'ray boshladim, u Desmosdan qanday foydalanishni ko'rsatdi, qolganini Desmos darslari qildi. 760 hali ham yolg'ondek tuyuladi",
     },
   },
   {
@@ -31,9 +31,9 @@ const STUDENTS: Student[] = [
     date: [2025, 11, 8],
     tags: { en: ['Practice tests', 'Mistake notebook'], ru: ['Пробные тесты', 'Тетрадь ошибок'], uz: ['Practice testlar', 'Xatolar daftari'] },
     quote: {
-      en: 'The practice tests felt just like Bluebook, and the mistake notebook kept bringing my weak spots back until I fixed them.',
-      ru: 'Пробные тесты были очень похожи на Bluebook, а тетрадь ошибок возвращала слабые темы, пока я их не исправил.',
-      uz: "Practice testlar Bluebookga juda o'xshash edi, xatolar daftari esa zaif joylarimni to'g'rilaguncha qaytarib turdi.",
+      en: "I did the practice tests in order and went through my mistake notebook every Sunday. Boring, but it works.",
+      ru: "Проходил пробные тесты по порядку и каждое воскресенье разбирал тетрадь ошибок. Скучно, зато работает.",
+      uz: "Practice testlarni tartib bilan ishlab, har yakshanba xatolar daftarimni ko'rib chiqardim. Zerikarli, lekin ishlaydi.",
     },
   },
   {
@@ -43,9 +43,9 @@ const STUDENTS: Student[] = [
     date: [2026, 8, 22],
     tags: { en: ['Ask Humo', 'Vocabulary'], ru: ['Спросить Humo', 'Словарь'], uz: ['Humodan so‘rash', 'Lug‘at'] },
     quote: {
-      en: 'Humo explained my English mistakes step by step, and the vocabulary practice helped me read passages faster.',
-      ru: 'Humo шаг за шагом объяснял мои ошибки по английскому, а словарь помог быстрее читать тексты.',
-      uz: "Humo ingliz tilidagi xatolarimni bosqichma-bosqich tushuntirdi, lug'at mashqlari esa matnlarni tezroq o'qishga yordam berdi.",
+      en: "Math was fine already. My English was the problem, mostly grammar. I'd ask Humo why my answer was wrong, in Uzbek, and it finally clicked. Also did vocab on the bus.",
+      ru: "С математикой и так было нормально. Проблемой был английский, в основном грамматика. Спрашивал Humo, почему мой ответ неверный, и наконец дошло. Слова ещё учил в автобусе.",
+      uz: "Matematika o'zi yaxshi edi. Muammo ingliz tilida, asosan grammatikada edi. Humodan javobim nega xato ekanini o'zbekcha so'rardim, va nihoyat tushundim. Lug'atni avtobusda ishlardim.",
     },
   },
   {
@@ -55,9 +55,9 @@ const STUDENTS: Student[] = [
     date: [2026, 3, 14],
     tags: { en: ['Study plan', 'Blitz'], ru: ['План обучения', 'Blitz'], uz: ['O‘quv reja', 'Blitz'] },
     quote: {
-      en: 'The weekly study plan kept me consistent, and a quick Blitz run before each session got me warmed up.',
-      ru: 'Недельный план помогал заниматься регулярно, а быстрый Blitz перед занятием хорошо разогревал.',
-      uz: "Haftalik reja meni muntazam qildi, har mashg'ulotdan oldingi tezkor Blitz esa yaxshi qizdirdi.",
+      en: "Without the study plan I would have studied only when I felt like it. It told me what to do each day. Blitz was good for ten minutes before bed.",
+      ru: "Без плана я бы занимался только когда захочется. Он говорил, что делать каждый день. Blitz хорошо заходил минут на десять перед сном.",
+      uz: "Rejasiz faqat xohlaganimda o'qigan bo'lardim. U har kuni nima qilishni aytib turdi. Blitz uxlashdan oldin o'n daqiqaga yaxshi edi.",
     },
   },
   {
@@ -67,9 +67,9 @@ const STUDENTS: Student[] = [
     date: [2026, 5, 2],
     tags: { en: ['Analytics', 'Question bank'], ru: ['Аналитика', 'Банк вопросов'], uz: ['Analitika', 'Savollar banki'] },
     quote: {
-      en: 'Analytics showed me exactly which skills were costing me points, then I drilled them in the question bank.',
-      ru: 'Аналитика точно показала, какие навыки отнимают баллы, и я отрабатывал их в банке вопросов.',
-      uz: "Analitika qaysi ko'nikmalar bal yo'qotayotganini aniq ko'rsatdi, keyin ularni savollar bankida mashq qildim.",
+      en: "Analytics page showed my geometry was terrible. I had no idea. Spent two weeks only on that in the question bank.",
+      ru: "Страница аналитики показала, что с геометрией у меня беда. Я вообще не знал. Две недели сидел только над ней в банке вопросов.",
+      uz: "Analitika sahifasi geometriyam juda yomonligini ko'rsatdi. Bilmagan ekanman. Ikki hafta faqat shu mavzuni savollar bankida ishladim.",
     },
   },
   {
@@ -77,11 +77,11 @@ const STUDENTS: Student[] = [
     rw: 620,
     math: 600,
     date: [2026, 11, 8],
-    tags: { en: ['Practice tests', 'Mistake notebook'], ru: ['Пробные тесты', 'Тетрадь ошибок'], uz: ['Practice testlar', 'Xatolar daftari'] },
+    tags: { en: ['Practice tests', 'Pacing'], ru: ['Пробные тесты', 'Темп'], uz: ['Practice testlar', 'Tempo'] },
     quote: {
-      en: 'Full-length practice tests taught me pacing, and the notebook made sure I never repeated the same mistake.',
-      ru: 'Полные пробные тесты научили меня распределять время, а тетрадь ошибок не давала повторять одно и то же.',
-      uz: "To'liq practice testlar vaqtni taqsimlashni o'rgatdi, xatolar daftari esa bir xil xatoni takrorlashimga yo'l qo'ymadi.",
+      en: "My score isn't amazing but I started from way lower. The full practice tests showed me I was running out of time, so I fixed that first.",
+      ru: "Балл не фантастический, но начинал я намного ниже. Полные пробные тесты показали, что мне не хватает времени, так что сначала исправил это.",
+      uz: "Ballim a'lo emas, lekin ancha pastdan boshlagan edim. To'liq practice testlar vaqtim yetmayotganini ko'rsatdi, avval shuni tuzatdim.",
     },
   },
   {
@@ -91,9 +91,9 @@ const STUDENTS: Student[] = [
     date: [2026, 11, 8],
     tags: { en: ['Desmos AI', 'Practice tests'], ru: ['Desmos AI', 'Пробные тесты'], uz: ['Desmos AI', 'Practice testlar'] },
     quote: {
-      en: 'Sending a photo of a hard math question to Desmos AI saved me hours, and timed practice tests prepared me for test day.',
-      ru: 'Фото сложной задачи в Desmos AI экономило мне часы, а пробные тесты на время подготовили к экзамену.',
-      uz: "Qiyin matematika savolining rasmini Desmos AIga yuborish menga soatlab vaqt tejadi, vaqtli practice testlar esa imtihonga tayyorladi.",
+      en: "Hard math questions used to take me forever. I'd just take a photo, send it to Desmos AI and see how it sets it up on the graph. Saved me so much time before the exam.",
+      ru: "Сложные задачи по математике раньше занимали у меня вечность. Просто фотографировал, отправлял в Desmos AI и смотрел, как он строит это на графике. Перед экзаменом сэкономило кучу времени.",
+      uz: "Qiyin matematika savollari menga juda ko'p vaqt olardi. Shunchaki rasmga olib Desmos AIga yuborardim va u grafikda qanday qurishini ko'rardim. Imtihon oldidan juda ko'p vaqtimni tejadi.",
     },
   },
   {
@@ -101,11 +101,11 @@ const STUDENTS: Student[] = [
     rw: 630,
     math: 790,
     date: [2026, 10, 3],
-    tags: { en: ['Desmos lessons', 'Vocabulary'], ru: ['Уроки Desmos', 'Словарь'], uz: ['Desmos darslari', 'Lug‘at'] },
+    tags: { en: ['Desmos lessons', 'Desmos Lab'], ru: ['Уроки Desmos', 'Desmos Lab'], uz: ['Desmos darslari', 'Desmos Lab'] },
     quote: {
-      en: 'The Desmos video lessons turned math into my strongest section, and daily vocabulary work lifted my English.',
-      ru: 'Видеоуроки Desmos сделали математику моим сильнейшим разделом, а ежедневный словарь подтянул английский.',
-      uz: "Desmos video darslari matematikani eng kuchli bo'limimga aylantirdi, kundalik lug'at esa ingliz tilimni oshirdi.",
+      en: "Desmos video lessons were the best part for me. 790 in math came from those and the Desmos Lab. English is still my weak side, I know.",
+      ru: "Видеоуроки Desmos для меня лучшее. 790 по математике — это они и Desmos Lab. Английский всё ещё слабая сторона, знаю.",
+      uz: "Desmos video darslari men uchun eng yaxshisi bo'ldi. Matematikadagi 790 ularning va Desmos Labning natijasi. Ingliz tilim hali ham zaif, bilaman.",
     },
   },
 ]
