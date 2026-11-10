@@ -31,7 +31,7 @@ export function Proof() {
   const row = [...UNIVERSITIES, ...UNIVERSITIES]
   return (
     <section className="border-t border-white/[0.07] py-6" aria-label={PROOF[l]}>
-      <p className="mx-auto max-w-7xl px-4 text-[13px] text-white/40 sm:px-6">{PROOF[l]}</p>
+      <p className="page-shell text-[13px] text-white/40">{PROOF[l]}</p>
       <div className="relative mt-4 overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_10%,black_90%,transparent)]">
         <ul className="flex w-max animate-marquee gap-3 hover:[animation-play-state:paused]">
           {row.map(([u, d], i) => (
@@ -81,7 +81,7 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(0)
   return (
     <section id="faq" className="scroll-mt-20 border-t border-white/[0.07] py-10 sm:py-14">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr]">
+      <div className="page-shell grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
         <h2 className="display text-[clamp(1.9rem,4vw,3.1rem)]">{FAQ_TITLE[l]}</h2>
         <div className="divide-y divide-white/[0.08] border-y border-white/[0.08]">
           {FAQ[l].map(([q, a], i) => {
@@ -159,7 +159,7 @@ export function Footer() {
   ]
   return (
     <footer className="border-t border-white/[0.07]">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-[2fr_1fr_1fr]">
+      <div className="page-shell grid gap-8 py-10 md:grid-cols-[2fr_1fr_1fr]">
         <div>
           <span className="flex items-center gap-2.5">
             <HumoLogo className="h-9" />
@@ -182,7 +182,7 @@ export function Footer() {
         ))}
       </div>
       <div className="border-t border-white/[0.07]">
-        <p className="mx-auto max-w-7xl px-4 py-5 text-[11px] leading-relaxed text-white/30 sm:px-6">
+        <p className="page-shell py-5 text-[11px] leading-relaxed text-white/30">
           © {new Date().getFullYear()} Humo AI. {FOOT.tm[l]}
         </p>
       </div>
@@ -216,7 +216,7 @@ export function Inside() {
   const l = useLang()
   return (
     <section className="border-t border-white/[0.07] py-10 sm:py-12">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="page-shell">
         <Reveal>
           <h2 className="display max-w-2xl text-[clamp(1.9rem,4vw,3.1rem)]">{INSIDE_TITLE[l]}</h2>
         </Reveal>

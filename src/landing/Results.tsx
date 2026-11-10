@@ -143,14 +143,14 @@ export function Results() {
   const l = useLang()
   return (
     <section id="results" className="scroll-mt-20 border-t border-white/[0.07] py-10 sm:py-14">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="page-shell">
         <Reveal className="max-w-2xl">
           <h2 className="display text-[clamp(1.9rem,4vw,3.1rem)]">{TX.title[l]}</h2>
           <p className="mt-3 text-[15px] leading-relaxed text-white/55">{TX.sub[l]}</p>
         </Reveal>
       </div>
       {/* phones swipe sideways; wider screens show a grid */}
-      <ul className="mx-auto mt-6 flex max-w-7xl snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-6 lg:grid-cols-4">
+      <ul className="page-shell mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-4">
         {STUDENTS.map((s, i) => (
           <motion.li
             key={s.name}

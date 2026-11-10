@@ -95,7 +95,7 @@ export function Roadmap() {
   const l = useLang()
   return (
     <section id="roadmap" className="scroll-mt-20 border-t border-white/[0.07] py-10 sm:py-14">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="page-shell">
         <Reveal>
           <h2 className="display max-w-2xl text-[clamp(1.9rem,4vw,3.1rem)]">{TX.title[l]}</h2>
         </Reveal>

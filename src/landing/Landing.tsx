@@ -88,7 +88,7 @@ function Nav() {
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${scrolled ? 'border-b border-white/[0.07] bg-ink/75 backdrop-blur-xl' : ''}`}>
       <motion.div className="absolute inset-x-0 bottom-0 h-px origin-left bg-jg-400" style={{ scaleX: progress, opacity: scrolled ? 1 : 0 }} />
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
+      <div className="page-shell flex h-16 items-center justify-between">
         <Link to="/" aria-label="Humo AI home">
           <Logo />
         </Link>
@@ -141,7 +141,7 @@ function Hero() {
       <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-56 bg-gradient-to-t from-ink to-transparent" />
       <div className="pointer-events-none absolute inset-y-0 left-0 -z-10 hidden w-1/2 bg-gradient-to-r from-ink/80 to-transparent md:block" />
 
-      <div className="mx-auto w-full max-w-7xl px-4 pb-14 pt-[52vh] sm:px-6 md:pb-20 md:pt-32">
+      <div className="page-shell pb-14 pt-[52vh] md:pb-20 md:pt-32">
         <div className="max-w-[38rem]">
           <motion.a
             href="#try"

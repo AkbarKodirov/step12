@@ -105,7 +105,7 @@ export default function Onboarding() {
         <div className="absolute -left-40 top-20 size-[520px] rounded-full bg-jg-500/10 blur-[120px]" />
         <div className="absolute -right-32 bottom-0 size-[420px] rounded-full bg-amber-400/10 blur-[120px]" />
       </div>
-      <div className="relative mx-auto flex min-h-svh max-w-6xl flex-col px-5 py-6 sm:px-8">
+      <div className="page-shell relative flex min-h-svh flex-col py-6">
         {/* progress */}
         <div className="flex items-center gap-4">
           <HumoLogo className="h-7" />

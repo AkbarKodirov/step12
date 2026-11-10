@@ -108,7 +108,7 @@ export function TryHumo() {
 
   return (
     <section id="try" className="scroll-mt-20 border-t border-white/[0.07] py-14 sm:py-20">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
+      <div className="page-shell grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
         <div className="lg:pt-6">
           <motion.p initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="inline-flex items-center gap-2 rounded-full border border-[#2d70b3]/40 bg-[#2d70b3]/15 px-3.5 py-1.5 text-[12.5px] font-semibold text-sky-200">
             <span className="grid size-5 place-items-center rounded-md bg-[#2d70b3] text-[10px] font-bold text-white">D</span> The only Desmos AI tutor in Uzbekistan

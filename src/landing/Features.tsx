@@ -63,7 +63,7 @@ export function Features() {
   const l = useLang()
   return (
     <section id="features" className="scroll-mt-20 py-10 sm:py-14">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="page-shell">
         <Reveal className="max-w-2xl">
           <h2 className="display text-[clamp(1.9rem,4vw,3.1rem)]">{tr(l, 'Everything between you and test day, in one place.', 'Всё между вами и днём экзамена — в одном месте.', 'Sen va imtihon kuni orasidagi hamma narsa bir joyda.')}</h2>
           <p className="mt-3 text-[15px] leading-relaxed text-white/55">{tr(l, 'Practice, full mocks, review and planning share one record of your progress, so Humo always knows what to give you next.', 'Практика, пробные тесты, разбор и планирование используют одну запись прогресса, поэтому Humo всегда знает, что дать дальше.', 'Mashq, mocklar, tahlil va rejalashtirish bitta progress yozuvidan foydalanadi, shuning uchun Humo keyingi qadamni doim biladi.')}</p>

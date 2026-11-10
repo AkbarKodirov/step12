@@ -68,7 +68,7 @@ export function Pricing() {
   const [open, setOpen] = useState(false)
   return (
     <section id="pricing" className="scroll-mt-20 border-t border-white/[0.07] py-10 sm:py-14">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="page-shell">
         <div className="max-w-xl">
           <h2 className="display text-[clamp(1.9rem,4vw,3.1rem)]">{t.title}</h2>
           <p className="mt-3 text-[15px] leading-relaxed text-white/55">{t.sub}</p>

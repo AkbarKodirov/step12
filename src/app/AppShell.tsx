@@ -353,7 +353,7 @@ export default function AppShell() {
 
       {/* Top bar */}
       <header className="sticky top-0 z-30 border-b border-line bg-cream/85 backdrop-blur-xl">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-8">
+        <div className="page-shell flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2 md:hidden">
             <HumoLogo className="h-7" />
           </Link>
@@ -375,7 +375,7 @@ export default function AppShell() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4 py-8 sm:px-8">
+      <main className="page-shell py-8">
         <Suspense fallback={<PageLoading />}>
           <motion.div key={pathname} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}>
           <Routes>

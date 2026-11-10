@@ -805,7 +805,7 @@ export default function AdminApp() {
           </div>
         </header>
 
-        <main className="mx-auto max-w-6xl px-4 py-8 sm:px-8">
+        <main className="page-shell py-8">
           {ctx.err && <p className="mb-4 rounded-2xl bg-red-50 px-4 py-3 text-[14px] text-red-700">{ctx.err}</p>}
           {!ctx.data && !ctx.err ? (
             <div className="grid h-64 place-items-center">

@@ -132,7 +132,7 @@ html.dark-app .prose-q th, html.dark-app .prose-q td { border-color: #2c3f5e; }
 }
 
 @layer base {
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
   body {
     @apply bg-ink text-cream antialiased;
     /* no text selection anywhere except form fields */
@@ -239,3 +239,21 @@ html.dark-app .prose-q th, html.dark-app .prose-q td { border-color: #2c3f5e; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }
+
+/* One shared page width + side margin for the landing page and the app, so
+   Mac, Windows and phones line up: 16px side margin on phones, 24px from 640px up,
+   content never wider than 1280px and always centred. Scrollbars are hidden
+   everywhere (above), so no device loses width to a scrollbar. */
+@layer components {
+  .page-shell {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 80rem;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) {
+    .page-shell { padding-inline: 1.5rem; }
+  }
+}
+/* nothing may push the page sideways */
+html, body { overflow-x: clip; }
