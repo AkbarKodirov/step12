@@ -7,21 +7,20 @@ import { setStore, useStore, type Chat, type ChatMsg } from '../store'
 import { studentContext } from '../humoContext'
 import { uid } from '../plan'
 import { hello } from '../greetings'
+import { pickSuggestionIndexes, suggestionsFor } from '../suggestions'
 import { useAuth } from '../../lib/auth'
 import { UsageLine } from '../components/Upgrade'
 
 type Space = 'humo' | 'desmos'
-const COPY: Record<Space, { greeting: string; starters: string[]; title: string; sub: string; placeholder: string }> = {
+const COPY: Record<Space, { greeting: string; title: string; sub: string; placeholder: string }> = {
   humo: {
     greeting: "I'm Humo. Send me any SAT question — I'll solve math the Desmos way with a real Desmos screen — or ask me to build or change your study plan.",
-    starters: ['Solve x² − 5x + 6 = 0 with Desmos', 'Make my weekends lighter in my plan', 'Ikkinchi darajali tenglamalarni tushuntir', 'What should I study after my last test?'],
     title: 'Humo',
     sub: 'Digital SAT tutor · Desmos solves · edits your plan · English, O\'zbekcha, Русский',
     placeholder: 'Ask Humo or paste a math question…',
   },
   desmos: {
     greeting: 'Send me a photo or screenshot of any SAT Math question. I read it, type it into Desmos, check every number, and show you the Desmos screen step by step.',
-    starters: ['How do I solve systems in Desmos?', 'Teach me list regression [ ] ~ [ ]', 'When should I NOT use Desmos?', 'Solve: for what k does x² + kx + 9 = 0 have one solution?'],
     title: 'Desmos Lab',
     sub: 'Upload a question photo · Humo solves it on a real Desmos screen · only in Uzbekistan',
     placeholder: 'Add a photo, paste a screenshot, or type the question…',
@@ -191,6 +190,8 @@ function ChatPane({ id, initial, space }: { id: string; initial?: ChatMsg[]; spa
   const c = COPY[space]
   const context = studentContext(s, space === 'desmos' ? 'the Desmos Lab (photo questions)' : 'the Ask Humo page')
   const [hi] = useState(() => `${hello(user?.name?.split(' ')[0], s.settings.language)} ${c.greeting}`)
+  const [sugIdx] = useState(() => pickSuggestionIndexes(space, s.settings.language))
+  const starters = suggestionsFor(space, s.settings.language, sugIdx)
   const { msgs, busy, send, retry, stop } = useHumoChat(hi, context, { initial, onChange: (m) => saveChat(id, m, space), space })
   const [input, setInput] = useState('')
   const [pics, setPics] = useState<string[]>([])
@@ -253,7 +254,7 @@ function ChatPane({ id, initial, space }: { id: string; initial?: ChatMsg[]; spa
               </motion.button>
             )}
             <div className="mt-6 grid gap-2 sm:grid-cols-2">
-              {c.starters.map((t, i) => (
+              {starters.map((t, i) => (
                 <motion.button key={t} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 + i * 0.06 }} onClick={() => send(t)} className="rounded-2xl border border-line bg-card px-4 py-3 text-left text-[13.5px] transition hover:-translate-y-0.5 hover:border-jg-500">
                   {t}
                 </motion.button>
