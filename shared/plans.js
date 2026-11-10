@@ -31,7 +31,7 @@ export const isFreeTest = (id) => FREE_TESTS.includes(id) || /^dsat\d\d-/.test(S
 /** App pages only Pro students can open (paths under /app). */
 export const PRO_PAGES = []
 
-export const FREE_FEATURES = ['Full question bank: 3,000+ questions, every topic and level', '3 full-length practice tests with a real score', 'Every exam paper', 'Vocabulary trainer, study plan and 1 Blitz run a day', 'Analytics, mistakes notebook and score calculator', '3 Ask Humo questions a day', '1 Desmos Lab solve a day', 'Explanations on every bank question']
+export const FREE_FEATURES = ['Full question bank: 4,000+ questions, every topic and level', '3 full-length practice tests with a real score', 'Vocabulary trainer, study plan and 1 Blitz run a day', 'Analytics, mistakes notebook and score calculator', '3 Ask Humo questions a day', '1 Desmos Lab solve a day', 'Explanations on every bank question']
 
 export const PRO_FEATURES = [
   'Unlimited Ask Humo and Desmos Lab',

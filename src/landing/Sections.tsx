@@ -69,92 +69,12 @@ export function HowItWorks() {
   )
 }
 
-const PLANS = [
-  {
-    name: 'Free',
-    price: '0',
-    unit: "so'm",
-    note: 'For trying Humo AI',
-    cta: 'Start free',
-    features: ['Full question bank: 4,000+ questions', 'Every real exam paper and 3 practice tests', '3 Ask Humo questions and 1 Desmos Lab solve a day', 'Study plan, vocabulary, analytics and mistakes', '1 Blitz run a day'],
-  },
-  {
-    name: 'Pro',
-    price: '149 000',
-    unit: "so'm / month · ≈ $12",
-    note: 'For students with a test date',
-    cta: 'Start with Pro',
-    featured: true,
-    features: ['Unlimited Ask Humo, Desmos Lab and Blitz', 'Every full-length practice test', 'Video lessons and Learn courses', 'Module 2 question sets with Desmos walkthroughs', 'Humo reviews every mistake with you'],
-  },
-  {
-    name: 'Academy',
-    price: 'Included',
-    unit: 'with your course',
-    note: 'For Humo AI students',
-    cta: 'Join with academy code',
-    features: ['Everything in Pro', 'Your teacher sees your progress', 'Weekly mock with group ranking', 'Speaking practice with teachers'],
-  },
-]
-
-export function Pricing() {
-  return (
-    <section id="pricing" className="scroll-mt-20 border-t border-white/[0.07] py-14 sm:py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="max-w-xl">
-          <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">Less than one private lesson a month.</h2>
-          <p className="mt-5 text-[16px] leading-relaxed text-white/55">Start free. Upgrade when your test date gets close.</p>
-        </div>
-        <div className="mt-9 grid gap-3 lg:grid-cols-3">
-          {PLANS.map((p, i) => (
-            <motion.div
-              initial={{ opacity: 0, y: 22 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-              whileHover={{ y: -4 }}
-              key={p.name}
-              className={`relative flex flex-col rounded-[24px] p-7 ${p.featured ? 'border border-jg-500/40 bg-gradient-to-b from-jg-500/[0.12] via-jg-500/[0.03] to-transparent' : 'panel'}`}
-            >
-              <div className="flex items-center justify-between">
-                <h3 className="text-[17px] font-semibold">{p.name}</h3>
-                {p.featured && <span className="rounded-full bg-jg-500 px-2.5 py-0.5 text-[11px] font-semibold text-white">Most chosen</span>}
-              </div>
-              <p className="mt-1 text-[13px] text-white/45">{p.note}</p>
-              <p className="mt-7 flex items-baseline gap-2">
-                <span className="text-[40px] font-semibold tracking-tight tabular-nums">{p.price}</span>
-                <span className="text-[13px] text-white/45">{p.unit}</span>
-              </p>
-              <ul className="mt-7 flex-1 space-y-3 text-[14px] text-white/75">
-                {p.features.map((f) => (
-                  <li key={f} className="flex gap-2.5">
-                    <Check className="mt-0.5 size-4 shrink-0 text-jg-400" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                to="/signup"
-                className={`mt-8 h-11 rounded-full text-center text-[14px] font-medium leading-[44px] transition ${
-                  p.featured ? 'bg-jg-500 text-white hover:bg-jg-400' : 'border border-white/15 hover:border-white/30 hover:bg-white/[0.04]'
-                }`}
-              >
-                {p.cta}
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
-
 const FAQ = [
   ['Is Humo AI the same as the official SAT?', 'No. Our questions and mocks follow the official formats and timing closely, but they are written by Humo AI teachers. Use the official Bluebook practice tests as well before test day.'],
   ['How accurate are the score estimates?', 'Estimates are most reliable after a full mock. A single practice set gives a rough range; Humo tells you how confident the estimate is.'],
   ['Can Humo explain in Uzbek or Russian?', "Yes. Ask in O'zbekcha or Русский and Humo will answer in that language, while keeping exam terms in English so they match the real test."],
   ['Does Humo just give me the answers?', 'When you are practising, Humo starts with a hint and only shows the full solution if you ask. In review mode it explains the full reasoning.'],
-  ['I study at the academy. Do I pay separately?', 'No. Academy students get full access with the code from their teacher.'],
+  ['Can my whole school use Humo AI?', 'Yes. Use the For schools request in the pricing section and we will set up Humo AI for all your students at once.'],
   ['Can I cancel Pro at any time?', 'Yes. Pro is monthly, and you keep access until the end of the month you paid for.'],
 ]
 

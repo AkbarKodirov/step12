@@ -6,7 +6,8 @@ import { GoogleButton } from '../auth/GoogleButton'
 import { useAuth } from '../lib/auth'
 import { TryHumo } from './TryHumo'
 import { Features } from './Features'
-import { Proof, HowItWorks, Inside, Pricing, Faq, FinalCta, Footer } from './Sections'
+import { Proof, HowItWorks, Inside, Faq, FinalCta, Footer } from './Sections'
+import { Pricing } from './Pricing'
 import { HumoLogo } from '../brand/HumoLogo'
 
 const HumoScene = lazy(() => import('../three/HumoScene'))

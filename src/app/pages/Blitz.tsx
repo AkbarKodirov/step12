@@ -187,6 +187,7 @@ export default function Blitz() {
           <button disabled={!pool || starting} onClick={tryStart} className="btn relative mt-8 h-12 bg-orange-500 px-8 text-[15px] text-white hover:bg-orange-400 disabled:opacity-50">
             {!pool ? 'Loading questions…' : !acc.pro && acc.loaded && runsLeft <= 0 ? 'Unlimited runs with Pro' : phase === 'over' ? 'Play again' : 'Start run'}
           </button>
+          <p className="relative mt-3 text-[12.5px] text-cream/60">Free plan: one Blitz run a day. Pro: unlimited runs.</p>
           {acc.loaded && !acc.pro && (
             <p className="relative mt-3 text-[12.5px] text-cream/60">{runsLeft > 0 ? `${runsLeft} free run left today` : 'Your free run for today is used. Come back tomorrow or go Pro.'}</p>
           )}

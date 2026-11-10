@@ -934,6 +934,21 @@ app.post('/api/blitz/start', auth, async (req, res) => {
   res.json({ ok: true, used: use.used, limit: use.limit })
 })
 
+const schoolHits = new Map()
+app.post('/api/schools-request', async (req, res) => {
+  const clean = (v, n) => String(v ?? '').replace(/[\u0000-\u001f]/g, ' ').trim().slice(0, n)
+  const b = req.body || {}
+  const school = clean(b.school, 120), contact = clean(b.contact, 120), name = clean(b.name, 80), note = clean(b.note, 600)
+  if (!school || !contact) return res.status(400).json({ error: 'Please add your school and a way to reach you.' })
+  const ip = String(req.headers['x-forwarded-for'] || req.ip || '').split(',')[0].trim()
+  const now = Date.now()
+  const recent = (schoolHits.get(ip) || []).filter((t) => now - t < 3600e3)
+  if (recent.length >= 5) return res.status(429).json({ error: 'Too many requests. Try again later.' })
+  schoolHits.set(ip, [...recent, now])
+  await kvSet('schools', `${now}-${Math.random().toString(36).slice(2, 8)}`, { school, contact, name, note, at: now })
+  res.json({ ok: true })
+})
+
 app.post('/api/blitz', auth, async (req, res) => {
   const score = Math.max(0, Math.min(100000, Math.round(Number(req.body?.score) || 0)))
   const u = await getUser(req.user.email)
