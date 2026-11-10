@@ -401,6 +401,9 @@ const MATH_STYLE = `- Keep answers short and scannable; use plain text, not mark
 `
 const HUMO_CHAT = HUMO_SYSTEM.replace(PLAIN_MATH_RULE, MATH_STYLE)
 const HUMO_FULL = `${HUMO_CHAT}\n\n${DESMOS_GUIDE}\n\n${PLAN_GUIDE}`
+// Ask Humo (the free 3-a-day chat) does not do Desmos Lab's job: Desmos-style solving belongs to Desmos Lab and its own quota.
+const HUMO_ASK = `${HUMO_CHAT}\n\n${PLAN_GUIDE}\n\nASK HUMO vs DESMOS LAB: this is the Ask Humo chat. Desmos Lab is a separate tool (/app/desmos) that solves SAT Math questions the Desmos way (photos, regression, graph screens).
+Here, NEVER write a desmos block, never give a Desmos calculator walkthrough, and never solve a SAT Math question from a photo or screenshot step by step. If the student sends a Math question to be solved with Desmos, or a photo of a Math question, reply in one or two friendly sentences that Desmos Lab does that, with its own daily limit, and point them to Desmos Lab in the sidebar. You may still explain SAT Math concepts and ideas in words, Reading & Writing questions, grammar, vocabulary, strategy, study plans, and the student's results.`
 const NO_KEY = 'Humo is taking a short break. Please try again later.' // (server has no GEMINI_API_KEY)
 
 /* ---------- Humo replies: pull out checked Desmos screens and plan proposals ---------- */
@@ -642,6 +645,7 @@ app.post('/api/chat', auth, async (req, res) => {
   const giveBack = () => refundUse(me, feature)
   let system = context ? `${HUMO_FULL}\n\nContext about what the student is working on right now:\n${String(context).slice(0, 14000)}` : HUMO_FULL
   if (space === 'desmos') system = `${system}\n\n${DESMOS_LAB}`
+  else system = system.replace(HUMO_FULL, () => HUMO_ASK)
   // Humo AI's own questions carry checked keys: if the student is asking about one, Humo is told the answer first
   const lastText = messages.filter((m) => m.role === 'user').pop()?.text || ''
   const onScreen = String(context || '').match(/(?:Passage:|Question:)[\s\S]*?(?=Student's answer|The student has not answered|$)/)?.[0] || ''
