@@ -1,10 +1,13 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Check, Plus } from 'lucide-react'
+import { Plus } from 'lucide-react'
 import { GoogleButton } from '../auth/GoogleButton'
 import { Reveal, Spotlight } from '../components/motion'
 import { motion } from 'framer-motion'
 import { HumoLogo } from '../brand/HumoLogo'
+import { useLang, type Lang } from './i18n'
+import { Mascot } from './Roadmap'
+
+type L3 = Record<Lang, string>
 
 export const UNIVERSITIES: [string, string][] = [
   ['Westminster International University in Tashkent', 'wiut.uz'],
@@ -21,19 +24,22 @@ export const UNIVERSITIES: [string, string][] = [
 /** University crest via Google's public favicon service (loaded by the visitor's browser). */
 export const uniLogo = (domain: string) => `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
 
+const PROOF: L3 = { en: 'Humo AI students aim for universities like these', ru: 'Ученики Humo AI поступают в такие университеты', uz: 'Humo AI o‘quvchilari shunday universitetlarni nishonga oladi' }
+
 export function Proof() {
+  const l = useLang()
   const row = [...UNIVERSITIES, ...UNIVERSITIES]
   return (
-    <section className="border-t border-white/[0.07] py-8" aria-label="Universities our students aim for">
-      <p className="mx-auto max-w-7xl px-4 text-[13px] text-white/40 sm:px-6">Humo AI students aim for universities like these</p>
-      <div className="relative mt-6 overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_10%,black_90%,transparent)]">
-        <ul className="flex w-max animate-marquee gap-4 hover:[animation-play-state:paused]">
+    <section className="border-t border-white/[0.07] py-6" aria-label={PROOF[l]}>
+      <p className="mx-auto max-w-7xl px-4 text-[13px] text-white/40 sm:px-6">{PROOF[l]}</p>
+      <div className="relative mt-4 overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_10%,black_90%,transparent)]">
+        <ul className="flex w-max animate-marquee gap-3 hover:[animation-play-state:paused]">
           {row.map(([u, d], i) => (
-            <li key={i} aria-hidden={i >= UNIVERSITIES.length} className="flex shrink-0 items-center gap-3 rounded-2xl border border-white/[0.08] bg-white/[0.03] py-2.5 pl-2.5 pr-5 transition hover:border-white/20 hover:bg-white/[0.06]">
-              <span className="grid size-10 place-items-center overflow-hidden rounded-xl bg-white">
-                <img src={uniLogo(d)} alt="" loading="lazy" className="size-7 object-contain" referrerPolicy="no-referrer" />
+            <li key={i} aria-hidden={i >= UNIVERSITIES.length} className="flex shrink-0 items-center gap-3 rounded-2xl border border-white/[0.08] bg-white/[0.03] py-2 pl-2 pr-4 transition hover:border-white/20 hover:bg-white/[0.06]">
+              <span className="grid size-9 place-items-center overflow-hidden rounded-xl bg-white">
+                <img src={uniLogo(d)} alt="" loading="lazy" className="size-6 object-contain" referrerPolicy="no-referrer" />
               </span>
-              <span className="whitespace-nowrap text-[15px] font-medium tracking-tight text-white/70">{u}</span>
+              <span className="whitespace-nowrap text-[14px] font-medium tracking-tight text-white/70">{u}</span>
             </li>
           ))}
         </ul>
@@ -42,58 +48,51 @@ export function Proof() {
   )
 }
 
-export function HowItWorks() {
-  const steps = [
-    ['Take a 40-minute diagnostic', 'A short, timed mix of every Digital SAT domain. You get an estimated score right away.'],
-    ['Humo builds your plan', 'Your test date, target score and weak spots become a week-by-week schedule.'],
-    ['Practice and review daily', 'Short sets from the question bank. Every mistake goes to your notebook with an explanation.'],
-    ['Sit full mocks before test day', 'Timed, adaptive mocks show whether you are on track — and what to fix in the last weeks.'],
-  ]
-  return (
-    <section className="border-t border-white/[0.07] py-14 sm:py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <Reveal>
-          <h2 className="display max-w-2xl text-[clamp(2.1rem,4.4vw,3.5rem)]">From first login to test day.</h2>
-        </Reveal>
-        <ol className="mt-9 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map(([t, b], i) => (
-            <motion.li key={t} initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }} className="bg-ink p-6 sm:p-7">
-              <span className="grid size-8 place-items-center rounded-full border border-jg-500/40 text-[13px] font-semibold tabular-nums text-jg-300">{i + 1}</span>
-              <h3 className="mt-6 text-[17px] font-semibold tracking-tight">{t}</h3>
-              <p className="mt-2 text-[14px] leading-relaxed text-white/50">{b}</p>
-            </motion.li>
-          ))}
-        </ol>
-      </div>
-    </section>
-  )
+const FAQ: Record<Lang, string[][]> = {
+  en: [
+    ['Is Humo AI the same as the official SAT?', 'No. Our questions and mocks follow the official formats and timing closely, but they are written by Humo AI teachers. Use the official Bluebook practice tests as well before test day.'],
+    ['How accurate are the score estimates?', 'Estimates are most reliable after a full mock. A single practice set gives a rough range; Humo tells you how confident the estimate is.'],
+    ['Can Humo explain in Uzbek or Russian?', "Yes. Ask in O'zbekcha or Русский and Humo will answer in that language, while keeping exam terms in English so they match the real test."],
+    ['Does Humo just give me the answers?', 'When you are practising, Humo starts with a hint and only shows the full solution if you ask. In review mode it explains the full reasoning.'],
+    ['Can my whole school use Humo AI?', 'Yes. Use the For schools request in the pricing section and we will set up Humo AI for all your students at once.'],
+    ['Can I cancel Pro at any time?', 'Yes. Pro is monthly, and you keep access until the end of the month you paid for.'],
+  ],
+  ru: [
+    ['Humo AI — это то же самое, что официальный SAT?', 'Нет. Наши вопросы и тесты близко следуют официальным форматам и времени, но написаны преподавателями Humo AI. Перед экзаменом пройдите и официальные тесты Bluebook.'],
+    ['Насколько точны оценки баллов?', 'Оценка надёжнее всего после полного пробного теста. Один набор задач даёт лишь примерный диапазон, а Humo сообщает, насколько он уверен.'],
+    ['Может ли Humo объяснять на узбекском или русском?', 'Да. Спросите на русском или O‘zbekcha, и Humo ответит на этом языке, оставив экзаменационные термины на английском, как в настоящем тесте.'],
+    ['Humo просто даёт мне ответы?', 'Во время практики Humo начинает с подсказки и показывает полное решение, только если вы попросите. В режиме разбора он объясняет всю логику.'],
+    ['Может ли вся наша школа пользоваться Humo AI?', 'Да. Оставьте заявку «Для школ» в разделе цен, и мы подключим Humo AI сразу для всех ваших учеников.'],
+    ['Можно ли отменить Pro в любой момент?', 'Да. Pro оплачивается помесячно, и доступ сохраняется до конца оплаченного месяца.'],
+  ],
+  uz: [
+    ['Humo AI rasmiy SAT bilan bir xilmi?', 'Yo‘q. Savollarimiz va mocklarimiz rasmiy format va vaqtga yaqin, lekin ularni Humo AI o‘qituvchilari yozgan. Imtihondan oldin rasmiy Bluebook testlarini ham ishlang.'],
+    ['Ball baholari qanchalik aniq?', 'Baho to‘liq mockdan keyin eng ishonchli bo‘ladi. Bitta mashq to‘plami taxminiy oraliq beradi, Humo esa bahoga qanchalik ishonchini aytadi.'],
+    ['Humo o‘zbek yoki rus tilida tushuntira oladimi?', 'Ha. O‘zbekcha yoki ruscha so‘rang, Humo shu tilda javob beradi, imtihon terminlarini esa haqiqiy testdagidek inglizcha qoldiradi.'],
+    ['Humo menga faqat javobni berib qo‘yadimi?', 'Mashq paytida Humo ishora bilan boshlaydi va to‘liq yechimni faqat so‘rasangiz ko‘rsatadi. Tahlil rejimida esa butun mantiqni tushuntiradi.'],
+    ['Butun maktabimiz Humo AI dan foydalana oladimi?', 'Ha. Narxlar bo‘limidagi «Maktablar uchun» so‘rovini yuboring, biz Humo AI ni barcha o‘quvchilaringiz uchun bir vaqtda sozlab beramiz.'],
+    ['Prodan istalgan payt voz kecha olamanmi?', 'Ha. Pro oylik, siz to‘lagan oyning oxirigacha kirish saqlanadi.'],
+  ],
 }
-
-const FAQ = [
-  ['Is Humo AI the same as the official SAT?', 'No. Our questions and mocks follow the official formats and timing closely, but they are written by Humo AI teachers. Use the official Bluebook practice tests as well before test day.'],
-  ['How accurate are the score estimates?', 'Estimates are most reliable after a full mock. A single practice set gives a rough range; Humo tells you how confident the estimate is.'],
-  ['Can Humo explain in Uzbek or Russian?', "Yes. Ask in O'zbekcha or Русский and Humo will answer in that language, while keeping exam terms in English so they match the real test."],
-  ['Does Humo just give me the answers?', 'When you are practising, Humo starts with a hint and only shows the full solution if you ask. In review mode it explains the full reasoning.'],
-  ['Can my whole school use Humo AI?', 'Yes. Use the For schools request in the pricing section and we will set up Humo AI for all your students at once.'],
-  ['Can I cancel Pro at any time?', 'Yes. Pro is monthly, and you keep access until the end of the month you paid for.'],
-]
+const FAQ_TITLE: L3 = { en: 'Questions students ask us.', ru: 'Вопросы, которые нам задают.', uz: 'O‘quvchilar bergan savollar.' }
 
 export function Faq() {
+  const l = useLang()
   const [open, setOpen] = useState<number | null>(0)
   return (
-    <section id="faq" className="scroll-mt-20 border-t border-white/[0.07] py-14 sm:py-20">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr]">
-        <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">Questions students ask us.</h2>
+    <section id="faq" className="scroll-mt-20 border-t border-white/[0.07] py-10 sm:py-14">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr]">
+        <h2 className="display text-[clamp(1.9rem,4vw,3.1rem)]">{FAQ_TITLE[l]}</h2>
         <div className="divide-y divide-white/[0.08] border-y border-white/[0.08]">
-          {FAQ.map(([q, a], i) => {
+          {FAQ[l].map(([q, a], i) => {
             const isOpen = open === i
             return (
               <div key={q}>
-                <button onClick={() => setOpen(isOpen ? null : i)} aria-expanded={isOpen} className="flex w-full items-center justify-between gap-6 py-5 text-left text-[16px] font-medium">
+                <button onClick={() => setOpen(isOpen ? null : i)} aria-expanded={isOpen} className="flex w-full items-center justify-between gap-6 py-4 text-left text-[16px] font-medium">
                   {q}
                   <Plus className={`size-4 shrink-0 text-white/50 transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`} />
                 </button>
-                <div className={`grid transition-all duration-300 ${isOpen ? 'grid-rows-[1fr] pb-5 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
+                <div className={`grid transition-all duration-300 ${isOpen ? 'grid-rows-[1fr] pb-4 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                   <p className="overflow-hidden pr-10 text-[15px] leading-relaxed text-white/55">{a}</p>
                 </div>
               </div>
@@ -105,16 +104,25 @@ export function Faq() {
   )
 }
 
+const CTA = {
+  a: { en: 'Humo is ready ', ru: 'Humo готов, ', uz: 'Humo tayyor, ' } as L3,
+  b: { en: 'when you are', ru: 'когда готовы вы', uz: 'sen tayyor bo‘lganda' } as L3,
+  sub: { en: 'Take the diagnostic today and see where you stand in 40 minutes.', ru: 'Пройдите диагностику сегодня и узнайте свой уровень за 40 минут.', uz: 'Bugun diagnostikani topshiring va 40 daqiqada darajangizni biling.' } as L3,
+}
+
 export function FinalCta() {
+  const l = useLang()
   return (
-    <section className="relative overflow-hidden border-t border-white/[0.07] py-16 sm:py-24">
+    <section className="relative overflow-hidden border-t border-white/[0.07] py-12 sm:py-16">
       <div className="pointer-events-none absolute left-1/2 top-1/2 size-[46rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-jg-500/[0.13] blur-[140px]" />
-      <div className="pointer-events-none absolute left-1/2 top-1/2 size-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-jg-500/20" />
       <div className="relative mx-auto flex max-w-3xl flex-col items-center px-4 text-center">
-        <img src="/humo-mark-512.png" alt="" className="size-16 rounded-2xl shadow-[0_20px_60px_-20px_rgba(200,16,63,0.7)]" />
-        <h2 className="display mt-8 pb-2 text-[clamp(2.4rem,6vw,4.6rem)]">Humo is ready <span className="gold-text">when you are</span>.</h2>
-        <p className="mt-5 max-w-md text-[16px] text-white/55">Take the diagnostic today and see where you stand in 40 minutes.</p>
-        <div className="mt-9">
+        <Mascot pose="cheer" className="size-32" />
+        <h2 className="display mt-4 pb-2 text-[clamp(2.2rem,5.5vw,4.2rem)]">
+          {CTA.a[l]}
+          <span className="gold-text">{CTA.b[l]}</span>.
+        </h2>
+        <p className="mt-4 max-w-md text-[16px] text-white/55">{CTA.sub[l]}</p>
+        <div className="mt-7">
           <GoogleButton />
         </div>
       </div>
@@ -122,27 +130,50 @@ export function FinalCta() {
   )
 }
 
+const FOOT = {
+  blurb: {
+    en: 'Humo AI, the digital SAT platform from Tashkent — full-length practice, a smart question bank and Humo, your AI tutor.',
+    ru: 'Humo AI — платформа цифрового SAT из Ташкента: полные пробные тесты, умный банк вопросов и Humo, ваш ИИ-репетитор.',
+    uz: 'Humo AI — Toshkentdan raqamli SAT platformasi: to‘liq practice testlar, aqlli savollar banki va AI ustozingiz Humo.',
+  } as L3,
+  product: { en: 'Product', ru: 'Продукт', uz: 'Mahsulot' } as L3,
+  legal: { en: 'Legal', ru: 'Право', uz: 'Huquqiy' } as L3,
+  links: {
+    en: ['Try Humo', 'Features', 'Results', 'Pricing', 'Privacy Policy', 'Terms of Service'],
+    ru: ['Попробовать Humo', 'Возможности', 'Результаты', 'Цены', 'Политика конфиденциальности', 'Условия использования'],
+    uz: ['Humoni sinash', 'Imkoniyatlar', 'Natijalar', 'Narxlar', 'Maxfiylik siyosati', 'Foydalanish shartlari'],
+  } as Record<Lang, string[]>,
+  tm: {
+    en: 'SAT® is a trademark of the College Board, which is not affiliated with and does not endorse this product.',
+    ru: 'SAT® — товарный знак College Board, который не связан с этим продуктом и не одобряет его.',
+    uz: 'SAT® — College Board savdo belgisi; College Board bu mahsulotga aloqador emas va uni tasdiqlamaydi.',
+  } as L3,
+}
+
 export function Footer() {
+  const l = useLang()
+  const k = FOOT.links[l]
+  const cols: [string, string[][]][] = [
+    [FOOT.product[l], [[k[0], '#try'], [k[1], '#features'], [k[2], '#results'], [k[3], '#pricing']]],
+    [FOOT.legal[l], [[k[4], '/privacy'], [k[5], '/terms']]],
+  ]
   return (
     <footer className="border-t border-white/[0.07]">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[2fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-[2fr_1fr_1fr]">
         <div>
           <span className="flex items-center gap-2.5">
             <HumoLogo className="h-9" />
           </span>
-          <p className="mt-4 max-w-xs text-[13px] leading-relaxed text-white/45">Humo AI, the digital SAT platform from Tashkent — full-length practice, a smart question bank and Humo, your AI tutor.</p>
+          <p className="mt-4 max-w-xs text-[13px] leading-relaxed text-white/45">{FOOT.blurb[l]}</p>
         </div>
-        {[
-          ['Product', [['Try Humo', '#try'], ['Features', '#features'], ['Pricing', '#pricing']]],
-          ['Legal', [['Privacy Policy', '/privacy'], ['Terms of Service', '/terms']]],
-        ].map(([h, links]) => (
-          <div key={h as string}>
-            <p className="text-[13px] font-medium">{h as string}</p>
-            <ul className="mt-4 space-y-2.5 text-[13px] text-white/45">
-              {(links as string[][]).map(([l, href]) => (
-                <li key={l}>
+        {cols.map(([h, links]) => (
+          <div key={h}>
+            <p className="text-[13px] font-medium">{h}</p>
+            <ul className="mt-3 space-y-2 text-[13px] text-white/45">
+              {links.map(([t, href]) => (
+                <li key={t}>
                   <a href={href} className="hover:text-white">
-                    {l}
+                    {t}
                   </a>
                 </li>
               ))}
@@ -151,38 +182,62 @@ export function Footer() {
         ))}
       </div>
       <div className="border-t border-white/[0.07]">
-        <p className="mx-auto max-w-7xl px-4 py-6 text-[11px] leading-relaxed text-white/30 sm:px-6">
-          © {new Date().getFullYear()} Humo AI. SAT® is a trademark of the College Board, which is not affiliated with and does not endorse this product.
+        <p className="mx-auto max-w-7xl px-4 py-5 text-[11px] leading-relaxed text-white/30 sm:px-6">
+          © {new Date().getFullYear()} Humo AI. {FOOT.tm[l]}
         </p>
       </div>
     </footer>
   )
 }
 
-const INSIDE = [
-  ['Exam, practice & sprint modes', 'Take any full test the way you need today: real timing, instant feedback, or less time to build pacing.'],
-  ['Humo in every screen', 'A hint while you practise, an explanation above every reviewed question, and a chat that knows your answers.'],
-  ['Desmos & reference sheet', 'The same graphing calculator and formula sheet you get in Bluebook, built into every Math test.'],
-  ['Weekly study plan', 'A schedule that counts down to your test date, with tasks you tick off.'],
-  ['Drills & daily question', 'Short sets with instant explanations, plus one new question every day.'],
-  ['Vocabulary you own', '120 SAT words with spaced repetition, a spelling mode, and your own words from the passages you read.'],
-  ['Strategy lessons', 'Words in Context, Transitions, Command of Evidence, linear equations and more — then drill them straight away.'],
-  ['Analytics & predicted score', 'Accuracy and pacing by section, a 12-week activity map, and a predicted SAT range.'],
-]
+const INSIDE: Record<Lang, string[][]> = {
+  en: [
+    ['Exam, practice & sprint modes', 'Take any full test with real timing, instant feedback, or less time to build pacing.'],
+    ['Humo in every screen', 'A hint while you practise, an explanation on every reviewed question, and a chat that knows your answers.'],
+    ['Desmos & reference sheet', 'The same graphing calculator and formula sheet as Bluebook, built into every Math test.'],
+    ['Weekly study plan', 'A schedule that counts down to your test date, with tasks you tick off.'],
+    ['Drills & daily question', 'Short sets with instant explanations, plus one new question every day.'],
+    ['Vocabulary you own', '120 SAT words with spaced repetition, a spelling mode, and your own words from passages.'],
+    ['Strategy lessons', 'Words in Context, Transitions, Command of Evidence, linear equations and more.'],
+    ['Analytics & predicted score', 'Accuracy and pacing by section, a 12-week activity map, and a predicted SAT range.'],
+  ],
+  ru: [
+    ['Режимы: экзамен, практика, спринт', 'Проходите любой тест с реальным временем, мгновенной обратной связью или с меньшим временем для тренировки темпа.'],
+    ['Humo на каждом экране', 'Подсказка во время практики, объяснение к каждому разобранному вопросу и чат, который знает ваши ответы.'],
+    ['Desmos и справочный лист', 'Тот же графический калькулятор и лист формул, что в Bluebook, в каждом тесте по математике.'],
+    ['Недельный план обучения', 'Расписание с обратным отсчётом до экзамена и задачами, которые можно отмечать.'],
+    ['Тренировки и вопрос дня', 'Короткие наборы с мгновенными объяснениями и один новый вопрос каждый день.'],
+    ['Словарь, который вы ведёте сами', '120 слов SAT с интервальным повторением, режим написания и ваши слова из текстов.'],
+    ['Уроки стратегии', 'Words in Context, Transitions, Command of Evidence, линейные уравнения и другое.'],
+    ['Аналитика и прогноз балла', 'Точность и темп по разделам, карта активности за 12 недель и прогноз диапазона SAT.'],
+  ],
+  uz: [
+    ['Imtihon, mashq va sprint rejimlari', 'Istalgan testni haqiqiy vaqt bilan, darhol fikr-mulohaza bilan yoki tempni o‘rganish uchun qisqaroq vaqt bilan ishlang.'],
+    ['Har bir ekranda Humo', 'Mashq paytida ishora, har bir ko‘rib chiqilgan savolga tushuntirish va javoblaringni biladigan chat.'],
+    ['Desmos va ma’lumotnoma varag‘i', 'Bluebookdagi bilan bir xil grafik kalkulyator va formulalar varag‘i har bir Math testida.'],
+    ['Haftalik o‘quv reja', 'Imtihon sanasigacha sanab boradigan jadval va belgilab boriladigan topshiriqlar.'],
+    ['Mashqlar va kunlik savol', 'Darhol tushuntirishli qisqa to‘plamlar va har kuni bitta yangi savol.'],
+    ['O‘zingning lug‘ating', 'Takrorlash tizimi bilan 120 ta SAT so‘zi, imlo rejimi va matnlardan olgan o‘z so‘zlaring.'],
+    ['Strategiya darslari', 'Words in Context, Transitions, Command of Evidence, chiziqli tenglamalar va boshqalar.'],
+    ['Analitika va taxminiy ball', 'Bo‘limlar bo‘yicha aniqlik va tempo, 12 haftalik faollik xaritasi va taxminiy SAT oralig‘i.'],
+  ],
+}
+const INSIDE_TITLE: L3 = { en: 'Built like a tutor, not a question dump.', ru: 'Устроено как репетитор, а не свалка вопросов.', uz: 'Savollar uyumi emas, ustoz kabi qurilgan.' }
 
 export function Inside() {
+  const l = useLang()
   return (
-    <section className="border-t border-white/[0.07] py-14 sm:py-16">
+    <section className="border-t border-white/[0.07] py-10 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal>
-          <h2 className="display max-w-2xl text-[clamp(2.1rem,4.4vw,3.5rem)]">Built like a tutor, not a question dump.</h2>
+          <h2 className="display max-w-2xl text-[clamp(1.9rem,4vw,3.1rem)]">{INSIDE_TITLE[l]}</h2>
         </Reveal>
-        <div className="mt-8 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
-          {INSIDE.map(([t, b], i) => (
+        <div className="mt-6 grid gap-px overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.08] sm:grid-cols-2 lg:grid-cols-4">
+          {INSIDE[l].map(([t, b], i) => (
             <motion.div key={t} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, margin: '-60px' }} transition={{ delay: (i % 4) * 0.08, duration: 0.6 }} className="bg-ink">
-              <Spotlight className="h-full p-6">
-                <h3 className="relative text-[16px] font-semibold tracking-tight">{t}</h3>
-                <p className="relative mt-2 text-[14px] leading-relaxed text-white/50">{b}</p>
+              <Spotlight className="h-full p-5">
+                <h3 className="relative text-[15px] font-semibold tracking-tight">{t}</h3>
+                <p className="relative mt-1.5 text-[13.5px] leading-relaxed text-white/50">{b}</p>
               </Spotlight>
             </motion.div>
           ))}

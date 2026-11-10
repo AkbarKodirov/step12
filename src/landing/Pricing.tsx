@@ -3,27 +3,8 @@ import { Link } from 'react-router-dom'
 import { Check, School } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { TELEGRAM_MANAGER } from '../../shared/plans.js'
-
-type Lang = 'en' | 'ru' | 'uz'
-const LANGS: Lang[] = ['en', 'ru', 'uz']
-const KEY = 'humo.lang'
-
-/** Site language: the student's own choice here, else the Humo reply language saved in their settings, else English. */
-function initialLang(): Lang {
-  try {
-    const v = localStorage.getItem(KEY)
-    if (v === 'en' || v === 'ru' || v === 'uz') return v
-    for (let i = 0; i < localStorage.length; i++) {
-      const k = localStorage.key(i)!
-      if (!k.startsWith('humo.progress.')) continue
-      const l = JSON.parse(localStorage.getItem(k) || '{}')?.settings?.language
-      if (l === 'en' || l === 'ru' || l === 'uz') return l
-    }
-  } catch {
-    /* no storage: English */
-  }
-  return 'en'
-}
+import { useLang, type Lang } from './i18n'
+import { Mascot } from './Roadmap'
 
 const T = {
   en: {
@@ -78,36 +59,21 @@ function SchoolForm({ t }: { t: (typeof T)[Lang]['schools']['form'] }) {
 }
 
 export function Pricing() {
-  const [lang, setLang] = useState<Lang>(initialLang)
+  const lang = useLang()
   const t = T[lang]
-  const pick = (l: Lang) => {
-    setLang(l)
-    try {
-      localStorage.setItem(KEY, l)
-    } catch {
-      /* ignore */
-    }
-  }
   const plans = [
-    { name: 'Free', price: t.free.price, unit: t.free.unit, note: t.free.note, cta: t.free.cta, features: t.free.f, featured: false },
-    { name: 'Pro', price: '149 000', unit: t.pro.unit, note: t.pro.note, cta: t.pro.cta, features: t.pro.f, featured: true },
+    { name: 'Free', price: t.free.price, unit: t.free.unit, note: t.free.note, cta: t.free.cta, features: t.free.f, featured: false, pose: 'hello' },
+    { name: 'Pro', price: '149 000', unit: t.pro.unit, note: t.pro.note, cta: t.pro.cta, features: t.pro.f, featured: true, pose: 'scholar' },
   ]
   const [open, setOpen] = useState(false)
   return (
-    <section id="pricing" className="scroll-mt-20 border-t border-white/[0.07] py-14 sm:py-20">
+    <section id="pricing" className="scroll-mt-20 border-t border-white/[0.07] py-10 sm:py-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <div className="max-w-xl">
-            <h2 className="display text-[clamp(2.1rem,4.4vw,3.5rem)]">{t.title}</h2>
-            <p className="mt-5 text-[16px] leading-relaxed text-white/55">{t.sub}</p>
-          </div>
-          <div className="flex rounded-full border border-white/15 p-0.5 text-[12px] font-semibold" role="group" aria-label="Language">
-            {LANGS.map((l) => (
-              <button key={l} onClick={() => pick(l)} aria-pressed={lang === l} className={`rounded-full px-3 py-1.5 uppercase transition ${lang === l ? 'bg-white text-ink' : 'text-white/55 hover:text-white'}`}>{l}</button>
-            ))}
-          </div>
+        <div className="max-w-xl">
+          <h2 className="display text-[clamp(1.9rem,4vw,3.1rem)]">{t.title}</h2>
+          <p className="mt-3 text-[15px] leading-relaxed text-white/55">{t.sub}</p>
         </div>
-        <div className="mt-9 grid gap-3 md:grid-cols-2">
+        <div className="mt-7 grid gap-3 md:grid-cols-2">
           {plans.map((p, i) => (
             <motion.div
               initial={{ opacity: 0, y: 22 }}
@@ -115,18 +81,21 @@ export function Pricing() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               key={p.name}
-              className={`relative flex flex-col rounded-[24px] p-7 ${p.featured ? 'border border-jg-500/40 bg-gradient-to-b from-jg-500/[0.12] via-jg-500/[0.03] to-transparent' : 'panel'}`}
+              className={`relative flex flex-col rounded-[24px] p-6 ${p.featured ? 'border border-jg-500/40 bg-gradient-to-b from-jg-500/[0.12] via-jg-500/[0.03] to-transparent' : 'panel'}`}
             >
-              <div className="flex items-center justify-between">
-                <h3 className="text-[17px] font-semibold">{p.name}</h3>
-                {p.featured && <span className="rounded-full bg-jg-500 px-2.5 py-0.5 text-[11px] font-semibold text-white">{t.pro.badge}</span>}
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <h3 className="text-[17px] font-semibold">{p.name}</h3>
+                  <p className="mt-1 text-[13px] text-white/45">{p.note}</p>
+                  {p.featured && <span className="mt-2 inline-block rounded-full bg-jg-500 px-2.5 py-0.5 text-[11px] font-semibold text-white">{t.pro.badge}</span>}
+                </div>
+                <Mascot pose={p.pose} className="-mt-2 size-24 shrink-0 sm:size-28" />
               </div>
-              <p className="mt-1 text-[13px] text-white/45">{p.note}</p>
-              <p className="mt-7 flex items-baseline gap-2">
+              <p className="mt-3 flex items-baseline gap-2">
                 <span className="text-[40px] font-semibold tracking-tight tabular-nums">{p.price}</span>
                 <span className="text-[13px] text-white/45">{p.unit}</span>
               </p>
-              <ul className="mt-7 flex-1 space-y-3 text-[14px] text-white/75">
+              <ul className="mt-5 flex-1 space-y-2.5 text-[14px] text-white/75">
                 {p.features.map((f) => (
                   <li key={f} className="flex gap-2.5">
                     <Check className="mt-0.5 size-4 shrink-0 text-jg-400" />
@@ -134,14 +103,14 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
-              <Link to="/signup" className={`mt-8 h-11 rounded-full text-center text-[14px] font-medium leading-[44px] transition ${p.featured ? 'bg-jg-500 text-white hover:bg-jg-400' : 'border border-white/15 hover:border-white/30 hover:bg-white/[0.04]'}`}>
+              <Link to="/signup" className={`mt-6 h-11 rounded-full text-center text-[14px] font-medium leading-[44px] transition ${p.featured ? 'bg-jg-500 text-white hover:bg-jg-400' : 'border border-white/15 hover:border-white/30 hover:bg-white/[0.04]'}`}>
                 {p.cta}
               </Link>
             </motion.div>
           ))}
         </div>
 
-        <div className="panel mt-3 grid gap-8 rounded-[24px] p-7 lg:grid-cols-[1.1fr_0.9fr] lg:p-9">
+        <div className="panel mt-3 grid gap-6 rounded-[24px] p-6 lg:grid-cols-[1.1fr_0.9fr] lg:p-8">
           <div>
             <p className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-jg-300"><School className="size-4" /> {t.schools.name}</p>
             <h3 className="display mt-3 text-[clamp(1.6rem,3vw,2.2rem)] leading-[1.1]">{t.schools.title}</h3>
@@ -153,8 +122,9 @@ export function Pricing() {
             </ul>
           </div>
           <div>
+            <Mascot pose="reading" className="mx-auto mb-2 hidden size-28 lg:block" />
             {open ? <SchoolForm t={t.schools.form} /> : (
-              <button onClick={() => setOpen(true)} className="h-11 w-full rounded-full bg-jg-500 text-[14px] font-medium text-white transition hover:bg-jg-400 lg:mt-24">{t.schools.cta}</button>
+              <button onClick={() => setOpen(true)} className="h-11 w-full rounded-full bg-jg-500 text-[14px] font-medium text-white transition hover:bg-jg-400 lg:mt-4">{t.schools.cta}</button>
             )}
           </div>
         </div>
