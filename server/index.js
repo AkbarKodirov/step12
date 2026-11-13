@@ -457,6 +457,16 @@ async function repairDesmos(spec, errors, question, expect) {
   return parseSpec(out.text)
 }
 
+/** Writes the Desmos screen for a finished solution whose desmos block was missing or unusable. */
+async function buildDesmos(question, reply, expect) {
+  const out = await gemini.models.generateContent({
+    mistral: 'last',
+    contents: [{ role: 'user', parts: [{ text: `${question ? `Question:\n${question}\n\n` : ''}${expect != null ? `Checked answer: ${expect}\n\n` : ''}Humo's solution:\n${String(reply).slice(0, 5000)}\n\nWrite the Desmos screen for this solution: only the JSON spec that goes inside a desmos block, in exactly the format of the guide. Use a regression (the unknown renamed as a parameter, ~ for =) whose parameter equals the answer. If there are two answers (like k = 6 or k = -6), also graph the expression in x (for example y = x^2 - 36) and mark both roots as labeled points.` }] }],
+    config: { systemInstruction: DESMOS_GUIDE, temperature: 0.1, responseMimeType: 'application/json' },
+  }, 20_000)
+  return parseSpec(out.text)
+}
+
 /** Parses a desmos block. LaTeX commands the model forgot to escape (\cdot, \left, \times …) are escaped first,
  *  otherwise JSON either rejects them (\c) or silently turns them into control characters (\t, \f). */
 const parseSpec = (raw) => JSON.parse(String(raw).replace(/(?<!\\)\\(?=[A-Za-z]{2,})/g, '\\\\'))
@@ -470,7 +480,7 @@ export function statedAnswer(text) {
 }
 
 /** Replaces each ```desmos block with [[desmos:N]] (checked screen) and a ```plan block with [[plan]]. */
-async function finishReply(text, { expect, question } = {}) {
+async function finishReply(text, { expect, question, screen } = {}) {
   // no checked answer (the double-check timed out, common with photos): hold the screen to the answer Humo itself writes,
   // so a screen can never show a different number from the reply's Answer line
   if (expect == null && /```desmos/.test(text)) expect = statedAnswer(text)
@@ -494,8 +504,36 @@ async function finishReply(text, { expect, question } = {}) {
     } catch (e) {
       console.warn('Desmos block unreadable:', e.message)
     }
-    text = text.replace(m[0], marker)
+    text = text.replace(m[0], marker || (screen ? '[[desmos-slot]]' : ''))
   }
+  // Desmos Lab: the model skipped the desmos block, wrote it as plain code, or every repair failed → build the screen separately
+  if (screen && !desmos.length && gemini && /\bType this\b/i.test(text)) {
+    try {
+      let spec = await buildDesmos(question, text, expect)
+      let r = prepareScreen(spec, { expect })
+      if (r.errors.length) {
+        spec = await repairDesmos(spec, r.errors, question, expect)
+        r = prepareScreen(spec, { expect })
+      }
+      if (!r.errors.length) {
+        desmos.push(r.screen)
+        if (text.includes('[[desmos-slot]]')) text = text.replace('[[desmos-slot]]', '[[desmos:0]]')
+        else {
+          // put the screen in place of the plain code block under "Type this", or right after the "Type this" line
+          const at = text.search(/\bType this\b/i)
+          const code = /```[^\n]*\n[\s\S]*?```/.exec(text.slice(at))
+          const nextStep = /\n\s*(?:\d\.\s*)?\**(?:Look for|Answer)\b/i.exec(text.slice(at))
+          if (code && (!nextStep || code.index < nextStep.index)) text = text.slice(0, at + code.index) + `${code[0]}\n[[desmos:0]]` + text.slice(at + code.index + code[0].length)
+          else if (nextStep) text = `${text.slice(0, at + nextStep.index)}\n[[desmos:0]]${text.slice(at + nextStep.index)}`
+          else text = `${text}\n\n[[desmos:0]]`
+        }
+        console.log('Desmos screen built after the reply')
+      } else console.warn('Desmos screen build refused:', r.errors)
+    } catch (e) {
+      console.warn('Desmos screen build failed:', e?.message)
+    }
+  }
+  text = text.replace(/\[\[desmos-slot\]\]/g, '')
   const pm = text.match(/```plan\s*([\s\S]*?)```/)
   if (pm) {
     try {
@@ -725,7 +763,7 @@ app.post('/api/chat', auth, async (req, res) => {
     try {
       const v = await check()
       const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
-      const r = await finishReply(out.text || '', { question: v?.read || question, expect: expectOf(v) })
+      const r = await finishReply(out.text || '', { question: v?.read || question, expect: expectOf(v), screen: space === 'desmos' })
       res.json({ reply: r.text, desmos: r.desmos, plan: r.plan, tutor: 'Humo' })
     } catch (e) {
       console.error('Chat failed:', e?.status || '', e?.message || e)
@@ -789,7 +827,7 @@ app.post('/api/chat', auth, async (req, res) => {
       console.log(`Chat stopped by the student after ${Date.now() - started} ms`)
       return res.end()
     }
-    const r = await finishReply(text, { question: v?.read || question, expect: expectOf(v) })
+    const r = await finishReply(text, { question: v?.read || question, expect: expectOf(v), screen: space === 'desmos' })
     send({ done: true, reply: r.text, desmos: r.desmos, plan: r.plan })
     console.log(`Chat answered in ${Date.now() - started} ms (${contents.length} turns)`)
   } catch (e) {
