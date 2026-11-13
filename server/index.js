@@ -736,6 +736,9 @@ app.post('/api/chat', auth, async (req, res) => {
     console.log(`Humo memory: matched a ${known.source} question (${known.confidence}% of words)`)
   }
   const config = { systemInstruction: system, temperature: 0.4, thinkingConfig: CHAT_THINKING }
+  // Desmos Lab: Gemini writes the 7-step Desmos solution and its screen far more cleanly than the small Mistral models
+  // (which wrote wrong lines and "Wait, let me double-check…"), so it answers first there; Mistral takes over when Gemini is busy
+  const pick = space === 'desmos' ? { mistral: 'last' } : {}
   const question = messages.filter((m) => m.role === 'user').pop()?.text
   const started = Date.now()
   // a multi-turn history Gemini refuses (400) is retried once as a single transcript
@@ -762,7 +765,7 @@ app.post('/api/chat', auth, async (req, res) => {
   if (!stream) {
     try {
       const v = await check()
-      const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
+      const out = await ask((c) => gemini.models.generateContent({ ...pick, contents: c, config }))
       const r = await finishReply(out.text || '', { question: v?.read || question, expect: expectOf(v), screen: space === 'desmos' })
       res.json({ reply: r.text, desmos: r.desmos, plan: r.plan, tutor: 'Humo' })
     } catch (e) {
@@ -792,7 +795,7 @@ app.post('/api/chat', auth, async (req, res) => {
       send({ status: 'Reading the question and solving it twice to double-check…' })
       v = await check()
     }
-    const streamOnce = () => ask((c) => gemini.models.generateContentStream({ contents: c, config }))
+    const streamOnce = () => ask((c) => gemini.models.generateContentStream({ ...pick, contents: c, config }))
     let it = await streamOnce()
     let text = ''
     for (let restarts = 0; ; restarts++) {
@@ -815,7 +818,7 @@ app.post('/api/chat', auth, async (req, res) => {
         text = ''
         send({ reset: true })
         if (restarts >= 1) {
-          const out = await ask((c) => gemini.models.generateContent({ contents: c, config }))
+          const out = await ask((c) => gemini.models.generateContent({ ...pick, contents: c, config }))
           text = out.text || ''
           send({ delta: text })
           break

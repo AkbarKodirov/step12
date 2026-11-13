@@ -103,6 +103,7 @@ Humo AI is a Digital SAT prep platform for **Humo AI** in Tashkent. Its AI tutor
 - Weak spot: "find the constant k" screens don't always match the typed line.
 - Nov 13: when the double-check has no agreed answer (often photos), `finishReply` checks the screen against the reply's own bold Answer (`statedAnswer`), so a screen can't show a different number from the answer. The prompt also forbids "Wait, no…" self-corrections.
 - Nov 13: if a Desmos Lab reply has no usable desmos block (plain code, missing, refused), `finishReply(..., { screen: true })` builds one with `buildDesmos` and puts it under "Type this".
+- Nov 13: Desmos Lab chat uses `mistral: 'last'` (Gemini first, Mistral when Gemini is busy): Ministral 14B wrote messy self-correcting Desmos solutions. Ask Humo still uses Mistral first.
 
 ## Nov 3 (video lessons)
 - Learn pages were redesigned: navy hero with the featured video, filter chips, lesson cards with posters, and a video lesson page with Humo's own player (`src/app/learn/VideoPlayer.tsx`), chapters, and a 5-question Mastery Check (`Mastery.tsx`, pass 4/5).
