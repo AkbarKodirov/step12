@@ -461,8 +461,19 @@ async function repairDesmos(spec, errors, question, expect) {
  *  otherwise JSON either rejects them (\c) or silently turns them into control characters (\t, \f). */
 const parseSpec = (raw) => JSON.parse(String(raw).replace(/(?<!\\)\\(?=[A-Za-z]{2,})/g, '\\\\'))
 
+/** The number in the reply's bold Answer line ("5. **Answer** — **8**", "**Answer**: **b = 9**", "**C) 12**"), or undefined. */
+export function statedAnswer(text) {
+  const m = String(text).match(/\bAnswer\*{0,2}\s*[—–:-]+\s*\*\*([^*\n]+)\*\*/i)
+  if (!m) return undefined
+  const s = m[1].replace(/[$`]/g, '').replace(/^\s*\(?[A-D]\)\s*/, '').replace(/^.*=\s*/, '').replace(/,(?=\s*$)/, '').trim()
+  return /^-?\d[\d,]*(\.\d+)?(\/\d+)?$|^-?\.\d+$/.test(s) ? (answerValue(s) ?? undefined) : undefined
+}
+
 /** Replaces each ```desmos block with [[desmos:N]] (checked screen) and a ```plan block with [[plan]]. */
 async function finishReply(text, { expect, question } = {}) {
+  // no checked answer (the double-check timed out, common with photos): hold the screen to the answer Humo itself writes,
+  // so a screen can never show a different number from the reply's Answer line
+  if (expect == null && /```desmos/.test(text)) expect = statedAnswer(text)
   const desmos = []
   let plan = null
   const blocks = [...text.matchAll(/```desmos\s*([\s\S]*?)```/g)].slice(0, 3)
@@ -499,7 +510,8 @@ async function finishReply(text, { expect, question } = {}) {
 
 const DESMOS_LAB = `DESMOS LAB MODE: the student sends photos or screenshots of SAT Math questions (sometimes several, sometimes with a typed note).
 First write the question you read in one or two lines ("I read: …") so the student can catch a misread. If the photo is unreadable or cut off, say what is missing and ask for a clearer photo instead of guessing.
-Then solve it the Desmos way in the 7-part shape with exactly one desmos block, and get the answer from a regression: the unknown renamed as a parameter and ~ in place of = (x + 7 = 6 → \`a + 7 ~ 6\` → a = −1). Graphs may illustrate, but the answer is the regression parameter. For a Reading & Writing question, answer normally without a desmos block.`
+Then solve it the Desmos way in the 7-part shape with exactly one desmos block, and get the answer from a regression: the unknown renamed as a parameter and ~ in place of = (x + 7 = 6 → \`a + 7 ~ 6\` → a = −1). Graphs may illustrate, but the answer is the regression parameter. For a Reading & Writing question, answer normally without a desmos block.
+Write only the final, correct solution: never type a wrong line and then correct it ("Wait, no…", "That's incorrect, here's the right approach"). Work it out first, then write it once. In "Answer", put the final number in bold.`
 
 function toParts(m) {
   const parts = []

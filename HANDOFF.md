@@ -101,6 +101,7 @@ Humo AI is a Digital SAT prep platform for **Humo AI** in Tashkent. Its AI tutor
 ## Oct 27 (Desmos Lab)
 - `prepareScreen` refuses answer-only lines like "n = 2" (a letter used nowhere else); a solution count is shown by marking each intersection as a point. Reply shape is 7 steps, the screen sits unnumbered after "Type this". `parseSpec()` escapes LaTeX the AI forgets to escape. Scorecard 12/12.
 - Weak spot: "find the constant k" screens don't always match the typed line.
+- Nov 13: when the double-check has no agreed answer (often photos), `finishReply` checks the screen against the reply's own bold Answer (`statedAnswer`), so a screen can't show a different number from the answer. The prompt also forbids "Wait, no…" self-corrections.
 
 ## Nov 3 (video lessons)
 - Learn pages were redesigned: navy hero with the featured video, filter chips, lesson cards with posters, and a video lesson page with Humo's own player (`src/app/learn/VideoPlayer.tsx`), chapters, and a 5-question Mastery Check (`Mastery.tsx`, pass 4/5).
