@@ -736,9 +736,9 @@ app.post('/api/chat', auth, async (req, res) => {
     console.log(`Humo memory: matched a ${known.source} question (${known.confidence}% of words)`)
   }
   const config = { systemInstruction: system, temperature: 0.4, thinkingConfig: CHAT_THINKING }
-  // Desmos Lab: Gemini writes the 7-step Desmos solution and its screen far more cleanly than the small Mistral models
-  // (which wrote wrong lines and "Wait, let me double-check…"), so it answers first there; Mistral takes over when Gemini is busy
-  const pick = space === 'desmos' ? { mistral: 'last' } : {}
+  // Desmos Lab: Mistral Large 4 writes the answer first. Ministral 14B wrote wrong lines and "Wait, let me double-check…",
+  // and with Gemini first the free Gemini quota runs out and the weak backups reply with a bare hint and no screen
+  const pick = space === 'desmos' ? { mistral: 'solve' } : {}
   const question = messages.filter((m) => m.role === 'user').pop()?.text
   const started = Date.now()
   // a multi-turn history Gemini refuses (400) is retried once as a single transcript
