@@ -56,7 +56,7 @@ export async function buildSession(p: URLSearchParams, st: ReturnType<typeof use
   if (n) list = list.slice(0, n)
   return list.map((b) => {
     const ref: QRef = { key: `bank:${b.id}`, testId: 'bank', module: 0, index: 0, bankId: b.id }
-    return { key: ref.key, ref, r: { q: b, section: b.section, source: b.setName, skill: b.skill, topic: b.topic, difficulty: b.difficulty, bank: b } }
+    return { key: ref.key, ref, r: { q: b, section: b.section, source: 'Question bank', skill: b.skill, topic: b.topic, difficulty: b.difficulty, bank: b } }
   })
 }
 
@@ -65,7 +65,7 @@ type Tab = 'ask'
 
 function AskTab({ item, a, auto }: { item: Item; a: Ans; auto: string | null }) {
   const s = useStore()
-  const screen = describeQuestion(item.r.q, { chosen: a.value, checked: a.checked, correct: a.correct, seconds: a.seconds, where: `Question bank · ${item.r.source}`, skill: item.r.skill })
+  const screen = describeQuestion(item.r.q, { chosen: a.value, checked: a.checked, correct: a.correct, seconds: a.seconds, where: item.r.bank ? 'Question bank' : `Question bank · ${item.r.source}`, skill: item.r.skill })
   const ctx = `${studentContext(s, 'a Question Bank question')}\n\nWHAT THE STUDENT SEES ON SCREEN RIGHT NOW:\n${screen}`
   const { msgs, busy, send, retry } = useHumoChat(a.checked && !a.correct ? "I can see this question and your answer. Want me to show exactly where it went wrong?" : "I can see this question. Ask for a hint, a strategy, or a full walkthrough.", ctx)
   const [text, setText] = useState('')
@@ -145,15 +145,10 @@ export function SolutionCard({ b }: { b: BankQ }) {
 function Session({ items, rush, back, start, resume = false }: { items: Item[]; rush: boolean; back: string; start?: number; resume?: boolean }) {
   const nav = useNavigate()
   const s = useStore()
-  // "All" questions of a skill: questions answered before show the earlier answer (with a Try again button),
-  // and the session opens at the first question not answered yet instead of question 1 every time
-  const [ans, setAns] = useState<Ans[]>(() =>
-    items.map((it) => {
-      const pr = resume && it.r.bank ? s.qbank[it.r.bank.id] : undefined
-      return pr ? { value: pr.chosen || null, checked: true, correct: pr.correct, seconds: pr.seconds || 0, struck: [], before: true } : { value: null, checked: false, correct: false, seconds: 0, struck: [] }
-    }),
-  )
-  const [i, setI] = useState(() => Math.min(start ?? Math.max(0, ans.findIndex((x) => !x.checked)), items.length - 1))
+  // every question opens fresh, even ones solved before; "All" questions of a skill still open at the first one not solved yet
+  const [ans, setAns] = useState<Ans[]>(() => items.map(() => ({ value: null, checked: false, correct: false, seconds: 0, struck: [] })))
+  const firstNew = resume ? items.findIndex((it) => !(it.r.bank && s.qbank[it.r.bank.id])) : 0
+  const [i, setI] = useState(() => Math.min(start ?? Math.max(0, firstNew), items.length - 1))
   const [panel, setPanel] = useState<Tab | null>(null)
   const [auto, setAuto] = useState<string | null>(null)
   const [paused, setPaused] = useState(false)

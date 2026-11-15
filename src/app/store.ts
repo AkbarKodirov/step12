@@ -452,7 +452,7 @@ export type Resolved = { q: TestQuestion; section: 'EBRW' | 'MATH'; source: stri
 export async function resolveRef(r: QRef): Promise<Resolved | null> {
   if (r.bankId) {
     const b = (await loadBank()).find((x) => x.id === r.bankId)
-    return b ? { q: b, section: b.section, source: b.setName, skill: b.skill, topic: b.topic, difficulty: b.difficulty, bank: b } : null
+    return b ? { q: b, section: b.section, source: 'Question bank', skill: b.skill, topic: b.topic, difficulty: b.difficulty, bank: b } : null
   }
   const t = await loadTest(r.testId).catch(() => null)
   const q = t?.modules[r.module]?.questions[r.index]
