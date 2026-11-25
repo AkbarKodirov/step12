@@ -9,6 +9,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { answerValue, DESMOS_GUIDE, prepareScreen } from './desmos.js'
 import { backupNames, groqGenerate, groqReady, groqStream, mistralGenerate, mistralReady, mistralStream, othersReady, restBackup } from './groq.js'
+import { scanMessages } from './scan.js'
 import { findQuestion, memoryNote, memorySize, practiceSummary } from './retrieve.js'
 import { kvAll, kvBackend, kvDel, kvGet, kvSet } from './kv.js'
 import { adminOverview, billingInfo, confirmCheckout, isAdmin, nextReset, planOf, refundUse, startCheckout, stripeWebhook, takeUse, usageOf } from './billing.js'
@@ -691,7 +692,7 @@ async function verifiedAnswer(contents) {
 /** A typed message with no photo and no numbers ("teach me list regression", "how do sliders work?") has nothing to solve. */
 function hasQuestionToSolve(contents) {
   const last = contents[contents.length - 1]
-  return !!last?.parts?.some((p) => p.inlineData || /\d/.test(p.text || ''))
+  return !!last?.parts?.some((p) => p.inlineData || /scanned to JSON/.test(p.text || '') || /\d/.test(p.text || ''))
 }
 
 function withVerified(system, v) {
@@ -707,7 +708,9 @@ const CHAT_THINKING = { thinkingLevel: process.env.GEMINI_CHAT_THINKING || 'low'
 app.post('/api/chat', auth, async (req, res) => {
   const { messages = [], context, space, stream, recent } = req.body || {}
   if (!gemini) return res.status(503).json({ error: NO_KEY })
-  let contents = chatContents(messages)
+  // JSON image scanner: photos are read once into compact JSON (cached by image hash) and sent as text, which is faster, cheaper and more exact
+  const scanned = await scanMessages(messages, (r, ms) => gemini.models.generateContent(r, ms)).catch((e) => (console.warn('Scanner skipped:', e?.message), null))
+  let contents = chatContents(scanned ? scanned.messages : messages)
   if (!contents.length) return res.status(400).json({ error: 'Send Humo a question first.' })
   // Free plan: FREE_LIMITS Ask Humo questions and Desmos Lab solves a day (checked here, not only in the app)
   const feature = space === 'desmos' ? 'desmos' : 'humo'
@@ -730,7 +733,7 @@ app.post('/api/chat', auth, async (req, res) => {
   const onScreen = String(context || '').match(/(?:Passage:|Question:)[\s\S]*?(?=Student's answer|The student has not answered|$)/)?.[0] || ''
   const practice = practiceSummary(recent)
   if (practice) system = `${system}\n\n${practice}`
-  const known = findQuestion(lastText) || (onScreen ? findQuestion(onScreen) : null)
+  const known = findQuestion(lastText) || (onScreen ? findQuestion(onScreen) : null) || (scanned?.texts || []).map((t) => findQuestion(t)).find(Boolean) || null
   if (known) {
     system = `${system}\n\n${memoryNote(known)}`
     console.log(`Humo memory: matched a ${known.source} question (${known.confidence}% of words)`)
